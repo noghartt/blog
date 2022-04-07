@@ -9,10 +9,17 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "gray-matter": "^4.0.3",
+    "katex": "^0.15.3",
     "next": "12.1.4",
     "normalize.css": "^8.0.1",
     "react": "18.0.0",
-    "react-dom": "18.0.0"
+    "react-dom": "18.0.0",
+    "react-markdown": "^8.0.2",
+    "rehype-katex": "^6.0.2",
+    "remark-gfm": "^3.0.1",
+    "remark-math": "^5.1.1",
+    "slugify": "^1.6.5"
   },
   "devDependencies": {
     "@types/node": "17.0.23",
