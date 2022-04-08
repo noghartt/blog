@@ -10,13 +10,13 @@ export const Container = ({ children, ...rest }: ContainerProps) => (
         display: flex;
         flex-direction: column;
         align-items: center;
-        max-width: 80%;
+        width: 80%;
         margin-top: 4%;
       }
 
       @media (min-width: ${theme.breakpoints.large}) {
         section {
-          max-width: 40%;
+          width: 35%;
         }
       }
     `}</style>

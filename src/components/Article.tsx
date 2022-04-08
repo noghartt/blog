@@ -10,27 +10,25 @@ export type ArticleProps = LinkProps & {
 
 export const Article = ({ title, date, ...linkProps }: ArticleProps) => (
   <section>
-    <p className="article-date">{date}</p>
+    <p>{date}</p>
     <Link {...linkProps}>
-      <a className="article-title">{title}</a>
+      <a>{title}</a>
     </Link>
     <style jsx>{`
         section {
           display: flex;
-          width: 100%;
           gap: 20px;
+          width: 100%;
         }
 
         p {
           margin: 0;
-        }
-
-        .article-date {
           font-style: italic;
-          font-size: ${theme.fontSize.base}
+          font-size: ${theme.fontSize.base};
+          white-space: nowrap;
         }
 
-        .article-title {
+        a {
           font-size: ${theme.fontSize.base};
           font-family: ${theme.fontFamily.monospace};
         }
