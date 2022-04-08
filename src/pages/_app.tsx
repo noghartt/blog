@@ -12,6 +12,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           display: flex;
           justify-content: center;
           height: 100%;
+          width: 100%;
         }
       `}</style>
     </>
