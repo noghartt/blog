@@ -37,7 +37,7 @@ const Home: NextPage<Props> = ({ posts }) => (
           />
         )) : (
           <p>
-            We don't have any post yet! Sorry. :(
+            We don&apos;t have any post yet! Sorry. :(
           </p>
         )}
     </section>

@@ -64,8 +64,8 @@ export const Markdown = ({ components, post }: Props) => (
   <main>
     <h1>{post.metadata.title}</h1>
     <section>
-      {post.metadata.tags.map(tag => (
-        <p>#{tag}</p>
+      {post.metadata.tags.map((tag, idx) => (
+        <p key={`tag-${idx}`}>#{tag}</p>
       ))}
     </section>
     <ReactMarkdown
