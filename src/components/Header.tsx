@@ -51,6 +51,12 @@ export const Header = () => (
         font-weight: 900;
         font-size: ${theme.fontSize.base};
       }
+
+      @media (max-width: ${theme.breakpoints.small}) {
+        header {
+          flex-direction: column;
+        }
+      }
     `}</style>
   </header>
 );

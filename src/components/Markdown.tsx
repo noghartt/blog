@@ -26,6 +26,11 @@ const defaultComponents: Components = {
         p {
           text-indent: 18px;
         }
+
+        @media (max-width: ${theme.breakpoints.medium}) {
+          text-align-justify: justify;
+          text-indent: 10px;
+        }
       `}</style>
     </>
   ),
@@ -76,21 +81,30 @@ export const Markdown = ({ components, post }: Props) => (
       }
 
       h1 {
-        font-size: ${theme.fontSize.large};
+        font-size: 1.5rem;
         margin-bottom: 5px;
         text-align: justify;
       }
 
       section {
         display: flex;
+        flex-wrap: wrap;
         gap: 5px;
+        margin-top: 10px;
       }
 
       section > p {
         font-size: ${theme.fontSize.small};
         font-style: italic;
         color: rgba(0, 0, 0, 0.5);
-        margin: 10px 0;
+        margin: 0;
+        flex-shrink: 0;
+      }
+
+      @media (min-width: ${theme.breakpoints.large}) {
+        h1 {
+          font-size: ${theme.fontSize.large};
+        }
       }
     `}</style>
   </main>

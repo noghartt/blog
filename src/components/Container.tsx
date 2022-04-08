@@ -1,3 +1,5 @@
+import { theme } from "../theme";
+
 export type ContainerProps = React.HTMLAttributes<HTMLDivElement>;
 
 export const Container = ({ children, ...rest }: ContainerProps) => (
@@ -8,10 +10,15 @@ export const Container = ({ children, ...rest }: ContainerProps) => (
         display: flex;
         flex-direction: column;
         align-items: center;
+        max-width: 80%;
         margin-top: 4%;
-        max-width: 40%;
-        margin: 4% auto 0;
+      }
+
+      @media (min-width: ${theme.breakpoints.large}) {
+        section {
+          max-width: 40%;
+        }
       }
     `}</style>
   </section>
-)
+);

@@ -21,7 +21,7 @@ export const Article = ({ title, date, ...linkProps }: ArticleProps) => (
           gap: 20px;
         }
 
-        section > p {
+        p {
           margin: 0;
         }
 
@@ -33,8 +33,22 @@ export const Article = ({ title, date, ...linkProps }: ArticleProps) => (
         .article-title {
           font-size: ${theme.fontSize.base};
           font-family: ${theme.fontFamily.monospace};
-          text-decoration: underline;
         }
-      `}</style>
+
+        @media (max-width: ${theme.breakpoints.medium}) {
+          section {
+            flex-direction: column-reverse;
+            gap: 5px;
+          }
+
+          p {
+            flex-shrink: 0;
+          }
+
+          a {
+            margin: 0;
+          }
+        }
+    `}</style>
   </section>
 );
