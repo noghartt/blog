@@ -6,7 +6,7 @@ import { theme } from '../theme';
 const links = {
   home: '/',
   about: '/about',
-  github:'https://github.com/noghartt',
+  github:'https://github.com/noghartt/blog',
   devto: 'https://dev.to/noghartt/',
 };
 
