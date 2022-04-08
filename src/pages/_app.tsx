@@ -9,6 +9,8 @@ function MyApp({ Component, pageProps }: AppProps) {
         html,
         body,
         #__next {
+          display: flex;
+          justify-content: center;
           height: 100%;
         }
       `}</style>
