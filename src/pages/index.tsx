@@ -26,15 +26,20 @@ const Home: NextPage<Props> = ({ posts }) => (
     </p>
     <h2>Posts</h2>
     <section>
-      {posts.map(({ metadata }) => (
-        <Article
-          key={metadata.id}
-          title={metadata.title}
-          date={metadata.date}
-          href={`/posts/${metadata.slug}`}
-          passHref
-        />
-      ))}
+      {posts.length > 0
+        ? posts.map(({ metadata }) => (
+          <Article
+            key={metadata.id}
+            title={metadata.title}
+            date={metadata.date}
+            href={`/posts/${metadata.slug}`}
+            passHref
+          />
+        )) : (
+          <p>
+            We don't have any post yet! Sorry. :(
+          </p>
+        )}
     </section>
     <style jsx>{`
       p {
