@@ -50,6 +50,12 @@ const defaultComponents: Components = {
       ) : (
         <code {...{ className, ...props }}>
           {children}
+          <style jsx>{`
+            code {
+              background-color: rgb(245, 242, 240);
+              color: red;
+            }
+          `}</style>
         </code>
       );
   },

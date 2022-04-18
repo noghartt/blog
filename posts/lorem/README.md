@@ -7,3 +7,9 @@ slug: lorem-ipsum-sit-dolor-amet
 ---
 
 # Teste
+
+teste, teste `test`
+
+``` javascript
+console.log('Hello, world!');
+```
