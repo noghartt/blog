@@ -1,13 +1,11 @@
 import type { NextPage, GetStaticProps, GetStaticPaths } from 'next';
-import { useRouter } from 'next/router';
 
 import { getAllPosts, getPostBySlug } from '../../../lib/posts';
 import type { Post } from '../../../lib/posts';
 
 import { Container } from '../../components/Container';
 import { Header } from '../../components/Header';
-
-import { theme } from '../../theme';
+import { Footer } from '../../components/Footer';
 import { Markdown } from '../../components/Markdown';
 
 type Props = {
@@ -22,6 +20,7 @@ const Post: NextPage<Props> = ({ post }) => (
   <Container>
     <Header />
     <Markdown post={post} />
+    <Footer />
   </Container>
 );
 
