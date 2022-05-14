@@ -2,18 +2,10 @@ import { Container } from '../components/Container';
 import { Header } from '../components/Header';
 
 const myContacts = {
-  github: {
-    title: 'GitHub',
-    link: 'https://github.com/noghartt',
-  },
-  twitter: {
-    title: 'Twitter',
-    link: 'https://twitter.com/noghartt',
-  },
-  email: {
-    title: 'Email',
-    link: 'mailto:me@noghartt.dev',
-  },
+  github: 'https://github.com/noghartt',
+  twitter: 'https://twitter.com/noghartt',
+  devto: 'https://dev.to/noghartt',
+  email: 'mailto:me@noghartt.dev',
 }
 
 const About = () => (
@@ -33,7 +25,7 @@ const About = () => (
       </p>
       <section>
         {Object.entries(myContacts).map(([key, value]) => (
-          <a key={key} href={value.link} target="_blank" rel="noreferrer">{key}</a>
+          <a key={key} href={value} target="_blank" rel="noreferrer">{key}</a>
         ))}
       </section>
       <style jsx>{`

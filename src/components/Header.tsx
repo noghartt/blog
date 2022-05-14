@@ -7,7 +7,6 @@ const links = {
   home: '/',
   about: '/about',
   github:'https://github.com/noghartt/blog',
-  devto: 'https://dev.to/noghartt/',
 };
 
 const Menu = () => (
