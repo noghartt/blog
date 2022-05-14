@@ -1,4 +1,4 @@
-import type { NextPage, GetStaticProps, GetStaticPaths } from 'next'
+import type { NextPage, GetStaticProps } from 'next'
 
 import { getAllPosts } from '../../lib/posts';
 import type { Posts } from '../../lib/posts';
@@ -29,7 +29,7 @@ const Home: NextPage<Props> = ({ posts }) => (
       {posts.length > 0
         ? posts.map(({ metadata }) => (
           <Article
-            key={metadata.id}
+            key={metadata.title}
             title={metadata.title}
             date={metadata.date}
             href={`/posts/${metadata.slug}`}
