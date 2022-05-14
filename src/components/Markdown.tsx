@@ -1,13 +1,13 @@
 import ReactMarkdown, { Components } from 'react-markdown';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
-import { prism } from 'react-syntax-highlighter/dist/cjs/styles/prism';
+import { materialDark } from 'react-syntax-highlighter/dist/cjs/styles/prism';
 import rehypeKatex from 'rehype-katex';
 import remarkGfm from 'remark-gfm';
 import remarkMath from 'remark-math';
+import 'katex/dist/katex.min.css';
 
 import type { Post } from '../../lib/posts';
 
-import 'katex/dist/katex.min.css';
 import { theme } from '../theme';
 
 // TODO: I don't like the way that we componentize the things here and how I reproduce the text headers
@@ -41,9 +41,9 @@ const defaultComponents: Components = {
     return !inline && match ?
       (
         <SyntaxHighlighter
-          style={prism}
+          style={materialDark}
           language={match[1]}
-
+          customStyle={{ borderRadius: 4 }}
         >
           {String(children).replace(/\n$/, '')}
         </SyntaxHighlighter>
@@ -52,8 +52,11 @@ const defaultComponents: Components = {
           {children}
           <style jsx>{`
             code {
-              background-color: rgb(245, 242, 240);
-              color: red;
+              background-color: rgb(47, 47, 47);
+              color: white;
+              padding: 2px 4px;
+              border-radius: 2px;
+              font-size: 0.8em;
             }
           `}</style>
         </code>
