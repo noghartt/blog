@@ -46,6 +46,7 @@ const listPostsOnFolder = async () => {
 const parseWithMatter = (rawString: string[]): Posts =>
   rawString
     .map(raw => matter(raw))
+    .filter(post => !post.data.draft)
     .map(({ content, data }) => ({ content, metadata: data })) as Posts;
 
 export const getAllPosts = async (): Promise<Posts> => {
