@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import type { NextPage, GetStaticProps, GetStaticPaths } from 'next';
 
 import { getAllPosts, getPostBySlug } from '../../../lib/posts';
@@ -18,6 +19,9 @@ type QueryParams = {
 
 const Post: NextPage<Props> = ({ post }) => (
   <Container>
+    <Head>
+      <title>{post.metadata.title} | Noghartt&apos;s garden</title>
+    </Head>
     <Header />
     <Markdown post={post} />
     <Footer />
