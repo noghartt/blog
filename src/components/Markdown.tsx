@@ -23,13 +23,17 @@ const defaultComponents: Components = {
         {children}
       </p>
       <style jsx>{`
-        p {
-          text-indent: 18px;
+        @media (min-width: ${theme.breakpoints.medium}) {
+          p {
+            text-indent: 18px;
+          }
         }
 
         @media (max-width: ${theme.breakpoints.medium}) {
-          text-align-justify: justify;
-          text-indent: 10px;
+          p {
+            text-align: justify;
+            font-size: ${theme.fontSize.base};
+          }
         }
       `}</style>
     </>
@@ -56,7 +60,7 @@ const defaultComponents: Components = {
               color: white;
               padding: 2px 4px;
               border-radius: 2px;
-              font-size: 0.8em;
+              font-size: ${theme.fontSize.small};
             }
           `}</style>
         </code>
