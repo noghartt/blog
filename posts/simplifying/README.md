@@ -6,9 +6,9 @@ tags: [programming, thinking]
 slug: simplifying-things
 ---
 
-Simplifying things is one of the most underrated ideas that people have when is
-doing anything. But understand why you need it and how you can do it, can improve
-a lot of things in your daily workflow.
+Simplifying things is one of the most underrated ideas that people have when doing anything. 
+But understand why you need it and how you can do it can improve a lot of things in your daily 
+workflow.
 
 An **abstraction** is a nice way to simplify things. But what is an abstraction?
 It's the process of removing implementation details of the final result. Abstracting
