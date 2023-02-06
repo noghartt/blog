@@ -11,8 +11,10 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/mdx": "^0.16.0",
     "@astrojs/rss": "^2.1.0",
-    "astro": "2.0.6"
+    "@astrojs/vercel": "^3.0.1",
+    "astro": "^2.0.6"
   },
   "devDependencies": {
     "@astrojs/sitemap": "^1.0.1"
