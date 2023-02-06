@@ -20,3 +20,4 @@ pnpm-debug.log*
 
 # ignore .astro
 .astro/
+.vercel
