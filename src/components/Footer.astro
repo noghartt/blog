@@ -1,0 +1,54 @@
+---
+import { GITHUB_REPO_URL } from '../config';
+import Link from './Link.astro';
+
+const navLinks = [
+  {
+    title: 'GitHub',
+    href: GITHUB_REPO_URL,
+  },
+  {
+    title: 'Twitter',
+    href: 'https://twitter.com/noghartt',
+  },
+  {
+    title: 'RSS',
+    href: 'rss.xml',
+  },
+];
+---
+
+<footer>
+  <p>
+    {new Date().getUTCFullYear()}
+  </p>
+  <nav>
+    <ul>
+      {navLinks.map(link => (
+        <li>
+          <p>
+            <Link href={link.href} isExternal>
+              {link.title}
+            </Link>
+          </p>
+        </li>
+      ))}
+    </ul>
+  </nav>
+</footer>
+
+<style>
+  footer {
+    border-top: 1px solid rgba(0,0,0,0.2);
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-top: var(--spacing-4x);
+    padding-top: var(--spacing);
+  }
+
+  footer nav ul {
+    display: flex;
+    gap: var(--spacing-2x);
+  }
+</style>

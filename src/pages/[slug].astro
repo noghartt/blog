@@ -1,0 +1,57 @@
+---
+import { getCollection, CollectionEntry } from 'astro:content';
+
+import Link from '../components/Link.astro';
+import Layout from '../layout/Layout.astro';
+
+interface Props {
+  post: CollectionEntry<'blog'>;
+}
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog');
+
+  return posts.map(post => ({
+    params: {
+      slug: post.slug,
+    },
+    props: {
+      post,
+    }
+  }));
+}
+
+const { post } = Astro.props;
+
+const { Content } = await post.render();
+---
+
+<Layout>
+  <Link href="/">
+    <p>
+      Go back
+    </p>
+  </Link>
+  <h1>
+    {post.data.title}
+  </h1>
+  <Content />
+</Layout>
+
+<style is:global>
+  main ul {
+    padding-right: var(--spacing-2px);
+  }
+
+  main li {
+    list-style-type: disc;
+    /* TODO: it should be spacing-4x, but for some reason, astro is understading it as a string */
+    margin-left: 32px;
+  }
+
+  main code {
+    background-color: black;
+    color: white;
+    padding: 2px 4px;
+  }
+</style>

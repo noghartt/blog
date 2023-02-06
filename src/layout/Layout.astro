@@ -1,0 +1,66 @@
+---
+import "../styles/global.css";
+import Footer from "../components/Footer.astro";
+import { SITE } from '../config';
+
+export interface Props {
+  head?: {
+    title?: string;
+    description?: string;
+  }
+}
+
+const {
+  head = {
+    title: SITE.title,
+    description: SITE.description,
+  }
+} = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+
+    <title>{head.title}</title>
+    <meta name="description" content={head.description} />
+    <meta name="author" content={SITE.author} />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Roboto+Mono:wght@300;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <main>
+      <slot />
+    </main>
+    <Footer />
+  </body>
+</html>
+
+<style>
+  body {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 80vw;
+    padding-top: var(--spacing-2x);
+    padding-bottom: var(--spacing-2x);
+  }
+
+  main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-4x);
+  }
+
+  @media screen and (min-width: 769px) {
+    body {
+      width: 40vw;
+    }
+  }
+</style>
