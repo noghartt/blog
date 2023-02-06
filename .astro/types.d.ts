@@ -67,13 +67,6 @@ declare module 'astro:content' {
 
 	const entryMap: {
 		"blog": {
-"lorem-ipsum.md": {
-  id: "lorem-ipsum.md",
-  slug: "lorem-ipsum",
-  body: string,
-  collection: "blog",
-  data: any
-},
 "simplifying.md": {
   id: "simplifying.md",
   slug: "simplifying",
