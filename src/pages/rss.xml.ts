@@ -10,11 +10,11 @@ export async function get() {
     title: SITE.title,
     description: SITE.description,
     site: SITE.website,
-    items: posts.map(({ data }) => ({
-      link: data.slug,
+    items: posts.map(({ data, slug }) => ({
+      link: slug,
       title: data.title,
       description: data.description,
-      pubDate: data.timestamp,
+      pubDate: data.pubDate,
     })),
   });
 }
