@@ -37,21 +37,29 @@ const { Content } = await post.render();
   <h1>
     {post.data.title}
   </h1>
-  <Content />
+  <article>
+    <Content />
+  </article>
 </Layout>
 
 <style is:global>
-  main ul {
+  article {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+  }
+
+  article ul {
     padding-right: var(--spacing-2px);
   }
 
-  main li {
+  article li {
     list-style-type: disc;
     /* TODO: it should be spacing-4x, but for some reason, astro is understading it as a string */
     margin-left: 32px;
   }
 
-  main code {
+  article code {
     background-color: black;
     color: white;
     padding: 2px 4px;
