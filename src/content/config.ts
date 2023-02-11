@@ -1,12 +1,12 @@
 import { defineCollection, z } from 'astro:content';
+import { rssSchema } from '@astrojs/rss';
 
 const blogCollection = defineCollection({
-  schema: z.object({
-    title: z.string(),
-    tags: z.optional(z.array(z.string())),
-    draft: z.optional(z.boolean()),
-    pubDate: z.date(),
-  }),
+  schema: z
+    .object({
+      tags: z.optional(z.array(z.string())),
+    })
+    .merge(rssSchema)
 });
 
 export const collection = {
