@@ -34,9 +34,18 @@ const { Content } = await post.render();
       Go back
     </p>
   </Link>
+  <section>
   <h1>
     {post.data.title}
   </h1>
+    <section class="tags">
+      {post.data.tags.map((tag: string) => (
+        <Link href={`/tag/${tag}`}>
+          <p>#{tag}</p>
+        </Link>
+      ))}
+    </section>
+  </section>
   <article>
     <Content />
   </article>
@@ -63,5 +72,10 @@ const { Content } = await post.render();
     background-color: black;
     color: white;
     padding: 2px 4px;
+  }
+
+  .tags {
+    display: flex;
+    column-gap: var(--spacing);
   }
 </style>

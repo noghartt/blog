@@ -1,0 +1,62 @@
+---
+import { getCollection } from 'astro:content';
+import type { CollectionEntry } from 'astro:content';
+import type { GetStaticPathsResult } from 'astro';
+
+import Layout from '../../layout/Layout.astro';
+import Link from '../../components/Link.astro';
+import Posts from '../../components/Posts.astro';
+
+interface Props {
+  posts: CollectionEntry<'blog'>[];
+}
+
+export const prerender = true;
+export async function getStaticPaths(): Promise<GetStaticPathsResult> {
+  const posts = await getCollection('blog');
+
+  const existentTags = posts.reduce(
+    (tags, post) => new Set([...tags, ...post.data.tags || []]),
+    new Set<string>()
+  );
+
+  const postsPerTag: Record<string, CollectionEntry<'blog'>[]> = {};
+
+  existentTags.forEach(tag => {
+    const filteredPosts = posts.filter(post => post.data.tags.includes(tag));
+    postsPerTag[tag] = filteredPosts;
+  });
+
+  return Object.entries(postsPerTag).map(([tag, posts]) => ({
+    params: {
+      tag,
+    },
+    props: {
+      posts,
+    }
+  }));
+}
+
+const { tag } = Astro.params;
+const { posts } = Astro.props;
+---
+
+<Layout>
+  <Link href="/">
+    <p>
+      Go back
+    </p>
+  </Link>
+  <section class="tag-container">
+    <h2>{tag}</h2>
+    <Posts posts={posts} />
+  </section>
+</Layout>
+
+<style>
+  .tag-container {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-2x);
+  }
+</style>
