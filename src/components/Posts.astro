@@ -22,7 +22,7 @@ const { posts } = Astro.props;
           <p>
             {post.data.pubDate.toISOString().split('T')[0]}
           </p>
-          <Link href={post.slug}>
+          <Link href={`/${post.slug}`}>
             <p class="post-title">
               {post.data.title}
             </p>
