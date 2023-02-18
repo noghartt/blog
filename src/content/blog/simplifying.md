@@ -1,6 +1,8 @@
 ---
 title: Simplifying things
 pubDate: 2022-06-22
+tags:
+  - self-improvement
 ---
 
 Simplifying things is one of the most underrated ideas that people have when doing anything.

@@ -3,7 +3,7 @@ title: Writing things down
 pubDate: 2023-02-18
 tags:
   - writing
-  - self-improvent
+  - self-improvement
 ---
 
 How much stuffs did you write down today?
