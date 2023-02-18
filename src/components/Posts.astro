@@ -1,0 +1,51 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+import Link from './Link.astro';
+
+interface Props {
+  posts: CollectionEntry<'blog'>[];
+}
+
+const { posts } = Astro.props;
+---
+<section class="posts">
+  <slot />
+  <ul>
+    {posts
+      .sort(
+        (a, b) =>
+          Math.floor(b.data.pubDate / 1000) -
+          Math.floor(a.data.pubDate / 1000)
+      ).map(post => (
+        <li>
+          <p>
+            {post.data.pubDate.toISOString().split('T')[0]}
+          </p>
+          <Link href={post.slug}>
+            <p class="post-title">
+              {post.data.title}
+            </p>
+          </Link>
+        </li>
+      ))}
+  </ul>
+</section>
+
+<style>
+  .posts ul {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing);
+  }
+
+  .posts ul li {
+    display: flex;
+    justify-content: space-between;
+    column-gap: var(--spacing-8x);
+  }
+
+  .posts :global(a) {
+    flex: 1;
+  }
+</style>
