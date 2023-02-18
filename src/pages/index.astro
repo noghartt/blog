@@ -20,8 +20,8 @@ const posts = await getCollection('blog', ({ data }) => !data.draft);
       {posts
         .sort(
           (a, b) =>
-            Math.floor(b.data.timestamp / 1000) -
-            Math.floor(a.data.timestamp / 1000)
+            Math.floor(b.data.pubDate / 1000) -
+            Math.floor(a.data.pubDate / 1000)
         ).map(post => (
           <li>
             <p>
