@@ -1,0 +1,41 @@
+---
+import { getCollection } from 'astro:content';
+
+import Layout from "../layout/Layout.astro";
+import Link from '../components/Link.astro';
+
+const posts = await getCollection('blog', ({ data }) => !data.draft);
+
+const tags = posts.reduce<{ [tag: string]: number }>((acc, post) => {
+  post.data.tags.forEach((tag: string) => {
+    if (acc[tag]) {
+      acc[tag]++;
+    } else {
+      acc[tag] = 1;
+    }
+  });
+  return acc;
+}, {});
+---
+
+<Layout>
+  <h1>tags.</h1>
+  <section>
+    <ul>
+      {Object.entries(tags).map(([tag, count]) => (
+        <li>
+          <Link href={`/tag/${tag}`}>{tag}</Link>
+          ({count})
+        </li>
+      ))}
+    </ul>
+  </section>
+</Layout>
+
+<style>
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+</style>
