@@ -13,6 +13,7 @@ I'm a person that likes to read a lot of things, and I have a lot of blogs that 
 - [Personal blogs](#personal-blogs)
 - [Company blogs](#company-blogs)
 - [Self-improvement](#self-improvement)
+- [Computer science](#computer-science)
 - [Newsletters](#newsletters)
 - [RSS Feeds](#rss-feeds)
 
