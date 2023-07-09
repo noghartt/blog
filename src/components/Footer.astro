@@ -35,7 +35,7 @@ const navLinks = [
       {navLinks.map(link => (
         <li>
           <p>
-            <Link href={link.href} isExternal>
+            <Link href={link.href} isExternal={link.isExternal}>
               {link.title}
             </Link>
           </p>

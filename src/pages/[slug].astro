@@ -3,6 +3,7 @@ import { getCollection, CollectionEntry } from 'astro:content';
 
 import Link from '../components/Link.astro';
 import Layout from '../layout/Layout.astro';
+import GoBackButton from '../components/GoBackButton.astro';
 
 interface Props {
   post: CollectionEntry<'blog'>;
@@ -29,11 +30,7 @@ const { Content } = await post.render();
 ---
 
 <Layout>
-  <Link href="javascript:history.back()">
-    <p>
-      Go back
-    </p>
-  </Link>
+  <GoBackButton />
   <section>
   <h1>
     {post.data.title}
