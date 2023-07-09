@@ -18,9 +18,7 @@ I'm a person that likes to read a lot of things, and I have a lot of blogs that 
 
 ## Personal blogs
 
-- [Julia Evans](https://jvns.ca/)
 - [Joel Hooks](https://joelhooks.com/)
-- [Dan Abramov](https://overreacted.io/)
 - [Gwern Branwen](https://www.gwern.net/)
 - [Drew DeVault](https://drewdevault.com/)
 - [Eli Bendersky](https://eli.thegreenplace.net/)
@@ -59,6 +57,12 @@ I'm a person that likes to read a lot of things, and I have a lot of blogs that 
 - [Ness Labs](https://nesslabs.com/blog)
 - [Nat Eliason](https://www.nateliason.com/blog)
 - [Scott Young](https://www.scotthyoung.com/blog/)
+
+## Computer science
+
+- [Julia Evans](https://jvns.ca/)
+- [TK Kinoshita](https://www.iamtk.co/)
+- [Dan Abramov](https://overreacted.io/)
 
 ## Newsletters
 
