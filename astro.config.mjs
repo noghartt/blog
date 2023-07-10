@@ -9,5 +9,13 @@ export default defineConfig({
   site: 'https://noghartt.dev',
   integrations: [mdx(), sitemap()],
   output: "static",
-  adapter: vercel()
+  adapter: vercel(),
+  markdown: {
+    remarkPlugins: [
+      'remark-math',
+    ],
+    rehypePlugins: [
+      'rehype-katex',
+    ],
+  }
 });
