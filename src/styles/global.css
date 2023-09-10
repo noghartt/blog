@@ -48,7 +48,7 @@ h2 {
 }
 
 p, li {
-  font-size: var(--font-size-sm);
+  font-size: var(--font-size-md);
   line-height: 1.25;
   text-align: justify;
   text-justify: inter-word;
