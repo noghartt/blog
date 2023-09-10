@@ -1,6 +1,8 @@
 import { defineConfig } from 'astro/config';
 import mdx from '@astrojs/mdx';
 import sitemap from '@astrojs/sitemap';
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
 
 import vercel from "@astrojs/vercel/static";
 
@@ -12,10 +14,10 @@ export default defineConfig({
   adapter: vercel(),
   markdown: {
     remarkPlugins: [
-      'remark-math',
+      remarkMath
     ],
     rehypePlugins: [
-      'rehype-katex',
+      rehypeKatex
     ],
   }
 });
