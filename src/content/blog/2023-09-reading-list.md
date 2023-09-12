@@ -1,7 +1,7 @@
 ---
 title: "My reading list - September 2023"
 createdAt: "2023-09-12T21:58:56.609Z"
-pubDate: "2023-09-12"
+pubDate: 2023-09-12
 tags:
   - list
   - reading
