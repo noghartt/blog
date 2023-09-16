@@ -13,3 +13,9 @@ I'll be update this note while reading something that I think that can be useful
 ## Computer Science
 
 - [Code without fear. Sometimes](https://reasoning.page/2023/09/12/code-without-fear-sometimes/)
+- [Simplify: move code into database functions](https://sive.rs/pg)
+- [In a git repository, where do your files live?](https://jvns.ca/blog/2023/09/14/in-a-git-repository--where-do-your-files-live-/)
+
+## Productivity
+
+- [The Cult of Done](https://www.youtube.com/watch?v=bJQj1uKtnus)
