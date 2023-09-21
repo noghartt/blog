@@ -15,7 +15,23 @@ I'll be update this note while reading something that I think that can be useful
 - [Code without fear. Sometimes](https://reasoning.page/2023/09/12/code-without-fear-sometimes/)
 - [Simplify: move code into database functions](https://sive.rs/pg)
 - [In a git repository, where do your files live?](https://jvns.ca/blog/2023/09/14/in-a-git-repository--where-do-your-files-live-/)
+- [Side effecting a deopt](https://www.recompiled.dev/blog/deopt/)
+- [Your WiFi Can See You](https://mrereports.substack.com/p/your-wifi-can-see-you)
+- [64-Bit Bank Balances ‘Ought to be Enough for Anybody’?](https://tigerbeetle.com/blog/2023-09-19-64-bit-bank-balances-ought-to-be-enough-for-anybody/)
+
 
 ## Productivity
 
 - [The Cult of Done](https://www.youtube.com/watch?v=bJQj1uKtnus)
+
+## History
+
+- [Historical maps probably helped cause World War I](https://resobscura.substack.com/p/historical-maps-probably-helped-cause)
+
+## Economy
+
+- [Airlines Are Just Banks Now](https://www.theatlantic.com/ideas/archive/2023/09/airlines-banks-mileage-programs/675374/)
+
+## Biology
+
+- [What Makes Life Tick? Mitochondria May Keep Time for Cells](https://www.quantamagazine.org/what-makes-life-tick-mitochondria-may-keep-time-for-cells-20230918/)
