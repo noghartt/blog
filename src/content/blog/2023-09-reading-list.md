@@ -18,6 +18,8 @@ I'll be update this note while reading something that I think that can be useful
 - [Side effecting a deopt](https://www.recompiled.dev/blog/deopt/)
 - [Your WiFi Can See You](https://mrereports.substack.com/p/your-wifi-can-see-you)
 - [64-Bit Bank Balances ‘Ought to be Enough for Anybody’?](https://tigerbeetle.com/blog/2023-09-19-64-bit-bank-balances-ought-to-be-enough-for-anybody/)
+- [Most UI Applications are Broken Real-time Applications](https://thelig.ht/ui-apps-are-broken/)
+- [How do databases execute expressions?](https://notes.eatonphil.com/2023-09-21-how-do-databases-execute-expressions.html)
 
 
 ## Productivity
