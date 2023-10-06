@@ -6,6 +6,7 @@ import Footer from "../components/Footer.astro";
 import { SITE } from '../config';
 
 export interface Props {
+  ogImage?: string;
   head?: {
     title?: string;
     description?: string;
@@ -13,11 +14,20 @@ export interface Props {
 }
 
 const {
+  ogImage = 'og.png',
   head = {
     title: SITE.title,
     description: SITE.description,
   }
 } = Astro.props;
+
+const ogURL = new URL(
+  ogImage,
+  Astro.url.origin,
+).href;
+
+const canonicalURL = new URL(Astro.url.pathname, Astro.site).href;
+
 ---
 
 <!DOCTYPE html>
@@ -25,11 +35,24 @@ const {
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
+    <link rel="canonical" href={canonicalURL} />
     <meta name="generator" content={Astro.generator} />
 
     <title>{head.title}</title>
     <meta name="description" content={head.description} />
     <meta name="author" content={SITE.author} />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+
+    <meta property="og:title" content={head.title} />
+    <meta property="og:description" content={head.description} />
+    <meta property="og:url" content={canonicalURL} />
+    <meta property="og:image" content={ogURL} />
+
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content={canonicalURL} />
+    <meta property="twitter:title" content={head.title} />
+    <meta property="twitter:description" content={head.description} />
+    <meta property="twitter:image" content={ogURL} />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

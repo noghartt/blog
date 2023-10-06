@@ -13,18 +13,25 @@
   },
   "dependencies": {
     "@astrojs/mdx": "^1.0.3",
+    "@astrojs/react": "^3.0.3",
     "@astrojs/rss": "^3.0.0",
     "@astrojs/vercel": "^4.0.5",
+    "@resvg/resvg-js": "^2.4.1",
     "astro": "^3.0.12",
+    "dayjs": "^1.11.10",
     "markdown-it": "^13.0.1",
     "rehype-katex": "^6.0.3",
     "remark-math": "^5.1.1",
-    "sanitize-html": "^2.9.0"
+    "sanitize-html": "^2.9.0",
+    "satori": "^0.10.8"
   },
   "devDependencies": {
     "@astrojs/sitemap": "^1.0.1",
     "@types/markdown-it": "^12.2.3",
+    "@types/react": "^18.2.25",
     "@types/sanitize-html": "^2.8.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
     "tsx": "^3.12.10"
   }
 }

@@ -1,9 +1,10 @@
 ---
 import { getCollection, CollectionEntry } from 'astro:content';
 
-import Link from '../components/Link.astro';
-import Layout from '../layout/Layout.astro';
-import GoBackButton from '../components/GoBackButton.astro';
+import Link from '../../components/Link.astro';
+import Layout from '../../layout/Layout.astro';
+import GoBackButton from '../../components/GoBackButton.astro';
+import { SITE } from '../../config';
 
 interface Props {
   post: CollectionEntry<'blog'>;
@@ -25,11 +26,16 @@ export async function getStaticPaths() {
 }
 
 const { post } = Astro.props;
-
 const { Content } = await post.render();
+
+console.log(`/${post.slug}.png`);
+
 ---
 
-<Layout>
+<Layout
+  ogImage={`/${post.slug}.png`}
+  head={{ title: `${post.data.title} | ${SITE.title}` }}
+>
   <GoBackButton />
   <section>
   <h1>
