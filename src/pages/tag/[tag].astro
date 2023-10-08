@@ -24,7 +24,10 @@ export async function getStaticPaths(): Promise<GetStaticPathsResult> {
   const postsPerTag: Record<string, CollectionEntry<'blog'>[]> = {};
 
   existentTags.forEach(tag => {
-    const filteredPosts = posts.filter(post => post.data.tags.includes(tag));
+    const filteredPosts = posts.filter(
+      post => post.data.tags.includes(tag) && !post.data.draft
+    );
+
     postsPerTag[tag] = filteredPosts;
   });
 
