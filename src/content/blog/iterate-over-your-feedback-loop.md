@@ -20,6 +20,12 @@ One of the core aspects of a system is _feedback loop_. Everything can cause a
 feedback loop, and every action can produce a feedback on the system or another
 system.
 
+A feedback loop is the source of a side-effect that impacts in some change around
+an aspect of your system. The output of the system can generate a positive or a negative
+response, this is the feedback of your action. Giving that response, you can use it against
+your system as the new input, then you validate the new hypothesis and iterate over them.
+This is what we call the feedback loop.
+
 Thinking that everything that you do is a part of a system, it will help you to
 identify a set of feedback loops around your actions. But, why is important to
 have this conscioussness around what you're doing?
