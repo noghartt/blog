@@ -6,7 +6,6 @@ tags:
   - self-improvement
   - thinking
   - system-theory
-draft: true
 ---
 
 In the last month, I was reading the [Thinking in Systems](https://www.amazon.com/Thinking-Systems-Donella-H-Meadows/dp/1603580557) book.
