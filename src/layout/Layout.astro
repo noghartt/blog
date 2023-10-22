@@ -33,6 +33,12 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site).href;
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="preload" as="font" href="/fonts/RobotoMono-Light.ttf" type="font/ttf" crossorigin="anonymous">
+    <link rel="preload" as="font" href="/fonts/RobotoMono-Regular.ttf" type="font/ttf" crossorigin="anonymous">
+    <link rel="preload" as="font" href="/fonts/Merriweather/Merriweather-Regular.ttf" type="font/ttf" crossorigin="anonymous">
+    <link rel="preload" as="font" href="/fonts/Merriweather/Merriweather-Bold.ttf" type="font/ttf" crossorigin="anonymous">
+    <link rel="preload" as="font" href="/fonts/Merriweather/Merriweather-Black.ttf" type="font/ttf" crossorigin="anonymous">
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <link rel="canonical" href={canonicalURL} />
@@ -53,12 +59,6 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site).href;
     <meta property="twitter:title" content={head.title} />
     <meta property="twitter:description" content={head.description} />
     <meta property="twitter:image" content={ogURL} />
-
-    <link rel="preload" as="font" href="/fonts/RobotoMono-Light.ttf" type="font/ttf" crossorigin="anonymous">
-    <link rel="preload" as="font" href="/fonts/RobotoMono-Regular.ttf" type="font/ttf" crossorigin="anonymous">
-    <link rel="preload" as="font" href="/fonts/Merriweather/Merriweather-Regular.ttf" type="font/ttf" crossorigin="anonymous">
-    <link rel="preload" as="font" href="/fonts/Merriweather/Merriweather-Bold.ttf" type="font/ttf" crossorigin="anonymous">
-    <link rel="preload" as="font" href="/fonts/Merriweather/Merriweather-Black.ttf" type="font/ttf" crossorigin="anonymous">
 
     <!-- TODO: Turn KaTeX loading lazyness -->
     <!-- Setup KaTeX -->
