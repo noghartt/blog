@@ -50,9 +50,21 @@ const navLinks = [
     border-top: 1px solid rgba(0,0,0,0.2);
     display: flex;
     align-items: flex-end;
+    flex-wrap: wrap-reverse;
     justify-content: space-between;
     margin-top: var(--spacing-4x);
     padding-top: var(--spacing);
+  }
+
+  @media screen and (max-width: 425px) {
+    footer {
+      gap: var(--spacing);
+    }
+
+    footer * {
+      flex: 1;
+      text-align: center;
+    }
   }
 
   footer nav ul {

@@ -54,11 +54,22 @@ const posts = await getCollection('blog', ({ data }) => !data.draft);
   .posts ul li {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     column-gap: var(--spacing-8x);
   }
 
   .posts :global(a) {
     flex: 1;
+  }
+
+  @media screen and (max-width: 425px) {
+    .posts ul {
+      gap: var(--spacing-2x);
+    }
+
+    .posts ul li {
+      flex-direction: column;
+    }
   }
 </style>
 
