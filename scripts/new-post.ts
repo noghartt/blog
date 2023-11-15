@@ -25,8 +25,7 @@ const run = async () => {
   const createdAt = new Date();
 
   frontmatter = frontmatter.replace('{{title}}', `"${title}"`);
-  frontmatter = frontmatter.replace('{{createdAt}}', `"${createdAt.toISOString()}"`);
-  frontmatter = frontmatter.replace('{{pubDate}}', `${createdAt.toISOString().split('T')[0]}`);
+  frontmatter = frontmatter.replace('{{pubDate}}', `${createdAt.toISOString()}`);
 
   if (Array.isArray(tags) && tags.length > 0) {
     const tagsFormatted = tags
