@@ -6,6 +6,11 @@ import Link from "../components/Link.astro";
 import { GITHUB_REPO_URL } from '../config';
 
 const posts = await getCollection('blog', ({ data }) => !data.draft);
+
+const postsSorted = posts.sort((a, b) =>
+  Math.floor(b.data.createdAt / 1000) -
+  Math.floor(a.data.createdAt / 1000)
+);
 ---
 
 <Layout>
@@ -17,23 +22,18 @@ const posts = await getCollection('blog', ({ data }) => !data.draft);
   <section class="posts">
     <h2>posts.</h2>
     <ul>
-      {posts
-        .sort(
-          (a, b) =>
-            Math.floor(b.data.pubDate / 1000) -
-            Math.floor(a.data.pubDate / 1000)
-        ).map(post => (
-          <li>
-            <p>
-              {post.data.pubDate.toISOString().split('T')[0]}
+      {postsSorted.map(post => (
+        <li>
+          <p>
+            {post.data.createdAt.toISOString().split('T')[0]}
+          </p>
+          <Link href={post.slug}>
+            <p class="post-title">
+              {post.data.title}
             </p>
-            <Link href={post.slug}>
-              <p class="post-title">
-                {post.data.title}
-              </p>
-            </Link>
-          </li>
-        ))}
+          </Link>
+        </li>
+      ))}
     </ul>
   </section>
 </Layout>

@@ -1,7 +1,6 @@
 ---
 title: "My reading list - November 2023"
-createdAt: "2023-11-02T14:16:34.806Z"
-pubDate: 2023-11-02
+createdAt: 2023-11-02T14:16:34.806Z
 tags:
   - list
   - reading

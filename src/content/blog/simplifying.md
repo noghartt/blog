@@ -1,6 +1,6 @@
 ---
 title: Simplifying things
-pubDate: 2022-06-22
+createdAt: 2022-06-22T03:00:00.000Z
 tags:
   - self-improvement
 ---

@@ -1,7 +1,6 @@
 ---
 title: "My first talk"
-createdAt: "2023-09-18T00:14:03.062Z"
-pubDate: 2023-09-18
+createdAt: 2023-09-18T00:14:03.062Z
 tags:
   - presentation
   - programming
