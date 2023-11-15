@@ -1,6 +1,6 @@
 ---
 title: Writing things down
-createdAt: 2023-02-18T03:00:00.000Z
+pubDate: 2023-02-18T03:00:00.000Z
 tags:
   - writing
   - self-improvement

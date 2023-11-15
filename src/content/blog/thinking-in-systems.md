@@ -1,6 +1,6 @@
 ---
 title: "Thinking in Systems"
-createdAt: 2023-10-10T01:09:53.902Z
+pubDate: 2023-10-10T01:09:53.902Z
 tags:
   - bookshelf
   - system-theory
