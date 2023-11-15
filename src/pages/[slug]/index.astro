@@ -57,17 +57,19 @@ const { Content } = await post.render();
   article {
     display: flex;
     flex-direction: column;
-    row-gap: 16px;
+    row-gap: var(--spacing-2);
   }
 
   article ul {
-    padding-right: var(--spacing-2px);
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing);
+    padding-right: var(--spacing-2x);
   }
 
   article li {
     list-style-type: disc;
-    /* TODO: it should be spacing-4x, but for some reason, astro is understading it as a string */
-    margin-left: 32px;
+    margin-left: var(--spacing-2x);
   }
 
   article code {
