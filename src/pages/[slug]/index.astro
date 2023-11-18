@@ -57,7 +57,7 @@ const { Content } = await post.render();
   article {
     display: flex;
     flex-direction: column;
-    row-gap: var(--spacing-2);
+    row-gap: var(--spacing-2x);
   }
 
   article ul {
@@ -73,13 +73,18 @@ const { Content } = await post.render();
   }
 
   article code {
-    background-color: black;
+    background-color: #24292e;
     color: white;
-    padding: 2px 4px;
+    padding: var(--spacing);
   }
 
   .tags {
     display: flex;
     column-gap: var(--spacing);
+  }
+
+  article .astro-code {
+    padding: var(--spacing);
+    font-size: var(--font-size-md);
   }
 </style>
