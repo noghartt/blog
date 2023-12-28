@@ -23,3 +23,4 @@ tags:
 - [Werner Vogels](https://www.allthingsdistributed.com/articles.html)
 - [Josh Comeau](https://www.joshwcomeau.com/)
 - [Overreacted by Dan Abramov](https://overreacted.io/)
+- [Alexey Guzey](https://guzey.com/)
