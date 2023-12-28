@@ -1,5 +1,5 @@
 ---
-title: Lists of books that I read (or I will read)
+title: Lists of books that I read
 tags:
   - list
 ---
