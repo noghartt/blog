@@ -1,0 +1,84 @@
+---
+import { getCollection } from 'astro:content';
+import type { CollectionEntry } from 'astro:content';
+
+import Layout from '../../../layout/Layout.astro';
+import GoBackButton from '../../../components/GoBackButton.astro';
+import { SITE } from '../../../config';
+
+interface Props {
+  post: CollectionEntry<'lists'>;
+}
+
+export const prerender = true;
+
+export async function getStaticPaths() {
+  const posts = await getCollection('lists');
+
+  return posts.map(post => ({
+    params: {
+      slug: post.slug,
+    },
+    props: {
+      post,
+    }
+  }));
+}
+
+const { post } = Astro.props;
+const { Content } = await post.render();
+
+---
+
+<Layout
+  ogImage={`/lists/${post.slug}.png`}
+  head={{ title: `${post.data.title} | ${SITE.title}` }}
+>
+  <GoBackButton />
+  <section>
+    <h1>{post.data.title}</h1>
+    <article>
+      <Content />
+    </article>
+  </section>
+</Layout>
+
+<style is:global>
+  article {
+    display: flex;
+    flex-direction: column;
+    row-gap: var(--spacing-2x);
+  }
+
+  article ul {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing);
+    padding-right: var(--spacing-2x);
+  }
+
+  article li {
+    list-style-type: disc;
+    margin-left: var(--spacing-2x);
+  }
+
+  article code {
+    background-color: #24292e;
+    color: white;
+    padding: var(--spacing);
+  }
+
+  article img {
+    width: 100%;
+  }
+
+  .tags {
+    display: flex;
+    column-gap: var(--spacing);
+  }
+
+  article .astro-code {
+    padding: var(--spacing);
+    font-size: var(--font-size-md);
+  }
+</style>

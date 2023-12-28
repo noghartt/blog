@@ -9,6 +9,15 @@ const blogCollection = defineCollection({
     .merge(rssSchema)
 });
 
+const listsCollection = defineCollection({
+  schema: z
+    .object({
+      tags: z.optional(z.array(z.string())),
+    })
+    .merge(rssSchema)
+});
+
 export const collection = {
   blog: blogCollection,
+  lists: listsCollection,
 }
