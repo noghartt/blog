@@ -39,3 +39,5 @@ These are some statistics related to my work on my vault in this year, I believe
 The major learning related to my adventure with Obsidian was: that note-taking isn't about the tools that you use but about your process. A great process allows you to arrange your notes in a creative, better way that fits your expectations. Regardless of being Notion, Obsidian or just using your pen and a notebook. What matters is your process.
 
 By the way, this is the graph of my Obsidian on the day that I wrote this post, let's see how it will be in the next year:
+
+![Obsidian Graph 2023](/assets/obsidian-graph-2023.png)
