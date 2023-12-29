@@ -10,3 +10,5 @@ tags:
 - [The Myth of the Myth of Learning Styles](https://nedbatchelder.com/blog/202309/the_myth_of_the_myth_of_learning_styles.html)
 - [There's Math.random(), and then there's Math.random()](https://v8.dev/blog/math-random)
 - [What I Wish Someone Had Told Me](https://blog.samaltman.com/what-i-wish-someone-had-told-me)
+- [What Every Programmer Should Know About Memory](https://people.freebsd.org/~lstewart/articles/cpumemory.pdf)
+- [What Every Computer Scientist Should Know About Floating-Point Arithmetic](https://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html)
