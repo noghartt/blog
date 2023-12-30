@@ -73,6 +73,6 @@ In terms of other aspects of my life, I want to take more travels with my girlfr
 
 The word for my 2024 will be: consistency. In every aspect of my life.
 
-I would like to say a big thank you to all the people who played an important role in my 2023, I hope your year was as special as mine. And a special thank you to these people: to my girlfriend who supports me despite my annoyance, to my friends who made my 2023 much better, and a special thank you to Sibelius and Ivan who were essential mentors and friends for my professional and personal growth in this year, thanks for all the advices.
+I would like to say a big thank you to all the people who played an important role in my 2023, I hope your year was as special as mine. And a special thank you to these people: to my girlfriend who supports me despite my annoyance, I love you too much, to my friends who made my 2023 much better, and a special thank you to Sibelius and Ivan who were essential mentors and friends for my professional and personal growth in this year, thanks for all the advices.
 
 Happy new year, reader! I hope that 2024 will be so great for you too!
