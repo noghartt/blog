@@ -1,5 +1,5 @@
 ---
-title: Lists of Books That I Read
+title: List of Books That I Read
 tags:
   - list
 ---
