@@ -24,3 +24,5 @@ tags:
 - [Josh Comeau](https://www.joshwcomeau.com/)
 - [Overreacted by Dan Abramov](https://overreacted.io/)
 - [Alexey Guzey](https://guzey.com/)
+- [Dan Luu](https://danluu.com/)
+- [Steph Ango](https://stephango.com/)
