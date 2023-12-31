@@ -14,3 +14,4 @@ tags:
 - [What Every Computer Scientist Should Know About Floating-Point Arithmetic](https://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html)
 - [Know your "One Job" and Do It First](https://charity.wtf/2021/03/07/know-your-one-job-and-do-it-first/)
 - [Becoming a go-to person gets you promoted. Here's how to do it as a software engineer.](https://careercutler.substack.com/p/becoming-a-go-to-person-gets-you)
+- [An accessible introduction to type theory and implementing a type-checker](https://mukulrathi.com/create-your-own-programming-language/intro-to-type-checking/)
