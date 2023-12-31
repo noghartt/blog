@@ -1,7 +1,6 @@
 ---
 title: "2023 in Review"
 pubDate: 2023-12-30T19:52:17.651Z
-draft: true
 tags:
   - review
 ---
