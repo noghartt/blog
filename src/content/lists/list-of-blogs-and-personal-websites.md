@@ -26,3 +26,4 @@ tags:
 - [Alexey Guzey](https://guzey.com/)
 - [Dan Luu](https://danluu.com/)
 - [Steph Ango](https://stephango.com/)
+- [Julia Evans](https://jvns.ca/)
