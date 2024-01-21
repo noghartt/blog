@@ -27,6 +27,7 @@ const ogURL = new URL(
 ).href;
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site).href;
+const rssFeedURL = new URL('rss.xml', Astro.site).href;
 
 ---
 
@@ -48,6 +49,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site).href;
     <meta name="description" content={head.description} />
     <meta name="author" content={SITE.author} />
     <link rel="sitemap" href="/sitemap-index.xml" />
+    <link rel="alternate" type="application/rss+xml" title={SITE.title} href={rssFeedURL} />
 
     <meta property="og:title" content={head.title} />
     <meta property="og:description" content={head.description} />
