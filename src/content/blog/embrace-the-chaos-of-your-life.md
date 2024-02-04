@@ -1,0 +1,24 @@
+---
+title: "Embrace The Chaos of Your Life"
+pubDate: 2024-02-04T15:23:35.299Z
+tags:
+  - self-improvement
+  - thinking
+---
+
+The last weeks were too hard for me. I need to spend too much time doing things
+in my personal life and ensure that I can bring good work to my professional life.
+
+For me, when this happens, there are always difficult moments. These moments are
+always complicated because they impacted me in different areas of my life, which
+ generated a vicious cycle of bad moments and anxiety.
+
+But, the last time that this happened, in the same scenario, I learned a new aspect
+of life that hadn't clicked for me yet, but it's a too simple idea that someone can ask:
+"Dude, it's too obvious. Why in the hell you didn't understand it before?". And my
+answer would be: I don't know.
+
+You need to learn to embrace the chaos happening in your life and use it as a motion to
+stay on track with the things you need to do. As everyone one day said, life is like a
+rollercoaster with ups and downs, and you can't avoid the down moments of your life.
+What matters is how you approach them.
