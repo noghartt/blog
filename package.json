@@ -21,9 +21,11 @@
     "dayjs": "^1.11.10",
     "markdown-it": "^13.0.1",
     "rehype-katex": "^6.0.3",
+    "rehype-pretty-code": "^0.13.0",
     "remark-math": "^5.1.1",
     "sanitize-html": "^2.9.0",
-    "satori": "^0.10.8"
+    "satori": "^0.10.8",
+    "shiki": "^1.1.1"
   },
   "devDependencies": {
     "@astrojs/sitemap": "^1.0.1",

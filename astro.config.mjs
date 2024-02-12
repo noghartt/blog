@@ -5,6 +5,7 @@ import react from '@astrojs/react';
 import vercel from "@astrojs/vercel/static";
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
+import rehypePrettyCode from 'rehype-pretty-code';
 
 // https://astro.build/config
 export default defineConfig({
@@ -19,11 +20,13 @@ export default defineConfig({
     analytics: true,
   }),
   markdown: {
+    syntaxHighlight: false,
     remarkPlugins: [
       remarkMath
     ],
     rehypePlugins: [
-      rehypeKatex
+      rehypeKatex,
+      rehypePrettyCode,
     ],
   },
   vite: {

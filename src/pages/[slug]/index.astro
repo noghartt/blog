@@ -87,7 +87,15 @@ const { Content } = await post.render();
     column-gap: var(--spacing);
   }
 
-  article .astro-code {
+  [data-rehype-pretty-code-title] {
+    background-color: #24292e;
+    color: var(--color-white);
+    padding: var(--spacing);
+  }
+
+  [data-rehype-pretty-code-figure] code {
+    background-color: #24292e;
+    color: var(--color-white);
     padding: var(--spacing);
     font-size: var(--font-size-md);
   }
