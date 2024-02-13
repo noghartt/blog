@@ -264,7 +264,7 @@ things do we need to check?
 #[derive(Serialize, Deserialize, Debug)]
 struct HandleProposalPayload {
     error: Option<String>,
-    value: Option<Ballot>,
+    value: Option<Proposal>,
 }
 
 async fn handle_prepare(State(state): State<AppState>, proposal_id: String) -> (StatusCode, Json<HandleProposalPayload>) {
@@ -317,7 +317,7 @@ Then, the first part of our implementation will be improving the implementation 
 #[derive(Serialize, Deserialize, Debug)]
 struct HandleAcceptPayload {
     error: Option<String>,
-    value: Option<Ballot>,
+    value: Option<Proposal>,
 }
 
 impl Proposer {
@@ -359,11 +359,11 @@ return `Ok(())`. If not, it will return an error message.
 Now, we need to implement the `/handle-accept` endpoint to handle the accept message.
 
 ```rust
-async fn handle_accept(State(state): State<AppState>, propose: Json<Ballot>) -> (StatusCode, Json<HandleAcceptPayload>) {
+async fn handle_accept(State(state): State<AppState>, propose: Json<Proposal>) -> (StatusCode, Json<HandleAcceptPayload>) {
     let mut acceptor = state.acceptor.lock().await;
-    if acceptor.last_ballot_number != propose.id {
+    if acceptor.last_proposal_number != propose.id {
         let payload = HandleAcceptPayload {
-            error: Some(String::from("Node received a proposal with a ballot ID different!")),
+            error: Some(String::from("Node received a proposal with a proposal ID different!")),
             value: None,
         };
         return (StatusCode::BAD_REQUEST, Json(payload));
@@ -373,7 +373,7 @@ async fn handle_accept(State(state): State<AppState>, propose: Json<Ballot>) -> 
 
     let payload = HandleAcceptPayload {
         error: None,
-        value: Some(Ballot { id: propose.id, value: propose.value.clone() }),
+        value: Some(Proposal { id: propose.id, value: propose.value.clone() }),
     };
 
     (StatusCode::OK, Json(payload))
@@ -390,7 +390,7 @@ We will need to add the `proposer.propose` call on the `/prepare` endpoint.
 async fn prepare(State(state): State<AppState>, value: String) -> (StatusCode, String) {
     // ...
 
-    match proposer.propose(&state, &ballot).await {
+    match proposer.propose(&state, &proposal).await {
         Err(e) => (StatusCode::BAD_REQUEST, e),
         Ok(_) => {
             let client = Client::new();
@@ -398,7 +398,7 @@ async fn prepare(State(state): State<AppState>, value: String) -> (StatusCode, S
 
             let reqs = nodes.iter().map(|node| {
                 client.post(format!("http://{}/handle-learn", node.addr))
-                    .json(&ballot)
+                    .json(&proposal)
                     .send()
             });
 
@@ -421,7 +421,7 @@ The last part of our implementation is the `/handle-learn` endpoint. The learner
 will receive the accepted value and put it into their state machines.
 
 ```rust
-async fn handle_learn(State(state): State<AppState>, payload: Json<Ballot>) -> (StatusCode, ()) {
+async fn handle_learn(State(state): State<AppState>, payload: Json<Proposal>) -> (StatusCode, ()) {
     let mut ledger = state.ledger.lock().await;
     match &payload.value {
         None => ledger.insert(payload.id, String::from("")),
