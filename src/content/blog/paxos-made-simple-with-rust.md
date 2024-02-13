@@ -1,5 +1,5 @@
 ---
-title: "Writing Simple Paxos Consensus Algorithm With Rust"
+title: "Implementing Simple Paxos Consensus Algorithm With Rust"
 pubDate: 2024-02-12T11:55:28.536Z
 draft: false
 tags:
@@ -16,10 +16,8 @@ At that moment, one of the more important aspects of a distributed system shows 
 the consensus. Where every participant agrees on a single state, even if some actor
 fails.
 
-Consensus plays an important role in systems that need to bring data consistency
-around the current state. Some use cases where consensus brings a strong advantage
-are network agreement in a server cluster, database replications, and even in blockchain
-networks.
+Some use cases where consensus brings a strong advantage are network agreement in a
+server cluster, database replicati      ons, and even in blockchain networks.
 
 ## The Simple Paxos
 
