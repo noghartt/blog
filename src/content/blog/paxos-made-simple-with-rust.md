@@ -1,7 +1,7 @@
 ---
-title: "Writing Simple Paxos Consensus Algorith With Rust"
+title: "Writing Simple Paxos Consensus Algorithm With Rust"
 pubDate: 2024-02-12T11:55:28.536Z
-draft: true
+draft: false
 tags:
   - distsys
 ---
@@ -38,6 +38,10 @@ the idea of the Simple Paxos is simple:
    the _acceptors_. The _learners_ will put the accepted value into their state
    machines.
 
+![Paxos Sequence Diagram](/assets/paxos-sequence-diagram.png)
+
+(This is a simple sequence diagram coming from Wikipedia, but it's a good representation)
+
 ### Preparing the proposal of a new value
 
 A _proposer_ is the node that will propose a new value for reach the consensus
@@ -50,7 +54,7 @@ use Axum to do all the work for me:
 
 ```rust
 use axum::{
-  routing::{get, post},
+    routing::{get, post},
     Router,
     http::StatusCode,
     extract::{State, Json}
@@ -59,11 +63,13 @@ use clap::Parser;
 use serde::{Serialize, Deserialize};
 use tokio::sync::Mutex;
 
+type Ledger = HashMap<Id, Value>;
 struct AppState {
     node: Node,
     nodes: Arc<Mutex<Vec<Node>>>,
     acceptor: Arc<Mutex<Acceptor>>,
     proposer: Arc<Mutex<Proposer>>,
+    ledger: Arc<Mutex<Ledger>>,
 }
 
 #[derive(Parser, Debug)]
@@ -91,6 +97,7 @@ async fn main() {
         nodes: Arc::new(Mutex::new(Vec::new())),
         acceptor: Arc::new(Mutex::new(Acceptor::default())),
         proposer: Arc::new(Mutex::new(Proposer::new())),
+        ledger: Arc::new(Mutex::new(HashMap::new())),
     };
 
     let app = Router::new()
@@ -243,11 +250,192 @@ this is doing is:
   not, the proposer will use the value that it wants to propose.
 - Return the proposal.
 
-### Accepting a proposal and sending a promise
+### Receiving the prepared value and sending the promise
 
-### Receiving the promise and sending the accepted value
+Cool. We're coming to what we can call the phase `1b`. The _acceptor_ will receive
+the prepare message and need to send a promise if everything is OK. In case, which
+things do we need to check?
+
+- If the proposal number is greater than the last proposal number that the acceptor
+  received.
+- If the acceptor already accepted a value, if yes, it needs to send the accepted
+  value to the _proposer_.
+
+```rust
+#[derive(Serialize, Deserialize, Debug)]
+struct HandleProposalPayload {
+    error: Option<String>,
+    value: Option<Ballot>,
+}
+
+async fn handle_prepare(State(state): State<AppState>, proposal_id: String) -> (StatusCode, Json<HandleProposalPayload>) {
+    let proposal_id: u64 = proposal_id.parse().unwrap();
+    let mut acceptor = state.acceptor.lock().await;
+
+    if proposal_id <= acceptor.last_proposal_number {
+        let payload = HandleProposalPayload {
+            error: Some(String::from("The proposal ID is lesser than the last accepted proposal number")),
+            value: None,
+        };
+        return (StatusCode::BAD_REQUEST, Json(payload));
+    }
+
+    if acceptor.accepted_proposal.is_some() && acceptor.last_proposal_number == proposal_id {
+        let value = acceptor.accepted_proposal.clone();
+        let payload = HandleProposalPayload {
+            error: None,
+            value: Some(Proposal { id: proposal_id, value }),
+        };
+        return (StatusCode::OK, Json(payload));
+    }
+
+    acceptor.last_proposal_number = proposal_id;
+
+    let payload = HandleProposalPayload {
+        error: None,
+        value: Some(Proposal { id: proposal_id, value: None }),
+    };
+
+    (StatusCode::OK, Json(payload))
+}
+```
+
+We improved the `handle-prepare` function to handle all the logic of the acceptor
+receiving the prepare message, instead of just a `todo!()`. If everything is OK,
+the acceptor will return a promise to the proposer. If not, it will return an error
+message.
+
+### Receiving the promise and handling the accept message
+
+Now that the proposer received the promise, we need to start with the phase `2a`.
+The proposer will send the accept message to all acceptors. The accept message needs
+to contain the proposal and their identifier.
+
+Then, the first part of our implementation will be improving the implementation of our
+`Proposer` struct. In case, we will need to add a new function called `propose`.
+
+```rust
+#[derive(Serialize, Deserialize, Debug)]
+struct HandleAcceptPayload {
+    error: Option<String>,
+    value: Option<Ballot>,
+}
+
+impl Proposer {
+    // ...
+
+    pub async fn propose(&self, state: &AppState, proposal: &Proposal) -> Result<(), String> {
+        let client = Client::new();
+        let nodes = state.nodes.lock().await;
+
+        let reqs = nodes.iter().map(|node| {
+            client.post(format!("http://{}/handle-accept", node.addr))
+                .json(&proposal)
+                .send()
+        });
+
+        let responses = futures::future::join_all(reqs).await;
+
+        let mut accepted_promises = Vec::with_capacity(responses.len());
+
+        for response in responses.into_iter().flatten() {
+            accepted_promises.push(response.json::<HandleAcceptPayload>().await.unwrap());
+        }
+
+        let quorum = (nodes.len() / 2) + 1;
+
+        if accepted_promises.len() + 1 < quorum {
+            return Err(String::from("Proposal not accepted by majority"));
+        }
+
+        Ok(())
+    }
+}
+```
+
+This `propose` function will send the accept message to all acceptors and wait for the
+acceptance of the proposal. If the proposer receives the quorum of acceptances, it will
+return `Ok(())`. If not, it will return an error message.
+
+Now, we need to implement the `/handle-accept` endpoint to handle the accept message.
+
+```rust
+async fn handle_accept(State(state): State<AppState>, propose: Json<Ballot>) -> (StatusCode, Json<HandleAcceptPayload>) {
+    let mut acceptor = state.acceptor.lock().await;
+    if acceptor.last_ballot_number != propose.id {
+        let payload = HandleAcceptPayload {
+            error: Some(String::from("Node received a proposal with a ballot ID different!")),
+            value: None,
+        };
+        return (StatusCode::BAD_REQUEST, Json(payload));
+    }
+
+    acceptor.accepted_proposal = propose.value.clone();
+
+    let payload = HandleAcceptPayload {
+        error: None,
+        value: Some(Ballot { id: propose.id, value: propose.value.clone() }),
+    };
+
+    (StatusCode::OK, Json(payload))
+}
+```
+
+Now, we have the acceptor receiving the accept message and handling it. If everything
+is OK, the acceptor will accept the proposal and return an acceptance message to the
+proposer.
+
+We will need to add the `proposer.propose` call on the `/prepare` endpoint.
+
+```rust
+async fn prepare(State(state): State<AppState>, value: String) -> (StatusCode, String) {
+    // ...
+
+    match proposer.propose(&state, &ballot).await {
+        Err(e) => (StatusCode::BAD_REQUEST, e),
+        Ok(_) => {
+            let client = Client::new();
+            let nodes = state.nodes.lock().await;
+
+            let reqs = nodes.iter().map(|node| {
+                client.post(format!("http://{}/handle-learn", node.addr))
+                    .json(&ballot)
+                    .send()
+            });
+
+            futures::future::join_all(reqs).await;
+
+            (StatusCode::OK, String::from("Proposal accepted by the majority!"))
+        },
+    }
+}
+```
+
+Removing that old `todo!()` and put the `proposer.propose` call on the `/prepare`,
+we have the proposer sending the accept message to all acceptors and waiting for
+the acceptance of the proposal. If the proposer receives the quorum of acceptances,
+it will send the accepted value to all learners.
 
 ### Learning the accepted value
+
+The last part of our implementation is the `/handle-learn` endpoint. The learner
+will receive the accepted value and put it into their state machines.
+
+```rust
+async fn handle_learn(State(state): State<AppState>, payload: Json<Ballot>) -> (StatusCode, ()) {
+    let mut ledger = state.ledger.lock().await;
+    match &payload.value {
+        None => ledger.insert(payload.id, String::from("")),
+        Some(v) => ledger.insert(payload.id, v.clone()),
+    };
+    (StatusCode::OK, ())
+}
+```
+
+After learn the accepted value, the learner will put it into their state machines. And
+then we have the consensus around the system. In case, by default the _acceptor_ will
+send the accepted value to the _learner_, but I think that it's a easier to implement
+just sending the accepted value to the _learner_ via _proposer_.
 
 ## Conclusion
 
