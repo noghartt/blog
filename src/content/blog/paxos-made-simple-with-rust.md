@@ -4,6 +4,7 @@ pubDate: 2024-02-12T11:55:28.536Z
 draft: false
 tags:
   - distsys
+  - rust
 ---
 
 ## What Is Consensus?
