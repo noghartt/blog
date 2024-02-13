@@ -13,8 +13,8 @@ I would say that one of the core properties of a system is the agreement on whic
 are right at a given moment.
 
 At that moment, one of the more important aspects of a distributed system shows up:
-the consensus. The consensus in that system will ensure that every participant agrees
-on a single state, even if someone fails.
+the consensus. Where every participant agrees on a single state, even if some actor
+fails.
 
 Consensus plays an important role in systems that need to bring data consistency
 around the current state. Some use cases where consensus brings a strong advantage
@@ -23,8 +23,8 @@ networks.
 
 ## The Simple Paxos
 
-The Simple Paxos algorithm is the most simple implementation of the Paxos family
-algorithms. As presented by Leslie Lamport on the [The Part-Time Parliament](https://lamport.azurewebsites.net/pubs/lamport-paxos.pdf)
+The Simple Paxos algorithm is the most simple implementation of the Paxos Protocol family.
+As presented by Leslie Lamport on the [The Part-Time Parliament](https://lamport.azurewebsites.net/pubs/lamport-paxos.pdf)
 and [Paxos Made Simple](https://lamport.azurewebsites.net/pubs/paxos-simple.pdf),
 the idea of the Simple Paxos is simple:
 
@@ -34,7 +34,7 @@ the idea of the Simple Paxos is simple:
 4. A _proposer_ will receive a promise from every _acceptor_, that promise let
    the _proposer_ knows that the node will accept the proposed value.
 5. A _proposer_ reach the _quorum_, that is, the majority, when receive a promise
-   of $\frac{N}{2} + 1$ where $N$ is the number of nodes in the system.
+   of $N/2 + 1$ where $N$ is the number of nodes in the system.
 6. After reach the _quorum_, the _learners_ will receive the accepted value from
    the _acceptors_. The _learners_ will put the accepted value into their state
    machines.
@@ -440,10 +440,10 @@ just sending the accepted value to the _learner_ via _proposer_.
 
 ## Conclusion
 
-This is the most simple implementation of a consensus algorithm. You have some
-variants that bring some improvements to the Paxos flow, like the Multi-Paxos
-and EPaxos. All of these have some properties that are best for specific
-use cases.
+This is the most simple implementation of Paxos Protocol consensus algorithm.
+You have some variants that brings some improvements to the Paxos, like the
+Multi-Paxos and EPaxos. All of these have some properties that are best for
+specific use cases.
 
 If you want to see the repo with the implementation of this algorithm, you can
 access it [here](https://github.com/noghartt/paxos-from-scratch).

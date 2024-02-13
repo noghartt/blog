@@ -68,8 +68,16 @@ const { Content } = await post.render();
   }
 
   article li {
-    list-style-type: disc;
     margin-left: var(--spacing-2x);
+  }
+
+  article ol li {
+    list-style-type: decimal;
+    margin-left: var(--spacing-4x);
+  }
+
+  article ul li {
+    list-style-type: disc;
   }
 
   article code {
@@ -99,5 +107,10 @@ const { Content } = await post.render();
     padding: var(--spacing);
     font-size: var(--font-size-md);
     overflow-x: scroll;
+  }
+
+  /* TODO: Why KaTeX are duplicating the code. */
+  .katex-html {
+    display: none;
   }
 </style>
