@@ -447,6 +447,10 @@ use cases.
 If you want to see the repo with the implementation of this algorithm, you can
 access it [here](https://github.com/noghartt/paxos-from-scratch).
 
+A big thanks for [hnrbs](https://github/hnrbs) as my inspiration to wrote this
+code and learn more about Paxos, my implementation was inspired by their code.
+You can see [here too](https://github.com/hnrbs/paxos).
+
 ## Further Reading
 
 - [The Part-Time Parliament](https://lamport.azurewebsites.net/pubs/lamport-paxos.pdf)
