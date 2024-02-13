@@ -8,16 +8,16 @@ tags:
 
 ## What Is Consensus?
 
-I would say that one of the core properties of a system is the agreement of which data
-are really right at a given moment.
+I would say that one of the core properties of a system is the agreement on which data
+are right at a given moment.
 
-At that moment, one of the more important aspects of a distributed systems shows up:
-the consensus. The consensus in that system will ensure that every participant agree
+At that moment, one of the more important aspects of a distributed system shows up:
+the consensus. The consensus in that system will ensure that every participant agrees
 on a single state, even if someone fails.
 
-Consensus does an important role on systems that needs to bring data consistency
+Consensus plays an important role in systems that need to bring data consistency
 around the current state. Some use cases where consensus brings a strong advantage
-are network agreement in a server cluster, database replications and even in blockchain
+are network agreement in a server cluster, database replications, and even in blockchain
 networks.
 
 ## The Simple Paxos
@@ -29,7 +29,7 @@ the idea of the Simple Paxos is simple:
 
 1. Your node can assume 3 different roles: _proposers_, _acceptors_ and _learners_.
 2. Your node can be all these roles at the same time.
-3. An acceptor will accept the first value that receive as a proposal.
+3. An acceptor will accept the first value that is received as a proposal.
 4. A _proposer_ will receive a promise from every _acceptor_, that promise let
    the _proposer_ knows that the node will accept the proposed value.
 5. A _proposer_ reach the _quorum_, that is, the majority, when receive a promise
@@ -42,18 +42,18 @@ the idea of the Simple Paxos is simple:
 
 (This is a simple sequence diagram coming from Wikipedia, but it's a good representation)
 
-### Preparing the proposal of a new value
+### Preparing the proposal for a new value
 
-A _proposer_ is the node that will propose a new value for reach the consensus
-around their system. In case, each proposal follows this pattern: `(id, v)`,
-where the `id` is a incrementally natural number, and `v` is the proposed value,
+A _proposer_ is the node that will propose a new value to reach the consensus
+around their system. In this case, each proposal follows this pattern: `(id, v)`,
+where the `id` is an incrementally natural number, and `v` is the proposed value,
 for our implementation, we will assume `v` as a string.
 
-First things first. We need to start our server. In case, using Rust, I will
+First things first. We need to start our server. In this case, using Rust, I will
 use Axum to do all the work for me:
 
 ```rust
-use axum::{
+use Axum::{
     routing::{get, post},
     Router,
     http::StatusCode,
@@ -151,7 +151,7 @@ async fn handle_prepare() -> () {
 }
 ```
 
-Now, we have a server running on the port that we want. ou can test it by running:
+Now, we have a server running on the port that we want. You can test it by running:
 
 ```bash
 cargo run -- --id 1 --port 3000
@@ -253,7 +253,7 @@ this is doing is:
 ### Receiving the prepared value and sending the promise
 
 Cool. We're coming to what we can call the phase `1b`. The _acceptor_ will receive
-the prepare message and need to send a promise if everything is OK. In case, which
+the prepare message and need to send a promise if everything is OK. In this case, which
 things do we need to check?
 
 - If the proposal number is greater than the last proposal number that the acceptor
@@ -305,14 +305,14 @@ receiving the prepare message, instead of just a `todo!()`. If everything is OK,
 the acceptor will return a promise to the proposer. If not, it will return an error
 message.
 
-### Receiving the promise and handling the accept message
+### Receiving the promise and handling the acceptance message
 
 Now that the proposer received the promise, we need to start with the phase `2a`.
 The proposer will send the accept message to all acceptors. The accept message needs
 to contain the proposal and their identifier.
 
 Then, the first part of our implementation will be improving the implementation of our
-`Proposer` struct. In case, we will need to add a new function called `propose`.
+`Proposer` struct. In this case, we will need to add a new function called `propose`.
 
 ```rust
 #[derive(Serialize, Deserialize, Debug)]
@@ -411,7 +411,7 @@ async fn prepare(State(state): State<AppState>, value: String) -> (StatusCode, S
 }
 ```
 
-Removing that old `todo!()` and put the `proposer.propose` call on the `/prepare`,
+Removing that old `todo!()` and putting the `proposer.propose` call on the `/prepare`,
 we have the proposer sending the accept message to all acceptors and waiting for
 the acceptance of the proposal. If the proposer receives the quorum of acceptances,
 it will send the accepted value to all learners.
@@ -432,24 +432,24 @@ async fn handle_learn(State(state): State<AppState>, payload: Json<Ballot>) -> (
 }
 ```
 
-After learn the accepted value, the learner will put it into their state machines. And
-then we have the consensus around the system. In case, by default the _acceptor_ will
-send the accepted value to the _learner_, but I think that it's a easier to implement
+After learning the accepted value, the learner will put it into their state machines. And
+then we have the consensus around the system. The _acceptor_ will
+send the accepted value to the _learner_, but I think it's easier to implement
 just sending the accepted value to the _learner_ via _proposer_.
 
 ## Conclusion
 
 This is the most simple implementation of a consensus algorithm. You have some
-variants that brings some improvements on the Paxos flow, like the Multi-Paxos
-and EPaxos. All of these ones have some properties that are best for specific
+variants that bring some improvements to the Paxos flow, like the Multi-Paxos
+and EPaxos. All of these have some properties that are best for specific
 use cases.
 
 If you want to see the repo with the implementation of this algorithm, you can
 access it [here](https://github.com/noghartt/paxos-from-scratch).
 
-A big thanks for [hnrbs](https://github/hnrbs) as my inspiration to wrote this
-code and learn more about Paxos, my implementation was inspired by their code.
-You can see [here too](https://github.com/hnrbs/paxos).
+Thanks to [hnrbs](https://github/hnrbs), one of my inspirations to write this
+code and learn more about Paxos and consensus.
+You can see [his implementation here](https://github.com/hnrbs/paxos).
 
 ## Further Reading
 
