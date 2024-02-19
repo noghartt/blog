@@ -1,0 +1,82 @@
+---
+import dayjs from 'dayjs';
+
+import Layout from "../layout/Layout.astro";
+import GoBackButton from '../components/GoBackButton.astro';
+import Link from "../components/Link.astro";
+
+const fetchedBookmarks = await fetch(
+  'https://omnivore-bookmarks.iamguilhermeananias.workers.dev/'
+);
+
+const json = await fetchedBookmarks.json();
+
+const bookmarks = json.data.search.edges.map(({ node }) => ({
+  savedAt: node.savedAt,
+  title: node.title,
+  url: node.url,
+}));
+
+const bookmarksSorted = bookmarks.sort((a, b) =>
+  Math.floor(bookmarks.savedAt / 1000) -
+  Math.floor(bookmarks.savedAt / 1000)
+);
+---
+
+<Layout>
+  <GoBackButton />
+  <section class="posts">
+    <h2>bookmarks.</h2>
+    <ul>
+      {bookmarksSorted.map(bookmark => (
+        <li>
+          <p>
+            {bookmark.savedAt.split('T')[0]}
+          </p>
+          <Link href={bookmark.url}>
+            <p class="post-title">
+              {bookmark.title}
+            </p>
+          </Link>
+        </li>
+      ))}
+    </ul>
+  </section>
+</Layout>
+
+<style>
+  .description {
+    display: flex;
+    flex-direction: column;
+    row-gap: var(--spacing-2x);
+  }
+
+  .posts ul {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing);
+  }
+
+  .posts ul li {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    column-gap: var(--spacing-8x);
+  }
+
+  .posts :global(a) {
+    flex: 1;
+  }
+
+  @media screen and (max-width: 425px) {
+    .posts ul {
+      gap: var(--spacing-2x);
+    }
+
+    .posts ul li {
+      flex-direction: column;
+    }
+  }
+</style>
+
+
