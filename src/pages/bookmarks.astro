@@ -5,8 +5,16 @@ import Layout from "../layout/Layout.astro";
 import GoBackButton from '../components/GoBackButton.astro';
 import Link from "../components/Link.astro";
 
+import { SITE } from '../config';
+
+export const prerender = true;
+
+const URL = import.meta.env.DEV
+  ? 'http://localhost:4321'
+  : SITE.website;
+
 const fetchedBookmarks = await fetch(
-  'https://omnivore-bookmarks.iamguilhermeananias.workers.dev/'
+  `${URL}/bookmarks.json`
 );
 
 const json = await fetchedBookmarks.json();
@@ -18,8 +26,8 @@ const bookmarks = json.data.search.edges.map(({ node }) => ({
 }));
 
 const bookmarksSorted = bookmarks.sort((a, b) =>
-  Math.floor(bookmarks.savedAt / 1000) -
-  Math.floor(bookmarks.savedAt / 1000)
+  Math.floor(b.savedAt / 1000) -
+  Math.floor(a.savedAt / 1000)
 );
 ---
 
