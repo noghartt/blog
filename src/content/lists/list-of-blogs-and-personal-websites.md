@@ -27,3 +27,5 @@ tags:
 - [Dan Luu](https://danluu.com/)
 - [Steph Ango](https://stephango.com/)
 - [Julia Evans](https://jvns.ca/)
+- [Jamie Tanna](https://www.jvt.me/)
+- [Arne Bahlo](https://arne.me/)
