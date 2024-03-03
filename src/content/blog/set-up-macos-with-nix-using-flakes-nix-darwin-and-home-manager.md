@@ -191,6 +191,30 @@ like a `configuration.nix` file but for the user environment.
 With that configuration, I can install the initial packages that I want to use on my
 machine using Nix, and gives me the powerful ability of reproducibility in a declarative way.
 
+## Building and activating the configuration
+
+After creating all the files, you can build and activate the configuration using the following.
+You just need to run two specific commands to build and activate the configuration on your
+machine:
+
+### 1. Building the configuration
+
+```sh
+nix build .#darwinConfigurations.machine.config.system
+```
+
+It will build the configuration of your machine targeting the `darwinConfigurations.machine`
+outputs. Do not forget of changing the `machine` of the given name of your system configuration.
+
+### 2. Activating the configuration
+
+```sh
+./result/sw/bin/darwin-rebuild switch --flake .
+```
+
+It will activate the configuration of your machine using the `darwin-rebuild` command. It will
+switch the configuration of your machine to the new configuration that you have built.
+
 ## Conclusion
 
 In this blog post, I showed how to set up Nix on macOS using flakes, nix-darwin, and home-manager
