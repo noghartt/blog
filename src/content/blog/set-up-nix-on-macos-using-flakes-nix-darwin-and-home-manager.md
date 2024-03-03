@@ -1,5 +1,5 @@
 ---
-title: "Set up macOS with Nix using flakes, nix-darwin and home-manager"
+title: "Set up Nix on macOS using flakes, nix-darwin and home-manager"
 pubDate: 2024-03-03T19:37:49.312Z
 tags:
   - nix
