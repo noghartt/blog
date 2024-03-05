@@ -3,7 +3,7 @@ import { getCollection } from 'astro:content';
 
 import Layout from "../layout/Layout.astro";
 import Link from "../components/Link.astro";
-import { GITHUB_REPO_URL } from '../config';
+import { GITHUB_REPO_URL, TWITTER_URL } from '../config';
 
 const [posts, lists] = await Promise.all([
   getCollection('blog', ({ data }) => !data.draft),
@@ -21,6 +21,7 @@ const postsSorted = posts.sort((a, b) =>
   <section class="description">
     <p>The place where I put all my ideas.</p>
     <p>The blog is under <Link href={`${GITHUB_REPO_URL}/blob/main/LICENSE`} isExternal>GNU AGPLv3</Link> and <Link href={`${GITHUB_REPO_URL}/blob/main/LICENSE-posts`} isExternal>CC BY-SA 4.0</Link> licenses.</p>
+    <p>If you want to reach me, feel free to contact on <Link href={TWITTER_URL}>Twitter</Link> or via <Link href="mailto:hi@noghartt.dev">email</Link>.</p>
   </section>
   <section class="lists">
     <h2>lists.</h2>
