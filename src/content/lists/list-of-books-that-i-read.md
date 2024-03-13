@@ -7,6 +7,10 @@ tags:
 This is a list containing all the books that I read
 or will read at some time.
 
+## 2024
+
+- Database Internals, by Alex Petrov
+
 ## 2023
 
 - Retorica, from Aristotles
@@ -19,4 +23,3 @@ or will read at some time.
 - Discourse on the Method
 - Clear Thinking
 - Make It Stick
-
