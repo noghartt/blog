@@ -29,30 +29,50 @@ const bookmarksSorted = bookmarks.sort((a, b) =>
   Math.floor(b.savedAt / 1000) -
   Math.floor(a.savedAt / 1000)
 );
+
+const groupByMonth = (bookmarks) => {
+  const grouped = bookmarks.reduce((acc, bookmark) => {
+    const month = dayjs(bookmark.savedAt).format('MMMM [/] YYYY');
+    if (!acc[month]) {
+      acc[month] = [];
+    }
+    acc[month].push(bookmark);
+    return acc;
+  }, {});
+  return grouped;
+};
+
+const bookmarksGroupedByMonth = groupByMonth(bookmarksSorted);
 ---
 
 <Layout>
   <GoBackButton />
   <section class="posts">
     <h2>bookmarks.</h2>
-    <ul>
-      {bookmarksSorted.map(bookmark => (
-        <li>
-          <p>
-            {bookmark.savedAt.split('T')[0]}
-          </p>
-          <Link href={bookmark.url}>
-            <p class="post-title">
-              {bookmark.title}
-            </p>
-          </Link>
-        </li>
+    <section class="bookmarks">
+      {Object.entries(bookmarksGroupedByMonth).map(([month, bookmarks]) => (
+        <div class="description">
+          <h3>{month}</h3>
+          <ul>
+            {bookmarks.map((bookmark) => (
+              <li>
+                <Link href={bookmark.url} target="_blank" rel="noopener">
+                  {bookmark.title}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
       ))}
-    </ul>
+    </section>
   </section>
 </Layout>
 
 <style>
+  h2 {
+    margin-bottom: var(--spacing-2x);
+  }
+
   .description {
     display: flex;
     flex-direction: column;
@@ -84,6 +104,12 @@ const bookmarksSorted = bookmarks.sort((a, b) =>
     .posts ul li {
       flex-direction: column;
     }
+  }
+
+  .bookmarks {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-4x);
   }
 </style>
 
