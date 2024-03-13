@@ -4,19 +4,11 @@ import dayjs from 'dayjs';
 import Layout from "../layout/Layout.astro";
 import GoBackButton from '../components/GoBackButton.astro';
 import Link from "../components/Link.astro";
-
-import { SITE } from '../config';
+import { bookmarksGet } from './_bookmarks-helpers';
 
 export const prerender = false;
 
-const URL = import.meta.env.DEV
-  ? 'http://localhost:4321'
-  : SITE.website;
-
-const fetchedBookmarks = await fetch(
-  `${URL}/bookmarks.json`
-);
-
+const fetchedBookmarks = await bookmarksGet();
 const json = await fetchedBookmarks.json();
 
 const bookmarks = json.data.search.edges.map(({ node }) => ({

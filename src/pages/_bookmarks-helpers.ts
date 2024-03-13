@@ -24,7 +24,7 @@ const query = `\
   }
 `;
 
-export const GET = async () => {
+export const bookmarksGet = async () => {
   try {
     const bookmarks = await fetch(OMNIVORE_API_URL, {
       method: 'POST',
