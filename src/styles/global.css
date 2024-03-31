@@ -1,43 +1,3 @@
-@font-face {
-  font-family: 'Merriweather';
-  src: url('/fonts/Merriweather/Merriweather-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Merriweather';
-  src: url('/fonts/Merriweather/Merriweather-Bold.ttf') format('truetype');
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Merriweather';
-  src: url('/fonts/Merriweather/Merriweather-Black.ttf') format('truetype');
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Roboto Mono';
-  src: url('/fonts/RobotoMono-Light.ttf') format('truetype');
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Roboto Mono';
-  src: url('/fonts/RobotoMono-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
 :root {
   --color-primary: rgba(0,0,0,0);
   --color-white: rgba(255,255,255,255);
@@ -63,19 +23,8 @@
   text-decoration: none;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'Merriweather', serif;
-  font-weight: 900;
-}
-
 html,
 body {
-  font-family: 'Roboto Mono', sans-serif;
   font-weight: 300;
   min-height: 100vh;
   font-size: 100%;
@@ -86,13 +35,11 @@ body {
 h1 {
   font-size: var(--font-size-2xl);
   line-height: 1.6;
-  letter-spacing: 2px;
 }
 
 h2 {
   font-size: var(--font-size-xl);
   line-height: 1.6;
-  letter-spacing: 2px;
 }
 
 p, li {
@@ -100,7 +47,6 @@ p, li {
   line-height: 1.25;
   text-align: justify;
   text-justify: inter-word;
-  letter-spacing: 0.8px;
 }
 
 li {
