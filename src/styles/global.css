@@ -27,9 +27,9 @@ html,
 body {
   font-weight: 300;
   min-height: 100vh;
-  font-size: 100%;
   line-height: 1;
   list-style-type: none;
+  font-size: 16px;
 }
 
 h1 {
@@ -43,10 +43,7 @@ h2 {
 }
 
 p, li {
-  font-size: var(--font-size-md);
-  line-height: 1.25;
   text-align: justify;
-  text-justify: inter-word;
 }
 
 li {
