@@ -18,8 +18,6 @@ const getBlogRoutesRedirect = async () => {
   return Object.fromEntries(blogRoutes);
 }
 
-console.log(await getBlogRoutesRedirect());
-
 // https://astro.build/config
 export default defineConfig({
   site: 'https://noghartt.dev',
