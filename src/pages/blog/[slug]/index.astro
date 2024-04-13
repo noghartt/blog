@@ -2,10 +2,10 @@
 import { getCollection } from 'astro:content';
 import type { CollectionEntry } from 'astro:content';
 
-import Link from '../../components/Link.astro';
-import Layout from '../../layout/Layout.astro';
-import GoBackButton from '../../components/GoBackButton.astro';
-import { SITE } from '../../config';
+import Link from '../../../components/Link.astro';
+import Layout from '../../../layout/Layout.astro';
+import GoBackButton from '../../../components/GoBackButton.astro';
+import { SITE } from '../../../config';
 
 interface Props {
   post: CollectionEntry<'blog'>;

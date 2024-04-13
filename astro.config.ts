@@ -1,4 +1,4 @@
-import { defineConfig } from 'astro/config';
+import { defineConfig, type AstroUserConfig } from 'astro/config';
 import mdx from '@astrojs/mdx';
 import sitemap from '@astrojs/sitemap';
 import react from '@astrojs/react';
@@ -6,6 +6,19 @@ import vercel from "@astrojs/vercel/serverless";
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
 import rehypePrettyCode from 'rehype-pretty-code';
+import fs from 'fs/promises';
+
+const getBlogRoutesRedirect = async () => {
+  const blogRoutesOldSlug = await fs.readdir('./src/content/blog');
+  const blogRoutes = blogRoutesOldSlug.map((route) => [
+    `/${route.replace('.md', '')}`,
+    `/blog/${route.replace('.md', '')}`,
+  ]);
+
+  return Object.fromEntries(blogRoutes);
+}
+
+console.log(await getBlogRoutesRedirect());
 
 // https://astro.build/config
 export default defineConfig({
@@ -35,4 +48,7 @@ export default defineConfig({
       exclude: ["@resvg/resvg-js"],
     },
   },
+  redirects: {
+    ...await getBlogRoutesRedirect(),
+  }
 });

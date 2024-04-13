@@ -45,7 +45,7 @@ const postsSorted = posts.sort((a, b) =>
           <p>
             {post.data.pubDate.toISOString().split('T')[0]}
           </p>
-          <Link href={post.slug}>
+          <Link href={`/blog/${post.slug}`}>
             <p class="post-title">
               {post.data.title}
             </p>
