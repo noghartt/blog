@@ -32,7 +32,7 @@ const { Content } = await post.render();
 ---
 
 <Layout
-  ogImage={`/${post.slug}.png`}
+  ogImage={`/blog/${post.slug}.png`}
   head={{ title: `${post.data.title} | ${SITE.title}` }}
 >
   <GoBackButton />
