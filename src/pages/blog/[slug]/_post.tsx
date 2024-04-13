@@ -1,4 +1,4 @@
-import { SITE } from '../../config';
+import { SITE } from '../../../config';
 import type { CollectionEntry } from 'astro:content';
 import dayjs from 'dayjs';
 
