@@ -1,7 +1,6 @@
 ---
 import { ViewTransitions } from 'astro:transitions';
 
-import "../styles/global.css";
 import Footer from "../components/Footer.astro";
 import { SITE } from '../config';
 
@@ -78,14 +77,63 @@ const rssFeedURL = new URL('rss.xml', Astro.site).href;
   </body>
 </html>
 
-<style>
+<style is:global>
+  :root {
+    --color-primary: rgba(0,0,0,0);
+    --color-white: rgba(255,255,255,255);
+
+    --font-size-2sm: 0.625rem;
+    --font-size-sm: 0.75rem;
+    --font-size-md: 1rem;
+    --font-size-xl: 1.5rem;
+    --font-size-2xl: 1.75rem;
+
+    --spacing: 8px;
+    --spacing-2x: 16px;
+    --spacing-4x: 32px;
+    --spacing-8x: 64px;
+  }
+
+  *,
+  *::after,
+  *::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+
+  html,
   body {
+    font-weight: 300;
+    min-height: 100vh;
+    line-height: 1;
+    list-style-type: none;
+    font-size: 16px;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
     width: 80vw;
     padding-top: var(--spacing-2x);
     padding-bottom: var(--spacing-2x);
+  }
+
+  h1 {
+    font-size: var(--font-size-2xl);
+    line-height: 1.6;
+  }
+
+  h2 {
+    font-size: var(--font-size-xl);
+    line-height: 1.6;
+  }
+
+  p, li {
+    text-align: justify;
+  }
+
+  li {
+    list-style-type: none;
   }
 
   main {
