@@ -11,14 +11,3 @@ const externalProps = isExternal
   : {};
 ---
 <a {...externalProps} href={href}><slot /></a>
-<style>
-  a {
-    color: inherit;
-    cursor: pointer;
-    text-decoration: underline dotted;
-  }
-
-  a:hover {
-    text-decoration: underline solid;
-  }
-</style>
