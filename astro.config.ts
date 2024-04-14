@@ -36,7 +36,13 @@ export default defineConfig({
     ],
     rehypePlugins: [
       rehypeKatex,
-      rehypePrettyCode,
+      [
+        rehypePrettyCode,
+        {
+          theme: 'github-light',
+          keepBackground: false,
+        },
+      ],
     ],
   },
   vite: {
