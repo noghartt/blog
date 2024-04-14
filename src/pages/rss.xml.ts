@@ -7,7 +7,7 @@ import { SITE } from "../config";
 
 const parser = new MarkdownIt();
 
-export async function get() {
+export async function GET() {
   const posts = await getCollection("blog", ({ data }) => !data.draft);
 
   return rss({
