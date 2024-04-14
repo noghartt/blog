@@ -12,28 +12,28 @@
     "create:article": "tsx ./scripts/new-post.ts"
   },
   "dependencies": {
-    "@astrojs/mdx": "^2.3.0",
-    "@astrojs/react": "^3.3.0",
-    "@astrojs/rss": "^4.0.5",
-    "@astrojs/vercel": "^7.5.3",
     "@resvg/resvg-js": "^2.4.1",
     "astro": "^4.6.1",
     "dayjs": "^1.11.10",
     "markdown-it": "^13.0.1",
-    "rehype-katex": "^6.0.3",
-    "rehype-pretty-code": "^0.13.0",
-    "remark-math": "^5.1.1",
     "sanitize-html": "^2.9.0",
     "satori": "^0.10.8",
     "shiki": "^1.1.1"
   },
   "devDependencies": {
+    "@astrojs/mdx": "^2.3.0",
+    "@astrojs/react": "^3.3.0",
+    "@astrojs/rss": "^4.0.5",
     "@astrojs/sitemap": "^3.1.2",
+    "@astrojs/vercel": "^7.5.3",
     "@types/markdown-it": "^12.2.3",
     "@types/react": "^18.2.25",
     "@types/sanitize-html": "^2.8.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "rehype-katex": "^7.0.0",
+    "rehype-pretty-code": "^0.13.0",
+    "remark-math": "^6.0.0",
     "tsx": "^3.12.10"
   }
 }

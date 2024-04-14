@@ -22,7 +22,6 @@ const getBlogRoutesRedirect = async () => {
 export default defineConfig({
   site: 'https://noghartt.dev',
   integrations: [
-    mdx(),
     sitemap(),
     react(),
   ],
