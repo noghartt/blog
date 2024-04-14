@@ -67,9 +67,6 @@ devDependencies:
   remark-math:
     specifier: ^6.0.0
     version: 6.0.0
-  remark-rehype:
-    specifier: ^11.1.0
-    version: 11.1.0
   tsx:
     specifier: ^3.12.10
     version: 3.12.10
