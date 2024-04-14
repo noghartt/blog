@@ -1,5 +1,4 @@
 import { defineConfig, type AstroUserConfig } from 'astro/config';
-import mdx from '@astrojs/mdx';
 import sitemap from '@astrojs/sitemap';
 import react from '@astrojs/react';
 import vercel from "@astrojs/vercel/serverless";
