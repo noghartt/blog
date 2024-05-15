@@ -17,7 +17,7 @@ export async function GET() {
       title: data.title,
       description: data.description,
       pubDate: data.pubDate,
-      content: sanitizeHtml(parser.render(body))
+      content: sanitizeHtml(parser.render(body), { allowedTags: ['img', 'a', 'p', 'strong', 'b', 'i', 'em', 'hr'] })
     }));
 
   return rss({
