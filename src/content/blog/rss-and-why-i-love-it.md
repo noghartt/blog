@@ -1,0 +1,44 @@
+---
+title: "RSS and why I love it"
+pubDate: 2024-05-15T01:45:37.727Z
+tags:
+  - thoughts
+---
+
+Inspired by some discussions through Twitter/X over the last few days, I decided to write
+about RSS and why I love them. I think it's a great technology that few people know
+about and I think it's worth learning more about it.
+
+One of the greatest things that the Internet could bring to us is data consumption.
+Do you already ask yourself how much data we consume compared with the past?
+How easy is it to just type something into a search engine and get a lot of information about it?
+Is just awesome.
+
+But, with great power comes great responsibility. And with a lot of information comes a lot of noise.
+I'm a person who likes to read blogs and learn new things, it's a great hobby and it's cool
+to see other people sharing their thoughts about something, being tech or not. And by that fact, I,
+being a lazy person, was thinking so hard about how to keep up with all the blogs that I like to read.
+
+And then, I found RSS feeds. I would say a cool invention from the 2000s that is still more useful for us
+nowadays than it was in the past. What a great idea would be just to aggregate every blog that you like to read
+into one place and just read it from there. Simple, but you can see how amazing is it?
+
+The ability to have all those blogs in one place, ensuring that every new update will be there for
+easy access, being notified about it and also being able to read it offline is just amazing. And that's why
+I love RSS feeds. It's a simple technology that is still useful for us nowadays and I hope it will be for a long time.
+
+![NetNewsWire](/assets/rss-feeds.png)
+
+This is my RSS feed reader, NetNewsWire. On that, I have all the things I like to follow: blogs, podcasts, YouTube channels,
+newsletters, etc. I have more than 100 feeds there and I can't imagine my life without it. All links that you can find
+on [bookmarks](/bookmarks) come from that feed reader.
+
+Being an ADHD person, I think that having this kind of tool is helpful for me. I let my NetNewsWire open all the time
+and just read the things that I like when I have time. It's a great way to keep up with the things that I like to read and
+also a great way to keep my mind busy with something that I like.
+
+I hope you enjoyed this post and I hope you can give a try to RSS feeds. It's a great technology that is still useful for us.
+
+If you would like to follow my blog, you can use my [RSS feed](/rss.xml) that I have here.
+I am sharing my OPML file (the same one you saw in the image above), if you want some
+suggestions of cool blogs to follow, you can get them [here](https://gist.github.com/noghartt/53e05e6bccb41e9fd69e24fa36ec65ce).
