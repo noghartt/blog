@@ -4,22 +4,13 @@ import dayjs from 'dayjs';
 import Layout from "../layout/Layout.astro";
 import GoBackButton from '../components/GoBackButton.astro';
 import Link from "../components/Link.astro";
-import { bookmarksGet } from './_bookmarks-helpers';
 
-export const prerender = false;
+import bookmarksJson from './_bookmarks.json';
 
-const fetchedBookmarks = await bookmarksGet();
-const json = await fetchedBookmarks.json();
-
-const bookmarks = json.data.search.edges.map(({ node }) => ({
-  savedAt: node.savedAt,
-  title: node.title,
-  url: node.url,
-}));
-
-const bookmarksSorted = bookmarks.sort((a, b) =>
-  Math.floor(b.savedAt / 1000) -
-  Math.floor(a.savedAt / 1000)
+const bookmarksData = bookmarksJson.data;
+const bookmarksSorted = bookmarksData.sort((a, b) =>
+  Math.floor(Number(b.savedAt) / 1000) -
+  Math.floor(Number(a.savedAt) / 1000)
 );
 
 const groupByMonth = (bookmarks) => {
@@ -40,7 +31,10 @@ const bookmarksGroupedByMonth = groupByMonth(bookmarksSorted);
 <Layout>
   <GoBackButton />
   <section class="posts">
-    <h2>bookmarks.</h2>
+    <section>
+      <h2>bookmarks.</h2>
+      <p>Last update: {dayjs(bookmarksJson.lastUpdate).format('DD[/]MM[/]YYYY HH:mm')}</p>
+    </section>
     <section class="bookmarks">
       {Object.entries(bookmarksGroupedByMonth).map(([month, bookmarks]) => (
         <div class="description">
@@ -61,14 +55,16 @@ const bookmarksGroupedByMonth = groupByMonth(bookmarksSorted);
 </Layout>
 
 <style>
-  h2 {
-    margin-bottom: var(--spacing-2x);
-  }
-
   .description {
     display: flex;
     flex-direction: column;
     row-gap: var(--spacing-2x);
+  }
+
+  .posts {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-4x);
   }
 
   .posts ul {

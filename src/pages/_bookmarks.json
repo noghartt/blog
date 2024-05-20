@@ -1,0 +1,1325 @@
+{
+  "lastUpdate": "2024-05-20T11:38:28.780Z",
+  "data": [
+    {
+      "id": "91e5e169-6542-472c-b815-8a95574aaff3",
+      "title": "Guide: How to start a writing habit",
+      "url": "https://writinghabit.com",
+      "savedAt": "2024-05-20T11:21:31.000Z"
+    },
+    {
+      "id": "3e9ddcc3-1f58-4e56-98d3-74fa831f6da0",
+      "title": "What I look for in empirical software papers • Buttondown",
+      "url": "https://buttondown.email/hillelwayne/archive/what-i-look-for-in-empirical-software-papers/",
+      "savedAt": "2024-05-20T11:08:45.000Z"
+    },
+    {
+      "id": "6ff6d6b5-c5f7-4d64-a1ce-439a1b26dc8a",
+      "title": "The Misunderstood Stoic",
+      "url": "https://bastian.rieck.me/blog/2019/stoicism/",
+      "savedAt": "2024-05-20T02:23:23.000Z"
+    },
+    {
+      "id": "bf9bfbbb-ef15-45b6-9297-cd515e0fbeb5",
+      "title": "Structured Procrastination",
+      "url": "https://www.structuredprocrastination.com",
+      "savedAt": "2024-05-20T01:49:20.000Z"
+    },
+    {
+      "id": "5fd8cb1c-cf8b-4dd2-b870-e52992996a78",
+      "title": "How and why to make a /now page on your site | Derek Sivers",
+      "url": "https://sive.rs/now2",
+      "savedAt": "2024-05-19T01:42:42.000Z"
+    },
+    {
+      "id": "1b1217a1-ff3c-4857-b43b-daa8a141fb60",
+      "title": "The Power of the Marginal",
+      "url": "https://paulgraham.com/marginal.html",
+      "savedAt": "2024-05-18T15:40:04.000Z"
+    },
+    {
+      "id": "df36a324-84c3-4a56-bd32-3206e92904a0",
+      "title": "Pmarchive · Pmarca Guide to Personal Productivity",
+      "url": "https://pmarchive.com/guide_to_personal_productivity.html",
+      "savedAt": "2024-05-18T15:09:48.000Z"
+    },
+    {
+      "id": "fcc30c0c-f572-45fc-a28b-0232e6ab801d",
+      "title": "So we built a Reverse Tunnel in Go over HTTP/3 and QUIC | Flipt Blog",
+      "url": "https://blog.flipt.io/so-we-built-reverst",
+      "savedAt": "2024-05-18T15:08:07.000Z"
+    },
+    {
+      "id": "99ba178c-1a01-4c19-9576-1467dedcdea7",
+      "title": "Kim Young Jin - Ambitious but at peace",
+      "url": "https://jugheadjones10.github.io/kim-young-jin/posts/ambitious-and-content.html",
+      "savedAt": "2024-05-18T15:06:07.000Z"
+    },
+    {
+      "id": "b3de3056-5c81-48b6-be0c-f12d210a43fb",
+      "title": "From Any Spot on the Field - by Thorsten Ball",
+      "url": "https://registerspill.thorstenball.com/p/from-any-spot-on-the-field",
+      "savedAt": "2024-05-18T15:04:18.000Z"
+    },
+    {
+      "id": "3af7077a-17f9-466e-9db4-195e6f037e20",
+      "title": "Reading C type declarations",
+      "url": "http://www.unixwiz.net/techtips/reading-cdecl.html",
+      "savedAt": "2024-05-17T11:46:57.000Z"
+    },
+    {
+      "id": "40852233-4d51-4c9e-a91a-4ea00775528e",
+      "title": "Implementing MVCC and major SQL transaction isolation levels | notes.eatonphil.com",
+      "url": "https://notes.eatonphil.com/2024-05-16-mvcc.html",
+      "savedAt": "2024-05-17T00:48:02.000Z"
+    },
+    {
+      "id": "ea21c318-bb3b-47f7-b266-af09fe77ec3b",
+      "title": "Bye Opam, Hello Nix | Emil Privér",
+      "url": "https://priver.dev/blog/ocaml/bye-opam-hello-nix/",
+      "savedAt": "2024-05-15T03:39:59.000Z"
+    },
+    {
+      "id": "44f62cbf-d21b-4b21-84b9-9c4718a00a2b",
+      "title": "Start With Simple Tools",
+      "url": "https://mikegrindle.com/posts/start-simple",
+      "savedAt": "2024-05-15T03:39:04.000Z"
+    },
+    {
+      "id": "39b679bc-bf50-45b4-af23-504e4ea1147a",
+      "title": "ISP Column - April 2024",
+      "url": "https://www.potaroo.net/ispcol/2024-04/ipv6-prefixes.html",
+      "savedAt": "2024-05-13T17:43:02.000Z"
+    },
+    {
+      "id": "b6cf2638-3a42-41cd-a944-7c8fdb06e248",
+      "title": "GPUs Go Brrr · Hazy Research",
+      "url": "https://hazyresearch.stanford.edu/blog/2024-05-12-tk",
+      "savedAt": "2024-05-13T10:17:08.000Z"
+    },
+    {
+      "id": "80f694f7-24a5-4e65-8a58-aac17c5ed54f",
+      "title": "Professional corner-cutting : Havoc's Blog",
+      "url": "https://blog.ometer.com/2016/05/04/professional-corner-cutting/",
+      "savedAt": "2024-05-13T09:56:27.000Z"
+    },
+    {
+      "id": "82b73dc8-e016-444e-a0f5-46a7417715a3",
+      "title": "Exploring Hacker News by mapping and analyzing 40 million posts and comments for fun | Wilson Lin",
+      "url": "https://blog.wilsonl.in/hackerverse/",
+      "savedAt": "2024-05-10T01:15:02.000Z"
+    },
+    {
+      "id": "d9836ec5-f96d-4bf0-a211-cf39a91b37cf",
+      "title": "How NASA is Hacking Voyager 1 Back to Life - IEEE Spectrum",
+      "url": "https://spectrum.ieee.org/voyager-1",
+      "savedAt": "2024-05-10T00:41:51.000Z"
+    },
+    {
+      "id": "23d3111f-759b-4133-a6bf-21944f97a44b",
+      "title": "Visualization Mnemonics for Software Principles - DaedTech",
+      "url": "https://daedtech.com/visualization-mnemonics-for-software-principles/",
+      "savedAt": "2024-05-10T00:30:40.000Z"
+    },
+    {
+      "id": "8ea98ca5-a5c5-45a2-be83-e2ef7d315224",
+      "title": "pal-iii : Digital Equipment Corporation : Free Download, Borrow, and Streaming : Internet Archive",
+      "url": "https://archive.org/details/pal-iii/pal-iii-1/page/n5/mode/2up",
+      "savedAt": "2024-05-10T00:29:45.000Z"
+    },
+    {
+      "id": "f21d24aa-8641-4985-ba94-9ec55f9b1322",
+      "title": "ISP Router Design Mistakes | Brain Baking",
+      "url": "https://brainbaking.com/post/2024/04/isp-router-design-mistakes/",
+      "savedAt": "2024-05-09T22:41:23.000Z"
+    },
+    {
+      "id": "7edca1db-7feb-43c8-8857-144ae15c517f",
+      "title": "Safety and Liveness Properties",
+      "url": "https://www.hillelwayne.com/post/safety-and-liveness/",
+      "savedAt": "2024-05-09T03:13:55.000Z"
+    },
+    {
+      "id": "30163da4-3e39-4625-8e78-1c427a2cfeb5",
+      "title": "Bollards: Why & What · Josh Thompson",
+      "url": "https://josh.works/bollards",
+      "savedAt": "2024-05-05T22:46:57.000Z"
+    },
+    {
+      "id": "0aa84e78-1686-4d8a-88a7-ec45ef2391d0",
+      "title": "How to style React applications while the world burns around us | Herb Caudill",
+      "url": "https://herbcaudill.com/words/20201007-style-react-app",
+      "savedAt": "2024-05-05T22:44:50.000Z"
+    },
+    {
+      "id": "576fa611-8390-4271-9ebf-54d2167e5da7",
+      "title": "Chris's Wiki :: blog/tech/UEFIAndBIOSAndOtherPCTerms",
+      "url": "https://utcc.utoronto.ca/~cks/space/blog/tech/UEFIAndBIOSAndOtherPCTerms",
+      "savedAt": "2024-05-05T14:10:30.000Z"
+    },
+    {
+      "id": "ed85a6a0-ed93-479c-a9f3-6602700bdf4a",
+      "title": "\"Integration tests\" are just vibes • Buttondown",
+      "url": "https://buttondown.email/hillelwayne/archive/integration-tests-are-just-vibes/",
+      "savedAt": "2024-05-05T14:09:48.000Z"
+    },
+    {
+      "id": "015c76e8-cb7e-4dd6-9b81-fe1d4a1ccede",
+      "title": "The Time Linkerd Erased My Load Balancer",
+      "url": "https://matduggan.com/the-time-linkerd-erased-my-load-balancer/",
+      "savedAt": "2024-05-05T14:06:22.000Z"
+    },
+    {
+      "id": "77b3af85-87ac-44a0-9d7c-91211eb3e4b1",
+      "title": "My favorite teacher - by Thorsten Ball - Register Spill",
+      "url": "https://registerspill.thorstenball.com/p/my-favorite-teacher",
+      "savedAt": "2024-05-05T03:35:50.000Z"
+    },
+    {
+      "id": "2ead6777-2898-4a69-8453-1fcff6c555f3",
+      "title": "Why Full Text Search is Hard",
+      "url": "https://transactional.blog/blog/2023-why-full-text-search-is-hard",
+      "savedAt": "2024-05-05T03:26:45.000Z"
+    },
+    {
+      "id": "c3fdceca-83e6-47bb-ac86-36711ab18cb4",
+      "title": "How to Build a $20 Billion Semiconductor Fab",
+      "url": "https://www.construction-physics.com/p/how-to-build-a-20-billion-semiconductor",
+      "savedAt": "2024-05-05T02:13:55.000Z"
+    },
+    {
+      "id": "d4cfd7d9-4561-4b9e-9e93-cfd6e196e1f3",
+      "title": "Do Things and Tell People",
+      "url": "https://mikegrindle.com/posts/self-promotion",
+      "savedAt": "2024-05-04T18:49:28.000Z"
+    },
+    {
+      "id": "38cf3bca-c17a-4c7f-9def-65c5b64f94c7",
+      "title": "Figma’s journey to TypeScript | Figma Blog",
+      "url": "https://www.figma.com/blog/figmas-journey-to-typescript-compiling-away-our-custom-programming-language/",
+      "savedAt": "2024-05-04T17:58:03.000Z"
+    },
+    {
+      "id": "8a60dca0-105b-41aa-8544-5d39b0dfe427",
+      "title": "Study of Historical Code | ℤ→ℤ",
+      "url": "https://ztoz.blog/posts/code-study/",
+      "savedAt": "2024-05-03T02:12:14.000Z"
+    },
+    {
+      "id": "5df4dfa3-7305-4543-a095-7d6be8533b11",
+      "title": "Tracking the Wins",
+      "url": "https://sudorandom.dev/posts/tracking-the-wins/",
+      "savedAt": "2024-05-03T02:11:01.000Z"
+    },
+    {
+      "id": "35465994-2ed6-4c4d-b862-7d2cc7cb13f7",
+      "title": "Abstract Heresies: Statements and Expressions",
+      "url": "https://funcall.blogspot.com/2024/04/statements-and-expressions.html",
+      "savedAt": "2024-05-02T10:12:13.000Z"
+    },
+    {
+      "id": "1f4af28b-53d7-4abe-8730-d07141a80ecb",
+      "title": "Ansible is a Lisp",
+      "url": "https://astrid.tech/2024/05/01/0/ansible-is-a-lisp/",
+      "savedAt": "2024-05-01T22:12:43.000Z"
+    },
+    {
+      "id": "09d2d7a3-d663-4030-9b62-fd4e8e0582db",
+      "title": "Bytecode VMs in surprising places",
+      "url": "https://dubroy.com/blog/bytecode-vms-in-surprising-places/",
+      "savedAt": "2024-04-30T21:31:25.000Z"
+    },
+    {
+      "id": "12a02419-8b5f-4d98-9dbe-2665218e7840",
+      "title": "Constraints on giving feedback. | Irrational Exuberance",
+      "url": "https://lethain.com/constraints-on-giving-feedback/",
+      "savedAt": "2024-04-29T23:34:14.000Z"
+    },
+    {
+      "id": "6095b43b-0e45-4655-8ba6-f4c6b91e91fc",
+      "title": "Inside the Super Nintendo cartridges",
+      "url": "https://fabiensanglard.net/snes_carts/index.html",
+      "savedAt": "2024-04-29T23:22:30.000Z"
+    },
+    {
+      "id": "5c31797b-16f7-4084-bc4e-ca14c9de736b",
+      "title": "Staring into the abyss as a core life skill | benkuhn.net",
+      "url": "https://www.benkuhn.net/abyss/",
+      "savedAt": "2024-04-29T16:11:16.000Z"
+    },
+    {
+      "id": "e9f5d370-10ca-477f-af70-c639fbfaacc5",
+      "title": "Learn one thing at a time | Lawrence Jones",
+      "url": "https://blog.lawrencejones.dev/learn-one-thing/",
+      "savedAt": "2024-04-29T15:34:19.000Z"
+    },
+    {
+      "id": "4c1998ea-518c-4325-979b-c3beab5a51f6",
+      "title": "tsouanas/fmcbook: Matemática Fundacional para Computação: book by Thanos Tsouanas (in portuguese)",
+      "url": "https://github.com/tsouanas/fmcbook",
+      "savedAt": "2024-04-28T04:29:31.000Z"
+    },
+    {
+      "id": "9cff0e58-aff6-4fc6-841b-5695daaca266",
+      "title": "kenjihiranabe/The-Art-of-Linear-Algebra: Graphic notes on Gilbert Strang's \"Linear Algebra for Everyone\"",
+      "url": "https://github.com/kenjihiranabe/The-Art-of-Linear-Algebra",
+      "savedAt": "2024-04-27T16:15:13.000Z"
+    },
+    {
+      "id": "5d82d070-129c-4274-b6fc-f43d54f35860",
+      "title": "Operable Software",
+      "url": "https://ferd.ca/operable-software.html",
+      "savedAt": "2024-04-27T14:41:13.000Z"
+    },
+    {
+      "id": "363ae748-d055-4bb8-ae1a-1d274d45d930",
+      "title": "Finding Fulfillment",
+      "url": "https://longform.asmartbear.com/fulfillment/",
+      "savedAt": "2024-04-27T14:30:05.000Z"
+    },
+    {
+      "id": "729b11e3-8a40-4434-af5f-0d34133e0d43",
+      "title": "Wisdom from Marcus Aurelius - by Gurwinder - The Prism",
+      "url": "https://www.gurwinder.blog/p/wisdom-from-marcus-aurelius",
+      "savedAt": "2024-04-27T02:39:26.000Z"
+    },
+    {
+      "id": "1de49593-cc52-4374-aa30-4b9f6449ef8e",
+      "title": "adam-maj/tiny-gpu: A minimal GPU design in Verilog to learn how GPUs work from the ground up",
+      "url": "https://github.com/adam-maj/tiny-gpu/tree/master",
+      "savedAt": "2024-04-26T16:11:09.000Z"
+    },
+    {
+      "id": "7d57b4f6-d1ab-4e35-adc0-e17e196fc44d",
+      "title": "Biohacking Lite",
+      "url": "https://karpathy.github.io/2020/06/11/biohacking-lite/",
+      "savedAt": "2024-04-26T14:06:54.000Z"
+    },
+    {
+      "id": "176cb673-c4f6-4af1-bb8c-418299a1fe27",
+      "title": "\"Thought loss anxiety\" is the fear of forgetting good ideas due to lack of good record-keeping",
+      "url": "https://feeei.substack.com/p/thought-loss-anxiety-is-the-fear?r=8x3ti",
+      "savedAt": "2024-04-26T03:55:32.000Z"
+    },
+    {
+      "id": "c651c703-045c-4753-bcdd-853680930a53",
+      "title": "Other people’s problems | Seth's Blog",
+      "url": "https://seths.blog/2024/04/other-peoples-problems/",
+      "savedAt": "2024-04-26T03:50:14.000Z"
+    },
+    {
+      "id": "bd067ee7-2b17-4e66-a21e-4015399279a9",
+      "title": "The Man Who Killed Google Search",
+      "url": "https://www.wheresyoured.at/the-men-who-killed-google/",
+      "savedAt": "2024-04-24T02:18:27.000Z"
+    },
+    {
+      "id": "73a1e2be-899b-40e8-9dcd-927130a73fa8",
+      "title": "Good Ideas in Computer Science ・ Daniel Hooper",
+      "url": "https://danielchasehooper.com/posts/good-ideas-in-cs/",
+      "savedAt": "2024-04-23T01:03:15.000Z"
+    },
+    {
+      "id": "215925a4-acc2-433f-96a5-6b6efcdf99a2",
+      "title": "On Opening Essays, Conference Talks, and Jam Jars",
+      "url": "https://maggieappleton.com/openings",
+      "savedAt": "2024-04-22T23:55:48.000Z"
+    },
+    {
+      "id": "8b3527f2-4456-48f8-b7dc-8c8b99acffd2",
+      "title": "Visualizing Algorithms",
+      "url": "https://bost.ocks.org/mike/algorithms/",
+      "savedAt": "2024-04-22T03:31:16.000Z"
+    },
+    {
+      "id": "2749efe4-fb38-45fc-8192-04a3580f594a",
+      "title": "50 Years Later, This Apollo-Era Antenna Still Talks to Voyager 2 - IEEE Spectrum",
+      "url": "https://spectrum.ieee.org/apollo-era-antenna-voyager-2",
+      "savedAt": "2024-04-22T03:31:03.000Z"
+    },
+    {
+      "id": "37f19d26-b139-4b45-a2cd-2a4a1cd9f8d7",
+      "title": "Halo 2 in HD: Pushing the Original Xbox to the Limit – I Code 4 Coffee",
+      "url": "https://icode4.coffee/?p=738",
+      "savedAt": "2024-04-22T03:29:36.000Z"
+    },
+    {
+      "id": "3bb866ba-b91c-40f8-86f8-6da4008001ae",
+      "title": "Parsing and all that",
+      "url": "https://blog.jeffsmits.net/compsci/2024/04/07/parsing-and-all-that/",
+      "savedAt": "2024-04-22T02:56:52.000Z"
+    },
+    {
+      "id": "f995d2fa-4197-4451-83a4-78bb3e38798c",
+      "title": "The Technium: 101 Additional Advices",
+      "url": "https://kk.org/thetechnium/101-additional-advices/",
+      "savedAt": "2024-04-21T23:30:09.000Z"
+    },
+    {
+      "id": "f1484f9a-cafc-4bd5-b084-58a59588df48",
+      "title": "Stop Acting Like You're Famous",
+      "url": "https://ajkprojects.com/stopactinglikeyourefamous",
+      "savedAt": "2024-04-21T23:29:50.000Z"
+    },
+    {
+      "id": "b0c17427-ede6-4e1b-b5af-3499e8751980",
+      "title": "Tips on how to structure your home directory",
+      "url": "https://unixdigest.com/tutorials/tips-on-how-to-structure-your-home-directory.html",
+      "savedAt": "2024-04-21T04:59:39.000Z"
+    },
+    {
+      "id": "303cb624-1b6c-454f-b2b6-6e2abba6a1d6",
+      "title": "The Guide to Stock Options conversations - by Anton Zaides",
+      "url": "https://zaidesanton.substack.com/p/the-guide-to-stock-options-conversations",
+      "savedAt": "2024-04-21T04:55:14.000Z"
+    },
+    {
+      "id": "252e98a1-f52b-4d63-80d3-d05659d60e91",
+      "title": "3 important things I overlooked during code reviews | Piglei",
+      "url": "https://www.piglei.com/articles/3-important-things-I-overlooked-during-cr/",
+      "savedAt": "2024-04-21T04:32:55.000Z"
+    },
+    {
+      "id": "7d8d49d2-0f0c-48f9-9f8f-0862b18e6f0e",
+      "title": "Linux text manipulation",
+      "url": "https://yusuf.fyi/posts/linux-text-manipulation",
+      "savedAt": "2024-04-21T02:33:11.000Z"
+    },
+    {
+      "id": "91ff367e-eb8f-4550-8ea2-dc4b634a480b",
+      "title": "Formal Methods: Just Good Engineering Practice? - Marc's Blog",
+      "url": "https://brooker.co.za/blog/2024/04/17/formal.html",
+      "savedAt": "2024-04-21T02:27:40.000Z"
+    },
+    {
+      "id": "0eba59d5-71f6-41bd-90fc-4074428a3cfd",
+      "title": "oss-security - Make your own backdoor: CFLAGS code injection, Makefile injection, pkg-config",
+      "url": "https://www.openwall.com/lists/oss-security/2024/04/17/3",
+      "savedAt": "2024-04-20T13:36:11.000Z"
+    },
+    {
+      "id": "e47d30d6-1ef1-47f4-9e93-1849a74b4bf0",
+      "title": "Addiction Pathways in the Brain | Science | AAAS",
+      "url": "https://www.science.org/content/blog-post/addiction-pathway-brain",
+      "savedAt": "2024-04-20T13:18:01.000Z"
+    },
+    {
+      "id": "241f7ccd-54d5-4bdf-bc9f-28931be29191",
+      "title": "Incomplete List of Mistakes in the Design of CSS [CSS Working Group Wiki]",
+      "url": "https://wiki.csswg.org/ideas/mistakes",
+      "savedAt": "2024-04-20T13:04:39.000Z"
+    },
+    {
+      "id": "3e6110a3-68f4-4f63-9081-d3fc4b204412",
+      "title": "The Psychology of Liminal Spaces",
+      "url": "https://mikegrindle.com/posts/liminal",
+      "savedAt": "2024-04-20T12:39:30.000Z"
+    },
+    {
+      "id": "93e09a06-e712-438f-abdc-f2172fc335cf",
+      "title": "Why you need a \"WTF Notebook\"",
+      "url": "https://www.simplermachines.com/why-you-need-a-wtf-notebook/",
+      "savedAt": "2024-04-19T04:16:05.000Z"
+    },
+    {
+      "id": "6e5dce4c-3494-40ad-93b2-3631af09870f",
+      "title": "12 Map Happenings that Rocked our World: Part 9 – Map Happenings",
+      "url": "https://maphappenings.com/2024/04/11/story-of-etak/",
+      "savedAt": "2024-04-17T12:16:40.000Z"
+    },
+    {
+      "id": "c809f09f-a1e1-45f6-80c0-a11bde9bb7a3",
+      "title": "What makes concurrency so hard? • Buttondown",
+      "url": "https://buttondown.email/hillelwayne/archive/what-makes-concurrency-so-hard/",
+      "savedAt": "2024-04-17T02:10:39.000Z"
+    },
+    {
+      "id": "9574da13-b75d-48c2-8c6b-89f36ee6fa71",
+      "title": "A Visual Guide to Vision Transformers | MDTURP",
+      "url": "https://blog.mdturp.ch/posts/2024-04-05-visual_guide_to_vision_transformer.html",
+      "savedAt": "2024-04-16T20:59:00.000Z"
+    },
+    {
+      "id": "0fd2490a-70b9-48d0-a810-83adc25c6eb0",
+      "title": "RECOMMENDED DESIGN BOOKS/FILMS – How Design MAKES THE WORLD (The book)",
+      "url": "https://designmtw.com/reading-list/",
+      "savedAt": "2024-04-15T11:39:34.000Z"
+    },
+    {
+      "id": "dc9de0bf-37d4-4e62-a27c-d6ffafeff707",
+      "title": "Double-Entry Bookkeeping as a Directed Graph · Matheus Portela",
+      "url": "https://matheusportela.com/double-entry-bookkeeping-as-a-directed-graph",
+      "savedAt": "2024-04-14T13:54:39.000Z"
+    },
+    {
+      "id": "c5547f4c-90e1-42c2-a013-5370e404b626",
+      "title": "Discrete logic IC CPU | Ivan's blog",
+      "url": "https://qdiv.dev/posts/ccpu/",
+      "savedAt": "2024-04-13T17:01:15.000Z"
+    },
+    {
+      "id": "33a7b35f-888e-487d-8539-152d7a68aff9",
+      "title": "An IRC client in your motherboard | Phillip Tennen",
+      "url": "https://axleos.com/an-irc-client-in-your-motherboard/",
+      "savedAt": "2024-04-13T17:01:06.000Z"
+    },
+    {
+      "id": "8d384f94-fcbe-4963-a98b-41fcdc999f2e",
+      "title": "What makes a great technical blog | notes.eatonphil.com",
+      "url": "https://notes.eatonphil.com/2024-04-10-what-makes-a-great-tech-blog.html",
+      "savedAt": "2024-04-13T16:38:45.000Z"
+    },
+    {
+      "id": "5460510b-3c84-48df-b3d9-7fa4707cb133",
+      "title": "Do you really need IPv4 anymore?",
+      "url": "https://blog.daknob.net/do-you-really-need-ipv4-anymore/",
+      "savedAt": "2024-04-13T16:24:40.000Z"
+    },
+    {
+      "id": "32e829a7-172d-4f96-ac1c-ac31e50eb48d",
+      "title": "How to send progress updates - Slava Akhmechet",
+      "url": "https://www.spakhm.com/updates-howto",
+      "savedAt": "2024-04-13T16:14:55.000Z"
+    },
+    {
+      "id": "39fd6754-966b-4ebd-b232-5e166e80c5d1",
+      "title": "If Inheritance is so bad, why does everyone use it? • Buttondown",
+      "url": "https://buttondown.email/hillelwayne/archive/if-inheritance-is-so-bad-why-does-everyone-use-it/",
+      "savedAt": "2024-04-13T15:45:47.000Z"
+    },
+    {
+      "id": "cd72f844-3782-42cf-bc3d-df2aae6178f1",
+      "title": "How I significantly improved my sleep schedule - Issa Rice",
+      "url": "https://issarice.com/how-i-significantly-improved-my-sleep-schedule",
+      "savedAt": "2024-04-11T04:38:25.000Z"
+    },
+    {
+      "id": "bf795ccc-b2f7-4601-a00e-b10eb78e0fbd",
+      "title": "My favorite technical blogs",
+      "url": "https://lists.eatonphil.com/blogs.html",
+      "savedAt": "2024-04-09T01:38:20.000Z"
+    },
+    {
+      "id": "ff1d05f1-bef4-4715-a22e-a1a4591c7983",
+      "title": "My new home server · g/ianguid/o.today",
+      "url": "https://g7o.today/posts/my_new_home_server/",
+      "savedAt": "2024-04-07T15:17:03.000Z"
+    },
+    {
+      "id": "4bb4fa6e-9bdb-4ff5-855b-6d237fb64f3f",
+      "title": "Garbage Collection for Systems Programmers",
+      "url": "https://bitbashing.io/gc-for-systems-programmers.html",
+      "savedAt": "2024-04-06T20:57:11.000Z"
+    },
+    {
+      "id": "778e9417-0bf8-463c-a535-e46ef8ea0595",
+      "title": "Optimizing Javascript for fun and for profit",
+      "url": "https://romgrk.com/posts/optimizing-javascript",
+      "savedAt": "2024-04-06T20:57:06.000Z"
+    },
+    {
+      "id": "9b116c50-a7d0-4474-a605-970e275598d5",
+      "title": "Here is why vim uses hjkl keys as arrow keys",
+      "url": "https://catonmat.net/why-vim-uses-hjkl-as-arrow-keys",
+      "savedAt": "2024-04-06T20:39:01.000Z"
+    },
+    {
+      "id": "19d17ca9-8aac-4fee-ada1-c723cf4b448f",
+      "title": "Why the “Eisenhower matrix” is a fantastic productivity hack - Big Think",
+      "url": "https://bigthink.com/the-learning-curve/why-the-eisenhower-matrix-is-a-fantastic-productivity-hack/",
+      "savedAt": "2024-04-06T14:02:33.000Z"
+    },
+    {
+      "id": "556d468d-208a-433c-92e4-e8940e20ca23",
+      "title": "My list of challenging software projects some programmers should try | andreinc",
+      "url": "https://www.andreinc.net/2024/03/28/programming-projects-ideas",
+      "savedAt": "2024-04-05T20:56:10.000Z"
+    },
+    {
+      "id": "608ab40e-d71b-4466-851b-413bd977c8af",
+      "title": "Building My First Homelab Server Rack · mtlynch.io",
+      "url": "https://mtlynch.io/building-first-homelab-rack/",
+      "savedAt": "2024-04-05T15:19:40.000Z"
+    },
+    {
+      "id": "cfbc2e74-f36d-4bdc-871a-b954e8b5f74f",
+      "title": "The hearts of the Super Nintendo",
+      "url": "https://fabiensanglard.net/snes_hearts/index.html",
+      "savedAt": "2024-04-05T15:09:39.000Z"
+    },
+    {
+      "id": "93f8290a-9a63-4086-9d49-74f1b46742d5",
+      "title": "great_tables - The Design Philosophy of Great Tables",
+      "url": "https://posit-dev.github.io/great-tables/blog/design-philosophy/",
+      "savedAt": "2024-04-05T03:45:45.000Z"
+    },
+    {
+      "id": "3d0dc0c1-ae2b-483d-953a-0844b5de2374",
+      "title": "Advice to Young People, The Lies I Tell Myself - jxnl.co",
+      "url": "https://jxnl.co/writing/2024/06/01/advice-to-young-people/",
+      "savedAt": "2024-04-05T03:16:01.000Z"
+    },
+    {
+      "id": "c27750d4-dc67-459e-8489-547b809c5a8d",
+      "title": "Visualizing the ARM64 Instruction Set | Zachary Yedidia's blog",
+      "url": "https://zyedidia.github.io/blog/posts/6-arm64/",
+      "savedAt": "2024-04-05T03:07:30.000Z"
+    },
+    {
+      "id": "490c0473-33c9-4717-829c-cb4d16c6ea2f",
+      "title": "lizrice/containers-from-scratch: Writing a container in a few lines of Go code, as seen at DockerCon 2017 and on O'Reilly Safari",
+      "url": "https://github.com/lizrice/containers-from-scratch",
+      "savedAt": "2024-04-05T01:39:40.000Z"
+    },
+    {
+      "id": "3bbedc39-6c67-4480-a48d-bd3c714e38fe",
+      "title": "Subroutine calls in the ancient world, before computers had stacks or heaps - The Old New Thing",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20240401-00/?p=109599",
+      "savedAt": "2024-04-04T22:15:18.000Z"
+    },
+    {
+      "id": "80dde9f0-1e02-42d8-a264-d3b7f2df6030",
+      "title": "You Don’t Need a Writing Ritual",
+      "url": "https://mikegrindle.com/posts/writuals",
+      "savedAt": "2024-04-04T01:36:18.000Z"
+    },
+    {
+      "id": "52986e27-78a8-4719-b939-2ac0d554ebd2",
+      "title": "Book list for streetfighting computer scientists - dankwiki, the wiki of nick black",
+      "url": "https://nick-black.com/dankwiki/index.php/Book_list_for_streetfighting_computer_scientists",
+      "savedAt": "2024-04-03T22:08:58.000Z"
+    },
+    {
+      "id": "e629dd88-798b-49d8-8543-5ee96c83e672",
+      "title": "Feynman Algorithm",
+      "url": "https://wiki.c2.com/?FeynmanAlgorithm=",
+      "savedAt": "2024-04-03T16:15:07.000Z"
+    },
+    {
+      "id": "bc1748f9-c8ae-42ea-b63c-c3c5a252083d",
+      "title": "Everything I Know About SSDs 2019",
+      "url": "https://kcall.co.uk/ssd/index.html",
+      "savedAt": "2024-04-02T21:30:41.000Z"
+    },
+    {
+      "id": "dc77ac12-ff31-4ff2-96c1-deff7fce0a02",
+      "title": "Type system of the React compiler",
+      "url": "https://www.recompiled.dev/blog/type-system/",
+      "savedAt": "2024-03-31T05:37:18.000Z"
+    },
+    {
+      "id": "17f51bf9-8d7f-4c4c-bc24-76dc7580f6f8",
+      "title": "Basic Things",
+      "url": "https://matklad.github.io/2024/03/22/basic-things.html",
+      "savedAt": "2024-03-31T05:32:29.000Z"
+    },
+    {
+      "id": "9531df2f-905a-4b88-bebe-a29f53832cc7",
+      "title": "Why Mathematics is Boring | The n-Category Café",
+      "url": "https://golem.ph.utexas.edu/category/2024/03/why_mathematics_is_boring_1.html",
+      "savedAt": "2024-03-29T22:52:02.000Z"
+    },
+    {
+      "id": "c1f0b71c-fd50-4f85-88d1-78048bd29005",
+      "title": "The problem with invariants is that they change over time – Surfing Complexity",
+      "url": "https://surfingcomplexity.blog/2024/03/26/the-problem-with-invariants-is-that-they-change-over-time/",
+      "savedAt": "2024-03-29T03:16:53.000Z"
+    },
+    {
+      "id": "122e3a2a-db4b-4341-8414-b677979dc012",
+      "title": "Think real hard | benkuhn.net",
+      "url": "https://www.benkuhn.net/thinkrealhard/",
+      "savedAt": "2024-03-29T03:15:37.000Z"
+    },
+    {
+      "id": "99d20e00-2566-4d97-be81-1b174ce892d6",
+      "title": "Be impatient | benkuhn.net",
+      "url": "https://www.benkuhn.net/impatient/",
+      "savedAt": "2024-03-29T03:14:38.000Z"
+    },
+    {
+      "id": "7dce36c9-b91c-4984-9fde-3c09e423208b",
+      "title": "Things you're allowed to do",
+      "url": "https://milan.cvitkovic.net/writing/things_youre_allowed_to_do/",
+      "savedAt": "2024-03-29T03:09:15.000Z"
+    },
+    {
+      "id": "d995cdc9-8f28-4e17-b48f-622ae4013a90",
+      "title": "Deterministic Simulation Testing | Resonate",
+      "url": "https://blog.resonatehq.io/deterministic-simulation-testing",
+      "savedAt": "2024-03-29T02:24:39.000Z"
+    },
+    {
+      "id": "ceb70ee8-285b-4745-87a9-eafd055de511",
+      "title": "Linux Crisis Tools",
+      "url": "https://www.brendangregg.com/blog/2024-03-24/linux-crisis-tools.html",
+      "savedAt": "2024-03-28T22:17:05.000Z"
+    },
+    {
+      "id": "7eb669fa-1427-4038-9d3e-702d65c385f1",
+      "title": "Sega Saturn Architecture | A Practical Analysis",
+      "url": "https://www.copetti.org/writings/consoles/sega-saturn/",
+      "savedAt": "2024-03-28T22:16:52.000Z"
+    },
+    {
+      "id": "4275d1d4-d240-43d8-80d0-bb8b679a796b",
+      "title": "ADHD Productivity Fundamentals — 0xFF",
+      "url": "https://0xff.nu/adhd-productivity-fundamentals",
+      "savedAt": "2024-03-28T22:10:53.000Z"
+    },
+    {
+      "id": "ee5af14a-56a5-4fce-b5a2-90fb7011a902",
+      "title": "Tech Independence | Derek Sivers",
+      "url": "https://sive.rs/ti",
+      "savedAt": "2024-03-28T19:17:10.000Z"
+    },
+    {
+      "id": "02c8bfb2-02b3-44fc-ba3b-000092b8e070",
+      "title": "So you think you want to write a deterministic hypervisor?",
+      "url": "https://antithesis.com/blog/deterministic_hypervisor/",
+      "savedAt": "2024-03-26T19:07:04.000Z"
+    },
+    {
+      "id": "86707886-1228-4d5e-8a28-765b42417fba",
+      "title": "#7 - On Keeping a Notebook | Kadambari",
+      "url": "https://kadambari.bearblog.dev/7-on-keeping-a-notebook/",
+      "savedAt": "2024-03-26T13:50:21.000Z"
+    },
+    {
+      "id": "3782c435-f45f-4c4b-9137-e88dd7775d73",
+      "title": "Why do regexes use `$` and `^` as line anchors? • Buttondown",
+      "url": "https://buttondown.email/hillelwayne/archive/why-do-regexes-use-and-as-line-anchors/",
+      "savedAt": "2024-03-26T04:47:10.000Z"
+    },
+    {
+      "id": "01623134-831d-46a1-b402-6546f64d72e0",
+      "title": "The Beginner’s Guide to Queuing theory | Qminder",
+      "url": "https://www.qminder.com/blog/queue-management/queuing-theory-guide/",
+      "savedAt": "2024-03-25T01:41:11.000Z"
+    },
+    {
+      "id": "7233227f-5cbd-43ed-822c-03f1f99d3dae",
+      "title": "Fail Forward With Kindness / marcel.io",
+      "url": "https://marcel.io/posts/fail-forward-with-kindness",
+      "savedAt": "2024-03-24T19:05:16.000Z"
+    },
+    {
+      "id": "c80e4ecd-c12e-472b-8cab-11f5e23c1cae",
+      "title": "Doing weeknotes",
+      "url": "https://doingweeknotes.com",
+      "savedAt": "2024-03-24T18:31:04.000Z"
+    },
+    {
+      "id": "a977ccae-0fc4-46dd-a6df-f4ebd3bdd01b",
+      "title": "myme.no - Focus by Automation",
+      "url": "https://myme.no/posts/2024-03-19-focus-by-automation.html",
+      "savedAt": "2024-03-23T22:10:50.000Z"
+    },
+    {
+      "id": "7e289521-33f9-4c08-b5d1-8e39b4dfb34a",
+      "title": "Decision logs",
+      "url": "https://vitonsky.net/blog/2024/03/20/decision-logs/",
+      "savedAt": "2024-03-23T21:38:07.000Z"
+    },
+    {
+      "id": "5bcf0b57-1ca2-4e60-97d4-11461da45dd2",
+      "title": "Design is an Island - by Kent Beck",
+      "url": "https://tidyfirst.substack.com/p/design-is-an-island",
+      "savedAt": "2024-03-23T14:51:20.000Z"
+    },
+    {
+      "id": "3cd3a8c6-e94a-4255-b6c4-b099b4b277bf",
+      "title": "articles/internals_of_the_async_await_pattern_from_first_principles.md at master · Dobiasd/articles",
+      "url": "https://github.com/Dobiasd/articles/blob/master/internals_of_the_async_await_pattern_from_first_principles.md",
+      "savedAt": "2024-03-20T00:35:39.000Z"
+    },
+    {
+      "id": "a8fb643a-258d-4788-89a9-e2175ce65941",
+      "title": "How to Start Google",
+      "url": "https://paulgraham.com/google.html",
+      "savedAt": "2024-03-20T00:29:22.000Z"
+    },
+    {
+      "id": "e5c5a873-21a6-4d88-ab6a-1f78b3df6021",
+      "title": "The Mechanics of Proof — The Mechanics of Proof, by Heather Macbeth",
+      "url": "https://hrmacbeth.github.io/math2001/index.html",
+      "savedAt": "2024-03-20T00:17:40.000Z"
+    },
+    {
+      "id": "c44db33d-f21b-4c30-8c4a-7bbcb8f94028",
+      "title": "Dobiasd/articles: thoughts on programming",
+      "url": "https://github.com/Dobiasd/articles",
+      "savedAt": "2024-03-19T20:24:28.000Z"
+    },
+    {
+      "id": "f0f7139a-4317-4a2f-984d-a8560752e25f",
+      "title": "Leadership requires taking some risk. | Irrational Exuberance",
+      "url": "https://lethain.com/leadership-requires-risk/",
+      "savedAt": "2024-03-18T23:50:35.000Z"
+    },
+    {
+      "id": "1c5e3328-5181-44ac-95cd-99d7db1b2f46",
+      "title": "Take Ownership of Your Future Self",
+      "url": "https://hbr.org/2020/08/take-ownership-of-your-future-self",
+      "savedAt": "2024-03-18T22:53:32.000Z"
+    },
+    {
+      "id": "2ff0bd1f-7280-4456-ad4a-2f1e9e8eaf12",
+      "title": "My favorite essays of life advice | benkuhn.net",
+      "url": "https://www.benkuhn.net/weeklyessays/",
+      "savedAt": "2024-03-18T11:13:19.000Z"
+    },
+    {
+      "id": "48b1acf0-7769-4103-b16e-927b976db156",
+      "title": "How web bloat impacts users with slow devices",
+      "url": "https://danluu.com/slow-device/",
+      "savedAt": "2024-03-18T09:19:05.000Z"
+    },
+    {
+      "id": "7f736c5d-144c-4348-8c93-f91d81c0bc12",
+      "title": "Be Well Tuned",
+      "url": "http://bewelltuned.com",
+      "savedAt": "2024-03-17T13:02:25.000Z"
+    },
+    {
+      "id": "a4411486-6ca8-4351-b9db-eadb074c9cf7",
+      "title": "Redefining Observability | Hazel Weakly",
+      "url": "https://hazelweakly.me/blog/redefining-observability/",
+      "savedAt": "2024-03-16T20:51:57.000Z"
+    },
+    {
+      "id": "6418e5ae-28e6-4141-a817-88c10a016c5a",
+      "title": "What are 1-bit LLMs?. The Era of 1-bit LLMs with BitNet b1.58 | by Mehul Gupta | Data Science in your pocket | Mar, 2024 | Medium",
+      "url": "https://medium.com/data-science-in-your-pocket/what-are-1-bit-llms-3f2ae4b40fdf",
+      "savedAt": "2024-03-16T20:46:13.000Z"
+    },
+    {
+      "id": "bce17d14-7c7f-4e0e-b97b-bf1a281c3889",
+      "title": "Checking Causal Consistency of MongoDB",
+      "url": "https://muratbuffalo.blogspot.com/2024/03/checking-causal-consistency-of-mongodb.html",
+      "savedAt": "2024-03-16T20:41:12.000Z"
+    },
+    {
+      "id": "2194f3ae-9ae8-4dc2-adea-02332cdba2a7",
+      "title": "First month on a database team | notes.eatonphil.com",
+      "url": "https://notes.eatonphil.com/2024-03-11-first-month-on-a-database-team.html",
+      "savedAt": "2024-03-16T13:28:29.000Z"
+    },
+    {
+      "id": "a1d36868-862d-4168-8a25-671632a63505",
+      "title": "How Figma's Databases Team Lived to Tell the Scale | Figma Blog",
+      "url": "https://www.figma.com/blog/how-figmas-databases-team-lived-to-tell-the-scale/",
+      "savedAt": "2024-03-16T11:48:02.000Z"
+    },
+    {
+      "id": "c3ab46f6-0f44-4049-b26a-0e139983b49c",
+      "title": "Nix is a better Docker image builder than Docker's image builder - Xe Iaso",
+      "url": "https://xeiaso.net/talks/2024/nix-docker-build/",
+      "savedAt": "2024-03-16T05:31:41.000Z"
+    },
+    {
+      "id": "9abc7b84-c4c0-47b2-aafb-3a862ba42871",
+      "title": "Learning from DNA: a grand challenge in biology · Hazy Research",
+      "url": "https://hazyresearch.stanford.edu/blog/2024-03-14-evo",
+      "savedAt": "2024-03-16T05:16:26.000Z"
+    },
+    {
+      "id": "016f5f75-836c-4af9-9d63-5eaaef9de5b1",
+      "title": "40 years of programming",
+      "url": "https://liw.fi/40/",
+      "savedAt": "2024-03-16T03:51:31.000Z"
+    },
+    {
+      "id": "265400be-b7fe-44ad-b987-c49d22049f5a",
+      "title": "My weekly review habit | benkuhn.net",
+      "url": "https://www.benkuhn.net/weekly/",
+      "savedAt": "2024-03-14T12:14:52.000Z"
+    },
+    {
+      "id": "f2a8b581-45dd-489d-a8c4-a92b23ab5c25",
+      "title": "Create More Than You Consume if You Want to Worry Less and Feel More Fulfilled — OMAR ITANI",
+      "url": "https://www.omaritani.com/blog/create-more-consume-less",
+      "savedAt": "2024-03-14T02:53:57.000Z"
+    },
+    {
+      "id": "60182887-2846-4aea-8b25-4f3e18a99bb1",
+      "title": "SQLite Internals: Pages & B-trees · The Fly Blog",
+      "url": "https://fly.io/blog/sqlite-internals-btree/",
+      "savedAt": "2024-03-13T19:02:50.000Z"
+    },
+    {
+      "id": "8af3a290-d948-4684-89b5-d6bc4ee1847e",
+      "title": "Breaking Down Tasks - Jacob Kaplan-Moss",
+      "url": "https://jacobian.org/2024/mar/11/breaking-down-tasks/",
+      "savedAt": "2024-03-13T11:18:10.000Z"
+    },
+    {
+      "id": "a987df97-e328-40b9-8b78-9a0f7d006d74",
+      "title": "CAP is Good, Actually • Buttondown",
+      "url": "https://buttondown.email/jaffray/archive/cap-is-good-actually/",
+      "savedAt": "2024-03-13T11:16:17.000Z"
+    },
+    {
+      "id": "99d8d10f-002f-4a53-80c5-d90adcb5a037",
+      "title": "“No” Is a Good Default Answer",
+      "url": "https://mikegrindle.com/posts/saying-no",
+      "savedAt": "2024-03-12T11:50:24.000Z"
+    },
+    {
+      "id": "ab3f9bbf-8571-44eb-a390-e61e1e55b657",
+      "title": "Technical Skills Are Overrated. Focus on Your Attitude.",
+      "url": "https://www.scarletink.com/p/technical-skills-are-overrated-focus-on-your-attitude",
+      "savedAt": "2024-03-10T17:52:37.000Z"
+    },
+    {
+      "id": "90cfb6e9-10b2-432a-ac03-4c41359e9e7f",
+      "title": "Vector Clocks Explained",
+      "url": "https://riak.com/why-vector-clocks-are-easy/",
+      "savedAt": "2024-03-10T00:32:28.000Z"
+    },
+    {
+      "id": "90b69fd1-0d5e-446a-90a1-b4082b063f52",
+      "title": "POV: I'm on my third coffee and you just asked me how the internet works",
+      "url": "https://www.youtube.com/watch?t=8s&v=jjKFXlFNR4E",
+      "savedAt": "2024-03-09T22:56:58.000Z"
+    },
+    {
+      "id": "7a6ff909-f168-4916-9fc0-a40d99260f74",
+      "title": "How HEAD works in git",
+      "url": "https://jvns.ca/blog/2024/03/08/how-head-works-in-git/",
+      "savedAt": "2024-03-09T14:47:19.000Z"
+    },
+    {
+      "id": "0186be0c-adcb-46ce-8583-3b789afe4f3b",
+      "title": "How I read a research paper",
+      "url": "https://muratbuffalo.blogspot.com/2013/07/how-i-read-research-paper.html",
+      "savedAt": "2024-03-09T14:41:29.000Z"
+    },
+    {
+      "id": "2181dddb-3f5d-4ad5-befa-6744e203206e",
+      "title": "Your attitude determines your success",
+      "url": "https://muratbuffalo.blogspot.com/2021/03/your-attitude-determines-your-success.html",
+      "savedAt": "2024-03-09T13:52:57.000Z"
+    },
+    {
+      "id": "343bfb5e-41b3-4d05-a6db-86de3ec4c97e",
+      "title": "Learning a technical subject",
+      "url": "https://muratbuffalo.blogspot.com/2021/12/learning-technical-subject.html",
+      "savedAt": "2024-03-09T13:02:25.000Z"
+    },
+    {
+      "id": "d7268e10-70d3-429c-ac53-9ce48855e4b3",
+      "title": "Why I blog",
+      "url": "https://muratbuffalo.blogspot.com/2024/03/why-i-blog.html",
+      "savedAt": "2024-03-08T22:01:59.000Z"
+    },
+    {
+      "id": "ad07ff84-dd7b-11ee-a4b2-9f3f6b58409d",
+      "title": "Coordination Avoidance in Database Systems",
+      "url": "https://storage.googleapis.com/omnivore/u/adf85aa6-dd7b-11ee-803f-bbe769353f58/p185-bailis.pdf?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=omnivore-production%40appspot.gserviceaccount.com%2F20240520%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240520T113828Z&X-Goog-Expires=14400&X-Goog-SignedHeaders=host&X-Goog-Signature=721c246a7760751bd90919fa85a9a3b23b561bcca9d0b8ecbe10cef37a2894ac869564e00a91891506593a7cda8b6d61c4c852187136d1edfd14917861418358ce36b63a2d3be7a5b1e6510e4a758fd523cf852cfaa45529eb7e6260f335303b8c45529d4f7d87b0613180dc75b3a2a0efbfdc6c0197602cdc01bf599abdc9ff8cfb0de80f066c6dc4dffbfc843ea1144618398b3ad5b3fdcfacc3d8c32cc25505b05b3367926773bc93c0d957120e2ebb637bccc74d21e47c5ed1dd7635deb75c875f36584571abc48cec5f7673f2c010130a2342063762b7bd78088e182ff4ff807edf8e0cb15cab0167282968c492607e198d8582924b90170e4961712c4c",
+      "savedAt": "2024-03-08T18:42:54.000Z"
+    },
+    {
+      "id": "4738578d-0072-4ffa-9dc2-6ff8b1a2932d",
+      "title": "How the First Transistor Worked - IEEE Spectrum",
+      "url": "https://spectrum.ieee.org/transistor-history",
+      "savedAt": "2024-03-08T12:25:43.000Z"
+    },
+    {
+      "id": "deddf57b-dae4-4fe9-9b88-c941862000b7",
+      "title": "The checklist manifesto (Dr. Atul Gawande, 2009)",
+      "url": "https://muratbuffalo.blogspot.com/2024/01/the-checklist-manifesto-dr-atul-gawande.html",
+      "savedAt": "2024-03-08T00:08:30.000Z"
+    },
+    {
+      "id": "3c2eb792-a250-4541-9bc8-5e1b8275b9c3",
+      "title": "The CAP Theorem. The Bad, the Bad, & the Ugly | Dominik Tornow",
+      "url": "https://blog.dtornow.com/the-cap-theorem.-the-bad-the-bad-the-ugly/",
+      "savedAt": "2024-03-07T12:57:34.000Z"
+    },
+    {
+      "id": "1c089b8a-1868-4aee-bf17-cc206f7b9709",
+      "title": "O Juro é negativo após 2008 - by 🟩🟩Trezoitão🟩🟩",
+      "url": "https://amoedo.substack.com/p/o-juro-e-negativo-apos-2008",
+      "savedAt": "2024-03-06T21:31:36.000Z"
+    },
+    {
+      "id": "52302567-88fd-431d-8412-d3a3030b1839",
+      "title": "Why (and how) to read books | notes.eatonphil.com",
+      "url": "https://notes.eatonphil.com/why-and-how-to-read-books.html",
+      "savedAt": "2024-03-05T10:51:49.000Z"
+    },
+    {
+      "id": "9efdc5c3-7a96-4bb1-a377-70967e1a3bc0",
+      "title": "Reverse Engineering Protobuf Definitions From Compiled Binaries",
+      "url": "https://arkadiyt.com/2024/03/03/reverse-engineering-protobuf-definitiions-from-compiled-binaries/",
+      "savedAt": "2024-03-05T00:00:38.000Z"
+    },
+    {
+      "id": "11e26938-8dc5-474d-a66f-0b809df523b4",
+      "title": "Anatomy of a NixOS Config - unmoved centre",
+      "url": "https://unmovedcentre.com/technology/2024/02/24/anatomy-of-a-nixos-config.html",
+      "savedAt": "2024-03-04T16:18:42.000Z"
+    },
+    {
+      "id": "7e302f76-de4c-44e1-be43-8ee8d0368c1b",
+      "title": "Paul Butler – The hater’s guide to Kubernetes",
+      "url": "https://paulbutler.org/2024/the-haters-guide-to-kubernetes/",
+      "savedAt": "2024-03-04T12:25:44.000Z"
+    },
+    {
+      "id": "675ccc98-93a4-4ae2-857a-acdda48ddb28",
+      "title": "A Deep Dive into the Underlying Architecture of Groq's LPU",
+      "url": "https://codeconfessions.substack.com/p/groq-lpu-design",
+      "savedAt": "2024-03-04T12:25:23.000Z"
+    },
+    {
+      "id": "b8dfcaf7-ed22-4314-93ab-7244c826ae8c",
+      "title": "Byte Interviews the Apple Lisa Dev Team (1983)",
+      "url": "https://computeradsfromthepast.substack.com/p/byte-interviews-the-apple-lisa-dev",
+      "savedAt": "2024-03-04T12:24:27.000Z"
+    },
+    {
+      "id": "83badfff-41dc-43af-9675-85bd1acbe088",
+      "title": "Internet gardening | James' Coffee Blog",
+      "url": "https://jamesg.blog/2024/03/04/internet-gardening/",
+      "savedAt": "2024-03-04T12:10:58.000Z"
+    },
+    {
+      "id": "69cb27d1-4367-4c90-b233-4edb18b425cf",
+      "title": "Airfoil – Bartosz Ciechanowski",
+      "url": "https://ciechanow.ski/airfoil/",
+      "savedAt": "2024-03-03T19:43:14.000Z"
+    },
+    {
+      "id": "419d6c07-5f12-4944-a28a-55647d7ba589",
+      "title": "Inside the miracle of modern chip manufacturing",
+      "url": "https://ig.ft.com/microchips/",
+      "savedAt": "2024-03-03T19:29:45.000Z"
+    },
+    {
+      "id": "25c8c4d8-f62d-4667-8c17-7879bd51a328",
+      "title": "How User Groups Made Software Reuse a Reality | ℤ→ℤ",
+      "url": "https://ztoz.blog/posts/user-group-reuse/",
+      "savedAt": "2024-03-03T18:29:41.000Z"
+    },
+    {
+      "id": "779f4054-f785-42ad-92d4-14232d46fd9b",
+      "title": "My thoughts on writing a Minecraft server from scratch (in Bash)",
+      "url": "https://sdomi.pl/weblog/15-witchcraft-minecraft-server-in-bash/",
+      "savedAt": "2024-03-02T16:03:18.000Z"
+    },
+    {
+      "id": "115435b4-68bf-4cdf-b878-290fc9b1c08a",
+      "title": "Building a Scalable Accounting Ledger",
+      "url": "https://scratchdata.com/blog/building-a-ledger/",
+      "savedAt": "2024-03-02T12:41:54.000Z"
+    },
+    {
+      "id": "aa2100d9-0601-44d4-a377-93c3f24bd1a1",
+      "title": "Learn CSS Layout The Pedantic Way",
+      "url": "https://book.mixu.net/css/",
+      "savedAt": "2024-03-01T22:31:40.000Z"
+    },
+    {
+      "id": "bca1c5c5-edba-4b98-b1dd-68e10ec64006",
+      "title": "Salary Negotiation: Make More Money, Be More Valued | Kalzumeus Software",
+      "url": "https://www.kalzumeus.com/2012/01/23/salary-negotiation/",
+      "savedAt": "2024-03-01T15:19:57.000Z"
+    },
+    {
+      "id": "074ff1d5-6691-4bfa-b2f4-418688d4e302",
+      "title": "Understanding GPU caches – RasterGrid",
+      "url": "https://www.rastergrid.com/blog/gpu-tech/2021/01/understanding-gpu-caches/",
+      "savedAt": "2024-03-01T01:03:57.000Z"
+    },
+    {
+      "id": "a0c61427-40fa-41c1-86e3-17cab7794957",
+      "title": "Demystifying GPUs for CPU-centric programmers | Medium",
+      "url": "https://medium.com/@penberg/demystifying-gpus-for-cpu-centric-programmers-e24934a620f1",
+      "savedAt": "2024-03-01T01:03:50.000Z"
+    },
+    {
+      "id": "2111a84b-a6b6-4aa3-842b-ab95b5bf2d12",
+      "title": "OBTF Follow-up",
+      "url": "https://mikegrindle.com/posts/obtf-follow-up",
+      "savedAt": "2024-02-29T15:43:07.000Z"
+    },
+    {
+      "id": "e0f8d006-31ec-4df6-ba2c-45996827fffd",
+      "title": "No one can teach you to have conviction | benkuhn.net",
+      "url": "https://www.benkuhn.net/conviction/",
+      "savedAt": "2024-02-29T10:35:39.000Z"
+    },
+    {
+      "id": "b07e0c71-c22e-4c77-ab9c-c75b81f6a199",
+      "title": "Shape Up: Stop Running in Circles and Ship Work that Matters",
+      "url": "https://basecamp.com/shapeup",
+      "savedAt": "2024-02-28T12:19:52.000Z"
+    },
+    {
+      "id": "a5d1741f-c552-4f79-9063-c65e10e07b8a",
+      "title": "How I backup | Derek Sivers",
+      "url": "https://sive.rs/backup",
+      "savedAt": "2024-02-28T12:19:20.000Z"
+    },
+    {
+      "id": "c1136ce1-8da3-44c3-8fe5-aa1043bcb4b2",
+      "title": "Job titles are bullshit · Jamie Tanna | Software Engineer",
+      "url": "https://www.jvt.me/posts/2024/02/26/job-titles-bullshit/",
+      "savedAt": "2024-02-26T22:34:02.000Z"
+    },
+    {
+      "id": "dfcbefff-ae9d-4135-bd0f-2e6ef4facf87",
+      "title": "How to change a system (18 ways) – Changeology",
+      "url": "https://www.enablingchange.com.au/blog/strategy-2/how-to-change-a-system/",
+      "savedAt": "2024-02-26T22:05:52.000Z"
+    },
+    {
+      "id": "ed1208e7-eab0-4977-a3d0-2c43b7203132",
+      "title": "Earth is becoming sentient — Steph Ango",
+      "url": "https://stephango.com/earth",
+      "savedAt": "2024-02-26T21:57:33.000Z"
+    },
+    {
+      "id": "754366b8-4ad0-42dc-940b-ef228b6f0d69",
+      "title": "2024-02-25 a history of the tty",
+      "url": "https://computer.rip/2024-02-25-a-history-of-the-tty.html",
+      "savedAt": "2024-02-26T11:24:31.000Z"
+    },
+    {
+      "id": "da979f22-4e08-4e5b-8055-019f9439aeb2",
+      "title": "Website Refresh 2023",
+      "url": "https://ped.ro/writing/website-refresh-2023",
+      "savedAt": "2024-02-25T22:10:16.000Z"
+    },
+    {
+      "id": "2daa3fdc-d406-11ee-a9d7-9bcb3850f82a",
+      "title": "Nobody Ever Gets Credit for Fixing Problems that Never Happened",
+      "url": "https://storage.googleapis.com/omnivore/u/2f34dd4e-d406-11ee-9592-ef1a5d79beaf/RepenningSterman_CMR_su01_.pdf?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=omnivore-production%40appspot.gserviceaccount.com%2F20240520%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240520T113828Z&X-Goog-Expires=14400&X-Goog-SignedHeaders=host&X-Goog-Signature=3d21cf427b13825ffcd714d45ecb1b674901d61891fd541fd41051825d181d549d2bdb3f509d808243bd10d117207aac4c157a436f8dc18ee92dbab27cf854cf165d6c7960feb76392a6ed805d8c65028b73db69ed103a21a719fc863a11e1a5d0182b5cd2855aa4001c411c33ae46ee3f1220006de4c2f13f1e5187c0292e3a315c86878ebc4909b287eb5d612ed4fbbf88af46e22b388797665fd25a4dc9a28450c259dbd36d081a2ca2028ef18f96ffda8d6a8427f79ca08b173a244a75e546e964cb4d9cded4521d9b4c9a7f889aaa068cc7dd7179e3ae5cd32367bcb29e92b87d26902ee9deac0b26a8f3880e26923292d162c962afb6e8699b3524422e",
+      "savedAt": "2024-02-25T17:49:12.000Z"
+    },
+    {
+      "id": "facff966-5f97-4117-9734-8262ddcd6692",
+      "title": "Roman Jakobson : The Functions of Language / Signo - Applied Semiotics Theories",
+      "url": "http://www.signosemio.com/jakobson/functions-of-language.asp",
+      "savedAt": "2024-02-25T17:13:46.000Z"
+    },
+    {
+      "id": "b8f288ed-847f-42d0-b93c-faa8b0b9f043",
+      "title": "Haskell for all: Unification-free (\"keyword\") type checking",
+      "url": "https://www.haskellforall.com/2024/02/unification-free-keyword-type-checking.html",
+      "savedAt": "2024-02-25T16:22:30.000Z"
+    },
+    {
+      "id": "682c96c3-08aa-4c7a-b0a6-b654a250adcc",
+      "title": "Compiler Theory and Reactivity",
+      "url": "https://www.recompiled.dev/blog/ssa/",
+      "savedAt": "2024-02-24T14:27:34.000Z"
+    },
+    {
+      "id": "f72019a4-42cb-4c31-8c54-3fa1505c8778",
+      "title": "ego",
+      "url": "https://sigilwen.ca/ego.html",
+      "savedAt": "2024-02-24T14:18:21.000Z"
+    },
+    {
+      "id": "ebf1a539-64df-4149-bb59-a1ad235b45c1",
+      "title": "Build your own Database Index: part 1",
+      "url": "https://dx13.co.uk/articles/2023/12/02/byo-index-pt1/",
+      "savedAt": "2024-02-24T01:02:50.000Z"
+    },
+    {
+      "id": "95968dee-1a01-40af-a70b-2895e6b148d2",
+      "title": "williamdemeo/TypeFunc: Resources for type theory, functional programming, etc.",
+      "url": "https://github.com/williamdemeo/TypeFunc",
+      "savedAt": "2024-02-23T12:21:40.000Z"
+    },
+    {
+      "id": "6830458f-ce2d-462c-a6be-dc6de333424f",
+      "title": "How MOSFETS Work - Unravel the Mysteries of How mosfets Work!",
+      "url": "https://www.youtube.com/watch?v=AwRJsze_9m4",
+      "savedAt": "2024-02-22T00:53:42.000Z"
+    },
+    {
+      "id": "210ff6b6-8bf8-4e97-9619-947db2482f1c",
+      "title": "What I Wish Someone Had Told Me - Sam Altman",
+      "url": "https://blog.samaltman.com/what-i-wish-someone-had-told-me",
+      "savedAt": "2024-02-21T13:14:48.000Z"
+    },
+    {
+      "id": "2ed359ac-688e-4847-baea-9e689d7e066c",
+      "title": "Table of Contents | Ultimate Electronics Book",
+      "url": "https://ultimateelectronicsbook.com",
+      "savedAt": "2024-02-21T00:44:56.000Z"
+    },
+    {
+      "id": "748db3e2-4879-434e-8953-9dc1877f3d49",
+      "title": "Software infrastructure 2.0: a wishlist · Erik Bernhardsson",
+      "url": "https://erikbern.com/2021/04/19/software-infrastructure-2.0-a-wishlist.html",
+      "savedAt": "2024-02-20T18:53:52.000Z"
+    },
+    {
+      "id": "1a70a07c-df1f-47ad-b22d-a8677abc9748",
+      "title": "DRMacIver's Notebook: Writing good programming abstractions",
+      "url": "https://notebook.drmaciver.com/posts/2024-01-13-08:28.html",
+      "savedAt": "2024-02-20T11:09:40.000Z"
+    },
+    {
+      "id": "bfa84e4c-9ffa-466c-b087-b61b2f56b14d",
+      "title": "Bloom Filters",
+      "url": "https://samwho.dev/bloom-filters/",
+      "savedAt": "2024-02-19T22:21:21.000Z"
+    },
+    {
+      "id": "003ff493-7d40-4803-a0f2-2bcc98a2c59d",
+      "title": "Evolution of tree data structures for indexing: more exciting than it sounds · Erthalion's blog",
+      "url": "https://erthalion.info/2020/11/28/evolution-of-btree-index-am/",
+      "savedAt": "2024-02-17T23:38:02.000Z"
+    },
+    {
+      "id": "4847642b-158e-42d6-ad87-355a911e8fd5",
+      "title": "B-trees",
+      "url": "https://shachaf.net/w/b-trees",
+      "savedAt": "2024-02-17T22:49:50.000Z"
+    },
+    {
+      "id": "162a8e3e-86d9-481c-8068-8dee4d0faee5",
+      "title": "B+-Tree Indexes",
+      "url": "https://web.archive.org/web/20080723122307/http://www.cecs.csulb.edu/%7emonge/classes/share/B+TreeIndexes.html",
+      "savedAt": "2024-02-17T20:58:32.000Z"
+    },
+    {
+      "id": "5686bfb9-4c54-447d-818e-11f2c6ab83c2",
+      "title": "Fighting undead documentation",
+      "url": "https://softwaredoug.com/blog/2023/10/13/fight-undead-documentation",
+      "savedAt": "2024-02-14T22:50:48.000Z"
+    },
+    {
+      "id": "5a0c7479-b899-49ec-9473-694dfc510411",
+      "title": "Distributed Logical Time",
+      "url": "https://longform.asmartbear.com/distributed-logical-time/",
+      "savedAt": "2024-02-12T15:05:38.000Z"
+    },
+    {
+      "id": "4ba7d0fc-12f1-462b-952f-77246d40a106",
+      "title": "An intuition for distributed consensus in OLTP systems | notes.eatonphil.com",
+      "url": "https://notes.eatonphil.com/2024-02-08-an-intuition-for-distributed-consensus-in-oltp-systems.html",
+      "savedAt": "2024-02-12T14:30:04.000Z"
+    },
+    {
+      "id": "664ef042-1059-4bbc-aef7-dab42ed9aebb",
+      "title": "How to (seriously) read a scientific paper | Science | AAAS",
+      "url": "https://www.science.org/content/article/how-seriously-read-scientific-paper",
+      "savedAt": "2024-02-11T21:48:43.000Z"
+    },
+    {
+      "id": "6e19864f-9e04-4857-95f6-4d8f4908ab18",
+      "title": "A Distributed Systems Reading List",
+      "url": "https://ferd.ca/a-distributed-systems-reading-list.html",
+      "savedAt": "2024-02-11T20:17:41.000Z"
+    },
+    {
+      "id": "d9ea9ccc-f14a-412a-8a1e-0aeba04af7ca",
+      "title": "HOW TO STUDY",
+      "url": "https://cse.buffalo.edu/~rapaport/howtostudy.html",
+      "savedAt": "2024-02-11T20:13:13.000Z"
+    },
+    {
+      "id": "e8369fa9-3254-4334-822e-d650ed607523",
+      "title": "Tunable Consistency in MongoDB",
+      "url": "https://muratbuffalo.blogspot.com/2024/02/tunable-consistency-in-mongodb.html",
+      "savedAt": "2024-02-10T20:23:28.000Z"
+    },
+    {
+      "id": "f2c4e000-5424-4e70-850a-2c52a0a321a9",
+      "title": "Teach Yourself Programming in Ten Years",
+      "url": "https://norvig.com/21-days.html",
+      "savedAt": "2024-02-09T01:08:39.000Z"
+    },
+    {
+      "id": "9f62ff3e-beda-4f57-a1b1-c4a442385f89",
+      "title": "Demystifying GPU Compute Architectures - by Babbage",
+      "url": "https://thechipletter.substack.com/p/demystifying-gpu-compute-architectures",
+      "savedAt": "2024-02-09T01:03:41.000Z"
+    },
+    {
+      "id": "d7cdd9d1-0f3a-4ba4-9951-b1783cc68226",
+      "title": "OKRs are Bullshit - by drmorr",
+      "url": "https://blog.appliedcomputing.io/p/okrs-are-bullshit",
+      "savedAt": "2024-02-09T00:03:03.000Z"
+    },
+    {
+      "id": "79959e1c-6248-43c0-b6f1-21149e30b7d5",
+      "title": "Writing Is Magic - Marc's Blog",
+      "url": "https://brooker.co.za/blog/2022/11/08/writing.html",
+      "savedAt": "2024-02-08T23:27:40.000Z"
+    },
+    {
+      "id": "f96910f5-1992-4cb6-831e-93f3784d6131",
+      "title": "Writing For Somebody - Marc's Blog",
+      "url": "https://brooker.co.za/blog/2023/09/21/audience.html",
+      "savedAt": "2024-02-08T11:42:29.000Z"
+    },
+    {
+      "id": "3b73de86-21cd-49af-9dae-121feb7a8d54",
+      "title": "How Do You Spend Your Time? - Marc's Blog",
+      "url": "https://brooker.co.za/blog/2024/02/06/time",
+      "savedAt": "2024-02-07T03:41:56.000Z"
+    },
+    {
+      "id": "50c2329e-7ef8-42d3-99a3-270decec27f2",
+      "title": "Why Gödel, Escher, Bach is the most influential book in my life. | by Mark Johnson | Medium",
+      "url": "https://philosophygeek.medium.com/why-g%C3%B6del-escher-bach-is-the-most-influential-book-in-my-life-49d785a4e428",
+      "savedAt": "2024-02-04T22:19:04.000Z"
+    },
+    {
+      "id": "de61e50b-1117-41e8-b5df-1747a732d5d4",
+      "title": "Idea Generation - Sam Altman",
+      "url": "https://blog.samaltman.com/idea-generation",
+      "savedAt": "2024-02-03T17:32:15.000Z"
+    },
+    {
+      "id": "7a45f3d1-5dfd-4402-98c3-81bd2a3cca4e",
+      "title": "How Did I Get Here?",
+      "url": "https://how-did-i-get-here.net",
+      "savedAt": "2024-02-01T01:00:13.000Z"
+    },
+    {
+      "id": "20d60fd7-607e-4ea6-93e0-1df6a698ed2b",
+      "title": "A Brief Summary of Evolutionary Design | CodingItWrong.com",
+      "url": "https://codingitwrong.com/2024/01/29/brief-summary-of-evolutionary-design",
+      "savedAt": "2024-02-01T00:19:37.000Z"
+    },
+    {
+      "id": "a81445f2-1dd1-4a83-9d5d-89aa7284a401",
+      "title": "The Hacker News Top 40 books of 2023 -",
+      "url": "https://hnreads.com/post/top40_2023/",
+      "savedAt": "2024-01-31T11:21:24.000Z"
+    },
+    {
+      "id": "44acc586-770e-4ba3-9842-eb7d0feb5707",
+      "title": "How to do things if you're not that smart and don't have any talent",
+      "url": "https://adaobi.substack.com/p/how-to-do-things-if-youre-not-that",
+      "savedAt": "2024-01-31T01:33:31.000Z"
+    },
+    {
+      "id": "fd71905b-1c8c-4bee-a545-cd3cb475a108",
+      "title": "Reverse engineering CMOS, illustrated with a vintage Soviet counter chip",
+      "url": "https://www.righto.com/2024/01/reverse-engineering-cmos.html",
+      "savedAt": "2024-01-31T00:09:29.000Z"
+    },
+    {
+      "id": "d67e1e99-8a77-4f9d-85e5-11fb8e3a16d4",
+      "title": "Manage like an engineer | Ben Balter",
+      "url": "https://ben.balter.com/2023/01/10/manage-like-an-engineer/",
+      "savedAt": "2024-01-29T11:44:51.000Z"
+    },
+    {
+      "id": "602a7c35-30b9-4de8-89ba-b4b9d07621ea",
+      "title": "Axioms of Systemantics",
+      "url": "https://www.biodigitaljazz.net/blog/systemantics.html",
+      "savedAt": "2024-01-26T01:21:21.000Z"
+    }
+  ]
+}
