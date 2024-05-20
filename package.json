@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@resvg/resvg-js": "^2.4.1",
-    "astro": "^4.6.1",
+    "astro": "^4.8.6",
     "dayjs": "^1.11.10",
     "markdown-it": "^13.0.1",
     "sanitize-html": "^2.9.0",
@@ -21,11 +21,11 @@
     "shiki": "^1.1.1"
   },
   "devDependencies": {
-    "@astrojs/mdx": "^2.3.0",
-    "@astrojs/react": "^3.3.0",
-    "@astrojs/rss": "^4.0.5",
-    "@astrojs/sitemap": "^3.1.2",
-    "@astrojs/vercel": "^7.5.3",
+    "@astrojs/mdx": "^3.0.0",
+    "@astrojs/react": "^3.3.4",
+    "@astrojs/rss": "^4.0.6",
+    "@astrojs/sitemap": "^3.1.4",
+    "@astrojs/vercel": "^7.6.0",
     "@types/markdown-it": "^12.2.3",
     "@types/react": "^18.2.25",
     "@types/sanitize-html": "^2.8.0",
