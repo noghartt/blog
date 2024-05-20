@@ -1,0 +1,91 @@
+---
+import Layout from "../layout/Layout.astro";
+import GoBackButton from '../components/GoBackButton.astro';
+---
+
+<Layout>
+  <GoBackButton />
+  <section>
+    <h1>now.</h1>
+    <p>
+      Last update: 2024-05-19 10:54 PM
+    </p>
+  </section>
+  <article>
+    <section>
+      <h2>What am I coding?</h2>
+      <p>
+        I'm currently working as a software engineer at <a href="https://woovi.com">Woovi</a>. I'm working as a full-stack engineer,
+        and doing some cool projects through the company.
+      </p>
+      <p>
+        I'm also working on some side projects, such as:
+        <ul>
+          <li>Trying to maintain my blog and creating a writing habit</li>
+          <li><a href="https://github.com/noghartt/btree-rs">btree-rs</a>, a B+Tree implementation in Rust</li>
+          <li><a href="https://github.com/noghartt/6502">6502</a>, a MOS 6502 emulator written in Rust</li>
+        </ul>
+      </p>
+    </section>
+    <section>
+      <h2>What are my current interests?</h2>
+      <p>
+        I'm currently interested in learning more about the following topics:
+        <ul>
+          <li>Database</li>
+          <li>Distributed Systems</li>
+          <li>CPUs and Hardware</li>
+          <li>Compilers and Programming Language Theory</li>
+          <li>Web front-end frameworks</li>
+        </ul>
+      </p>
+    </section>
+    <section>
+      <h2>What am I doing now?</h2>
+      <p>
+        Some things that I'm doing now:
+        <ul>
+          <li>Practicing French every day</li>
+          <li>Discovering new hobbies with my girlfriend</li>
+        </ul>
+      </p>
+    </section>
+    <section>
+      <h2>What am I reading now?</h2>
+      <p>
+        I'm currently interested in learning more about the following topics:
+        <ul>
+          <li>
+            <a href="https://www.amazon.com.br/Antifragile-Things-That-Gain-Disorder/dp/0812979680">
+              Antifragile: Things That Gain from Disorder
+            </a>
+          </li>
+          <li>
+            <a href="https://www.amazon.com/Demon-Haunted-World-Science-Candle-Dark/dp/0345409469">
+              The Demon-Haunted World: Science as a Candle in the Dark
+            </a>
+          </li>
+        </ul>
+      </p>
+    </section>
+  </article>
+</Layout>
+
+<style>
+  article {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-2x);
+  }
+
+  article section {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing);
+  }
+
+  li {
+    list-style-type: disc;
+    margin-left: var(--spacing-2x);
+  }
+</style>
