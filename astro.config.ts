@@ -24,12 +24,7 @@ export default defineConfig({
     sitemap(),
     react(),
   ],
-  output: "hybrid",
-  adapter: vercel({
-    webAnalytics: {
-      enabled: true,
-    },
-  }),
+  output: "static",
   markdown: {
     syntaxHighlight: false,
     remarkPlugins: [
