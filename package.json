@@ -9,7 +9,8 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "create:article": "tsx ./scripts/new-post.ts"
+    "create:article": "tsx ./scripts/new-post.ts",
+    "generate:bookmarks": "tsx --env-file=./.env ./scripts/generate-bookmarks.ts"
   },
   "dependencies": {
     "@resvg/resvg-js": "^2.4.1",

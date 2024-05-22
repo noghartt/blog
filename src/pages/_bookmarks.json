@@ -1,6 +1,36 @@
 {
-  "lastUpdate": "2024-05-20T11:38:28.780Z",
+  "lastUpdate": "2024-05-22T20:52:25.208Z",
   "data": [
+    {
+      "id": "271897b8-9daa-4af4-b148-42dd349f5cb3",
+      "title": "A Road to Common Lisp / Steve Losh",
+      "url": "https://stevelosh.com/blog/2018/08/a-road-to-common-lisp/",
+      "savedAt": "2024-05-22T12:31:17.000Z"
+    },
+    {
+      "id": "197af79f-d877-4dc8-94af-4bb018f80f91",
+      "title": "Tools That Make You Feel Empowered",
+      "url": "https://www.zwhuang.dev/blog/empowering-tools",
+      "savedAt": "2024-05-22T12:27:55.000Z"
+    },
+    {
+      "id": "8b3f2931-c7b5-4b1e-91dc-c13d86e63561",
+      "title": "Semantic note-taking | cceckman, from the Internet",
+      "url": "https://cceckman.com/writing/notes/",
+      "savedAt": "2024-05-22T01:28:16.000Z"
+    },
+    {
+      "id": "51e98773-f0ef-4ac1-beb3-b96155b12951",
+      "title": "A New Way to Store Knowledge",
+      "url": "https://breckyunits.com/scrollsets.html",
+      "savedAt": "2024-05-22T01:21:47.000Z"
+    },
+    {
+      "id": "f8b17718-8fa2-4372-a14d-eeaab86a0a5d",
+      "title": "CRDT: Text Buffer - Made by Evan",
+      "url": "https://madebyevan.com/algos/crdt-text-buffer/",
+      "savedAt": "2024-05-21T21:30:16.000Z"
+    },
     {
       "id": "91e5e169-6542-472c-b815-8a95574aaff3",
       "title": "Guide: How to start a writing habit",
@@ -916,7 +946,7 @@
     {
       "id": "ad07ff84-dd7b-11ee-a4b2-9f3f6b58409d",
       "title": "Coordination Avoidance in Database Systems",
-      "url": "https://storage.googleapis.com/omnivore/u/adf85aa6-dd7b-11ee-803f-bbe769353f58/p185-bailis.pdf?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=omnivore-production%40appspot.gserviceaccount.com%2F20240520%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240520T113828Z&X-Goog-Expires=14400&X-Goog-SignedHeaders=host&X-Goog-Signature=721c246a7760751bd90919fa85a9a3b23b561bcca9d0b8ecbe10cef37a2894ac869564e00a91891506593a7cda8b6d61c4c852187136d1edfd14917861418358ce36b63a2d3be7a5b1e6510e4a758fd523cf852cfaa45529eb7e6260f335303b8c45529d4f7d87b0613180dc75b3a2a0efbfdc6c0197602cdc01bf599abdc9ff8cfb0de80f066c6dc4dffbfc843ea1144618398b3ad5b3fdcfacc3d8c32cc25505b05b3367926773bc93c0d957120e2ebb637bccc74d21e47c5ed1dd7635deb75c875f36584571abc48cec5f7673f2c010130a2342063762b7bd78088e182ff4ff807edf8e0cb15cab0167282968c492607e198d8582924b90170e4961712c4c",
+      "url": "https://storage.googleapis.com/omnivore/u/adf85aa6-dd7b-11ee-803f-bbe769353f58/p185-bailis.pdf?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=omnivore-production%40appspot.gserviceaccount.com%2F20240522%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240522T205224Z&X-Goog-Expires=14400&X-Goog-SignedHeaders=host&X-Goog-Signature=653f457ce5ba28b1c17d799aeb8e5f728d1d617234d5f0593aebe3c0a9d270e9af1008416e2b1741562394ae15edb419524982311a97576fc21416a010b418b1f276ef51559b82102663d1e4035333e35a7f89512e091a08a9f9a7d5db29538ed404f190b4c35cceb666b885de7cbeef812207fa20b958bedab715155e3485cdb030cd61cc540a86bec1abb7012407d90ffaef1d6e9b223d3cb134d5072c107fa04173777c98a4bb7b50b855078d5a711501bf29afa43a0e7dfbb4e89ac9e603eef2b4c964b839582848bdd9d46acececb51fb402c492f143f470d6090354f668ef3e446054c3844618ce85ff32b6ffd39726e0a181c6e97cba7d611bdeb8d7a",
       "savedAt": "2024-03-08T18:42:54.000Z"
     },
     {
@@ -1096,7 +1126,7 @@
     {
       "id": "2daa3fdc-d406-11ee-a9d7-9bcb3850f82a",
       "title": "Nobody Ever Gets Credit for Fixing Problems that Never Happened",
-      "url": "https://storage.googleapis.com/omnivore/u/2f34dd4e-d406-11ee-9592-ef1a5d79beaf/RepenningSterman_CMR_su01_.pdf?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=omnivore-production%40appspot.gserviceaccount.com%2F20240520%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240520T113828Z&X-Goog-Expires=14400&X-Goog-SignedHeaders=host&X-Goog-Signature=3d21cf427b13825ffcd714d45ecb1b674901d61891fd541fd41051825d181d549d2bdb3f509d808243bd10d117207aac4c157a436f8dc18ee92dbab27cf854cf165d6c7960feb76392a6ed805d8c65028b73db69ed103a21a719fc863a11e1a5d0182b5cd2855aa4001c411c33ae46ee3f1220006de4c2f13f1e5187c0292e3a315c86878ebc4909b287eb5d612ed4fbbf88af46e22b388797665fd25a4dc9a28450c259dbd36d081a2ca2028ef18f96ffda8d6a8427f79ca08b173a244a75e546e964cb4d9cded4521d9b4c9a7f889aaa068cc7dd7179e3ae5cd32367bcb29e92b87d26902ee9deac0b26a8f3880e26923292d162c962afb6e8699b3524422e",
+      "url": "https://storage.googleapis.com/omnivore/u/2f34dd4e-d406-11ee-9592-ef1a5d79beaf/RepenningSterman_CMR_su01_.pdf?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=omnivore-production%40appspot.gserviceaccount.com%2F20240522%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240522T205224Z&X-Goog-Expires=14400&X-Goog-SignedHeaders=host&X-Goog-Signature=5d1e6e930fd4f8e6c3e132e3933f6f631f5ce9309b9fa7f914b26785e92e8d4ea4ca0efdeec58e781dab7e216564ab3f31e48aa779e6c0b5bfb75be54bd79a94302c6fa6c5404308218f9dbb23cba0d7bc1c8e29d4b96a4b22940905500af4b1298ef29c0a425973fce40f1b1ca3c88f8692411c08e814324240a776d72e54a3a68c21bc5b0d5d72d57651989100270182a7f7692bf7eb19510ca44298cf6487301cbb5958e05c025551e30d2648535489a6ddd63330932dfaa63d15b4ebab78d1906aa8220ee53864930fc9bc2379f678f20fa31f5bdab5194b1429fc951077f4338cf585beed4c45b4d98daa40f7458283da74f2b705ffb51163fb0c7c1bc4",
       "savedAt": "2024-02-25T17:49:12.000Z"
     },
     {
