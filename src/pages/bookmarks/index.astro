@@ -1,9 +1,9 @@
 ---
 import dayjs from 'dayjs';
 
-import Layout from "../layout/Layout.astro";
-import GoBackButton from '../components/GoBackButton.astro';
-import Link from "../components/Link.astro";
+import Layout from "../../layout/Layout.astro";
+import GoBackButton from '../../components/GoBackButton.astro';
+import Link from "../../components/Link.astro";
 
 import bookmarksJson from './_bookmarks.json';
 
@@ -35,6 +35,9 @@ const bookmarksGroupedByMonth = groupByMonth(bookmarksSorted);
       <h2>bookmarks.</h2>
       <p>Last update: {dayjs(bookmarksJson.lastUpdate).format('DD[/]MM[/]YYYY HH:mm')}</p>
     </section>
+    <p>
+      Feel free to follow this list via RSS too, you can find it <Link href='/bookmarks/rss.xml'>here</Link>.
+    </p>
     <section class="bookmarks">
       {Object.entries(bookmarksGroupedByMonth).map(([month, bookmarks]) => (
         <div class="description">

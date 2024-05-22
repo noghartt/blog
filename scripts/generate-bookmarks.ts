@@ -18,7 +18,8 @@ const query = `\
           node {
             id
             title
-            url
+            url: originalArticleUrl
+            description
             savedAt
           }
         }
@@ -59,7 +60,7 @@ const fetchBookmarks = async (first: number, after: string) => {
 
 const writeJsonFile = async (data: any) => {
   const cwd = process.cwd();
-  const filepath = path.join(cwd, 'src', 'pages', '_bookmarks.json');
+  const filepath = path.join(cwd, 'src', 'pages', 'bookmarks', '_bookmarks.json');
   await fs.writeFile(filepath, JSON.stringify({ lastUpdate: new Date().toISOString(), data }, null, 2));
 }
 
@@ -95,6 +96,7 @@ const writeJsonFile = async (data: any) => {
       title: node.title,
       url: node.url,
       savedAt: node.savedAt,
+      description: node.description || null,
     })));
   }
 

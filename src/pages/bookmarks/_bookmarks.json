@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2024-05-22T20:52:25.208Z",
+  "lastUpdate": "2024-05-22T21:20:51.928Z",
   "data": [
     {
       "id": "271897b8-9daa-4af4-b148-42dd349f5cb3",
@@ -605,751 +605,876 @@
       "id": "3bbedc39-6c67-4480-a48d-bd3c714e38fe",
       "title": "Subroutine calls in the ancient world, before computers had stacks or heaps - The Old New Thing",
       "url": "https://devblogs.microsoft.com/oldnewthing/20240401-00/?p=109599",
-      "savedAt": "2024-04-04T22:15:18.000Z"
+      "savedAt": "2024-04-04T22:15:18.000Z",
+      "description": "A lot of computing got done even before we had stacks and heaps."
     },
     {
       "id": "80dde9f0-1e02-42d8-a264-d3b7f2df6030",
       "title": "You Don’t Need a Writing Ritual",
       "url": "https://mikegrindle.com/posts/writuals",
-      "savedAt": "2024-04-04T01:36:18.000Z"
+      "savedAt": "2024-04-04T01:36:18.000Z",
+      "description": "Recently, I’ve noticed that many people online seem to put a lot of\nstock into writing rituals or “writuals” these days. The idea behind\nthese is that if you follow certain routines, you can “trick” your brain\ninto getting into the right mindset for writing."
     },
     {
       "id": "52986e27-78a8-4719-b939-2ac0d554ebd2",
       "title": "Book list for streetfighting computer scientists - dankwiki, the wiki of nick black",
       "url": "https://nick-black.com/dankwiki/index.php/Book_list_for_streetfighting_computer_scientists",
-      "savedAt": "2024-04-03T22:08:58.000Z"
+      "savedAt": "2024-04-03T22:08:58.000Z",
+      "description": "From dankwiki"
     },
     {
       "id": "e629dd88-798b-49d8-8543-5ee96c83e672",
       "title": "Feynman Algorithm",
       "url": "https://wiki.c2.com/?FeynmanAlgorithm=",
-      "savedAt": "2024-04-03T16:15:07.000Z"
+      "savedAt": "2024-04-03T16:15:07.000Z",
+      "description": "The Feynman Algorithm:"
     },
     {
       "id": "bc1748f9-c8ae-42ea-b63c-c3c5a252083d",
       "title": "Everything I Know About SSDs 2019",
       "url": "https://kcall.co.uk/ssd/index.html",
-      "savedAt": "2024-04-02T21:30:41.000Z"
+      "savedAt": "2024-04-02T21:30:41.000Z",
+      "description": "Everything I Know About SSDs. SSD Documentation. A technical description of the differences between Hard Drives and Solid State Devices"
     },
     {
       "id": "dc77ac12-ff31-4ff2-96c1-deff7fce0a02",
       "title": "Type system of the React compiler",
       "url": "https://www.recompiled.dev/blog/type-system/",
-      "savedAt": "2024-03-31T05:37:18.000Z"
+      "savedAt": "2024-03-31T05:37:18.000Z",
+      "description": "The post describes how the type system of the React compiler is implemented and used"
     },
     {
       "id": "17f51bf9-8d7f-4c4c-bc24-76dc7580f6f8",
       "title": "Basic Things",
       "url": "https://matklad.github.io/2024/03/22/basic-things.html",
-      "savedAt": "2024-03-31T05:32:29.000Z"
+      "savedAt": "2024-03-31T05:32:29.000Z",
+      "description": "After working on the initial stages of several largish projects, I accumulated a list of things that\nshare the following three properties:"
     },
     {
       "id": "9531df2f-905a-4b88-bebe-a29f53832cc7",
       "title": "Why Mathematics is Boring | The n-Category Café",
       "url": "https://golem.ph.utexas.edu/category/2024/03/why_mathematics_is_boring_1.html",
-      "savedAt": "2024-03-29T22:52:02.000Z"
+      "savedAt": "2024-03-29T22:52:02.000Z",
+      "description": null
     },
     {
       "id": "c1f0b71c-fd50-4f85-88d1-78048bd29005",
       "title": "The problem with invariants is that they change over time – Surfing Complexity",
       "url": "https://surfingcomplexity.blog/2024/03/26/the-problem-with-invariants-is-that-they-change-over-time/",
-      "savedAt": "2024-03-29T03:16:53.000Z"
+      "savedAt": "2024-03-29T03:16:53.000Z",
+      "description": "Cliff L. Biffle blogged a great write-up of a debugging odyssey at Oxide with the title Who killed the network switch? Here's the bit that jumped out at me: At the time that code was written, it was correct, but it embodied the assumption that any loaned memory would fit into one region. That assumption…"
     },
     {
       "id": "122e3a2a-db4b-4341-8414-b677979dc012",
       "title": "Think real hard | benkuhn.net",
       "url": "https://www.benkuhn.net/thinkrealhard/",
-      "savedAt": "2024-03-29T03:15:37.000Z"
+      "savedAt": "2024-03-29T03:15:37.000Z",
+      "description": "The Feynman Algorithm for problem solving: Write down the problem; Think real hard; Write down the solution."
     },
     {
       "id": "99d20e00-2566-4d97-be81-1b174ce892d6",
       "title": "Be impatient | benkuhn.net",
       "url": "https://www.benkuhn.net/impatient/",
-      "savedAt": "2024-03-29T03:14:38.000Z"
+      "savedAt": "2024-03-29T03:14:38.000Z",
+      "description": "Impatience is the best way to get faster at things. And across a surprising number of domains, being really fast correlates strongly with being effective."
     },
     {
       "id": "7dce36c9-b91c-4984-9fde-3c09e423208b",
       "title": "Things you're allowed to do",
       "url": "https://milan.cvitkovic.net/writing/things_youre_allowed_to_do/",
-      "savedAt": "2024-03-29T03:09:15.000Z"
+      "savedAt": "2024-03-29T03:09:15.000Z",
+      "description": "A list of things you're allowed to do that you thought you couldn't, or didn't even know you could."
     },
     {
       "id": "d995cdc9-8f28-4e17-b48f-622ae4013a90",
       "title": "Deterministic Simulation Testing | Resonate",
       "url": "https://blog.resonatehq.io/deterministic-simulation-testing",
-      "savedAt": "2024-03-29T02:24:39.000Z"
+      "savedAt": "2024-03-29T02:24:39.000Z",
+      "description": "At Resonate, we consider deterministic simulation testing (DST) to be a cornerstone of our mission to build correct and reliable distributed systems. While an increasing array of projects, including Foundation DB, TigerBeetle DB, and Resonate itself, have embraced DST, along with companies like Antithesis providing platforms dedicated to this approach, comprehensive information remains limited."
     },
     {
       "id": "ceb70ee8-285b-4745-87a9-eafd055de511",
       "title": "Linux Crisis Tools",
       "url": "https://www.brendangregg.com/blog/2024-03-24/linux-crisis-tools.html",
-      "savedAt": "2024-03-28T22:17:05.000Z"
+      "savedAt": "2024-03-28T22:17:05.000Z",
+      "description": "Linux Crisis Tools"
     },
     {
       "id": "7eb669fa-1427-4038-9d3e-702d65c385f1",
       "title": "Sega Saturn Architecture | A Practical Analysis",
       "url": "https://www.copetti.org/writings/consoles/sega-saturn/",
-      "savedAt": "2024-03-28T22:16:52.000Z"
+      "savedAt": "2024-03-28T22:16:52.000Z",
+      "description": "An in-depth analysis that explains how this console works internally"
     },
     {
       "id": "4275d1d4-d240-43d8-80d0-bb8b679a796b",
       "title": "ADHD Productivity Fundamentals — 0xFF",
       "url": "https://0xff.nu/adhd-productivity-fundamentals",
-      "savedAt": "2024-03-28T22:10:53.000Z"
+      "savedAt": "2024-03-28T22:10:53.000Z",
+      "description": "0xFF / ADHD Productivity Fundamentals"
     },
     {
       "id": "ee5af14a-56a5-4fce-b5a2-90fb7011a902",
       "title": "Tech Independence | Derek Sivers",
       "url": "https://sive.rs/ti",
-      "savedAt": "2024-03-28T19:17:10.000Z"
+      "savedAt": "2024-03-28T19:17:10.000Z",
+      "description": "Tech independence is not depending on any particular company or software."
     },
     {
       "id": "02c8bfb2-02b3-44fc-ba3b-000092b8e070",
       "title": "So you think you want to write a deterministic hypervisor?",
       "url": "https://antithesis.com/blog/deterministic_hypervisor/",
-      "savedAt": "2024-03-26T19:07:04.000Z"
+      "savedAt": "2024-03-26T19:07:04.000Z",
+      "description": "What is a deterministic hypervisor and why do we need one anyhow?"
     },
     {
       "id": "86707886-1228-4d5e-8a28-765b42417fba",
       "title": "#7 - On Keeping a Notebook | Kadambari",
       "url": "https://kadambari.bearblog.dev/7-on-keeping-a-notebook/",
-      "savedAt": "2024-03-26T13:50:21.000Z"
+      "savedAt": "2024-03-26T13:50:21.000Z",
+      "description": "There's a lot I have to say on the subject of notebooks--of all the objects in this world, they are, to me, extremely fascinating and inspiring. But in this ..."
     },
     {
       "id": "3782c435-f45f-4c4b-9137-e88dd7775d73",
       "title": "Why do regexes use `$` and `^` as line anchors? • Buttondown",
       "url": "https://buttondown.email/hillelwayne/archive/why-do-regexes-use-and-as-line-anchors/",
-      "savedAt": "2024-03-26T04:47:10.000Z"
+      "savedAt": "2024-03-26T04:47:10.000Z",
+      "description": "A history that will satisfy nobody."
     },
     {
       "id": "01623134-831d-46a1-b402-6546f64d72e0",
       "title": "The Beginner’s Guide to Queuing theory | Qminder",
       "url": "https://www.qminder.com/blog/queue-management/queuing-theory-guide/",
-      "savedAt": "2024-03-25T01:41:11.000Z"
+      "savedAt": "2024-03-25T01:41:11.000Z",
+      "description": "This is a beginner’s guide to queuing theory. Find out the definition of queuing theory, its history, benefits and real-life applications."
     },
     {
       "id": "7233227f-5cbd-43ed-822c-03f1f99d3dae",
       "title": "Fail Forward With Kindness / marcel.io",
       "url": "https://marcel.io/posts/fail-forward-with-kindness",
-      "savedAt": "2024-03-24T19:05:16.000Z"
+      "savedAt": "2024-03-24T19:05:16.000Z",
+      "description": "Thoughts about design, code, technology and everything in between."
     },
     {
       "id": "c80e4ecd-c12e-472b-8cab-11f5e23c1cae",
       "title": "Doing weeknotes",
       "url": "https://doingweeknotes.com",
-      "savedAt": "2024-03-24T18:31:04.000Z"
+      "savedAt": "2024-03-24T18:31:04.000Z",
+      "description": "What weeknotes are, how weeknotes work, and how to start writing weeknotes of your own"
     },
     {
       "id": "a977ccae-0fc4-46dd-a6df-f4ebd3bdd01b",
       "title": "myme.no - Focus by Automation",
       "url": "https://myme.no/posts/2024-03-19-focus-by-automation.html",
-      "savedAt": "2024-03-23T22:10:50.000Z"
+      "savedAt": "2024-03-23T22:10:50.000Z",
+      "description": "I’ve invested leisure time to save time when I’m working hard, not to save\nkeystrokes but to save mental energy for the project at hand."
     },
     {
       "id": "7e289521-33f9-4c08-b5d1-8e39b4dfb34a",
       "title": "Decision logs",
       "url": "https://vitonsky.net/blog/2024/03/20/decision-logs/",
-      "savedAt": "2024-03-23T21:38:07.000Z"
+      "savedAt": "2024-03-23T21:38:07.000Z",
+      "description": "Let's say you need to choose some technology for your project, or you already have problems with some technologies, so you want to replace them with others. If you do not maintain a decision log, you have a high risk of making bad decisions that are biased, based on authority, and take too long."
     },
     {
       "id": "5bcf0b57-1ca2-4e60-97d4-11461da45dd2",
       "title": "Design is an Island - by Kent Beck",
       "url": "https://tidyfirst.substack.com/p/design-is-an-island",
-      "savedAt": "2024-03-23T14:51:20.000Z"
+      "savedAt": "2024-03-23T14:51:20.000Z",
+      "description": "First published April 2009. This was a period when I was working consistently on the material that would become, a decade and a half later, Tidy First?. If design is responsive motion in a space of all possible designs, then some designs are acceptable and some are not. Designing, then, is like walking an island. As long as you don’t get your feet wet, the design is okay. (This is a visual way of describing design as an optimization problem, but I’ll stick with the metaphor because it turns out to be surprisingly apt.)"
     },
     {
       "id": "3cd3a8c6-e94a-4255-b6c4-b099b4b277bf",
       "title": "articles/internals_of_the_async_await_pattern_from_first_principles.md at master · Dobiasd/articles",
       "url": "https://github.com/Dobiasd/articles/blob/master/internals_of_the_async_await_pattern_from_first_principles.md",
-      "savedAt": "2024-03-20T00:35:39.000Z"
+      "savedAt": "2024-03-20T00:35:39.000Z",
+      "description": "thoughts on programming. Contribute to Dobiasd/articles development by creating an account on GitHub."
     },
     {
       "id": "a8fb643a-258d-4788-89a9-e2175ce65941",
       "title": "How to Start Google",
       "url": "https://paulgraham.com/google.html",
-      "savedAt": "2024-03-20T00:29:22.000Z"
+      "savedAt": "2024-03-20T00:29:22.000Z",
+      "description": "March 2024(This is a talk I gave to 14 and 15 year olds about what to do now\nif they might want to start a startup later. Lots of schools think\nthey should tell students something about startups. This is what I\nthink they should tell them. Notice it makes no mention of business\nplans.)Most of you probably think that when you're released into the\nso-called real world you'll eventually have to get some kind of\njob. That's not true, and today I'm going to talk about a trick you\ncan use to avoid ever having to get a job.The trick is to start your own company. So it's not a trick for\navoiding work, because if you start your own company you'll\nwork harder than you would if you had an ordinary job. But you will\navoid many of the annoying things that come with a job, including\na boss telling you what to do.It's more exciting to work on your own project than someone else's.\nAnd you can also get a lot richer. In fact, this is the standard\nway to get \nreally rich. If you look at the lists of the richest\npeople that occasionally get published in the press, nearly all of\nthem did it by starting their own companies.Starting your own company can mean anything from starting a barber\nshop to starting Google. I'm here to talk about one extreme end of\nthat continuum. I'm going to tell you how to start Google.The companies at the Google end of the continuum are called startups\nwhen they're young. The reason I know about them is that my wife\nJessica and I started something called Y Combinator that is basically\na startup factory. Since 2005, Y Combinator has funded over 4000\nstartups. So we know exactly what you need to start a startup,\nbecause we've helped people do it for the last 19 years.You might have thought I was joking when I said I was going to tell\nyou how to start Google. You might be thinking \"How could we\nstart Google?\" But that's effectively what the people who did start\nGoogle were thinking before they started it. If you'd told Larry\nPage and Sergey Brin, the founders of Google, that the company they\nwere about to start would one day be worth over a trillion dollars,\ntheir heads would have exploded.All you can know when you start working on a startup is that it\nseems worth pursuing. You can't know whether it will turn into\na company worth billions or one that goes out of business. So when I\nsay I'm going to tell you how to start Google, I mean I'm going to\ntell you how to get to the point where you can start a company that\nhas as much chance of being Google as Google had of being Google.\n[1]How do you get from where you are now to the point where you can\nstart a successful startup? You need three things. You need to be\ngood at some kind of technology, you need an idea for what you're\ngoing to build, and you need cofounders to start the company with.How do you get good at technology? And how do you choose which\ntechnology to get good at? Both of those questions turn out to have\nthe same answer: work on your own projects. Don't try to guess\nwhether gene editing or LLMs or rockets will turn out to be the\nmost valuable technology to know about. No one can predict that.\nJust work on whatever interests you the most. You'll work much\nharder on something you're interested in than something you're doing\nbecause you think you're supposed to.If you're not sure what technology to get good at, get good at\nprogramming. That has been the source of the median startup for the\nlast 30 years, and this is probably not going to change in the next\n10.Those of you who are taking computer science classes in school may\nat this point be thinking, ok, we've got this sorted. We're already\nbeing taught all about programming. But sorry, this is not enough.\nYou have to be working on your own projects, not just learning stuff\nin classes. You can do well in computer science classes without\never really learning to program. In fact you can graduate with a\ndegree in computer science from a top university and still not be\nany good at programming. That's why tech companies all make you\ntake a coding test before they'll hire you, regardless of where you\nwent to university or how well you did there. They know grades and\nexam results prove nothing.If you really want to learn to program, you have to work on your\nown projects. You learn so much faster that way. Imagine you're\nwriting a game and there's something you want to do in it, and you\ndon't know how. You're going to figure out how a lot faster than\nyou'd learn anything in a class.You don't have to learn programming, though. If you're wondering\nwhat counts as technology, it includes practically everything you\ncould describe using the words \"make\" or \"build.\" So welding would\ncount, or making clothes, or making videos. Whatever you're most\ninterested in. The critical distinction is whether you're producing\nor just consuming. Are you writing computer games, or just playing\nthem? That's the cutoff.Steve Jobs, the founder of Apple, spent time when he was a teenager\nstudying calligraphy — the sort of beautiful writing that\nyou see in medieval manuscripts. No one, including him, thought\nthat this would help him in his career. He was just doing it because\nhe was interested in it. But it turned out to help him a lot. The\ncomputer that made Apple really big, the Macintosh, came out at\njust the moment when computers got powerful enough to make letters\nlike the ones in printed books instead of the computery looking\nletters you see in 8 bit games. Apple destroyed everyone else at\nthis, and one reason was that Steve was one of the few people in\nthe computer business who really got graphic design.Don't feel like your projects have to be serious. They can\nbe as frivolous as you like, so long as you're building things\nyou're excited about. Probably 90% of programmers start out building\ngames. They and their friends like to play games. So they build\nthe kind of things they and their friends want. And that's exactly\nwhat you should be doing at 15 if you want to start a startup one\nday.You don't have to do just one project. In fact it's good to learn\nabout multiple things. Steve Jobs didn't just learn calligraphy.\nHe also learned about electronics, which was even more valuable.\nWhatever you're interested in. (Do you notice a theme here?)So that's the first of the three things you need, to get good at\nsome kind or kinds of technology. You do it the same way you get\ngood at the violin or football: practice. If you start a startup\nat 22, and you start writing your own programs now, then by the\ntime you start the company you'll have spent at least 7 years\npracticing writing code, and you can get pretty good at anything\nafter practicing it for 7 years.Let's suppose you're 22 and you've succeeded: You're now really\ngood at some technology. How do you get \nstartup ideas? It might\nseem like that's the hard part. Even if you are a good programmer,\nhow do you get the idea to start Google?Actually it's easy to get startup ideas once you're good at technology.\nOnce you're good at some technology, when you look at the world you\nsee dotted outlines around the things that are missing. You start\nto be able to see both the things that are missing from the technology\nitself, and all the broken things that could be fixed using it, and\neach one of these is a potential startup.In the town near our house there's a shop with a sign warning that\nthe door is hard to close. The sign has been there for several\nyears. To the people in the shop it must seem like this mysterious\nnatural phenomenon that the door sticks, and all they can do is put\nup a sign warning customers about it. But any carpenter looking at\nthis situation would think \"why don't you just plane off the part\nthat sticks?\"Once you're good at programming, all the missing software in the\nworld starts to become as obvious as a sticking door to a carpenter.\nI'll give you a real world example. Back in the 20th century,\nAmerican universities used to publish printed directories with all\nthe students' names and contact info. When I tell you what these\ndirectories were called, you'll know which startup I'm talking\nabout. They were called facebooks, because they usually had a picture\nof each student next to their name.So Mark Zuckerberg shows up at Harvard in 2003, and the university\nstill hasn't gotten the facebook online. Each individual house has\nan online facebook, but there isn't one for the whole university.\nThe university administration has been diligently having meetings\nabout this, and will probably have solved the problem in another\ndecade or so. Most of the students don't consciously notice that\nanything is wrong. But Mark is a programmer. He looks at this\nsituation and thinks \"Well, this is stupid. I could write a program\nto fix this in one night. Just let people upload their own photos\nand then combine the data into a new site for the whole university.\"\nSo he does. And almost literally overnight he has thousands of\nusers.Of course Facebook was not a startup yet. It was just a... project.\nThere's that word again. Projects aren't just the best way to learn\nabout technology. They're also the best source of startup ideas.Facebook was not unusual in this respect. Apple and Google also\nbegan as projects. Apple wasn't meant to be a company. Steve Wozniak\njust wanted to build his own computer. It only turned into a company\nwhen Steve Jobs said \"Hey, I wonder if we could sell plans for this\ncomputer to other people.\" That's how Apple started. They weren't\neven selling computers, just plans for computers. Can you imagine\nhow lame this company seemed?Ditto for Google. Larry and Sergey weren't trying to start a company\nat first. They were just trying to make search better. Before Google,\nmost search engines didn't try to sort the results they gave you\nin order of importance. If you searched for \"rugby\" they just gave\nyou every web page that contained the word \"rugby.\" And the web was\nso small in 1997 that this actually worked! Kind of. There might\nonly be 20 or 30 pages with the word \"rugby,\" but the web was growing\nexponentially, which meant this way of doing search was becoming\nexponentially more broken. Most users just thought, \"Wow, I sure\nhave to look through a lot of search results to find what I want.\"\nDoor sticks. But like Mark, Larry and Sergey were programmers. Like\nMark, they looked at this situation and thought \"Well, this is\nstupid. Some pages about rugby matter more than others. Let's figure\nout which those are and show them first.\"It's obvious in retrospect that this was a great idea for a startup.\nIt wasn't obvious at the time. It's never obvious. If it was obviously\na good idea to start Apple or Google or Facebook, someone else would\nhave already done it. That's why the best startups grow out of\nprojects that aren't meant to be startups. You're not trying to\nstart a company. You're just following your instincts about what's\ninteresting. And if you're young and good at technology, then your\nunconscious instincts about what's interesting are better than your\nconscious ideas about what would be a good company.So it's critical, if you're a young founder, to build things for\nyourself and your friends to use. The biggest mistake young founders\nmake is to build something for some mysterious group of other people.\nBut if you can make something that you and your friends truly want\nto use — something your friends aren't just using out of\nloyalty to you, but would be really sad to lose if you shut it down\n— then you almost certainly have the germ of a good startup\nidea. It may not seem like a startup to you. It may not be obvious\nhow to make money from it. But trust me, there's a way.What you need in a startup idea, and all you need, is something\nyour friends actually want. And those ideas aren't hard to see once\nyou're good at technology. There are sticking doors everywhere.\n[2]Now for the third and final thing you need: a cofounder, or cofounders.\nThe optimal startup has two or three founders, so you need one or\ntwo cofounders. How do you find them? Can you predict what I'm going\nto say next? It's the same thing: projects. You find cofounders by\nworking on projects with them. What you need in a cofounder is\nsomeone who's good at what they do and that you work well with, and\nthe only way to judge this is to work with them on things.At this point I'm going to tell you something you might not want\nto hear. It really matters to do well in your classes, even the\nones that are just memorization or blathering about literature,\nbecause you need to do well in your classes to get into a good\nuniversity. And if you want to start a startup you should try to\nget into the best university you can, because that's where the best\ncofounders are. It's also where the best employees are. When Larry\nand Sergey started Google, they began by just hiring all the smartest\npeople they knew out of Stanford, and this was a real advantage for\nthem.The empirical evidence is clear on this. If you look at where the\nlargest numbers of successful startups come from, it's pretty much\nthe same as the list of the most selective universities.I don't think it's the prestigious names of these universities that\ncause more good startups to come out of them. Nor do I think it's\nbecause the quality of the teaching is better. What's driving this\nis simply the difficulty of getting in. You have to be pretty smart\nand determined to get into MIT or Cambridge, so if you do manage\nto get in, you'll find the other students include a lot of smart\nand determined people.\n[3]You don't have to start a startup with someone you meet at university.\nThe founders of Twitch met when they were seven. The founders of\nStripe, Patrick and John Collison, met when John was born. But\nuniversities are the main source of cofounders. And because they're\nwhere the cofounders are, they're also where the ideas are, because\nthe best ideas grow out of projects you do with the people who\nbecome your cofounders.So the list of what you need to do to get from here to starting a\nstartup is quite short. You need to get good at technology, and the\nway to do that is to work on your own projects. And you need to do\nas well in school as you can, so you can get into a good university,\nbecause that's where the cofounders and the ideas are.That's it, just two things, build stuff and do well in school.Notes[1]\nThe rhetorical trick in this sentence is that the \"Google\"s\nrefer to different things. What I mean is: a company that has as\nmuch chance of growing as big as Google ultimately did as Larry and\nSergey could have reasonably expected Google itself would at the\ntime they started it. But I think the original version is zippier.[2]\nMaking something for your friends isn't the only source of\nstartup ideas. It's just the best source for young founders, who\nhave the least knowledge of what other people want, and whose own\nwants are most predictive of future demand anyway.[3]\nStrangely enough this is particularly true in countries like\nthe US where undergraduate admissions are done badly. US admissions\ndepartments make applicants jump through a lot of arbitrary hoops\nthat have little to do with their intellectual ability. But the\nmore arbitrary a test, the more it becomes a test of mere determination\nand resourcefulness. And those are the two most important qualities\nin startup founders. So US admissions departments are better at\nselecting founders than they would be if they were better at selecting\nstudents.Thanks to Jessica Livingston and Harj \nTaggar for reading drafts of this."
     },
     {
       "id": "e5c5a873-21a6-4d88-ab6a-1f78b3df6021",
       "title": "The Mechanics of Proof — The Mechanics of Proof, by Heather Macbeth",
       "url": "https://hrmacbeth.github.io/math2001/index.html",
-      "savedAt": "2024-03-20T00:17:40.000Z"
+      "savedAt": "2024-03-20T00:17:40.000Z",
+      "description": "This is a book dealing with how to write careful, rigorous mathematical proofs.\nThe book is paired with code in the computer formalization language\nLean. Head over to the associated GitHub repository,\nhttps://github.com/hrmacbeth/math2001, to download this code to your own computer or to open it in\nthe cloud on Gitpod."
     },
     {
       "id": "c44db33d-f21b-4c30-8c4a-7bbcb8f94028",
       "title": "Dobiasd/articles: thoughts on programming",
       "url": "https://github.com/Dobiasd/articles",
-      "savedAt": "2024-03-19T20:24:28.000Z"
+      "savedAt": "2024-03-19T20:24:28.000Z",
+      "description": "This repository serves as a programming-related brain dump."
     },
     {
       "id": "f0f7139a-4317-4a2f-984d-a8560752e25f",
       "title": "Leadership requires taking some risk. | Irrational Exuberance",
       "url": "https://lethain.com/leadership-requires-risk/",
-      "savedAt": "2024-03-18T23:50:35.000Z"
+      "savedAt": "2024-03-18T23:50:35.000Z",
+      "description": "At a recent offsite with Carta’s Navigators, we landed on an interesting topic: leadership roles sometimes mean that making progress on a professional initiative requires taking some personal risk.\nThis lesson was hammered into me a decade ago during my time at Uber, where I kicked off the Uber SRE group and architectured Uber’s self-service service provisioning strategy that defined Uber’s approach to software development (which spawned a thousand thought pieces, not all complimentary)."
     },
     {
       "id": "1c5e3328-5181-44ac-95cd-99d7db1b2f46",
       "title": "Take Ownership of Your Future Self",
       "url": "https://hbr.org/2020/08/take-ownership-of-your-future-self",
-      "savedAt": "2024-03-18T22:53:32.000Z"
+      "savedAt": "2024-03-18T22:53:32.000Z",
+      "description": "Your personality, skills, likes, and dislikes change over time — but that change isn’t out of your control. What can you do to become the version of yourself that you most want to be? Start by acknowledging the differences between your past, current, and future selves. Next, imagine your desired future self: Set goals that are as clear and specific as possible to maximize your chances of achieving them. Finally, develop (and re-develop) an identity narrative consistent with the person you want to become — and share that story with others! Your identity drives your behavior, which over time creates your personality. So start acting like the best version of yourself, and you will become that person."
     },
     {
       "id": "2ff0bd1f-7280-4456-ad4a-2f1e9e8eaf12",
       "title": "My favorite essays of life advice | benkuhn.net",
       "url": "https://www.benkuhn.net/weeklyessays/",
-      "savedAt": "2024-03-18T11:13:19.000Z"
+      "savedAt": "2024-03-18T11:13:19.000Z",
+      "description": "Life is short • There is no speed limit • How to Be Successful • You and your research • Becoming a Magician • 95th percentile isn’t that good"
     },
     {
       "id": "48b1acf0-7769-4103-b16e-927b976db156",
       "title": "How web bloat impacts users with slow devices",
       "url": "https://danluu.com/slow-device/",
-      "savedAt": "2024-03-18T09:19:05.000Z"
+      "savedAt": "2024-03-18T09:19:05.000Z",
+      "description": "In 2017, we looked at how web bloat affects users with slow connections. Even in the U.S., many users didn't have broadband speeds, making much of the web difficult to use. It's still the case that many users don't have broadband speeds, both inside and outside of the U.S. and that much of the modern web isn't usable for people with slow internet, but the exponential increase in bandwidth (Nielsen suggests this is 50% per year for high-end connections) has outpaced web bloat for typical sites, making this less of a problem than it was in 2017, although it's still a serious problem for people with poor connections."
     },
     {
       "id": "7f736c5d-144c-4348-8c93-f91d81c0bc12",
       "title": "Be Well Tuned",
       "url": "http://bewelltuned.com",
-      "savedAt": "2024-03-17T13:02:25.000Z"
+      "savedAt": "2024-03-17T13:02:25.000Z",
+      "description": "It's is a very unusual guide to improving your brain and your life:"
     },
     {
       "id": "a4411486-6ca8-4351-b9db-eadb074c9cf7",
       "title": "Redefining Observability | Hazel Weakly",
       "url": "https://hazelweakly.me/blog/redefining-observability/",
-      "savedAt": "2024-03-16T20:51:57.000Z"
+      "savedAt": "2024-03-16T20:51:57.000Z",
+      "description": "Observability is a bit of a hot topic, and while it’s increasingly been playing a larger role in engineering strategy, I think the way it’s presented can often..."
     },
     {
       "id": "6418e5ae-28e6-4141-a817-88c10a016c5a",
       "title": "What are 1-bit LLMs?. The Era of 1-bit LLMs with BitNet b1.58 | by Mehul Gupta | Data Science in your pocket | Mar, 2024 | Medium",
       "url": "https://medium.com/data-science-in-your-pocket/what-are-1-bit-llms-3f2ae4b40fdf",
-      "savedAt": "2024-03-16T20:46:13.000Z"
+      "savedAt": "2024-03-16T20:46:13.000Z",
+      "description": "The Generative AI world is racing and the new addition to this fast-evolving space is 1-bit LLMs. You might not believe it, but this can change a lot of things and can help eliminate some of the…"
     },
     {
       "id": "bce17d14-7c7f-4e0e-b97b-bf1a281c3889",
       "title": "Checking Causal Consistency of MongoDB",
       "url": "https://muratbuffalo.blogspot.com/2024/03/checking-causal-consistency-of-mongodb.html",
-      "savedAt": "2024-03-16T20:41:12.000Z"
+      "savedAt": "2024-03-16T20:41:12.000Z",
+      "description": "This paper  declares the Jepsen testing of MongoDB for causal consistency a bit lacking in rigor, and goes on to test MongoDB  against three..."
     },
     {
       "id": "2194f3ae-9ae8-4dc2-adea-02332cdba2a7",
       "title": "First month on a database team | notes.eatonphil.com",
       "url": "https://notes.eatonphil.com/2024-03-11-first-month-on-a-database-team.html",
-      "savedAt": "2024-03-16T13:28:29.000Z"
+      "savedAt": "2024-03-16T13:28:29.000Z",
+      "description": "First month on a database team"
     },
     {
       "id": "a1d36868-862d-4168-8a25-671632a63505",
       "title": "How Figma's Databases Team Lived to Tell the Scale | Figma Blog",
       "url": "https://www.figma.com/blog/how-figmas-databases-team-lived-to-tell-the-scale/",
-      "savedAt": "2024-03-16T11:48:02.000Z"
+      "savedAt": "2024-03-16T11:48:02.000Z",
+      "description": "Our nine month journey to horizontally shard Figma’s Postgres stack, and the key to unlocking (nearly) infinite scalability."
     },
     {
       "id": "c3ab46f6-0f44-4049-b26a-0e139983b49c",
       "title": "Nix is a better Docker image builder than Docker's image builder - Xe Iaso",
       "url": "https://xeiaso.net/talks/2024/nix-docker-build/",
-      "savedAt": "2024-03-16T05:31:41.000Z"
+      "savedAt": "2024-03-16T05:31:41.000Z",
+      "description": "Fri Mar 15 2024"
     },
     {
       "id": "9abc7b84-c4c0-47b2-aafb-3a862ba42871",
       "title": "Learning from DNA: a grand challenge in biology · Hazy Research",
       "url": "https://hazyresearch.stanford.edu/blog/2024-03-14-evo",
-      "savedAt": "2024-03-16T05:16:26.000Z"
+      "savedAt": "2024-03-16T05:16:26.000Z",
+      "description": "Is DNA all you need?"
     },
     {
       "id": "016f5f75-836c-4af9-9d63-5eaaef9de5b1",
       "title": "40 years of programming",
       "url": "https://liw.fi/40/",
-      "savedAt": "2024-03-16T03:51:31.000Z"
+      "savedAt": "2024-03-16T03:51:31.000Z",
+      "description": "In April, 1984, my father bought a computer for his home office, a\nLuxor ABC-802, with a\nZ80 CPU, 64 kilobytes of RAM, a yellow-on-black screen with 80 by 25\ntext mode, or about 160 by 75 pixels in graphics mode, and two floppy\ndrives. It had BASIC in its ROM, and came with absolutely no games. If\nI wanted to play with it, I had to learn how to program, and write my\nown games. I learned BASIC, and over the next few years would learn\nPascal, C, and more. I had found my passion. I was 14 years old and I\nknew what I wanted to do when I grew up."
     },
     {
       "id": "265400be-b7fe-44ad-b987-c49d22049f5a",
       "title": "My weekly review habit | benkuhn.net",
       "url": "https://www.benkuhn.net/weekly/",
-      "savedAt": "2024-03-14T12:14:52.000Z"
+      "savedAt": "2024-03-14T12:14:52.000Z",
+      "description": "how it works • example topics • compounding improvements • what I’ve gotten out of it • tips"
     },
     {
       "id": "f2a8b581-45dd-489d-a8c4-a92b23ab5c25",
       "title": "Create More Than You Consume if You Want to Worry Less and Feel More Fulfilled — OMAR ITANI",
       "url": "https://www.omaritani.com/blog/create-more-consume-less",
-      "savedAt": "2024-03-14T02:53:57.000Z"
+      "savedAt": "2024-03-14T02:53:57.000Z",
+      "description": "The problem with too much consumption is that it can leave us feeling utterly empty inside. Ironically, it creates something: One big void. A small dose of creativity is good for us. It can help us become more present, less anxious, and much more fulfilled. And it doesn't take much to live a creativ"
     },
     {
       "id": "60182887-2846-4aea-8b25-4f3e18a99bb1",
       "title": "SQLite Internals: Pages & B-trees · The Fly Blog",
       "url": "https://fly.io/blog/sqlite-internals-btree/",
-      "savedAt": "2024-03-13T19:02:50.000Z"
+      "savedAt": "2024-03-13T19:02:50.000Z",
+      "description": "Let's open a hex editor and see what this thing is made of"
     },
     {
       "id": "8af3a290-d948-4684-89b5-d6bc4ee1847e",
       "title": "Breaking Down Tasks - Jacob Kaplan-Moss",
       "url": "https://jacobian.org/2024/mar/11/breaking-down-tasks/",
-      "savedAt": "2024-03-13T11:18:10.000Z"
+      "savedAt": "2024-03-13T11:18:10.000Z",
+      "description": "Something missing from this series on estimation, until now, has been a discussion of how to “break down” a project into a well-defined task list. I’d not previously written about this because, to me, it’s largely intuitive. But it isn’t for everyone, so this post fills the gap, and explains in detail how I break down projects into a task list."
     },
     {
       "id": "a987df97-e328-40b9-8b78-9a0f7d006d74",
       "title": "CAP is Good, Actually • Buttondown",
       "url": "https://buttondown.email/jaffray/archive/cap-is-good-actually/",
-      "savedAt": "2024-03-13T11:16:17.000Z"
+      "savedAt": "2024-03-13T11:16:17.000Z",
+      "description": "It seems like there are two main takes regarding the CAP theorem online: In introductory materials, it is presented as a deep, fundamental truth about..."
     },
     {
       "id": "99d8d10f-002f-4a53-80c5-d90adcb5a037",
       "title": "“No” Is a Good Default Answer",
       "url": "https://mikegrindle.com/posts/saying-no",
-      "savedAt": "2024-03-12T11:50:24.000Z"
+      "savedAt": "2024-03-12T11:50:24.000Z",
+      "description": "(Or, how to find things worth saying yes to)"
     },
     {
       "id": "ab3f9bbf-8571-44eb-a390-e61e1e55b657",
       "title": "Technical Skills Are Overrated. Focus on Your Attitude.",
       "url": "https://www.scarletink.com/p/technical-skills-are-overrated-focus-on-your-attitude",
-      "savedAt": "2024-03-10T17:52:37.000Z"
+      "savedAt": "2024-03-10T17:52:37.000Z",
+      "description": "When interviewing, particularly for technical positions, many people over value their technical preparation, and don't consider the importance of personality and leadership preparation."
     },
     {
       "id": "90cfb6e9-10b2-432a-ac03-4c41359e9e7f",
       "title": "Vector Clocks Explained",
       "url": "https://riak.com/why-vector-clocks-are-easy/",
-      "savedAt": "2024-03-10T00:32:28.000Z"
+      "savedAt": "2024-03-10T00:32:28.000Z",
+      "description": "January 29, 2010 Vector clocks are confusing the first time you're introduced to them. It's not clear what their benefits are, nor how it is you derive said benefits. Indeed, each Riak developer has had his own set of false starts in making them behave."
     },
     {
       "id": "90b69fd1-0d5e-446a-90a1-b4082b063f52",
       "title": "POV: I'm on my third coffee and you just asked me how the internet works",
       "url": "https://www.youtube.com/watch?t=8s&v=jjKFXlFNR4E",
-      "savedAt": "2024-03-09T22:56:58.000Z"
+      "savedAt": "2024-03-09T22:56:58.000Z",
+      "description": "POV: I'm on my third coffee and you just asked me how the internet works"
     },
     {
       "id": "7a6ff909-f168-4916-9fc0-a40d99260f74",
       "title": "How HEAD works in git",
       "url": "https://jvns.ca/blog/2024/03/08/how-head-works-in-git/",
-      "savedAt": "2024-03-09T14:47:19.000Z"
+      "savedAt": "2024-03-09T14:47:19.000Z",
+      "description": "How HEAD works in git"
     },
     {
       "id": "0186be0c-adcb-46ce-8583-3b789afe4f3b",
       "title": "How I read a research paper",
       "url": "https://muratbuffalo.blogspot.com/2013/07/how-i-read-research-paper.html",
-      "savedAt": "2024-03-09T14:41:29.000Z"
+      "savedAt": "2024-03-09T14:41:29.000Z",
+      "description": "I can't tell you how you should read a research paper.  Probably a different and customized style would work best for you.   But I can t..."
     },
     {
       "id": "2181dddb-3f5d-4ad5-befa-6744e203206e",
       "title": "Your attitude determines your success",
       "url": "https://muratbuffalo.blogspot.com/2021/03/your-attitude-determines-your-success.html",
-      "savedAt": "2024-03-09T13:52:57.000Z"
+      "savedAt": "2024-03-09T13:52:57.000Z",
+      "description": "This may sound like a cliche your dad used to tell, but after many years of going through new areas, ventures, and careers, I find this to b..."
     },
     {
       "id": "343bfb5e-41b3-4d05-a6db-86de3ec4c97e",
       "title": "Learning a technical subject",
       "url": "https://muratbuffalo.blogspot.com/2021/12/learning-technical-subject.html",
-      "savedAt": "2024-03-09T13:02:25.000Z"
+      "savedAt": "2024-03-09T13:02:25.000Z",
+      "description": "I love learning.  I wanted to write about how I learn, so I can analyze if there is a method to this madness. I will first talk about what m..."
     },
     {
       "id": "d7268e10-70d3-429c-ac53-9ce48855e4b3",
       "title": "Why I blog",
       "url": "https://muratbuffalo.blogspot.com/2024/03/why-i-blog.html",
-      "savedAt": "2024-03-08T22:01:59.000Z"
+      "savedAt": "2024-03-08T22:01:59.000Z",
+      "description": "My blog has been going for 14 years now, and has just passed 4 million pageviews. Yay! I remember the 1 million pageviews moment in 2017 ! T..."
     },
     {
       "id": "ad07ff84-dd7b-11ee-a4b2-9f3f6b58409d",
       "title": "Coordination Avoidance in Database Systems",
-      "url": "https://storage.googleapis.com/omnivore/u/adf85aa6-dd7b-11ee-803f-bbe769353f58/p185-bailis.pdf?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=omnivore-production%40appspot.gserviceaccount.com%2F20240522%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240522T205224Z&X-Goog-Expires=14400&X-Goog-SignedHeaders=host&X-Goog-Signature=653f457ce5ba28b1c17d799aeb8e5f728d1d617234d5f0593aebe3c0a9d270e9af1008416e2b1741562394ae15edb419524982311a97576fc21416a010b418b1f276ef51559b82102663d1e4035333e35a7f89512e091a08a9f9a7d5db29538ed404f190b4c35cceb666b885de7cbeef812207fa20b958bedab715155e3485cdb030cd61cc540a86bec1abb7012407d90ffaef1d6e9b223d3cb134d5072c107fa04173777c98a4bb7b50b855078d5a711501bf29afa43a0e7dfbb4e89ac9e603eef2b4c964b839582848bdd9d46acececb51fb402c492f143f470d6090354f668ef3e446054c3844618ce85ff32b6ffd39726e0a181c6e97cba7d611bdeb8d7a",
-      "savedAt": "2024-03-08T18:42:54.000Z"
+      "url": "https://www.vldb.org/pvldb/vol8/p185-bailis.pdf",
+      "savedAt": "2024-03-08T18:42:54.000Z",
+      "description": null
     },
     {
       "id": "4738578d-0072-4ffa-9dc2-6ff8b1a2932d",
       "title": "How the First Transistor Worked - IEEE Spectrum",
       "url": "https://spectrum.ieee.org/transistor-history",
-      "savedAt": "2024-03-08T12:25:43.000Z"
+      "savedAt": "2024-03-08T12:25:43.000Z",
+      "description": "<p>Even its inventors didn’t fully understand the point-contact transistor</p>"
     },
     {
       "id": "deddf57b-dae4-4fe9-9b88-c941862000b7",
       "title": "The checklist manifesto (Dr. Atul Gawande, 2009)",
       "url": "https://muratbuffalo.blogspot.com/2024/01/the-checklist-manifesto-dr-atul-gawande.html",
-      "savedAt": "2024-03-08T00:08:30.000Z"
+      "savedAt": "2024-03-08T00:08:30.000Z",
+      "description": "This book  advocates for integrating checklists as potent safety and fault-tolerance tools across diverse domains. Atul Gawande, a prominent..."
     },
     {
       "id": "3c2eb792-a250-4541-9bc8-5e1b8275b9c3",
       "title": "The CAP Theorem. The Bad, the Bad, & the Ugly | Dominik Tornow",
       "url": "https://blog.dtornow.com/the-cap-theorem.-the-bad-the-bad-the-ugly/",
-      "savedAt": "2024-03-07T12:57:34.000Z"
+      "savedAt": "2024-03-07T12:57:34.000Z",
+      "description": "The CAP theorem is too simplistic and too widely misunderstood to be of much use for characterizing systems. Therefore I ask that we retire all references to the CAP theorem, stop talking about the CAP theorem, and put the poor thing to rest\nMartin Kleppmann\nIn 2000, Eric Brewer introduced the CAP Conjecture during his keynote address Towards Robust Distributed Systems at the Principles of Distributed Computing conference. Brewer posited that a distributed system cannot achieve Consistency, Availability, and Partition Tolerance simultaneously."
     },
     {
       "id": "1c089b8a-1868-4aee-bf17-cc206f7b9709",
       "title": "O Juro é negativo após 2008 - by 🟩🟩Trezoitão🟩🟩",
       "url": "https://amoedo.substack.com/p/o-juro-e-negativo-apos-2008",
-      "savedAt": "2024-03-06T21:31:36.000Z"
+      "savedAt": "2024-03-06T21:31:36.000Z",
+      "description": "no legacy só há perda fixa e perda variável"
     },
     {
       "id": "52302567-88fd-431d-8412-d3a3030b1839",
       "title": "Why (and how) to read books | notes.eatonphil.com",
       "url": "https://notes.eatonphil.com/why-and-how-to-read-books.html",
-      "savedAt": "2024-03-05T10:51:49.000Z"
+      "savedAt": "2024-03-05T10:51:49.000Z",
+      "description": "Why (and how) to read books"
     },
     {
       "id": "9efdc5c3-7a96-4bb1-a377-70967e1a3bc0",
       "title": "Reverse Engineering Protobuf Definitions From Compiled Binaries",
       "url": "https://arkadiyt.com/2024/03/03/reverse-engineering-protobuf-definitiions-from-compiled-binaries/",
-      "savedAt": "2024-03-05T00:00:38.000Z"
+      "savedAt": "2024-03-05T00:00:38.000Z",
+      "description": "How to extract raw source protobuf definitions from compiled binaries, regardless of the target architecture"
     },
     {
       "id": "11e26938-8dc5-474d-a66f-0b809df523b4",
       "title": "Anatomy of a NixOS Config - unmoved centre",
       "url": "https://unmovedcentre.com/technology/2024/02/24/anatomy-of-a-nixos-config.html",
-      "savedAt": "2024-03-04T16:18:42.000Z"
+      "savedAt": "2024-03-04T16:18:42.000Z",
+      "description": "This article provides a structural overview on the anatomy of my personal nix configuration."
     },
     {
       "id": "7e302f76-de4c-44e1-be43-8ee8d0368c1b",
       "title": "Paul Butler – The hater’s guide to Kubernetes",
       "url": "https://paulbutler.org/2024/the-haters-guide-to-kubernetes/",
-      "savedAt": "2024-03-04T12:25:44.000Z"
+      "savedAt": "2024-03-04T12:25:44.000Z",
+      "description": "Paul Butler – March 3, 2024"
     },
     {
       "id": "675ccc98-93a4-4ae2-857a-acdda48ddb28",
       "title": "A Deep Dive into the Underlying Architecture of Groq's LPU",
       "url": "https://codeconfessions.substack.com/p/groq-lpu-design",
-      "savedAt": "2024-03-04T12:25:23.000Z"
+      "savedAt": "2024-03-04T12:25:23.000Z",
+      "description": "What powers the ground breaking performance of Groq's Langauge Processing Unit?"
     },
     {
       "id": "b8dfcaf7-ed22-4314-93ab-7244c826ae8c",
       "title": "Byte Interviews the Apple Lisa Dev Team (1983)",
       "url": "https://computeradsfromthepast.substack.com/p/byte-interviews-the-apple-lisa-dev",
-      "savedAt": "2024-03-04T12:24:27.000Z"
+      "savedAt": "2024-03-04T12:24:27.000Z",
+      "description": "A behind-the-scenes look at the development of Apples Lisa."
     },
     {
       "id": "83badfff-41dc-43af-9675-85bd1acbe088",
       "title": "Internet gardening | James' Coffee Blog",
       "url": "https://jamesg.blog/2024/03/04/internet-gardening/",
-      "savedAt": "2024-03-04T12:10:58.000Z"
+      "savedAt": "2024-03-04T12:10:58.000Z",
+      "description": "Personal websites are an opportunity to be uniquely you online. Your website can be designed in the way that you want. You can express and connect ideas in a way that is personally meaningful. You can create original content and reply to writing or art that you found thought-provoking. You can make: art, essays, blog posts, reflections, interactive experiences. All on the web."
     },
     {
       "id": "69cb27d1-4367-4c90-b233-4edb18b425cf",
       "title": "Airfoil – Bartosz Ciechanowski",
       "url": "https://ciechanow.ski/airfoil/",
-      "savedAt": "2024-03-03T19:43:14.000Z"
+      "savedAt": "2024-03-03T19:43:14.000Z",
+      "description": "Interactive article explaining the physics of an airfoil and what makes airplanes fly"
     },
     {
       "id": "419d6c07-5f12-4944-a28a-55647d7ba589",
       "title": "Inside the miracle of modern chip manufacturing",
       "url": "https://ig.ft.com/microchips/",
-      "savedAt": "2024-03-03T19:29:45.000Z"
+      "savedAt": "2024-03-03T19:29:45.000Z",
+      "description": "After coming up against the limits of physics, scientists are rethinking chip architecture like never before"
     },
     {
       "id": "25c8c4d8-f62d-4667-8c17-7879bd51a328",
       "title": "How User Groups Made Software Reuse a Reality | ℤ→ℤ",
       "url": "https://ztoz.blog/posts/user-group-reuse/",
-      "savedAt": "2024-03-03T18:29:41.000Z"
+      "savedAt": "2024-03-03T18:29:41.000Z",
+      "description": "Before the widespread existence of software repositories like CPAN, NPM, and PyPI, developers seeking to reuse an existing algorithm or library of routines would either check books or journals for code, or, they just might post a classified ad:"
     },
     {
       "id": "779f4054-f785-42ad-92d4-14232d46fd9b",
       "title": "My thoughts on writing a Minecraft server from scratch (in Bash)",
       "url": "https://sdomi.pl/weblog/15-witchcraft-minecraft-server-in-bash/",
-      "savedAt": "2024-03-02T16:03:18.000Z"
+      "savedAt": "2024-03-02T16:03:18.000Z",
+      "description": "I wrote a working Minecraft server in Bash! wait, why did I do that"
     },
     {
       "id": "115435b4-68bf-4cdf-b878-290fc9b1c08a",
       "title": "Building a Scalable Accounting Ledger",
       "url": "https://scratchdata.com/blog/building-a-ledger/",
-      "savedAt": "2024-03-02T12:41:54.000Z"
+      "savedAt": "2024-03-02T12:41:54.000Z",
+      "description": "How to use an analytics database to build a ledger that can handle millions of rows."
     },
     {
       "id": "aa2100d9-0601-44d4-a377-93c3f24bd1a1",
       "title": "Learn CSS Layout The Pedantic Way",
       "url": "https://book.mixu.net/css/",
-      "savedAt": "2024-03-01T22:31:40.000Z"
+      "savedAt": "2024-03-01T22:31:40.000Z",
+      "description": "Bureaucrat Conrad, you are technically correct - the best kind of correct. I hereby promote you to grade 37. - Number 1.0 (Futurama, S2E15)"
     },
     {
       "id": "bca1c5c5-edba-4b98-b1dd-68e10ec64006",
       "title": "Salary Negotiation: Make More Money, Be More Valued | Kalzumeus Software",
       "url": "https://www.kalzumeus.com/2012/01/23/salary-negotiation/",
-      "savedAt": "2024-03-01T15:19:57.000Z"
+      "savedAt": "2024-03-01T15:19:57.000Z",
+      "description": "Salary negotiation advice, mostly for engineers. Running total of raises negotiated due to this essay: $9M+."
     },
     {
       "id": "074ff1d5-6691-4bfa-b2f4-418688d4e302",
       "title": "Understanding GPU caches – RasterGrid",
       "url": "https://www.rastergrid.com/blog/gpu-tech/2021/01/understanding-gpu-caches/",
-      "savedAt": "2024-03-01T01:03:57.000Z"
+      "savedAt": "2024-03-01T01:03:57.000Z",
+      "description": null
     },
     {
       "id": "a0c61427-40fa-41c1-86e3-17cab7794957",
       "title": "Demystifying GPUs for CPU-centric programmers | Medium",
       "url": "https://medium.com/@penberg/demystifying-gpus-for-cpu-centric-programmers-e24934a620f1",
-      "savedAt": "2024-03-01T01:03:50.000Z"
+      "savedAt": "2024-03-01T01:03:50.000Z",
+      "description": "GPUs are essential for modern AI workloads, but how do they execute code and why are they so much for efficient than CPU for such workloads?"
     },
     {
       "id": "2111a84b-a6b6-4aa3-842b-ab95b5bf2d12",
       "title": "OBTF Follow-up",
       "url": "https://mikegrindle.com/posts/obtf-follow-up",
-      "savedAt": "2024-02-29T15:43:07.000Z"
+      "savedAt": "2024-02-29T15:43:07.000Z",
+      "description": "A little while back, I wrote a post about my One Big Text File (OBTF)\nnote-taking “system.” To my surprise, it seemed to strike a chord with a\nlot of you, inspiring some people to try it themselves and many\nconversations on note-taking."
     },
     {
       "id": "e0f8d006-31ec-4df6-ba2c-45996827fffd",
       "title": "No one can teach you to have conviction | benkuhn.net",
       "url": "https://www.benkuhn.net/conviction/",
-      "savedAt": "2024-02-29T10:35:39.000Z"
+      "savedAt": "2024-02-29T10:35:39.000Z",
+      "description": "fast vs slow feedback • modeling people vs. modeling the problem • mentors vs. mistakes • why you should do the hard thing now"
     },
     {
       "id": "b07e0c71-c22e-4c77-ab9c-c75b81f6a199",
       "title": "Shape Up: Stop Running in Circles and Ship Work that Matters",
       "url": "https://basecamp.com/shapeup",
-      "savedAt": "2024-02-28T12:19:52.000Z"
+      "savedAt": "2024-02-28T12:19:52.000Z",
+      "description": "Shape Up will help you break free of “best practices” that aren’t really working, think deeper about the right problems, and start shipping meaningful projects your team can celebrate."
     },
     {
       "id": "a5d1741f-c552-4f79-9063-c65e10e07b8a",
       "title": "How I backup | Derek Sivers",
       "url": "https://sive.rs/backup",
-      "savedAt": "2024-02-28T12:19:20.000Z"
+      "savedAt": "2024-02-28T12:19:20.000Z",
+      "description": "Some people have asked, so here is how I do my backups.\nIt takes me about ten seconds per day and five minutes per month to maintain."
     },
     {
       "id": "c1136ce1-8da3-44c3-8fe5-aa1043bcb4b2",
       "title": "Job titles are bullshit · Jamie Tanna | Software Engineer",
       "url": "https://www.jvt.me/posts/2024/02/26/job-titles-bullshit/",
-      "savedAt": "2024-02-26T22:34:02.000Z"
+      "savedAt": "2024-02-26T22:34:02.000Z",
+      "description": "When is a Senior Engineer not a Senior Engineer, no standardisation across the industry, and other reasons job titles are frustrating."
     },
     {
       "id": "dfcbefff-ae9d-4135-bd0f-2e6ef4facf87",
       "title": "How to change a system (18 ways) – Changeology",
       "url": "https://www.enablingchange.com.au/blog/strategy-2/how-to-change-a-system/",
-      "savedAt": "2024-02-26T22:05:52.000Z"
+      "savedAt": "2024-02-26T22:05:52.000Z",
+      "description": "“Hunger, poverty, environmental degradation, economic instability, unemployment, chronic disease, drug addiction, and war, for example, persist in spite of the analytical ability and technica…"
     },
     {
       "id": "ed1208e7-eab0-4977-a3d0-2c43b7203132",
       "title": "Earth is becoming sentient — Steph Ango",
       "url": "https://stephango.com/earth",
-      "savedAt": "2024-02-26T21:57:33.000Z"
+      "savedAt": "2024-02-26T21:57:33.000Z",
+      "description": "Humans are not the last level of life’s fractal pattern. The Earth itself is becoming a sentient organism, a new stage of life, a species that exists on a sc..."
     },
     {
       "id": "754366b8-4ad0-42dc-940b-ef228b6f0d69",
       "title": "2024-02-25 a history of the tty",
       "url": "https://computer.rip/2024-02-25-a-history-of-the-tty.html",
-      "savedAt": "2024-02-26T11:24:31.000Z"
+      "savedAt": "2024-02-26T11:24:31.000Z",
+      "description": "It's one of those anachronisms that is deeply embedded in modern technology.\nFrom cloud operator servers to embedded controllers in appliances, there\nmust be uncountable devices that think they are connected to a TTY."
     },
     {
       "id": "da979f22-4e08-4e5b-8055-019f9439aeb2",
       "title": "Website Refresh 2023",
       "url": "https://ped.ro/writing/website-refresh-2023",
-      "savedAt": "2024-02-25T22:10:16.000Z"
+      "savedAt": "2024-02-25T22:10:16.000Z",
+      "description": "Redefining myself and my website."
     },
     {
       "id": "2daa3fdc-d406-11ee-a9d7-9bcb3850f82a",
       "title": "Nobody Ever Gets Credit for Fixing Problems that Never Happened",
-      "url": "https://storage.googleapis.com/omnivore/u/2f34dd4e-d406-11ee-9592-ef1a5d79beaf/RepenningSterman_CMR_su01_.pdf?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=omnivore-production%40appspot.gserviceaccount.com%2F20240522%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240522T205224Z&X-Goog-Expires=14400&X-Goog-SignedHeaders=host&X-Goog-Signature=5d1e6e930fd4f8e6c3e132e3933f6f631f5ce9309b9fa7f914b26785e92e8d4ea4ca0efdeec58e781dab7e216564ab3f31e48aa779e6c0b5bfb75be54bd79a94302c6fa6c5404308218f9dbb23cba0d7bc1c8e29d4b96a4b22940905500af4b1298ef29c0a425973fce40f1b1ca3c88f8692411c08e814324240a776d72e54a3a68c21bc5b0d5d72d57651989100270182a7f7692bf7eb19510ca44298cf6487301cbb5958e05c025551e30d2648535489a6ddd63330932dfaa63d15b4ebab78d1906aa8220ee53864930fc9bc2379f678f20fa31f5bdab5194b1429fc951077f4338cf585beed4c45b4d98daa40f7458283da74f2b705ffb51163fb0c7c1bc4",
-      "savedAt": "2024-02-25T17:49:12.000Z"
+      "url": "https://web.mit.edu/nelsonr/www/Repenning=Sterman_CMR_su01_.pdf",
+      "savedAt": "2024-02-25T17:49:12.000Z",
+      "description": null
     },
     {
       "id": "facff966-5f97-4117-9734-8262ddcd6692",
       "title": "Roman Jakobson : The Functions of Language / Signo - Applied Semiotics Theories",
       "url": "http://www.signosemio.com/jakobson/functions-of-language.asp",
-      "savedAt": "2024-02-25T17:13:46.000Z"
+      "savedAt": "2024-02-25T17:13:46.000Z",
+      "description": "The Functions of Language: a Jakobson's semiotic theory. Abstract, Theory, Application, References and Exercices."
     },
     {
       "id": "b8f288ed-847f-42d0-b93c-faa8b0b9f043",
       "title": "Haskell for all: Unification-free (\"keyword\") type checking",
       "url": "https://www.haskellforall.com/2024/02/unification-free-keyword-type-checking.html",
-      "savedAt": "2024-02-25T16:22:30.000Z"
+      "savedAt": "2024-02-25T16:22:30.000Z",
+      "description": "A type checking proposal that doesn't employ unification variables."
     },
     {
       "id": "682c96c3-08aa-4c7a-b0a6-b654a250adcc",
       "title": "Compiler Theory and Reactivity",
       "url": "https://www.recompiled.dev/blog/ssa/",
-      "savedAt": "2024-02-24T14:27:34.000Z"
+      "savedAt": "2024-02-24T14:27:34.000Z",
+      "description": "The post describes how the React Compiler uses SSA form for fine grained reactivity"
     },
     {
       "id": "f72019a4-42cb-4c31-8c54-3fa1505c8778",
       "title": "ego",
       "url": "https://sigilwen.ca/ego.html",
-      "savedAt": "2024-02-24T14:18:21.000Z"
+      "savedAt": "2024-02-24T14:18:21.000Z",
+      "description": "Feb 23rd, 2024 by Sigil Wen"
     },
     {
       "id": "ebf1a539-64df-4149-bb59-a1ad235b45c1",
       "title": "Build your own Database Index: part 1",
       "url": "https://dx13.co.uk/articles/2023/12/02/byo-index-pt1/",
-      "savedAt": "2024-02-24T01:02:50.000Z"
+      "savedAt": "2024-02-24T01:02:50.000Z",
+      "description": "I’ve been quiet in November because I’ve been working on a small toy project.\nNow it’s become interesting, I want to write about it. In part, to prove to\nmyself I actually understand what I’ve built, by showing I can explain it in\nwords. I’ve been working through creating a simple database-like index, to\nunderstand the concepts involved more concretely."
     },
     {
       "id": "95968dee-1a01-40af-a70b-2895e6b148d2",
       "title": "williamdemeo/TypeFunc: Resources for type theory, functional programming, etc.",
       "url": "https://github.com/williamdemeo/TypeFunc",
-      "savedAt": "2024-02-23T12:21:40.000Z"
+      "savedAt": "2024-02-23T12:21:40.000Z",
+      "description": "Resources for type theory, functional programming, etc. - williamdemeo/TypeFunc"
     },
     {
       "id": "6830458f-ce2d-462c-a6be-dc6de333424f",
       "title": "How MOSFETS Work - Unravel the Mysteries of How mosfets Work!",
       "url": "https://www.youtube.com/watch?v=AwRJsze_9m4",
-      "savedAt": "2024-02-22T00:53:42.000Z"
+      "savedAt": "2024-02-22T00:53:42.000Z",
+      "description": "How MOSFETS Work - Unravel the Mysteries of How mosfets Work!"
     },
     {
       "id": "210ff6b6-8bf8-4e97-9619-947db2482f1c",
       "title": "What I Wish Someone Had Told Me - Sam Altman",
       "url": "https://blog.samaltman.com/what-i-wish-someone-had-told-me",
-      "savedAt": "2024-02-21T13:14:48.000Z"
+      "savedAt": "2024-02-21T13:14:48.000Z",
+      "description": "Optimism, obsession, self-belief, raw horsepower and personal connections are how things get started. Cohesive teams, the right combination of calmness and urgency, and unreasonable commitment are..."
     },
     {
       "id": "2ed359ac-688e-4847-baea-9e689d7e066c",
       "title": "Table of Contents | Ultimate Electronics Book",
       "url": "https://ultimateelectronicsbook.com",
-      "savedAt": "2024-02-21T00:44:56.000Z"
+      "savedAt": "2024-02-21T00:44:56.000Z",
+      "description": "A free, interactive book for electronics hobbyists and electrical engineering students: Practical Circuit Design and Analysis."
     },
     {
       "id": "748db3e2-4879-434e-8953-9dc1877f3d49",
       "title": "Software infrastructure 2.0: a wishlist · Erik Bernhardsson",
       "url": "https://erikbern.com/2021/04/19/software-infrastructure-2.0-a-wishlist.html",
-      "savedAt": "2024-02-20T18:53:52.000Z"
+      "savedAt": "2024-02-20T18:53:52.000Z",
+      "description": "Erik Bernhardsson"
     },
     {
       "id": "1a70a07c-df1f-47ad-b22d-a8677abc9748",
       "title": "DRMacIver's Notebook: Writing good programming abstractions",
       "url": "https://notebook.drmaciver.com/posts/2024-01-13-08:28.html",
-      "savedAt": "2024-02-20T11:09:40.000Z"
+      "savedAt": "2024-02-20T11:09:40.000Z",
+      "description": "Writing good programming abstractions"
     },
     {
       "id": "bfa84e4c-9ffa-466c-b087-b61b2f56b14d",
       "title": "Bloom Filters",
       "url": "https://samwho.dev/bloom-filters/",
-      "savedAt": "2024-02-19T22:21:21.000Z"
+      "savedAt": "2024-02-19T22:21:21.000Z",
+      "description": "A visual, interactive guide to what bloom filters are, when you would use them, and how they work."
     },
     {
       "id": "003ff493-7d40-4803-a0f2-2bcc98a2c59d",
       "title": "Evolution of tree data structures for indexing: more exciting than it sounds · Erthalion's blog",
       "url": "https://erthalion.info/2020/11/28/evolution-of-btree-index-am/",
-      "savedAt": "2024-02-17T23:38:02.000Z"
+      "savedAt": "2024-02-17T23:38:02.000Z",
+      "description": "I have to admit, my research blog posts are getting longer and longer. From one\nside I find it genuinely encouraging, because if one gets so much information\njust by scratching the topic, imagine what’s hidden beneath the surface! One\nuniversity professor once said “what could be interesting in databases?”, and\nit turns out freaking a lot! On the other side it certainly poses problems for\npotential readers. To overcome them I would suggest an interesting approach:\nprint this blog post out, or open it on your tablet/e-reader, where you can\nmake notes with a pencil or markers. Now while reading it try to spot ideas\nparticularly exciting for you and mark them. Along the way there would be\ndefinitely some obscure parts or questions, write them on the sides as well.\nYou can experiment with the diagrams, changing or extending them, or just\ndrawing funny faces. But do not read everything at once, have no fear of\nputting it aside for a while, and read in chunks that are convenient for you.\nSome parts could be skipped as the text is build out of relatively independent\ntopics. The table of contents can help and guide you. Having said that we’re\nready to embark on the journey."
     },
     {
       "id": "4847642b-158e-42d6-ad87-355a911e8fd5",
       "title": "B-trees",
       "url": "https://shachaf.net/w/b-trees",
-      "savedAt": "2024-02-17T22:49:50.000Z"
+      "savedAt": "2024-02-17T22:49:50.000Z",
+      "description": "Let’s invent B(+)-trees."
     },
     {
       "id": "162a8e3e-86d9-481c-8068-8dee4d0faee5",
       "title": "B+-Tree Indexes",
       "url": "https://web.archive.org/web/20080723122307/http://www.cecs.csulb.edu/%7emonge/classes/share/B+TreeIndexes.html",
-      "savedAt": "2024-02-17T20:58:32.000Z"
+      "savedAt": "2024-02-17T20:58:32.000Z",
+      "description": "The Wayback Machine - https://web.archive.org/web/20080723122307/http://www.cecs.csulb.edu/%7emonge/classes/share/B+TreeIndexes.html"
     },
     {
       "id": "5686bfb9-4c54-447d-818e-11f2c6ab83c2",
       "title": "Fighting undead documentation",
       "url": "https://softwaredoug.com/blog/2023/10/13/fight-undead-documentation",
-      "savedAt": "2024-02-14T22:50:48.000Z"
+      "savedAt": "2024-02-14T22:50:48.000Z",
+      "description": "Software documentation that doesn’t suck needs to exist with the living"
     },
     {
       "id": "5a0c7479-b899-49ec-9473-694dfc510411",
       "title": "Distributed Logical Time",
       "url": "https://longform.asmartbear.com/distributed-logical-time/",
-      "savedAt": "2024-02-12T15:05:38.000Z"
+      "savedAt": "2024-02-12T15:05:38.000Z",
+      "description": "A simple, decentralized, scalable, constant-memory mechanism for independent replicas to record events in time, preserving the \"happened-before\" relation in almost all cases."
     },
     {
       "id": "4ba7d0fc-12f1-462b-952f-77246d40a106",
       "title": "An intuition for distributed consensus in OLTP systems | notes.eatonphil.com",
       "url": "https://notes.eatonphil.com/2024-02-08-an-intuition-for-distributed-consensus-in-oltp-systems.html",
-      "savedAt": "2024-02-12T14:30:04.000Z"
+      "savedAt": "2024-02-12T14:30:04.000Z",
+      "description": "An intuition for distributed consensus in OLTP systems"
     },
     {
       "id": "664ef042-1059-4bbc-aef7-dab42ed9aebb",
       "title": "How to (seriously) read a scientific paper | Science | AAAS",
       "url": "https://www.science.org/content/article/how-seriously-read-scientific-paper",
-      "savedAt": "2024-02-11T21:48:43.000Z"
+      "savedAt": "2024-02-11T21:48:43.000Z",
+      "description": "Reading becomes easier with experience, but it is up to each scientist to identify the techniques that work best for them."
     },
     {
       "id": "6e19864f-9e04-4857-95f6-4d8f4908ab18",
       "title": "A Distributed Systems Reading List",
       "url": "https://ferd.ca/a-distributed-systems-reading-list.html",
-      "savedAt": "2024-02-11T20:17:41.000Z"
+      "savedAt": "2024-02-11T20:17:41.000Z",
+      "description": "An old document I surfaced with my quick tour of distributed systems theory fundamentals"
     },
     {
       "id": "d9ea9ccc-f14a-412a-8a1e-0aeba04af7ca",
       "title": "HOW TO STUDY",
       "url": "https://cse.buffalo.edu/~rapaport/howtostudy.html",
-      "savedAt": "2024-02-11T20:13:13.000Z"
+      "savedAt": "2024-02-11T20:13:13.000Z",
+      "description": "Note:  \n\tor \n    material is highlighted"
     },
     {
       "id": "e8369fa9-3254-4334-822e-d650ed607523",
       "title": "Tunable Consistency in MongoDB",
       "url": "https://muratbuffalo.blogspot.com/2024/02/tunable-consistency-in-mongodb.html",
-      "savedAt": "2024-02-10T20:23:28.000Z"
+      "savedAt": "2024-02-10T20:23:28.000Z",
+      "description": "This paper appeared in VLDB 2019.  It discusses the tunable consistency models in MongoDB  and how MongoDB's speculative execution model..."
     },
     {
       "id": "f2c4e000-5424-4e70-850a-2c52a0a321a9",
       "title": "Teach Yourself Programming in Ten Years",
       "url": "https://norvig.com/21-days.html",
-      "savedAt": "2024-02-09T01:08:39.000Z"
+      "savedAt": "2024-02-09T01:08:39.000Z",
+      "description": "The conclusion is that either people are in a big rush to learn\nabout programming, or that programming is somehow fabulously easier to\nlearn than anything else.  \nFelleisen et al.\ngive a nod to this trend in their book How to Design Programs, when they say\n\"Bad programming is easy. Idiots can learn it in 21 days,\neven if they are dummies.\" The Abtruse Goose comic also had their take."
     },
     {
       "id": "9f62ff3e-beda-4f57-a1b1-c4a442385f89",
       "title": "Demystifying GPU Compute Architectures - by Babbage",
       "url": "https://thechipletter.substack.com/p/demystifying-gpu-compute-architectures",
-      "savedAt": "2024-02-09T01:03:41.000Z"
+      "savedAt": "2024-02-09T01:03:41.000Z",
+      "description": "Getting 'low level' with Nvidia and AMD GPUs"
     },
     {
       "id": "d7cdd9d1-0f3a-4ba4-9951-b1783cc68226",
       "title": "OKRs are Bullshit - by drmorr",
       "url": "https://blog.appliedcomputing.io/p/okrs-are-bullshit",
-      "savedAt": "2024-02-09T00:03:03.000Z"
+      "savedAt": "2024-02-09T00:03:03.000Z",
+      "description": "It's a new year, time for a new rant! And yes, before you ask, the post title is deliberately provocative. You might say this is my ploy to get more paid subscribers, because only paid subscribers can leave comments and I expect that the title alone will make many of you want to comment. 😝"
     },
     {
       "id": "79959e1c-6248-43c0-b6f1-21149e30b7d5",
       "title": "Writing Is Magic - Marc's Blog",
       "url": "https://brooker.co.za/blog/2022/11/08/writing.html",
-      "savedAt": "2024-02-08T23:27:40.000Z"
+      "savedAt": "2024-02-08T23:27:40.000Z",
+      "description": "Magic can be dangerous."
     },
     {
       "id": "f96910f5-1992-4cb6-831e-93f3784d6131",
       "title": "Writing For Somebody - Marc's Blog",
       "url": "https://brooker.co.za/blog/2023/09/21/audience.html",
-      "savedAt": "2024-02-08T11:42:29.000Z"
+      "savedAt": "2024-02-08T11:42:29.000Z",
+      "description": "Who's there?"
     },
     {
       "id": "3b73de86-21cd-49af-9dae-121feb7a8d54",
       "title": "How Do You Spend Your Time? - Marc's Blog",
       "url": "https://brooker.co.za/blog/2024/02/06/time",
-      "savedAt": "2024-02-07T03:41:56.000Z"
+      "savedAt": "2024-02-07T03:41:56.000Z",
+      "description": "Career advice, or something like it."
     },
     {
       "id": "50c2329e-7ef8-42d3-99a3-270decec27f2",
       "title": "Why Gödel, Escher, Bach is the most influential book in my life. | by Mark Johnson | Medium",
       "url": "https://philosophygeek.medium.com/why-g%C3%B6del-escher-bach-is-the-most-influential-book-in-my-life-49d785a4e428",
-      "savedAt": "2024-02-04T22:19:04.000Z"
+      "savedAt": "2024-02-04T22:19:04.000Z",
+      "description": "Gödel, Escher, Bach: An Eternal Golden Braid (henceforth: GEB), the Pulitzer Prize winning book written in 1978 by Douglas Hofstadter, is described in its cryptic tagline as “a metaphorical fugue on…"
     },
     {
       "id": "de61e50b-1117-41e8-b5df-1747a732d5d4",
       "title": "Idea Generation - Sam Altman",
       "url": "https://blog.samaltman.com/idea-generation",
-      "savedAt": "2024-02-03T17:32:15.000Z"
+      "savedAt": "2024-02-03T17:32:15.000Z",
+      "description": "The most common question prospective startup founders ask is how to get ideas for startups. The second most common question is if you have any ideas for their startup.\n\n\nBut giving founders an idea..."
     },
     {
       "id": "7a45f3d1-5dfd-4402-98c3-81bd2a3cca4e",
       "title": "How Did I Get Here?",
       "url": "https://how-did-i-get-here.net",
-      "savedAt": "2024-02-01T01:00:13.000Z"
+      "savedAt": "2024-02-01T01:00:13.000Z",
+      "description": "A cool-as-shit dynamic traceroute powered by custom software, married with an informative article about how the BGP routing protocol works and guides the shape of the Internet."
     },
     {
       "id": "20d60fd7-607e-4ea6-93e0-1df6a698ed2b",
       "title": "A Brief Summary of Evolutionary Design | CodingItWrong.com",
       "url": "https://codingitwrong.com/2024/01/29/brief-summary-of-evolutionary-design",
-      "savedAt": "2024-02-01T00:19:37.000Z"
+      "savedAt": "2024-02-01T00:19:37.000Z",
+      "description": "For years I’ve wanted to write something to advocate for evolutionary design. There is so much that can be said, and I hope to write more in the future. But I wanted to begin with this short definition of what I mean by “evolutionary design” and explanation of why it’s helpful."
     },
     {
       "id": "a81445f2-1dd1-4a83-9d5d-89aa7284a401",
       "title": "The Hacker News Top 40 books of 2023 -",
       "url": "https://hnreads.com/post/top40_2023/",
-      "savedAt": "2024-01-31T11:21:24.000Z"
+      "savedAt": "2024-01-31T11:21:24.000Z",
+      "description": "Hi, welcome to the brand new website, HN Reads. I enjoy reading Hacker News and I love buying books (and reading), and I also love data, so what better than doing some processing of data about books to find some interesting results?! It also gives me the opportunity to write about books that I find interesting.\nHere are the top 40 books recommended by HN readers in 2023.\nHow I generated this list:"
     },
     {
       "id": "44acc586-770e-4ba3-9842-eb7d0feb5707",
       "title": "How to do things if you're not that smart and don't have any talent",
       "url": "https://adaobi.substack.com/p/how-to-do-things-if-youre-not-that",
-      "savedAt": "2024-01-31T01:33:31.000Z"
+      "savedAt": "2024-01-31T01:33:31.000Z",
+      "description": "This is a blog post aimed at people who want to do important work or make meaningful contributions to work, but feel they aren’t that smart and don’t have any talent. Thanks for reading Adaobi’s Newsletter! Subscribe for free to receive new posts and support my work."
     },
     {
       "id": "fd71905b-1c8c-4bee-a545-cd3cb475a108",
       "title": "Reverse engineering CMOS, illustrated with a vintage Soviet counter chip",
       "url": "https://www.righto.com/2024/01/reverse-engineering-cmos.html",
-      "savedAt": "2024-01-31T00:09:29.000Z"
+      "savedAt": "2024-01-31T00:09:29.000Z",
+      "description": "I recently came across an interesting die photo of a Soviet 1  chip, probably designed in the 1970s. This article provides an introductory g..."
     },
     {
       "id": "d67e1e99-8a77-4f9d-85e5-11fb8e3a16d4",
       "title": "Manage like an engineer | Ben Balter",
       "url": "https://ben.balter.com/2023/01/10/manage-like-an-engineer/",
-      "savedAt": "2024-01-29T11:44:51.000Z"
+      "savedAt": "2024-01-29T11:44:51.000Z",
+      "description": "If issues, pull requests, and project boards are the best way to develop software, should they not also be the best way to manage software development?"
     },
     {
       "id": "602a7c35-30b9-4de8-89ba-b4b9d07621ea",
       "title": "Axioms of Systemantics",
       "url": "https://www.biodigitaljazz.net/blog/systemantics.html",
-      "savedAt": "2024-01-26T01:21:21.000Z"
+      "savedAt": "2024-01-26T01:21:21.000Z",
+      "description": "2024 Jan 25"
     }
   ]
 }
