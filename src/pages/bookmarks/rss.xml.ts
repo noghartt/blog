@@ -34,7 +34,7 @@ export async function GET() {
     .filter(Boolean);
 
   return rss({
-    title: SITE.title,
+    title: `${SITE.title} | Bookmarks`,
     description: SITE.description,
     site: SITE.website,
     items,
