@@ -18,7 +18,10 @@ export async function GET() {
     .map(({ title, description, url, savedAt }) => {
       const getDescription = () => {
         if (description) {
-          return { description };
+          return {
+            description,
+            content: description,
+          };
         }
 
         return {};
