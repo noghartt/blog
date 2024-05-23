@@ -20,6 +20,9 @@ const query = `\
             title
             url: originalArticleUrl
             description
+            labels {
+              name
+            }
             savedAt
           }
         }
@@ -58,6 +61,18 @@ const fetchBookmarks = async (first: number, after: string) => {
   }
 }
 
+const mapBookmark = (edge) => {
+  const { node } = edge;
+  return {
+    id: node.id,
+    title: node.title,
+    url: node.url,
+    savedAt: node.savedAt,
+    description: node.description || null,
+    tags: node.labels.map(({ name }) => name),
+  };
+}
+
 const writeJsonFile = async (data: any) => {
   const cwd = process.cwd();
   const filepath = path.join(cwd, 'src', 'pages', 'bookmarks', '_bookmarks.json');
@@ -73,12 +88,7 @@ const writeJsonFile = async (data: any) => {
 
   const { edges } = bookmarks.data.data.search;
 
-  const bookmarksList = edges.map(({ node }) => ({
-    id: node.id,
-    title: node.title,
-    url: node.url,
-    savedAt: node.savedAt,
-  }));
+  const bookmarksList = edges.map(mapBookmark);
 
   let after = edges[edges.length - 1].cursor;
   let hasNextPage = bookmarks.data.data.search.pageInfo.hasNextPage;
@@ -91,13 +101,7 @@ const writeJsonFile = async (data: any) => {
 
     after = nextBookmarks.data.data.search.pageInfo.endCursor;
     hasNextPage = nextBookmarks.data.data.search.pageInfo.hasNextPage;
-    bookmarksList.push(...nextBookmarks.data.data.search.edges.map(({ node }) => ({
-      id: node.id,
-      title: node.title,
-      url: node.url,
-      savedAt: node.savedAt,
-      description: node.description || null,
-    })));
+    bookmarksList.push(...nextBookmarks.data.data.search.edges.map(mapBookmark));
   }
 
   await writeJsonFile(bookmarksList);
