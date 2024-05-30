@@ -1,6 +1,137 @@
 {
-  "lastUpdate": "2024-05-24T12:51:08.716Z",
+  "lastUpdate": "2024-05-30T18:59:29.618Z",
   "data": [
+    {
+      "id": "d9d85529-bbe7-4764-a6fb-100dc9670faa",
+      "title": "In the beginning… was the command line | thesephist.com",
+      "url": "https://thesephist.com/posts/stephenson-command-line/",
+      "savedAt": "2024-05-30T16:07:18.000Z",
+      "description": "Neal Stephenson’s In the Beginning… Was the Command Line is one of the most profound pieces of writing about technology I’ve read. I found myself underscoring and highlighting numerous passages in this essay that reads equally as much like political propaganda, memoir, novella, and journalistic reporting all at once. If you have a couple of hours to spare, I’d recommend this essay only behind Greg Egan’s Diaspora, my favorite piece of science fiction, as a must-read.",
+      "tags": [
+        "cool",
+        "interesting"
+      ]
+    },
+    {
+      "id": "62990bb6-e4aa-4d2c-ad32-287ece527606",
+      "title": "Feynman's Garden @ marginalia.nu",
+      "url": "https://www.marginalia.nu/log/a_108_feynman_revisited/",
+      "savedAt": "2024-05-30T14:52:12.000Z",
+      "description": "The best description of my problem solving process is the Feynman algorithm, which is sometimes presented as a joke where the hidden subtext is “be smart”, but I disagree. The “algorithm” is a surprisingly lucid description of how thinking works in the context of hard problems where the answer can’t simply be looked up or trivially broken down, iterated upon in a bottom-up fashion, or approached with similar methods.\nFeynman’s thinking algorithm is described like this:",
+      "tags": [
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "8031997b-a484-43e9-8394-b53874eb2803",
+      "title": "No Wrong Doors. | Irrational Exuberance",
+      "url": "https://lethain.com/no-wrong-doors/",
+      "savedAt": "2024-05-30T14:45:19.000Z",
+      "description": "Some governmental agencies have started to adopt No Wrong Door policies, which aim to provide help–often health or mental health services–to individuals even if they show up to the wrong agency to request help. The core insight is that the employees at those agencies are far better equipped to navigate their own bureaucracies than an individual who knows nothing about the bureaucracy’s internal function.\nFor the most part, technology organizations are not complex bureaucracies, but sometimes they do seem to operate that way.",
+      "tags": [
+        "career",
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "6c6221c5-d2be-4f76-ab3a-239691af13c9",
+      "title": "Evolution of the ELF object file format | MaskRay",
+      "url": "https://maskray.me/blog/2024-05-26-evolution-of-elf-object-file-format",
+      "savedAt": "2024-05-30T14:37:12.000Z",
+      "description": "The ELF object file format is adopted by many UNIX-like operating systems. While I've previously delved into the control structures of ELF and its predecessors, tracing the historical evolution of ELF",
+      "tags": [
+        "computer",
+        "computer-history"
+      ]
+    },
+    {
+      "id": "c5177626-df90-460e-9c48-ceac3297a8b7",
+      "title": "Old Dogs, new CSS Tricks | Max Böck",
+      "url": "https://mxb.dev/blog/old-dogs-new-css-tricks/",
+      "savedAt": "2024-05-30T14:37:01.000Z",
+      "description": "Max Böck is a professional front-end developer based in Vienna, Austria.",
+      "tags": [
+        "computer",
+        "web"
+      ]
+    },
+    {
+      "id": "74d79a32-9f37-4b19-bad0-44f6de968d96",
+      "title": "Doing is normally distributed, learning is log-normal | Andrew Quinn's TILs",
+      "url": "https://hiandrewquinn.github.io/til-site/posts/doing-is-normally-distributed-learning-is-log-normal/",
+      "savedAt": "2024-05-30T13:11:35.000Z",
+      "description": "There are few things I think about more than the essays on gwern.net, and there are few with as satisfying a theoretical payout to contemplate in my orb as his essay on “leaky pipelines”, aka log-normal distributions.\nThe skulk: Say you’re working on a Laravel web app. You’re about 90% sure you know how to start the app. You’re 80% sure you know how to handle the infra you’ll need to get it online.",
+      "tags": [
+        "learning"
+      ]
+    },
+    {
+      "id": "290ea84b-4920-44f8-98a5-47bbc626ac4b",
+      "title": "Queueing – An interactive study of queueing strategies – Encore Blog",
+      "url": "https://encore.dev/blog/queueing",
+      "savedAt": "2024-05-30T12:56:27.000Z",
+      "description": "In this blog, we go on an interactive journey to understand common queueing strategies for handling HTTP requests.",
+      "tags": [
+        "computer",
+        "learning"
+      ]
+    },
+    {
+      "id": "1242ff8d-bf06-4d94-9085-ada6e473a187",
+      "title": "How Far Can I Legally Make a Scheduled I Substance?",
+      "url": "https://www.youtube.com/watch?v=gAMipuwWfAY",
+      "savedAt": "2024-05-30T12:22:46.000Z",
+      "description": "Today we ALMOST make 2,5-DMA. 2,5-DMA by itself is a Schedule I drug in the USA. However, we can almost make it and bypass anything illegal. I hope you enjoy the video!\n\nSources:\nhttps://en.wikipedia.org/wiki/Controlled_Substances_Act#Schedule_I_drugs\nhttps://isomerdesign.com/PiHKAL/read.php?id=54&domain=pk\nhttps://isomerdesign.com/PiHKAL/read.php?domain=pk&id=20#rxa12389\n\nSOCIALS:\nPatreon: patreon.com/Chemdelic \nInstagram:  https://www.instagram.com/chemdelic/\nDiscord:  https://discord.com/invite/dmfMKupj9W\nCashapp: $ChemdelicLLC\nMerch: https://chemdelic-shop.fourthwall.com/\n\nDisclaimer:\nThe content provided in these videos is for entertainment or educational purposes only and should not be attempted or replicated under any circumstances. Viewers are strongly advised against attempting to recreate any of the actions, stunts, or activities depicted, as they may involve significant risk of injury, legal liability, or other harm. By choosing to engage in any similar activities, individuals do so at their own risk and assume full responsibility for any resulting consequences. The creators of these videos will not be held liable for any damages, injuries, or legal issues arising from viewers attempting to replicate the content. Viewer discretion is advised, and all viewers are encouraged to exercise sound judgment and respect all applicable laws and safety guidelines.",
+      "tags": [
+        "cool",
+        "video"
+      ]
+    },
+    {
+      "id": "ab68d4d0-63ef-4450-b512-c92a46916ffa",
+      "title": "Megaparsec tutorial",
+      "url": "https://markkarpov.com/tutorial/megaparsec.html",
+      "savedAt": "2024-05-29T00:29:38.000Z",
+      "description": "Published on February 23, 2019, last updated October 30, 2021",
+      "tags": [
+        "computer",
+        "functional-programming"
+      ]
+    },
+    {
+      "id": "11978bba-901f-4d32-ba41-f8d5eea97da9",
+      "title": "Ilya 30u30",
+      "url": "https://arc.net/folder/D0472A20-9C20-4D3F-B145-D2865C0A9FEE",
+      "savedAt": "2024-05-28T12:49:36.000Z",
+      "description": "Ilya 30u30",
+      "tags": [
+        "ai",
+        "computer",
+        "resources/list"
+      ]
+    },
+    {
+      "id": "0827a63b-b1f6-4a6e-8ebf-deca77144c7a",
+      "title": "Write yourself a Git!",
+      "url": "https://wyag.thb.lt",
+      "savedAt": "2024-05-27T15:40:59.000Z",
+      "description": null,
+      "tags": [
+        "learning",
+        "computer"
+      ]
+    },
+    {
+      "id": "405a5dcd-34a7-463f-882d-aae4ca149253",
+      "title": "Mediocre Engineer’s guide to HTTPS",
+      "url": "https://devonperoutky.super.site/blog-posts/mediocre-engineers-guide-to-https",
+      "savedAt": "2024-05-27T09:43:21.000Z",
+      "description": "As a mediocre engineer, I took Internet and HTTPS communication for granted and never dove any deeper. Today we’re improving as engineers and learning a rough overview of how internet communication works, specifically focusing on HTTP and TLS.",
+      "tags": [
+        "computer",
+        "networking"
+      ]
+    },
     {
       "id": "242ffe07-e7d8-4124-b335-a02a36c2586a",
       "title": "The Back-to-Basics Readings of 2012 | All Things Distributed",
