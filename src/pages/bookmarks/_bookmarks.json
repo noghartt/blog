@@ -1,6 +1,113 @@
 {
-  "lastUpdate": "2024-05-30T18:59:29.618Z",
+  "lastUpdate": "2024-06-02T20:43:51.395Z",
   "data": [
+    {
+      "id": "dd637411-f1ce-410c-bd68-32b9df81ff37",
+      "title": "Productivity Versus Alignment",
+      "url": "https://www.zaxis.page/p/productivity-versus-alignment",
+      "savedAt": "2024-06-02T20:42:56.000Z",
+      "description": "One of the many trade-offs companies face",
+      "tags": [
+        "career",
+        "management"
+      ]
+    },
+    {
+      "id": "9f0d95bc-c5b5-41ed-aee0-79799f3a08e2",
+      "title": "Systems: The Purpose of a System is What It Does - Anil Dash",
+      "url": "https://www.anildash.com/2024/05/29/systems-the-purpose-of-a-system/",
+      "savedAt": "2024-06-02T20:18:03.000Z",
+      "description": "A blog about making culture. Since 1999.",
+      "tags": [
+        "cool",
+        "systems-theory"
+      ]
+    },
+    {
+      "id": "1708be23-2f28-4b22-ba76-e194a980ad5d",
+      "title": "The Design Space of Wikis",
+      "url": "https://borretti.me/article/the-design-space-of-wikis",
+      "savedAt": "2024-06-02T16:03:29.000Z",
+      "description": "An exploration of the design space of wikis.",
+      "tags": [
+        "writing"
+      ]
+    },
+    {
+      "id": "f8b17718-8fa2-4372-a14d-eeaab86a0a5d",
+      "title": "CRDT: Text Buffer - Made by Evan",
+      "url": "https://madebyevan.com/algos/crdt-text-buffer/",
+      "savedAt": "2024-06-01T14:31:37.000Z",
+      "description": "Collaboratively editing strings of text is a common desire in peer-to-peer applications. For example, a note-taking\n    app might represent each document as a single collaboratively-edited string of text.",
+      "tags": [
+        "computer",
+        "distsys"
+      ]
+    },
+    {
+      "id": "981adf0e-6496-43cc-b1e0-b41184c569df",
+      "title": "Be findable - by Thorsten Ball - Register Spill",
+      "url": "https://substack.com/home/post/p-145191830?source=queue",
+      "savedAt": "2024-06-01T13:46:56.000Z",
+      "description": "“But isn’t that self-promotion?”, said with a disgusted face. Or, equally disgusted: “Ugh, that’s bragging. Narcissistic. I don’t want to do that.” Or, frustrated: “Can’t I just do good work?” Whenever I hear one of these, I want to quote or, better yet, link to a snippet of an episode of",
+      "tags": [
+        "career"
+      ]
+    },
+    {
+      "id": "52b7cc47-70b8-4d2a-881d-d08e28e47b63",
+      "title": "How (some) good corporate engineering blogs are written",
+      "url": "https://danluu.com/corp-eng-blogs/",
+      "savedAt": "2024-06-01T13:44:55.000Z",
+      "description": "I've been comparing notes with people who run corporate engineering blogs and one thing that I think is curious is that it's pretty common for my personal blog to get more traffic than the entire corp eng blog for a company with a nine to ten figure valuation and it's not uncommon for my blog to get an order of magnitude more traffic.",
+      "tags": [
+        "career",
+        "writing"
+      ]
+    },
+    {
+      "id": "a2773b8f-c321-4458-a952-6415f192bcbb",
+      "title": "Cultures of writing. - by Karina Nguyen - sémaphore",
+      "url": "https://semaphore.substack.com/p/cultures-of-writing",
+      "savedAt": "2024-06-01T02:33:59.000Z",
+      "description": "It's hard not to notice the pivotal role that strong writing cultures play in enabling innovation.",
+      "tags": [
+        "career",
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "d3c158b6-d54a-49d2-a162-6c79a471e090",
+      "title": "Developers aren't Nerds | 0xFF",
+      "url": "https://0xff.nu/dev-and-nerd",
+      "savedAt": "2024-05-31T01:05:01.000Z",
+      "description": "For the longest of time, I was under the impression that developers and programmers, for the most part, are as or even more so interested in technology, tools, efficiency and productivity as I am. This came from the somewhat outdated understanding that the barrier of entry into programming was mentally taxing and required fucking around with compiling, development environment et al.",
+      "tags": [
+        "cool"
+      ]
+    },
+    {
+      "id": "e7019d27-cdf1-4cb8-82bd-c71691b9769d",
+      "title": "Functional TypeScript #1: Algebraic Data Types",
+      "url": "https://injuly.in/blog/ts-adt/",
+      "savedAt": "2024-05-30T22:55:45.000Z",
+      "description": "Introduction to typeclasses, ADTs, and HKTs TypeScript",
+      "tags": [
+        "computer",
+        "type-theory"
+      ]
+    },
+    {
+      "id": "5d021595-7182-4db3-97c3-e756c127d125",
+      "title": "Writing a Unix clone in about a month",
+      "url": "https://drewdevault.com/2024/05/24/2024-05-24-Bunnix.html",
+      "savedAt": "2024-05-30T21:34:43.000Z",
+      "description": "I needed a bit of a break from “real work” recently, so I started a new\nprogramming project that was low-stakes and purely recreational. On April 21st,\nI set out to see how much of a Unix-like operating system for x86_64 targets\nthat I could put together in about a month. The result is\nBunnix. Not including days I didn’t work\non Bunnix for one reason or another, I spent 27 days on this project.",
+      "tags": [
+        "computer",
+        "cool"
+      ]
+    },
     {
       "id": "d9d85529-bbe7-4764-a6fb-100dc9670faa",
       "title": "In the beginning… was the command line | thesephist.com",
@@ -197,17 +304,6 @@
       "tags": [
         "computer",
         "cool"
-      ]
-    },
-    {
-      "id": "f8b17718-8fa2-4372-a14d-eeaab86a0a5d",
-      "title": "CRDT: Text Buffer - Made by Evan",
-      "url": "https://madebyevan.com/algos/crdt-text-buffer/",
-      "savedAt": "2024-05-21T21:30:16.000Z",
-      "description": "Collaboratively editing strings of text is a common desire in peer-to-peer applications. For example, a note-taking\n    app might represent each document as a single collaboratively-edited string of text.",
-      "tags": [
-        "computer",
-        "distsys"
       ]
     },
     {
