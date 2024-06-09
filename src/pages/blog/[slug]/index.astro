@@ -28,7 +28,7 @@ export async function getStaticPaths() {
 const { post } = Astro.props;
 const { Content } = await post.render();
 
-const date = dayjs(post.data.date).format('YYYY-MM-DD HH:mm');
+const date = dayjs(post.data.pubDate).format('YYYY-MM-DD HH:mm');
 
 ---
 
