@@ -1,6 +1,91 @@
 {
-  "lastUpdate": "2024-06-02T20:43:51.395Z",
+  "lastUpdate": "2024-06-09T22:47:01.813Z",
   "data": [
+    {
+      "id": "c5671a6a-39eb-4a15-ba34-aa5135755098",
+      "title": "A (Draft) Taxonomy of SIMD Usage – Branch Free",
+      "url": "https://branchfree.org/2024/06/09/a-draft-taxonomy-of-simd-usage/",
+      "savedAt": "2024-06-09T22:46:46.000Z",
+      "description": "I've made many different types of SIMD usage over the years, and occasionally even written about them (on this blog, in papers, and in Twitter). Just for reference, I'd like to cover my taxonomy of SIMD usage so I don't keep writing it up (poorly) on Twitter every few months. This discussion is a draft…",
+      "tags": [
+        "computer",
+        "hardware"
+      ]
+    },
+    {
+      "id": "a756c297-8f85-435c-937f-9dff95b770ca",
+      "title": "Learn OpenGL, extensive tutorial resource for learning Modern OpenGL",
+      "url": "https://learnopengl.com",
+      "savedAt": "2024-06-09T14:20:08.000Z",
+      "description": "Learn OpenGL . com provides good and clear modern 3.3+ OpenGL tutorials with clear examples. A great resource to learn modern OpenGL aimed at beginners.",
+      "tags": [
+        "computer"
+      ]
+    },
+    {
+      "id": "e7771f99-a4ce-4720-82ff-2aae1e4f3d91",
+      "title": "Regular, Recursive, Restricted",
+      "url": "https://matklad.github.io/2024/06/04/regular-recursive-restricted.html",
+      "savedAt": "2024-06-08T17:45:10.000Z",
+      "description": "A post/question about formal grammars, wherein I search for a good formalism for describing infix\nexpressions.",
+      "tags": [
+        "computer",
+        "programming-languages"
+      ]
+    },
+    {
+      "id": "b01d8c33-4892-4b8e-ade0-7ec2756ff5e2",
+      "title": "Feynman's Razor - by Defender of the Basic",
+      "url": "https://defenderofthebasic.substack.com/p/feynmans-razor",
+      "savedAt": "2024-06-08T16:47:17.000Z",
+      "description": "If an expert can't understand your explanation, you've dumbed it down too much!",
+      "tags": [
+        "interesting"
+      ]
+    },
+    {
+      "id": "2b22ac97-48f9-4602-b553-28a5a033969c",
+      "title": "Database anomalies and isolation levels |",
+      "url": "https://poorlydefinedbehaviour.github.io/posts/isolation_levels/",
+      "savedAt": "2024-06-08T16:10:25.000Z",
+      "description": "Anomalies An anomaly or read phenomena can happen when a transaction reads data that may have been modified by another concurrent transaction.\nDirty read A dirty read happens when a transaction T1 reads data that has been modified by a concurrent transaction T2 that has not has been committed or rolled back yet. T1 ends up working with stale data if T2 does not commit.\nT2 starts executing and sets x to a new value, T1 starts executing and reads x, the value of x is the value just set by T2, T2 rolls back, the value of x is not persisted to the database but T1 will move forward with the stale value of x that was written before T2 rolled back.",
+      "tags": [
+        "computer",
+        "database"
+      ]
+    },
+    {
+      "id": "f52dec4e-60b2-4f14-a5f2-52627e53bd9f",
+      "title": "What Color is Your Function? – journal.stuffwithstuff.com",
+      "url": "https://journal.stuffwithstuff.com/2015/02/01/what-color-is-your-function/",
+      "savedAt": "2024-06-07T17:19:13.000Z",
+      "description": "I don’t know about you, but nothing gets me going in the morning quite like a\ngood old fashioned programming language rant. It stirs the blood to see someone\nskewer one of those “blub” languages the plebians use, muddling through\ntheir day with it between furtive visits to StackOverflow.",
+      "tags": [
+        "computer",
+        "programming"
+      ]
+    },
+    {
+      "id": "7d57b4f6-d1ab-4e35-adc0-e17e196fc44d",
+      "title": "Biohacking Lite",
+      "url": "https://karpathy.github.io/2020/06/11/biohacking-lite/",
+      "savedAt": "2024-06-05T01:04:11.000Z",
+      "description": "Musings of a Computer Scientist.",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "4e614f8c-8aa3-43b4-8cd4-2a516d6ed477",
+      "title": "Work hard and take everything really seriously - macwright.com",
+      "url": "https://macwright.com/2024/01/28/work-hard-and-take-everything-seriously",
+      "savedAt": "2024-06-04T00:35:43.000Z",
+      "description": "Hustlebro thesis",
+      "tags": [
+        "career",
+        "self-improvement"
+      ]
+    },
     {
       "id": "dd637411-f1ce-410c-bd68-32b9df81ff37",
       "title": "Productivity Versus Alignment",
@@ -806,16 +891,6 @@
         "for-later",
         "hardware",
         "repository"
-      ]
-    },
-    {
-      "id": "7d57b4f6-d1ab-4e35-adc0-e17e196fc44d",
-      "title": "Biohacking Lite",
-      "url": "https://karpathy.github.io/2020/06/11/biohacking-lite/",
-      "savedAt": "2024-04-26T14:06:54.000Z",
-      "description": "Musings of a Computer Scientist.",
-      "tags": [
-        "self-improvement"
       ]
     },
     {
