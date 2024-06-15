@@ -1,6 +1,90 @@
 {
-  "lastUpdate": "2024-06-15T03:34:24.299Z",
+  "lastUpdate": "2024-06-15T14:59:39.495Z",
   "data": [
+    {
+      "id": "47c3df56-fef1-435f-9b24-8edf7b24feda",
+      "title": "The Book of Shaders",
+      "url": "https://thebookofshaders.com",
+      "savedAt": "2024-06-15T14:57:11.000Z",
+      "description": "Gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.",
+      "tags": [
+        "books",
+        "cs/computer-graphics"
+      ]
+    },
+    {
+      "id": "e09af48b-9a72-4fab-896d-2d4702871531",
+      "title": "Exponentially Better Rotations",
+      "url": "https://thenumb.at/Exponential-Rotations/",
+      "savedAt": "2024-06-15T14:56:51.000Z",
+      "description": "If you’ve done any 3D programming, you’ve likely encountered the zoo of techniques and representations used when working with 3D rotations. Some of them are better than others, depending on the situation.\n\nBased on CMU 15-462 course materials by Keenan Crane.\n\n\n  Representations\n    \n      Rotation Matrices\n      Euler Angles\n      Quaternions\n      Axis/Angle\n    \n  \n  The Exponential and Logarithmic Maps\n    \n      Axis/Angle in 2D\n      Axis/Angle in 3D\n      Averaging Rotations\n      Quaternions (Again)\n    \n  \n  Further Reading\n\n\nRepresentations\n\nRotation Matrices\n\nLinear-algebra-wise, the most straightforward representation is an orthonormal 3x3 matrix (with positive determinant). The three columns of a rotation matrix specify where the x, y, and z axes end up after the rotation.\n\nRotation matrices are particularly useful for transforming points: just multiply! Even better, rotation matrices can be composed with any other linear transformations via matrix multiplication. That’s why we use rotation matrices when actually drawing things on screen: only one matrix multiplication is required to transform a point from world-space to the screen. However, rotation matrices are not so useful for actually working with rotations: because they don’t form a vector space, adding together two rotation matrices will not give you a rotation matrix back. For example, animating an object by linearly interpolating between two rotation matrices adds scaling:\n\n\n\n\n\n\n\nRandomize\n\n\n\n$$ R_0 = \\begin{bmatrix}1&0&0\\\\0&1&0\\\\0&0&1\\end{bmatrix} $$\n$$ R(0.00) = \\begin{bmatrix}\\phantom{-}1.00&\\phantom{-}0.00&\\phantom{-}0.00\\\\\\phantom{-}0.00&\\phantom{-}1.00&\\phantom{-}0.00\\\\\\phantom{-}0.00&\\phantom{-}0.00&\\phantom{-}1.00\\end{bmatrix} $$\n$$ R_1 = \\begin{bmatrix}-1&0&0\\\\0&1&0\\\\0&0&-1\\end{bmatrix} $$\n\n\nEuler Angles\n\nAnother common representation is Euler angles, which specify three separate rotations about the x, y, and z axes (also known as pitch, yaw, and roll). The order in which the three component rotations are applied is an arbitrary convention—here we’ll apply x, then y, then z.\n\n\n\n$$\\theta_x$$\n$$\\theta_y$$Lock\n$$\\theta_z$$\n\n\nEuler angles are generally well-understood and often used for authoring rotations. However, using them for anything else comes with some significant pitfalls. While it’s possible to manually create splines that nicely interpolate Euler angles, straightforward interpolation often produces undesirable results.\n\nEuler angles suffer from gimbal lock when one component causes the other two axes of rotation to become parallel. Such configurations are called singularities. At a singularity, changing either of two ‘locked’ angles will cause the same output rotation. You can demonstrate this phenomenon above by pressing the ‘lock’ button and adjusting the x/z rotations (a quarter rotation about y aligns the z axis with the x axis).\n\nSingularities break interpolation: if the desired path reaches a singularity, it gains a degree of freedom with which to represent its current position. Picking an arbitrary representation to continue with causes discontinuities in the interpolated output: even within an axis, interpolation won’t produce a constant angular velocity. That can be a problem if, for example, you’re using the output to drive a robot. Furthermore, since each component angle is cyclic, linear interpolation won’t always choose the shortest path between rotations.\n\n\n\n\nRandomize\n\n\n\n$$ \\mathbf{\\theta}_0 = \\begin{bmatrix}0\\\\0\\\\0\\end{bmatrix} $$\n$$ \\mathbf{\\theta}(0.00) = \\begin{bmatrix}\\phantom{-}0.00\\\\\\phantom{-}0.00\\\\\\phantom{-}0.00\\end{bmatrix} $$\n$$ \\mathbf{\\theta}_1 = \\begin{bmatrix}-3.14\\\\0.00\\\\-3.14\\end{bmatrix} $$\n\n\nThankfully, interpolation is smooth if the path doesn’t go through a singularity, so these limitations can be worked around, especially if you don’t need to represent ‘straight up’ and ‘straight down.’\n\nQuaternions\n\nAt this point, you might be expecting yet another article on quaternions—don’t worry, we’re not going to delve into hyper-complex numbers today. It suffices to say that unit quaternions are the standard tool for composing and interpolating rotations, since spherical linear interpolation (slerp) chooses a constant-velocity shortest path between any two quaternions. However, unit quaternions also don’t form a vector space, are unintuitive to author, and can be computationally costly to interpolate*. Further, there’s no intuitive notion of scalar multiplication, nor averaging.\n\nBut, they’re still fascinating! If you’d like to understand quaternions more deeply (or, perhaps, learn what they are in the first place), read this.\n\n\n\n\nRandomize\n\n\n\n$$ Q_0 = \\begin{bmatrix}1\\\\0\\\\0\\\\0\\end{bmatrix}\\ \\ $$\n$$ Q(0.00) = \\begin{bmatrix}\\phantom{-}1.00\\\\\\phantom{-}0.00\\\\\\phantom{-}0.00\\\\\\phantom{-}0.00\\end{bmatrix}\\ \\ $$\n$$ Q_1 = \\begin{bmatrix}0\\\\0\\\\1\\\\0\\end{bmatrix} $$\n\n\nNote that since quaternions double-cover the space of rotations, sometimes \\(Q(1)\\) will go to \\(-Q_1\\).\n\nAxis/Angle Rotations\n\nAn axis/angle rotation is a 3D vector of real numbers. Its direction specifies the axis of rotation, and its magnitude specifies the angle to rotate about that axis. For convenience, we’ll write axis/angle rotations as \\(\\theta\\mathbf{u}\\), where \\(\\mathbf{u}\\) is a unit-length vector and \\(\\theta\\) is the rotation angle.\n\n\n\n\n$$\\mathbf{u}_x$$\n$$\\mathbf{u}_y$$\n$$\\mathbf{u}_z$$\n$$\\theta$$\n\n\nSince axis/angle rotations are simply 3D vectors, they form a vector space: we can add, scale, and interpolate them to our heart’s content. Linearly interpolating between any two axis/angle rotations is smooth and imparts constant angular velocity. However, note that linearly interpolating between axis-angle rotations does not necessarily choose the shortest path: it depends on which axis/angle you use to specify the target rotation.\n\n\n\n\nRandomize\n\n\n\n$$ \\theta_0\\mathbf{u}_0 = \\begin{bmatrix}0\\\\0\\\\0\\end{bmatrix}\\ \\ $$\n$$ \\theta\\mathbf{u}(0.00) = \\begin{bmatrix}\\phantom{-}0.00\\\\\\phantom{-}0.00\\\\\\phantom{-}0.00\\end{bmatrix}\\ \\ $$\n$$ \\theta_1\\mathbf{u}_1 = \\begin{bmatrix}0\\\\3.14\\\\0\\end{bmatrix} $$\n\n\nLike quaternions, axis/angle vectors double-cover the space of rotations: sometimes \\(\\theta\\mathbf{u}(1)\\) will go to \\((2\\pi - \\theta_1)(-\\mathbf{u}_1)\\).\n\nThe Exponential and Logarithmic Maps\n\nIdeally, we could freely convert rotations between these diverse representations based on our use case. We will always want to get a rotation matrix out at the end, so we’ll consider matrices the ‘canonical’ form. Enter the exponential map: a function that takes a different kind of rotation object and gives us back an equivalent rotation matrix. The corresponding logarithmic map takes a rotation matrix and gives us back a rotation object. How these maps relate to the scalar exp and log functions will hopefully become clear later on.\n\n\n\nBelow, we’ll define an exp and log map translating between rotation matrices and axis/angle vectors. But first, to build up intuition, let us consider how rotations work in two dimensions.\n\nAxis/Angle in 2D\n\nIn 2D, there’s only one axis to rotate around: the one pointing out of the plane. Hence, our ‘axis/angle’ rotations can be represented by just \\(\\theta\\).\n\nGiven a 2D point \\(\\mathbf{p}\\), how can we rotate \\(\\mathbf{p}\\) by \\(\\theta\\)? One way to visualize the transformation is by forming a coordinate frame in which the output is easy to describe. Consider \\(\\mathbf{p}\\) and its quarter (\\(90^\\circ\\)) rotation \\(\\mathcal{J}\\mathbf{p}\\):\n\n\n\nUsing a bit of trigonometry, we can describe the rotated \\(\\mathbf{p}_\\theta\\) in two components:\n\n\\[\\begin{align*} \\mathbf{p}_\\theta &= \\mathbf{p}\\cos\\theta + \\mathcal{J}\\mathbf{p}\\sin\\theta \\\\\n &= (\\cos(\\theta)\\mathcal{I} + \\sin(\\theta)\\mathcal{J})\\mathbf{p} \\end{align*}\\]\n\nBut, what actually are \\(\\mathcal{I}\\) and \\(\\mathcal{J}\\)? The former should take a 2D vector and return it unchanged: it’s the 2x2 identity matrix. The latter should be similar, but swap and negate the two components:\n\n\\[\\begin{align*} \\mathcal{I} &= \\begin{bmatrix}1&0\\\\0&1\\end{bmatrix} \\\\ \\mathcal{J} &= \\begin{bmatrix}0&-1\\\\1&0\\end{bmatrix} \\end{align*}\\]\n\nJust to make sure we got \\(\\mathcal{J}\\) right, let’s check what happens if we apply it twice (via \\(\\mathcal{J}^2\\)):\n\n\\[\\mathcal{J}^2 = \\begin{bmatrix}0&-1\\\\1&0\\end{bmatrix}\\begin{bmatrix}0&-1\\\\1&0\\end{bmatrix} = \\begin{bmatrix}-1&0\\\\0&-1\\end{bmatrix}\\]\n\nWe got \\(\\mathcal{J}^2 = -\\mathcal{I}\\), which is a 180-degree rotation. So, \\(\\mathcal{J}\\) indeed represents 90-degree rotation.\n\nNow, what does our transform look like?\n\n\\[\\begin{align*}\n\\mathbf{p}_\\theta &= (\\cos(\\theta)\\mathcal{I} + \\sin(\\theta)\\mathcal{J})\\mathbf{p} \\\\\n                  &= \\left(\\cos(\\theta)\\begin{bmatrix}1&0\\\\0&1\\end{bmatrix} + \\sin(\\theta)\\begin{bmatrix}0&-1\\\\1&0\\end{bmatrix}\\right)\\mathbf{p} \\\\\n                  &= \\begin{bmatrix}\\cos\\theta&-\\sin\\theta\\\\\\sin\\theta&\\cos\\theta\\end{bmatrix}\\mathbf{p}\n\\end{align*}\\]\n\nThat’s the standard 2D rotation matrix. What a coincidence!\n\nComplex Rotations\n\nIf you’re familiar with complex numbers, you might notice that our first transform formula feels eerily similar to Euler’s formula, \\(e^{ix} = \\cos x + i\\sin x\\):\n\n\\[\\begin{align*}\n\\mathbf{p}_\\theta &= (\\cos(\\theta)\\mathcal{I} + \\sin(\\theta)\\mathcal{J})\\mathbf{p} \\\\\ne^{i\\theta}p &= (\\cos(\\theta) + i\\sin(\\theta))p\n\\end{align*}\\]\n\n\n\nWhere \\(i\\) and \\(\\mathcal{J}\\) both play the role of a quarter turn. We can see that in complex arithmetic, multiplying by \\(i\\) in fact has that effect:\n\n\\[\\mathcal{J}\\mathbf{p} = \\begin{bmatrix}0&-1\\\\1&0\\end{bmatrix}\\begin{bmatrix}a\\\\b\\end{bmatrix} = \\begin{bmatrix}-b\\\\a\\end{bmatrix}\\]\n\n\\[ip = i(a + bi) = ai + bi^2 = -b + ai\\]\n\nSo, there must be some connection to the exponential function here.\n\nThe 2D Exponential Map\n\nRecall the definition of the exponential function (or equivalently, its Taylor series):\n\n\\[e^x = \\sum_{k=0}^\\infty \\frac{x^k}{k!} = 1 + x + \\frac{x^2}{2!} + \\frac{x^3}{3!} + \\dots\\]\n\nUsing Euler’s formula, \\(e^{i\\theta}\\) gave us a complex number representing a 2D rotation by \\(\\theta\\). Can we do the same with \\(e^{\\theta\\mathcal{J}}\\)? If we plug a matrix into the above definition, the arithmetic still works out: 2x2 matrices certainly support multiplication, addition, and scaling. (More on matrix exponentiation here.)\n\nLet \\(\\theta\\mathcal{J} = A\\) and plug it in:\n\n\\[e^A = \\sum_{k=0}^\\infty \\frac{A^k}{k!} = \\mathcal{I} + A + \\frac{A^2}{2!} + \\frac{A^3}{3!} + \\dots\\]\n\nLet’s pull out the first four terms to inspect further:\n\n\\[\\begin{align*}\ne^A &= \\mathcal{I} + A + \\frac{1}{2!}A^2 + \\frac{1}{3!}A^3 \\\\\n    &= \\mathcal{I} + A\\left(\\mathcal{I} + \\frac{1}{2}A\\left(\\mathcal{I} + \\frac{1}{3}A\\right)\\right) \\\\\n    &= \\mathcal{I} + A\\left(\\mathcal{I} + \\frac{1}{2}A\\begin{bmatrix}1&\\frac{-\\theta}{3}\\\\\\frac{\\theta}{3}&1\\end{bmatrix}\\right) \\\\\n    &= \\mathcal{I} + A\\begin{bmatrix}1-\\frac{\\theta^2}{6}&\\frac{-\\theta}{2}\\\\\\frac{\\theta}{2}&1-\\frac{\\theta^2}{6}\\end{bmatrix} \\\\\n    &= \\begin{bmatrix}1-\\frac{\\theta^2}{2}&-\\theta+\\frac{\\theta^3}{6}\\\\\\theta-\\frac{\\theta^3}{6}&1-\\frac{\\theta^2}{2}\\end{bmatrix}\n\\end{align*}\\]\n\nThese entries look familiar. Recall the Taylor series that describe the functions \\(\\sin\\) and \\(\\cos\\):\n\n\\[\\begin{align*} \\sin x &= x - \\frac{x^3}{3!} + \\frac{x^5}{5!} - \\dots  \\\\\n\\cos x &= 1 - \\frac{x^2}{2!} + \\frac{x^4}{4!} - \\dots \\end{align*}\\]\n\nIf we write out all the terms of \\(e^A\\), we’ll recover the expansions of \\(\\sin\\theta\\) and \\(\\cos\\theta\\)! Therefore:\n\n\\[e^A = e^{\\theta\\mathcal{J}} = \\begin{bmatrix}\\cos\\theta&-\\sin\\theta\\\\\\sin\\theta&\\cos\\theta\\end{bmatrix}\\]\n\nWe’ve determined that the exponential function \\(e^{\\theta\\mathcal{J}}\\) converts our angle \\(\\theta\\) into a corresponding 2D rotation matrix. In fact, we’ve proved a version of Euler’s formula with 2x2 matrices instead of complex numbers:\n\n\\[\\begin{align*} && e^{\\theta\\mathcal{J}} &= (\\cos(\\theta)\\mathcal{I} + \\sin(\\theta)\\mathcal{J})\\\\\n    &\\implies& \\mathbf{p}_\\theta &= e^{\\theta\\mathcal{J}}\\mathbf{p}\n\\end{align*}\\]\n\nThe 2D Logarithmic Map\n\nThe logarithmic map should naturally be the inverse of the exponential:\n\n\\[R = \\exp(\\theta\\mathcal{J}) \\implies \\log(R) = \\theta\\mathcal{J}\\]\n\nSo, given \\(R\\), how can we recover \\(\\theta\\mathcal{J}\\)?\n\n\\[\\begin{align*}\n&& R &= \\begin{bmatrix}\\cos\\theta&-\\sin\\theta\\\\\\sin\\theta&\\cos\\theta\\end{bmatrix}\\\\\n&\\implies& \\theta &= \\text{atan2}(R_{21},R_{11})\\\\\n&\\implies& \\log(R) &= \\begin{bmatrix}0&-\\theta\\\\\\theta&0\\end{bmatrix}\n\\end{align*}\\]\n\nNote that in general, our exponential map is not injective. Clearly, \\(\\exp(\\theta\\mathcal{J}) = \\exp((\\theta + 2\\pi)\\mathcal{J})\\), since adding an extra full turn will always give us back the same rotation matrix. Therefore, our logarithmic map can’t be surjective—we’ll define it as returning the smallest angle \\(\\theta\\mathcal{J}\\) corresponding to the given rotation matrix. Using \\(\\text{atan2}\\) implements this definition.\n\nInterpolation\n\nConsider two 2D rotation angles \\(\\theta_0\\) and \\(\\theta_1\\). The most obvious way to interpolate between these two rotations is to interpolate the angles and create the corresponding rotation matrix. This scheme is essentially a 2D version of axis-angle interpolation.\n\n\\[\\begin{align*} \\theta(t) &= (1-t)\\theta_0 + t\\theta_1\\\\\nR_\\theta(t) &= \\begin{bmatrix}\\cos(\\theta(t))&-\\sin(\\theta(t))\\\\\\sin(\\theta(t))&\\cos(\\theta(t))\\end{bmatrix}\n\\end{align*}\\]\n\nHowever, if \\(\\theta_0\\) and \\(\\theta_1\\) are separated by more than \\(\\pi\\), this expression will take the long way around: it’s not aware that angles are cyclic.\n\n\n\n\nRandomize\n\n\n\n$$ \\theta_0 = 0\\ \\ $$\n$$ \\theta(0.00) = 0.00\\ \\ $$\n$$ \\theta_1 = 4.71 $$\n\n\nInstead, let’s devise an interpolation scheme based on our exp/log maps. Since we know the two rotation matrices \\(R_0\\), \\(R_1\\), we can express the rotation that takes us directly from the initial pose to the final pose: \\(R_1R_0^{-1}\\), i.e. first undo \\(R_0\\), then apply \\(R_1\\).\n\nUsing our logarithmic map, we can obtain the smallest angle that rotates from \\(R_0\\) to \\(R_1\\): \\(\\log(R_1R_0^{-1})\\). Since \\(\\log\\) gives us an axis-angle rotation, we can simply scale the result by \\(t\\) to perform interpolation. After scaling, we can use our exponential map to get back a rotation matrix. This matrix represents a rotation \\(t\\) of the way from \\(R_0\\) to \\(R_1\\).\n\nHence, our final parametric rotation matrix is \\(R(t) = \\exp(t\\log(R_1R_0^{-1})))R_0\\).\n\n\\[\\begin{align*} R(0) &= \\exp(0)R_0 = R_0\\\\\nR(1) &= \\exp(\\log(R_1R_0^{-1}))R_0 = R_1R_0^{-1}R_0 = R_1 \\end{align*}\\]\n\n\n\n\nRandomize\n\n\n\n$$ R_0 = \\begin{bmatrix}1&0\\\\0&1\\end{bmatrix} $$\n$$ R(0.00) = \\begin{bmatrix}\\phantom{-}1.00&\\phantom{-}0.00\\\\\\phantom{-}0.00&\\phantom{-}1.00\\end{bmatrix} $$\n$$ R_1 = \\begin{bmatrix}0&-1\\\\1&0\\end{bmatrix} $$\n\n\nUsing exp/log for interpolation might seem like overkill for 2D—we could instead just check how far apart the angles are. But below, we’ll see how this interpolation scheme generalizes—without modification—to 3D, and in fact any number of dimensions.\n\nAxis/Angle in 3D\n\nWe’re finally ready to derive an exponential and logarithmic map for 3D rotations. In 2D, our map arose from exponentiating \\(\\theta\\mathcal{J}\\), i.e. \\(\\theta\\) times a matrix representing a counter-clockwise quarter turn about the axis of rotation. We will be able to do the same in 3D—but what transformation encodes a quarter turn about a 3D unit vector \\(\\mathbf{u}\\)?\n\nThe cross product \\(\\mathbf{u}\\times\\mathbf{p}\\) is typically defined as a vector normal to the plane containing both \\(\\mathbf{u}\\) and \\(\\mathbf{p}\\). However, we could also interpret \\(\\mathbf{u}\\times\\mathbf{p}\\) as a quarter turn of the projection of \\(\\mathbf{p}\\) into the plane with normal \\(\\mathbf{u}\\), which we will call \\(\\mathbf{p}_\\perp\\):\n\n\n\nSo, if we can compute the quarter rotation of \\(\\mathbf{p}_\\perp\\), it should be simple to recover the quarter rotation of \\(\\mathbf{p}\\). Of course, \\(\\mathbf{p}=\\mathbf{p}_\\perp+\\mathbf{p}_\\parallel\\), so we’ll just have to add back the parallel part \\(\\mathbf{p}_\\parallel\\). This is correct because a rotation about \\(\\mathbf{u}\\) preserves \\(\\mathbf{p}_\\parallel\\):\n\n\n\nHowever, “\\(\\mathbf{u} \\times\\)” is not a mathematical object we can work with. Instead, we can devise a matrix \\(\\mathbf{\\hat{u}}\\) that when multiplied with a a vector \\(\\mathbf{p}\\), outputs the same result as \\(\\mathbf{u} \\times \\mathbf{p}\\):\n\n\\[\\begin{align*}\n\\mathbf{u} \\times \\mathbf{p} &= \\begin{bmatrix} u_yp_z - u_zp_y \\\\ u_zp_x - u_xp_z \\\\ u_xp_y - u_yp_x \\end{bmatrix} \\\\\n &= \\begin{bmatrix}0&-u_z&u_y\\\\u_z&0&-u_x\\\\-u_y&u_x&0\\end{bmatrix}\\begin{bmatrix}p_x\\\\p_y\\\\p_z\\end{bmatrix} \\\\\n &= \\mathbf{\\hat{u}}\\mathbf{p}\n\\end{align*}\\]\n\nWe can see that \\(\\mathbf{\\hat{u}}^T = -\\mathbf{\\hat{u}}\\), so \\(\\mathbf{\\hat{u}}\\) is a skew-symmetric matrix. (i.e. it has zeros along the diagonal, and the two halves are equal but negated.) Note that in the 2D case, our quarter turn \\(\\mathcal{J}\\) was also skew-symmetric, and sneakily represented the 2D cross product! We must be on the right track.\n\nThe reason we want to use axis/angle rotations in the first place is because they form a vector space. So, let’s make sure our translation to skew-symmetric matrices maintains that property. Given two skew-symmetric matrices \\(A_1\\) and \\(A_2\\):\n\n\\[(A_1 + A_2)^T = A_1^T + A_2^T = -A_1 - A_2 = -(A_1 + A_2)\\]\n\nTheir sum is also a skew-symmetric matrix. Similarly:\n\n\\[(cA)^T = c(A^T) = -cA_1\\]\n\nScalar multiplication also maintains skew-symmetry. The other vector space properties follow from the usual definition of matrix addition.\n\nFinally, note that \\(\\mathbf{u} \\times (\\mathbf{u} \\times (\\mathbf{u} \\times \\mathbf{p})) = -\\mathbf{u} \\times \\mathbf{p}\\). Taking the cross product three times would rotate \\(\\mathbf{p}_\\perp\\) three-quarter turns about \\(\\mathbf{u}\\), which is equivalent to a single negative-quarter turn. More generally, \\(\\mathbf{\\hat{u}}^{k+2} = -\\mathbf{\\hat{u}}^k\\) for any \\(k>0\\). We could prove this by writing out all the terms, but the geometric argument is easier:\n\n\n\nThe 3D Exponential Map\n\nGiven an axis/angle rotation \\(\\theta\\mathbf{u}\\), we can make \\(\\theta\\mathbf{\\hat{u}}\\) using the above construction. What happens when we exponentiate it? Using the identity \\(\\mathbf{\\hat{u}}^{k+2} = -\\mathbf{\\hat{u}}^k\\):\n\n\\[\\begin{align*}\ne^{\\theta\\mathbf{\\hat{u}}} &= \\mathcal{I} + \\theta\\mathbf{\\hat{u}} + \\frac{1}{2!}\\theta^2\\mathbf{\\hat{u}}^2 + \\frac{1}{3!}\\theta^3\\mathbf{\\hat{u}}^3 + \\frac{1}{4!}\\theta^4\\mathbf{\\hat{u}}^4 + \\frac{1}{5!}\\theta^5\\mathbf{\\hat{u}}^5 + \\dots \\\\\n&= \\mathcal{I} + \\theta\\mathbf{\\hat{u}} + \\frac{1}{2!}\\theta^2\\mathbf{\\hat{u}}^2 - \\frac{1}{3!}\\theta^3\\mathbf{\\hat{u}} - \\frac{1}{4!}\\theta^4\\mathbf{\\hat{u}}^2 + \\frac{1}{5!}\\theta^5\\mathbf{\\hat{u}} + \\dots \\\\\n&= \\mathcal{I} + \\left(\\theta - \\frac{1}{3!}\\theta^3 + \\frac{1}{5!}\\theta^5 - \\dots\\right)\\mathbf{\\hat{u}} + \\left(1 - \\left(1 - \\frac{1}{2!}\\theta^2 + \\frac{1}{4!}\\theta^4 - \\dots\\right)\\right)\\mathbf{\\hat{u}}^2 \\\\\n&= \\mathcal{I} + \\sin(\\theta)\\mathbf{\\hat{u}} + (1-\\cos(\\theta))\\mathbf{\\hat{u}}^2\n\\end{align*}\\]\n\nIn the last step, we again recover the Taylor expansions of \\(\\sin\\theta\\) and \\(\\cos\\theta\\). Our final expression is known as Rodrigues’ formula.\n\nThis formula is already reminiscent of the 2D case: the latter two terms are building up a 2D rotation in the plane defined by \\(\\mathbf{u}\\). To sanity check our 3D result, let’s compute our transform for \\(\\theta = 0\\):\n\n\\[e^{0\\mathbf{\\hat{u}}}\\mathbf{p} = (\\mathcal{I} + 0\\mathbf{\\hat{u}} + (1-1)\\mathbf{\\hat{u}}^2)\\mathbf{p} = \\mathbf{p}\\]\n\nRotating by \\(\\theta = 0\\) preserves \\(\\mathbf{p}\\), so the formula works. Then compute for \\(\\theta = \\frac{\\pi}{2}\\):\n\n\\[\\begin{align*} e^{\\frac{\\pi}{2}\\mathbf{\\hat{u}}}\\mathbf{p} &= (\\mathcal{I} + 1\\mathbf{\\hat{u}} + (1-0)\\mathbf{\\hat{u}}^2)\\mathbf{p} \\\\ &= \\mathbf{p} + \\mathbf{\\hat{u}}\\mathbf{p} + \\mathbf{\\hat{u}}^2\\mathbf{p} \\\\\n&= \\mathbf{p} + \\mathbf{u}\\times\\mathbf{p} + \\mathbf{u}\\times(\\mathbf{u}\\times\\mathbf{p})\\\\\n&= (\\mathbf{p}_\\perp + \\mathbf{p}_\\parallel) + \\mathbf{u}\\times\\mathbf{p} - \\mathbf{p}_\\perp\\\\\n&= \\mathbf{u}\\times\\mathbf{p} + \\mathbf{p}_\\parallel\n\\end{align*}\\]\n\nAbove, we already concluded \\(\\mathbf{u}\\times\\mathbf{p} + \\mathbf{p}_\\parallel\\) is a quarter rotation. So, our formula is also correct at \\(\\theta = \\frac{\\pi}{2}\\). Then compute for \\(\\theta = \\pi\\):\n\n\\[\\begin{align*} e^{\\pi\\mathbf{\\hat{u}}}\\mathbf{p} &= (\\mathcal{I} + 0\\mathbf{\\hat{u}} + (1-(-1))\\mathbf{\\hat{u}}^2)\\mathbf{p} \\\\\n&= \\mathbf{p} + 2\\mathbf{\\hat{u}}^2\\mathbf{p} \\\\\n&= (\\mathbf{p}_\\perp + \\mathbf{p}_\\parallel) - 2\\mathbf{p}_\\perp \\\\\n&= -\\mathbf{p}_\\perp + \\mathbf{p}_\\parallel\n\\end{align*}\\]\n\n\n\nWe end up with \\(-\\mathbf{p}_\\perp + \\mathbf{p}_\\parallel\\), which is a half rotation. Hence \\(\\theta = \\pi\\) is also correct.\n\nSo far, our formula checks out. Just to be sure, let’s prove that our 3D result is a rotation matrix, i.e. it’s orthonormal and has positive determinant. A matrix is orthonormal if \\(A^TA = \\mathcal{I}\\), so again using \\(\\mathbf{\\hat{u}}^{k+2} = -\\mathbf{\\hat{u}}^k\\):\n\n\\[\\begin{align*}\n&\\left(\\mathcal{I} + \\sin(\\theta)\\mathbf{\\hat{u}} + (1-\\cos(\\theta))\\mathbf{\\hat{u}}^2\\right)^T\\left(\\mathcal{I} + \\sin(\\theta)\\mathbf{\\hat{u}} + (1-\\cos(\\theta))\\mathbf{\\hat{u}}^2\\right) \\\\\n=& \\left(\\mathcal{I}^T + \\sin(\\theta)\\mathbf{\\hat{u}}^T + (1-\\cos(\\theta))\\left(\\mathbf{\\hat{u}}^T\\right)^2\\right)\\left(\\mathcal{I} + \\sin(\\theta)\\mathbf{\\hat{u}} + (1-\\cos(\\theta))\\mathbf{\\hat{u}}^2\\right) \\\\\n=&\\ (\\mathcal{I} - \\sin(\\theta)\\mathbf{\\hat{u}} + (1-\\cos(\\theta))\\mathbf{\\hat{u}}^2)\\left(\\mathcal{I} + \\sin(\\theta)\\mathbf{\\hat{u}} + (1-\\cos(\\theta))\\mathbf{\\hat{u}}^2\\right) \\\\\n=&\\ \\mathcal{I} + \\sin(\\theta)\\mathbf{\\hat{u}} + (1-\\cos(\\theta))\\mathbf{\\hat{u}}^2 - \\sin(\\theta)\\mathbf{\\hat{u}} - \\sin^2(\\theta)\\mathbf{\\hat{u}}^2 - \\sin(\\theta)(1-\\cos(\\theta))\\mathbf{\\hat{u}}^3 \\\\&+ (1-\\cos(\\theta))\\mathbf{\\hat{u}}^2 + \\sin(\\theta)(1-\\cos(\\theta))\\mathbf{\\hat{u}}^3 + (1-\\cos(\\theta))^2\\mathbf{\\hat{u}}^4 \\\\\n=&\\ \\mathcal{I} + \\sin(\\theta)\\mathbf{\\hat{u}} + (1-\\cos(\\theta))\\mathbf{\\hat{u}}^2 - \\sin(\\theta)\\mathbf{\\hat{u}} - \\sin^2(\\theta)\\mathbf{\\hat{u}}^2 + \\sin(\\theta)(1-\\cos(\\theta))\\mathbf{\\hat{u}} \\\\&+ (1-\\cos(\\theta))\\mathbf{\\hat{u}}^2 - \\sin(\\theta)(1-\\cos(\\theta))\\mathbf{\\hat{u}} - (1-\\cos(\\theta))^2\\mathbf{\\hat{u}}^2\\\\\n=&\\ \\mathcal{I} + 2(1-\\cos(\\theta))\\mathbf{\\hat{u}}^2  - \\sin^2(\\theta)\\mathbf{\\hat{u}}^2 - (1-\\cos(\\theta))^2\\mathbf{\\hat{u}}^2\\\\\n=&\\ \\mathcal{I} + (-\\sin^2(\\theta) + 2(1-\\cos(\\theta)) - (1-\\cos(\\theta))^2)\\mathbf{\\hat{u}}^2\\\\\n=&\\ \\mathcal{I} + (-\\sin^2(\\theta)+1-\\cos^2(\\theta))\\mathbf{\\hat{u}}^2\\\\\n=&\\ \\mathcal{I} + (1-(\\sin^2(\\theta)+\\cos^2(\\theta)))\\mathbf{\\hat{u}}^2\\\\\n=&\\ \\mathcal{I}\n\\end{align*}\\]\n\nTherefore, \\(e^{\\theta\\mathbf{\\hat{u}}}\\) is orthonormal. We could show its determinant is positive (and therefore \\(1\\)) by writing out all the terms, but it suffices to argue that:\n\n\n  Clearly, \\(\\begin{vmatrix}\\exp(0\\mathbf{\\hat{u}})\\end{vmatrix} = \\begin{vmatrix}\\mathcal{I}\\end{vmatrix} = 1\\)\n  There is no \\(\\theta\\), \\(\\mathbf{\\hat{u}}\\) such that \\(\\begin{vmatrix}\\exp(\\theta\\mathbf{\\hat{u}})\\end{vmatrix} = 0\\), since \\(\\mathbf{\\hat{u}}\\) and \\(\\mathbf{\\hat{u}}^2\\) can never cancel out \\(\\mathcal{I}\\).\n  \\(\\exp\\) is continuous with respect to \\(\\theta\\) and \\(\\mathbf{\\hat{u}}\\)\n\n\nTherefore, \\(\\begin{vmatrix}\\exp(0\\mathbf{\\hat{u}})\\end{vmatrix}\\) can never become negative. That means \\(\\exp(\\theta\\mathbf{\\hat{u}})\\) is a 3D rotation matrix!\n\nThe 3D Logarithmic Map\n\nSimilarly to the 2D case, the 3D exponential map is not injective, so the 3D logarithmic map will not be surjective. Instead, we will again define it to return the smallest magnitude axis-angle rotation corresponding to the given matrix. Our exponential map gave us:\n\n\\[R = \\exp(\\theta\\mathbf{\\hat{u}}) = \\mathcal{I} + \\sin(\\theta)\\mathbf{\\hat{u}} + (1-\\cos(\\theta))\\mathbf{\\hat{u}}^2\\]\n\nWe can take the trace (sum along the diagonal) of both sides:\n\n\\[\\operatorname{tr}(R) = \\operatorname{tr}(\\mathcal{I}) + \\sin(\\theta)\\operatorname{tr}(\\mathbf{\\hat{u}}) + (1-\\cos(\\theta))\\operatorname{tr}(\\mathbf{\\hat{u}}^2)\\]\n\nClearly \\(\\operatorname{tr}(\\mathcal{I}) = 3\\), and since \\(\\mathbf{\\hat{u}}\\) is skew-symmetric, its diagonal sum is zero. That just leaves \\(\\mathbf{\\hat{u}}^2\\):\n\n\\[\\mathbf{\\hat{u}}^2 = \\begin{bmatrix}-u_y^2-u_z^2&u_xu_y&u_xu_z\\\\u_xu_y&-u_x^2-u_z^2&u_yu_z\\\\u_xu_z&u_yu_z&-u_x^2-u_y^2\\end{bmatrix}\\]\n\nWe can see \\(\\operatorname{tr}(\\mathbf{\\hat{u}}^2) = -2u_x^2-2u_y^2-2u_z^2 = -2\\|\\mathbf{u}\\|^2 = -2\\). (We originally defined \\(\\mathbf{u}\\) as a unit vector.) Our final trace becomes:\n\n\\[\\begin{align*} && \\operatorname{tr}(R) &= 3 + 0\\sin(\\theta) - 2(1-\\cos(\\theta)) \\\\ &&&= 1 + 2\\cos\\theta \\\\\n&\\implies& \\theta &= \\arccos\\left(\\frac{\\operatorname{tr}(R)-1}{2}\\right) \\end{align*}\\]\n\nThat’s half of our logarithmic map. To recover \\(\\mathbf{\\hat{u}}\\), we can antisymmetrize \\(R\\). Recall \\(\\mathbf{\\hat{u}}^T = -\\mathbf{\\hat{u}}\\), and that \\(\\mathbf{\\hat{u}}^2\\) is symmetric (above).\n\n\\[\\begin{align*}\n&& R - R^T &= \\mathcal{I} - \\mathcal{I}^T + \\sin(\\theta)(\\mathbf{\\hat{u}}-\\mathbf{\\hat{u}}^T) + (1-\\cos(\\theta))(\\mathbf{\\hat{u}}^2-(\\mathbf{\\hat{u}}^2)^T) \\\\\n&&&= \\sin(\\theta)(\\mathbf{\\hat{u}}+\\mathbf{\\hat{u}}) + (1-\\cos(\\theta))(\\mathbf{\\hat{u}}^2-\\mathbf{\\hat{u}}^2) \\\\\n&&&= 2\\sin(\\theta)\\mathbf{\\hat{u}} \\\\\n&\\implies& \\mathbf{\\hat{u}} &= \\frac{1}{2\\sin\\theta}(R-R^T) \\\\\n\\end{align*}\\]\n\nFinally, to get \\(\\mathbf{u}\\), we can pull out the entries of \\(\\mathbf{\\hat{u}}\\), which we just derived:\n\n\\[\\mathbf{u} = \\frac{1}{2\\sin\\theta}\\begin{bmatrix}R_{32}-R_{23}\\\\ R_{13}-R_{31}\\\\R_{21}-R_{12}\\end{bmatrix}\\]\n\nWe now have our full 3D logarithmic map!\n\nInterpolation\n\nNow equipped with our 3D exp and log maps, we can use them for interpolation. The exact same formula as the 2D case still applies:\n\n\\[R(t) = \\exp(t\\log(R_1R_0^{-1})))R_0\\]\n\n\n\n\nRandomize\n\n\n\n$$ R_0 = \\begin{bmatrix}1&0&0\\\\0&1&0\\\\0&0&1\\end{bmatrix} $$\n$$ R(0.00) = \\begin{bmatrix}\\phantom{-}1.00&\\phantom{-}0.00&\\phantom{-}0.00\\\\\\phantom{-}0.00&\\phantom{-}1.00&\\phantom{-}0.00\\\\\\phantom{-}0.00&\\phantom{-}0.00&\\phantom{-}1.00\\end{bmatrix} $$\n$$ R_1 = \\begin{bmatrix}-0.42&-0.59&-0.69\\\\0.51&-0.79&0.36\\\\-0.75&-0.20&0.63\\end{bmatrix} $$\n\n\nOur interpolation scheme produces all the nice properties of axis/angle rotations—and chooses the shortest path every time. This wouldn’t look so smooth with Euler angles!\n\nAveraging Rotations\n\nHowever, we would have gotten an equally good interpolation scheme by just using quaternions instead of messing about with all this matrix math. Let’s consider something interesting we can only easily do with axis/angle rotations: averaging a set of rotation matrices.\n\nThe most straightforward method is to convert each matrix into an axis/angle rotation, average the resulting vectors, and convert back. That is certainly a valid strategy, but the resulting behavior won’t be very intuitive:\n\n\nRandomize\n\nIn particular, summing axis-angle vectors can result in “catastrophic cancellation.” An extreme example is averaging \\(\\begin{bmatrix}\\pi&0&0\\end{bmatrix}\\) and \\(\\begin{bmatrix}-\\pi&0&0\\end{bmatrix}\\), resulting in zero—which is clearly not representative of the two equivalent rotations.\n\nTo find an alternative, let’s first consider a slightly unconventional way of averaging points in the plane. The average of a set of points is the point that minimizes total squared distance to all others. Hence, there’s an optimization-based algorithm for finding it. Given \\(x_0, \\dots, x_n\\), we can iterate the following procedure:\n\n\n  Pick an initial guess \\(\\bar{x} \\in \\mathbb{R}^2\\) (can be one of the points).\n  Repeat:\n    \n      For each point, get its translation from the guess: \\(\\mathbf{u}_i \\leftarrow x_i - \\bar{x}\\)\n      Average the vectors: \\(\\mathbf{u} \\leftarrow \\frac{1}{n} \\sum_{i=1}^n \\mathbf{u}_i\\)\n      Step toward the average direction: \\(\\bar{x} \\leftarrow \\bar{x} + \\tau\\mathbf{u}\\)\n    \n  \n  while \\(\\|\\mathbf{u}\\| > \\epsilon\\).\n\n\n\n\nAs we run this procedure, \\(\\bar{x}\\) will converge to the average point. Of course, we could have just averaged the points directly, but we’ll be able to translate this idea to the rotational case rather nicely.\n\nOur logarithmic map lets us convert rotation matrices to axis axis/angle rotations, which are themselves just 3D points. So, what if we use the point averaging algorithm on rotations \\(R_0, \\dots, R_n\\)?\n\n\n  Pick an initial guess \\(\\bar{R} \\in \\mathbb{R}^{3\\times3}\\) (can be \\(\\mathcal{I}\\)).\n  Repeat:\n    \n      For each matrix, get its axis/angle rotation from the guess: \\(\\mathbf{u}_i \\leftarrow \\log(R_i\\bar{R}^{-1})\\)\n      Average the vectors: \\(\\mathbf{u} \\leftarrow \\frac{1}{n} \\sum_{i=1}^n \\mathbf{u}_i\\)\n      Step toward the average rotation: \\(\\bar{R} \\leftarrow \\exp(\\tau\\mathbf{u})\\bar{R}\\)\n    \n  \n  while \\(\\|\\mathbf{u}\\| > \\epsilon\\).\n\n\n\n\nStep\nRandomize\n\n\nThe result of this algorithm is formally known as the Karcher mean. Just like how the average point minimizes total squared distance from all other points, the Karcher mean is a rotation that minimizes squared angular distance from all other rotations. Therefore, it won’t be subject to catastrophic cancellation—we’ll always end up with a non-zero in-between rotation.\n\nTry comparing the two averaging algorithms—randomizing will keep them in sync. While the results are often similar, the Karcher mean exhibits more consistent behavior.\n\nQuaternions (Again)\n\nWarning: section assumes knowledge of quaternions\n\nOkay, I couldn’t resist talking about quaternions at least a little bit, given how closely they’re related to axis/angle rotations. Just like how complex exponentiation turned out to be equivalent to (skew-symmetric) 2D matrix exponentiation, quaternion exponentiation is equivalent to (skew-symmetric) 3D matrix exponentiation.\n\nIn 2D, an axis/angle rotation was simply \\(\\theta\\). We created a pure-imaginary complex number \\(i\\theta\\) and exponentiated it:\n\n\\[e^{i\\theta} = \\cos\\theta + i\\sin\\theta\\]\n\nWe got back a complex number that when multiplied with a point, rotates it by \\(\\theta\\). It’s always the case that \\(\\|\\cos\\theta + i\\sin\\theta\\| = 1\\), so 2D rotations can be represented as unit-norm complex numbers.\n\nIn 3D, an axis/angle rotation is a vector \\(\\mathbf{u}\\) such that \\(\\|\\mathbf{u}\\| = \\theta\\). What happens if we create a pure-imaginary quaternion \\(\\mathbf{q} = u_x\\mathbf{i} + u_y\\mathbf{j} + u_z\\mathbf{k}\\) and exponentiate it, too?\n\nTo make evaluating \\(e^\\mathbf{q}\\) easier, first derive the following using the quaternion multiplication rules:\n\n\\[\\begin{align*}\n\\mathbf{q}^2 &= (u_x\\mathbf{i} + u_y\\mathbf{j} + u_z\\mathbf{k})(u_x\\mathbf{i} + u_y\\mathbf{j} + u_z\\mathbf{k}) \\\\\n             &= u_x^2\\mathbf{i}^2 + u_xu_y\\mathbf{i}\\mathbf{j} + u_xu_z\\mathbf{i}\\mathbf{k} + u_yu_x\\mathbf{j}\\mathbf{i} + u_y^2\\mathbf{j}^2 + u_yu_z\\mathbf{j}\\mathbf{k} + u_zu_x\\mathbf{k}\\mathbf{i} + u_zu_y\\mathbf{k}\\mathbf{j} + u_z^2\\mathbf{k}^2 \\\\\n             &= -u_x^2 + u_xu_y\\mathbf{k} - u_xu_z\\mathbf{j} - u_yu_x\\mathbf{k} - u_y^2 + u_yu_z\\mathbf{i} + u_zu_x\\mathbf{j} - u_zu_y\\mathbf{i} - u_z^2 \\\\\n             &= -u_x^2-u_y^2-u_z^2\\\\\n             &= -\\|\\mathbf{q}\\|^2\\\\\n             &= -\\theta^2\n\\end{align*}\\]\n\nWhich is highly reminiscent of the skew-symmetric matrix identity used above. Therefore…\n\n\\[\\begin{align*}\ne^\\mathbf{q} &= 1 + \\mathbf{q} + \\frac{\\mathbf{q}^2}{2!} + \\frac{\\mathbf{q}^3}{3!} + \\frac{\\mathbf{q}^4}{4!} + \\frac{\\mathbf{q}^5}{5!} + \\dots \\\\\n             &= 1 + \\frac{\\theta\\mathbf{q}}{\\theta} - \\frac{\\theta^2}{2!} - \\frac{\\theta^3\\mathbf{q}}{3!\\theta} + \\frac{\\theta^4}{4!} + \\frac{\\theta^5\\mathbf{q}}{5!\\theta} \\dots \\\\\n             &= \\left(1 - \\frac{\\theta^2}{2!} + \\frac{\\theta^4}{4!} - \\dots\\right) + \\frac{\\mathbf{q}}{\\theta}\\left(\\theta - \\frac{\\theta^3}{3!} + \\frac{\\theta^5}{5!} - \\dots\\right) \\\\\n             &= \\cos\\theta + \\frac{\\mathbf{q}}{\\theta}\\sin\\theta \\\\\n             &\\approx \\cos\\theta + \\frac{\\mathbf{u}}{\\|\\mathbf{u}\\|}\\sin\\theta\n\\end{align*}\\]\n\nOur result looks almost exactly like the 2D case, just with three imaginary axes instead of one. In 2D, our axis/angle rotation became a unit-norm complex number. In 3D, it became a unit-norm quaternion. Now we can use this quaternion to rotate 3D points! Pretty cool, right?\n\nOne advantage of using quaternions is how easy the exponential map is to compute—if you don’t need a rotation matrix, it’s a good option. The quaternion logarithmic map is similarly simple:\n\n\\[\\theta = \\arccos(\\Re(\\mathbf{q})), \\mathbf{u} = \\frac{1}{\\sin\\theta}\\Im(\\mathbf{q})\\]\n\nFinally, note that the way to rotate a point \\(\\mathbf{p}\\) by a quaternion \\(\\mathbf{q}\\) is by evaluating the conjugation \\(\\mathbf{q}\\mathbf{p}\\mathbf{q}^{-1}\\), where \\(\\mathbf{p} = p_x\\mathbf{i} + p_y\\mathbf{j} + p_z\\mathbf{k}\\) is another pure-imaginary quaternion representing our point. The conjugation technically rotates the point by \\(2\\theta\\) about \\(\\mathbf{u}\\), but that’s easily accounted for by making \\(\\|\\mathbf{u}\\| = \\frac{\\theta}{2}\\) in the beginning.\n\nFurther Reading\n\nMade it this far? Well, there’s even more to learn about rotations.\n\nLearn about quaternions here, and why geometric algebra is more intuitive here.\n\nBeyond understanding the four representations covered here (plus geometric algebra), it can be enlightening to learn about the algebraic structure underlying all 3D rotations: the group \\(SO(3)\\). I found this video to be a great resource: it explains \\(SO(3)\\) both intuitively and visually, demonstrating how it relates it to the group \\(SU(2)\\) as well as why quaternions and axis/angle rotations double-cover 3D rotation matrices.\n\nThe wikipedia page on SO(3) is also informative, though very math heavy. It touches on connections with axis/angle rotations, topology, \\(SU(2)\\), quaternions, and Lie algebra. It turns out the vector space of skew-symmetric matrices we derived above makes up \\(\\mathfrak{so}(3)\\), the Lie algebra that corresponds to \\(SO(3)\\)—but I don’t know what that entails.",
+      "tags": [
+        "cs/computer-graphics",
+        "for-later"
+      ]
+    },
+    {
+      "id": "c08588dd-8e21-4499-bb7b-cc2152747dab",
+      "title": "Scratchapixel 4.0, Learn Computer Graphics Programming",
+      "url": "https://www.scratchapixel.com/index.html",
+      "savedAt": "2024-06-15T14:55:57.000Z",
+      "description": "Welcome to Computer Graphics",
+      "tags": [
+        "cs/computer-graphics",
+        "for-later"
+      ]
+    },
+    {
+      "id": "a9526a6a-4876-4233-9b46-066307a5e7d6",
+      "title": "Accounting for Developers, Part I | Modern Treasury Journal",
+      "url": "https://www.moderntreasury.com/journal/accounting-for-developers-part-i",
+      "savedAt": "2024-06-15T14:54:04.000Z",
+      "description": "In this first part of a two-part series, we walk through basic accounting principles for anyone building products that move and track money.",
+      "tags": [
+        "finances"
+      ]
+    },
+    {
+      "id": "091708bc-ded1-4c48-8f8d-5b19565c4528",
+      "title": "Complex Analysis",
+      "url": "https://complex-analysis.com/index.html",
+      "savedAt": "2024-06-15T14:41:31.000Z",
+      "description": "An online interactive introduction to the study of complex analysis.",
+      "tags": [
+        "books",
+        "math"
+      ]
+    },
+    {
+      "id": "25f0d34c-4c53-408b-9712-a093a8539495",
+      "title": "On Seeing Through and Unseeing: The Hacker Mindset · Gwern.net",
+      "url": "https://gwern.net/unseeing",
+      "savedAt": "2024-06-15T04:06:52.000Z",
+      "description": "Defining the security/hacker mindset as extreme reductionism: ignoring the surface abstractions and limitations to treat a system as a source of parts to manipulate into a different system, with different (and usually unintended) capabilities.",
+      "tags": [
+        "interesting"
+      ]
+    },
+    {
+      "id": "0e676883-dce8-4ab6-94ca-caf3a2a1bc2b",
+      "title": "Experts vs. Imitators",
+      "url": "https://fs.blog/experts-vs-imitators/",
+      "savedAt": "2024-06-15T03:48:06.000Z",
+      "description": "Learn how to spot the difference between and expert and an imitator with 5 key tells.",
+      "tags": [
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "a48df777-fb04-4e73-b663-9dc7df937f04",
+      "title": "Confusion is a muse | notes.eatonphil.com",
+      "url": "https://notes.eatonphil.com/2024-06-14-confusion-is-a-muse.html",
+      "savedAt": "2024-06-15T03:43:04.000Z",
+      "description": "Confusion is a muse",
+      "tags": [
+        "self-improvement"
+      ]
+    },
     {
       "id": "cc428636-78f4-4e1c-b6d2-34393f22386f",
       "title": "How I Cured My Procrastination - Learn How To Learn",
@@ -19,7 +103,7 @@
       "savedAt": "2024-06-14T14:46:20.000Z",
       "description": "Just like the only numbers programmers care about are zero, one, infinity, the only frequencies we care about are Never, Sometimes and Always.",
       "tags": [
-        "computer",
+        "cs",
         "engineering"
       ]
     },
@@ -30,9 +114,7 @@
       "savedAt": "2024-06-14T00:51:19.000Z",
       "description": "Ray Tracing in One Weekend",
       "tags": [
-        "computer",
-        "graphic",
-        "programming"
+        "cs/computer-graphics"
       ]
     },
     {
@@ -42,7 +124,7 @@
       "savedAt": "2024-06-13T23:43:57.000Z",
       "description": "It is time to end the tyranny of people becoming interested in database implementation and building a BTree. Let us turn to the succor of immutable storage....",
       "tags": [
-        "computer",
+        "cs",
         "database",
         "for-later"
       ]
@@ -54,7 +136,7 @@
       "savedAt": "2024-06-13T23:42:03.000Z",
       "description": "Introduction to implementing USB devices. Minimal overview of hardware and software with an example with STM32 microcontroller. Also contains an index to very detailed guides for more information.",
       "tags": [
-        "computer",
+        "cs",
         "hardware"
       ]
     },
@@ -65,7 +147,7 @@
       "savedAt": "2024-06-13T23:34:59.000Z",
       "description": "As a mediocre engineer, I took Internet and HTTPS communication for granted and never dove any deeper. Today we’re improving as engineers and learning a rough overview of how internet communication works, specifically focusing on HTTP and TLS.",
       "tags": [
-        "computer",
+        "cs",
         "for-later",
         "networking",
         "web"
@@ -78,7 +160,7 @@
       "savedAt": "2024-06-13T23:30:15.000Z",
       "description": "S3 is more weirder than you think. Make sure you know all the quirks before they turn into vulnerabilities in your AWS infrastructure.",
       "tags": [
-        "computer"
+        "cs"
       ]
     },
     {
@@ -88,7 +170,7 @@
       "savedAt": "2024-06-13T23:15:31.000Z",
       "description": "Personal website and blog.",
       "tags": [
-        "computer",
+        "cs",
         "for-later",
         "networking"
       ]
@@ -110,7 +192,7 @@
       "savedAt": "2024-06-11T00:41:59.000Z",
       "description": "Comparative tests show FreeBSD's virtualization performance surpasses Proxmox, especially with NVMe drivers.",
       "tags": [
-        "computer",
+        "cs",
         "devops"
       ]
     },
@@ -121,7 +203,7 @@
       "savedAt": "2024-06-11T00:36:45.000Z",
       "description": "A sandbox game where players create worlds!",
       "tags": [
-        "computer"
+        "cs"
       ]
     },
     {
@@ -131,7 +213,7 @@
       "savedAt": "2024-06-10T00:07:36.000Z",
       "description": "This repo is forked from awesome anistefanovic/build-your-own-x ,\n    site is created and maintained by Kalan which converted github README.md to\n    website, and probably will add more opinionated resource. Follow me on\n    Twitter or contrinute your article link on Github is always welcomed!",
       "tags": [
-        "computer",
+        "cs",
         "resource"
       ]
     },
@@ -142,7 +224,7 @@
       "savedAt": "2024-06-10T00:06:40.000Z",
       "description": "Blog > Post",
       "tags": [
-        "computer",
+        "cs",
         "database"
       ]
     },
@@ -153,7 +235,7 @@
       "savedAt": "2024-06-09T22:46:46.000Z",
       "description": "I've made many different types of SIMD usage over the years, and occasionally even written about them (on this blog, in papers, and in Twitter). Just for reference, I'd like to cover my taxonomy of SIMD usage so I don't keep writing it up (poorly) on Twitter every few months. This discussion is a draft…",
       "tags": [
-        "computer",
+        "cs",
         "hardware"
       ]
     },
@@ -164,7 +246,7 @@
       "savedAt": "2024-06-09T14:20:08.000Z",
       "description": "Learn OpenGL . com provides good and clear modern 3.3+ OpenGL tutorials with clear examples. A great resource to learn modern OpenGL aimed at beginners.",
       "tags": [
-        "computer"
+        "cs"
       ]
     },
     {
@@ -174,7 +256,7 @@
       "savedAt": "2024-06-08T17:45:10.000Z",
       "description": "A post/question about formal grammars, wherein I search for a good formalism for describing infix\nexpressions.",
       "tags": [
-        "computer",
+        "cs",
         "programming-languages"
       ]
     },
@@ -195,7 +277,7 @@
       "savedAt": "2024-06-08T16:10:25.000Z",
       "description": "Anomalies An anomaly or read phenomena can happen when a transaction reads data that may have been modified by another concurrent transaction.\nDirty read A dirty read happens when a transaction T1 reads data that has been modified by a concurrent transaction T2 that has not has been committed or rolled back yet. T1 ends up working with stale data if T2 does not commit.\nT2 starts executing and sets x to a new value, T1 starts executing and reads x, the value of x is the value just set by T2, T2 rolls back, the value of x is not persisted to the database but T1 will move forward with the stale value of x that was written before T2 rolled back.",
       "tags": [
-        "computer",
+        "cs",
         "database"
       ]
     },
@@ -206,7 +288,7 @@
       "savedAt": "2024-06-07T17:19:13.000Z",
       "description": "I don’t know about you, but nothing gets me going in the morning quite like a\ngood old fashioned programming language rant. It stirs the blood to see someone\nskewer one of those “blub” languages the plebians use, muddling through\ntheir day with it between furtive visits to StackOverflow.",
       "tags": [
-        "computer",
+        "cs",
         "programming"
       ]
     },
@@ -270,8 +352,8 @@
       "savedAt": "2024-06-01T14:31:37.000Z",
       "description": "Collaboratively editing strings of text is a common desire in peer-to-peer applications. For example, a note-taking\n    app might represent each document as a single collaboratively-edited string of text.",
       "tags": [
-        "computer",
-        "distsys"
+        "cs",
+        "cs/distsys"
       ]
     },
     {
@@ -323,7 +405,7 @@
       "savedAt": "2024-05-30T22:55:45.000Z",
       "description": "Introduction to typeclasses, ADTs, and HKTs TypeScript",
       "tags": [
-        "computer",
+        "cs",
         "type-theory"
       ]
     },
@@ -334,7 +416,7 @@
       "savedAt": "2024-05-30T21:34:43.000Z",
       "description": "I needed a bit of a break from “real work” recently, so I started a new\nprogramming project that was low-stakes and purely recreational. On April 21st,\nI set out to see how much of a Unix-like operating system for x86_64 targets\nthat I could put together in about a month. The result is\nBunnix. Not including days I didn’t work\non Bunnix for one reason or another, I spent 27 days on this project.",
       "tags": [
-        "computer",
+        "cs",
         "cool"
       ]
     },
@@ -377,7 +459,7 @@
       "savedAt": "2024-05-30T14:37:12.000Z",
       "description": "The ELF object file format is adopted by many UNIX-like operating systems. While I've previously delved into the control structures of ELF and its predecessors, tracing the historical evolution of ELF",
       "tags": [
-        "computer",
+        "cs",
         "computer-history"
       ]
     },
@@ -388,7 +470,7 @@
       "savedAt": "2024-05-30T14:37:01.000Z",
       "description": "Max Böck is a professional front-end developer based in Vienna, Austria.",
       "tags": [
-        "computer",
+        "cs",
         "web"
       ]
     },
@@ -409,7 +491,7 @@
       "savedAt": "2024-05-30T12:56:27.000Z",
       "description": "In this blog, we go on an interactive journey to understand common queueing strategies for handling HTTP requests.",
       "tags": [
-        "computer",
+        "cs",
         "learning"
       ]
     },
@@ -431,7 +513,7 @@
       "savedAt": "2024-05-29T00:29:38.000Z",
       "description": "Published on February 23, 2019, last updated October 30, 2021",
       "tags": [
-        "computer",
+        "cs",
         "functional-programming"
       ]
     },
@@ -442,9 +524,9 @@
       "savedAt": "2024-05-28T12:49:36.000Z",
       "description": "Ilya 30u30",
       "tags": [
-        "ai",
-        "computer",
-        "resources/list"
+        "cs/ai",
+        "cs",
+        "resource/list"
       ]
     },
     {
@@ -455,7 +537,7 @@
       "description": null,
       "tags": [
         "learning",
-        "computer"
+        "cs"
       ]
     },
     {
@@ -465,9 +547,9 @@
       "savedAt": "2024-05-24T03:05:32.000Z",
       "description": "After the AWS re: Invent conference I spent two weeks in Europe for the last customer visits of the year. I have since returned and am now in New York City enjoying a few days of winding down the last activities of the year before spending the holidays here with family. Do not expect too many blog posts or twitter updates. Although there are still a few very exciting AWS news updates to happen this year.",
       "tags": [
-        "distsys",
+        "cs/distsys",
         "for-later",
-        "resources/list"
+        "resource/list"
       ]
     },
     {
@@ -488,7 +570,7 @@
       "savedAt": "2024-05-22T12:31:17.000Z",
       "description": "Posted on August 27th, 2018.",
       "tags": [
-        "computer",
+        "cs",
         "for-later",
         "programming-languages"
       ]
@@ -500,7 +582,7 @@
       "savedAt": "2024-05-22T12:27:55.000Z",
       "description": "Zachary W. Huang",
       "tags": [
-        "computer",
+        "cs",
         "cool"
       ]
     },
@@ -521,7 +603,7 @@
       "savedAt": "2024-05-22T01:21:47.000Z",
       "description": "HTML | TXT | PDF",
       "tags": [
-        "computer",
+        "cs",
         "cool"
       ]
     },
@@ -593,8 +675,7 @@
       "savedAt": "2024-05-18T15:08:07.000Z",
       "description": "How we over-engineered a solution using some bleeding-edge tech",
       "tags": [
-        "compuiter",
-        "computer",
+        "cs",
         "networking",
         "programming"
       ]
@@ -626,7 +707,7 @@
       "savedAt": "2024-05-17T11:46:57.000Z",
       "description": "Even relatively new C programmers have no trouble reading simple\nC declarations such as",
       "tags": [
-        "computer",
+        "cs",
         "til"
       ]
     },
@@ -637,7 +718,7 @@
       "savedAt": "2024-05-17T00:48:02.000Z",
       "description": "Implementing MVCC and major SQL transaction isolation levels",
       "tags": [
-        "computer",
+        "cs",
         "database",
         "for-later"
       ]
@@ -649,7 +730,7 @@
       "savedAt": "2024-05-15T03:39:59.000Z",
       "description": "Article about replacing opam with nix for a easier life",
       "tags": [
-        "computer",
+        "cs",
         "programming-languages"
       ]
     },
@@ -681,7 +762,7 @@
       "savedAt": "2024-05-13T10:17:08.000Z",
       "description": "how make gpu fast?",
       "tags": [
-        "computer",
+        "cs",
         "cool",
         "hardware"
       ]
@@ -704,7 +785,7 @@
       "savedAt": "2024-05-10T01:15:02.000Z",
       "description": null,
       "tags": [
-        "computer",
+        "cs",
         "cool"
       ]
     },
@@ -726,7 +807,7 @@
       "description": "Whether it’s because you want to be able to participate in software engineering discussions without having to surreptitiously look things up on your phone, or whether it’s because you have an interview coming up with a firm that wants you to be some kind of expert in OOP or something, you probably have at least […]",
       "tags": [
         "career",
-        "computer"
+        "cs"
       ]
     },
     {
@@ -756,7 +837,7 @@
       "savedAt": "2024-05-09T03:13:55.000Z",
       "description": "Some useful mental models from the world of formal methods.",
       "tags": [
-        "computer"
+        "cs"
       ]
     },
     {
@@ -788,7 +869,7 @@
       "savedAt": "2024-05-05T14:10:30.000Z",
       "description": "May  3, 2024",
       "tags": [
-        "computer",
+        "cs",
         "hardware"
       ]
     },
@@ -799,7 +880,7 @@
       "savedAt": "2024-05-05T14:09:48.000Z",
       "description": "New blog post, and some thoughts on what makes an integration test an \"integration\" test.",
       "tags": [
-        "computer"
+        "cs"
       ]
     },
     {
@@ -829,7 +910,7 @@
       "savedAt": "2024-05-05T03:26:45.000Z",
       "description": "It’s easy to find documents containing \"large\" and \"elephant\".\nIt’s hard to find documents in German which have \"large\" and \"elephant\" together in a sentence, or words with similar meanings to large, and provide only the 10 most relevant documents.",
       "tags": [
-        "computer"
+        "cs"
       ]
     },
     {
@@ -839,7 +920,7 @@
       "savedAt": "2024-05-05T02:13:55.000Z",
       "description": "For the last several decades, one avenue of technological progress has towered over nearly everything else: semiconductors. Semiconductors are materials that can have their conductivity varied by many orders of magnitude, which makes it possible to selectively block and allow the flow of electrons. This property makes it possible to manufacture all sorts of electronic devices, not least of which is the digital computer.",
       "tags": [
-        "computer",
+        "cs",
         "economy"
       ]
     },
@@ -861,7 +942,7 @@
       "savedAt": "2024-05-04T17:58:03.000Z",
       "description": "Figma's team recently converted one of its codebases from a custom programming language to TypeScript without disrupting a single day of development.",
       "tags": [
-        "computer"
+        "cs"
       ]
     },
     {
@@ -871,7 +952,7 @@
       "savedAt": "2024-05-03T02:12:14.000Z",
       "description": "I’ve started studying a larger historical code base. Within this post, I want to summarize the sort of historical questions we might ask and notes on how to approach them.",
       "tags": [
-        "computer",
+        "cs",
         "computer-history"
       ]
     },
@@ -892,7 +973,7 @@
       "savedAt": "2024-05-02T10:12:13.000Z",
       "description": "A blog about computers, functional languages, Lisp, and Scheme.",
       "tags": [
-        "computer",
+        "cs",
         "programming-languages"
       ]
     },
@@ -903,7 +984,7 @@
       "savedAt": "2024-05-01T22:12:43.000Z",
       "description": "More specifically, Ansible is homoiconic and has syntactic macros",
       "tags": [
-        "computer",
+        "cs",
         "cool"
       ]
     },
@@ -914,7 +995,7 @@
       "savedAt": "2024-04-30T21:31:25.000Z",
       "description": "In response to a question on Twitter1, Richard Hipp wrote about why SQLite uses a bytecode VM for executing SQL statements.",
       "tags": [
-        "computer",
+        "cs",
         "cool",
         "hardware"
       ]
@@ -1020,7 +1101,7 @@
       "savedAt": "2024-04-26T16:11:09.000Z",
       "description": "A minimal GPU design in Verilog to learn how GPUs work from the ground up - adam-maj/tiny-gpu",
       "tags": [
-        "computer",
+        "cs",
         "cool",
         "for-later",
         "hardware",
@@ -1101,7 +1182,7 @@
       "savedAt": "2024-04-22T03:29:36.000Z",
       "description": "Everything I went through to add support for HD resolutions to Halo 2 on the Original Xbox. From patching the game's rendering engine and memory allocator, to hot patching the Xbox OS, to overclocking the GPU and running performance benchmarks. This post covers how I pushed the game and console to t",
       "tags": [
-        "computer",
+        "cs",
         "cool",
         "hardware"
       ]
@@ -1113,7 +1194,7 @@
       "savedAt": "2024-04-22T02:56:52.000Z",
       "description": "A web log. Mostly about computer science-y stuff.",
       "tags": [
-        "computer",
+        "cs",
         "for-later"
       ]
     },
@@ -1144,7 +1225,7 @@
       "savedAt": "2024-04-21T04:59:39.000Z",
       "description": "Someone wrote me an email and asked if I could share some tips on how to structure the $HOME directory, so here we go.",
       "tags": [
-        "computer"
+        "cs"
       ]
     },
     {
@@ -1174,7 +1255,7 @@
       "savedAt": "2024-04-21T02:33:11.000Z",
       "description": "learning a lot about sed, awk and other commands by making a spotify statusbar widget",
       "tags": [
-        "computer"
+        "cs"
       ]
     },
     {
@@ -1184,7 +1265,7 @@
       "savedAt": "2024-04-21T02:27:40.000Z",
       "description": "Yes. The answer is yes. In your face, Betteridge.",
       "tags": [
-        "computer",
+        "cs",
         "programming"
       ]
     },
@@ -1195,7 +1276,7 @@
       "savedAt": "2024-04-20T13:36:11.000Z",
       "description": "Powered by blists - more mailing lists",
       "tags": [
-        "computer",
+        "cs",
         "hacking"
       ]
     },
@@ -1267,7 +1348,7 @@
       "savedAt": "2024-04-16T20:59:00.000Z",
       "description": "This is a visual guide (scroll story) to Vision Transformers (ViTs), a class of deep learning models that have achieved state-of-the-art performance on image classification tasks.",
       "tags": [
-        "ai"
+        "cs/ai"
       ]
     },
     {
@@ -1288,7 +1369,7 @@
       "description": "In the past couple of years, I’ve been working in billing and payments at Justworks. This experience introduced me to the world of bookkeeping and accounting in ways I didn’t expect: I took a course and read a textbook in accounting, adopted plain text accounting for my personal finances, and worked in a double-entry ledger system.",
       "tags": [
         "finances",
-        "computer"
+        "cs"
       ]
     },
     {
@@ -1301,7 +1382,7 @@
         "hardware",
         "math",
         "cool",
-        "computer"
+        "cs"
       ]
     },
     {
@@ -1312,7 +1393,7 @@
       "description": "I made a graphical IRC client that runs in UEFI. It’s written in Rust and leverages the GUI toolkit and TrueType renderer that I wrote for axle’s userspace. I was able to develop it thanks to the vmnet network backend that I implemented for QEMU. You can connect to an IRC server, chat and read messages, all from the comfort of your motherboard’s pre-boot environment. “Why”? What kind of question is “why”?",
       "tags": [
         "hardware",
-        "computer"
+        "cs"
       ]
     },
     {
@@ -1415,7 +1496,7 @@
       "savedAt": "2024-04-06T20:39:01.000Z",
       "description": "I was reading about vim the other day and found out why it used `hjkl` keys as arrow keys. When Bill Joy created the vi text editor he used the ADM-3A terminal, which had the arrows on hjkl keys. Naturally he reused the same keys and the rest is history. Here is how the `hjkl` keys looked. ADM-3A keyboard's hjkl keys...",
       "tags": [
-        "computer"
+        "cs"
       ]
     },
     {
@@ -1598,7 +1679,7 @@
       "savedAt": "2024-03-29T03:16:53.000Z",
       "description": "Cliff L. Biffle blogged a great write-up of a debugging odyssey at Oxide with the title Who killed the network switch? Here's the bit that jumped out at me: At the time that code was written, it was correct, but it embodied the assumption that any loaned memory would fit into one region. That assumption…",
       "tags": [
-        "distsys"
+        "cs/distsys"
       ]
     },
     {
@@ -1640,7 +1721,7 @@
       "description": "At Resonate, we consider deterministic simulation testing (DST) to be a cornerstone of our mission to build correct and reliable distributed systems. While an increasing array of projects, including Foundation DB, TigerBeetle DB, and Resonate itself, have embraced DST, along with companies like Antithesis providing platforms dedicated to this approach, comprehensive information remains limited.",
       "tags": [
         "programming",
-        "distsys"
+        "cs/distsys"
       ]
     },
     {
@@ -1694,7 +1775,7 @@
       "tags": [
         "programming",
         "for-later",
-        "distsys"
+        "cs/distsys"
       ]
     },
     {
@@ -1889,7 +1970,7 @@
       "description": "The Generative AI world is racing and the new addition to this fast-evolving space is 1-bit LLMs. You might not believe it, but this can change a lot of things and can help eliminate some of the…",
       "tags": [
         "for-later",
-        "ai"
+        "cs/ai"
       ]
     },
     {
@@ -2001,7 +2082,7 @@
       "savedAt": "2024-03-13T11:16:17.000Z",
       "description": "It seems like there are two main takes regarding the CAP theorem online: In introductory materials, it is presented as a deep, fundamental truth about...",
       "tags": [
-        "distsys"
+        "cs/distsys"
       ]
     },
     {
@@ -2032,7 +2113,7 @@
       "description": "January 29, 2010 Vector clocks are confusing the first time you're introduced to them. It's not clear what their benefits are, nor how it is you derive said benefits. Indeed, each Riak developer has had his own set of false starts in making them behave.",
       "tags": [
         "for-later",
-        "distsys"
+        "cs/distsys"
       ]
     },
     {
@@ -2134,7 +2215,7 @@
       "savedAt": "2024-03-07T12:57:34.000Z",
       "description": "The CAP theorem is too simplistic and too widely misunderstood to be of much use for characterizing systems. Therefore I ask that we retire all references to the CAP theorem, stop talking about the CAP theorem, and put the poor thing to rest\nMartin Kleppmann\nIn 2000, Eric Brewer introduced the CAP Conjecture during his keynote address Towards Robust Distributed Systems at the Principles of Distributed Computing conference. Brewer posited that a distributed system cannot achieve Consistency, Availability, and Partition Tolerance simultaneously.",
       "tags": [
-        "distsys"
+        "cs/distsys"
       ]
     },
     {
@@ -2194,7 +2275,7 @@
       "tags": [
         "for-later",
         "hardware",
-        "ai"
+        "cs/ai"
       ]
     },
     {
@@ -2443,7 +2524,7 @@
       "savedAt": "2024-02-24T14:27:34.000Z",
       "description": "The post describes how the React Compiler uses SSA form for fine grained reactivity",
       "tags": [
-        "compilers",
+        "cs/compilers",
         "react"
       ]
     },
@@ -2588,7 +2669,7 @@
       "description": "A simple, decentralized, scalable, constant-memory mechanism for independent replicas to record events in time, preserving the \"happened-before\" relation in almost all cases.",
       "tags": [
         "for-later",
-        "distsys"
+        "cs/distsys"
       ]
     },
     {
@@ -2598,7 +2679,7 @@
       "savedAt": "2024-02-12T14:30:04.000Z",
       "description": "An intuition for distributed consensus in OLTP systems",
       "tags": [
-        "distsys"
+        "cs/distsys"
       ]
     },
     {
@@ -2618,7 +2699,7 @@
       "tags": [
         "article",
         "resource",
-        "distsys"
+        "cs/distsys"
       ]
     },
     {
