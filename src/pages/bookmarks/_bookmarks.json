@@ -1,6 +1,151 @@
 {
-  "lastUpdate": "2024-06-09T22:47:01.813Z",
+  "lastUpdate": "2024-06-15T03:34:24.299Z",
   "data": [
+    {
+      "id": "cc428636-78f4-4e1c-b6d2-34393f22386f",
+      "title": "How I Cured My Procrastination - Learn How To Learn",
+      "url": "https://learnhowtolearn.org/how-i-cured-procrastination/",
+      "savedAt": "2024-06-15T03:34:03.000Z",
+      "description": "I went from a C student to an A engineering student while enjoying work more and having 100x more freedom TLDR (because I also hate digging through articles for the thing I clicked for): When I went to college I did extremely poorly sophomore year for numerous reasons, mostly being lazy an",
+      "tags": [
+        "productivity",
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "f6237300-649b-4fcb-a490-f61c57975c0e",
+      "title": "Never, Sometimes, Always - lukeplant.me.uk",
+      "url": "https://lukeplant.me.uk/blog/posts/never-sometimes-always/",
+      "savedAt": "2024-06-14T14:46:20.000Z",
+      "description": "Just like the only numbers programmers care about are zero, one, infinity, the only frequencies we care about are Never, Sometimes and Always.",
+      "tags": [
+        "computer",
+        "engineering"
+      ]
+    },
+    {
+      "id": "167ac906-1611-456d-b836-712e01a478a6",
+      "title": "Ray Tracing in One Weekend",
+      "url": "https://raytracing.github.io/books/RayTracingInOneWeekend.html",
+      "savedAt": "2024-06-14T00:51:19.000Z",
+      "description": "Ray Tracing in One Weekend",
+      "tags": [
+        "computer",
+        "graphic",
+        "programming"
+      ]
+    },
+    {
+      "id": "f704c197-cf07-4da5-98e2-8606b3a883db",
+      "title": "NULL BITMAP Builds a Database #1: The Log is Literally the Database • Buttondown",
+      "url": "https://buttondown.email/jaffray/archive/null-bitmap-builds-a-database-1-the-log-is/",
+      "savedAt": "2024-06-13T23:43:57.000Z",
+      "description": "It is time to end the tyranny of people becoming interested in database implementation and building a BTree. Let us turn to the succor of immutable storage....",
+      "tags": [
+        "computer",
+        "database",
+        "for-later"
+      ]
+    },
+    {
+      "id": "89e33c48-c43a-435f-be90-f21128625513",
+      "title": "Making USB devices - end to end guide to your first gadget",
+      "url": "https://popovicu.com/posts/making-usb-devices/",
+      "savedAt": "2024-06-13T23:42:03.000Z",
+      "description": "Introduction to implementing USB devices. Minimal overview of hardware and software with an example with STM32 microcontroller. Also contains an index to very detailed guides for more information.",
+      "tags": [
+        "computer",
+        "hardware"
+      ]
+    },
+    {
+      "id": "405a5dcd-34a7-463f-882d-aae4ca149253",
+      "title": "Mediocre Engineer’s guide to HTTPS",
+      "url": "https://devonperoutky.super.site/blog-posts/mediocre-engineers-guide-to-https",
+      "savedAt": "2024-06-13T23:34:59.000Z",
+      "description": "As a mediocre engineer, I took Internet and HTTPS communication for granted and never dove any deeper. Today we’re improving as engineers and learning a rough overview of how internet communication works, specifically focusing on HTTP and TLS.",
+      "tags": [
+        "computer",
+        "for-later",
+        "networking",
+        "web"
+      ]
+    },
+    {
+      "id": "348080bb-08cb-475e-bf2d-81ad826f786a",
+      "title": "Things you wish you didn't need to know about S3",
+      "url": "https://blog.plerion.com/things-you-wish-you-didnt-need-to-know-about-s3/",
+      "savedAt": "2024-06-13T23:30:15.000Z",
+      "description": "S3 is more weirder than you think. Make sure you know all the quirks before they turn into vulnerabilities in your AWS infrastructure.",
+      "tags": [
+        "computer"
+      ]
+    },
+    {
+      "id": "e15e5353-d2ae-461c-a304-0e0526e8d1a9",
+      "title": "staniks.github.io",
+      "url": "https://staniks.github.io/articles/serious-engine-networking-analysis",
+      "savedAt": "2024-06-13T23:15:31.000Z",
+      "description": "Personal website and blog.",
+      "tags": [
+        "computer",
+        "for-later",
+        "networking"
+      ]
+    },
+    {
+      "id": "05c1a780-33d4-4b65-975c-65a5ad3f031c",
+      "title": "Notational intelligence | thesephist.com",
+      "url": "https://thesephist.com/posts/notation/",
+      "savedAt": "2024-06-13T23:15:04.000Z",
+      "description": "I spent the last month wondering and investigating how we might design better workflows for creative work that meld the best of human intuition and machine intelligence. I think a promising path is in the design of notation. More explicitly, I believe inventing better notations can contribute far more than automated tools to our effective intelligence in understanding ourselves, the world, and our place in it.",
+      "tags": [
+        "interesting"
+      ]
+    },
+    {
+      "id": "f23c54b9-7aa9-4272-8ac3-bb4945cc4ab7",
+      "title": "Proxmox vs FreeBSD: Which Virtualization Host Performs Better? - IT Notes",
+      "url": "https://it-notes.dragas.net/2024/06/10/proxmox-vs-freebsd-which-virtualization-host-performs-better/",
+      "savedAt": "2024-06-11T00:41:59.000Z",
+      "description": "Comparative tests show FreeBSD's virtualization performance surpasses Proxmox, especially with NVMe drivers.",
+      "tags": [
+        "computer",
+        "devops"
+      ]
+    },
+    {
+      "id": "344a35a3-a402-4057-9f72-dad1a9cd58e1",
+      "title": "Legend of Worlds",
+      "url": "https://legendofworlds.com/blog/4",
+      "savedAt": "2024-06-11T00:36:45.000Z",
+      "description": "A sandbox game where players create worlds!",
+      "tags": [
+        "computer"
+      ]
+    },
+    {
+      "id": "244a1699-fdd7-4d30-8808-f64268552ccb",
+      "title": "Build Your Own X",
+      "url": "https://build-your-own-x.vercel.app",
+      "savedAt": "2024-06-10T00:07:36.000Z",
+      "description": "This repo is forked from awesome anistefanovic/build-your-own-x ,\n    site is created and maintained by Kalan which converted github README.md to\n    website, and probably will add more opinionated resource. Follow me on\n    Twitter or contrinute your article link on Github is always welcomed!",
+      "tags": [
+        "computer",
+        "resource"
+      ]
+    },
+    {
+      "id": "61ca951b-3476-4d5a-9584-840d4d82f942",
+      "title": "Data Modeling in Document Databases for the RDBMS-Minded",
+      "url": "https://db-engines.com/en/blog_post/51",
+      "savedAt": "2024-06-10T00:06:40.000Z",
+      "description": "Blog > Post",
+      "tags": [
+        "computer",
+        "database"
+      ]
+    },
     {
       "id": "c5671a6a-39eb-4a15-ba34-aa5135755098",
       "title": "A (Draft) Taxonomy of SIMD Usage – Branch Free",
@@ -311,17 +456,6 @@
       "tags": [
         "learning",
         "computer"
-      ]
-    },
-    {
-      "id": "405a5dcd-34a7-463f-882d-aae4ca149253",
-      "title": "Mediocre Engineer’s guide to HTTPS",
-      "url": "https://devonperoutky.super.site/blog-posts/mediocre-engineers-guide-to-https",
-      "savedAt": "2024-05-27T09:43:21.000Z",
-      "description": "As a mediocre engineer, I took Internet and HTTPS communication for granted and never dove any deeper. Today we’re improving as engineers and learning a rough overview of how internet communication works, specifically focusing on HTTP and TLS.",
-      "tags": [
-        "computer",
-        "networking"
       ]
     },
     {
