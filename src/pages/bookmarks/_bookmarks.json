@@ -1,6 +1,69 @@
 {
-  "lastUpdate": "2024-06-15T14:59:39.495Z",
+  "lastUpdate": "2024-06-16T14:50:06.993Z",
   "data": [
+    {
+      "id": "df80372f-9d97-40c3-b861-bb06233ae599",
+      "title": "The simple genius of checklists, from B-17 to the Apollo missions | Inside Nuclino",
+      "url": "https://blog.nuclino.com/the-simple-genius-of-checklists-from-b-17-to-the-apollo-missions",
+      "savedAt": "2024-06-16T06:09:56.000Z",
+      "description": "The year is 1935, and the U.S. Army Air Corps is holding a competition for airplane manufacturers vying to secure a contract to build the military’s...",
+      "tags": [
+        "productivity",
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "a3f1974f-d238-4623-a60f-d5d6beab77fa",
+      "title": "On Having Enough Socks · Gwern.net",
+      "url": "https://gwern.net/socks",
+      "savedAt": "2024-06-16T06:08:32.000Z",
+      "description": "Personal experience and surveys on running out of socks; discussion of socks as small example of human procrastination and irrationality, caused by lack of explicit deliberative thought where no natural triggers or habits exist.",
+      "tags": [
+        "productivity",
+        "self-improvement",
+        "systems-theory"
+      ]
+    },
+    {
+      "id": "746c62a8-46d8-4213-a84f-6291206e9132",
+      "title": "Don’t Shave That Yak! | Seth's Blog",
+      "url": "https://seths.blog/2005/03/dont_shave_that/",
+      "savedAt": "2024-06-16T05:53:53.000Z",
+      "description": "Seth Godin's Blog on marketing, tribes and respect",
+      "tags": [
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "6174e358-2ba4-11ef-9044-ff96047c4cdb",
+      "title": "2000-cook",
+      "url": "https://gwern.net/doc/technology/2000-cook.pdf",
+      "savedAt": "2024-06-16T05:50:55.000Z",
+      "description": null,
+      "tags": [
+        "systems-theory"
+      ]
+    },
+    {
+      "id": "2b27f6c0-c0c7-41e0-ad44-28b649f4c552",
+      "title": "Useful and Overlooked Skills · Collab Fund",
+      "url": "https://collabfund.com/blog/useful-and-overlooked-skills/",
+      "savedAt": "2024-06-15T19:35:52.000Z",
+      "description": "On his way to be sworn in as the most powerful man in the world, Franklin Delano Roosevelt had to…",
+      "tags": [
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "a4493fbb-0ccf-4167-825d-da390d74f99c",
+      "title": "The Law of Leaky Abstractions – Joel on Software",
+      "url": "https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/",
+      "savedAt": "2024-06-15T16:35:26.000Z",
+      "description": "There's a key piece of magic in the engineering of the Internet which you rely on every single day. It happens in the TCP protocol, one of the fundamental building blocks of the Internet. TCP is a way to transmit data that is reliable. By this I mean: if you send a message over a…",
+      "tags": [
+        "cs"
+      ]
+    },
     {
       "id": "47c3df56-fef1-435f-9b24-8edf7b24feda",
       "title": "The Book of Shaders",
@@ -503,7 +566,7 @@
       "description": "Today we ALMOST make 2,5-DMA. 2,5-DMA by itself is a Schedule I drug in the USA. However, we can almost make it and bypass anything illegal. I hope you enjoy the video!\n\nSources:\nhttps://en.wikipedia.org/wiki/Controlled_Substances_Act#Schedule_I_drugs\nhttps://isomerdesign.com/PiHKAL/read.php?id=54&domain=pk\nhttps://isomerdesign.com/PiHKAL/read.php?domain=pk&id=20#rxa12389\n\nSOCIALS:\nPatreon: patreon.com/Chemdelic \nInstagram:  https://www.instagram.com/chemdelic/\nDiscord:  https://discord.com/invite/dmfMKupj9W\nCashapp: $ChemdelicLLC\nMerch: https://chemdelic-shop.fourthwall.com/\n\nDisclaimer:\nThe content provided in these videos is for entertainment or educational purposes only and should not be attempted or replicated under any circumstances. Viewers are strongly advised against attempting to recreate any of the actions, stunts, or activities depicted, as they may involve significant risk of injury, legal liability, or other harm. By choosing to engage in any similar activities, individuals do so at their own risk and assume full responsibility for any resulting consequences. The creators of these videos will not be held liable for any damages, injuries, or legal issues arising from viewers attempting to replicate the content. Viewer discretion is advised, and all viewers are encouraged to exercise sound judgment and respect all applicable laws and safety guidelines.",
       "tags": [
         "cool",
-        "video"
+        "type/video"
       ]
     },
     {
@@ -858,7 +921,7 @@
       "savedAt": "2024-05-05T22:44:50.000Z",
       "description": "<p>What tools would you reach for today to style the UI for a \n<a href='https://medium.com/all-the-things/the-trouble-with-saas-279694551b25'>hyper-customizable app</a>? \nI just spent an unreasonable amount of time trying to understand the current landscape and settle on the perfect\nframework. I was surprised by what I found.</p>",
       "tags": [
-        "react",
+        "framework/react",
         "web"
       ]
     },
@@ -2253,7 +2316,7 @@
       "savedAt": "2024-03-04T16:18:42.000Z",
       "description": "This article provides a structural overview on the anatomy of my personal nix configuration.",
       "tags": [
-        "nix"
+        "tools/nix"
       ]
     },
     {
@@ -2525,7 +2588,7 @@
       "description": "The post describes how the React Compiler uses SSA form for fine grained reactivity",
       "tags": [
         "cs/compilers",
-        "react"
+        "framework/react"
       ]
     },
     {
@@ -2568,7 +2631,7 @@
       "savedAt": "2024-02-22T00:53:42.000Z",
       "description": "How MOSFETS Work - Unravel the Mysteries of How mosfets Work!",
       "tags": [
-        "video",
+        "type/video",
         "hardware"
       ]
     },
@@ -2600,7 +2663,7 @@
       "savedAt": "2024-02-20T18:53:52.000Z",
       "description": "Erik Bernhardsson",
       "tags": [
-        "article",
+        "type/article",
         "for-later"
       ]
     },
@@ -2697,7 +2760,7 @@
       "savedAt": "2024-02-11T20:17:41.000Z",
       "description": "An old document I surfaced with my quick tour of distributed systems theory fundamentals",
       "tags": [
-        "article",
+        "type/article",
         "resource",
         "cs/distsys"
       ]
@@ -2759,7 +2822,7 @@
       "savedAt": "2024-02-08T23:27:40.000Z",
       "description": "Magic can be dangerous.",
       "tags": [
-        "article"
+        "type/article"
       ]
     },
     {
@@ -2801,7 +2864,7 @@
       "savedAt": "2024-02-03T17:32:15.000Z",
       "description": "The most common question prospective startup founders ask is how to get ideas for startups. The second most common question is if you have any ideas for their startup.\n\n\nBut giving founders an idea...",
       "tags": [
-        "article",
+        "type/article",
         "startup"
       ]
     },
