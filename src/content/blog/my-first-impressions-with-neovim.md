@@ -1,7 +1,100 @@
 ---
 title: "My first impressions with Neovim"
 pubDate: 2024-06-18T00:11:26.845Z
-draft: true
+draft: false
 tags:
   - neovim
+  - editor
 ---
+
+I consider myself a kind of heavy Emacs user. During some time, about 3
+years, I was using Emacs as my daily driven tool for literally everything.
+
+I even used it as [my desktop manager](https://github.com/ch11ng/exwm) for some time.
+And to be honest, I loved it. It's cool to have everything in one place, and
+seeing all the pieces of the system interconnected, it's cool.
+
+But, I suffered some _skill issues_ when talking about a piece of software that, for me, is
+important: LSPs. I spend too much time trying to debug performance issues related to
+Emacs and LSP, and I was not able to find a solution to it, for large codebases it triggers
+some I/O blocking issues that freeze the entire editor, this wasn't the ideal kind of experience
+that I wanted. For that reason, I decided to switch to Neovim.
+
+## The first attempt
+
+I'm a real fan of editors who bring the ability to have my config and let me do it in a
+"declarative" way. Neovim is a great example of that. Just put some code into your `init.vim` (or `init.lua`)
+and take some motions. I appreciate it a lot.
+
+Then, I decided that on a weekend I would try to have a minimal configuration for Neovim and let it
+be my daily driver for the rest of the next week. The idea was just a simple config to bring what I
+consider essentials to my daily workflow:
+
+- Some keybindings to navigate between files, buffers, windows, and tabs.
+- Some keybindings that improve my quality of life during the usage of Neovim.
+- An LSP client to have the ability to use the language server of my choice, given all the languages that I try to use.
+- A cool theme, because I want to be cute.
+- Some kind of plugin manager, because I think that it's a great improvement to have it.
+- A plugin that lets me easily know the keybindings of the editor, because I can't remember them all.
+
+## The selection of plugins
+
+It was just like 10 plugins, being them:
+
+- `lazy.nvim`, to manage the plugins.
+- LSP support using `lsp-config`, `mason.nvim`, and `nvim-cmp`.
+- A theme based on Gruvbox.
+- `which-key.nvim`, similar to the Emacs one, to have a list of all the keybindings that have been defined through the configuration.
+- `oil.nvim`, to have a better experience navigating through files.
+- I remapped by myself some keybindings to have a better motion experience using them, mainly for editor/window/file navigation.
+
+It was everything that I wanted, and I think that was the right decision because it gave me some great
+experience trying to learn more about the native features of Neovim, mainly related to the Vim motions.
+
+## Setting up Neovim and documentation
+
+I think that one great feature of Neovim is Lua. Seems to be a great, simple, but powerful language to write code. It has a familiar
+syntax that can be easily learned if you have a background and don't need any tricks (that was one of my concerns with EmacsLisp, even though I like EL and Lisp in general).
+
+After you have done the right setup and installed at least the plugins related to Lua and their LSP, you can easily code all the
+configurations to Neovim. For that, I suggest you use the [`neodev.nvim`](https://github.com/folke/neodev.nvim) plugin, which
+will help you to have a better experience with the configuration of Neovim.
+
+One aspect of Neovim that I missed a lot was the documentation. I don't know if is something related to my mental model, but
+the `:help` command from Neovim isn't great compared to the similar one from Emacs. Isn't easier to iterate through the documentation or
+even iterate through a Lua code to understand if some piece of code is doing what I want, like executing a piece of the buffer or
+putting a function into a REPL that can be easily used.
+
+Just in case, I know the existence of the `:lua` command, but seems to be a bit limited through the developer experience to use it, I think
+that is the most similar feature that we can have in Neovim to compare through the Emacs part. I need to test more the [`iron.nvim`](https://github.com/Vigemus/iron.nvim)
+to validate if it gives some kind of good developer experience at all.
+
+But, the thing that I was most during the first days was: documentation and some tooling to easily iterate to understand something
+on Neovim.
+
+By the way, after I discovered the `Telescope help_tags` command, turn made it easier to go through the documentation, it helped me a lot to understand
+some of the concepts and read them. However, I'm still a bit confused about some aspects of the navigation in the documentation.
+
+## Daily workflow and motions
+
+In general, my experience using it as my daily editor was surprisingly good. I think that most of the time, it's more related to how
+easily is to navigate through the files and have some kind of ergonomics to do it. For the first days, I was struggling and being a little upset
+because the learning curve was a bit steep for motions, I was using the Neovim with a cheat sheet to get at least the basic motions, so I don't look
+like a gorilla using keyboards and, after a while, I was able to easily use all the simple motions that I needed to do, like those to navigate,
+to move around the editor, to move to the next/previous line, to move to the next/previous word, etc.
+
+I think that I miss some specific micro-features that I found in other editors, like the ability to move to the previous/next line when hitting the
+`j` or `k` key at the start or end of the line, or the ability to move the line up or down following my cursor, etc. I already saw some custom
+implementations of all these features, so I think that isn't a big problem, I'll just need to implement it by myself.
+
+But, I still struggle with some aspects of the editor, like the substitutions, the search and replace, the undo/redo, etc. I'll need to better learn how
+they work to understand it and apply it in the right way easily.
+
+## Final thoughts
+
+In general, it was a great experience to use Neovim as my daily driver. It was easier than I expected, and I think that I'm going to stick with it.
+Although I'm still hitting some issues, I think that all the pros of Neovim are worth it, having a better experience with the editor
+pay by itself.
+
+If you want to see the configuration of Neovim that I used, you can [check it out here](https://github.com/noghartt/dotnvim). Feel free to use it as a base
+for your configuration, and if you have any questions, feel free to ask me on [Twitter](https://twitter.com/noghartt) or send me an [email](mailto:hi@noghartt.dev).
