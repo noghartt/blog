@@ -1,6 +1,91 @@
 {
-  "lastUpdate": "2024-06-16T14:50:06.993Z",
+  "lastUpdate": "2024-06-18T00:09:08.774Z",
   "data": [
+    {
+      "id": "07772a78-9d02-41d3-8a2c-a2b35cbb7553",
+      "title": "Ship something every day",
+      "url": "https://maxleiter.com/blog/ship-every-day",
+      "savedAt": "2024-06-17T01:01:12.000Z",
+      "description": "Edit: A better title would've been \"commit every day that you work\". I don't mean you should work on weekends or not take time off, and\nwhatever you work on doesn't need to \"ship to prod\".",
+      "tags": [
+        "career"
+      ]
+    },
+    {
+      "id": "b7d2d7e4-8e02-48a4-8145-58619881dd48",
+      "title": "A few words on taking notes | All Things Distributed",
+      "url": "https://www.allthingsdistributed.com/2023/06/a-few-words-on-taking-notes.html",
+      "savedAt": "2024-06-17T00:52:11.000Z",
+      "description": "As we are about to start the planning meetings for 2024 at AWS, I’ve been thinking a lot about how I take notes.",
+      "tags": [
+        "note-taking"
+      ]
+    },
+    {
+      "id": "e9e21c0f-bc5e-4262-b87c-b2f105ac8fe9",
+      "title": "Simple sabotage for software · Erik Bernhardsson",
+      "url": "https://erikbern.com/2023/12/13/simple-sabotage-for-software.html",
+      "savedAt": "2024-06-17T00:34:07.000Z",
+      "description": "How to sabotage software productivity, in the style of CIA",
+      "tags": [
+        "career"
+      ]
+    },
+    {
+      "id": "a360cea1-0dfb-43f0-afbe-2b0014ce677c",
+      "title": "Internet Search Tips · Gwern.net",
+      "url": "https://gwern.net/search",
+      "savedAt": "2024-06-16T20:20:17.000Z",
+      "description": "A description of advanced tips and tricks for effective Internet research of papers/books, with real-world examples.",
+      "tags": [
+        "interesting",
+        "web"
+      ]
+    },
+    {
+      "id": "b1aa7c35-9330-435b-b406-db50a653c0d0",
+      "title": "(1) Do Ten Times as Much - by Bryan Caplan - Bet On It",
+      "url": "https://www.betonit.ai/p/do-ten-times-as-much",
+      "savedAt": "2024-06-16T15:25:57.000Z",
+      "description": "Unpleasant advice that works",
+      "tags": [
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "db6374f4-d751-4a22-8331-5e5b094548b6",
+      "title": "Ordinary Incompetence · Gwern.net",
+      "url": "https://gwern.net/note/competence",
+      "savedAt": "2024-06-16T15:19:18.000Z",
+      "description": "Incompetence is the norm; most people who engage in a task (even when incentivized for performance or engaging in it for countless hours) may still be making basic errors which could be remedied with coaching or deliberate practice.",
+      "tags": [
+        "psychology",
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "01d7b399-ae24-423f-849e-62d3e8888302",
+      "title": "(1) So you wanna de-bog yourself - by Adam Mastroianni",
+      "url": "https://www.experimental-history.com/p/so-you-wanna-de-bog-yourself",
+      "savedAt": "2024-06-16T15:17:03.000Z",
+      "description": "What I found in the mire",
+      "tags": [
+        "for-later",
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "a3f1974f-d238-4623-a60f-d5d6beab77fa",
+      "title": "On Having Enough Socks · Gwern.net",
+      "url": "https://gwern.net/socks",
+      "savedAt": "2024-06-16T14:59:53.000Z",
+      "description": "Personal experience and surveys on running out of socks; discussion of socks as small example of human procrastination and irrationality, caused by lack of explicit deliberative thought where no natural triggers or habits exist.",
+      "tags": [
+        "favorites",
+        "productivity",
+        "self-improvement"
+      ]
+    },
     {
       "id": "df80372f-9d97-40c3-b861-bb06233ae599",
       "title": "The simple genius of checklists, from B-17 to the Apollo missions | Inside Nuclino",
@@ -10,18 +95,6 @@
       "tags": [
         "productivity",
         "self-improvement"
-      ]
-    },
-    {
-      "id": "a3f1974f-d238-4623-a60f-d5d6beab77fa",
-      "title": "On Having Enough Socks · Gwern.net",
-      "url": "https://gwern.net/socks",
-      "savedAt": "2024-06-16T06:08:32.000Z",
-      "description": "Personal experience and surveys on running out of socks; discussion of socks as small example of human procrastination and irrationality, caused by lack of explicit deliberative thought where no natural triggers or habits exist.",
-      "tags": [
-        "productivity",
-        "self-improvement",
-        "systems-theory"
       ]
     },
     {
