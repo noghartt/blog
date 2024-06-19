@@ -17,7 +17,27 @@ export async function GET() {
       title: data.title,
       description: data.description,
       pubDate: data.pubDate,
-      content: sanitizeHtml(parser.render(body), { allowedTags: ['img', 'a', 'p', 'strong', 'b', 'i', 'em', 'hr'] })
+      content: sanitizeHtml(
+        parser.render(body),
+        {
+          allowedTags: [
+            'img',
+            'a',
+            'p',
+            'strong',
+            'b',
+            'i',
+            'em',
+            'hr',
+            'h1',
+            'h2',
+            'h3',
+            'h4',
+            'h5',
+            'h6',
+          ]
+        }
+      ),
     }));
 
   return rss({
