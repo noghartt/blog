@@ -1,6 +1,92 @@
 {
-  "lastUpdate": "2024-06-19T12:55:43.790Z",
+  "lastUpdate": "2024-06-22T06:34:28.780Z",
   "data": [
+    {
+      "id": "96bcedec-3a73-4b01-9023-0d0c8dc99e22",
+      "title": "How to Overcome Plateaus - Learn How To Learn",
+      "url": "https://learnhowtolearn.org/how-to-overcome-plateaus/",
+      "savedAt": "2024-06-22T06:34:07.000Z",
+      "description": "you, hopefully For long-term learning endeavors (chess, BJJ, etc) you're going to encounter plateaus. These can stall progress by weeks or even years. A great way to break through plateaus is to improve fundamentals. Either improve ones you suck at, or find new ones you're not aware of and",
+      "tags": [
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "1d44937a-3694-4b74-ad96-737a266e8d60",
+      "title": "Cheng Lou - \"On the Spectrum of Abstraction\" summarized transcript (React Europe 2016)",
+      "url": "https://gist.github.com/markerikson/02d5846040a1bf4a02147990df3c3599",
+      "savedAt": "2024-06-21T21:05:04.000Z",
+      "description": "Cheng Lou - \"On the Spectrum of Abstraction\" summarized transcript (React Europe 2016) - cheng-lou-spectrum-of-abstraction.md",
+      "tags": [
+        "cs",
+        "type/article"
+      ]
+    },
+    {
+      "id": "19f974ca-4a85-4fc7-bb6f-b6ac9dfdacda",
+      "title": "Arbitrariness Costs",
+      "url": "https://www.ribbonfarm.com/2024/05/14/arbitrariness-costs/",
+      "savedAt": "2024-06-21T01:41:45.000Z",
+      "description": "I’ve long held that civilization is the process of turning the incomprehensible into the arbitrary. The incomprehensible can be scary but the arbitrary tends to be merely exhausting. Unless the sta…",
+      "tags": [
+        "self-improvement",
+        "type/article"
+      ]
+    },
+    {
+      "id": "9cd279aa-667b-4512-bcca-8185d21db89a",
+      "title": "Decision Brownouts",
+      "url": "https://www.ribbonfarm.com/2024/05/12/decision-brownouts/",
+      "savedAt": "2024-06-21T00:25:31.000Z",
+      "description": "In thinking about decision-making under stress, most people focus on fight-or-flight responses. Both fighting and fleeing are obvious courses of action that inherit a clear sense of direction from …",
+      "tags": [
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "44f62cbf-d21b-4b21-84b9-9c4718a00a2b",
+      "title": "Start With Simple Tools",
+      "url": "https://mikegrindle.com/posts/start-simple",
+      "savedAt": "2024-06-20T04:00:44.000Z",
+      "description": "A while back, a friend of mine was telling me about his experiences\nplaying an online multiplayer video game. The game, which essentially\ninvolves players blowing each other up, is not what I want to discuss\nhere. But our conversation did leave me with an anecdote that comes to\nmind as I write this post about tools.",
+      "tags": [
+        "self-improvement",
+        "type/article"
+      ]
+    },
+    {
+      "id": "4251fb3b-2b1b-4d6c-8cd3-f42e3b11ce38",
+      "title": "Always Measure One Level Deeper – Communications of the ACM",
+      "url": "https://cacm.acm.org/research/always-measure-one-level-deeper/",
+      "savedAt": "2024-06-19T21:10:44.000Z",
+      "description": "Performance measurements often go wrong, reporting surface-level results that are more marketing than science.",
+      "tags": [
+        "cs",
+        "for-later",
+        "type/paper"
+      ]
+    },
+    {
+      "id": "d19d44fb-a080-4701-8704-7e58459b78e2",
+      "title": "Always Measure One Level Deeper",
+      "url": "https://muratbuffalo.blogspot.com/2024/06/always-measure-one-level-deeper.html",
+      "savedAt": "2024-06-19T20:54:53.000Z",
+      "description": "This is a great paper (CACM 2018)  by John Ousterhout. Ousterhout  is well known for his work on log-structured file system, tcl/tk, Raft, a...",
+      "tags": [
+        "cs",
+        "type/article"
+      ]
+    },
+    {
+      "id": "b12978f2-c25d-41a0-919c-dc7cf7c1c7c5",
+      "title": "Programmers should stop celebrating incompetence",
+      "url": "https://world.hey.com/dhh/programmers-should-stop-celebrating-incompetence-de1a4725",
+      "savedAt": "2024-06-19T15:14:49.000Z",
+      "description": "In the valiant effort to combat imposter syndrome and gatekeeping, the programming world has taken a bad turn down a blind alley by celebrating incompetence. You don't have to reduce an entire profession to a clueless gang of copy-pasta pirates to make new recruits feel welcome. It undermines the aspiration to improve. It reduces the w...",
+      "tags": [
+        "self-improvement"
+      ]
+    },
     {
       "id": "c8cbc2c2-fe53-4571-a888-17258a3ff787",
       "title": "Richard Hamming: You and Your Research",
@@ -890,16 +976,6 @@
       "tags": [
         "cs",
         "programming-languages"
-      ]
-    },
-    {
-      "id": "44f62cbf-d21b-4b21-84b9-9c4718a00a2b",
-      "title": "Start With Simple Tools",
-      "url": "https://mikegrindle.com/posts/start-simple",
-      "savedAt": "2024-05-15T03:39:04.000Z",
-      "description": "A while back, a friend of mine was telling me about his experiences\nplaying an online multiplayer video game. The game, which essentially\ninvolves players blowing each other up, is not what I want to discuss\nhere. But our conversation did leave me with an anecdote that comes to\nmind as I write this post about tools.",
-      "tags": [
-        "self-improvement"
       ]
     },
     {
