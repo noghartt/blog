@@ -1,6 +1,126 @@
 {
-  "lastUpdate": "2024-06-22T06:34:28.780Z",
+  "lastUpdate": "2024-06-24T03:59:26.171Z",
   "data": [
+    {
+      "id": "5135741d-c94a-43f2-90bd-f51a88231794",
+      "title": "The Hitchhiker's Guide to the Unexpected",
+      "url": "https://ferd.ca/the-hitchhiker-s-guide-to-the-unexpected.html",
+      "savedAt": "2024-06-24T03:54:39.000Z",
+      "description": "This is a transcript of a talk given at ElixirDaze and CodeBEAMSF conferences in March of 2018, dealing with supervision trees and with the unexpected.",
+      "tags": [
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "c42bf40e-ed49-49f6-a5ab-a646cb5e057c",
+      "title": "Writing an IR from Scratch and survive to write a post - Eduardo Blázquez’s Personal Webpage",
+      "url": "https://farena.in/compilers/programming/writing-an-ir-from-scratch/",
+      "savedAt": "2024-06-24T03:37:24.000Z",
+      "description": "The following post will talk about the design of the first version of the Intermediate Representation of Kunai, the design decisions and how it was implemented.",
+      "tags": [
+        "for-later",
+        "cs/compilers"
+      ]
+    },
+    {
+      "id": "6885a57e-b5e2-410c-8d90-f1599e1c076e",
+      "title": "Introduction - Habitual Mastery (Series) - Scott H Young",
+      "url": "https://www.scotthyoung.com/blog/2006/05/09/introduction-habitual-mastery-series/",
+      "savedAt": "2024-06-24T03:02:16.000Z",
+      "description": "This is the first part of five in a series about how to change, improve and modify your habits easily and effectively. I have always been very interested in methods for taking control over these subconscious processes that run our life. A few of the more notable habit changes I have made include waking up […]",
+      "tags": [
+        "for-later",
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "e7bf59ee-3066-469a-9e09-b046df6d2153",
+      "title": "Why Forgetting Can Be Good - Scott H Young",
+      "url": "https://www.scotthyoung.com/blog/2012/08/05/forgetting-is-good/",
+      "savedAt": "2024-06-24T02:58:33.000Z",
+      "description": "Discover why I think that sometimes forgetting your learnings is a good thing. There are several different aspects when it comes to learning.",
+      "tags": [
+        "learning",
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "a7220a13-a4e9-44f8-bc29-23c0c09e21ea",
+      "title": "Spaced Repetition for Efficient Learning · Gwern.net",
+      "url": "https://gwern.net/spaced-repetition",
+      "savedAt": "2024-06-24T02:04:49.000Z",
+      "description": "Efficient memorization using the spacing effect: literature review of widespread applicability, tips on use & what it’s good for.",
+      "tags": [
+        "for-later",
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "3088931c-7f94-40c5-ab63-62e9360a26d8",
+      "title": "Counted B-Trees",
+      "url": "https://www.chiark.greenend.org.uk/~sgtatham/algorithms/cbtree.html",
+      "savedAt": "2024-06-23T18:55:17.000Z",
+      "description": "B-trees are one of the best known algorithms around. A full\ntreatment of them is available in any good algorithms book. They are\na means of storing a sorted list of items, in such a way that\nsingle-item insertion, deletion and lookup all operate in\nlog(N)\ntime. They can be optimised for in-memory access (2-3-4 trees) or\noptimised to be used as an on-disk database, but the algorithms are\nessentially the same either way.",
+      "tags": [
+        "database"
+      ]
+    },
+    {
+      "id": "50d80af2-7d08-45ed-9998-309e91db5337",
+      "title": "karpathy/LLM101n: LLM101n: Let's build a Storyteller",
+      "url": "https://github.com/karpathy/LLM101n",
+      "savedAt": "2024-06-23T15:16:44.000Z",
+      "description": "LLM101n: Let's build a Storyteller. Contribute to karpathy/LLM101n development by creating an account on GitHub.",
+      "tags": [
+        "cs/ai",
+        "repository"
+      ]
+    },
+    {
+      "id": "b18cbf4a-1cd5-4bed-aee5-f7eeb501769b",
+      "title": "Let's write a video game from scratch like it's 1987",
+      "url": "https://gaultier.github.io/blog/write_a_video_game_from_scratch_like_1987.html",
+      "savedAt": "2024-06-23T15:15:25.000Z",
+      "description": "This article has been discussed on Hacker News and\nReddit",
+      "tags": [
+        "cs/gamedev",
+        "for-later"
+      ]
+    },
+    {
+      "id": "ac880e14-d90b-4743-9607-bd97311909e6",
+      "title": "500 Lines or LessAn Archaeology-Inspired Database",
+      "url": "https://aosabook.org/en/500L/an-archaeology-inspired-database.html",
+      "savedAt": "2024-06-22T15:19:24.000Z",
+      "description": "Yoav Rubin is a Senior Software Engineer at Microsoft, and prior to that was a Research Staff Member and a Master Inventor at IBM Research. He works now in the domain of data security in the cloud, and in the past his work focused on developing cloud or web based development environments. Yoav holds an M.Sc. in Medical Research in the field of Neuroscience and B.Sc in Information Systems Engineering. He goes by @yoavrubin on Twitter, and occasionally blogs at http://yoavrubin.blogspot.com.",
+      "tags": [
+        "database",
+        "for-later"
+      ]
+    },
+    {
+      "id": "fab63494-741c-4df6-8b79-234a0b21b117",
+      "title": "Ownership",
+      "url": "https://without.boats/blog/ownership/",
+      "savedAt": "2024-06-22T14:47:22.000Z",
+      "description": "This post is meant as an explainer about how substructural type theory can be applied in programming\nlanguage design. Terms like “substructural type theory” tend to scare and confuse programmers who\ndon’t write Haskell on the weekends, so one thing programming language designers should do when\nthinking about how they will present their language is invent metaphors, even slightly misleading\nones, to help more ordinary programmers understand how their language works. One such term is\n“ownership.”",
+      "tags": [
+        "cs/type-system",
+        "for-later",
+        "type-theory"
+      ]
+    },
+    {
+      "id": "cf1b8a95-ddfc-498b-9652-9ddae663aca2",
+      "title": "A complete guide to iconography",
+      "url": "https://www.designsystems.com/iconography-guide/",
+      "savedAt": "2024-06-22T14:46:49.000Z",
+      "description": "A deep-dive guide on how to create, organize, name, and use icons within a design system",
+      "tags": [
+        "design",
+        "type/article"
+      ]
+    },
     {
       "id": "96bcedec-3a73-4b01-9023-0d0c8dc99e22",
       "title": "How to Overcome Plateaus - Learn How To Learn",
@@ -8,7 +128,8 @@
       "savedAt": "2024-06-22T06:34:07.000Z",
       "description": "you, hopefully For long-term learning endeavors (chess, BJJ, etc) you're going to encounter plateaus. These can stall progress by weeks or even years. A great way to break through plateaus is to improve fundamentals. Either improve ones you suck at, or find new ones you're not aware of and",
       "tags": [
-        "self-improvement"
+        "self-improvement",
+        "type/article"
       ]
     },
     {
