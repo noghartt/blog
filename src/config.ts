@@ -5,5 +5,6 @@ export const SITE = {
   author: 'Guilherme Ananias <me@noghartt.dev>',
 }
 
-export const GITHUB_REPO_URL = 'https://github.com/noghartt/blog';
+export const GITHUB_PROFILE_URL = 'https://github.com/noghartt';
+export const GITHUB_REPO_URL = `${GITHUB_PROFILE_URL}/blog`;
 export const TWITTER_URL = 'https://twitter.com/noghartt';

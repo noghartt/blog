@@ -3,7 +3,7 @@ import { getCollection } from 'astro:content';
 
 import Layout from "../layout/Layout.astro";
 import Link from "../components/Link.astro";
-import { GITHUB_REPO_URL, TWITTER_URL } from '../config';
+import { GITHUB_REPO_URL, TWITTER_URL, GITHUB_PROFILE_URL } from '../config';
 
 const [posts, lists] = await Promise.all([
   getCollection('blog', ({ data }) => !data.draft),
@@ -14,14 +14,26 @@ const postsSorted = posts.sort((a, b) =>
   Math.floor(b.data.pubDate / 1000) -
   Math.floor(a.data.pubDate / 1000)
 );
+
+const year = new Date().getFullYear() - 2002;
 ---
 
 <Layout>
   <h1>Noghartt's garden</h1>
   <section class="description">
-    <p>The place where I put all my ideas.</p>
-    <p>The blog is under <Link href={`${GITHUB_REPO_URL}/blob/main/LICENSE`} isExternal>GNU AGPLv3</Link> and <Link href={`${GITHUB_REPO_URL}/blob/main/LICENSE-posts`} isExternal>CC BY-SA 4.0</Link> licenses.</p>
-    <p>If you want to reach me, feel free to contact on <Link href={TWITTER_URL}>Twitter</Link> or via <Link href="mailto:hi@noghartt.dev">email</Link>.</p>
+    <p>
+      I'm a {year} year old software engineer from Brazil. With interests in distributed systems, compilers, databases, hardware, PL theory and other cool stuff.
+      If you want to reach me, feel free to contact on <Link href={TWITTER_URL}>Twitter</Link> or via <Link href="mailto:hi@noghartt.dev">email</Link>.
+    </p>
+    <p>
+      If you want to see what I'm doing right now, you can check out my <Link href="/now">now page</Link>. I have a place where I put all the articles
+      that I read, you can see it on <Link href="/bookmarks">my bookmarks</Link>. On my <Link href={GITHUB_PROFILE_URL}>GitHub profile</Link> you can find
+      all the repositories that I'm working on, and on my <Link href={GITHUB_REPO_URL}>blog repository</Link> you can find the source code of this blog.
+    </p>
+    <p>
+      The blog is under <Link href={`${GITHUB_REPO_URL}/blob/main/LICENSE`} isExternal>GNU AGPLv3</Link>
+      and <Link href={`${GITHUB_REPO_URL}/blob/main/LICENSE-posts`} isExternal>CC BY-SA 4.0</Link> licenses.
+    </p>
   </section>
   <section class="lists">
     <h2>lists.</h2>
