@@ -1,6 +1,236 @@
 {
-  "lastUpdate": "2024-06-24T03:59:26.171Z",
+  "lastUpdate": "2024-06-26T04:26:18.058Z",
   "data": [
+    {
+      "id": "02a8bcbc-0477-477e-8aed-1dee678aeee9",
+      "title": "Virtualization Internals Part 1 - Intro to Virtualization | Saferwall",
+      "url": "https://docs.saferwall.com/blog/virtualization-internals-part-1-intro-to-virtualization/",
+      "savedAt": "2024-06-26T04:25:42.000Z",
+      "description": "The purpose of this series of articles is to explain how x86 virtualization internally works. I find most of the information dispatched in academical work and research papers, which is pretty hard to understand for beginners, I will try to start from scratch and build knowledge as needed. This could be useful for understanding how virtualization works, or writing your own hypervisor or in other scenarios such as attacking hypervisors security.",
+      "tags": [
+        "cs/virtualization",
+        "for-later"
+      ]
+    },
+    {
+      "id": "4116dbe6-6466-4012-ab34-29e72aa4b74c",
+      "title": "Reversing Choplifter – Blondihacks",
+      "url": "https://blondihacks.com/reversing-choplifter/",
+      "savedAt": "2024-06-26T04:25:33.000Z",
+      "description": "The Apple II line of computers had an amazing run, from 1977 to 1993. In that time, hundreds of thousands of pieces of software were written for it, including many tens of thousands of games. Like any platform, however, the number of truly great games within that range is much smaller. If you ask any former (or current) Apple II user what the best five games on the platform are, there would be variation of course, but one game would be on everyone’s list: Choplifter.",
+      "tags": [
+        "cs/gamedev",
+        "for-later",
+        "reverse-engineering"
+      ]
+    },
+    {
+      "id": "229c53bd-a879-49b0-828d-4cf501895312",
+      "title": "How terminal works. Part 1: Xterm, user input | Thoughts-chain",
+      "url": "https://kevroletin.github.io/terminal/2021/12/11/how-terminal-works-in.html",
+      "savedAt": "2024-06-26T03:04:31.000Z",
+      "description": "Hi there. I am going to post here thing about my work or my technical hobbies. This means c++, java, haskell, python, linux etc.",
+      "tags": [
+        "cs"
+      ]
+    },
+    {
+      "id": "637cec4b-b2b0-4c90-b6c3-e12fed9fdf2b",
+      "title": "Hacking Millions of Modems (and Investigating Who Hacked My Modem)",
+      "url": "https://samcurry.net/hacking-millions-of-modems",
+      "savedAt": "2024-06-26T03:03:11.000Z",
+      "description": "Two years ago, something very strange happened to me while working from my home network. I was exploiting a blind XXE vulnerability that required an external HTTP server to smuggle out files, so I spun up an AWS box and ran a simple Python webserver to receive the traffic from the vulnerable server.",
+      "tags": [
+        "for-later",
+        "hacking"
+      ]
+    },
+    {
+      "id": "2b22ac97-48f9-4602-b553-28a5a033969c",
+      "title": "Database anomalies and isolation levels |",
+      "url": "https://poorlydefinedbehaviour.github.io/posts/isolation_levels/",
+      "savedAt": "2024-06-26T03:02:57.000Z",
+      "description": "Anomalies An anomaly or read phenomena can happen when a transaction reads data that may have been modified by another concurrent transaction.\nDirty read A dirty read happens when a transaction T1 reads data that has been modified by a concurrent transaction T2 that has not has been committed or rolled back yet. T1 ends up working with stale data if T2 does not commit.\nT2 starts executing and sets x to a new value, T1 starts executing and reads x, the value of x is the value just set by T2, T2 rolls back, the value of x is not persisted to the database but T1 will move forward with the stale value of x that was written before T2 rolled back.",
+      "tags": [
+        "database"
+      ]
+    },
+    {
+      "id": "e65590eb-c3a2-4988-9cab-aea33c30d2f4",
+      "title": "Not Just Scale - Marc's Blog",
+      "url": "https://brooker.co.za/blog/2024/06/04/scale",
+      "savedAt": "2024-06-26T03:02:48.000Z",
+      "description": "Bookmarking this so I can stop writing it over and over.",
+      "tags": [
+        "cs/distsys",
+        "for-later"
+      ]
+    },
+    {
+      "id": "c7d9276d-3f77-4d3b-9063-aedab44e4b3c",
+      "title": "Using d8 · V8",
+      "url": "https://v8.dev/docs/d8",
+      "savedAt": "2024-06-26T00:29:28.000Z",
+      "description": "d8 is V8’s own developer shell.",
+      "tags": [
+        "cs/compilers",
+        "for-later"
+      ]
+    },
+    {
+      "id": "34a09cff-456a-4f06-942e-e74fff24af11",
+      "title": "Understanding V8's Bytecode",
+      "url": "https://www.fhinkel.rocks/posts/Understanding-V8-s-Bytecode",
+      "savedAt": "2024-06-26T00:29:11.000Z",
+      "description": "Franziska Hinkelmann, Ph.D., Principal Engineering Manager at Microsoft. Node.js \n        Technical Steering Committee member. Former compiler engineer on Google’s Chrome V8 team. Pronouns she/they.",
+      "tags": [
+        "cs/compilers",
+        "for-later"
+      ]
+    },
+    {
+      "id": "726ec20b-b1c3-4d5d-8452-762256a66a3f",
+      "title": "Say Hello to 1-based indexing in JavaScript!",
+      "url": "https://blog.juanarbol.co/one-base-indexing-js",
+      "savedAt": "2024-06-26T00:28:57.000Z",
+      "description": "@juanarbol blog",
+      "tags": [
+        "cs/compilers",
+        "for-later"
+      ]
+    },
+    {
+      "id": "c42bf40e-ed49-49f6-a5ab-a646cb5e057c",
+      "title": "Writing an IR from Scratch and survive to write a post - Eduardo Blázquez’s Personal Webpage",
+      "url": "https://farena.in/compilers/programming/writing-an-ir-from-scratch/",
+      "savedAt": "2024-06-26T00:28:38.000Z",
+      "description": "The following post will talk about the design of the first version of the Intermediate Representation of Kunai, the design decisions and how it was implemented.",
+      "tags": [
+        "for-later",
+        "cs/compilers"
+      ]
+    },
+    {
+      "id": "19eb9140-05ff-415e-adab-c415c2e55c7e",
+      "title": "Terms, types, and functions",
+      "url": "https://azdavis.net/posts/lambda-cube/",
+      "savedAt": "2024-06-26T00:23:32.000Z",
+      "description": "Various varieties of function in programming languages.",
+      "tags": [
+        "cs/pl-theory",
+        "type-theory"
+      ]
+    },
+    {
+      "id": "fbc2f8e2-9c7b-4b51-9058-64ec140c12ac",
+      "title": "Microfeatures I Love in Blogs and Personal Websites",
+      "url": "https://danilafe.com/blog/blog_microfeatures/",
+      "savedAt": "2024-06-26T00:03:03.000Z",
+      "description": "In this post, I talk about pleasant but seemingly minor features in personal sites",
+      "tags": [
+        "favorites"
+      ]
+    },
+    {
+      "id": "ef809991-1c06-43eb-93df-9ea5a5e379ef",
+      "title": "Becoming a go-to person gets you promoted. Here's how to do it as a software engineer.",
+      "url": "https://read.highgrowthengineer.com/p/becoming-a-go-to-person-gets-you",
+      "savedAt": "2024-06-25T19:07:27.000Z",
+      "description": "Learn the key strategies for becoming a go-to person in your team as a software engineer and how it can lead to career advancement. Unlock the secrets to getting promoted in tech.",
+      "tags": [
+        "career"
+      ]
+    },
+    {
+      "id": "b825a867-a788-4d6f-97f0-f40d72970a63",
+      "title": "How to Test",
+      "url": "https://matklad.github.io/2021/05/31/how-to-test.html",
+      "savedAt": "2024-06-25T17:13:15.000Z",
+      "description": "Alternative titles:\n Unit Tests are a Scam\n Test Features, Not Code\n Data Driven Integrated Tests",
+      "tags": [
+        "cs",
+        "engineering",
+        "favorites"
+      ]
+    },
+    {
+      "id": "bc2b7c89-cfb7-40fb-b440-e41cb8c75540",
+      "title": "The Unix and Internet Fundamentals HOWTO",
+      "url": "https://tldp.org/HOWTO/Unix-and-Internet-Fundamentals-HOWTO/",
+      "savedAt": "2024-06-25T00:15:10.000Z",
+      "description": "This document describes the working basics of PC-class computers, Unix-like\noperating systems, and the Internet in non-technical language.",
+      "tags": [
+        "cs",
+        "favorites",
+        "resource/list"
+      ]
+    },
+    {
+      "id": "628aa1fb-2033-469d-9d6a-a05b7b5ffce2",
+      "title": "Reflections on a decade of coding",
+      "url": "https://www.scattered-thoughts.net/writing/reflections-on-a-decade-of-coding/",
+      "savedAt": "2024-06-24T23:53:39.000Z",
+      "description": "I've been programming professionally for about 12 years. Here are some of the things I worked on in the last 2 years.",
+      "tags": [
+        "career",
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "1d0db33d-0463-444d-b196-99888c23a368",
+      "title": "antoniosarosi/mkdb: Toy Database",
+      "url": "https://github.com/antoniosarosi/mkdb",
+      "savedAt": "2024-06-24T20:37:56.000Z",
+      "description": "Toy Database. Contribute to antoniosarosi/mkdb development by creating an account on GitHub.",
+      "tags": [
+        "database",
+        "repository"
+      ]
+    },
+    {
+      "id": "6a4f5561-1391-40c9-8512-b88ff6f7f666",
+      "title": "Writing My Own Database From Scratch",
+      "url": "https://www.youtube.com/watch?v=5Pc18ge9ohI",
+      "savedAt": "2024-06-24T19:47:03.000Z",
+      "description": "First episode of the #mkown series.\n\nIn this video I write my own SQL database from scratch without using any libraries or third party dependencies. Only the standard library provided by the chosen programming language is allowed (Rust in this case). The end result is a basic ACID compliant database that can process only one transaction at a time, something similar to the first versions of SQLite  from the early 2000s, but with less features (and probably much worse performance).\n\nThe goal of these videos is to provide a high level overview of how such complicated systems work internally, not explaining all the code in detail as that would require dozens of hours of content.\n\n🌐 LINKS\n\nProject Repository: https://github.com/antoniosarosi/mkdb\n\n✉️ CONTACT INFO\n\nBusiness Email: business@antoniosarosi.io\nContact Email: sarosiantonio@gmail.com\nTwitter: https://twitter.com/antoniosarosi\nInstagram: https://www.instagram.com/antoniosarosi/\nLinkedIn: https://www.linkedin.com/in/antoniosarosi/\n\n🎵 MUSIC\n\n🕖 Time Lapses\n\nhttps://soundcloud.com/temporal-1/temporal-t-lpa-once-upon-a\nhttps://www.youtube.com/watch?v=H9YSHgOD_1c\n\n🔉 Background\n\nhttps://soundcloud.com/eunoiamusicofficial/intro-falling-out\nhttps://soundcloud.com/audialmusic/silhouette\nhttps://soundcloud.com/cerulean-df/cerulean-skyway\nhttps://soundcloud.com/vexaic/lifted\nhttps://www.youtube.com/watch?v=ZkpA-O8P8TQ\nhttps://www.youtube.com/watch?v=6NDOlXPg2BY\nhttps://www.youtube.com/watch?v=34E4G9JW8B0\nhttps://www.youtube.com/watch?v=HcxBHU-jR6M\n\n📖 CHAPTERS\n\n00:00 What is Mkown?\n00:37 What Do We Know About Databases?\n02:18 Research Time Lapse\n02:53 Initial Ideas\n03:04 Naive Storage Format\n05:31 Why Binary Trees Are Not Enough For Indexes\n07:46 Why B-Trees Are Better Than Binary Trees\n12:21 Software Architecture\n13:17 Dev Time Lapse\n14:13 Project Demo\n18:23 Database Internals\n19:24 File System Structure\n20:31 Slotted Pages\n23:45 Rows, Tables And Indexes\n26:50 Overflow Pages\n28:30 Sophisticated BTree Balancing Algorithm\n29:53 Parsing and AST (Abstract Syntax Tree)\n31:54 Query Planner\n34:23 K-Way External Merge Sort\n36:50 Cache Replacement Algorithm\n38:19 Transactions: Commit & Rollback\n39:27 Network Protocol\n39:56 Final Thoughts\n\n🏷️ HASHTAGS\n\n#programming\n#computerscience",
+      "tags": [
+        "database",
+        "for-later",
+        "type/video"
+      ]
+    },
+    {
+      "id": "9e719c09-66e0-4665-92dc-1ec1b50799d2",
+      "title": "Hitting the High Notes – Joel on Software",
+      "url": "https://www.joelonsoftware.com/2005/07/25/hitting-the-high-notes/",
+      "savedAt": "2024-06-24T16:24:05.000Z",
+      "description": "In March, 2000, I launched this site with the shaky claim that most people are wrong in thinking you need an idea to make a successful software company: The common belief is that when you're building a software company, the goal is to find a neat idea that solves some problem which hasn't been solved…",
+      "tags": [
+        "career"
+      ]
+    },
+    {
+      "id": "5d7ad66b-91d9-4535-89f9-9244f60e965e",
+      "title": "Effective Spaced Repetition",
+      "url": "https://borretti.me/article/effective-spaced-repetition",
+      "savedAt": "2024-06-24T14:00:44.000Z",
+      "description": "“To flash conviction on the mind.”",
+      "tags": [
+        "learning",
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "6e19864f-9e04-4857-95f6-4d8f4908ab18",
+      "title": "A Distributed Systems Reading List",
+      "url": "https://ferd.ca/a-distributed-systems-reading-list.html",
+      "savedAt": "2024-06-24T04:10:22.000Z",
+      "description": "An old document I surfaced with my quick tour of distributed systems theory fundamentals",
+      "tags": [
+        "cs/distsys",
+        "resource/list"
+      ]
+    },
     {
       "id": "5135741d-c94a-43f2-90bd-f51a88231794",
       "title": "The Hitchhiker's Guide to the Unexpected",
@@ -9,17 +239,6 @@
       "description": "This is a transcript of a talk given at ElixirDaze and CodeBEAMSF conferences in March of 2018, dealing with supervision trees and with the unexpected.",
       "tags": [
         "self-improvement"
-      ]
-    },
-    {
-      "id": "c42bf40e-ed49-49f6-a5ab-a646cb5e057c",
-      "title": "Writing an IR from Scratch and survive to write a post - Eduardo Blázquez’s Personal Webpage",
-      "url": "https://farena.in/compilers/programming/writing-an-ir-from-scratch/",
-      "savedAt": "2024-06-24T03:37:24.000Z",
-      "description": "The following post will talk about the design of the first version of the Intermediate Representation of Kunai, the design decisions and how it was implemented.",
-      "tags": [
-        "for-later",
-        "cs/compilers"
       ]
     },
     {
@@ -633,17 +852,6 @@
       "description": "If an expert can't understand your explanation, you've dumbed it down too much!",
       "tags": [
         "interesting"
-      ]
-    },
-    {
-      "id": "2b22ac97-48f9-4602-b553-28a5a033969c",
-      "title": "Database anomalies and isolation levels |",
-      "url": "https://poorlydefinedbehaviour.github.io/posts/isolation_levels/",
-      "savedAt": "2024-06-08T16:10:25.000Z",
-      "description": "Anomalies An anomaly or read phenomena can happen when a transaction reads data that may have been modified by another concurrent transaction.\nDirty read A dirty read happens when a transaction T1 reads data that has been modified by a concurrent transaction T2 that has not has been committed or rolled back yet. T1 ends up working with stale data if T2 does not commit.\nT2 starts executing and sets x to a new value, T1 starts executing and reads x, the value of x is the value just set by T2, T2 rolls back, the value of x is not persisted to the database but T1 will move forward with the stale value of x that was written before T2 rolled back.",
-      "tags": [
-        "cs",
-        "database"
       ]
     },
     {
@@ -3044,18 +3252,6 @@
       "savedAt": "2024-02-11T21:48:43.000Z",
       "description": "Reading becomes easier with experience, but it is up to each scientist to identify the techniques that work best for them.",
       "tags": []
-    },
-    {
-      "id": "6e19864f-9e04-4857-95f6-4d8f4908ab18",
-      "title": "A Distributed Systems Reading List",
-      "url": "https://ferd.ca/a-distributed-systems-reading-list.html",
-      "savedAt": "2024-02-11T20:17:41.000Z",
-      "description": "An old document I surfaced with my quick tour of distributed systems theory fundamentals",
-      "tags": [
-        "type/article",
-        "resource",
-        "cs/distsys"
-      ]
     },
     {
       "id": "d9ea9ccc-f14a-412a-8a1e-0aeba04af7ca",
