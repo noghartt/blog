@@ -60,20 +60,23 @@ const tableOfContents = headings
   </section>
 
   <article>
-    <details class="toc" open>
-      <summary>
-        <h2>Table of Contents</h2>
-      </summary>
-      <ul>
-        {tableOfContents.map(({ text, url }) => (
-          <li>
-            <Link href={url}>
-              <p>{text}</p>
-            </Link>
-          </li>
-        ))}
-      </ul>
-    </details>
+    {tableOfContents.length > 0
+      ? (
+        <details class="toc" open>
+          <summary>
+            <h2>Table of Contents</h2>
+          </summary>
+            <ul>
+              {tableOfContents.map(({ text, url }) => (
+                <li>
+                  <Link href={url}>
+                    <p>{text}</p>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+        </details>
+      ): null}
 
     </section>
     <Content />
