@@ -26,9 +26,16 @@ export async function getStaticPaths() {
 }
 
 const { post } = Astro.props;
-const { Content } = await post.render();
+const { Content, headings } = await post.render();
 
 const date = dayjs(post.data.pubDate).format('YYYY-MM-DD HH:mm');
+
+const tableOfContents = headings
+  .filter((heading) => heading.depth === 2)
+  .map((headings) => ({
+    text: headings.text,
+    url: `#${headings.slug}`,
+  }));
 
 ---
 
@@ -37,20 +44,38 @@ const date = dayjs(post.data.pubDate).format('YYYY-MM-DD HH:mm');
   head={{ title: `${post.data.title} | ${SITE.title}` }}
 >
   <GoBackButton />
+
   <section class="header">
-    <section>
-      <h1>{post.data.title}</h1>
-      <p>{date}</p>
-    </section>
-    <section class="tags">
-      {post.data.tags.map((tag: string) => (
-        <Link href={`/tag/${tag}`}>
-          <p>#{tag}</p>
-        </Link>
-      ))}
-    </section>
+      <section>
+        <h1>{post.data.title}</h1>
+        <p>{date}</p>
+      </section>
+      <section class="tags">
+        {post.data.tags.map((tag: string) => (
+          <Link href={`/tag/${tag}`}>
+            <p>#{tag}</p>
+          </Link>
+        ))}
+      </section>
   </section>
+
   <article>
+    <details class="toc" open>
+      <summary>
+        <h2>Table of Contents</h2>
+      </summary>
+      <ul>
+        {tableOfContents.map(({ text, url }) => (
+          <li>
+            <Link href={url}>
+              <p>{text}</p>
+            </Link>
+          </li>
+        ))}
+      </ul>
+    </details>
+
+    </section>
     <Content />
   </article>
 </Layout>
@@ -60,6 +85,26 @@ const date = dayjs(post.data.pubDate).format('YYYY-MM-DD HH:mm');
     display: flex;
     flex-direction: column;
     gap: var(--spacing-2x);
+  }
+
+  .toc {
+    gap: var(--spacing-2x);
+    background: #d9d9d9;
+    padding: var(--spacing-2x);
+  }
+
+  .toc summary {
+    cursor: pointer;
+  }
+
+  .toc summary h2 {
+    display: inline;
+    margin-left: var(--spacing);
+  }
+
+  .toc ul {
+    /* TODO: The flexbox seems not working in Chrome. */
+    margin-top: var(--spacing-2x);
   }
 
   article {

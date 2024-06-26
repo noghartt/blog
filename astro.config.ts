@@ -1,4 +1,4 @@
-import { defineConfig, type AstroUserConfig } from 'astro/config';
+import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 import react from '@astrojs/react';
 import remarkMath from 'remark-math';
