@@ -43,6 +43,9 @@ devDependencies:
   '@astrojs/vercel':
     specifier: ^7.6.0
     version: 7.6.0(astro@4.8.6)(react@18.2.0)
+  '@types/hast':
+    specifier: ^3.0.4
+    version: 3.0.4
   '@types/markdown-it':
     specifier: ^12.2.3
     version: 12.2.3
@@ -52,12 +55,18 @@ devDependencies:
   '@types/sanitize-html':
     specifier: ^2.8.0
     version: 2.8.0
+  hast:
+    specifier: ^1.0.0
+    version: 1.0.0
   react:
     specifier: 18.2.0
     version: 18.2.0
   react-dom:
     specifier: 18.2.0
     version: 18.2.0(react@18.2.0)
+  rehype:
+    specifier: ^13.0.1
+    version: 13.0.1
   rehype-katex:
     specifier: ^7.0.0
     version: 7.0.0
@@ -67,9 +76,21 @@ devDependencies:
   remark-math:
     specifier: ^6.0.0
     version: 6.0.0
+  slugify:
+    specifier: ^1.6.6
+    version: 1.6.6
   tsx:
     specifier: ^3.12.10
     version: 3.12.10
+  unist-builder:
+    specifier: ^4.0.0
+    version: 4.0.0
+  unist-util-modify-children:
+    specifier: ^4.0.0
+    version: 4.0.0
+  unist-util-visit:
+    specifier: ^5.0.0
+    version: 5.0.0
 
 packages:
 
@@ -2823,6 +2844,11 @@ packages:
     dependencies:
       '@types/hast': 3.0.4
 
+  /hast@1.0.0:
+    resolution: {integrity: sha512-vFUqlRV5C+xqP76Wwq2SrM0kipnmpxJm7OfvVXpB35Fp+Fn4MV+ozr+JZr5qFvyR1q/U+Foim2x+3P+x9S1PLA==}
+    deprecated: Renamed to rehype
+    dev: true
+
   /hastscript@8.0.0:
     resolution: {integrity: sha512-dMOtzCEd3ABUeSIISmrETiKuyydk1w0pa+gE/uormcTpSYuaNJPbX1NU3JLyscSLjwAQM8bWMhhIlnCqnRvDTw==}
     dependencies:
@@ -4461,6 +4487,11 @@ packages:
       sax: 1.2.4
     dev: true
 
+  /slugify@1.6.6:
+    resolution: {integrity: sha512-h+z7HKHYXj6wJU+AnS/+IH8Uh9fdcX1Lrhg1/VMdf9PwoBQXFcXiAdsy2tSK0P6gKwJLXp02r90ahUCqHk9rrw==}
+    engines: {node: '>=8.0.0'}
+    dev: true
+
   /source-map-js@1.0.2:
     resolution: {integrity: sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==}
     engines: {node: '>=0.10.0'}
@@ -4696,6 +4727,12 @@ packages:
       is-plain-obj: 4.1.0
       trough: 2.1.0
       vfile: 6.0.1
+
+  /unist-builder@4.0.0:
+    resolution: {integrity: sha512-wmRFnH+BLpZnTKpc5L7O67Kac89s9HMrtELpnNaE6TAobq5DTZZs5YaTQfAZBA9bFPECx2uVAPO31c+GVug8mg==}
+    dependencies:
+      '@types/unist': 3.0.2
+    dev: true
 
   /unist-util-find-after@5.0.0:
     resolution: {integrity: sha512-amQa0Ep2m6hE2g72AugUItjbuM8X8cGQnFoHk0pGfrFeT9GZhzN5SW8nRsiGKK7Aif4CrACPENkA6P/Lw6fHGQ==}

@@ -1,11 +1,12 @@
 import { defineConfig, type AstroUserConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 import react from '@astrojs/react';
-import vercel from "@astrojs/vercel/serverless";
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
 import rehypePrettyCode from 'rehype-pretty-code';
 import fs from 'fs/promises';
+
+import { rehypePluginLinkHeading } from './plugins/rehypePluginLinkHeading';
 
 const getBlogRoutesRedirect = async () => {
   const blogRoutesOldSlug = await fs.readdir('./src/content/blog');
@@ -39,6 +40,7 @@ export default defineConfig({
           keepBackground: false,
         },
       ],
+      rehypePluginLinkHeading,
     ],
   },
   vite: {
