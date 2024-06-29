@@ -1,6 +1,71 @@
 {
-  "lastUpdate": "2024-06-26T04:26:18.058Z",
+  "lastUpdate": "2024-06-29T07:21:35.464Z",
   "data": [
+    {
+      "id": "c06bedb4-449e-4b90-a269-e5897ef7c877",
+      "title": "making regex from scratch in GO - Lewis Metcalf",
+      "url": "https://lewismetcalf.com/series/making-regex-from-scratch-in-go/",
+      "savedAt": "2024-06-29T06:23:28.000Z",
+      "description": "This series is a step by step guide to creating an (almost) fully fledged Regex engine using Go. It explores the basics of Finite State Automata, incrementally creates a parser and compiler for turning strings into state machines, walks through the setup of a visualizer for the FSM node graph. All of the development is structured as a TDD project, and uses modern Go features such as fuzzing, generics, and profiling.",
+      "tags": [
+        "cs",
+        "for-later"
+      ]
+    },
+    {
+      "id": "0b562af9-fef6-466c-8c46-0cc3d42c23de",
+      "title": "Working hurts less than procrastinating, we fear the twinge of starting — LessWrong",
+      "url": "https://www.lesswrong.com/posts/9o3QBg2xJXcRCxGjS/working-hurts-less-than-procrastinating-we-fear-the-twinge",
+      "savedAt": "2024-06-28T03:25:47.000Z",
+      "description": "When you procrastinate, you're probably not procrastinating because of the pain of working. …",
+      "tags": [
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "db6374f4-d751-4a22-8331-5e5b094548b6",
+      "title": "Ordinary Incompetence · Gwern.net",
+      "url": "https://gwern.net/note/competence",
+      "savedAt": "2024-06-27T04:17:00.000Z",
+      "description": "Incompetence is the norm; most people who engage in a task (even when incentivized for performance or engaging in it for countless hours) may still be making basic errors which could be remedied with coaching or deliberate practice.",
+      "tags": [
+        "favorites",
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "cf9d5f56-ffb9-40a6-bccd-747d72e757e0",
+      "title": "Inside the tiny chip that powers Montreal subway tickets",
+      "url": "https://www.righto.com/2024/06/montreal-mifare-ultralight-nfc.html",
+      "savedAt": "2024-06-27T00:56:50.000Z",
+      "description": "To use the Montreal subway (the Métro), you tap a paper ticket against the turnstile and it opens. The ticket works through a system called ...",
+      "tags": [
+        "hardware"
+      ]
+    },
+    {
+      "id": "8d881ae1-542f-44be-ba38-eac608439a89",
+      "title": "Classic Papers in Programming Languages and Logic",
+      "url": "https://www.cs.cmu.edu/~crary/819-f09/",
+      "savedAt": "2024-06-26T18:55:43.000Z",
+      "description": null,
+      "tags": [
+        "cs/pl-theory",
+        "resource/list",
+        "type/article"
+      ]
+    },
+    {
+      "id": "176d9b86-c381-4379-9515-8740457e44c4",
+      "title": "leandromoreira/digital_video_introduction: A hands-on introduction to video technology: image, video, codec (av1, vp9, h265) and more (ffmpeg encoding). Translations: 🇺🇸 🇨🇳 🇯🇵 🇮🇹 🇰🇷 🇷🇺 🇧🇷 🇪🇸",
+      "url": "https://github.com/leandromoreira/digital_video_introduction",
+      "savedAt": "2024-06-26T18:26:27.000Z",
+      "description": "A hands-on introduction to video technology: image, video, codec (av1, vp9, h265) and more (ffmpeg encoding). Translations: 🇺🇸 🇨🇳 🇯🇵 🇮🇹 🇰🇷 🇷🇺 🇧🇷 🇪🇸 - leandromoreira/digital_video_introduction",
+      "tags": [
+        "cs/streaming",
+        "repository"
+      ]
+    },
     {
       "id": "02a8bcbc-0477-477e-8aed-1dee678aeee9",
       "title": "Virtualization Internals Part 1 - Intro to Virtualization | Saferwall",
@@ -497,17 +562,6 @@
       "savedAt": "2024-06-16T15:25:57.000Z",
       "description": "Unpleasant advice that works",
       "tags": [
-        "self-improvement"
-      ]
-    },
-    {
-      "id": "db6374f4-d751-4a22-8331-5e5b094548b6",
-      "title": "Ordinary Incompetence · Gwern.net",
-      "url": "https://gwern.net/note/competence",
-      "savedAt": "2024-06-16T15:19:18.000Z",
-      "description": "Incompetence is the norm; most people who engage in a task (even when incentivized for performance or engaging in it for countless hours) may still be making basic errors which could be remedied with coaching or deliberate practice.",
-      "tags": [
-        "psychology",
         "self-improvement"
       ]
     },
