@@ -1,6 +1,121 @@
 {
-  "lastUpdate": "2024-06-29T07:21:35.464Z",
+  "lastUpdate": "2024-06-30T05:40:46.862Z",
   "data": [
+    {
+      "id": "93de8d4a-4047-4a91-9b59-7dfec4dcb0ab",
+      "title": "How much memory does a call to ‘malloc’ allocates? – Daniel Lemire's blog",
+      "url": "https://lemire.me/blog/2024/06/27/how-much-memory-does-a-call-to-malloc-allocates/",
+      "savedAt": "2024-06-30T03:47:10.000Z",
+      "description": "In C, we allocate memory on the heap using the malloc function. Other programming languages like C++ or zig (e.g., std.heap.c_allocator) may call on malloc underneath so it is important to understand how malloc works. Furthermore, the same concepts apply broadly to other memory allocators.",
+      "tags": [
+        "cs"
+      ]
+    },
+    {
+      "id": "ef406719-fef2-428d-bab2-5dc5d408419f",
+      "title": "Malloc tutorial",
+      "url": "https://danluu.com/malloc-tutorial/",
+      "savedAt": "2024-06-30T03:35:09.000Z",
+      "description": "Let's write a malloc and see how it works with existing programs!",
+      "tags": [
+        "cs"
+      ]
+    },
+    {
+      "id": "a1f904a2-3691-11ef-b849-67d3e1475bfa",
+      "title": "Malloc_tutorial",
+      "url": "https://web.archive.org/web/20160419051445/http://www.inf.udec.cl/~leo/Malloc_tutorial.pdf",
+      "savedAt": "2024-06-30T03:34:27.000Z",
+      "description": null,
+      "tags": [
+        "cs"
+      ]
+    },
+    {
+      "id": "a460bb27-c1f8-4240-b274-b19bac908097",
+      "title": "Modern cryptography on the NES - Super Tilt Bro. for NES by sgadrat",
+      "url": "https://sgadrat.itch.io/super-tilt-bro/devlog/729390/modern-cryptography-on-the-nes",
+      "savedAt": "2024-06-30T02:59:38.000Z",
+      "description": "Super Tilt Bro. is an online game. You can even make an account to be placed on the official ranking, to do that you simply enter your login/password and... the technical trouble begins! Nice little c...",
+      "tags": [
+        "cs/cryptography",
+        "cs/gamedev",
+        "curiosity"
+      ]
+    },
+    {
+      "id": "b39fd83b-aa78-4133-b0f9-fc0a3ef2228d",
+      "title": "How to evolve a product | Granola",
+      "url": "https://www.granola.so/blog/how-to-evolve-a-product",
+      "savedAt": "2024-06-30T02:57:17.000Z",
+      "description": "So you started your startup —\nnow how do you find a great product ASAP?\nAt Granola, we rapidly evolved a product using principles from natural selection!\nWe made our software friendly to mutation\nby using repetitive code, all in one blob, with no tests.\nFor parallel selection of the best variants,\nwe manually sent programs to target users.\nAnd to make our variants friendly to extinction,\nwe avoided all launches, landing pages, and docs.\nBeware: big-company \"best practices\" make bad early-stage startups!",
+      "tags": [
+        "career"
+      ]
+    },
+    {
+      "id": "f41d7877-b2f0-435a-a84c-165f7d2c1cdc",
+      "title": "Fast · Patrick Collison",
+      "url": "https://patrickcollison.com/fast",
+      "savedAt": "2024-06-30T02:48:53.000Z",
+      "description": "Some examples of people quickly accomplishing ambitious things together.",
+      "tags": [
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "63c21858-3688-11ef-83ad-b7216f7bc302",
+      "title": "zine-ali",
+      "url": "https://decomposition.al/CSE138-2024-01/zines/zine-ali.pdf",
+      "savedAt": "2024-06-30T02:28:17.000Z",
+      "description": null,
+      "tags": [
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "c6642a63-6148-4aac-8ce6-6edcefb422b5",
+      "title": "Differential Analysis: A Summary",
+      "url": "https://blog.brownplt.org/2024/06/27/differential-analysis.html",
+      "savedAt": "2024-06-29T20:49:06.000Z",
+      "description": "For multiple decades we have worked on a the problem of differential analysis. This post explains where it comes from, what it means, and what its consequences are.",
+      "tags": [
+        "cs",
+        "math"
+      ]
+    },
+    {
+      "id": "61dabfb0-bd96-4c8f-95a9-c520ecaf2ba4",
+      "title": "Marcus' Blog",
+      "url": "https://mbuffett.com/posts/programming-advice-younger-self/",
+      "savedAt": "2024-06-29T20:37:20.000Z",
+      "description": "I finally have the feeling that I’m a decent programmer, so I thought it would be fun to write some advice with the idea of “what would have gotten me to this point faster?” I’m not claiming this is great advice for everyone, just that it would have been good advice for me.\nIf you (or your team) are shooting yourselves in the foot constantly, fix the gun I can’t tell you how many times I’ve been on a team and there’s something about the system that’s very easy to screw up, but no one thinks about ways to make it harder to make that mistake.",
+      "tags": [
+        "career"
+      ]
+    },
+    {
+      "id": "752864ba-274d-4322-a768-a8eaa6dee131",
+      "title": "What Should You Do with Your Life? Directions and Advice - Alexey Guzey",
+      "url": "https://guzey.com/personal/what-should-you-do-with-your-life/",
+      "savedAt": "2024-06-29T14:58:54.000Z",
+      "description": "I ask a lot of people about their life plans. At least half of them tell me that they have no idea where to move and are just coasting along, not sure what to do next. Therefore, this post.\nWhat to work on?  Y Combinator’s Requests for Startups  Also see Jay Zaveri’s World’s Hardest Problems (via Gary Basin)   José Luis Ricón’s (Artir) Technology some people are excited about Church Lab’s list of projects and of their implications (via Adam Marblestone)  Also see …",
+      "tags": [
+        "career",
+        "favorites",
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "f305f6e6-df30-4726-8bf4-af88e54c9490",
+      "title": "You probably wrote half a monad by accident – Andy G's Blog",
+      "url": "https://gieseanw.wordpress.com/2024/06/25/you-probably-wrote-half-a-monad-by-accident/",
+      "savedAt": "2024-06-29T07:47:02.000Z",
+      "description": "Photo by Krzysztof Hepner on Unsplash It’s the classic love story. Girl meets boy. Boy isn’t sure if his function will succeed, so he returns a metatype for his actual type indicating whether the operation succeeded or failed. Boy loses girl. We’ve all been there. Here’s how it happened. Err, well, at least that second…",
+      "tags": [
+        "functional-programming"
+      ]
+    },
     {
       "id": "c06bedb4-449e-4b90-a269-e5897ef7c877",
       "title": "making regex from scratch in GO - Lewis Metcalf",
