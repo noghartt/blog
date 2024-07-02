@@ -41,7 +41,11 @@ const bookmarksGroupedByMonth = groupByMonth(bookmarksSorted);
     <section class="bookmarks">
       {Object.entries(bookmarksGroupedByMonth).map(([month, bookmarks]) => (
         <div class="description">
-          <h3>{month}</h3>
+          <h3 id={month}>
+            <a class="heading-link" href={`#${month}`}>
+              {month}
+            </a>
+          </h3>
           <ul>
             {bookmarks.map((bookmark) => (
               <li>
