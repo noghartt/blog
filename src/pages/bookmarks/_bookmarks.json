@@ -1,6 +1,134 @@
 {
-  "lastUpdate": "2024-06-30T05:40:46.862Z",
+  "lastUpdate": "2024-07-02T01:55:59.598Z",
   "data": [
+    {
+      "id": "8ffa8227-0e05-400d-ad3c-dd15c4b2a030",
+      "title": "A write-ahead log is not a universal part of durability | notes.eatonphil.com",
+      "url": "https://notes.eatonphil.com/2024-07-01-a-write-ahead-log-is-not-a-universal-part-of-durability.html",
+      "savedAt": "2024-07-02T01:55:11.000Z",
+      "description": "A write-ahead log is not a universal part of durability",
+      "tags": [
+        "cs/database"
+      ]
+    },
+    {
+      "id": "6b5c08af-1624-419c-8a89-3e4fdcef6e4b",
+      "title": "Programming languages resources | Max Bernstein",
+      "url": "https://bernsteinbear.com/pl-resources/",
+      "savedAt": "2024-07-01T12:42:24.000Z",
+      "description": "This page is a collection of my favorite resources for people getting started\nwriting programming languages. I hope to keep it updated as long as I continue\nto find great stuff.",
+      "tags": [
+        "cs/pl-theory"
+      ]
+    },
+    {
+      "id": "63e9b1f1-1941-4aec-9a7c-ead44b59b166",
+      "title": "An Experienced (Neo)Vimmer's Workflow",
+      "url": "https://seniormars.com/posts/neovim-workflow/",
+      "savedAt": "2024-06-30T22:45:00.000Z",
+      "description": "A guy decides to show off his Neovim setup.",
+      "tags": [
+        "tools/neovim"
+      ]
+    },
+    {
+      "id": "369002c2-a10c-4578-8586-3f0ba11f6f5c",
+      "title": "A snapshot isolated database modeling in TLA+",
+      "url": "https://muratbuffalo.blogspot.com/2023/09/a-snapshot-isolated-database-modeling.html",
+      "savedAt": "2024-06-30T20:50:59.000Z",
+      "description": "While idly browsing tlaplus/Examples  repository, I noticed TLA+ spec for a snapshot isolated Key-Value Store written by my friend Andrew He...",
+      "tags": [
+        "cs/distsys",
+        "for-later"
+      ]
+    },
+    {
+      "id": "ff38a045-0285-4a9b-8338-72b2af830a5e",
+      "title": "TLA+ modeling of a single replicaset transaction modeling",
+      "url": "https://muratbuffalo.blogspot.com/2024/06/tla-modeling-of-single-replicaset.html",
+      "savedAt": "2024-06-30T20:50:51.000Z",
+      "description": "For some time I had been playing with transaction modeling and most recently with replicaset modeling by way of a single log. While playing ...",
+      "tags": [
+        "cs/distsys",
+        "for-later"
+      ]
+    },
+    {
+      "id": "543a01b2-3722-11ef-87c7-cb8428404dd3",
+      "title": "The Work Life of Developers: Activities, Switches and Perceived Productivity",
+      "url": "https://gwern.net/doc/psychology/writing/2017-meyer.pdf",
+      "savedAt": "2024-06-30T20:50:06.000Z",
+      "description": null,
+      "tags": [
+        "for-later",
+        "productivity",
+        "type/paper"
+      ]
+    },
+    {
+      "id": "e523d1cd-78e4-4986-8f4e-f3e7f0e7f6c0",
+      "title": "Introduction | Bmg documentation",
+      "url": "https://www.relational-algebra.dev/ra-primer/introduction/",
+      "savedAt": "2024-06-30T20:47:28.000Z",
+      "description": "A light theoretical overview of Relational Algebra and Bmg",
+      "tags": [
+        "cs/database",
+        "math"
+      ]
+    },
+    {
+      "id": "6335c5f8-3721-11ef-aeb2-37295b1c3fe4",
+      "title": "Writing is a technology that restructures thought",
+      "url": "https://gwern.net/doc/psychology/writing/1992-ong.pdf",
+      "savedAt": "2024-06-30T20:43:22.000Z",
+      "description": null,
+      "tags": [
+        "type/paper",
+        "writing"
+      ]
+    },
+    {
+      "id": "06e08922-2331-447c-a68f-0e39a0e6e4b5",
+      "title": "Hermitage: Testing the “I” in ACID — Martin Kleppmann’s blog",
+      "url": "https://martin.kleppmann.com/2014/11/25/hermitage-testing-the-i-in-acid.html",
+      "savedAt": "2024-06-30T20:32:45.000Z",
+      "description": "tl;dr: I have created a test suite for comparing the\ntransaction isolation levels in different databases. I did this as background research for\nmy book. This post explains why.",
+      "tags": [
+        "cs/distsys",
+        "for-later"
+      ]
+    },
+    {
+      "id": "2600b02a-9766-489a-944b-0503688c911f",
+      "title": "What is a CIDR trie and how can it help you? · blog | sven kanoldt",
+      "url": "https://d34dl0ck.me/rust-bites-cidr-trie/index.html",
+      "savedAt": "2024-06-30T20:24:56.000Z",
+      "description": "<p>In this post, we will explore the CIDR trie data structure and how it can help you manage IP addresses and subnets in your Rust project.</p>",
+      "tags": [
+        "cs/networking"
+      ]
+    },
+    {
+      "id": "ec19c002-1041-431a-a501-3cccf1796f0b",
+      "title": "Understanding React Compiler | Tony Alicea",
+      "url": "https://tonyalicea.dev/blog/understanding-react-compiler/",
+      "savedAt": "2024-06-30T19:25:20.000Z",
+      "description": "Cache all the things. How React Compiler works under-the-hood.",
+      "tags": [
+        "framework/react",
+        "web"
+      ]
+    },
+    {
+      "id": "851b54e2-ea12-4d59-9eea-513944396342",
+      "title": "Implementing SHA-256 on the 6502 | Bumbershoot Software",
+      "url": "https://bumbershootsoft.wordpress.com/2019/04/24/implementing-sha-256-on-the-6502/",
+      "savedAt": "2024-06-30T07:29:19.000Z",
+      "description": "After five implementations of various algorithms built mostly around bit shuffling, how about a properly modern, common, useful routine? We just need to find something that has a very similar structure and then we can deploy the knowledge we've learned in those other domains. SHA-2 fits this bill neatly, and Wikipedia even has handy pseudocode…",
+      "tags": [
+        "cs/cryptography"
+      ]
+    },
     {
       "id": "93de8d4a-4047-4a91-9b59-7dfec4dcb0ab",
       "title": "How much memory does a call to ‘malloc’ allocates? – Daniel Lemire's blog",
@@ -18,7 +146,8 @@
       "savedAt": "2024-06-30T03:35:09.000Z",
       "description": "Let's write a malloc and see how it works with existing programs!",
       "tags": [
-        "cs"
+        "cs",
+        "for-later"
       ]
     },
     {
@@ -28,7 +157,8 @@
       "savedAt": "2024-06-30T03:34:27.000Z",
       "description": null,
       "tags": [
-        "cs"
+        "cs",
+        "for-later"
       ]
     },
     {
@@ -232,7 +362,7 @@
       "savedAt": "2024-06-26T03:02:57.000Z",
       "description": "Anomalies An anomaly or read phenomena can happen when a transaction reads data that may have been modified by another concurrent transaction.\nDirty read A dirty read happens when a transaction T1 reads data that has been modified by a concurrent transaction T2 that has not has been committed or rolled back yet. T1 ends up working with stale data if T2 does not commit.\nT2 starts executing and sets x to a new value, T1 starts executing and reads x, the value of x is the value just set by T2, T2 rolls back, the value of x is not persisted to the database but T1 will move forward with the stale value of x that was written before T2 rolled back.",
       "tags": [
-        "database"
+        "cs/database"
       ]
     },
     {
@@ -340,9 +470,10 @@
       "savedAt": "2024-06-25T00:15:10.000Z",
       "description": "This document describes the working basics of PC-class computers, Unix-like\noperating systems, and the Internet in non-technical language.",
       "tags": [
-        "cs",
         "favorites",
-        "resource/list"
+        "cs/networking",
+        "resource/list",
+        "cs"
       ]
     },
     {
@@ -363,7 +494,7 @@
       "savedAt": "2024-06-24T20:37:56.000Z",
       "description": "Toy Database. Contribute to antoniosarosi/mkdb development by creating an account on GitHub.",
       "tags": [
-        "database",
+        "cs/database",
         "repository"
       ]
     },
@@ -374,7 +505,7 @@
       "savedAt": "2024-06-24T19:47:03.000Z",
       "description": "First episode of the #mkown series.\n\nIn this video I write my own SQL database from scratch without using any libraries or third party dependencies. Only the standard library provided by the chosen programming language is allowed (Rust in this case). The end result is a basic ACID compliant database that can process only one transaction at a time, something similar to the first versions of SQLite  from the early 2000s, but with less features (and probably much worse performance).\n\nThe goal of these videos is to provide a high level overview of how such complicated systems work internally, not explaining all the code in detail as that would require dozens of hours of content.\n\n🌐 LINKS\n\nProject Repository: https://github.com/antoniosarosi/mkdb\n\n✉️ CONTACT INFO\n\nBusiness Email: business@antoniosarosi.io\nContact Email: sarosiantonio@gmail.com\nTwitter: https://twitter.com/antoniosarosi\nInstagram: https://www.instagram.com/antoniosarosi/\nLinkedIn: https://www.linkedin.com/in/antoniosarosi/\n\n🎵 MUSIC\n\n🕖 Time Lapses\n\nhttps://soundcloud.com/temporal-1/temporal-t-lpa-once-upon-a\nhttps://www.youtube.com/watch?v=H9YSHgOD_1c\n\n🔉 Background\n\nhttps://soundcloud.com/eunoiamusicofficial/intro-falling-out\nhttps://soundcloud.com/audialmusic/silhouette\nhttps://soundcloud.com/cerulean-df/cerulean-skyway\nhttps://soundcloud.com/vexaic/lifted\nhttps://www.youtube.com/watch?v=ZkpA-O8P8TQ\nhttps://www.youtube.com/watch?v=6NDOlXPg2BY\nhttps://www.youtube.com/watch?v=34E4G9JW8B0\nhttps://www.youtube.com/watch?v=HcxBHU-jR6M\n\n📖 CHAPTERS\n\n00:00 What is Mkown?\n00:37 What Do We Know About Databases?\n02:18 Research Time Lapse\n02:53 Initial Ideas\n03:04 Naive Storage Format\n05:31 Why Binary Trees Are Not Enough For Indexes\n07:46 Why B-Trees Are Better Than Binary Trees\n12:21 Software Architecture\n13:17 Dev Time Lapse\n14:13 Project Demo\n18:23 Database Internals\n19:24 File System Structure\n20:31 Slotted Pages\n23:45 Rows, Tables And Indexes\n26:50 Overflow Pages\n28:30 Sophisticated BTree Balancing Algorithm\n29:53 Parsing and AST (Abstract Syntax Tree)\n31:54 Query Planner\n34:23 K-Way External Merge Sort\n36:50 Cache Replacement Algorithm\n38:19 Transactions: Commit & Rollback\n39:27 Network Protocol\n39:56 Final Thoughts\n\n🏷️ HASHTAGS\n\n#programming\n#computerscience",
       "tags": [
-        "database",
+        "cs/database",
         "for-later",
         "type/video"
       ]
@@ -461,7 +592,7 @@
       "savedAt": "2024-06-23T18:55:17.000Z",
       "description": "B-trees are one of the best known algorithms around. A full\ntreatment of them is available in any good algorithms book. They are\na means of storing a sorted list of items, in such a way that\nsingle-item insertion, deletion and lookup all operate in\nlog(N)\ntime. They can be optimised for in-memory access (2-3-4 trees) or\noptimised to be used as an on-disk database, but the algorithms are\nessentially the same either way.",
       "tags": [
-        "database"
+        "cs/database"
       ]
     },
     {
@@ -493,7 +624,7 @@
       "savedAt": "2024-06-22T15:19:24.000Z",
       "description": "Yoav Rubin is a Senior Software Engineer at Microsoft, and prior to that was a Research Staff Member and a Master Inventor at IBM Research. He works now in the domain of data security in the cloud, and in the past his work focused on developing cloud or web based development environments. Yoav holds an M.Sc. in Medical Research in the field of Neuroscience and B.Sc in Information Systems Engineering. He goes by @yoavrubin on Twitter, and occasionally blogs at http://yoavrubin.blogspot.com.",
       "tags": [
-        "database",
+        "cs/database",
         "for-later"
       ]
     },
@@ -878,7 +1009,7 @@
       "description": "It is time to end the tyranny of people becoming interested in database implementation and building a BTree. Let us turn to the succor of immutable storage....",
       "tags": [
         "cs",
-        "database",
+        "cs/database",
         "for-later"
       ]
     },
@@ -902,7 +1033,7 @@
       "tags": [
         "cs",
         "for-later",
-        "networking",
+        "cs/networking",
         "web"
       ]
     },
@@ -925,7 +1056,7 @@
       "tags": [
         "cs",
         "for-later",
-        "networking"
+        "cs/networking"
       ]
     },
     {
@@ -946,7 +1077,7 @@
       "description": "Comparative tests show FreeBSD's virtualization performance surpasses Proxmox, especially with NVMe drivers.",
       "tags": [
         "cs",
-        "devops"
+        "cs/devops"
       ]
     },
     {
@@ -978,7 +1109,7 @@
       "description": "Blog > Post",
       "tags": [
         "cs",
-        "database"
+        "cs/database"
       ]
     },
     {
@@ -1418,7 +1549,7 @@
       "description": "How we over-engineered a solution using some bleeding-edge tech",
       "tags": [
         "cs",
-        "networking",
+        "cs/networking",
         "programming"
       ]
     },
@@ -1461,7 +1592,7 @@
       "description": "Implementing MVCC and major SQL transaction isolation levels",
       "tags": [
         "cs",
-        "database",
+        "cs/database",
         "for-later"
       ]
     },
@@ -1484,7 +1615,7 @@
       "description": "A column on things Internet",
       "tags": [
         "for-later",
-        "networking"
+        "cs/networking"
       ]
     },
     {
@@ -1559,7 +1690,7 @@
       "savedAt": "2024-05-09T22:41:23.000Z",
       "description": "Time for another design mistake, this time from our new Internet Service Provider (ISP). We switched …",
       "tags": [
-        "networking"
+        "cs/networking"
       ]
     },
     {
@@ -1622,7 +1753,7 @@
       "savedAt": "2024-05-05T14:06:22.000Z",
       "description": "Due to a combination of issues with GKE and Linkerd, I ended up deleting my load balancer routes when I removed the Linkerd helm chart.",
       "tags": [
-        "devops"
+        "cs/devops"
       ]
     },
     {
@@ -2195,7 +2326,7 @@
       "savedAt": "2024-04-07T15:17:03.000Z",
       "description": "At the beginning of 2023 I started renting a dedicated server from Hetzner with the intent to self-host several services.",
       "tags": [
-        "devops",
+        "cs/devops",
         "homelab"
       ]
     },
@@ -2259,7 +2390,7 @@
       "savedAt": "2024-04-05T15:19:40.000Z",
       "description": "Updates about my life and what I learn about creating software",
       "tags": [
-        "devops",
+        "cs/devops",
         "cool"
       ]
     },
@@ -2463,7 +2594,7 @@
       "savedAt": "2024-03-28T22:17:05.000Z",
       "description": "Linux Crisis Tools",
       "tags": [
-        "devops"
+        "cs/devops"
       ]
     },
     {
@@ -2713,7 +2844,7 @@
       "description": "This paper  declares the Jepsen testing of MongoDB for causal consistency a bit lacking in rigor, and goes on to test MongoDB  against three...",
       "tags": [
         "for-later",
-        "database"
+        "cs/database"
       ]
     },
     {
@@ -2733,7 +2864,7 @@
       "savedAt": "2024-03-16T11:48:02.000Z",
       "description": "Our nine month journey to horizontally shard Figma’s Postgres stack, and the key to unlocking (nearly) infinite scalability.",
       "tags": [
-        "database"
+        "cs/database"
       ]
     },
     {
@@ -2794,7 +2925,7 @@
       "description": "Let's open a hex editor and see what this thing is made of",
       "tags": [
         "for-later",
-        "database"
+        "cs/database"
       ]
     },
     {
@@ -2856,7 +2987,7 @@
       "description": "POV: I'm on my third coffee and you just asked me how the internet works",
       "tags": [
         "computer-history",
-        "networking"
+        "cs/networking"
       ]
     },
     {
@@ -2917,7 +3048,7 @@
       "savedAt": "2024-03-08T18:42:54.000Z",
       "description": null,
       "tags": [
-        "papers"
+        "type/paper"
       ]
     },
     {
@@ -2995,7 +3126,7 @@
       "savedAt": "2024-03-04T12:25:44.000Z",
       "description": "Paul Butler – March 3, 2024",
       "tags": [
-        "devops"
+        "cs/devops"
       ]
     },
     {
@@ -3166,7 +3297,7 @@
       "savedAt": "2024-02-28T12:19:20.000Z",
       "description": "Some people have asked, so here is how I do my backups.\nIt takes me about ten seconds per day and five minutes per month to maintain.",
       "tags": [
-        "devops"
+        "cs/devops"
       ]
     },
     {
@@ -3277,7 +3408,7 @@
       "savedAt": "2024-02-24T01:02:50.000Z",
       "description": "I’ve been quiet in November because I’ve been working on a small toy project.\nNow it’s become interesting, I want to write about it. In part, to prove to\nmyself I actually understand what I’ve built, by showing I can explain it in\nwords. I’ve been working through creating a simple database-like index, to\nunderstand the concepts involved more concretely.",
       "tags": [
-        "database",
+        "cs/database",
         "for-later"
       ]
     },
@@ -3354,7 +3485,7 @@
       "description": "A visual, interactive guide to what bloom filters are, when you would use them, and how they work.",
       "tags": [
         "for-later",
-        "database"
+        "cs/database"
       ]
     },
     {
@@ -3364,7 +3495,7 @@
       "savedAt": "2024-02-17T23:38:02.000Z",
       "description": "I have to admit, my research blog posts are getting longer and longer. From one\nside I find it genuinely encouraging, because if one gets so much information\njust by scratching the topic, imagine what’s hidden beneath the surface! One\nuniversity professor once said “what could be interesting in databases?”, and\nit turns out freaking a lot! On the other side it certainly poses problems for\npotential readers. To overcome them I would suggest an interesting approach:\nprint this blog post out, or open it on your tablet/e-reader, where you can\nmake notes with a pencil or markers. Now while reading it try to spot ideas\nparticularly exciting for you and mark them. Along the way there would be\ndefinitely some obscure parts or questions, write them on the sides as well.\nYou can experiment with the diagrams, changing or extending them, or just\ndrawing funny faces. But do not read everything at once, have no fear of\nputting it aside for a while, and read in chunks that are convenient for you.\nSome parts could be skipped as the text is build out of relatively independent\ntopics. The table of contents can help and guide you. Having said that we’re\nready to embark on the journey.",
       "tags": [
-        "database"
+        "cs/database"
       ]
     },
     {
@@ -3374,7 +3505,7 @@
       "savedAt": "2024-02-17T22:49:50.000Z",
       "description": "Let’s invent B(+)-trees.",
       "tags": [
-        "database"
+        "cs/database"
       ]
     },
     {
@@ -3440,7 +3571,7 @@
       "savedAt": "2024-02-10T20:23:28.000Z",
       "description": "This paper appeared in VLDB 2019.  It discusses the tunable consistency models in MongoDB  and how MongoDB's speculative execution model...",
       "tags": [
-        "database"
+        "cs/database"
       ]
     },
     {
