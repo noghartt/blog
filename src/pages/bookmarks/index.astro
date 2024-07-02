@@ -35,9 +35,14 @@ const bookmarksGroupedByMonth = groupByMonth(bookmarksSorted);
       <h2>bookmarks.</h2>
       <p>Last update: {dayjs(bookmarksJson.lastUpdate).format('DD[/]MM[/]YYYY HH:mm')}</p>
     </section>
-    <p>
-      Feel free to follow this list via RSS too, you can find it <Link href='/bookmarks/rss.xml'>here</Link>.
-    </p>
+    <article>
+      <p>
+        Feel free to follow this list via RSS too, you can find it <Link href='/bookmarks/rss.xml'>here</Link>.
+      </p>
+      <p>
+        If you prefer, you ca also check the tags accordingly their labels <Link href='/bookmarks/tags'>here</Link>.
+      </p>
+    </article>
     <section class="bookmarks">
       {Object.entries(bookmarksGroupedByMonth).map(([month, bookmarks]) => (
         <div class="description">

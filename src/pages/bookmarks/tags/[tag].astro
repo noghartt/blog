@@ -1,0 +1,89 @@
+---
+import { getCollection } from 'astro:content';
+import type { CollectionEntry } from 'astro:content';
+import type { GetStaticPathsResult } from 'astro';
+
+import Layout from '../../../layout/Layout.astro';
+import Link from '../../../components/Link.astro';
+import Posts from '../../../components/Posts.astro';
+import GoBackButton from '../../../components/GoBackButton.astro';
+import bookmarksJson from '../_bookmarks.json';
+
+interface Props {
+
+}
+
+// export const prerender = true;
+export async function getStaticPaths(): Promise<GetStaticPathsResult> {
+  const bookmarksPerTag = bookmarksJson.data.reduce((acc, bookmark) => {
+    bookmark.tags.forEach((tag: string) => {
+      if (!acc[tag]) {
+        acc[tag] = [];
+      }
+      acc[tag].push(bookmark);
+    });
+    return acc;
+  }, {});
+
+  return Object.entries(bookmarksPerTag).map(([tag, bookmarks]) =>  {
+    const sanitizeTag = (tag: string) => tag.replaceAll(/\//g, '-');
+    return {
+      params: {
+        tag:  sanitizeTag(tag),
+      },
+      props: {
+        bookmarks: bookmarks.map(bookmark => ({
+          url: bookmark.url,
+          title: bookmark.title,
+        })),
+      }
+  }});
+}
+
+const { tag } = Astro.params;
+const { bookmarks } = Astro.props;
+---
+
+<Layout>
+  <GoBackButton />
+  <section class="tag-container">
+    <h1>{tag}.</h1>
+    <section>
+      <ul>
+        {bookmarks.map((bookmark) => (
+          <li>
+            <Link href={bookmark.url} target="_blank" rel="noopener noreferrer" isExternal>
+              {bookmark.title}
+            </Link>
+          </li>
+        ))}
+      </ul>
+    </section>
+  </section>
+</Layout>
+
+<style>
+  .tag-container {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-2x);
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing);
+  }
+
+  ul li {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    column-gap: var(--spacing-8x);
+  }
+
+  ul li :global(a) {
+    flex: 1;
+    overflow-wrap: anywhere;
+  }
+</style>

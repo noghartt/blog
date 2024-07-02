@@ -1,0 +1,104 @@
+---
+import dayjs from 'dayjs';
+
+import Layout from "../../../layout/Layout.astro";
+import GoBackButton from '../../../components/GoBackButton.astro';
+import Link from "../../../components/Link.astro";
+import bookmarksJson from '../_bookmarks.json';
+
+const bookmarksData = bookmarksJson.data;
+
+const groupByTag = (bookmarks: typeof bookmarksData): Record<string, typeof bookmarksData[]> => {
+  const grouped = bookmarks.reduce((acc, bookmark) => {
+    bookmark.tags.forEach((tag: string) => {
+      if (!acc[tag]) {
+        acc[tag] = [];
+      }
+      acc[tag].push(bookmark);
+    });
+    return acc;
+  }, {});
+  return grouped;
+};
+
+const tags = groupByTag(bookmarksData);
+
+const tagsSorted = Object.entries(tags).sort(([tagA], [tagB]) =>
+  tagA.localeCompare(tagB)
+);
+
+const sanitizeTag = (tag: string) => tag.replaceAll(/\//g, '-');
+---
+
+<Layout>
+  <GoBackButton />
+  <section class="posts">
+    <section>
+      <h2>bookmarks.</h2>
+      <p>Last update: {dayjs(bookmarksJson.lastUpdate).format('DD[/]MM[/]YYYY HH:mm')}</p>
+    </section>
+    <p>
+      There's a total of {bookmarksData.length} bookmarks.
+    </p>
+    <p>
+      <ul>
+        {tagsSorted.map(([tag, bookmarks]) => (
+          <li>
+            <Link href={`/bookmarks/tags/${sanitizeTag(tag)}`}>{tag}</Link>
+            ({bookmarks.length})
+          </li>
+        ))}
+      </ul>
+    </p>
+  </section>
+</Layout>
+
+<style>
+  .description {
+    display: flex;
+    flex-direction: column;
+    row-gap: var(--spacing-2x);
+  }
+
+  .posts {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-4x);
+  }
+
+  .posts ul {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing);
+  }
+
+  .posts ul li {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    column-gap: var(--spacing-8x);
+  }
+
+  .posts :global(a) {
+    flex: 1;
+    overflow-wrap: anywhere;
+  }
+
+  @media screen and (max-width: 425px) {
+    .posts ul {
+      gap: var(--spacing-2x);
+    }
+
+    .posts ul li {
+      flex-direction: column;
+    }
+  }
+
+  .bookmarks {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-4x);
+  }
+</style>
+
+
