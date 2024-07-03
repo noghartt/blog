@@ -1,6 +1,46 @@
 {
-  "lastUpdate": "2024-07-03T02:34:58.369Z",
+  "lastUpdate": "2024-07-03T11:30:59.126Z",
   "data": [
+    {
+      "id": "47e6c4e8-a713-44e6-aa90-a8948eb90491",
+      "title": "Falsehoods Software Developers Believe About Event-Driven Systems · Blog · Loïc Carr",
+      "url": "https://dimtion.fr/blog/falsehoods-event-driven/",
+      "savedAt": "2024-07-03T11:30:23.000Z",
+      "description": "Loïc Carr /dimtion/ portfolio",
+      "tags": [
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "ae96a758-ed55-4db8-8880-95bb2bb7133d",
+      "title": "Programmers Should Never Trust Anyone, Not Even Themselves",
+      "url": "https://carbon-steel.github.io/jekyll/update/2024/06/19/abstractions.html",
+      "savedAt": "2024-07-03T11:30:17.000Z",
+      "description": "Programmers should be paranoid.",
+      "tags": [
+        "cs"
+      ]
+    },
+    {
+      "id": "7c865e20-846c-4001-8050-cdc7edc7e8f6",
+      "title": "Elaboration of the PostgreSQL sort cost model",
+      "url": "https://danolivo.substack.com/p/elaboration-of-the-postgresql-sort",
+      "savedAt": "2024-07-03T11:20:25.000Z",
+      "description": "Column order matters",
+      "tags": [
+        "cs/database"
+      ]
+    },
+    {
+      "id": "96729fd5-dcb5-461c-b397-200944975697",
+      "title": "My programming beliefs as of July 2024",
+      "url": "https://evanhahn.com/programming-beliefs-as-of-july-2024/",
+      "savedAt": "2024-07-03T11:15:31.000Z",
+      "description": "Things I believe about computer programming. Might change.",
+      "tags": [
+        "cs"
+      ]
+    },
     {
       "id": "18e1daae-597b-43bd-984b-377c66c6eb1a",
       "title": "Measuring personal growth",
@@ -20,16 +60,6 @@
       "tags": [
         "cs",
         "type/video"
-      ]
-    },
-    {
-      "id": "7c865e20-846c-4001-8050-cdc7edc7e8f6",
-      "title": "Elaboration of the PostgreSQL sort cost model",
-      "url": "https://danolivo.substack.com/p/elaboration-of-the-postgresql-sort",
-      "savedAt": "2024-07-02T05:16:07.000Z",
-      "description": "Column order matters",
-      "tags": [
-        "cs/database"
       ]
     },
     {
