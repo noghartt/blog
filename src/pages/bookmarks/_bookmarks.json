@@ -1,11 +1,42 @@
 {
-  "lastUpdate": "2024-07-02T01:55:59.598Z",
+  "lastUpdate": "2024-07-03T02:34:58.369Z",
   "data": [
+    {
+      "id": "18e1daae-597b-43bd-984b-377c66c6eb1a",
+      "title": "Measuring personal growth",
+      "url": "https://huyenchip.com/2024/04/17/personal-growth.html",
+      "savedAt": "2024-07-02T18:29:45.000Z",
+      "description": "My founder friends constantly think about growth. They think about how to measure their business growth and how to get to the next order of magnitude scale. If they’re making $1M ARR today, they think about how to get to $10M ARR. If they have 1,000 users today, they think about how to get to 10,000 users.",
+      "tags": [
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "4cd0c2e9-c63e-4183-958c-f022c9fc9394",
+      "title": "\"Simple Made Easy\" - Rich Hickey (2011)",
+      "url": "https://www.youtube.com/watch?v=SxdOUGdseq4",
+      "savedAt": "2024-07-02T15:21:53.000Z",
+      "description": "Rich Hickey, the author of Clojure and designer of Datomic, is a software developer with over 30 years of experience in various domains. Rich has worked on scheduling systems, broadcast automation, audio analysis and fingerprinting, database design, yield management, exit poll systems, and machine listening, in a variety of languages.\n\nThis keynote was given at Strange Loop 2011, and is perhaps the best known and most highly regarded of Rich's many excellent talks, ushering in a new way to think about the problems of software design and the constant fight against complexity. \n\nThe video was recorded at Strange Loop in partnership with InfoQ, who have hosted it on their site since 2011. This version (released 10 years later) is a new edit made from the original HD video and slides, restoring the slide transitions and animations as it was given in 2011.",
+      "tags": [
+        "cs",
+        "type/video"
+      ]
+    },
+    {
+      "id": "7c865e20-846c-4001-8050-cdc7edc7e8f6",
+      "title": "Elaboration of the PostgreSQL sort cost model",
+      "url": "https://danolivo.substack.com/p/elaboration-of-the-postgresql-sort",
+      "savedAt": "2024-07-02T05:16:07.000Z",
+      "description": "Column order matters",
+      "tags": [
+        "cs/database"
+      ]
+    },
     {
       "id": "8ffa8227-0e05-400d-ad3c-dd15c4b2a030",
       "title": "A write-ahead log is not a universal part of durability | notes.eatonphil.com",
       "url": "https://notes.eatonphil.com/2024-07-01-a-write-ahead-log-is-not-a-universal-part-of-durability.html",
-      "savedAt": "2024-07-02T01:55:11.000Z",
+      "savedAt": "2024-07-02T01:56:06.000Z",
       "description": "A write-ahead log is not a universal part of durability",
       "tags": [
         "cs/database"
