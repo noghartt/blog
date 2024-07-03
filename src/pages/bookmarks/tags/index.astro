@@ -3,8 +3,9 @@ import dayjs from 'dayjs';
 
 import Layout from "../../../layout/Layout.astro";
 import GoBackButton from '../../../components/GoBackButton.astro';
-import Link from "../../../components/Link.astro";
+
 import bookmarksJson from '../_bookmarks.json';
+import TreeNode from './_TreeNode.astro';
 
 const bookmarksData = bookmarksJson.data;
 
@@ -27,6 +28,52 @@ const tagsSorted = Object.entries(tags).sort(([tagA], [tagB]) =>
   tagA.localeCompare(tagB)
 );
 
+const tagsSortedAndCounted = tagsSorted.map(([tag, bookmarks]) => [tag, bookmarks.length]);
+
+const organizeBookmarks = (bookmarks) => {
+  const tree = {};
+
+  bookmarks.forEach(([label, count]) => {
+    const parts = label.split('/');
+    let currentLevel = tree;
+
+    parts.forEach((part, index) => {
+      if (!currentLevel[part]) {
+        currentLevel[part] = {
+          originalLabel: parts.slice(0, index + 1).join('/'),
+          count: 0,
+          children: {},
+        };
+      }
+
+      if (index === parts.length - 1) {
+        currentLevel[part].count += count;
+      }
+
+      currentLevel = currentLevel[part].children;
+    });
+  });
+
+  const computeCounts = (node) => {
+    let totalCount = node.count;
+
+    for (const child in node.children) {
+      totalCount += computeCounts(node.children[child]);
+    }
+
+    node.count = totalCount;
+    return totalCount;
+  };
+
+  for (const key in tree) {
+    computeCounts(tree[key]);
+  }
+
+  return tree;
+};
+
+const tree = organizeBookmarks(tagsSortedAndCounted);
+
 const sanitizeTag = (tag: string) => tag.replaceAll(/\//g, '-');
 ---
 
@@ -36,20 +83,20 @@ const sanitizeTag = (tag: string) => tag.replaceAll(/\//g, '-');
     <section>
       <h2>bookmarks.</h2>
       <p>Last update: {dayjs(bookmarksJson.lastUpdate).format('DD[/]MM[/]YYYY HH:mm')}</p>
+      <p>
+        There's a total of {bookmarksData.length} bookmarks.
+      </p>
     </section>
-    <p>
-      There's a total of {bookmarksData.length} bookmarks.
-    </p>
-    <p>
-      <ul>
-        {tagsSorted.map(([tag, bookmarks]) => (
-          <li>
-            <Link href={`/bookmarks/tags/${sanitizeTag(tag)}`}>{tag}</Link>
-            ({bookmarks.length})
-          </li>
-        ))}
-      </ul>
-    </p>
+    <ul>
+      {Object.entries(tree).map(([nodeLabel, node]) => (
+        <TreeNode
+          node={node}
+          label={node.originalLabel}
+          href={nodeLabel}
+          indentLevel={0}
+        />
+      ))}
+    </ul>
   </section>
 </Layout>
 
@@ -61,44 +108,20 @@ const sanitizeTag = (tag: string) => tag.replaceAll(/\//g, '-');
   }
 
   .posts {
-    display: flex;
-    flex-direction: column;
-    gap: var(--spacing-4x);
-  }
+     display: flex;
+     flex-direction: column;
+     gap: var(--spacing-2x);
+   }
 
-  .posts ul {
-    display: flex;
-    flex-direction: column;
-    gap: var(--spacing);
-  }
+   ul {
+     display: flex;
+     flex-direction: column;
+     gap: var(--spacing);
+   }
 
-  .posts ul li {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    column-gap: var(--spacing-8x);
-  }
-
-  .posts :global(a) {
-    flex: 1;
-    overflow-wrap: anywhere;
-  }
-
-  @media screen and (max-width: 425px) {
-    .posts ul {
-      gap: var(--spacing-2x);
-    }
-
-    .posts ul li {
-      flex-direction: column;
-    }
-  }
-
-  .bookmarks {
-    display: flex;
-    flex-direction: column;
-    gap: var(--spacing-4x);
-  }
+   ul li:has(> ul):first-child {
+     margin-top: var(--spacing);
+   }
 </style>
 
 

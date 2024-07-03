@@ -1,0 +1,40 @@
+---
+import Link from "../../../components/Link.astro";
+
+interface Props {
+  node: { count: number, originalLabel: string; children: Props['node'] };
+  label: string;
+  indentLevel: number;
+  href: string;
+}
+
+const { node, href, label, indentLevel } = Astro.props;
+
+---
+
+<li style={{ marginLeft: `${indentLevel * 16}px` }}>
+  <Link href={`/bookmarks/tags/${href}`}>{label}</Link>
+  ({node.count})
+  <ul>
+    {Object.entries(node.children).map(([_, child]) => (
+      <Astro.self
+        node={child}
+        label={child.originalLabel}
+        href={child.originalLabel}
+        indentLevel={indentLevel + 1}
+      />
+    ))}
+  </ul>
+</li>
+
+<style>
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing);
+  }
+
+   ul li:has(> ul):first-child {
+     margin-top: var(--spacing);
+   }
+</style>

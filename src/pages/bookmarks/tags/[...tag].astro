@@ -1,19 +1,11 @@
 ---
-import { getCollection } from 'astro:content';
-import type { CollectionEntry } from 'astro:content';
 import type { GetStaticPathsResult } from 'astro';
 
 import Layout from '../../../layout/Layout.astro';
 import Link from '../../../components/Link.astro';
-import Posts from '../../../components/Posts.astro';
 import GoBackButton from '../../../components/GoBackButton.astro';
 import bookmarksJson from '../_bookmarks.json';
 
-interface Props {
-
-}
-
-// export const prerender = true;
 export async function getStaticPaths(): Promise<GetStaticPathsResult> {
   const bookmarksPerTag = bookmarksJson.data.reduce((acc, bookmark) => {
     bookmark.tags.forEach((tag: string) => {
@@ -25,19 +17,39 @@ export async function getStaticPaths(): Promise<GetStaticPathsResult> {
     return acc;
   }, {});
 
-  return Object.entries(bookmarksPerTag).map(([tag, bookmarks]) =>  {
-    const sanitizeTag = (tag: string) => tag.replaceAll(/\//g, '-');
+  const aggregateBookmarks = (tag: string, acc: any = []) => {
+    for (const subTag in bookmarksPerTag) {
+      if (subTag === tag || subTag.startsWith(`${tag}/`)) {
+        acc.push(...bookmarksPerTag[subTag]);
+      }
+    }
+    return acc;
+  };
+
+  const allTags = Object.keys(bookmarksPerTag);
+  const uniqueTags = new Set<string>();
+
+  allTags.forEach(tag => {
+    const parts = tag.split('/');
+    for (let i = 1; i <= parts.length; i++) {
+      uniqueTags.add(parts.slice(0, i).join('/'));
+    }
+  });
+
+  return Array.from(uniqueTags).map((tag) => {
+    const aggregatedBookmarks = aggregateBookmarks(tag);
     return {
       params: {
-        tag:  sanitizeTag(tag),
+        tag,
       },
       props: {
-        bookmarks: bookmarks.map(bookmark => ({
+        bookmarks: aggregatedBookmarks.map(bookmark => ({
           url: bookmark.url,
           title: bookmark.title,
         })),
-      }
-  }});
+      },
+    };
+  });
 }
 
 const { tag } = Astro.params;
