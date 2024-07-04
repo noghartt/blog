@@ -1,6 +1,39 @@
 {
-  "lastUpdate": "2024-07-03T23:53:41.135Z",
+  "lastUpdate": "2024-07-04T18:57:04.269Z",
   "data": [
+    {
+      "id": "d288340a-77d6-4346-9c87-423d257b4971",
+      "title": "Every website and web app should have a service worker | Go Make Things",
+      "url": "https://gomakethings.com/every-website-and-web-app-should-have-a-service-worker/",
+      "savedAt": "2024-07-04T13:29:20.000Z",
+      "description": "A service worker is a special type of JavaScript file that acts like middleware for your site.\nToday, I want to talk about why every website and web app should have one. Let’s dig in!\nWhat a service worker is A service worker is a special JavaScript file that gets installed by a user’s web browser and saved locally.\nAny request that comes from the site—and any response it gets back—first goes through the service worker file.",
+      "tags": [
+        "web"
+      ]
+    },
+    {
+      "id": "c96ed406-399f-11ef-b632-4f62c47698ea",
+      "title": "NMI_Review",
+      "url": "https://github.com/udlbook/udlbook/blob/main/public/NMI_Review.pdf",
+      "savedAt": "2024-07-04T00:53:12.000Z",
+      "description": null,
+      "tags": [
+        "books",
+        "cs/ai"
+      ]
+    },
+    {
+      "id": "1d060574-3062-4eba-849a-6f7af3f7743d",
+      "title": "Neo Geo Architecture | A Practical Analysis",
+      "url": "https://www.copetti.org/writings/consoles/neogeo/",
+      "savedAt": "2024-07-04T00:30:00.000Z",
+      "description": "An in-depth analysis that explains how this console works internally",
+      "tags": [
+        "cs/gamedev",
+        "for-later",
+        "hardware"
+      ]
+    },
     {
       "id": "a0a683c5-d14d-4a5f-8a73-de170c041d81",
       "title": "The Joy of Reading Books You Don't Entirely Understand - Reactor",
