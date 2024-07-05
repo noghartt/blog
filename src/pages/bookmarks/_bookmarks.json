@@ -1,6 +1,71 @@
 {
-  "lastUpdate": "2024-07-04T18:57:04.269Z",
+  "lastUpdate": "2024-07-05T22:23:48.975Z",
   "data": [
+    {
+      "id": "d8d35bf6-3b1b-11ef-a90c-8b0b22f4eb2c",
+      "title": "What every systems programmer should know about concurrency",
+      "url": "https://assets.bitbashing.io/papers/concurrency-primer.pdf",
+      "savedAt": "2024-07-05T22:15:02.000Z",
+      "description": null,
+      "tags": [
+        "cs",
+        "for-later"
+      ]
+    },
+    {
+      "id": "47f18b44-3b1b-11ef-a571-f3f0ecce57c6",
+      "title": "Microsoft Word - Pointers.doc",
+      "url": "https://pdos.csail.mit.edu/6.828/2014/readings/pointers.pdf",
+      "savedAt": "2024-07-05T22:09:44.000Z",
+      "description": null,
+      "tags": [
+        "cs",
+        "for-later"
+      ]
+    },
+    {
+      "id": "fec30596-d547-4b13-b112-d6a2903adda2",
+      "title": "Trying Kolmogorov-Arnold Networks in Practice - Casey Primozic's Homepage",
+      "url": "https://cprimozic.net/blog/trying-out-kans/",
+      "savedAt": "2024-07-05T03:31:51.000Z",
+      "description": "There's been a fair bit of buzz about Kolmogorov-Arnold networks online lately.  Some research papers were posted around claiming that they offer better accuracy or faster training compared to traditional neural networks/MLPs for the same parameter count.",
+      "tags": [
+        "cs/ai",
+        "for-later"
+      ]
+    },
+    {
+      "id": "7c04287f-d42c-41a0-8c3a-453c9cebd1ab",
+      "title": "Reverse Engineering the Verification QR Code on my Diploma",
+      "url": "https://obrhubr.org/reverse-engineering-diploma",
+      "savedAt": "2024-07-05T00:56:35.000Z",
+      "description": "Hello! I'm Niklas Oberhuber and I write about programming, machine learning and my projects.",
+      "tags": [
+        "cool",
+        "cs"
+      ]
+    },
+    {
+      "id": "259ad290-789f-4b83-8843-fa2176761104",
+      "title": "Lensy Moore",
+      "url": "https://blog.cofree.coffee/2024-07-02-lensy-moore/",
+      "savedAt": "2024-07-05T00:51:42.000Z",
+      "description": "How far can we get leveraging the lens library in\nHaskell to model Moore Machines and Wiring Diagrams?",
+      "tags": [
+        "functional-programming"
+      ]
+    },
+    {
+      "id": "1107aad9-c251-471c-b497-30bbafab89de",
+      "title": "The sad state of property-based testing libraries",
+      "url": "https://stevana.github.io/the_sad_state_of_property-based_testing_libraries.html",
+      "savedAt": "2024-07-04T19:25:15.000Z",
+      "description": "Property-based testing is a rare example of academic research that\nhas made it to the mainstream in less than 30 years. Under the slogan\n“don’t write tests, generate them” property-based testing has gained\nsupport from a diverse group of programming language communities. In\nfact, the Wikipedia page of the original property-basted testing Haskell\nlibrary, QuickCheck, lists 57\nreimplementations in other languages.",
+      "tags": [
+        "cs",
+        "cs/testing"
+      ]
+    },
     {
       "id": "d288340a-77d6-4346-9c87-423d257b4971",
       "title": "Every website and web app should have a service worker | Go Make Things",
