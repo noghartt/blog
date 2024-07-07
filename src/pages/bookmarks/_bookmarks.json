@@ -1,6 +1,65 @@
 {
-  "lastUpdate": "2024-07-05T22:23:48.975Z",
+  "lastUpdate": "2024-07-07T05:39:49.803Z",
   "data": [
+    {
+      "id": "e5fc6605-2023-49e6-8572-7961821d9ecc",
+      "title": "Dirty writes – Surfing Complexity",
+      "url": "https://surfingcomplexity.blog/2024/07/05/dirty-writes/",
+      "savedAt": "2024-07-07T05:37:52.000Z",
+      "description": "For databases that support transactions, there are different types of anomalies that can potentially occur: the higher the isolation level, the more classes of anomalies are eliminated (at a cost of reduced performance). The anomaly that I always had the hardest time wrapping my head around was the one called a dirty write. This blog…",
+      "tags": [
+        "cs/database",
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "f9975eac-3c22-11ef-8d9d-873cd0eecd6d",
+      "title": "doceamus-edu-sweller.indd",
+      "url": "https://www.ams.org/notices/201010/rtx101001303p.pdf",
+      "savedAt": "2024-07-07T05:37:19.000Z",
+      "description": null,
+      "tags": [
+        "learning"
+      ]
+    },
+    {
+      "id": "c27e37e4-1425-40b8-a7a9-93cfa5197a34",
+      "title": "How I use Obsidian - macwright.com",
+      "url": "https://macwright.com/2024/06/16/how-i-use-obsidian.html",
+      "savedAt": "2024-07-06T23:40:22.000Z",
+      "description": "I wrote a little bit about how I published this microblog with Obsidian, and I recently published an Obsidian plugin. I’m a fan: I’ve used a lot of note-taking systems, but the only ones that really stuck were Notional Velocity and The Archive. And now, Obsidian.",
+      "tags": [
+        "writing"
+      ]
+    },
+    {
+      "id": "f2ed42d4-19df-4e8d-ac08-732e212aa40c",
+      "title": "How I Use Obsidian – Matt Stein",
+      "url": "https://mattstein.com/thoughts/how-i-use-obsidian/",
+      "savedAt": "2024-07-06T23:36:00.000Z",
+      "description": "Plugins and practices for managing my digital brain.",
+      "tags": [
+        "writing"
+      ]
+    },
+    {
+      "id": "c4b06244-69ac-47f7-8fe2-28fc97af8ae4",
+      "title": "How to implement a hash table (in C)",
+      "url": "https://benhoyt.com/writings/hash-table-in-c/",
+      "savedAt": "2024-07-06T05:30:17.000Z",
+      "description": "An explanation of how to implement a simple hash table data structure, with code and examples in the C programming language.",
+      "tags": [
+        "cs/algorithms"
+      ]
+    },
+    {
+      "id": "b913f4fe-33df-4192-ad83-32e5c1ccbc0c",
+      "title": "Properly Testing Concurrent Data Structures",
+      "url": "https://matklad.github.io/2024/07/05/properly-testing-concurrent-data-structures.html",
+      "savedAt": "2024-07-06T03:43:59.000Z",
+      "description": "There's a fascinating Rust library, loom, which can be used to\nthoroughly test lock-free data structures. I always wanted to learn how it works. I still do! But\nrecently I accidentally implemented a small toy which, I think, contains some of the loom's ideas,\nand it seems worthwhile to write about that. The goal here isn't to teach you what you should be\nusing in practice (if you need that, go read loom's docs), but rather to derive a couple of neat\nideas from first principles.",
+      "tags": []
+    },
     {
       "id": "d8d35bf6-3b1b-11ef-a90c-8b0b22f4eb2c",
       "title": "What every systems programmer should know about concurrency",
@@ -14,7 +73,7 @@
     },
     {
       "id": "47f18b44-3b1b-11ef-a571-f3f0ecce57c6",
-      "title": "Microsoft Word - Pointers.doc",
+      "title": "A TUTORIAL ON POINTERS AND ARRAYS IN C",
       "url": "https://pdos.csail.mit.edu/6.828/2014/readings/pointers.pdf",
       "savedAt": "2024-07-05T22:09:44.000Z",
       "description": null,
