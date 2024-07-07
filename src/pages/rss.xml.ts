@@ -37,6 +37,7 @@ export async function GET() {
             'h6',
             'ul',
             'li',
+            'code',
           ]
         }
       ),
