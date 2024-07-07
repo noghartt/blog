@@ -1,6 +1,68 @@
 {
-  "lastUpdate": "2024-07-07T06:55:10.150Z",
+  "lastUpdate": "2024-07-07T22:58:18.341Z",
   "data": [
+    {
+      "id": "e97ff2bb-3429-409b-83f3-65c91fdf6633",
+      "title": "A Git story: Not so fun this time | Brachiosoft Blog",
+      "url": "https://blog.brachiosoft.com/en/posts/git/",
+      "savedAt": "2024-07-07T22:26:43.000Z",
+      "description": "Linus Torvalds once wrote in a book that he created Linux just for fun, but it ended up sparking a revolution. Git, his second major creation, also an accidental revolution. It’s now a standard tool for software engineers, but its origin story wasn’t so much fun this time, at least for Linus.",
+      "tags": [
+        "computer-history"
+      ]
+    },
+    {
+      "id": "93e09a06-e712-438f-abdc-f2172fc335cf",
+      "title": "Why you need a \"WTF Notebook\"",
+      "url": "https://www.simplermachines.com/why-you-need-a-wtf-notebook/",
+      "savedAt": "2024-07-07T21:39:13.000Z",
+      "description": "There's a very specific reputation I want to have on a team: \"Nat helps me solve my problems. Nat get things I care about done.\"",
+      "tags": [
+        "career"
+      ]
+    },
+    {
+      "id": "b8f1a6d6-ec8f-4d53-b13f-d14e74dcec11",
+      "title": "Notes for new hires | Clinton Blackburn",
+      "url": "https://dev.clintonblackburn.com/2024/07/07/notes-for-new-hires",
+      "savedAt": "2024-07-07T21:35:08.000Z",
+      "description": "I’m onboarding new engineers at Vori, and finally took some time to write a few ideas I’ve been kicking around and sharing internally. I have personally found these practices helpful over the past few years, and think others might, as well. This isn’t applicable to only junior engineers, or new hires (despite the title). I didn’t learn some of these lessons until I was eight years into my career as a tech lead at edX, or a couple years later at Stripe.",
+      "tags": [
+        "career"
+      ]
+    },
+    {
+      "id": "210996a9-3ea2-4365-944d-3a607c6ecddd",
+      "title": "How we designed our company for speed - PostHog",
+      "url": "https://posthog.com/founders/how-come-we-ship-so-much",
+      "savedAt": "2024-07-07T19:17:19.000Z",
+      "description": "Clearly there are exceptions, but we ship a lot faster than the average company. Our first line of code was January 22nd, 2020, after a pivot during a…",
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "id": "ac4541e3-ab30-4329-b315-0422c661abbd",
+      "title": "Robin Rendle — Creativity is the byproduct of work",
+      "url": "https://robinrendle.com/notes/creativity-is-the-byproduct-of-work/",
+      "savedAt": "2024-07-07T19:15:51.000Z",
+      "description": "The website of Robin Rendle, a designer and writer from the UK.",
+      "tags": [
+        "design",
+        "writing"
+      ]
+    },
+    {
+      "id": "bf452086-ef71-41b3-8308-36cc5791ad9d",
+      "title": "Serving a billion web requests with boring code - llimllib notes",
+      "url": "https://notes.billmill.org/blog/2024/06/Serving_a_billion_web_requests_with_boring_code.html",
+      "savedAt": "2024-07-07T19:01:42.000Z",
+      "description": "When I worked as a contractor to the US government at ad hoc, I was fortunate enough to get the opportunity to design large parts of a relaunch of medicare plan compare, the US government site through which hundreds of thousands of medicare recipients purchase their health care plans each year.",
+      "tags": [
+        "cs",
+        "engineering"
+      ]
+    },
     {
       "id": "c2586b2b-409a-4faf-9dbd-8dd9d3190806",
       "title": "Synchronization is bad for scale",
@@ -2486,17 +2548,6 @@
       "description": "On the transitional zones between “what was” and “what’s next",
       "tags": [
         "psychology"
-      ]
-    },
-    {
-      "id": "93e09a06-e712-438f-abdc-f2172fc335cf",
-      "title": "Why you need a \"WTF Notebook\"",
-      "url": "https://www.simplermachines.com/why-you-need-a-wtf-notebook/",
-      "savedAt": "2024-04-19T04:16:05.000Z",
-      "description": "There's a very specific reputation I want to have on a team: \"Nat helps me solve my problems. Nat get things I care about done.\"",
-      "tags": [
-        "career",
-        "self-improvement"
       ]
     },
     {
