@@ -35,14 +35,17 @@ const bookmarksGroupedByMonth = groupByMonth(bookmarksSorted);
       <h2>bookmarks.</h2>
       <p>Last update: {dayjs(bookmarksJson.lastUpdate).format('DD[/]MM[/]YYYY HH:mm')}</p>
     </section>
-    <article>
+    <section class="description">
       <p>
         Feel free to follow this list via RSS too, you can find it <Link href='/bookmarks/rss.xml'>here</Link>.
       </p>
       <p>
         If you prefer, you ca also check the tags accordingly their labels <Link href='/bookmarks/tags'>here</Link>.
       </p>
-    </article>
+      <p>
+        Everything that I added here, come from my RSS feed. If you curios about the recommendations, you can check my OPML file at <Link href='/rss.opml'>here</Link>.
+      </p>
+    </section>
     <section class="bookmarks">
       {Object.entries(bookmarksGroupedByMonth).map(([month, bookmarks]) => (
         <div class="description">
@@ -111,6 +114,12 @@ const bookmarksGroupedByMonth = groupByMonth(bookmarksSorted);
     display: flex;
     flex-direction: column;
     gap: var(--spacing-4x);
+  }
+
+  .description {
+    display: flex;
+    flex-direction: column;
+    row-gap: var(--spacing-2x);
   }
 </style>
 
