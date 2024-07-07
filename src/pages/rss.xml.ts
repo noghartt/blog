@@ -39,6 +39,11 @@ export async function GET() {
             'li',
             'code',
             'pre',
+            'table',
+            'tr',
+            'td',
+            'thead',
+            'tbody',
           ]
         }
       ),
