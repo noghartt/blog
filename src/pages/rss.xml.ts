@@ -38,6 +38,7 @@ export async function GET() {
             'ul',
             'li',
             'code',
+            'pre',
           ]
         }
       ),
