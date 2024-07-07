@@ -1,4 +1,4 @@
-import type { Root } from 'hast';
+import type { Node, Root } from 'hast';
 import { visit } from 'unist-util-visit';
 import { modifyChildren } from 'unist-util-modify-children';
 import slugify from 'slugify';

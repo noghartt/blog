@@ -58,6 +58,9 @@ devDependencies:
   hast:
     specifier: ^1.0.0
     version: 1.0.0
+  hastscript:
+    specifier: ^9.0.0
+    version: 9.0.0
   react:
     specifier: 18.2.0
     version: 18.2.0
@@ -2857,6 +2860,16 @@ packages:
       hast-util-parse-selector: 4.0.0
       property-information: 6.1.1
       space-separated-tokens: 2.0.1
+
+  /hastscript@9.0.0:
+    resolution: {integrity: sha512-jzaLBGavEDKHrc5EfFImKN7nZKKBdSLIdGvCwDZ9TfzbF2ffXiov8CKE445L2Z1Ek2t/m4SKQ2j6Ipv7NyUolw==}
+    dependencies:
+      '@types/hast': 3.0.4
+      comma-separated-tokens: 2.0.2
+      hast-util-parse-selector: 4.0.0
+      property-information: 6.1.1
+      space-separated-tokens: 2.0.1
+    dev: true
 
   /hex-rgb@4.3.0:
     resolution: {integrity: sha512-Ox1pJVrDCyGHMG9CFg1tmrRUMRPRsAWYc/PinY0XzJU4K7y7vjNoLKIQ7BR5UJMCxNN8EM1MNDmHWA/B3aZUuw==}

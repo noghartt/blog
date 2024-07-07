@@ -7,6 +7,7 @@ import rehypePrettyCode from 'rehype-pretty-code';
 import fs from 'fs/promises';
 
 import { rehypePluginLinkHeading } from './plugins/rehypePluginLinkHeading';
+import { rehypePluginTableWrapper } from './plugins/rehypePluginTableWrapper';
 
 const getBlogRoutesRedirect = async () => {
   const blogRoutesOldSlug = await fs.readdir('./src/content/blog');
@@ -41,6 +42,7 @@ export default defineConfig({
         },
       ],
       rehypePluginLinkHeading,
+      rehypePluginTableWrapper,
     ],
   },
   vite: {
