@@ -1,6 +1,62 @@
 {
-  "lastUpdate": "2024-07-07T05:39:49.803Z",
+  "lastUpdate": "2024-07-07T06:55:10.150Z",
   "data": [
+    {
+      "id": "c2586b2b-409a-4faf-9dbd-8dd9d3190806",
+      "title": "Synchronization is bad for scale",
+      "url": "https://wippler.dev/posts/synchronization-is-bad-for-scale",
+      "savedAt": "2024-07-07T06:53:15.000Z",
+      "description": "In the early days of Mailgun I started working on a distributed lock service. Something I had worked on briefly at Rackspace. Even as I implemented the thing, I had the sneaky suspicion that it was a bad idea.",
+      "tags": [
+        "cs/database",
+        "cs/distsys",
+        "for-later"
+      ]
+    },
+    {
+      "id": "ce22fbb3-e5e0-4464-a755-83790ea73104",
+      "title": "Modeling B-trees in TLA+ – Surfing Complexity",
+      "url": "https://surfingcomplexity.blog/2024/07/04/modeling-b-trees-in-tla/",
+      "savedAt": "2024-07-07T06:53:06.000Z",
+      "description": "I've been reading Alex Petrov's Database Internals to learn more about how databases are implemented. One of the topics covered in the book is a data structure known as the B-tree. Relational databases like Postgres, MySQL, and sqlite use B-trees as the data structure for storing the data on disk. I was reading along with…",
+      "tags": [
+        "cs/database",
+        "cs/distsys",
+        "for-later"
+      ]
+    },
+    {
+      "id": "35170c32-f65a-4dcd-aa90-10c2b06c76e4",
+      "title": "Learning By Writing",
+      "url": "https://www.cold-takes.com/learning-by-writing/",
+      "savedAt": "2024-07-07T06:52:52.000Z",
+      "description": "Click lower right to download or find on Apple Podcasts, Spotify, Stitcher, etc.\n\nI have very detailed opinions on lots of topics. I sometimes get asked how I do\nthis, which might just be people making fun of me, but I choose to interpret it\nas a real question, and I’m going to sketch an answer here.\n\nYou can think of this as a sort of sequel to Minimal-Trust Investigations\n[https://www.cold-takes.com/minimal-trust-investigations/]. That piece talked\nabout how investigating things in depth can b",
+      "tags": [
+        "learning",
+        "writing"
+      ]
+    },
+    {
+      "id": "d1c96a87-ad6e-4d1a-a0f5-140a69aa465e",
+      "title": "Be patient with problems - by Henrik Karlsson",
+      "url": "https://www.henrikkarlsson.xyz/p/being-patient-with-problems",
+      "savedAt": "2024-07-07T06:41:53.000Z",
+      "description": "Problems are typically richer than our preconceived notions about how to solve them. Grothendieck, problem solving, patience and writing.",
+      "tags": [
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "05adce0f-e675-4304-ac80-7714c55c4a69",
+      "title": "How to think in writing - by Henrik Karlsson",
+      "url": "https://www.henrikkarlsson.xyz/p/writing-to-think",
+      "savedAt": "2024-07-07T06:39:15.000Z",
+      "description": "Writing advice is usually focused on more superficial parts of the craft. Whatever I knew about thinking on the page, I had picked up through trial and error and conversations with other writers. But then I read Imre Lakatos’s Proofs and Refutations.",
+      "tags": [
+        "learning",
+        "writing"
+      ]
+    },
     {
       "id": "e5fc6605-2023-49e6-8572-7961821d9ecc",
       "title": "Dirty writes – Surfing Complexity",
