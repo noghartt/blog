@@ -24,6 +24,9 @@ const run = async () => {
 
   const createdAt = new Date();
 
+  const slug = slugify(title);
+
+  frontmatter = frontmatter.replace('{{slug}}', `"${slug}"`)
   frontmatter = frontmatter.replace('{{title}}', `"${title}"`);
   frontmatter = frontmatter.replace('{{pubDate}}', `${createdAt.toISOString()}`);
 
@@ -44,7 +47,7 @@ ${frontmatter}
 
   const dirBlog = path.resolve(dirRoot, 'src', 'content', 'blog');
 
-  fs.writeFileSync(path.resolve(dirBlog, `${createdAt.toISOString()}-${slugify(title)}.md`), data, { encoding: 'utf-8' });
+  fs.writeFileSync(path.resolve(dirBlog, `${createdAt.toISOString()}-${slug}.md`), data, { encoding: 'utf-8' });
 }
 
 run();
