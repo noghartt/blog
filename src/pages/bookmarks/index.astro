@@ -29,7 +29,12 @@ const bookmarksGroupedByMonth = groupByMonth(bookmarksSorted);
 ---
 
 <Layout>
-  <GoBackButton />
+  <div class="header">
+    <GoBackButton />
+    <Link href="/bookmarks/tags">
+      Bookmarks categorized by tags
+    </Link>
+  </div>
   <section class="posts">
     <section>
       <h2>bookmarks.</h2>
@@ -74,6 +79,11 @@ const bookmarksGroupedByMonth = groupByMonth(bookmarksSorted);
     display: flex;
     flex-direction: column;
     row-gap: var(--spacing-2x);
+  }
+
+  .header {
+    display: flex;
+    gap: var(--spacing-2x);
   }
 
   .posts {
