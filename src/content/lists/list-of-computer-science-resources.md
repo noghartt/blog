@@ -128,7 +128,7 @@ tags:
 - [graydon2](https://graydon2.dreamwidth.org/), the personal blog/website from the creator of Rust language
 - [Ken Shriff's Blog](http://www.righto.com/), one of coolest blogs that talks about reverse-engineering on hardwares, CPUs and other cool things in computer area.
 - [NetworkProfile](https://blog.networkprofile.org/), a cool blog related to hardware and network stuffs. A great find.
-- [PoorlyDefinedBehavior](https://poorlydefinedbehaviour.github.io/), personal blog containing a lot of useful resources about [[Distributed systems]] and other really stuffs.
+- [PoorlyDefinedBehavior](https://poorlydefinedbehaviour.github.io/), personal blog containing a lot of useful resources about Distributed systems and other really stuffs.
 - [Phil Eaton](https://notes.eatonphil.com/), a blog about databases and other computer stuffs
 - [tmp.out](https://tmpout.sh/) is a really cool blog from ELF group researcher, has an ASCII-style;
 - [Programming Blogs](https://danluu.com/programming-blogs/) from Dan Luu recommendation
