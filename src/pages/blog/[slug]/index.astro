@@ -162,7 +162,7 @@ const tableOfContents = headings
     font-size: var(--font-size-md);
     overflow-x: auto;
     background-color: var(--color-white);
-    border: 1px solid black;
+    border: 1px solid var(--color-primary);
     border-radius: var(--border-radius);
     margin: var(--spacing) 0;
   }
@@ -194,5 +194,35 @@ const tableOfContents = headings
   /* TODO: Why KaTeX are duplicating the code. */
   .katex-html {
     display: none;
+  }
+
+  table {
+    width: 100%;
+    overflow-x: auto;
+    border: 1px solid var(--color-primary);
+    border-collapse: collapse;
+  }
+
+  table tr {
+    border: 1px solid var(--color-primary);
+  }
+
+  table tr:last-child {
+    border-bottom: none;
+  }
+
+  table tr:nth-child(2n) {
+    background-color: rgba(0,0,0,0.1);
+  }
+
+  table th {
+    font-weight: bold;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+  }
+
+  table th,
+  table td {
+    padding: var(--spacing) var(--spacing-2x);
   }
 </style>
