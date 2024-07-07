@@ -35,6 +35,8 @@ export async function GET() {
             'h4',
             'h5',
             'h6',
+            'ul',
+            'li',
           ]
         }
       ),
