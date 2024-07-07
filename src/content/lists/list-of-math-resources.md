@@ -40,7 +40,7 @@ tags:
 
 ## Tools
 
--[Penrose](https://github.com/penrose/penrose) write beautiful diagrams with a DSL
+- [Penrose](https://github.com/penrose/penrose) write beautiful diagrams with a DSL
 
 ## Math Books
 
