@@ -31,10 +31,11 @@ const { Content, headings } = await post.render();
 const date = dayjs(post.data.pubDate).format('YYYY-MM-DD HH:mm');
 
 const tableOfContents = headings
-  .filter((heading) => heading.depth === 2)
+  .filter((heading) => heading.depth === 2 || heading.depth === 3)
   .map((headings) => ({
     text: headings.text,
     url: `#${headings.slug}`,
+    depth: headings.depth === 2 ? 1 : 2,
   }));
 
 ---
@@ -67,8 +68,8 @@ const tableOfContents = headings
             <h2>Table of Contents</h2>
           </summary>
             <ul>
-              {tableOfContents.map(({ text, url }) => (
-                <li>
+              {tableOfContents.map(({ text, url, depth }) => (
+                <li style={{ marginLeft: `${depth * 16}px` }}>
                   <Link href={url}>
                     <p>{text}</p>
                   </Link>

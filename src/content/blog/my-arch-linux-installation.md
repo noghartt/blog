@@ -1,0 +1,618 @@
+---
+title: "My Arch Linux Installation: systemd-boot, LUKS, Btrfs, swapfile and xmonad"
+pubDate: 2024-07-07T07:07:03.952Z
+draft: false
+tags:
+  - linux
+  - tutorial
+---
+
+## Before the installation
+
+### Save things that you need to be saved
+
+1. **The public and private GPG keys**:
+
+```sh
+gpg --export --armor > public.key
+gpg --export-secret-key --armor > private.key
+```
+
+2. **Your shared GPG and SSH files.**
+3. **Your data.**
+
+**REMEMBER:** if you have some dotfiles or other projects in your PC, make sure
+that you have pushed your changes.
+
+### Make sure the drive security is not frozen
+
+If you are running a pre-installed system, you can cleaning all the storage
+(in my case, a SSD NVMe), you can wipe your storage to clean all things inside it.
+To do it on a SSD NVMe, you can do these things:
+
+Run the following command:
+
+```sh
+nvme id-ctrl /dev/nvme0 -H |grep "Format \|Crypto Erase\|Sanitize"
+```
+
+### Erase all data from your storage (SSD NVMe)
+
+You can run the 'nvme sanitize` command to erase all data from the storage.
+You can see an example of the command here:
+
+```sh
+nvme sanitize <device> -a <action>
+```
+
+The possible actions that you can use is:
+
+```sh
+-a <action>
+--sanact=<action>
+    Sanitize Action
+    000b - Reserved
+    001b - Exit Failure Mode
+    010b - Start a Block Erase sanitize operation
+    011b - Start an Overwrite sanitize operation
+    100b - Start a Crypto Erase sanitize operation
+```
+
+**ATTENTION:** When you running the `sanitize` command, you should replace your
+binary value by their decimal part, e.g. `000b = 0`, `001b = 1`, `010b = 2`, etc...
+
+#### References
+
+- [Arch Linux: SSD/NVMe](https://wiki.archlinux.org/title/Solid_state_drive/NVMe)
+- [Arch Linux: SSD/Memory cell clearing - NVMe drive](https://wiki.archlinux.org/title/Solid_state_drive/Memory_cell_clearing#NVMe_drive)
+
+### Wipe on an Empty Disk
+
+#### Create a temporary encrypted container on the complete device to be encrypted
+
+```sh
+cryptsetup open --type plain -d /dev/urandom /dev/nvme0n1 to_be_wiped
+```
+
+#### Wipe the container with zeros
+
+```sh
+dd if=/dev/zero of=/dev/mapper/to_be_wiped bs=4096 status=progress
+```
+
+## Installation
+
+### Disk partitioning (UEFI)
+
+The partiotining that follows the concerns the UEFI installation.
+
+#### Introduction
+
+First of all, I have differente names for the partitions, but don't be lost for
+so little:
+
+| Mount point | Partition name | Partition type | Bootable flags |           Size          |
+| :---------: | :------------: | :------------: | :------------: | :---------------------: |
+| /boot       | /dev/nvme0n1p1 | EFI System     | Yes       | 1 Gb           |
+| /       | /dev/nvme0n1p2 | Linux LVM      | No       | Remainder of the device |
+
+<!-- TODO: See it beter -->
+Where `/` will be a LVM-encrypted partition having a group volume containing a
+physical volume and `root`as a logical volume.
+
+Finally, as mentioned in the introduction, we will format the `/` volume as `Btrfs`
+and create two sub-volume:
+
+1. `/root`
+3. `swap`
+2. `/home`
+
+#### Creation of the File System
+
+In order to know the name of your disk, it is necessary to list the partition
+tables for the specified device:
+
+```sh
+fdisk -l
+```
+
+Let's select our disk to build the table:
+
+```sh
+cfdisk /dev/nvme0n1
+```
+
+Then create a new empty `GPT`partition table.
+
+And now, you can setup all the partiions in a "visual" way.
+
+### Setup the Disk Encryption
+
+In order to enable disk encryption, we will first create a root LUKS volume, open
+it and then format it.
+
+In a brief explaination, LUKS is a container format that will be used to encrypt
+containers, where our encryption key will be stored.
+
+#### Creation of a root LUKS volume
+
+To encrypt our `/` partition, we will use the `cryptsetup` tool:
+
+```sh
+cryptsetup --hash sha512 --use-random --verify-passhphrase luksFormat /dev/nvme0n1p2
+Are you sure? YES
+Enter passhphrase (twice)
+```
+
+#### Opening the root LUKS volume as block device
+
+The `/` partition being encrypted, we will open the LUKS container on `/dev/nvme0n1p2`
+disk and name it `cryptlvm`:
+
+```sh
+cryptsetup open /dev/nvme0n1p2 cryptlvm
+Enter passhphrase
+```
+
+The decrypted container is now available at `/dev/mapper/cryptlvm`.
+
+### Setup the LVM
+
+LVM is a logical volume manager for the Linux kernel. It is thank to to it that
+we can easily resize our partitions if necessary.
+
+#### Create a physical volume on top of the opened LUKS container
+
+```sh
+pvcreate /dev/mapper/cryptlvm
+```
+
+#### Add the previously created physical volume to a volume group
+
+```sh
+vgcreate vg /dev/mapper/cryptlvm
+```
+
+<!-- TODO: Write this section -->
+#### Create the swap logical volume on the volume group
+
+#### Create the root logical volume on the volume group
+
+<!-- TODO: See if it is necessary because of swapfile -->
+```sh
+lvcreate -l 100%FREE vg -n root
+```
+
+### Formatting the filesystem
+
+```sh
+mkfs.fat -F32 /dev/nvme0n1p1
+mkfs.btrfs -L btrfs /dev/mapper/vg-root
+```
+
+### Btrfs subvolumes
+
+Subvolumes are part of the filesystem with its own and independnet file/directory
+hierarchy, where each subvolume can share file extents.
+
+#### Create Btrfs subvolumes
+
+```sh
+mount /dev/mapper/vg-root /mnt
+btrfs subvolume create /mnt/root
+btrfs subvolume create /mnt/home
+umount /mnt
+```
+
+#### Mounting Btrfs subvolumes
+
+```sh
+SSD_MOUNTS="autodefrag,compress=lzo,discard,noatime,nodev,rw,space_cache,ssd"
+mount -o subvol=root,$SSD_MOUNTS /dev/mapper/vg-root /mnt
+
+mkdir -p /mnt/{boot,home}
+
+mount -o discard,noatime,nodev,noexec,nosuid,rw /dev/nvme0n1p1 /mnt/boot
+mount -o $SSD_MOUNTS,nosuid,subvol=home
+```
+
+<details>
+
+<summary>Some details about the option on <code>-o</code> flag:</summary>
+
+- `autodefrag`: enable automatic file defragmentation for small random writes in
+ files with a maximum file size of 64K;
+- `compress=lzo`: compresses files with the lzo type which is a lossless data
+ compression algorithm that is focused on decompression speed;
+- `discard`: enable discarding of freed file blocks using TRIM operation (useful
+ for SSD devices);
+- `noatime`: allows measurable performance gains by eliminating the need for the
+ system to write to the file system for files that are simply read;
+- `nodev`: disallows creating and accessing device nodes (used in particular for
+ special files in /dev);
+- `noexec`: does not allow the execution of executable binaries in the mounted
+ file system;
+- `nosuid`: specifies that the filesystem cannot contain set userid files;
+- `rw`: allows reading and writing;
+- `space_cache`: control the free space cache. This greatly improves performance
+ when reading block group free space into memory;
+- `ssd`: by default, `Btrfs` will enable or disable SSD allocation heuristics
+ depending on whether a rotational or non-rotational device is in use.
+
+</details>
+
+### Base system
+
+#### Update the mirrors
+
+```sh
+pacman -S reflector
+reflector --threads 8 --protocol http --protocol https --verbose --sort rate --country Brazil --save /etc/pacman.d/mirrorlist
+```
+
+#### Installation of the packages onto a given root file system
+
+```sh
+pacstrap /mnt base linux-firmware linux-zen lvm2 sudo man-db base-devel linux-tools git hdsentinel fwupd sudo
+```
+
+### Configuration of the system
+
+We will configure the system base in order to have a decent environment.
+
+#### Generate a fstab file
+
+```sh
+genfstab -U /mnt >> /mnt/etc/fstab
+```
+
+#### Change root into the new system
+
+```sh
+arch-chroot /mnt
+```
+
+#### Create the swap file
+
+To create the swap file, we will create a zero length file, set the `No_COW` attribute
+and make sure compression is disabled:
+
+```sh
+truncate -s 0 /swapfile
+chattr +C /swapfile
+btrfs property set /swapfile compression none
+```
+
+Is recommended to set the size of swap file being 4-8GB if you don't intend to use
+hibernation (suspend-to-disk):
+
+```sh
+dd if=/dev/zero of=/swapfile bs=1M count=16384 status=progress && sync
+```
+
+Set the permission for the file (a world-readable swap file is a huge local vulnerability):
+
+```sh
+chmod 600 /swapfile
+```
+
+Format the `/swapfile` file to swap and activate it:
+
+```sh
+mkswap /swapfile
+swapon /swapfile
+```
+
+Finally, add an entry for the swap file in the fstab:
+
+```sh
+echo "/swapfile none swap defaults 0 0" >> /etc/fstab
+```
+
+#### Set the timezone
+
+Install the [Network Time Protocol](https://wiki.archlinux.org/title/Network_Time_Protocol_daemon)
+and enable it as daemon:
+
+```sh
+pacman -S ntp
+systemctl enable ntpd
+```
+
+Create a symlink of the timezone:
+
+```sh
+ln -sf /usr/share/zoneinfo/America/Sao_Paulo /etc/localtime
+```
+
+Generate `/etc/adjtime`:
+
+```sh
+hwclock --systohc
+```
+
+#### Network configuration
+
+Install and enable network management daemon:
+
+```sh
+pacman -S networkmanager
+systemctl enable NetworkManager
+```
+
+So add a hostname to the machine:
+
+```sh
+echo ThinkPad > /etc/hostname
+```
+
+**NOTE:** Remember that you can replace `ThinkPad` with whatever you like.
+
+Add matching entries to `/etc/hosts`:
+
+```sh
+127.0.0.1  localhost
+::1     localhost
+127.0.1.1  ThinkPad.localdomain ThinkPad
+```
+
+#### Set the root passsword
+
+```sh
+passwd
+```
+
+#### Create the main user
+
+```sh
+useradd -mG storage,wheel -s /bin/bash someone
+passwd someone
+```
+
+Finally, change the `/etc/sudoers` file according to the config that you want
+to deal with `sudo` command.
+
+#### Create a initial ramdisk environment
+
+```sh
+nano /etc/mkinitcpio.conf
+```
+
+You should the `HOOKS` field with these things:
+
+```sh
+...
+HOOKS=(base systemd autodetect keyboard sd-vconsole modconf block sd-encrypt lvm2 filesystems btrfs)
+...
+```
+
+Finally, recreate the `initramfs`image:
+
+```sh
+mkinitcpio -p linux-zen
+```
+
+### Setup the boot manager
+
+#### Install `systemd-boot` into the EFI system partition
+
+```sh
+bootctl install
+```
+
+#### Configuring the loader
+
+On `/boot/loader/loader.conf`insert this:
+
+```sh
+default arch
+timeout 10
+console-mode max
+editor no
+```
+
+<details>
+<summary>Some details about the parameters:</summary>
+
+- `default`: default entry to select;
+- `timeout`: menu timeout in second, useful to allow people who have multiple
+  operating systems;
+- `console-mode`: changes UEFI console mode;
+- `editor`: whether to enable the kernel parameters editor or not. Strongly
+  recommended to set this option to no to avoid bypass root password and gain
+ root access.
+
+</details>
+
+#### Adding the loader
+
+First install the [microcode](https://wiki.archlinux.org/title/microcode):
+
+```sh
+pacman -S amd-ucode
+```
+
+After it, insert on `/boot/loader/entries/arch.conf` this:
+
+```sh
+title Arch Linux
+linux /vmlinuz-linux
+initrd /intel-ucode.img
+initrd /initramfs-linux.img
+options rd.luks.name=$(blkid /dev/nvme0n1p2 -s UUID -o value)=cryptlvm rd.luks.options=discard root=/dev/mapper/vg-root resume=/dev/mapper/vg-root rootfstype=btrfs resume_offset=$(filefrag -v /swapfile | sed '4q;d' | awk '{print $4}' | cut -d'.' -f1) quiet nowatchdog splash rw
+```
+
+### Graphical environment
+
+#### Install the window manager
+
+First of all, install [xorg](https://wiki.archlinux.org/title/xorg):
+
+```sh
+pacman -S xorg-server
+```
+
+Finally, install the [xmonad](https://wiki.archlinux.org/title/xmonad):
+
+```sh
+pacman -S xmonad xmonad-contrib
+```
+
+#### Install a display manager
+
+```sh
+pacman -S lightdm
+systemctl enable lightdm
+```
+
+#### Install a AUR helper
+
+```sh
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -sri
+cd .. && rm -r yay
+```
+
+#### Keyring
+
+```sh
+pacman -S gnome-keyring seahorse
+```
+
+#### Terminal
+
+```sh
+pacman -S alacritty tmux
+```
+
+#### Shell
+
+```sh
+pacman -S fish
+```
+
+#### Image manipulations
+
+```sh
+pacman -S gimp inkscape
+```
+
+#### NTFS
+
+```sh
+pacman -S ntfs-3g
+```
+
+#### Sound system
+
+```sh
+pacman -S pulseaudio alsa-utils pavucontrol alsamixer
+```
+
+#### Other
+
+In order to save the read and write cycles of the SSD and thus extend the lifetime of the SSD, the browser profile can be moved in RAM with profile-sync-daemon:
+
+```sh
+pacman -S profile-sync-daemon
+```
+
+Finally, enable and activate the service:
+
+```sh
+systemctl --user enable psd --now
+```
+
+## After installation
+
+### Enable fstrim
+
+First enable and start `fstrim` timer. On Arch-based system you can do it running
+this commands:
+
+```sh
+sudo systemctl enable fstrim.timer
+sudo systemctl start fstrim.timer
+```
+
+After this, if you running with `LUKS` encryption, you should add some things on
+the Arch entry from systemd-boot, inside `/boot/loader/entries/arch.conf`, add it:
+
+```sh
+...
+options rd.luks.name=<UUID>=cryptlvm ... rd.luks.options=discard
+...
+```
+
+Reboot the system. And now, you can check if it's running correctly executing this
+command: `lsblk --discard`. If has no-zero entries on `DISC-GRAN` and `DISC-MAX`
+columns means TRIM is enabled.
+
+#### References
+
+- [Arch Linux: Periodic TRIM](https://wiki.archlinux.org/title/Solid_state_drive#Periodic_TRIM)
+- [Enable periodic TRIM - including on a LUKS partition](https://confluence.jaytaala.com/display/TKB/Enable+periodic+TRIM+-+including+on+a+LUKS+partition)
+
+### Disable `watchdog`
+
+Append on your boot parameters (probably `/boot/loader/entries/arch.conf`) the following option:
+
+```sh
+...
+options rd.luks.name=<UUID>=cryptlvm ... nowatchdog
+...
+```
+
+After it, you can **optionally** disable the loading of the module responsible of
+the hardware watchdog, too. Do it blacklisting the related module.
+
+Creating a `.conf` inside `/etc/modprobe.d/` and append a line for the module you
+want to blacklist with `blacklist` keyword. Here an example:
+
+```sh
+# /etc/modprobe.d/nowatchdog.conf
+blacklist iTCO_wdt
+```
+
+#### References
+
+- [Arch Linux: Improving performance - Watchdogs](https://wiki.archlinux.org/title/improving_performance#Watchdogs)
+
+## Troubleshooting
+
+### Thinkpad T14 Gen 1 Brazillian keyboard layout
+
+If you are using this installation on a **Thinkpad T14 Gen 1** with a Brazillian
+keyboard layout (ABNT2) like me, you should use this rule to turns the keyboard
+usable. You should run this command:
+
+```sh
+setxkbmap -model thinkpad60 -layout br -variant anbt2
+```
+
+Or just paste the "text" below on the following path: `/etc/X11/xorg.conf.d`:
+
+```sh
+Section "InputClass"
+ Identifier "system-keyboard"
+ MatchIsKeyboard "on"
+ Option "XkbLayout" "br"
+ Option "XkbModel" "thinkpad60"
+ Option "XkbVariant" "abnt2"
+EndSection
+```
+
+## Other installation tutorials
+
+- [GitHub: rememberYou/dotfiles](https://github.com/rememberYou/dotfiles/wiki/Installation)
+- [Manjaro UEFI using systemd-boot, LUKS and btrfs](https://root.nix.dk/en/manjaro-cli-install/systemd-boot-luks-btrfs)
+- [Installing Arch Linux with Btrfs, systemd-boot and LUKS](https://www.nerdstuff.org/posts/2020/2020-004_arch_linux_luks_btrfs_systemd-boot/)
+- [Arch Linux, with LUKS, btrfs, systemd-homed, systemd-oomd, zram swap, encrypted DNS](https://gist.github.com/clavelc/d598781ebd8257f48eee21959bede3bf)
+- [Install Arch Linux with full encrypted btrfs subvolume inside luks](https://gist.github.com/ansulev/7cdf38a3d387599adf9addd248b09db8)
+- [EduardoRFS's gist: arch-tutorial.md](https://gist.github.com/EduardoRFS/a22047bc06b44117ee5d1359eb6ccede)
+- [Arch Linux with LUKS and (almost) no configuration](https://lunaryorn.com/arch-linux-with-luks-and-almost-no-configuration)
+- [ARCH LINUX - UEFI, SYSTEMD-BOOT, LUKS, AND BTRFS](https://austinmorlan.com/posts/arch_linux_install/)
+- [Arch Linux install with BTRFS and encrypted root](https://jlhinson.com/posts/2021-08-19-arch-linux-install)
+- [ArchWiki: User:M0p/LUKS Root on Btrfs](https://wiki.archlinux.org/title/User:M0p/LUKS_Root_on_Btrfs)
+- [Install Arch Linux w/ LVM + LUKS + Systemd-boot](https://marcocetica.com/posts/arch_lvm_luks_guide/)
