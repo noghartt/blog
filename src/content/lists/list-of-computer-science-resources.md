@@ -44,7 +44,7 @@ tags:
 - Transaction Processing: concepts and techniques
 - Modern Computer Architeture and Organization
 
-### Books/Resources
+### Books and Resources
 
 - [CS Curriculum Text Books and references](https://github.com/AB1908/CS-Books/)
 - [Elementary Computer Science: From Bits and Bytes to the Big Picture](https://github.com/ckirsch/book)
@@ -97,8 +97,8 @@ tags:
 - [Free Programming books](https://github.com/EbookFoundation/free-programming-books)
 - [The Elements of Computing System: Building a Modern Computer](https://www.amazon.com.br/Elements-Computing-Systems-Building-Principles/dp/0262640686)
 - [Reading for graduate students - Computer Science](https://matt.might.net/articles/books-papers-materials-for-graduate-students/)
-  - [Book list for streetfighting computer scientists](https://nick-black.com/dankwiki/index.php/Book_list_for_streetfighting_computer_scientists)
-  - [Reading stuffs for Computer Sciences](https://github.com/amilajack/reading)
+- [Book list for streetfighting computer scientists](https://nick-black.com/dankwiki/index.php/Book_list_for_streetfighting_computer_scientists)
+- [Reading stuffs for Computer Sciences](https://github.com/amilajack/reading)
 
 ## Articles
 
@@ -118,10 +118,10 @@ tags:
 - [Xe Iaso's personal blog](https://xeiaso.net/)
 - [Martin Klepmann's blog](https://martin.kleppmann.com/) #computer-science/distsys
 - [Bruce Schneier](https://www.schneier.com/), an awesome person behind cryptography #cryptography
-- [Josh W Corneau](https://www.joshwcomeau.com/), the guy that has a lot of content about front-end, CSS and other related stuffs #front-end #web-development #web-development
+- [Josh W Corneau](https://www.joshwcomeau.com/), the guy that has a lot of content about front-end, CSS and other related stuffs
 - [Bytes](https://bytes.zone/posts/)
 - [TK](https://www.iamtk.co), TeeKay personal blog, an aesthetic blog
-- [Bartosz Millewski](https://bartoszmilewski.com/), Bartosz is some of the best references about [[Category theory]] in the world, and has a lot of good topics about the theme #math/category-theory #math
+- [Bartosz Millewski](https://bartoszmilewski.com/), Bartosz is some of the best references about Category theory in the world, and has a lot of good topics about the theme #math/category-theory #math
 - [Not a Number, by Nanda Syahrasyad](https://www.nan.fyi/)
 - [All things distributed](https://www.allthingsdistributed.com/articles.html), the blog from Werner Vogels, former CTO from Amazon, an authority in distributed systems, event-driven, etc. #computer-science #computer-science/distsys
 - [Firstyear's blog-a-log](https://fy.blackhats.net.au/blog/)
