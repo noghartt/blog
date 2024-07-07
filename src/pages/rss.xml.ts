@@ -44,6 +44,7 @@ export async function GET() {
             'td',
             'thead',
             'tbody',
+            'th',
           ]
         }
       ),
