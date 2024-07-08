@@ -8,3 +8,5 @@ export const SITE = {
 export const GITHUB_PROFILE_URL = 'https://github.com/noghartt';
 export const GITHUB_REPO_URL = `${GITHUB_PROFILE_URL}/blog`;
 export const TWITTER_URL = 'https://twitter.com/noghartt';
+
+export const UMAMI_WEBSITE_ID = import.meta.env.UMAMI_WEBSITE_ID || '';
