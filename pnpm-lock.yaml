@@ -55,6 +55,9 @@ devDependencies:
   '@types/sanitize-html':
     specifier: ^2.8.0
     version: 2.8.0
+  gray-matter:
+    specifier: ^4.0.3
+    version: 4.0.3
   hast:
     specifier: ^1.0.0
     version: 1.0.0

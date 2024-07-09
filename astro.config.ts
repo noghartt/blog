@@ -5,16 +5,28 @@ import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
 import rehypePrettyCode from 'rehype-pretty-code';
 import fs from 'fs/promises';
+import graymatter from 'gray-matter';
+import path from 'path';
 
 import { rehypePluginLinkHeading } from './plugins/rehypePluginLinkHeading';
 import { rehypePluginTableWrapper } from './plugins/rehypePluginTableWrapper';
 
+const BLOG_DIR = './src/content/blog';
+
 const getBlogRoutesRedirect = async () => {
-  const blogRoutesOldSlug = await fs.readdir('./src/content/blog');
-  const blogRoutes = blogRoutesOldSlug.map((route) => [
-    `/${route.replace('.md', '')}`,
-    `/blog/${route.replace('.md', '')}`,
-  ]);
+  const blogRoutesOldSlug = await fs.readdir(BLOG_DIR);
+  const blogRoutes = blogRoutesOldSlug
+    .map(post => {
+      const frontmatter = graymatter.read(path.join(BLOG_DIR, post));
+      return {
+        ...frontmatter,
+        slug: frontmatter.data.slug,
+      }
+    })
+    .map(({ slug }) => [
+      `/${slug}`,
+      `/blog/${slug}`,
+    ]);
 
   return Object.fromEntries(blogRoutes);
 }
