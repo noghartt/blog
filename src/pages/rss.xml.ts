@@ -11,6 +11,7 @@ export async function GET() {
   const posts = await getCollection("blog", ({ data }) => !data.draft);
 
   const items = posts
+    .filter(post => !post.data.draft)
     .sort((a, b) => new Date(b.data.pubDate) - new Date(a.data.pubDate))
     .map(({ data, slug, body }) => ({
       link: slug,
