@@ -14,7 +14,7 @@ export async function GET() {
     .filter(post => !post.data.draft)
     .sort((a, b) => new Date(b.data.pubDate) - new Date(a.data.pubDate))
     .map(({ data, slug, body }) => ({
-      link: slug,
+      link: `/blog/${slug}`,
       title: data.title,
       description: data.description,
       pubDate: data.pubDate,
