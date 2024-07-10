@@ -1,6 +1,43 @@
 {
-  "lastUpdate": "2024-07-08T21:29:45.804Z",
+  "lastUpdate": "2024-07-10T05:05:58.379Z",
   "data": [
+    {
+      "id": "1ffe0692-21f8-4953-9d07-f00a405e6f18",
+      "title": "Scoped Propagators",
+      "url": "https://www.orionreed.com/posts/scoped-propagators",
+      "savedAt": "2024-07-10T04:42:01.000Z",
+      "description": "My research investigates the intersection of computing, human-system interfaces, and emancipatory politics. I am interested in the potential of computing as a medium for thought, as a tool for collective action, and as a means of emancipation.",
+      "tags": []
+    },
+    {
+      "id": "4d3c7716-d9fe-4992-807f-eade901c34f6",
+      "title": "The Architecture of Open Source Applications",
+      "url": "https://aosabook.org/en/",
+      "savedAt": "2024-07-10T02:29:31.000Z",
+      "description": "Architects look at thousands of buildings during their\n  training, and study critiques of those buildings written\n  by masters.  In contrast, most software developers only\n  ever get to know a handful of large programs\n  well—usually programs they wrote\n  themselves—and never study the great programs of\n  history.  As a result, they repeat one another's mistakes\n  rather than building on one another's successes.",
+      "tags": [
+        "books",
+        "cs"
+      ]
+    },
+    {
+      "id": "962cc6d9-548b-453b-941d-8ce25bfbd738",
+      "title": "The Architecture of Open Source Applications (Volume 1)Berkeley DB",
+      "url": "https://aosabook.org/en/v1/bdb.html",
+      "savedAt": "2024-07-10T02:29:29.000Z",
+      "description": "Conway's Law states that a design reflects the structure of the\norganization that produced it. Stretching that a bit, we might\nanticipate that a software artifact designed and initially produced by\ntwo people might somehow reflect, not merely the structure of the\norganization, but the internal biases and philosophies each brings to\nthe table. One of us (Seltzer) has spent her career between the worlds\nof filesystems and database management systems. If questioned, she'll\nargue the two are fundamentally the same thing, and furthermore,\noperating systems and database management systems are essentially both\nresource managers and providers of convenient abstractions. The\ndifferences are \"merely\" implementation details. The other (Bostic)\nbelieves in the tool-based approach to software engineering and in the\nconstruction of components based on simpler building blocks, because\nsuch systems are invariably superior to monolithic architectures in\nthe important \"-bilities\": understandability, extensibility,\nmaintainability, testability, and flexibility.",
+      "tags": []
+    },
+    {
+      "id": "f64527f5-2e65-44da-9d16-821107fe2b38",
+      "title": "Adam Keys is Thinking - Slash pages & micro-features",
+      "url": "https://therealadam.com/2024/07/08/slash-pages-microfeatures.html",
+      "savedAt": "2024-07-09T01:40:20.000Z",
+      "description": "Slash pages:\n …are common pages you can add to your website, usually with a standard, root-level slug like /now, /about, or /uses. They tend to describe the individual behind the site and are distinguishing characteristics of the IndieWeb.\n This sort of thing is what makes personal/humane-scale websites the greatest. So many adventures to choose from!\nMy favorites, already in place here:\n /about – “a page all about you” /blogroll – “a list of other sites that you read, are a follower of, or recommend”  And the ones I need to get off my butt and implement:",
+      "tags": [
+        "web"
+      ]
+    },
     {
       "id": "8a448057-55d5-4cbf-ba83-1d518a7792f1",
       "title": "The Right Kind of Stubborn",
