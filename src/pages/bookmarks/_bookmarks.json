@@ -1,6 +1,125 @@
 {
-  "lastUpdate": "2024-07-10T05:05:58.379Z",
+  "lastUpdate": "2024-07-12T20:28:07.084Z",
   "data": [
+    {
+      "id": "1a91cfb4-13dc-46ad-819f-09a4b2f1f776",
+      "title": "WebGPU Fundamentals",
+      "url": "https://webgpufundamentals.org",
+      "savedAt": "2024-07-12T20:25:41.000Z",
+      "description": "Learn webgpu",
+      "tags": [
+        "cs/graphic"
+      ]
+    },
+    {
+      "id": "7371ed96-f0a7-401b-b957-d50dc56253da",
+      "title": "Agda by Example: λ-calculus",
+      "url": "https://mazzo.li/posts/Lambda.html",
+      "savedAt": "2024-07-12T13:10:45.000Z",
+      "description": "Update: I gave a talk at NY Haskell following this blogpost, although I didn’t manage to talk about everything:",
+      "tags": [
+        "cs/type-system",
+        "functional-programming"
+      ]
+    },
+    {
+      "id": "9ab33cc3-88dd-4328-8d15-370a38a5e071",
+      "title": "The Forth Methodology of Charles Moore by Jeff Fox 12/09/01",
+      "url": "https://www.ultratechnology.com/method.htm",
+      "savedAt": "2024-07-12T12:46:16.000Z",
+      "description": "Essay about the Forth methodology of Chuck Moore as interpreted\nby Jeff Fox",
+      "tags": [
+        "career",
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "848b4e79-2ced-4e0b-9e7a-c413ec9518e3",
+      "title": "Let's reproduce GPT-2 (1.6B): one 8XH100 node, 24 hours, $672, in llm.c · karpathy/llm.c · Discussion #677",
+      "url": "https://github.com/karpathy/llm.c/discussions/677",
+      "savedAt": "2024-07-12T01:49:04.000Z",
+      "description": "In this post we are reproducing GPT-2 in llm.c. This is \"the GPT-2\", the full, 1558M parameter version that was introduced in OpenAI's blog post Better Language Models and their Impli...",
+      "tags": []
+    },
+    {
+      "id": "b2f11275-9ab9-4a13-92a5-2a89d69db4f3",
+      "title": "Why I’m Writing A Book On Cryptography",
+      "url": "https://www.cryptologie.net/article/504/why-im-writing-a-book-on-cryptography/",
+      "savedAt": "2024-07-12T01:27:21.000Z",
+      "description": "I’ve now been writing a book on applied cryptography for a year and a half.\nI’m nearing the end of my journey, as I have one last ambitious chapter left to write: next-generation cryptography (a chapter that I’ll use to talk about cryptography that will become more and more practical: post-quantum cryptography, homomorphic encryption, multi-party computation, and zk-SNARKs).\nI’ve been asked multip ...",
+      "tags": [
+        "cs/cryptography"
+      ]
+    },
+    {
+      "id": "3eaa5e20-b009-42d7-9e04-6beddc9ec230",
+      "title": "Welcome … — Physics-based Deep Learning",
+      "url": "https://physicsbaseddeeplearning.org/intro.html",
+      "savedAt": "2024-07-12T01:26:52.000Z",
+      "description": "Welcome to the Physics-based Deep Learning Book (v0.2) 👋",
+      "tags": [
+        "books",
+        "cs/ai",
+        "for-later"
+      ]
+    },
+    {
+      "id": "6597ed9a-3fd1-11ef-be52-cf52bb66c81f",
+      "title": "11-ghuloum",
+      "url": "http://scheme2006.cs.uchicago.edu/11-ghuloum.pdf",
+      "savedAt": "2024-07-11T22:03:27.000Z",
+      "description": null,
+      "tags": [
+        "cs/compilers",
+        "for-later",
+        "type/paper"
+      ]
+    },
+    {
+      "id": "c522f0a7-cf77-401f-bbd8-a46157f95aed",
+      "title": "lorin/systems-reading: Systems and failure reading list",
+      "url": "https://github.com/lorin/systems-reading",
+      "savedAt": "2024-07-11T02:06:52.000Z",
+      "description": "Systems and failure reading list. Contribute to lorin/systems-reading development by creating an account on GitHub.",
+      "tags": [
+        "repository",
+        "resource/list",
+        "systems-theory"
+      ]
+    },
+    {
+      "id": "cdf2f0ac-3f08-11ef-982f-63c41bac7c6f",
+      "title": "time-clocks",
+      "url": "https://lamport.azurewebsites.net/pubs/time-clocks.pdf",
+      "savedAt": "2024-07-10T22:07:33.000Z",
+      "description": null,
+      "tags": [
+        "type/paper",
+        "cs/distsys",
+        "for-later"
+      ]
+    },
+    {
+      "id": "a398b867-5218-4e85-ba21-437e4f8dbde3",
+      "title": "Deep-ML",
+      "url": "https://www.deep-ml.com",
+      "savedAt": "2024-07-10T14:46:07.000Z",
+      "description": "1\n        \n        2\n        \n        \n        Next",
+      "tags": [
+        "cs/ai",
+        "resource/list"
+      ]
+    },
+    {
+      "id": "8fc751d3-e484-4db4-b205-cf26232fd3c5",
+      "title": "MathPages",
+      "url": "https://www.mathpages.com",
+      "savedAt": "2024-07-10T13:10:59.000Z",
+      "description": null,
+      "tags": [
+        "math"
+      ]
+    },
     {
       "id": "1ffe0692-21f8-4953-9d07-f00a405e6f18",
       "title": "Scoped Propagators",
