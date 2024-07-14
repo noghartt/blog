@@ -1,6 +1,185 @@
 {
-  "lastUpdate": "2024-07-12T20:28:07.084Z",
+  "lastUpdate": "2024-07-14T18:01:22.456Z",
   "data": [
+    {
+      "id": "4ef0e5f7-1865-43d3-a7d7-fc4e0639cccf",
+      "title": "How and why we built our startup around small teams",
+      "url": "https://newsletter.posthog.com/p/the-magic-of-small-engineering-teams",
+      "savedAt": "2024-07-14T17:56:09.000Z",
+      "description": "Creating a startup of small teams can help you ship stupidly fast.",
+      "tags": [
+        "career"
+      ]
+    },
+    {
+      "id": "1edc2399-aff9-4357-8b25-ecd5f53fdcec",
+      "title": "Where Did Combinators Come From? Hunting the Story of Moses Schönfinkel—Stephen Wolfram Writings",
+      "url": "https://writings.stephenwolfram.com/2020/12/where-did-combinators-come-from-hunting-the-story-of-moses-schonfinkel/",
+      "savedAt": "2024-07-14T17:48:54.000Z",
+      "description": "A dive into the unknown personal and academic history of the mathematician who developed combinators, Moses Schönfinkel.",
+      "tags": [
+        "math"
+      ]
+    },
+    {
+      "id": "9bee513c-6efe-47dd-8369-38e9f3a8676f",
+      "title": "A Race to the Bottom - Database Transactions Undermining Your AppSec · Doyensec's Blog",
+      "url": "https://blog.doyensec.com/2024/07/11/database-race-conditions.html",
+      "savedAt": "2024-07-14T16:54:41.000Z",
+      "description": "A Race to the Bottom - Database Transactions Undermining Your AppSec",
+      "tags": [
+        "cs/database",
+        "for-later"
+      ]
+    },
+    {
+      "id": "6597ed9a-3fd1-11ef-be52-cf52bb66c81f",
+      "title": "11-ghuloum",
+      "url": "http://scheme2006.cs.uchicago.edu/11-ghuloum.pdf",
+      "savedAt": "2024-07-14T16:54:20.000Z",
+      "description": null,
+      "tags": [
+        "cs/compilers",
+        "cs/pl-theory",
+        "for-later",
+        "papers"
+      ]
+    },
+    {
+      "id": "ba967a4b-c922-4ce0-9a94-9673b3add4a0",
+      "title": "Beating the L1 cache with value speculation",
+      "url": "https://mazzo.li/posts/value-speculation.html",
+      "savedAt": "2024-07-14T16:53:55.000Z",
+      "description": "If we have a heuristic to guess some value cheaply, we can remove a data dependency in a tight loop using the branch predictor. This allows the CPU to run more instructions in parallel, increasing performance. If this explanation does not make much sense to you, keep reading to learn about some of the magic making your CPU fast!",
+      "tags": [
+        "cs",
+        "til"
+      ]
+    },
+    {
+      "id": "fb5832b1-3fc9-4d47-834f-cc747f19ff2c",
+      "title": "A malleable garden",
+      "url": "https://www.petemillspaugh.com/malleable-garden",
+      "savedAt": "2024-07-14T16:39:01.000Z",
+      "description": "Pete Millspaugh's digital garden",
+      "tags": [
+        "writing"
+      ]
+    },
+    {
+      "id": "a5da013e-41fe-11ef-a8a2-ef4b25dbabdd",
+      "title": "The microarchitecture of Intel and AMD CPUs",
+      "url": "https://www.agner.org/optimize/microarchitecture.pdf",
+      "savedAt": "2024-07-14T16:32:25.000Z",
+      "description": null,
+      "tags": [
+        "books",
+        "hardware"
+      ]
+    },
+    {
+      "id": "d09f114c-830c-43c8-94fd-5458b458ad6a",
+      "title": "O tal do Isolamento no A.C.I.D. - Alen Vieira",
+      "url": "https://alenvieira.github.io/posts/o-tal-do-isolamento/",
+      "savedAt": "2024-07-14T05:26:56.000Z",
+      "description": "Vamos aprofundar um pouco sobre o isolamento?",
+      "tags": [
+        "cs/database"
+      ]
+    },
+    {
+      "id": "8fac2c1a-b586-434e-b7df-34da24792dbe",
+      "title": "Matrix Theory of Mind - by Thorsten Ball - Register Spill",
+      "url": "https://registerspill.thorstenball.com/p/matrix-theory-of-mind",
+      "savedAt": "2024-07-14T01:01:53.000Z",
+      "description": "A few months ago I listened to this episode of the Search Engine podcast in which PJ Vogt, the host, talks to Ezra Klein about the internet and media consumption in general. In the episode, Ezra Klein shares what he thinks of as the “Matrix Theory of Mind”. Here’s my (slightly cleaned up) transcription of",
+      "tags": [
+        "reading"
+      ]
+    },
+    {
+      "id": "24911880-03e4-4d46-a869-92ff3db439bd",
+      "title": "Three important steps before jumping to the code",
+      "url": "https://stebunov.com/three-steps/",
+      "savedAt": "2024-07-14T00:59:36.000Z",
+      "description": "As a developer, how do you start building a new feature? You may think, \"It depends,\" and it certainly does. However, there could be frameworks that fit many situations, and I'd like to suggest one",
+      "tags": [
+        "career"
+      ]
+    },
+    {
+      "id": "3034e423-3dea-4b44-a1f2-83259cbba5de",
+      "title": "Trust as a bottleneck to growing teams quickly | benkuhn.net",
+      "url": "https://www.benkuhn.net/trust/",
+      "savedAt": "2024-07-14T00:56:15.000Z",
+      "description": "non-trust is reasonable • trust lets collaboration scale • symptoms of trust deficit • how to proactively build trust",
+      "tags": [
+        "career"
+      ]
+    },
+    {
+      "id": "ee25b81a-6659-4cdc-81d7-07240f8c2343",
+      "title": "CSS GPU Animation: Doing It Right — Smashing Magazine",
+      "url": "https://www.smashingmagazine.com/2016/12/gpu-animation-doing-it-right/",
+      "savedAt": "2024-07-14T00:41:07.000Z",
+      "description": "Sometimes animation that is nice and smooth in a simple demo runs very slowly on a real website, introduces visual artefacts or even crashes the browser. Why does this happen? How do we fix it? In this article, Sergey Chikuyonok aims to help you to better understand how the browser uses the GPU to render, so that you can create impressive websites that run quickly on all devices. Let’s do it!",
+      "tags": [
+        "for-later",
+        "web"
+      ]
+    },
+    {
+      "id": "baa9919d-2504-4860-a036-618ebb1d2dc8",
+      "title": "15 rules for blogging, and my current streak (Interconnected)",
+      "url": "https://interconnected.org/home/2020/09/10/streak",
+      "savedAt": "2024-07-14T00:36:20.000Z",
+      "description": "Posted on Thursday 10 Sep 2020. 493 words, 2 links. By Matt Webb.",
+      "tags": [
+        "writing"
+      ]
+    },
+    {
+      "id": "cbd6ab82-2483-4ede-94e5-0b23e0ce96a0",
+      "title": "Adam Keys is Thinking - Journal, highlight, revisit, blog",
+      "url": "https://therealadam.com/2024/07/13/journal-highlight-revisit.html",
+      "savedAt": "2024-07-14T00:33:47.000Z",
+      "description": "Writing from notes is a bootstrapping problem. Anything you can do to get started, overcome static friction, and “defeat” the first blank canvas is the best thing you can do.\nI started with journaling. Don’t worry about the quality or quantity — yet. Just write. Start with recollections of your day(s) and branch out from there.\nThere is a trough of despair, at some point. It may feel like you’re just writing into a void.",
+      "tags": [
+        "self-improvement",
+        "writing"
+      ]
+    },
+    {
+      "id": "1238296c-59ee-459c-bbe5-5c715bbbd2e9",
+      "title": "Superbabies: Putting The Pieces Together — LessWrong",
+      "url": "https://www.lesswrong.com/posts/2uJsiQqHTjePTRqi4/superbabies-putting-the-pieces-together",
+      "savedAt": "2024-07-14T00:19:11.000Z",
+      "description": "This post was inspired by some talks at the recent LessOnline conference including one by LessWrong user “Gene Smith”. …",
+      "tags": [
+        "biology"
+      ]
+    },
+    {
+      "id": "88347a97-f38c-427c-af90-a1a5f2cf4cd4",
+      "title": "89 things I know about Git commits · Jamie Tanna | Software Engineer",
+      "url": "https://www.jvt.me/posts/2024/07/12/things-know-commits/",
+      "savedAt": "2024-07-13T02:48:42.000Z",
+      "description": "Some of the things I've learned over a decade of Git usage, and working on writing good commit messages.",
+      "tags": [
+        "cs"
+      ]
+    },
+    {
+      "id": "0a05a3aa-87de-49c6-b26c-ffd5c200b8d6",
+      "title": "Use A Work Journal To Recover Focus Faster And Clarify Your Thoughts",
+      "url": "https://fev.al/posts/work-journal/",
+      "savedAt": "2024-07-13T02:17:57.000Z",
+      "description": "You’re working on the most complex problem in computer science: fixing permissions on a deployment pipeline. It’s been 4 days you started on that simple task...",
+      "tags": [
+        "career",
+        "self-improvement"
+      ]
+    },
     {
       "id": "1a91cfb4-13dc-46ad-819f-09a4b2f1f776",
       "title": "WebGPU Fundamentals",
@@ -61,18 +240,6 @@
         "books",
         "cs/ai",
         "for-later"
-      ]
-    },
-    {
-      "id": "6597ed9a-3fd1-11ef-be52-cf52bb66c81f",
-      "title": "11-ghuloum",
-      "url": "http://scheme2006.cs.uchicago.edu/11-ghuloum.pdf",
-      "savedAt": "2024-07-11T22:03:27.000Z",
-      "description": null,
-      "tags": [
-        "cs/compilers",
-        "for-later",
-        "type/paper"
       ]
     },
     {
