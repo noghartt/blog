@@ -1,6 +1,17 @@
 {
-  "lastUpdate": "2024-07-14T18:01:22.456Z",
+  "lastUpdate": "2024-07-14T18:33:55.103Z",
   "data": [
+    {
+      "id": "ab60f1cc-e681-4e63-89c5-04c4e7cd638e",
+      "title": "The Hazardous Life of an Undersea Cable",
+      "url": "https://www.youtube.com/watch?v=AFt9le2ytW0",
+      "savedAt": "2024-07-14T18:22:37.000Z",
+      "description": "Links:\n- The Asianometry Newsletter: https://www.asianometry.com\n- Patreon: https://www.patreon.com/Asianometry\n- Threads: https://www.threads.net/@asianometry\n- Twitter: https://twitter.com/asianometry",
+      "tags": [
+        "cs/networking",
+        "type/video"
+      ]
+    },
     {
       "id": "4ef0e5f7-1865-43d3-a7d7-fc4e0639cccf",
       "title": "How and why we built our startup around small teams",
@@ -34,7 +45,7 @@
     },
     {
       "id": "6597ed9a-3fd1-11ef-be52-cf52bb66c81f",
-      "title": "11-ghuloum",
+      "title": "An Incremental Approach to Compiler Construction",
       "url": "http://scheme2006.cs.uchicago.edu/11-ghuloum.pdf",
       "savedAt": "2024-07-14T16:54:20.000Z",
       "description": null,
