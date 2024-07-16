@@ -31,6 +31,12 @@ export async function getStaticPaths() {
       console.log(err);
     }
 
+    const commits = await git.log();
+
+    console.log({
+      commits: commits.all.length,
+    });
+
     return {
       params: {
         slug: post.slug,
