@@ -111,9 +111,11 @@ const status = post.data?.status;
             <ul>
               {tableOfContents.map(({ text, url, depth }) => (
                 <li style={{ marginLeft: `${depth * 16}px` }}>
-                  <Link href={url}>
-                    <p>{text}</p>
-                  </Link>
+                  <div>
+                    <Link href={url}>
+                      <p>{text}</p>
+                    </Link>
+                  </div>
                 </li>
               ))}
             </ul>
