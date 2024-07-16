@@ -31,6 +31,13 @@ export async function getStaticPaths() {
       console.log(err);
     }
 
+    const commits = await git.log();
+
+    console.log({
+      lastCommit,
+      commits: commits.all.length,
+    });
+
     return {
       params: {
         slug: post.slug,
@@ -63,8 +70,6 @@ const tableOfContents = headings
     url: `#${headings.slug}`,
     depth: headings.depth === 2 ? 1 : 2,
   }));
-
-const status = post.data?.status;
 
 ---
 
