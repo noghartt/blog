@@ -21,24 +21,18 @@ export async function getStaticPaths() {
   const posts = await getCollection('blog');
 
   const postsMapped = posts.map(async post => {
-    const file = path.join(process.cwd(), 'src', 'content', 'blog', post.id);
-
-    console.log({ file });
+    // @ts-ignore
+    const __dirname = path.dirname(import.meta.dirname);
+    const file = path.join(__dirname, '..', '..', 'content', 'blog', post.id);
 
     let lastCommit: GitLogCommit | null = null;
     try {
       const log = await git.log({ file });
       lastCommit = log.latest;
-      console.log(lastCommit);
+      console.log({ log, file })
     } catch (err) {
       console.log(err);
     }
-
-    const commits = await git.log();
-
-    console.log({
-      commits: commits.all.length,
-    });
 
     return {
       params: {
