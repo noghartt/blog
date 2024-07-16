@@ -2,36 +2,56 @@
 import { getCollection } from 'astro:content';
 import type { CollectionEntry } from 'astro:content';
 import dayjs from 'dayjs';
+import simpleGit, { type DefaultLogFields, type ListLogLine } from 'simple-git';
+import path from 'path';
 
 import Link from '../../../components/Link.astro';
 import Layout from '../../../layout/Layout.astro';
 import GoBackButton from '../../../components/GoBackButton.astro';
-import { SITE } from '../../../config';
+import { GITHUB_REPO_URL, SITE } from '../../../config';
 
+type GitLogCommit = DefaultLogFields & ListLogLine;
 interface Props {
   post: CollectionEntry<'blog'>;
+  lastCommit: GitLogCommit | null;
 }
 
 export async function getStaticPaths() {
+  const git = simpleGit();
   const posts = await getCollection('blog');
 
-  return posts.map(post => ({
-    params: {
-      slug: post.slug,
-    },
-    props: {
-      post: {
-        ...post,
-        data: {
-          ...post.data,
-          tags: post.data.tags || [],
-        }
-      },
+  const postsMapped = posts.map(async post => {
+    const file = path.join(process.cwd(), 'src', 'content', 'blog', post.id);
+
+    let lastCommit: GitLogCommit | null = null;
+    try {
+      const log = await git.log({ file });
+      lastCommit = log.latest;
+    } catch (err) {
+      console.log(err);
     }
-  }));
+
+    return {
+      params: {
+        slug: post.slug,
+      },
+      props: {
+        lastCommit,
+        post: {
+          ...post,
+          data: {
+            ...post.data,
+            tags: post.data.tags || [],
+          }
+        },
+      }
+    };
+  });
+
+  return Promise.all(postsMapped);
 }
 
-const { post } = Astro.props;
+const { post, lastCommit } = Astro.props;
 const { Content, headings } = await post.render();
 
 const date = dayjs(post.data.pubDate).format('YYYY-MM-DD HH:mm');
@@ -44,6 +64,8 @@ const tableOfContents = headings
     depth: headings.depth === 2 ? 1 : 2,
   }));
 
+const status = post.data?.status;
+
 ---
 
 <Layout
@@ -53,10 +75,22 @@ const tableOfContents = headings
   <GoBackButton />
 
   <section class="header">
-      <section>
-        <h1>{post.data.title}</h1>
-        <p>{date}</p>
-      </section>
+    <section>
+      <h1>{post.data.title}</h1>
+      <hr />
+      <p>
+        <strong>Created at:</strong>
+        {date}
+      </p>
+      {lastCommit ? (
+        <p>
+          <strong>Last updated at:</strong>
+          <span>
+            {dayjs(lastCommit.date).format('YYYY-MM-DD HH:mm')}
+            (<Link href={`${GITHUB_REPO_URL}/commit/${lastCommit.hash.slice(0, 7)}`} isExternal>{lastCommit.hash.slice(0, 7)}</Link>)
+          </span>
+        </p>
+      ) : null}
       <section class="tags">
         {post.data.tags.map((tag: string) => (
           <Link href={`/tag/${tag}`}>
@@ -64,6 +98,7 @@ const tableOfContents = headings
           </Link>
         ))}
       </section>
+    </section>
   </section>
 
   <article>
