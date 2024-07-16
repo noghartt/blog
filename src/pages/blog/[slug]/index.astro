@@ -21,8 +21,6 @@ export async function getStaticPaths() {
   const posts = await getCollection('blog');
 
   const postsMapped = posts.map(async post => {
-    // @ts-ignore
-    const __dirname = path.dirname(import.meta.dirname);
     const file = path.join(process.cwd(), 'src', 'content', 'blog', post.id);
 
     let lastCommit: GitLogCommit | null = null;
