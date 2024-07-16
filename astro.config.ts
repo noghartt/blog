@@ -10,6 +10,7 @@ import path from 'path';
 
 import { rehypePluginLinkHeading } from './plugins/rehypePluginLinkHeading';
 import { rehypePluginTableWrapper } from './plugins/rehypePluginTableWrapper';
+import { remarkPluginReadingTime } from './plugins/remarkPluginReadingTime';
 
 const BLOG_DIR = './src/content/blog';
 
@@ -42,7 +43,8 @@ export default defineConfig({
   markdown: {
     syntaxHighlight: false,
     remarkPlugins: [
-      remarkMath
+      remarkMath,
+      remarkPluginReadingTime,
     ],
     rehypePlugins: [
       rehypeKatex,

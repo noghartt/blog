@@ -52,7 +52,7 @@ export async function getStaticPaths() {
 }
 
 const { post, lastCommit } = Astro.props;
-const { Content, headings } = await post.render();
+const { Content, headings, remarkPluginFrontmatter } = await post.render();
 
 const date = dayjs(post.data.pubDate).format('YYYY-MM-DD HH:mm');
 
@@ -63,6 +63,8 @@ const tableOfContents = headings
     url: `#${headings.slug}`,
     depth: headings.depth === 2 ? 1 : 2,
   }));
+
+const readingTime = remarkPluginFrontmatter.readingTime;
 
 ---
 
@@ -86,6 +88,12 @@ const tableOfContents = headings
             {dayjs(lastCommit.date).format('YYYY-MM-DD HH:mm')}
             (<Link href={`${GITHUB_REPO_URL}/commit/${lastCommit.hash.slice(0, 7)}`} isExternal>{lastCommit.hash.slice(0, 7)}</Link>)
           </span>
+        </p>
+      ) : null}
+      {readingTime ? (
+        <p>
+          <strong>Reading time:</strong>
+          {readingTime.text} ({readingTime.words} words)
         </p>
       ) : null}
       <section class="tags">
