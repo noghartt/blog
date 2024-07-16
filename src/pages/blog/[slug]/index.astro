@@ -75,7 +75,6 @@ const tableOfContents = headings
   <section class="header">
     <section>
       <h1>{post.data.title}</h1>
-      <hr />
       <p>
         <strong>Created at:</strong>
         {date}
@@ -150,6 +149,10 @@ const tableOfContents = headings
   .toc ul {
     /* TODO: The flexbox seems not working in Chrome. */
     margin-top: var(--spacing-2x);
+  }
+
+  .toc h2 {
+    border-bottom: none;
   }
 
   article {
