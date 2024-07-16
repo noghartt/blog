@@ -89,6 +89,7 @@ const tableOfContents = headings
         </p>
       ) : null}
       <section class="tags">
+        <strong>Tags:</strong>
         {post.data.tags.map((tag: string) => (
           <Link href={`/tag/${tag}`}>
             <p>#{tag}</p>
