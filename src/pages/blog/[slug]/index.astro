@@ -27,7 +27,6 @@ export async function getStaticPaths() {
     try {
       const log = await git.log({ file });
       lastCommit = log.latest;
-      console.log({ log, file })
     } catch (err) {
       console.log(err);
     }
@@ -64,9 +63,6 @@ const tableOfContents = headings
     url: `#${headings.slug}`,
     depth: headings.depth === 2 ? 1 : 2,
   }));
-
-
-console.log({ lastCommit });
 
 ---
 
