@@ -23,7 +23,7 @@ export async function getStaticPaths() {
   const postsMapped = posts.map(async post => {
     // @ts-ignore
     const __dirname = path.dirname(import.meta.dirname);
-    const file = path.join(__dirname, '..', '..', 'content', 'blog', post.id);
+    const file = path.join(process.cwd(), 'src', 'content', 'blog', post.id);
 
     let lastCommit: GitLogCommit | null = null;
     try {
