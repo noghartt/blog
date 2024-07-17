@@ -46,6 +46,7 @@ export async function GET() {
             'thead',
             'tbody',
             'th',
+            'blockquote',
           ]
         }
       ),
