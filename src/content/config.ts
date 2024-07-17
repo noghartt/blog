@@ -7,7 +7,7 @@ const blogCollection = defineCollection({
     .object({
       title: z.string(),
       pubDate: z.coerce.date(),
-      tags: z.optional(z.array(z.string())),
+      tags: z.array(z.string()).optional(),
       draft: z.boolean().optional(),
     })
     .merge(rssSchema)
@@ -17,9 +17,9 @@ const listsCollection = defineCollection({
   type: 'content',
   schema: z
     .object({
-      tags: z.optional(z.array(z.string())),
-    })
-    .merge(rssSchema)
+      title: z.string(),
+      tags: z.array(z.string()).optional(),
+    }),
 });
 
 export const collections = {
