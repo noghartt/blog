@@ -101,7 +101,14 @@ const writeJsonFile = async (data: any) => {
 
     after = nextBookmarks.data.data.search.pageInfo.endCursor;
     hasNextPage = nextBookmarks.data.data.search.pageInfo.hasNextPage;
-    bookmarksList.push(...nextBookmarks.data.data.search.edges.map(mapBookmark));
+
+    const alreadyExists = bookmarksList.find(bookmark => bookmark.url === nextBookmarks.data.data.search.edges[0].node.url)
+
+    if (!alreadyExists) {
+      bookmarksList.push(...nextBookmarks.data.data.search.edges.map(mapBookmark));
+    } else {
+      console.log('Already exists:', nextBookmarks.data.data.search.edges[0].node.url);
+    }
   }
 
   await writeJsonFile(bookmarksList);
