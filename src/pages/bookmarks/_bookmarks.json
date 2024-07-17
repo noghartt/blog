@@ -1,6 +1,166 @@
 {
-  "lastUpdate": "2024-07-14T18:33:55.103Z",
+  "lastUpdate": "2024-07-17T03:34:16.332Z",
   "data": [
+    {
+      "id": "c1874115-2161-4f2d-92ec-47a62a87cdaa",
+      "title": "untitled1.html",
+      "url": "http://larch-www.lcs.mit.edu:8001/~corbato/turing91/",
+      "savedAt": "2024-07-17T03:33:59.000Z",
+      "description": "It is an honor and a pleasure to accept the Alan Turing Award. My own work\nhas been on computer systems and that will be my theme. It is the essence\nof systems that they are integrating efforts, requiring broad knowledge\nof the problem area to be addressed, and that the detailed knowledge required\nis rarely held by one person. Thus the work of systems is usually done by\nteams and so it is in my case too. Hence I am accepting this award on behalf\nof the many whom I have worked with as much as for myself. It is not practical\nto name them all, so I will not. Nevertheless I would like to give special\nmention to Marjorie Daggett and Bob Daley for their parts in the birth of\nCTSS and to Bob Fano and the late Ted Glaser for their critical contributions\nto the development of the Multics System.",
+      "tags": [
+        "cs/distsys",
+        "systems-theory"
+      ]
+    },
+    {
+      "id": "ffa90748-bac4-4e20-a787-3257d11aa5fb",
+      "title": "The Backup And Sync Strategy, Revised | Brain Baking",
+      "url": "https://brainbaking.com/post/2024/05/the-backup-and-sync-strategy-revised/",
+      "savedAt": "2024-07-17T03:30:36.000Z",
+      "description": "After fiddling with various ways to sync notes across multiple vaults and iterating on my local data …",
+      "tags": [
+        "cs",
+        "homelab"
+      ]
+    },
+    {
+      "id": "be2467fd-1002-455e-b1e4-9a207c2c7d83",
+      "title": "Keep perfecting your config • Buttondown",
+      "url": "https://buttondown.email/hillelwayne/archive/keep-perfecting-your-config/",
+      "savedAt": "2024-07-16T22:43:41.000Z",
+      "description": "Make your tools work better for you.",
+      "tags": [
+        "cs"
+      ]
+    },
+    {
+      "id": "b0455d38-e672-44ed-b0cc-9ab7bb1cbc9e",
+      "title": "interdb.jp",
+      "url": "https://www.interdb.jp/dl/",
+      "savedAt": "2024-07-16T14:23:43.000Z",
+      "description": "In the previous two golden ages (1950s-1960s and the 1980s),\nour expectations outpaced the capabilities of the technology at the time, leading to disappointment.\nIn contrast, the AI technology of the current golden age, which began in the mid-2010s, has consistently exceeded our expectations.",
+      "tags": [
+        "books",
+        "cs/ai",
+        "for-later"
+      ]
+    },
+    {
+      "id": "3f15b6ba-2b0e-4478-9ca6-629af24ad45f",
+      "title": "Software Engineering Is Not Engineering | Brain Baking",
+      "url": "https://brainbaking.com/post/2021/06/software-engineering-is-not-engineering/",
+      "savedAt": "2024-07-16T14:18:57.000Z",
+      "description": "Rather, it's Reflection-in-action! Or is it?",
+      "tags": [
+        "career",
+        "cs"
+      ]
+    },
+    {
+      "id": "a5846f54-f5b9-410f-bb79-c82159ee0183",
+      "title": "How to Create a Liquid Raymarching Scene Using Three.js Shading Language | Codrops",
+      "url": "https://tympanus.net/codrops/2024/07/15/how-to-create-a-liquid-raymarching-scene-using-three-js-shading-language/",
+      "savedAt": "2024-07-16T13:52:35.000Z",
+      "description": "An introduction to Raymarching using the power of Signed Distance Fields (SDFs) and simple lighting to create a liquid shape effect.",
+      "tags": [
+        "cs/computer-graphics",
+        "for-later",
+        "web"
+      ]
+    },
+    {
+      "id": "c3a5ee01-7769-4c1e-a9bb-aa52705399e1",
+      "title": "Setting up an x86 CPU in 64-bit mode",
+      "url": "https://thasso.xyz/2024/07/13/setting-up-an-x86-cpu.html",
+      "savedAt": "2024-07-15T12:55:06.000Z",
+      "description": "My personal blog about things I find interesting. Hit me up!",
+      "tags": [
+        "cs/operating-system",
+        "hardware"
+      ]
+    },
+    {
+      "id": "5d8e9ac2-c331-418c-b8bc-bedc21cf33ad",
+      "title": "sbensu: We need visual programming. No, not like that.",
+      "url": "https://blog.sbensu.com/posts/demand-for-visual-programming/",
+      "savedAt": "2024-07-15T12:16:33.000Z",
+      "description": "Why do we keep building visual programming environments? Why do we never use them? What should we do instead?",
+      "tags": [
+        "cs",
+        "programming"
+      ]
+    },
+    {
+      "id": "f512ed5d-d098-488f-a6ca-18caa7571a9d",
+      "title": "Jonas Hietala: Microfeatures in my blog",
+      "url": "https://www.jonashietala.se/blog/2024/07/09/microfeatures_in_my_blog/",
+      "savedAt": "2024-07-15T01:44:53.000Z",
+      "description": "A while I ago I encountered a blog post called Microfeatures I Love in Blogs and Personal Websites, and together with the related Hacker News discussion I got nerd sniped.\n(I spent more time than I care to admit implementing new and exciting microfeatures for the blog.)",
+      "tags": [
+        "writing"
+      ]
+    },
+    {
+      "id": "6b9c487b-b365-4990-830d-f93825114040",
+      "title": "Bio-digital jazz, man",
+      "url": "https://biodigitaljazz.net/blog/systemantics.html",
+      "savedAt": "2024-07-15T01:23:50.000Z",
+      "description": "Systemantics is a silly little\nbook by John Gall with some interesting ideas about how systems (barely) work and why they fail. Below is\na summary of the book’s axioms.",
+      "tags": [
+        "systems-theory"
+      ]
+    },
+    {
+      "id": "3340b7b1-335c-4dae-a9f3-97db916a3958",
+      "title": "Linear Algebra Fundamentals",
+      "url": "https://www.iamtk.co/series/mathematics-for-machine-learning/linear-algebra-fundamentals",
+      "savedAt": "2024-07-15T01:21:38.000Z",
+      "description": "Learning the fundamentals of Linear Algebra for Machine Learning",
+      "tags": [
+        "for-later",
+        "math"
+      ]
+    },
+    {
+      "id": "7568c875-711a-46d8-b8fc-434c49f54b0f",
+      "title": "Hugo Sidenotes Shortcode :: dade",
+      "url": "https://0xda.de/blog/2024/07/hugo-sidenotes-shortcode/",
+      "savedAt": "2024-07-15T01:18:37.000Z",
+      "description": "I’ve recently really enjoyed a number of small features that make blogs feel more… interesting. One of those features is sidenotes. They are like footnotes, except, well, on the side. As someone who writes with a lot of parentheticals, a sidenote seems like a great way to remove my comment out of the flow of the sentence and I can make it separate, but still easy to read.\nI am certainly not the first to add sidenotes to my blog.",
+      "tags": [
+        "writing"
+      ]
+    },
+    {
+      "id": "3f44bf04-76aa-4890-b573-51933f61b2a0",
+      "title": "On reading about optimizing compilers | Ludwig",
+      "url": "https://ludwigabap.bearblog.dev/recent-reads-on-optimizing-compilers/",
+      "savedAt": "2024-07-15T01:06:28.000Z",
+      "description": "I was asked (on ) to dump some of my reading from the last two days on optimizing compilers -- here they are. For context, I never actually wrote a compiler ...",
+      "tags": [
+        "cs/compilers"
+      ]
+    },
+    {
+      "id": "b684513f-dfb0-402b-b51a-dd02f629d70d",
+      "title": "The humble beginning of id Software | Brachiosoft Blog",
+      "url": "https://blog.brachiosoft.com/en/posts/doom-1/",
+      "savedAt": "2024-07-14T21:51:36.000Z",
+      "description": "This article is translated from the original Chinese edition.",
+      "tags": [
+        "computer-history"
+      ]
+    },
+    {
+      "id": "c8e4bed7-62d4-4e13-8f89-b19b7b62c841",
+      "title": "Understanding 3D Graphics | Azeem Bande-Ali | azeemba.com",
+      "url": "https://azeemba.com/posts/understanding-3d-graphics.html",
+      "savedAt": "2024-07-14T20:36:56.000Z",
+      "description": "First 3D model I ever made! (Jan 2020) I started playing around with Blender to learn 3D modeling and animation in 2020. I loved the experience but I had trouble understanding some …",
+      "tags": [
+        "cs/computer-graphics"
+      ]
+    },
     {
       "id": "ab60f1cc-e681-4e63-89c5-04c4e7cd638e",
       "title": "The Hazardous Life of an Undersea Cable",
