@@ -1,6 +1,18 @@
 {
-  "lastUpdate": "2024-07-20T05:25:19.345Z",
+  "lastUpdate": "2024-07-20T05:44:27.067Z",
   "data": [
+    {
+      "id": "35f7f620-da55-4d5f-b994-e022bb65add8",
+      "title": "RFC 677: Maintenance of duplicate databases",
+      "url": "https://www.rfc-editor.org/rfc/rfc677",
+      "savedAt": "2024-07-20T05:43:00.000Z",
+      "description": null,
+      "tags": [
+        "cs/distsys",
+        "for-later",
+        "type/rfc"
+      ]
+    },
     {
       "id": "296b8322-e096-428a-87c2-dfcfb552de44",
       "title": "Alternative Technologies",
@@ -11,14 +23,6 @@
         "cs/database",
         "resource/list"
       ]
-    },
-    {
-      "id": "0984132a-3bc8-44ad-a156-b6907c57ac5b",
-      "title": "(11) WhatsApp",
-      "url": "https://web.whatsapp.com",
-      "savedAt": "2024-07-19T14:21:25.000Z",
-      "description": "Quickly send and receive WhatsApp messages right from your computer.",
-      "tags": []
     },
     {
       "id": "18065411-94de-453b-a96f-38459659daaa",
