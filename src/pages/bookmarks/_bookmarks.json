@@ -1,6 +1,112 @@
 {
-  "lastUpdate": "2024-07-17T03:34:16.332Z",
+  "lastUpdate": "2024-07-20T05:25:19.345Z",
   "data": [
+    {
+      "id": "296b8322-e096-428a-87c2-dfcfb552de44",
+      "title": "Alternative Technologies",
+      "url": "https://alternativetech.com/ATpubs_dir.html",
+      "savedAt": "2024-07-19T22:15:05.000Z",
+      "description": "\"Foundation for Object/Relational Databases: The Third Manifesto” by C. J. Date and H. Darwen -- 2003",
+      "tags": [
+        "cs/database",
+        "resource/list"
+      ]
+    },
+    {
+      "id": "0984132a-3bc8-44ad-a156-b6907c57ac5b",
+      "title": "(11) WhatsApp",
+      "url": "https://web.whatsapp.com",
+      "savedAt": "2024-07-19T14:21:25.000Z",
+      "description": "Quickly send and receive WhatsApp messages right from your computer.",
+      "tags": []
+    },
+    {
+      "id": "18065411-94de-453b-a96f-38459659daaa",
+      "title": "SQLite Transactions",
+      "url": "https://reorchestrate.com/posts/sqlite-transactions/",
+      "savedAt": "2024-07-18T11:32:55.000Z",
+      "description": "In the past few years SQLite (not SQL-light) has had a surge of popularity as people have come to realise its power as an in-process, highly reliable SQL database engine as a backend for server processes rather than its traditional role of client or edge applications. This change in stance for SQLite has happened despite the authors almost actively discouraging its use for this purpose.",
+      "tags": [
+        "cs/database"
+      ]
+    },
+    {
+      "id": "0de2a975-1fdd-454c-b8b6-5c4fbd96cf23",
+      "title": "The Greatest Educational Life Hack: Learning Math Ahead of Time - Justin Skycak",
+      "url": "https://www.justinmath.com/the-greatest-educational-life-hack-learning-math-ahead-of-time/",
+      "savedAt": "2024-07-18T01:24:52.000Z",
+      "description": "Learning math early guards you against numerous academic risks and opens all kinds of doors to career opportunities.",
+      "tags": [
+        "math"
+      ]
+    },
+    {
+      "id": "e4891a17-55e6-4110-ae16-70660aadd660",
+      "title": "Self Hosting 101 - A Beginner's Guide",
+      "url": "https://ente.io/blog/self-hosting-101/",
+      "savedAt": "2024-07-18T01:21:12.000Z",
+      "description": "A beginner's guide to self hosting",
+      "tags": [
+        "homelab"
+      ]
+    },
+    {
+      "id": "ab016adc-a8aa-4fd1-a49b-659f9c8f332c",
+      "title": "VisCircuit - Make Circuits Easy to Learn",
+      "url": "https://viscircuit.com",
+      "savedAt": "2024-07-18T01:04:20.000Z",
+      "description": "VisCircuit is a note-taking tool that contains an easy circuit diagram drawer and a beautiful note editor, designed to help you learn about electronics and circuits more easily.",
+      "tags": [
+        "hardware",
+        "learning"
+      ]
+    },
+    {
+      "id": "c1c3a22b-b008-44b7-80b2-36f5d86d1b93",
+      "title": "Developing domain expertise: get your hands dirty. | Irrational Exuberance",
+      "url": "https://lethain.com/domain-expertise/",
+      "savedAt": "2024-07-17T16:04:32.000Z",
+      "description": "Recently, I’ve been thinking about developing domain expertise, and wanted to collect my thoughts here. Although I covered some parts of this in Your first 90 days as CTO (understanding product analytics, shadowing customer support, talking to customers, and talking with your internal experts), I missed the most important dimension of effective learning: getting your hands dirty.\nAt Carta, I’m increasingly spending time focused on our fund financials business, which requires a deep understanding of accounting.",
+      "tags": [
+        "career",
+        "engineering",
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "0483717f-04a7-4479-b3b8-78cd739b7911",
+      "title": "Layers of context. | Irrational Exuberance",
+      "url": "https://lethain.com/layers-of-context/",
+      "savedAt": "2024-07-17T15:56:38.000Z",
+      "description": "Recently I was chatting with a Staff-plus engineer who was struggling to influence his peers. Each time he suggested an approach, his team agreed with him, but his peers in the organization disagreed and pushed back. He wanted advice on why his peers kept undermining his approach. After our chat, I followed up by talking with his peers about some recent disagreements, and they kept highlighting missing context from the engineer’s proposals.",
+      "tags": [
+        "career",
+        "engineering"
+      ]
+    },
+    {
+      "id": "0b1d4007-d9fc-4d31-9bd7-880ef9b8d9ed",
+      "title": "How to create software quality. | Irrational Exuberance",
+      "url": "https://lethain.com/quality/",
+      "savedAt": "2024-07-17T15:45:47.000Z",
+      "description": "I’ve been reading Steven Sinofsky’s Hardcore Software, and particularly enjoyed this quote from a memo discussed in the Zero Defects chapter:\nYou can improve the quality of your code, and if you do, the rewards for yourself and for Microsoft will be immense. The hardest part is to decide that you want to write perfect code.\nIf I wrote that in an internal memo, I imagine the engineering team would mutiny, but software quality is certainly an interesting topic where I continue to refine my thinking.",
+      "tags": [
+        "career",
+        "engineering",
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "c665b0a0-55c6-447e-89cf-e294ec991f7f",
+      "title": "bobbyiliev/introduction-to-bash-scripting: Free Introduction to Bash Scripting eBook",
+      "url": "https://github.com/bobbyiliev/introduction-to-bash-scripting",
+      "savedAt": "2024-07-17T03:42:21.000Z",
+      "description": "Free Introduction to Bash Scripting eBook. Contribute to bobbyiliev/introduction-to-bash-scripting development by creating an account on GitHub.",
+      "tags": [
+        "repository",
+        "tools/scripting"
+      ]
+    },
     {
       "id": "c1874115-2161-4f2d-92ec-47a62a87cdaa",
       "title": "untitled1.html",
