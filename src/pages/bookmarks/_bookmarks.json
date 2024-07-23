@@ -1,6 +1,196 @@
 {
-  "lastUpdate": "2024-07-20T05:44:27.067Z",
+  "lastUpdate": "2024-07-23T22:34:43.803Z",
   "data": [
+    {
+      "id": "de0fd560-a545-4fb5-a86c-116f430f1765",
+      "title": "Haskell for all: Software engineers are not (and should not be) technicians",
+      "url": "https://www.haskellforall.com/2024/07/software-engineers-are-not-and-should.html",
+      "savedAt": "2024-07-23T22:23:44.000Z",
+      "description": "Why predictable development work is a red flag",
+      "tags": [
+        "engineering",
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "75998918-e0ae-4dd1-b932-1907bac8e10e",
+      "title": "Distributed Systems Reading List",
+      "url": "https://dancres.github.io/Pages/",
+      "savedAt": "2024-07-23T18:00:12.000Z",
+      "description": "I often argue that the toughest thing about distributed systems is changing the way you think.  The below is a collection of material I've found useful for motivating these changes.",
+      "tags": [
+        "cs/distsys",
+        "resource/list"
+      ]
+    },
+    {
+      "id": "71e4fa01-193f-4db9-8d5f-a7295011014f",
+      "title": "onceupon/Bash-Oneliner: A collection of handy Bash One-Liners and terminal tricks for data processing and Linux system maintenance.",
+      "url": "https://github.com/onceupon/Bash-Oneliner",
+      "savedAt": "2024-07-23T14:54:08.000Z",
+      "description": "A collection of handy Bash One-Liners and terminal tricks for data processing and Linux system maintenance. - onceupon/Bash-Oneliner",
+      "tags": [
+        "til",
+        "tools/scripting"
+      ]
+    },
+    {
+      "id": "265b2fc4-5cf8-4ac8-8e1a-a53e55fa0210",
+      "title": "Chase Your Reading - by Robin Hanson - Overcoming Bias",
+      "url": "https://www.overcomingbias.com/p/chase-your-readinghtml",
+      "savedAt": "2024-07-23T02:42:47.000Z",
+      "description": "Hunting has two main modes: searching and chasing. With searching you look for something to chase. With chasing, in contrast, you have a focus of attention that drives your actions. You may find something else worth chasing along the way, and then switch your focus to a new chase, but you’ll still maintain a focus.",
+      "tags": [
+        "reading",
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "5688be0f-6053-43ff-8f44-0dc070a142ff",
+      "title": "On having more interesting ideas - by Henrik Karlsson",
+      "url": "https://www.henrikkarlsson.xyz/p/interesting-ideas",
+      "savedAt": "2024-07-23T02:41:55.000Z",
+      "description": "“To write well, all you have to do is cultivate your mind and then write what you see.” When I talk to people who have worked with their ideas seriously for 10+ years, it feels like I can throw any topic on them and they’ll have an interesting idea, or if not an idea so at least an unexpected way of approaching it.",
+      "tags": [
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "b77b41d2-902a-4577-b445-42aed9ef0251",
+      "title": "Build your own SQLite, Part 1: Listing tables",
+      "url": "https://blog.sylver.dev/build-your-own-sqlite-part-1-listing-tables",
+      "savedAt": "2024-07-23T01:46:44.000Z",
+      "description": "As developers, we use databases all the time. But how do they work? In this series, we'll try to answer that question by building our own SQLite-compatible database from scratch.\nSource code examples will be provided in Rust, but you are encouraged t...",
+      "tags": [
+        "cs/database",
+        "for-later"
+      ]
+    },
+    {
+      "id": "c702fd9b-be38-4939-b5af-31e8a4cdb2b7",
+      "title": "Structured Procrastination",
+      "url": "https://structuredprocrastination.com",
+      "savedAt": "2024-07-22T16:51:25.000Z",
+      "description": "Author practices jumping rope with seaweed while work awaits.",
+      "tags": [
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "b613420b-3e93-4277-a145-049f37730425",
+      "title": "Parse, don’t validate",
+      "url": "https://lexi-lambda.github.io/blog/2019/11/05/parse-don-t-validate/",
+      "savedAt": "2024-07-22T11:57:00.000Z",
+      "description": "Historically, I’ve struggled to find a concise, simple way to explain what it means to practice type-driven design. Too often, when someone asks me “How did you come up with this approach?” I find I can’t give them a satisfying answer. I know it didn’t just come to me in a vision—I have an iterative design process that doesn’t require plucking the “right” approach out of thin air—yet I haven’t been very successful in communicating that process to others.",
+      "tags": [
+        "cs"
+      ]
+    },
+    {
+      "id": "013c927d-fac8-4d59-99c9-a798f0339c2b",
+      "title": "PostgreSQL triggers and isolation levels - Vlad Mihalcea",
+      "url": "https://vladmihalcea.com/postgresql-triggers-isolation-levels/",
+      "savedAt": "2024-07-21T22:14:27.000Z",
+      "description": "Learn how the MVCC-based PostgreSQL isolation levels guarantee read and write consistency when executing database triggers.",
+      "tags": [
+        "cs/database"
+      ]
+    },
+    {
+      "id": "c3a5ee01-7769-4c1e-a9bb-aa52705399e1",
+      "title": "Setting up an x86 CPU in 64-bit mode",
+      "url": "https://thasso.xyz/2024/07/13/setting-up-an-x86-cpu.html",
+      "savedAt": "2024-07-21T15:24:32.000Z",
+      "description": "My personal blog about things I find interesting. Hit me up!",
+      "tags": [
+        "cs/operating-system",
+        "hardware"
+      ]
+    },
+    {
+      "id": "f1c236b7-a9af-48c7-8789-ca68454f89d9",
+      "title": "1989 Networking: NetWare 386 | OS/2 Museum",
+      "url": "https://www.os2museum.com/wp/1989-networking-netware-386/",
+      "savedAt": "2024-07-21T14:58:35.000Z",
+      "description": "Thanks to the recent warez mega dump, another long lost gem has come to light: NetWare 386, also known as NetWare 3.0.",
+      "tags": [
+        "computer-history",
+        "cs/networking"
+      ]
+    },
+    {
+      "id": "cd715696-e8ee-49e6-834d-396e294e5207",
+      "title": "why you should write more - by Ava - bookbear express",
+      "url": "https://www.avabear.xyz/p/why-you-should-write-more",
+      "savedAt": "2024-07-21T14:50:58.000Z",
+      "description": "and share it online",
+      "tags": [
+        "writing"
+      ]
+    },
+    {
+      "id": "8597d1f1-efa4-4bf2-a8c4-af930783ceca",
+      "title": "Learning LLVM (Part-2)",
+      "url": "https://sh4dy.com/2024/07/06/learning_llvm_02/",
+      "savedAt": "2024-07-21T14:10:51.000Z",
+      "description": "IntroductionIn the first part of my blog series on compilers and LLVM, I provided a brief introduction to compiler fundamentals and LLVM. We also wrote a simple LLVM analysis pass to print function na",
+      "tags": [
+        "cs/compilers",
+        "for-later"
+      ]
+    },
+    {
+      "id": "a7e09fdd-8140-4cb4-a47d-d994b2ba05c7",
+      "title": "Managing Underperformers | Jack Danger",
+      "url": "https://jackdanger.com/managing-underperformers/",
+      "savedAt": "2024-07-21T14:03:16.000Z",
+      "description": "Kind managers address underperformance early and accurately.\nUnderperformance is when a person or a team is not bearing their share of the organization’s load. Their colleagues are either relying on them and getting let down, or they’ve learned not to rely on them at all. There are two fully unrelated causes of underperformance: Refusal to Align and Failure to Execute.\nRefusal to align Every person I’ve fired, both ICs and managers, refused to align their goals with the company’s.",
+      "tags": [
+        "career",
+        "management"
+      ]
+    },
+    {
+      "id": "478d820f-dc18-4fc9-9416-5fa82ea8a048",
+      "title": "time-clocks",
+      "url": "https://omnivore.app/noghartt/u-60-c-25934-167-b-49-d-0-a-77-a-42-bd-746-dfa-17-time-clocks-pd-1909eaffc4c",
+      "savedAt": "2024-07-20T14:49:20.000Z",
+      "description": "/noghartt/u-60-c-25934-167-b-49-d-0-a-77-a-42-bd-746-dfa-17-time-clocks-pd-1909eaffc4c",
+      "tags": [
+        "cs/distsys",
+        "type/paper"
+      ]
+    },
+    {
+      "id": "a590a759-6fb9-4b10-a88f-f98aa0df4865",
+      "title": "Learning about distributed systems: where to start?",
+      "url": "https://muratbuffalo.blogspot.com/2020/06/learning-about-distributed-systems.html",
+      "savedAt": "2024-07-20T14:47:42.000Z",
+      "description": "This is definitely not a \"learn distributed systems in 21 days\" post. I recommend a principled, from the foundations-up, studying ...",
+      "tags": [
+        "cs/distsys",
+        "resource/list"
+      ]
+    },
+    {
+      "id": "ce89f4c0-46a6-11ef-aa0d-6bffbfd75175",
+      "title": "little-languages",
+      "url": "https://staff.um.edu.mt/afra1/seminar/little-languages.pdf",
+      "savedAt": "2024-07-20T14:46:13.000Z",
+      "description": null,
+      "tags": [
+        "cs/compilers",
+        "type/paper"
+      ]
+    },
+    {
+      "id": "ad6984ac-4694-11ef-a68f-937577a56ed6",
+      "title": "2407.09468",
+      "url": "https://www.arxiv.org/pdf/2407.09468",
+      "savedAt": "2024-07-20T12:36:25.000Z",
+      "description": null,
+      "tags": []
+    },
     {
       "id": "35f7f620-da55-4d5f-b994-e022bb65add8",
       "title": "RFC 677: Maintenance of duplicate databases",
@@ -179,17 +369,6 @@
       ]
     },
     {
-      "id": "c3a5ee01-7769-4c1e-a9bb-aa52705399e1",
-      "title": "Setting up an x86 CPU in 64-bit mode",
-      "url": "https://thasso.xyz/2024/07/13/setting-up-an-x86-cpu.html",
-      "savedAt": "2024-07-15T12:55:06.000Z",
-      "description": "My personal blog about things I find interesting. Hit me up!",
-      "tags": [
-        "cs/operating-system",
-        "hardware"
-      ]
-    },
-    {
       "id": "5d8e9ac2-c331-418c-b8bc-bedc21cf33ad",
       "title": "sbensu: We need visual programming. No, not like that.",
       "url": "https://blog.sbensu.com/posts/demand-for-visual-programming/",
@@ -320,10 +499,10 @@
       "savedAt": "2024-07-14T16:54:20.000Z",
       "description": null,
       "tags": [
-        "cs/compilers",
+        "type/paper",
         "cs/pl-theory",
         "for-later",
-        "papers"
+        "cs/compilers"
       ]
     },
     {
