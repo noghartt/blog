@@ -7,7 +7,7 @@
     <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
       <head>
         <title>
-          <xsl:value-of select="/rss/channel/title"/> Web Feed
+          RSS | <xsl:value-of select="/rss/channel/title"/>
         </title>
 
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
