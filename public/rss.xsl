@@ -10,6 +10,8 @@
           RSS | <xsl:value-of select="/rss/channel/title"/>
         </title>
 
+        <meta name="description" content="RSS Feed Preview related to Noghartt's Garden" />
+
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
         <link rel="icon" type="image/png" href="/favicon.png" />
@@ -23,6 +25,7 @@
             line-height: 1.5;
             -webkit-font-smoothing: antialiased;
             margin: 2em auto;
+            padding: 16px;
             max-width: 600px;
             display: flex;
             flex-direction: column;
