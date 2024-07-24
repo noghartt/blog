@@ -57,5 +57,6 @@ export async function GET() {
     description: SITE.description,
     site: SITE.website,
     items,
+    stylesheet: '/public/rss.xsl',
   });
 }
