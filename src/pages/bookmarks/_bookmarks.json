@@ -1,6 +1,38 @@
 {
-  "lastUpdate": "2024-07-23T22:34:43.803Z",
+  "lastUpdate": "2024-07-25T01:23:54.014Z",
   "data": [
+    {
+      "id": "2d3294ea-cefd-45e2-a9b8-3d680125b923",
+      "title": "lecture18",
+      "url": "https://www.cs.cornell.edu/courses/cs4110/2018fa/lectures/lecture18.pdf",
+      "savedAt": "2024-07-24T04:56:04.000Z",
+      "description": null,
+      "tags": [
+        "cs/compilers",
+        "programming-languages",
+        "type-theory"
+      ]
+    },
+    {
+      "id": "0d656a0b-9807-4fa1-ad8f-2c0521acb1c0",
+      "title": "First Principles: The Building Blocks of True Knowledge",
+      "url": "https://fs.blog/first-principles/",
+      "savedAt": "2024-07-24T04:50:06.000Z",
+      "description": "First Principles thinking breaks down true understanding into building blocks we can reassemble into something that simplifies our problem.",
+      "tags": [
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "dd932887-1740-4d52-bf64-60671a90a4a7",
+      "title": "Categories of leadership on technical teams | benkuhn.net",
+      "url": "https://www.benkuhn.net/leadcats/",
+      "savedAt": "2024-07-24T00:07:52.000Z",
+      "description": "overall direction • people management • project management • technical leadership • example divisions of labor",
+      "tags": [
+        "career"
+      ]
+    },
     {
       "id": "de0fd560-a545-4fb5-a86c-116f430f1765",
       "title": "Haskell for all: Software engineers are not (and should not be) technicians",
