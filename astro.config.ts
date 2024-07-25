@@ -45,7 +45,6 @@ export default defineConfig({
         try {
           const url = new URL(page);
           const shouldAdd = disableSitemap.every(path => !url.pathname.startsWith(path));
-          console.log('shouldAdd', page, shouldAdd);
           return shouldAdd;
         } catch (err) {
           return false;
