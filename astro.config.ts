@@ -32,11 +32,26 @@ const getBlogRoutesRedirect = async () => {
   return Object.fromEntries(blogRoutes);
 }
 
+const disableSitemap = [
+  '/blog/drafts',
+];
+
 // https://astro.build/config
 export default defineConfig({
   site: 'https://noghartt.dev',
   integrations: [
-    sitemap(),
+    sitemap({
+      filter: (page) => {
+        try {
+          const url = new URL(page);
+          const shouldAdd = disableSitemap.every(path => !url.pathname.startsWith(path));
+          console.log('shouldAdd', page, shouldAdd);
+          return shouldAdd;
+        } catch (err) {
+          return false;
+        }
+      }
+    }),
     react(),
   ],
   output: "static",
