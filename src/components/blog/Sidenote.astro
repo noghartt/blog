@@ -1,0 +1,83 @@
+---
+import slugify from 'slugify';
+
+interface Props {
+  value: string;
+  position: 'left' | 'right';
+}
+
+const { value, position } = Astro.props;
+
+const classList = [
+  'sidenote-content',
+  {
+    'sidenote-content-left': position === 'left',
+    'sidenote-content-right': position === 'right',
+  },
+];
+
+const slug = slugify(value, { trim: true, lower: true, strict: true, replacement: '-' });
+
+---
+
+<a class="sidenote" href={`#${slug}`} id={slug}>
+  <span class="sidenote-label">
+    {value}
+  </span>
+  <span class:list={classList}>
+    <slot />
+  </span>
+</a>
+
+<style>
+  .sidenote {
+    position: relative;
+  }
+
+  .sidenote:target .sidenote-content,
+  .sidenote:target .sidenote-label,
+  .sidenote:hover .sidenote-content,
+  .sidenote:hover .sidenote-label {
+    border: solid 2px var(--color-primary);
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .sidenote a {
+    border: 1px solid var(--color-primary);
+    cursor: pointer;
+    padding: 4px;
+  }
+
+  .sidenote a:hover  {
+    opacity: 0.65;
+  }
+
+  .sidenote-checkbox {
+    display: none;
+  }
+
+  .sidenote-content {
+    display: flex;
+    position: absolute;
+    width: 280px;
+    border: solid 1px var(--color-primary);
+    padding: var(--spacing);
+  }
+
+  .sidenote-content-left,
+  .sidenote-content-right {
+    top: 0;
+  }
+
+  .sidenote-content-left {
+    left: 0;
+  }
+
+  .sidenote-content-right {
+    right: 0;
+  }
+</style>
