@@ -1,6 +1,122 @@
 {
-  "lastUpdate": "2024-07-25T01:23:54.014Z",
+  "lastUpdate": "2024-07-27T07:25:06.902Z",
   "data": [
+    {
+      "id": "8553f3fd-eb3d-49fa-8c51-c3afcb3b44c2",
+      "title": "sigtt611-bernstein",
+      "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/sigtt611-bernstein.pdf",
+      "savedAt": "2024-07-27T07:24:30.000Z",
+      "description": null,
+      "tags": [
+        "cs/distsys",
+        "for-later",
+        "type/paper"
+      ]
+    },
+    {
+      "id": "86d0dcf8-4cd0-49cd-aaab-ea54fe4161b1",
+      "title": "Introduction · Reverse Engineering",
+      "url": "https://0xinfection.github.io/reversing/",
+      "savedAt": "2024-07-27T07:22:14.000Z",
+      "description": "This comprehensive set of reverse engineering tutorials covers x86, x64 as well as 32-bit ARM and 64-bit architectures. If you're a newbie looking to learn reversing, or just someone looking to revise on some concepts, you're at the right place. As a beginner, these tutorials will carry you from nothing upto the mid-basics of reverse engineering, a skill that everyone within the realm of cyber-security should possess. If you're here just to refresh some concepts, you can conveniently use the side bar to take a look at the sections that has been covered so far.",
+      "tags": [
+        "reverse-engineering",
+        "for-later",
+        "books"
+      ]
+    },
+    {
+      "id": "12867a96-3f5a-4236-996b-c70c5e4771ac",
+      "title": "Rediscovering Transaction Processing From History and First Principles",
+      "url": "https://tigerbeetle.com/blog/2024-07-23-rediscovering-transaction-processing-from-history-and-first-principles",
+      "savedAt": "2024-07-27T07:18:51.000Z",
+      "description": "The financial transactions database to power the next 30 years of Online Transaction Processing.",
+      "tags": [
+        "cs/database"
+      ]
+    },
+    {
+      "id": "3c68e398-4554-4c5d-914c-e30d46161d9d",
+      "title": "advanced-linux-programming",
+      "url": "https://agabroward.org/ourpages/auto/2017/10/14/52245814/advanced-linux-programming.pdf",
+      "savedAt": "2024-07-27T03:26:02.000Z",
+      "description": null,
+      "tags": [
+        "cs/operating-system",
+        "os/linux"
+      ]
+    },
+    {
+      "id": "7489d12a-bf44-4b11-9979-7fc4ef2c07ea",
+      "title": "Ray Tracing in One Weekend Series",
+      "url": "https://raytracing.github.io",
+      "savedAt": "2024-07-27T02:44:27.000Z",
+      "description": "The Ray Tracing in One Weekend series of books are available to the public for free online. They are\n  released under the CC0\n  license. This means that they are as close to public domain as we can get. (While that also frees you from the\n  requirement of providing attribution, it would help the overall project if you could point back to this web site as a\n  service to other users.)",
+      "tags": [
+        "cs/graphic"
+      ]
+    },
+    {
+      "id": "b630e76a-c42e-483d-8881-63f88add6be7",
+      "title": "Startup Finance for Founders — Part I, Accounting by Peter Reinhardt",
+      "url": "https://rein.pk/startup-finance-for-founders-part-i-accounting",
+      "savedAt": "2024-07-27T00:17:32.000Z",
+      "description": "When we started Segment, we knew nothing about business finance. My background was in aerospace engineering, and my co-founders came from computer science and design. Beyond the hilariously overcomplicated spreadsheet we used to manage grocery bills as roommates, we really had no experience in finance when we started the company.",
+      "tags": [
+        "startup"
+      ]
+    },
+    {
+      "id": "0226c7f1-a0a0-4d9c-b6e7-e0dd4f4a39a8",
+      "title": "Tools + Techniques for Procedural Gamedev - Casey Primozic's Homepage",
+      "url": "https://cprimozic.net/blog/tools-and-techniques-for-procedural-gamedev/",
+      "savedAt": "2024-07-27T00:16:45.000Z",
+      "description": "For a couple of years now, I've been working on and off on some 3D scenes and levels that run in the browser.  It started off as a scattering of self-contained demos for some custom shaders or similar that I wanted to try out, but over time the project has grown into a pretty substantial interconnected game-like thing.",
+      "tags": [
+        "cs/gamedev"
+      ]
+    },
+    {
+      "id": "dbae9c21-6128-43e8-9fc8-e1a015df3525",
+      "title": "My OBTF Workflow & Bash Script",
+      "url": "https://mikegrindle.com/posts/obtf-workflow",
+      "savedAt": "2024-07-26T20:18:46.000Z",
+      "description": "Several months ago, I wrote a post about my digital notetaking\nsystem, which consists of me keeping all my notes in one big t(e)xt file. For\nwhatever reason, people took an interest in the idea (which originated\nin the 2000s). And to this day, I still get the odd email or message\nabout it.",
+      "tags": [
+        "writing"
+      ]
+    },
+    {
+      "id": "f8898ea4-86cf-4c2f-9d24-5d9838171849",
+      "title": "When Then Zen",
+      "url": "https://when-then-zen.christine.website",
+      "savedAt": "2024-07-26T02:03:07.000Z",
+      "description": "When Then Zen is a new project by Christine Dodrill to offer a better way to teach meditation. Meditation has gotten a really bad reputation in Western audiences as overcomplicated, esoteric and baroque; however those couldn't be farther from the truth. It can be as simple as watching breathing happen or build off of there.",
+      "tags": [
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "dd215283-e47d-4246-8a58-2156dfb7d089",
+      "title": "How Simultaneous Multithreading Works Under the Hood",
+      "url": "https://blog.codingconfessions.com/p/simultaneous-multithreading",
+      "savedAt": "2024-07-25T22:34:39.000Z",
+      "description": "Ever wondered how your CPU handles two tasks at once? Discover the magic of Simultaneous Multithreading and see what’s really going on inside.",
+      "tags": [
+        "hardware"
+      ]
+    },
+    {
+      "id": "3bdceea1-e7b4-4dc0-876d-1a5290400e3f",
+      "title": "Intro | Putting the \"You\" in CPU",
+      "url": "https://cpu.land",
+      "savedAt": "2024-07-25T21:59:06.000Z",
+      "description": "Curious exactly what happens when you run a program on your computer? Learn how multiprocessing works, what system calls really are, how computers manage memory with hardware interrupts, and how Linux loads executables.",
+      "tags": [
+        "for-later",
+        "hardware"
+      ]
+    },
     {
       "id": "2d3294ea-cefd-45e2-a9b8-3d680125b923",
       "title": "lecture18",
