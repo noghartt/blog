@@ -74,10 +74,21 @@ const slug = slugify(value, { trim: true, lower: true, strict: true, replacement
   }
 
   .sidenote-content-left {
-    left: 0;
+    transform: translateX(calc((280px + 30px) * -1));
   }
 
   .sidenote-content-right {
-    right: 0;
+    transform: translateX(calc(40vw + 30px))
+  }
+
+  @media screen and (max-width: 425px) {
+    .sidenote-content {
+      position: block;
+    }
+
+    .sidenote-content-left,
+    .sidenote-content-right {
+      transform: none;
+    }
   }
 </style>
