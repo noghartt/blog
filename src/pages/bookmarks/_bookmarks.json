@@ -1,6 +1,149 @@
 {
-  "lastUpdate": "2024-07-27T07:25:06.902Z",
+  "lastUpdate": "2024-07-28T21:49:07.647Z",
   "data": [
+    {
+      "id": "59075ff3-cb94-4240-8cd2-7e449dccc528",
+      "title": "soulmachine/machine-learning-cheat-sheet: Classical equations and diagrams in machine learning",
+      "url": "https://github.com/soulmachine/machine-learning-cheat-sheet",
+      "savedAt": "2024-07-28T16:04:05.000Z",
+      "description": "Classical equations and diagrams in machine learning - soulmachine/machine-learning-cheat-sheet",
+      "tags": [
+        "cs/ai",
+        "repository",
+        "resource/list"
+      ]
+    },
+    {
+      "id": "bcaa9d9e-b4d3-42fb-8b10-a82e6ed98dbd",
+      "title": "Test | Noghartt's garden",
+      "url": "http://localhost:4321/blog/test",
+      "savedAt": "2024-07-28T15:44:06.000Z",
+      "description": "This is just a test of putting some text before a sidenote   1   Lorem ipsum sit dolor amet consectetur adipisicing elit. Doloremque, […]",
+      "tags": []
+    },
+    {
+      "id": "27aee842-4cf3-11ef-b3c6-7fb330719f7f",
+      "title": "Understanding_digital_signal_processing",
+      "url": "https://www.mikrocontroller.net/attachment/341426/Understanding_digital_signal_processing.pdf",
+      "savedAt": "2024-07-28T15:11:06.000Z",
+      "description": null,
+      "tags": [
+        "books",
+        "electronics"
+      ]
+    },
+    {
+      "id": "365430d7-72dd-4c6d-92ad-35ab919f0afc",
+      "title": "Story: Redis and its creator antirez | Brachiosoft Blog",
+      "url": "https://blog.brachiosoft.com/en/posts/redis/",
+      "savedAt": "2024-07-28T05:02:11.000Z",
+      "description": "Discover the unique journey of Salvatore Sanfilippo (antirez), the mastermind behind Redis, one of the world's most beloved databases. From his early life in Sicily to his breakthroughs in database development and system programming, and finally to his impact on major companies such as Instagram and Twitter. Explore his journey, challenges, and achievements, and understand why Redis continues to be a popular choice among developers.",
+      "tags": [
+        "computer-history"
+      ]
+    },
+    {
+      "id": "29b9a763-454d-4c59-9e73-8a89a170daa4",
+      "title": "Not Just Scale - Marc's Blog",
+      "url": "https://brooker.co.za/blog/2024/06/04/scale.html",
+      "savedAt": "2024-07-28T01:57:42.000Z",
+      "description": "Bookmarking this so I can stop writing it over and over.",
+      "tags": [
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "fb92e8df-f9e5-4bcb-b25f-ea6e9108c988",
+      "title": "Forget “show, don’t tell”. Engage, don’t show! • Lea Verou",
+      "url": "https://lea.verou.me/blog/2024/engage-dont-show/",
+      "savedAt": "2024-07-28T00:06:34.000Z",
+      "description": "A few days ago, I gave a very well received talk about API design at dotJS titled “API Design is UI Design” [1].\nOne of the points I made was that good UIs (and thus, good APIs) have a smooth UI complexity to Use case complexity curve.\nThis means that incremental user effort results in incremental value;\nat no point going just a little bit further requires a disproportionately big chunk of upfront work [2].",
+      "tags": [
+        "learning"
+      ]
+    },
+    {
+      "id": "1f3b6fe1-76ad-4f29-9e9c-b4516736e316",
+      "title": "Learning about PCI-e: Driver & DMA",
+      "url": "https://blog.davidv.dev/posts/pcie-driver-dma/",
+      "savedAt": "2024-07-27T18:52:09.000Z",
+      "description": "Creating a simple driver for a simple PCI-e device (in QEMU)",
+      "tags": [
+        "for-later",
+        "hardware"
+      ]
+    },
+    {
+      "id": "b3c815e7-02d8-409b-a523-591d0a0136a6",
+      "title": "Philosophy of How to Learn",
+      "url": "https://transactional.blog/how-to-learn/philosophy",
+      "savedAt": "2024-07-27T17:15:33.000Z",
+      "description": "The background and context on why the groupings exist the way they do, and the\ndifferent sorts of pages you’ll find in this section.  But, this is all\nphilosophical waxing, so quite skippable.",
+      "tags": [
+        "learning"
+      ]
+    },
+    {
+      "id": "c1dbd635-2457-4616-8dc5-73951c5da1f0",
+      "title": "Database Indexes & Phone Books - by Thorsten Ball",
+      "url": "https://registerspill.thorstenball.com/p/database-indexes-and-phone-books",
+      "savedAt": "2024-07-27T17:11:58.000Z",
+      "description": "One of the best analogies I’ve ever been taught",
+      "tags": [
+        "cs/database"
+      ]
+    },
+    {
+      "id": "2299ee21-5ba9-4cd8-b1a5-20a08ca6aa29",
+      "title": "Consensus",
+      "url": "https://transactional.blog/how-to-learn/consensus",
+      "savedAt": "2024-07-27T16:55:36.000Z",
+      "description": "Paxos, Raft, and all their flavors, variations, and alternatives.",
+      "tags": [
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "24c3c68f-abed-4197-9601-b769b34924b7",
+      "title": "Taking my diabetes treatment into my own hands | Martin Janiczek",
+      "url": "https://martin.janiczek.cz/2024/07/23/taking-my-diabetes-treatment-into-my-own-hands.html",
+      "savedAt": "2024-07-27T16:49:27.000Z",
+      "description": "First of all, this blogpost is kinda long. Let me prove to you reading it will actually have some payoff:",
+      "tags": [
+        "life/tracking"
+      ]
+    },
+    {
+      "id": "5c883553-9a4e-4ce8-878d-46df7f1200cc",
+      "title": "Calculus for Beginners",
+      "url": "https://math.mit.edu/~djk/calculus_beginners/",
+      "savedAt": "2024-07-27T15:24:19.000Z",
+      "description": null,
+      "tags": [
+        "math"
+      ]
+    },
+    {
+      "id": "4b4a97bc-971f-4baf-9fc8-ea40d98a9055",
+      "title": "kiennt26's home | Linux Network Performance Ultimate Guide",
+      "url": "https://ntk148v.github.io/posts/linux-network-performance-ultimate-guide/",
+      "savedAt": "2024-07-27T15:22:01.000Z",
+      "description": "Author: Kien Nguyen <kiennt2609@gmail.com>\n      A minimal Hugo theme with Tailwind CSS",
+      "tags": [
+        "cs/networking",
+        "os/linux"
+      ]
+    },
+    {
+      "id": "82989d3d-d8d8-49bb-85fd-4844ff336e3e",
+      "title": "Let's Consign CAP to the Cabinet of Curiosities - Marc's Blog",
+      "url": "https://brooker.co.za/blog/2024/07/25/cap-again.html",
+      "savedAt": "2024-07-27T07:30:02.000Z",
+      "description": "Brewer’s CAP theorem, and Gilbert and Lynch’s formalization of it, is the first introduction to hard trade-offs for many distributed systems engineers. Going by the vast amounts of ink and bile spent on the topic, it is not unreasonable for new folks to conclude that it’s an important, foundational, idea.",
+      "tags": [
+        "cs/distsys"
+      ]
+    },
     {
       "id": "8553f3fd-eb3d-49fa-8c51-c3afcb3b44c2",
       "title": "sigtt611-bernstein",
