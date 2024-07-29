@@ -1,6 +1,38 @@
 {
-  "lastUpdate": "2024-07-28T21:49:07.647Z",
+  "lastUpdate": "2024-07-29T10:33:34.608Z",
   "data": [
+    {
+      "id": "aa9c28ca-360a-468e-acc1-eb9d67f81284",
+      "title": "#001 - Abraçando o caminho sem volta - Insight Espresso",
+      "url": "https://insightespresso.com.br/001-abracando-o-caminho-sem-volta/",
+      "savedAt": "2024-07-29T02:14:21.000Z",
+      "description": "#001 Abraçando o caminho sem volta Enviador por Lucca Moreira | 16 de abril de 2024 A Tuesday Reflections também está no Spotify. Para escutar é só  clicar aqui. Por que abraçar um caminho sem volta pode ser a melhor decisão da sua vida Tempo de Leitura: 5 minutos O que vamos explorar hoje? Um […]",
+      "tags": [
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "502de390-1c14-4a80-baa3-6f47c98fffd1",
+      "title": "A weekend's (re)reading list | Ludwig",
+      "url": "https://ludwigabap.bearblog.dev/a-weekends-rereading-list/",
+      "savedAt": "2024-07-29T02:12:02.000Z",
+      "description": "This weekend, I am mostly reading about my typical concerns: \n\n\n\nand a recent addition: font rendering (as I continue to slowly but surely work on ).\n\nA ...",
+      "tags": [
+        "cs",
+        "CS",
+        "resource/list"
+      ]
+    },
+    {
+      "id": "f3e9dc26-cb76-477c-ae8f-c373cf1a9ce0",
+      "title": "Plain text journaling | ᕕ( ᐛ )ᕗ Herman's blog",
+      "url": "https://herman.bearblog.dev/plain-text-journaling/",
+      "savedAt": "2024-07-29T02:10:36.000Z",
+      "description": "The new/old way of keeping a digital journal",
+      "tags": [
+        "writing"
+      ]
+    },
     {
       "id": "59075ff3-cb94-4240-8cd2-7e449dccc528",
       "title": "soulmachine/machine-learning-cheat-sheet: Classical equations and diagrams in machine learning",
@@ -12,14 +44,6 @@
         "repository",
         "resource/list"
       ]
-    },
-    {
-      "id": "bcaa9d9e-b4d3-42fb-8b10-a82e6ed98dbd",
-      "title": "Test | Noghartt's garden",
-      "url": "http://localhost:4321/blog/test",
-      "savedAt": "2024-07-28T15:44:06.000Z",
-      "description": "This is just a test of putting some text before a sidenote   1   Lorem ipsum sit dolor amet consectetur adipisicing elit. Doloremque, […]",
-      "tags": []
     },
     {
       "id": "27aee842-4cf3-11ef-b3c6-7fb330719f7f",
