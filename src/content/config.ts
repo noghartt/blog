@@ -2,22 +2,27 @@ import { defineCollection, z } from 'astro:content';
 import { rssSchema } from '@astrojs/rss';
 
 const blogCollection = defineCollection({
+  type: 'content',
   schema: z
     .object({
-      tags: z.optional(z.array(z.string())),
+      title: z.string(),
+      pubDate: z.coerce.date(),
+      tags: z.array(z.string()).optional(),
+      draft: z.boolean().optional(),
     })
     .merge(rssSchema)
 });
 
 const listsCollection = defineCollection({
+  type: 'content',
   schema: z
     .object({
-      tags: z.optional(z.array(z.string())),
-    })
-    .merge(rssSchema)
+      title: z.string(),
+      tags: z.array(z.string()).optional(),
+    }),
 });
 
-export const collection = {
+export const collections = {
   blog: blogCollection,
   lists: listsCollection,
 }

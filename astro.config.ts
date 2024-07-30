@@ -10,6 +10,7 @@ import path from 'path';
 
 import { rehypePluginLinkHeading } from './plugins/rehypePluginLinkHeading';
 import { rehypePluginTableWrapper } from './plugins/rehypePluginTableWrapper';
+import { remarkPluginReadingTime } from './plugins/remarkPluginReadingTime';
 
 const BLOG_DIR = './src/content/blog';
 
@@ -31,18 +32,33 @@ const getBlogRoutesRedirect = async () => {
   return Object.fromEntries(blogRoutes);
 }
 
+const disableSitemap = [
+  '/blog/drafts',
+];
+
 // https://astro.build/config
 export default defineConfig({
   site: 'https://noghartt.dev',
   integrations: [
-    sitemap(),
+    sitemap({
+      filter: (page) => {
+        try {
+          const url = new URL(page);
+          const shouldAdd = disableSitemap.every(path => !url.pathname.startsWith(path));
+          return shouldAdd;
+        } catch (err) {
+          return false;
+        }
+      }
+    }),
     react(),
   ],
   output: "static",
   markdown: {
     syntaxHighlight: false,
     remarkPlugins: [
-      remarkMath
+      remarkMath,
+      remarkPluginReadingTime,
     ],
     rehypePlugins: [
       rehypeKatex,

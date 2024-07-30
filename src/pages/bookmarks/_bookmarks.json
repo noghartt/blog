@@ -1,6 +1,1067 @@
 {
-  "lastUpdate": "2024-07-10T05:05:58.379Z",
+  "lastUpdate": "2024-07-29T10:33:34.608Z",
   "data": [
+    {
+      "id": "aa9c28ca-360a-468e-acc1-eb9d67f81284",
+      "title": "#001 - Abraçando o caminho sem volta - Insight Espresso",
+      "url": "https://insightespresso.com.br/001-abracando-o-caminho-sem-volta/",
+      "savedAt": "2024-07-29T02:14:21.000Z",
+      "description": "#001 Abraçando o caminho sem volta Enviador por Lucca Moreira | 16 de abril de 2024 A Tuesday Reflections também está no Spotify. Para escutar é só  clicar aqui. Por que abraçar um caminho sem volta pode ser a melhor decisão da sua vida Tempo de Leitura: 5 minutos O que vamos explorar hoje? Um […]",
+      "tags": [
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "502de390-1c14-4a80-baa3-6f47c98fffd1",
+      "title": "A weekend's (re)reading list | Ludwig",
+      "url": "https://ludwigabap.bearblog.dev/a-weekends-rereading-list/",
+      "savedAt": "2024-07-29T02:12:02.000Z",
+      "description": "This weekend, I am mostly reading about my typical concerns: \n\n\n\nand a recent addition: font rendering (as I continue to slowly but surely work on ).\n\nA ...",
+      "tags": [
+        "cs",
+        "CS",
+        "resource/list"
+      ]
+    },
+    {
+      "id": "f3e9dc26-cb76-477c-ae8f-c373cf1a9ce0",
+      "title": "Plain text journaling | ᕕ( ᐛ )ᕗ Herman's blog",
+      "url": "https://herman.bearblog.dev/plain-text-journaling/",
+      "savedAt": "2024-07-29T02:10:36.000Z",
+      "description": "The new/old way of keeping a digital journal",
+      "tags": [
+        "writing"
+      ]
+    },
+    {
+      "id": "59075ff3-cb94-4240-8cd2-7e449dccc528",
+      "title": "soulmachine/machine-learning-cheat-sheet: Classical equations and diagrams in machine learning",
+      "url": "https://github.com/soulmachine/machine-learning-cheat-sheet",
+      "savedAt": "2024-07-28T16:04:05.000Z",
+      "description": "Classical equations and diagrams in machine learning - soulmachine/machine-learning-cheat-sheet",
+      "tags": [
+        "cs/ai",
+        "repository",
+        "resource/list"
+      ]
+    },
+    {
+      "id": "27aee842-4cf3-11ef-b3c6-7fb330719f7f",
+      "title": "Understanding_digital_signal_processing",
+      "url": "https://www.mikrocontroller.net/attachment/341426/Understanding_digital_signal_processing.pdf",
+      "savedAt": "2024-07-28T15:11:06.000Z",
+      "description": null,
+      "tags": [
+        "books",
+        "electronics"
+      ]
+    },
+    {
+      "id": "365430d7-72dd-4c6d-92ad-35ab919f0afc",
+      "title": "Story: Redis and its creator antirez | Brachiosoft Blog",
+      "url": "https://blog.brachiosoft.com/en/posts/redis/",
+      "savedAt": "2024-07-28T05:02:11.000Z",
+      "description": "Discover the unique journey of Salvatore Sanfilippo (antirez), the mastermind behind Redis, one of the world's most beloved databases. From his early life in Sicily to his breakthroughs in database development and system programming, and finally to his impact on major companies such as Instagram and Twitter. Explore his journey, challenges, and achievements, and understand why Redis continues to be a popular choice among developers.",
+      "tags": [
+        "computer-history"
+      ]
+    },
+    {
+      "id": "29b9a763-454d-4c59-9e73-8a89a170daa4",
+      "title": "Not Just Scale - Marc's Blog",
+      "url": "https://brooker.co.za/blog/2024/06/04/scale.html",
+      "savedAt": "2024-07-28T01:57:42.000Z",
+      "description": "Bookmarking this so I can stop writing it over and over.",
+      "tags": [
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "fb92e8df-f9e5-4bcb-b25f-ea6e9108c988",
+      "title": "Forget “show, don’t tell”. Engage, don’t show! • Lea Verou",
+      "url": "https://lea.verou.me/blog/2024/engage-dont-show/",
+      "savedAt": "2024-07-28T00:06:34.000Z",
+      "description": "A few days ago, I gave a very well received talk about API design at dotJS titled “API Design is UI Design” [1].\nOne of the points I made was that good UIs (and thus, good APIs) have a smooth UI complexity to Use case complexity curve.\nThis means that incremental user effort results in incremental value;\nat no point going just a little bit further requires a disproportionately big chunk of upfront work [2].",
+      "tags": [
+        "learning"
+      ]
+    },
+    {
+      "id": "1f3b6fe1-76ad-4f29-9e9c-b4516736e316",
+      "title": "Learning about PCI-e: Driver & DMA",
+      "url": "https://blog.davidv.dev/posts/pcie-driver-dma/",
+      "savedAt": "2024-07-27T18:52:09.000Z",
+      "description": "Creating a simple driver for a simple PCI-e device (in QEMU)",
+      "tags": [
+        "for-later",
+        "hardware"
+      ]
+    },
+    {
+      "id": "b3c815e7-02d8-409b-a523-591d0a0136a6",
+      "title": "Philosophy of How to Learn",
+      "url": "https://transactional.blog/how-to-learn/philosophy",
+      "savedAt": "2024-07-27T17:15:33.000Z",
+      "description": "The background and context on why the groupings exist the way they do, and the\ndifferent sorts of pages you’ll find in this section.  But, this is all\nphilosophical waxing, so quite skippable.",
+      "tags": [
+        "learning"
+      ]
+    },
+    {
+      "id": "c1dbd635-2457-4616-8dc5-73951c5da1f0",
+      "title": "Database Indexes & Phone Books - by Thorsten Ball",
+      "url": "https://registerspill.thorstenball.com/p/database-indexes-and-phone-books",
+      "savedAt": "2024-07-27T17:11:58.000Z",
+      "description": "One of the best analogies I’ve ever been taught",
+      "tags": [
+        "cs/database"
+      ]
+    },
+    {
+      "id": "2299ee21-5ba9-4cd8-b1a5-20a08ca6aa29",
+      "title": "Consensus",
+      "url": "https://transactional.blog/how-to-learn/consensus",
+      "savedAt": "2024-07-27T16:55:36.000Z",
+      "description": "Paxos, Raft, and all their flavors, variations, and alternatives.",
+      "tags": [
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "24c3c68f-abed-4197-9601-b769b34924b7",
+      "title": "Taking my diabetes treatment into my own hands | Martin Janiczek",
+      "url": "https://martin.janiczek.cz/2024/07/23/taking-my-diabetes-treatment-into-my-own-hands.html",
+      "savedAt": "2024-07-27T16:49:27.000Z",
+      "description": "First of all, this blogpost is kinda long. Let me prove to you reading it will actually have some payoff:",
+      "tags": [
+        "life/tracking"
+      ]
+    },
+    {
+      "id": "5c883553-9a4e-4ce8-878d-46df7f1200cc",
+      "title": "Calculus for Beginners",
+      "url": "https://math.mit.edu/~djk/calculus_beginners/",
+      "savedAt": "2024-07-27T15:24:19.000Z",
+      "description": null,
+      "tags": [
+        "math"
+      ]
+    },
+    {
+      "id": "4b4a97bc-971f-4baf-9fc8-ea40d98a9055",
+      "title": "kiennt26's home | Linux Network Performance Ultimate Guide",
+      "url": "https://ntk148v.github.io/posts/linux-network-performance-ultimate-guide/",
+      "savedAt": "2024-07-27T15:22:01.000Z",
+      "description": "Author: Kien Nguyen <kiennt2609@gmail.com>\n      A minimal Hugo theme with Tailwind CSS",
+      "tags": [
+        "cs/networking",
+        "os/linux"
+      ]
+    },
+    {
+      "id": "82989d3d-d8d8-49bb-85fd-4844ff336e3e",
+      "title": "Let's Consign CAP to the Cabinet of Curiosities - Marc's Blog",
+      "url": "https://brooker.co.za/blog/2024/07/25/cap-again.html",
+      "savedAt": "2024-07-27T07:30:02.000Z",
+      "description": "Brewer’s CAP theorem, and Gilbert and Lynch’s formalization of it, is the first introduction to hard trade-offs for many distributed systems engineers. Going by the vast amounts of ink and bile spent on the topic, it is not unreasonable for new folks to conclude that it’s an important, foundational, idea.",
+      "tags": [
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "8553f3fd-eb3d-49fa-8c51-c3afcb3b44c2",
+      "title": "sigtt611-bernstein",
+      "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/sigtt611-bernstein.pdf",
+      "savedAt": "2024-07-27T07:24:30.000Z",
+      "description": null,
+      "tags": [
+        "cs/distsys",
+        "for-later",
+        "type/paper"
+      ]
+    },
+    {
+      "id": "86d0dcf8-4cd0-49cd-aaab-ea54fe4161b1",
+      "title": "Introduction · Reverse Engineering",
+      "url": "https://0xinfection.github.io/reversing/",
+      "savedAt": "2024-07-27T07:22:14.000Z",
+      "description": "This comprehensive set of reverse engineering tutorials covers x86, x64 as well as 32-bit ARM and 64-bit architectures. If you're a newbie looking to learn reversing, or just someone looking to revise on some concepts, you're at the right place. As a beginner, these tutorials will carry you from nothing upto the mid-basics of reverse engineering, a skill that everyone within the realm of cyber-security should possess. If you're here just to refresh some concepts, you can conveniently use the side bar to take a look at the sections that has been covered so far.",
+      "tags": [
+        "reverse-engineering",
+        "for-later",
+        "books"
+      ]
+    },
+    {
+      "id": "12867a96-3f5a-4236-996b-c70c5e4771ac",
+      "title": "Rediscovering Transaction Processing From History and First Principles",
+      "url": "https://tigerbeetle.com/blog/2024-07-23-rediscovering-transaction-processing-from-history-and-first-principles",
+      "savedAt": "2024-07-27T07:18:51.000Z",
+      "description": "The financial transactions database to power the next 30 years of Online Transaction Processing.",
+      "tags": [
+        "cs/database"
+      ]
+    },
+    {
+      "id": "3c68e398-4554-4c5d-914c-e30d46161d9d",
+      "title": "advanced-linux-programming",
+      "url": "https://agabroward.org/ourpages/auto/2017/10/14/52245814/advanced-linux-programming.pdf",
+      "savedAt": "2024-07-27T03:26:02.000Z",
+      "description": null,
+      "tags": [
+        "cs/operating-system",
+        "os/linux"
+      ]
+    },
+    {
+      "id": "7489d12a-bf44-4b11-9979-7fc4ef2c07ea",
+      "title": "Ray Tracing in One Weekend Series",
+      "url": "https://raytracing.github.io",
+      "savedAt": "2024-07-27T02:44:27.000Z",
+      "description": "The Ray Tracing in One Weekend series of books are available to the public for free online. They are\n  released under the CC0\n  license. This means that they are as close to public domain as we can get. (While that also frees you from the\n  requirement of providing attribution, it would help the overall project if you could point back to this web site as a\n  service to other users.)",
+      "tags": [
+        "cs/graphic"
+      ]
+    },
+    {
+      "id": "b630e76a-c42e-483d-8881-63f88add6be7",
+      "title": "Startup Finance for Founders — Part I, Accounting by Peter Reinhardt",
+      "url": "https://rein.pk/startup-finance-for-founders-part-i-accounting",
+      "savedAt": "2024-07-27T00:17:32.000Z",
+      "description": "When we started Segment, we knew nothing about business finance. My background was in aerospace engineering, and my co-founders came from computer science and design. Beyond the hilariously overcomplicated spreadsheet we used to manage grocery bills as roommates, we really had no experience in finance when we started the company.",
+      "tags": [
+        "startup"
+      ]
+    },
+    {
+      "id": "0226c7f1-a0a0-4d9c-b6e7-e0dd4f4a39a8",
+      "title": "Tools + Techniques for Procedural Gamedev - Casey Primozic's Homepage",
+      "url": "https://cprimozic.net/blog/tools-and-techniques-for-procedural-gamedev/",
+      "savedAt": "2024-07-27T00:16:45.000Z",
+      "description": "For a couple of years now, I've been working on and off on some 3D scenes and levels that run in the browser.  It started off as a scattering of self-contained demos for some custom shaders or similar that I wanted to try out, but over time the project has grown into a pretty substantial interconnected game-like thing.",
+      "tags": [
+        "cs/gamedev"
+      ]
+    },
+    {
+      "id": "dbae9c21-6128-43e8-9fc8-e1a015df3525",
+      "title": "My OBTF Workflow & Bash Script",
+      "url": "https://mikegrindle.com/posts/obtf-workflow",
+      "savedAt": "2024-07-26T20:18:46.000Z",
+      "description": "Several months ago, I wrote a post about my digital notetaking\nsystem, which consists of me keeping all my notes in one big t(e)xt file. For\nwhatever reason, people took an interest in the idea (which originated\nin the 2000s). And to this day, I still get the odd email or message\nabout it.",
+      "tags": [
+        "writing"
+      ]
+    },
+    {
+      "id": "f8898ea4-86cf-4c2f-9d24-5d9838171849",
+      "title": "When Then Zen",
+      "url": "https://when-then-zen.christine.website",
+      "savedAt": "2024-07-26T02:03:07.000Z",
+      "description": "When Then Zen is a new project by Christine Dodrill to offer a better way to teach meditation. Meditation has gotten a really bad reputation in Western audiences as overcomplicated, esoteric and baroque; however those couldn't be farther from the truth. It can be as simple as watching breathing happen or build off of there.",
+      "tags": [
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "dd215283-e47d-4246-8a58-2156dfb7d089",
+      "title": "How Simultaneous Multithreading Works Under the Hood",
+      "url": "https://blog.codingconfessions.com/p/simultaneous-multithreading",
+      "savedAt": "2024-07-25T22:34:39.000Z",
+      "description": "Ever wondered how your CPU handles two tasks at once? Discover the magic of Simultaneous Multithreading and see what’s really going on inside.",
+      "tags": [
+        "hardware"
+      ]
+    },
+    {
+      "id": "3bdceea1-e7b4-4dc0-876d-1a5290400e3f",
+      "title": "Intro | Putting the \"You\" in CPU",
+      "url": "https://cpu.land",
+      "savedAt": "2024-07-25T21:59:06.000Z",
+      "description": "Curious exactly what happens when you run a program on your computer? Learn how multiprocessing works, what system calls really are, how computers manage memory with hardware interrupts, and how Linux loads executables.",
+      "tags": [
+        "for-later",
+        "hardware"
+      ]
+    },
+    {
+      "id": "2d3294ea-cefd-45e2-a9b8-3d680125b923",
+      "title": "lecture18",
+      "url": "https://www.cs.cornell.edu/courses/cs4110/2018fa/lectures/lecture18.pdf",
+      "savedAt": "2024-07-24T04:56:04.000Z",
+      "description": null,
+      "tags": [
+        "cs/compilers",
+        "programming-languages",
+        "type-theory"
+      ]
+    },
+    {
+      "id": "0d656a0b-9807-4fa1-ad8f-2c0521acb1c0",
+      "title": "First Principles: The Building Blocks of True Knowledge",
+      "url": "https://fs.blog/first-principles/",
+      "savedAt": "2024-07-24T04:50:06.000Z",
+      "description": "First Principles thinking breaks down true understanding into building blocks we can reassemble into something that simplifies our problem.",
+      "tags": [
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "dd932887-1740-4d52-bf64-60671a90a4a7",
+      "title": "Categories of leadership on technical teams | benkuhn.net",
+      "url": "https://www.benkuhn.net/leadcats/",
+      "savedAt": "2024-07-24T00:07:52.000Z",
+      "description": "overall direction • people management • project management • technical leadership • example divisions of labor",
+      "tags": [
+        "career"
+      ]
+    },
+    {
+      "id": "de0fd560-a545-4fb5-a86c-116f430f1765",
+      "title": "Haskell for all: Software engineers are not (and should not be) technicians",
+      "url": "https://www.haskellforall.com/2024/07/software-engineers-are-not-and-should.html",
+      "savedAt": "2024-07-23T22:23:44.000Z",
+      "description": "Why predictable development work is a red flag",
+      "tags": [
+        "engineering",
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "75998918-e0ae-4dd1-b932-1907bac8e10e",
+      "title": "Distributed Systems Reading List",
+      "url": "https://dancres.github.io/Pages/",
+      "savedAt": "2024-07-23T18:00:12.000Z",
+      "description": "I often argue that the toughest thing about distributed systems is changing the way you think.  The below is a collection of material I've found useful for motivating these changes.",
+      "tags": [
+        "cs/distsys",
+        "resource/list"
+      ]
+    },
+    {
+      "id": "71e4fa01-193f-4db9-8d5f-a7295011014f",
+      "title": "onceupon/Bash-Oneliner: A collection of handy Bash One-Liners and terminal tricks for data processing and Linux system maintenance.",
+      "url": "https://github.com/onceupon/Bash-Oneliner",
+      "savedAt": "2024-07-23T14:54:08.000Z",
+      "description": "A collection of handy Bash One-Liners and terminal tricks for data processing and Linux system maintenance. - onceupon/Bash-Oneliner",
+      "tags": [
+        "til",
+        "tools/scripting"
+      ]
+    },
+    {
+      "id": "265b2fc4-5cf8-4ac8-8e1a-a53e55fa0210",
+      "title": "Chase Your Reading - by Robin Hanson - Overcoming Bias",
+      "url": "https://www.overcomingbias.com/p/chase-your-readinghtml",
+      "savedAt": "2024-07-23T02:42:47.000Z",
+      "description": "Hunting has two main modes: searching and chasing. With searching you look for something to chase. With chasing, in contrast, you have a focus of attention that drives your actions. You may find something else worth chasing along the way, and then switch your focus to a new chase, but you’ll still maintain a focus.",
+      "tags": [
+        "reading",
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "5688be0f-6053-43ff-8f44-0dc070a142ff",
+      "title": "On having more interesting ideas - by Henrik Karlsson",
+      "url": "https://www.henrikkarlsson.xyz/p/interesting-ideas",
+      "savedAt": "2024-07-23T02:41:55.000Z",
+      "description": "“To write well, all you have to do is cultivate your mind and then write what you see.” When I talk to people who have worked with their ideas seriously for 10+ years, it feels like I can throw any topic on them and they’ll have an interesting idea, or if not an idea so at least an unexpected way of approaching it.",
+      "tags": [
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "b77b41d2-902a-4577-b445-42aed9ef0251",
+      "title": "Build your own SQLite, Part 1: Listing tables",
+      "url": "https://blog.sylver.dev/build-your-own-sqlite-part-1-listing-tables",
+      "savedAt": "2024-07-23T01:46:44.000Z",
+      "description": "As developers, we use databases all the time. But how do they work? In this series, we'll try to answer that question by building our own SQLite-compatible database from scratch.\nSource code examples will be provided in Rust, but you are encouraged t...",
+      "tags": [
+        "cs/database",
+        "for-later"
+      ]
+    },
+    {
+      "id": "c702fd9b-be38-4939-b5af-31e8a4cdb2b7",
+      "title": "Structured Procrastination",
+      "url": "https://structuredprocrastination.com",
+      "savedAt": "2024-07-22T16:51:25.000Z",
+      "description": "Author practices jumping rope with seaweed while work awaits.",
+      "tags": [
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "b613420b-3e93-4277-a145-049f37730425",
+      "title": "Parse, don’t validate",
+      "url": "https://lexi-lambda.github.io/blog/2019/11/05/parse-don-t-validate/",
+      "savedAt": "2024-07-22T11:57:00.000Z",
+      "description": "Historically, I’ve struggled to find a concise, simple way to explain what it means to practice type-driven design. Too often, when someone asks me “How did you come up with this approach?” I find I can’t give them a satisfying answer. I know it didn’t just come to me in a vision—I have an iterative design process that doesn’t require plucking the “right” approach out of thin air—yet I haven’t been very successful in communicating that process to others.",
+      "tags": [
+        "cs"
+      ]
+    },
+    {
+      "id": "013c927d-fac8-4d59-99c9-a798f0339c2b",
+      "title": "PostgreSQL triggers and isolation levels - Vlad Mihalcea",
+      "url": "https://vladmihalcea.com/postgresql-triggers-isolation-levels/",
+      "savedAt": "2024-07-21T22:14:27.000Z",
+      "description": "Learn how the MVCC-based PostgreSQL isolation levels guarantee read and write consistency when executing database triggers.",
+      "tags": [
+        "cs/database"
+      ]
+    },
+    {
+      "id": "c3a5ee01-7769-4c1e-a9bb-aa52705399e1",
+      "title": "Setting up an x86 CPU in 64-bit mode",
+      "url": "https://thasso.xyz/2024/07/13/setting-up-an-x86-cpu.html",
+      "savedAt": "2024-07-21T15:24:32.000Z",
+      "description": "My personal blog about things I find interesting. Hit me up!",
+      "tags": [
+        "cs/operating-system",
+        "hardware"
+      ]
+    },
+    {
+      "id": "f1c236b7-a9af-48c7-8789-ca68454f89d9",
+      "title": "1989 Networking: NetWare 386 | OS/2 Museum",
+      "url": "https://www.os2museum.com/wp/1989-networking-netware-386/",
+      "savedAt": "2024-07-21T14:58:35.000Z",
+      "description": "Thanks to the recent warez mega dump, another long lost gem has come to light: NetWare 386, also known as NetWare 3.0.",
+      "tags": [
+        "computer-history",
+        "cs/networking"
+      ]
+    },
+    {
+      "id": "cd715696-e8ee-49e6-834d-396e294e5207",
+      "title": "why you should write more - by Ava - bookbear express",
+      "url": "https://www.avabear.xyz/p/why-you-should-write-more",
+      "savedAt": "2024-07-21T14:50:58.000Z",
+      "description": "and share it online",
+      "tags": [
+        "writing"
+      ]
+    },
+    {
+      "id": "8597d1f1-efa4-4bf2-a8c4-af930783ceca",
+      "title": "Learning LLVM (Part-2)",
+      "url": "https://sh4dy.com/2024/07/06/learning_llvm_02/",
+      "savedAt": "2024-07-21T14:10:51.000Z",
+      "description": "IntroductionIn the first part of my blog series on compilers and LLVM, I provided a brief introduction to compiler fundamentals and LLVM. We also wrote a simple LLVM analysis pass to print function na",
+      "tags": [
+        "cs/compilers",
+        "for-later"
+      ]
+    },
+    {
+      "id": "a7e09fdd-8140-4cb4-a47d-d994b2ba05c7",
+      "title": "Managing Underperformers | Jack Danger",
+      "url": "https://jackdanger.com/managing-underperformers/",
+      "savedAt": "2024-07-21T14:03:16.000Z",
+      "description": "Kind managers address underperformance early and accurately.\nUnderperformance is when a person or a team is not bearing their share of the organization’s load. Their colleagues are either relying on them and getting let down, or they’ve learned not to rely on them at all. There are two fully unrelated causes of underperformance: Refusal to Align and Failure to Execute.\nRefusal to align Every person I’ve fired, both ICs and managers, refused to align their goals with the company’s.",
+      "tags": [
+        "career",
+        "management"
+      ]
+    },
+    {
+      "id": "478d820f-dc18-4fc9-9416-5fa82ea8a048",
+      "title": "time-clocks",
+      "url": "https://omnivore.app/noghartt/u-60-c-25934-167-b-49-d-0-a-77-a-42-bd-746-dfa-17-time-clocks-pd-1909eaffc4c",
+      "savedAt": "2024-07-20T14:49:20.000Z",
+      "description": "/noghartt/u-60-c-25934-167-b-49-d-0-a-77-a-42-bd-746-dfa-17-time-clocks-pd-1909eaffc4c",
+      "tags": [
+        "cs/distsys",
+        "type/paper"
+      ]
+    },
+    {
+      "id": "a590a759-6fb9-4b10-a88f-f98aa0df4865",
+      "title": "Learning about distributed systems: where to start?",
+      "url": "https://muratbuffalo.blogspot.com/2020/06/learning-about-distributed-systems.html",
+      "savedAt": "2024-07-20T14:47:42.000Z",
+      "description": "This is definitely not a \"learn distributed systems in 21 days\" post. I recommend a principled, from the foundations-up, studying ...",
+      "tags": [
+        "cs/distsys",
+        "resource/list"
+      ]
+    },
+    {
+      "id": "ce89f4c0-46a6-11ef-aa0d-6bffbfd75175",
+      "title": "little-languages",
+      "url": "https://staff.um.edu.mt/afra1/seminar/little-languages.pdf",
+      "savedAt": "2024-07-20T14:46:13.000Z",
+      "description": null,
+      "tags": [
+        "cs/compilers",
+        "type/paper"
+      ]
+    },
+    {
+      "id": "ad6984ac-4694-11ef-a68f-937577a56ed6",
+      "title": "2407.09468",
+      "url": "https://www.arxiv.org/pdf/2407.09468",
+      "savedAt": "2024-07-20T12:36:25.000Z",
+      "description": null,
+      "tags": []
+    },
+    {
+      "id": "35f7f620-da55-4d5f-b994-e022bb65add8",
+      "title": "RFC 677: Maintenance of duplicate databases",
+      "url": "https://www.rfc-editor.org/rfc/rfc677",
+      "savedAt": "2024-07-20T05:43:00.000Z",
+      "description": null,
+      "tags": [
+        "cs/distsys",
+        "for-later",
+        "type/rfc"
+      ]
+    },
+    {
+      "id": "296b8322-e096-428a-87c2-dfcfb552de44",
+      "title": "Alternative Technologies",
+      "url": "https://alternativetech.com/ATpubs_dir.html",
+      "savedAt": "2024-07-19T22:15:05.000Z",
+      "description": "\"Foundation for Object/Relational Databases: The Third Manifesto” by C. J. Date and H. Darwen -- 2003",
+      "tags": [
+        "cs/database",
+        "resource/list"
+      ]
+    },
+    {
+      "id": "18065411-94de-453b-a96f-38459659daaa",
+      "title": "SQLite Transactions",
+      "url": "https://reorchestrate.com/posts/sqlite-transactions/",
+      "savedAt": "2024-07-18T11:32:55.000Z",
+      "description": "In the past few years SQLite (not SQL-light) has had a surge of popularity as people have come to realise its power as an in-process, highly reliable SQL database engine as a backend for server processes rather than its traditional role of client or edge applications. This change in stance for SQLite has happened despite the authors almost actively discouraging its use for this purpose.",
+      "tags": [
+        "cs/database"
+      ]
+    },
+    {
+      "id": "0de2a975-1fdd-454c-b8b6-5c4fbd96cf23",
+      "title": "The Greatest Educational Life Hack: Learning Math Ahead of Time - Justin Skycak",
+      "url": "https://www.justinmath.com/the-greatest-educational-life-hack-learning-math-ahead-of-time/",
+      "savedAt": "2024-07-18T01:24:52.000Z",
+      "description": "Learning math early guards you against numerous academic risks and opens all kinds of doors to career opportunities.",
+      "tags": [
+        "math"
+      ]
+    },
+    {
+      "id": "e4891a17-55e6-4110-ae16-70660aadd660",
+      "title": "Self Hosting 101 - A Beginner's Guide",
+      "url": "https://ente.io/blog/self-hosting-101/",
+      "savedAt": "2024-07-18T01:21:12.000Z",
+      "description": "A beginner's guide to self hosting",
+      "tags": [
+        "homelab"
+      ]
+    },
+    {
+      "id": "ab016adc-a8aa-4fd1-a49b-659f9c8f332c",
+      "title": "VisCircuit - Make Circuits Easy to Learn",
+      "url": "https://viscircuit.com",
+      "savedAt": "2024-07-18T01:04:20.000Z",
+      "description": "VisCircuit is a note-taking tool that contains an easy circuit diagram drawer and a beautiful note editor, designed to help you learn about electronics and circuits more easily.",
+      "tags": [
+        "hardware",
+        "learning"
+      ]
+    },
+    {
+      "id": "c1c3a22b-b008-44b7-80b2-36f5d86d1b93",
+      "title": "Developing domain expertise: get your hands dirty. | Irrational Exuberance",
+      "url": "https://lethain.com/domain-expertise/",
+      "savedAt": "2024-07-17T16:04:32.000Z",
+      "description": "Recently, I’ve been thinking about developing domain expertise, and wanted to collect my thoughts here. Although I covered some parts of this in Your first 90 days as CTO (understanding product analytics, shadowing customer support, talking to customers, and talking with your internal experts), I missed the most important dimension of effective learning: getting your hands dirty.\nAt Carta, I’m increasingly spending time focused on our fund financials business, which requires a deep understanding of accounting.",
+      "tags": [
+        "career",
+        "engineering",
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "0483717f-04a7-4479-b3b8-78cd739b7911",
+      "title": "Layers of context. | Irrational Exuberance",
+      "url": "https://lethain.com/layers-of-context/",
+      "savedAt": "2024-07-17T15:56:38.000Z",
+      "description": "Recently I was chatting with a Staff-plus engineer who was struggling to influence his peers. Each time he suggested an approach, his team agreed with him, but his peers in the organization disagreed and pushed back. He wanted advice on why his peers kept undermining his approach. After our chat, I followed up by talking with his peers about some recent disagreements, and they kept highlighting missing context from the engineer’s proposals.",
+      "tags": [
+        "career",
+        "engineering"
+      ]
+    },
+    {
+      "id": "0b1d4007-d9fc-4d31-9bd7-880ef9b8d9ed",
+      "title": "How to create software quality. | Irrational Exuberance",
+      "url": "https://lethain.com/quality/",
+      "savedAt": "2024-07-17T15:45:47.000Z",
+      "description": "I’ve been reading Steven Sinofsky’s Hardcore Software, and particularly enjoyed this quote from a memo discussed in the Zero Defects chapter:\nYou can improve the quality of your code, and if you do, the rewards for yourself and for Microsoft will be immense. The hardest part is to decide that you want to write perfect code.\nIf I wrote that in an internal memo, I imagine the engineering team would mutiny, but software quality is certainly an interesting topic where I continue to refine my thinking.",
+      "tags": [
+        "career",
+        "engineering",
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "c665b0a0-55c6-447e-89cf-e294ec991f7f",
+      "title": "bobbyiliev/introduction-to-bash-scripting: Free Introduction to Bash Scripting eBook",
+      "url": "https://github.com/bobbyiliev/introduction-to-bash-scripting",
+      "savedAt": "2024-07-17T03:42:21.000Z",
+      "description": "Free Introduction to Bash Scripting eBook. Contribute to bobbyiliev/introduction-to-bash-scripting development by creating an account on GitHub.",
+      "tags": [
+        "repository",
+        "tools/scripting"
+      ]
+    },
+    {
+      "id": "c1874115-2161-4f2d-92ec-47a62a87cdaa",
+      "title": "untitled1.html",
+      "url": "http://larch-www.lcs.mit.edu:8001/~corbato/turing91/",
+      "savedAt": "2024-07-17T03:33:59.000Z",
+      "description": "It is an honor and a pleasure to accept the Alan Turing Award. My own work\nhas been on computer systems and that will be my theme. It is the essence\nof systems that they are integrating efforts, requiring broad knowledge\nof the problem area to be addressed, and that the detailed knowledge required\nis rarely held by one person. Thus the work of systems is usually done by\nteams and so it is in my case too. Hence I am accepting this award on behalf\nof the many whom I have worked with as much as for myself. It is not practical\nto name them all, so I will not. Nevertheless I would like to give special\nmention to Marjorie Daggett and Bob Daley for their parts in the birth of\nCTSS and to Bob Fano and the late Ted Glaser for their critical contributions\nto the development of the Multics System.",
+      "tags": [
+        "cs/distsys",
+        "systems-theory"
+      ]
+    },
+    {
+      "id": "ffa90748-bac4-4e20-a787-3257d11aa5fb",
+      "title": "The Backup And Sync Strategy, Revised | Brain Baking",
+      "url": "https://brainbaking.com/post/2024/05/the-backup-and-sync-strategy-revised/",
+      "savedAt": "2024-07-17T03:30:36.000Z",
+      "description": "After fiddling with various ways to sync notes across multiple vaults and iterating on my local data …",
+      "tags": [
+        "cs",
+        "homelab"
+      ]
+    },
+    {
+      "id": "be2467fd-1002-455e-b1e4-9a207c2c7d83",
+      "title": "Keep perfecting your config • Buttondown",
+      "url": "https://buttondown.email/hillelwayne/archive/keep-perfecting-your-config/",
+      "savedAt": "2024-07-16T22:43:41.000Z",
+      "description": "Make your tools work better for you.",
+      "tags": [
+        "cs"
+      ]
+    },
+    {
+      "id": "b0455d38-e672-44ed-b0cc-9ab7bb1cbc9e",
+      "title": "interdb.jp",
+      "url": "https://www.interdb.jp/dl/",
+      "savedAt": "2024-07-16T14:23:43.000Z",
+      "description": "In the previous two golden ages (1950s-1960s and the 1980s),\nour expectations outpaced the capabilities of the technology at the time, leading to disappointment.\nIn contrast, the AI technology of the current golden age, which began in the mid-2010s, has consistently exceeded our expectations.",
+      "tags": [
+        "books",
+        "cs/ai",
+        "for-later"
+      ]
+    },
+    {
+      "id": "3f15b6ba-2b0e-4478-9ca6-629af24ad45f",
+      "title": "Software Engineering Is Not Engineering | Brain Baking",
+      "url": "https://brainbaking.com/post/2021/06/software-engineering-is-not-engineering/",
+      "savedAt": "2024-07-16T14:18:57.000Z",
+      "description": "Rather, it's Reflection-in-action! Or is it?",
+      "tags": [
+        "career",
+        "cs"
+      ]
+    },
+    {
+      "id": "a5846f54-f5b9-410f-bb79-c82159ee0183",
+      "title": "How to Create a Liquid Raymarching Scene Using Three.js Shading Language | Codrops",
+      "url": "https://tympanus.net/codrops/2024/07/15/how-to-create-a-liquid-raymarching-scene-using-three-js-shading-language/",
+      "savedAt": "2024-07-16T13:52:35.000Z",
+      "description": "An introduction to Raymarching using the power of Signed Distance Fields (SDFs) and simple lighting to create a liquid shape effect.",
+      "tags": [
+        "cs/computer-graphics",
+        "for-later",
+        "web"
+      ]
+    },
+    {
+      "id": "5d8e9ac2-c331-418c-b8bc-bedc21cf33ad",
+      "title": "sbensu: We need visual programming. No, not like that.",
+      "url": "https://blog.sbensu.com/posts/demand-for-visual-programming/",
+      "savedAt": "2024-07-15T12:16:33.000Z",
+      "description": "Why do we keep building visual programming environments? Why do we never use them? What should we do instead?",
+      "tags": [
+        "cs",
+        "programming"
+      ]
+    },
+    {
+      "id": "f512ed5d-d098-488f-a6ca-18caa7571a9d",
+      "title": "Jonas Hietala: Microfeatures in my blog",
+      "url": "https://www.jonashietala.se/blog/2024/07/09/microfeatures_in_my_blog/",
+      "savedAt": "2024-07-15T01:44:53.000Z",
+      "description": "A while I ago I encountered a blog post called Microfeatures I Love in Blogs and Personal Websites, and together with the related Hacker News discussion I got nerd sniped.\n(I spent more time than I care to admit implementing new and exciting microfeatures for the blog.)",
+      "tags": [
+        "writing"
+      ]
+    },
+    {
+      "id": "6b9c487b-b365-4990-830d-f93825114040",
+      "title": "Bio-digital jazz, man",
+      "url": "https://biodigitaljazz.net/blog/systemantics.html",
+      "savedAt": "2024-07-15T01:23:50.000Z",
+      "description": "Systemantics is a silly little\nbook by John Gall with some interesting ideas about how systems (barely) work and why they fail. Below is\na summary of the book’s axioms.",
+      "tags": [
+        "systems-theory"
+      ]
+    },
+    {
+      "id": "3340b7b1-335c-4dae-a9f3-97db916a3958",
+      "title": "Linear Algebra Fundamentals",
+      "url": "https://www.iamtk.co/series/mathematics-for-machine-learning/linear-algebra-fundamentals",
+      "savedAt": "2024-07-15T01:21:38.000Z",
+      "description": "Learning the fundamentals of Linear Algebra for Machine Learning",
+      "tags": [
+        "for-later",
+        "math"
+      ]
+    },
+    {
+      "id": "7568c875-711a-46d8-b8fc-434c49f54b0f",
+      "title": "Hugo Sidenotes Shortcode :: dade",
+      "url": "https://0xda.de/blog/2024/07/hugo-sidenotes-shortcode/",
+      "savedAt": "2024-07-15T01:18:37.000Z",
+      "description": "I’ve recently really enjoyed a number of small features that make blogs feel more… interesting. One of those features is sidenotes. They are like footnotes, except, well, on the side. As someone who writes with a lot of parentheticals, a sidenote seems like a great way to remove my comment out of the flow of the sentence and I can make it separate, but still easy to read.\nI am certainly not the first to add sidenotes to my blog.",
+      "tags": [
+        "writing"
+      ]
+    },
+    {
+      "id": "3f44bf04-76aa-4890-b573-51933f61b2a0",
+      "title": "On reading about optimizing compilers | Ludwig",
+      "url": "https://ludwigabap.bearblog.dev/recent-reads-on-optimizing-compilers/",
+      "savedAt": "2024-07-15T01:06:28.000Z",
+      "description": "I was asked (on ) to dump some of my reading from the last two days on optimizing compilers -- here they are. For context, I never actually wrote a compiler ...",
+      "tags": [
+        "cs/compilers"
+      ]
+    },
+    {
+      "id": "b684513f-dfb0-402b-b51a-dd02f629d70d",
+      "title": "The humble beginning of id Software | Brachiosoft Blog",
+      "url": "https://blog.brachiosoft.com/en/posts/doom-1/",
+      "savedAt": "2024-07-14T21:51:36.000Z",
+      "description": "This article is translated from the original Chinese edition.",
+      "tags": [
+        "computer-history"
+      ]
+    },
+    {
+      "id": "c8e4bed7-62d4-4e13-8f89-b19b7b62c841",
+      "title": "Understanding 3D Graphics | Azeem Bande-Ali | azeemba.com",
+      "url": "https://azeemba.com/posts/understanding-3d-graphics.html",
+      "savedAt": "2024-07-14T20:36:56.000Z",
+      "description": "First 3D model I ever made! (Jan 2020) I started playing around with Blender to learn 3D modeling and animation in 2020. I loved the experience but I had trouble understanding some …",
+      "tags": [
+        "cs/computer-graphics"
+      ]
+    },
+    {
+      "id": "ab60f1cc-e681-4e63-89c5-04c4e7cd638e",
+      "title": "The Hazardous Life of an Undersea Cable",
+      "url": "https://www.youtube.com/watch?v=AFt9le2ytW0",
+      "savedAt": "2024-07-14T18:22:37.000Z",
+      "description": "Links:\n- The Asianometry Newsletter: https://www.asianometry.com\n- Patreon: https://www.patreon.com/Asianometry\n- Threads: https://www.threads.net/@asianometry\n- Twitter: https://twitter.com/asianometry",
+      "tags": [
+        "cs/networking",
+        "type/video"
+      ]
+    },
+    {
+      "id": "4ef0e5f7-1865-43d3-a7d7-fc4e0639cccf",
+      "title": "How and why we built our startup around small teams",
+      "url": "https://newsletter.posthog.com/p/the-magic-of-small-engineering-teams",
+      "savedAt": "2024-07-14T17:56:09.000Z",
+      "description": "Creating a startup of small teams can help you ship stupidly fast.",
+      "tags": [
+        "career"
+      ]
+    },
+    {
+      "id": "1edc2399-aff9-4357-8b25-ecd5f53fdcec",
+      "title": "Where Did Combinators Come From? Hunting the Story of Moses Schönfinkel—Stephen Wolfram Writings",
+      "url": "https://writings.stephenwolfram.com/2020/12/where-did-combinators-come-from-hunting-the-story-of-moses-schonfinkel/",
+      "savedAt": "2024-07-14T17:48:54.000Z",
+      "description": "A dive into the unknown personal and academic history of the mathematician who developed combinators, Moses Schönfinkel.",
+      "tags": [
+        "math"
+      ]
+    },
+    {
+      "id": "9bee513c-6efe-47dd-8369-38e9f3a8676f",
+      "title": "A Race to the Bottom - Database Transactions Undermining Your AppSec · Doyensec's Blog",
+      "url": "https://blog.doyensec.com/2024/07/11/database-race-conditions.html",
+      "savedAt": "2024-07-14T16:54:41.000Z",
+      "description": "A Race to the Bottom - Database Transactions Undermining Your AppSec",
+      "tags": [
+        "cs/database",
+        "for-later"
+      ]
+    },
+    {
+      "id": "6597ed9a-3fd1-11ef-be52-cf52bb66c81f",
+      "title": "An Incremental Approach to Compiler Construction",
+      "url": "http://scheme2006.cs.uchicago.edu/11-ghuloum.pdf",
+      "savedAt": "2024-07-14T16:54:20.000Z",
+      "description": null,
+      "tags": [
+        "type/paper",
+        "cs/pl-theory",
+        "for-later",
+        "cs/compilers"
+      ]
+    },
+    {
+      "id": "ba967a4b-c922-4ce0-9a94-9673b3add4a0",
+      "title": "Beating the L1 cache with value speculation",
+      "url": "https://mazzo.li/posts/value-speculation.html",
+      "savedAt": "2024-07-14T16:53:55.000Z",
+      "description": "If we have a heuristic to guess some value cheaply, we can remove a data dependency in a tight loop using the branch predictor. This allows the CPU to run more instructions in parallel, increasing performance. If this explanation does not make much sense to you, keep reading to learn about some of the magic making your CPU fast!",
+      "tags": [
+        "cs",
+        "til"
+      ]
+    },
+    {
+      "id": "fb5832b1-3fc9-4d47-834f-cc747f19ff2c",
+      "title": "A malleable garden",
+      "url": "https://www.petemillspaugh.com/malleable-garden",
+      "savedAt": "2024-07-14T16:39:01.000Z",
+      "description": "Pete Millspaugh's digital garden",
+      "tags": [
+        "writing"
+      ]
+    },
+    {
+      "id": "a5da013e-41fe-11ef-a8a2-ef4b25dbabdd",
+      "title": "The microarchitecture of Intel and AMD CPUs",
+      "url": "https://www.agner.org/optimize/microarchitecture.pdf",
+      "savedAt": "2024-07-14T16:32:25.000Z",
+      "description": null,
+      "tags": [
+        "books",
+        "hardware"
+      ]
+    },
+    {
+      "id": "d09f114c-830c-43c8-94fd-5458b458ad6a",
+      "title": "O tal do Isolamento no A.C.I.D. - Alen Vieira",
+      "url": "https://alenvieira.github.io/posts/o-tal-do-isolamento/",
+      "savedAt": "2024-07-14T05:26:56.000Z",
+      "description": "Vamos aprofundar um pouco sobre o isolamento?",
+      "tags": [
+        "cs/database"
+      ]
+    },
+    {
+      "id": "8fac2c1a-b586-434e-b7df-34da24792dbe",
+      "title": "Matrix Theory of Mind - by Thorsten Ball - Register Spill",
+      "url": "https://registerspill.thorstenball.com/p/matrix-theory-of-mind",
+      "savedAt": "2024-07-14T01:01:53.000Z",
+      "description": "A few months ago I listened to this episode of the Search Engine podcast in which PJ Vogt, the host, talks to Ezra Klein about the internet and media consumption in general. In the episode, Ezra Klein shares what he thinks of as the “Matrix Theory of Mind”. Here’s my (slightly cleaned up) transcription of",
+      "tags": [
+        "reading"
+      ]
+    },
+    {
+      "id": "24911880-03e4-4d46-a869-92ff3db439bd",
+      "title": "Three important steps before jumping to the code",
+      "url": "https://stebunov.com/three-steps/",
+      "savedAt": "2024-07-14T00:59:36.000Z",
+      "description": "As a developer, how do you start building a new feature? You may think, \"It depends,\" and it certainly does. However, there could be frameworks that fit many situations, and I'd like to suggest one",
+      "tags": [
+        "career"
+      ]
+    },
+    {
+      "id": "3034e423-3dea-4b44-a1f2-83259cbba5de",
+      "title": "Trust as a bottleneck to growing teams quickly | benkuhn.net",
+      "url": "https://www.benkuhn.net/trust/",
+      "savedAt": "2024-07-14T00:56:15.000Z",
+      "description": "non-trust is reasonable • trust lets collaboration scale • symptoms of trust deficit • how to proactively build trust",
+      "tags": [
+        "career"
+      ]
+    },
+    {
+      "id": "ee25b81a-6659-4cdc-81d7-07240f8c2343",
+      "title": "CSS GPU Animation: Doing It Right — Smashing Magazine",
+      "url": "https://www.smashingmagazine.com/2016/12/gpu-animation-doing-it-right/",
+      "savedAt": "2024-07-14T00:41:07.000Z",
+      "description": "Sometimes animation that is nice and smooth in a simple demo runs very slowly on a real website, introduces visual artefacts or even crashes the browser. Why does this happen? How do we fix it? In this article, Sergey Chikuyonok aims to help you to better understand how the browser uses the GPU to render, so that you can create impressive websites that run quickly on all devices. Let’s do it!",
+      "tags": [
+        "for-later",
+        "web"
+      ]
+    },
+    {
+      "id": "baa9919d-2504-4860-a036-618ebb1d2dc8",
+      "title": "15 rules for blogging, and my current streak (Interconnected)",
+      "url": "https://interconnected.org/home/2020/09/10/streak",
+      "savedAt": "2024-07-14T00:36:20.000Z",
+      "description": "Posted on Thursday 10 Sep 2020. 493 words, 2 links. By Matt Webb.",
+      "tags": [
+        "writing"
+      ]
+    },
+    {
+      "id": "cbd6ab82-2483-4ede-94e5-0b23e0ce96a0",
+      "title": "Adam Keys is Thinking - Journal, highlight, revisit, blog",
+      "url": "https://therealadam.com/2024/07/13/journal-highlight-revisit.html",
+      "savedAt": "2024-07-14T00:33:47.000Z",
+      "description": "Writing from notes is a bootstrapping problem. Anything you can do to get started, overcome static friction, and “defeat” the first blank canvas is the best thing you can do.\nI started with journaling. Don’t worry about the quality or quantity — yet. Just write. Start with recollections of your day(s) and branch out from there.\nThere is a trough of despair, at some point. It may feel like you’re just writing into a void.",
+      "tags": [
+        "self-improvement",
+        "writing"
+      ]
+    },
+    {
+      "id": "1238296c-59ee-459c-bbe5-5c715bbbd2e9",
+      "title": "Superbabies: Putting The Pieces Together — LessWrong",
+      "url": "https://www.lesswrong.com/posts/2uJsiQqHTjePTRqi4/superbabies-putting-the-pieces-together",
+      "savedAt": "2024-07-14T00:19:11.000Z",
+      "description": "This post was inspired by some talks at the recent LessOnline conference including one by LessWrong user “Gene Smith”. …",
+      "tags": [
+        "biology"
+      ]
+    },
+    {
+      "id": "88347a97-f38c-427c-af90-a1a5f2cf4cd4",
+      "title": "89 things I know about Git commits · Jamie Tanna | Software Engineer",
+      "url": "https://www.jvt.me/posts/2024/07/12/things-know-commits/",
+      "savedAt": "2024-07-13T02:48:42.000Z",
+      "description": "Some of the things I've learned over a decade of Git usage, and working on writing good commit messages.",
+      "tags": [
+        "cs"
+      ]
+    },
+    {
+      "id": "0a05a3aa-87de-49c6-b26c-ffd5c200b8d6",
+      "title": "Use A Work Journal To Recover Focus Faster And Clarify Your Thoughts",
+      "url": "https://fev.al/posts/work-journal/",
+      "savedAt": "2024-07-13T02:17:57.000Z",
+      "description": "You’re working on the most complex problem in computer science: fixing permissions on a deployment pipeline. It’s been 4 days you started on that simple task...",
+      "tags": [
+        "career",
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "1a91cfb4-13dc-46ad-819f-09a4b2f1f776",
+      "title": "WebGPU Fundamentals",
+      "url": "https://webgpufundamentals.org",
+      "savedAt": "2024-07-12T20:25:41.000Z",
+      "description": "Learn webgpu",
+      "tags": [
+        "cs/graphic"
+      ]
+    },
+    {
+      "id": "7371ed96-f0a7-401b-b957-d50dc56253da",
+      "title": "Agda by Example: λ-calculus",
+      "url": "https://mazzo.li/posts/Lambda.html",
+      "savedAt": "2024-07-12T13:10:45.000Z",
+      "description": "Update: I gave a talk at NY Haskell following this blogpost, although I didn’t manage to talk about everything:",
+      "tags": [
+        "cs/type-system",
+        "functional-programming"
+      ]
+    },
+    {
+      "id": "9ab33cc3-88dd-4328-8d15-370a38a5e071",
+      "title": "The Forth Methodology of Charles Moore by Jeff Fox 12/09/01",
+      "url": "https://www.ultratechnology.com/method.htm",
+      "savedAt": "2024-07-12T12:46:16.000Z",
+      "description": "Essay about the Forth methodology of Chuck Moore as interpreted\nby Jeff Fox",
+      "tags": [
+        "career",
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "848b4e79-2ced-4e0b-9e7a-c413ec9518e3",
+      "title": "Let's reproduce GPT-2 (1.6B): one 8XH100 node, 24 hours, $672, in llm.c · karpathy/llm.c · Discussion #677",
+      "url": "https://github.com/karpathy/llm.c/discussions/677",
+      "savedAt": "2024-07-12T01:49:04.000Z",
+      "description": "In this post we are reproducing GPT-2 in llm.c. This is \"the GPT-2\", the full, 1558M parameter version that was introduced in OpenAI's blog post Better Language Models and their Impli...",
+      "tags": []
+    },
+    {
+      "id": "b2f11275-9ab9-4a13-92a5-2a89d69db4f3",
+      "title": "Why I’m Writing A Book On Cryptography",
+      "url": "https://www.cryptologie.net/article/504/why-im-writing-a-book-on-cryptography/",
+      "savedAt": "2024-07-12T01:27:21.000Z",
+      "description": "I’ve now been writing a book on applied cryptography for a year and a half.\nI’m nearing the end of my journey, as I have one last ambitious chapter left to write: next-generation cryptography (a chapter that I’ll use to talk about cryptography that will become more and more practical: post-quantum cryptography, homomorphic encryption, multi-party computation, and zk-SNARKs).\nI’ve been asked multip ...",
+      "tags": [
+        "cs/cryptography"
+      ]
+    },
+    {
+      "id": "3eaa5e20-b009-42d7-9e04-6beddc9ec230",
+      "title": "Welcome … — Physics-based Deep Learning",
+      "url": "https://physicsbaseddeeplearning.org/intro.html",
+      "savedAt": "2024-07-12T01:26:52.000Z",
+      "description": "Welcome to the Physics-based Deep Learning Book (v0.2) 👋",
+      "tags": [
+        "books",
+        "cs/ai",
+        "for-later"
+      ]
+    },
+    {
+      "id": "c522f0a7-cf77-401f-bbd8-a46157f95aed",
+      "title": "lorin/systems-reading: Systems and failure reading list",
+      "url": "https://github.com/lorin/systems-reading",
+      "savedAt": "2024-07-11T02:06:52.000Z",
+      "description": "Systems and failure reading list. Contribute to lorin/systems-reading development by creating an account on GitHub.",
+      "tags": [
+        "repository",
+        "resource/list",
+        "systems-theory"
+      ]
+    },
+    {
+      "id": "cdf2f0ac-3f08-11ef-982f-63c41bac7c6f",
+      "title": "time-clocks",
+      "url": "https://lamport.azurewebsites.net/pubs/time-clocks.pdf",
+      "savedAt": "2024-07-10T22:07:33.000Z",
+      "description": null,
+      "tags": [
+        "type/paper",
+        "cs/distsys",
+        "for-later"
+      ]
+    },
+    {
+      "id": "a398b867-5218-4e85-ba21-437e4f8dbde3",
+      "title": "Deep-ML",
+      "url": "https://www.deep-ml.com",
+      "savedAt": "2024-07-10T14:46:07.000Z",
+      "description": "1\n        \n        2\n        \n        \n        Next",
+      "tags": [
+        "cs/ai",
+        "resource/list"
+      ]
+    },
+    {
+      "id": "8fc751d3-e484-4db4-b205-cf26232fd3c5",
+      "title": "MathPages",
+      "url": "https://www.mathpages.com",
+      "savedAt": "2024-07-10T13:10:59.000Z",
+      "description": null,
+      "tags": [
+        "math"
+      ]
+    },
     {
       "id": "1ffe0692-21f8-4953-9d07-f00a405e6f18",
       "title": "Scoped Propagators",

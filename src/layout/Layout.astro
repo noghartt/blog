@@ -33,12 +33,6 @@ const rssFeedURL = new URL('rss.xml', Astro.site).href;
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="preload" as="font" href="/fonts/RobotoMono-Light.ttf" type="font/ttf" crossorigin="anonymous">
-    <link rel="preload" as="font" href="/fonts/RobotoMono-Regular.ttf" type="font/ttf" crossorigin="anonymous">
-    <link rel="preload" as="font" href="/fonts/Merriweather/Merriweather-Regular.ttf" type="font/ttf" crossorigin="anonymous">
-    <link rel="preload" as="font" href="/fonts/Merriweather/Merriweather-Bold.ttf" type="font/ttf" crossorigin="anonymous">
-    <link rel="preload" as="font" href="/fonts/Merriweather/Merriweather-Black.ttf" type="font/ttf" crossorigin="anonymous">
-
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <link rel="canonical" href={canonicalURL} />
@@ -61,6 +55,8 @@ const rssFeedURL = new URL('rss.xml', Astro.site).href;
     <meta property="twitter:description" content={head.description} />
     <meta property="twitter:image" content={ogURL} />
 
+    <link rel="icon" type="image/png" href="/favicon.png" />
+
     <!-- TODO: Turn KaTeX loading lazyness -->
     <!-- Setup KaTeX -->
     <!-- See more here: https://katex.org/docs/browser.html -->
@@ -68,6 +64,8 @@ const rssFeedURL = new URL('rss.xml', Astro.site).href;
     <!-- <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js" integrity="sha384-cpW21h6RZv/phavutF+AuVYrr+dA8xD9zs6FwLpaCct6O9ctzYFfFr4dgmgccOTx" crossorigin="anonymous"></script> -->
 
     <ViewTransitions />
+
+    <script defer src="https://cloud.umami.is/script.js" data-website-id="2fc8746f-8a7b-48ee-b932-1d26da3f83c0"></script>
   </head>
   <body>
     <main>
@@ -127,6 +125,10 @@ const rssFeedURL = new URL('rss.xml', Astro.site).href;
     line-height: 1.6;
   }
 
+  h1, h2, h3, h4, h5, h6 {
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+  }
+
   p, li {
     text-align: justify;
   }
@@ -154,9 +156,9 @@ const rssFeedURL = new URL('rss.xml', Astro.site).href;
   }
 
   .heading-link:hover {
-    text-decoration: underline;
     opacity: 0.65;
   }
+
   .heading-link::after {
     content: '\00B6';
     margin-left: 0.5rem;
@@ -166,5 +168,9 @@ const rssFeedURL = new URL('rss.xml', Astro.site).href;
 
   .heading-link:hover::after {
     opacity: 1;
+  }
+
+  strong {
+    font-weight: bold;
   }
 </style>

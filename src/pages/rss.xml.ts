@@ -46,6 +46,7 @@ export async function GET() {
             'thead',
             'tbody',
             'th',
+            'blockquote',
           ]
         }
       ),
@@ -56,5 +57,6 @@ export async function GET() {
     description: SITE.description,
     site: SITE.website,
     items,
+    stylesheet: '/rss.xsl',
   });
 }
