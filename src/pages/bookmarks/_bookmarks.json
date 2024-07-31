@@ -1,6 +1,36 @@
 {
-  "lastUpdate": "2024-07-31T01:16:27.273Z",
+  "lastUpdate": "2024-07-31T21:39:23.637Z",
   "data": [
+    {
+      "id": "a320c732-6fa2-4efc-afa2-38710ed2a1b9",
+      "title": "Elements kinds in V8 · V8",
+      "url": "https://v8.dev/blog/elements-kinds",
+      "savedAt": "2024-07-31T20:28:02.000Z",
+      "description": "This technical deep-dive explains how V8 optimizes operations on arrays behind the scenes, and what that means for JavaScript developers.",
+      "tags": [
+        "cs/programming-languages/javascript"
+      ]
+    },
+    {
+      "id": "17ce93a2-5d75-4259-a370-c5b5fed0a3d1",
+      "title": "How I Computer in 2024 · Jon Seager",
+      "url": "https://jnsgr.uk/2024/07/how-i-computer-in-2024/",
+      "savedAt": "2024-07-31T15:15:08.000Z",
+      "description": "An extended “uses” post that outlines the hardware I’m\ncurrently using, the software and tools that I use to\nget things done, and how I configure things.",
+      "tags": [
+        "tools/setup"
+      ]
+    },
+    {
+      "id": "7c53d937-de04-4601-9a9f-401cfa69e4cb",
+      "title": "Adam Keys is Thinking - The (Leadership) Discipline",
+      "url": "https://therealadam.com/2024/07/29/the-leadership-discipline.html",
+      "savedAt": "2024-07-31T12:08:10.000Z",
+      "description": "Robert Fripp via Austin Kleon, The Meaning of Discipline:\n The musician has three instruments: the hands, the head, and the heart, and each has its own discipline.\nSo, the musician has three disciplines: the disciplines of the hands, the head and the heart.\nUltimately, these are one discipline: discipline.\n Bear with me as I try to apply this lively metaphor of emotion and musical creativity to dry-and-boring engineering leadership1.",
+      "tags": [
+        "career"
+      ]
+    },
     {
       "id": "b4f316e8-93d4-48dd-aee8-8279cc4f1d9c",
       "title": "Advice to the young",
