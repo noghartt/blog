@@ -1,6 +1,101 @@
 {
-  "lastUpdate": "2024-07-29T10:33:34.608Z",
+  "lastUpdate": "2024-07-31T01:16:27.273Z",
   "data": [
+    {
+      "id": "b4f316e8-93d4-48dd-aee8-8279cc4f1d9c",
+      "title": "Advice to the young",
+      "url": "https://muratbuffalo.blogspot.com/2024/07/advice-to-young.html",
+      "savedAt": "2024-07-31T01:15:19.000Z",
+      "description": "I notice I haven't written any advice posts recently. Here is a collection of my advice posts pre 2020. I've been feeling all this e...",
+      "tags": [
+        "self-improvement",
+        "career"
+      ]
+    },
+    {
+      "id": "06a1543c-1f14-4fc3-acae-8c281fb2f1b2",
+      "title": "The Hitchhiker's Guide to Logical Verification",
+      "url": "https://browncs1951x.github.io/static/files/hitchhikersguide.pdf",
+      "savedAt": "2024-07-30T21:18:52.000Z",
+      "description": null,
+      "tags": [
+        "math/formal-proof"
+      ]
+    },
+    {
+      "id": "cd52ec0b-34a7-4e2a-b9f7-0e571a30d8d3",
+      "title": "Art of Assembly Language, PDF Files",
+      "url": "https://flint.cs.yale.edu/cs422/doc/art-of-asm/pdf/",
+      "savedAt": "2024-07-30T21:14:05.000Z",
+      "description": null,
+      "tags": [
+        "books",
+        "cs",
+        "hardware"
+      ]
+    },
+    {
+      "id": "33343f03-9abc-4650-b9f1-f372902c62e5",
+      "title": "Pragmatic Category Theory | Part 1: Semigroup Intro - DEV Community",
+      "url": "https://dev.to/chshersh/pragmatic-category-theory-part-1-semigroup-intro-1ign",
+      "savedAt": "2024-07-30T20:22:02.000Z",
+      "description": "Motivation   Functional Programming abstractions have a bad rep for not being...",
+      "tags": [
+        "math"
+      ]
+    },
+    {
+      "id": "6627b0ea-87d1-4b91-8b5d-fc4b3c73eeb4",
+      "title": "How to Compile Your Language",
+      "url": "https://isuckatcs.github.io/how-to-compile-your-language/",
+      "savedAt": "2024-07-29T12:59:59.000Z",
+      "description": "This guide is intended to be a practical introduction to how\n                    to design your language and implement a modern\n                    compiler for it. The source code of the compiler is\n                    available on\n                    GitHub.",
+      "tags": [
+        "cs/compilers"
+      ]
+    },
+    {
+      "id": "91ee9137-c09e-4aa8-aa45-7e09b53dde9e",
+      "title": "The Four Theories of Truth as a Method for Critical Thinking - Daniel Imfeld",
+      "url": "https://imfeld.dev/notes/article_the_four_theories_of_truth_as_a_method_for_critical_thinking",
+      "savedAt": "2024-07-29T12:22:10.000Z",
+      "description": "The Four Theories of Truth as a Method for Critical Thinking by Daniel Imfeld",
+      "tags": [
+        "self-improvement",
+        "thinking"
+      ]
+    },
+    {
+      "id": "5d68a4bf-f7c9-4541-802d-f90f271e6e29",
+      "title": "Simple event broker tries Tiger Style",
+      "url": "https://blog.vbang.dk/2024/07/10/seb-tiger-style/",
+      "savedAt": "2024-07-29T12:20:03.000Z",
+      "description": "I’ve been on a bender for the past few weeks. I haven’t been able to stop reading and watching content about TigerBeetle. I was especially enamored by videos...",
+      "tags": [
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "a1ca5d4d-c3ff-40d2-99be-ea7afcee94c2",
+      "title": "Math 331 Reading Guides",
+      "url": "https://math.hws.edu/eck/math331/guide2020/index.html",
+      "savedAt": "2024-07-29T11:18:17.000Z",
+      "description": "Readings for Math 331 are from the textbook \nFoundations of Analysis,\nsecond edition, by David Belding and Kevin Mitchell, supplemented by some web pages about\nmetric spaces.\nMy goal here is to pull out important points from the reading and give\nmy perspective on them, as well as to give some additional information and\nexamples in some cases.  I might occasionally record videos of short lectures and\ninclude links to them in the posts.\nI hope to post two or three of these \"reading guides\" per week\nthroughout the semester.  As the semester gets going and things get\nhectic, the length of the posts will probably decrease.  If the\nclass goes remote, the posts will be an important resource for the\ncourse, and their lengths should increase—and I will include more\nvideos.",
+      "tags": [
+        "math",
+        "resource/list"
+      ]
+    },
+    {
+      "id": "a1329d0e-f150-4518-b4a0-32ded704342a",
+      "title": "Complex systems emerge from simple rules",
+      "url": "https://tecnica.substack.com/p/complex-systems-emerge-from-simple",
+      "savedAt": "2024-07-29T10:56:08.000Z",
+      "description": "Can you predict your next move? Can you make sense of what is happening around you? And within you?",
+      "tags": [
+        "systems-theory"
+      ]
+    },
     {
       "id": "aa9c28ca-360a-468e-acc1-eb9d67f81284",
       "title": "#001 - Abraçando o caminho sem volta - Insight Espresso",
@@ -18,9 +113,8 @@
       "savedAt": "2024-07-29T02:12:02.000Z",
       "description": "This weekend, I am mostly reading about my typical concerns: \n\n\n\nand a recent addition: font rendering (as I continue to slowly but surely work on ).\n\nA ...",
       "tags": [
-        "cs",
-        "CS",
-        "resource/list"
+        "resource/list",
+        "cs"
       ]
     },
     {
@@ -41,7 +135,7 @@
       "description": "Classical equations and diagrams in machine learning - soulmachine/machine-learning-cheat-sheet",
       "tags": [
         "cs/ai",
-        "repository",
+        "type/repository",
         "resource/list"
       ]
     },
@@ -612,7 +706,7 @@
       "savedAt": "2024-07-17T03:42:21.000Z",
       "description": "Free Introduction to Bash Scripting eBook. Contribute to bobbyiliev/introduction-to-bash-scripting development by creating an account on GitHub.",
       "tags": [
-        "repository",
+        "type/repository",
         "tools/scripting"
       ]
     },
@@ -1024,7 +1118,7 @@
       "savedAt": "2024-07-11T02:06:52.000Z",
       "description": "Systems and failure reading list. Contribute to lorin/systems-reading development by creating an account on GitHub.",
       "tags": [
-        "repository",
+        "type/repository",
         "resource/list",
         "systems-theory"
       ]
@@ -1825,7 +1919,7 @@
       "description": "A hands-on introduction to video technology: image, video, codec (av1, vp9, h265) and more (ffmpeg encoding). Translations: 🇺🇸 🇨🇳 🇯🇵 🇮🇹 🇰🇷 🇷🇺 🇧🇷 🇪🇸 - leandromoreira/digital_video_introduction",
       "tags": [
         "cs/streaming",
-        "repository"
+        "type/repository"
       ]
     },
     {
@@ -2012,7 +2106,7 @@
       "description": "Toy Database. Contribute to antoniosarosi/mkdb development by creating an account on GitHub.",
       "tags": [
         "cs/database",
-        "repository"
+        "type/repository"
       ]
     },
     {
@@ -2120,7 +2214,7 @@
       "description": "LLM101n: Let's build a Storyteller. Contribute to karpathy/LLM101n development by creating an account on GitHub.",
       "tags": [
         "cs/ai",
-        "repository"
+        "type/repository"
       ]
     },
     {
@@ -3419,7 +3513,7 @@
       "description": "Matemática Fundacional para Computação: book by Thanos Tsouanas (in portuguese) - tsouanas/fmcbook",
       "tags": [
         "math",
-        "repository"
+        "type/repository"
       ]
     },
     {
@@ -3430,7 +3524,7 @@
       "description": "Graphic notes on Gilbert Strang's \"Linear Algebra for Everyone\" - kenjihiranabe/The-Art-of-Linear-Algebra",
       "tags": [
         "math",
-        "repository"
+        "type/repository"
       ]
     },
     {
@@ -3474,7 +3568,7 @@
         "cool",
         "for-later",
         "hardware",
-        "repository"
+        "type/repository"
       ]
     },
     {
