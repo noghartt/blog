@@ -1,6 +1,56 @@
 {
-  "lastUpdate": "2024-08-01T01:52:22.342Z",
+  "lastUpdate": "2024-08-03T06:09:37.434Z",
   "data": [
+    {
+      "id": "90cfb6e9-10b2-432a-ac03-4c41359e9e7f",
+      "title": "Vector Clocks Explained",
+      "url": "https://riak.com/why-vector-clocks-are-easy/",
+      "savedAt": "2024-08-03T06:05:24.000Z",
+      "description": "January 29, 2010 Vector clocks are confusing the first time you're introduced to them. It's not clear what their benefits are, nor how it is you derive said benefits. Indeed, each Riak developer has had his own set of false starts in making them behave.",
+      "tags": [
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "2aaea17f-adfb-4096-af2d-85b6a1b0d25e",
+      "title": "EMUBook",
+      "url": "http://emubook.emulation64.com",
+      "savedAt": "2024-08-02T13:54:10.000Z",
+      "description": "No copy may be reproduced in whole or in part within a \nfor-profit commercial publication or Internet site without the express \nconsent of the author.",
+      "tags": [
+        "cs/emulator"
+      ]
+    },
+    {
+      "id": "56dda412-4cf4-432d-9514-8c879cd12afa",
+      "title": "On writing | What's new",
+      "url": "https://terrytao.wordpress.com/advice-on-writing-papers/",
+      "savedAt": "2024-08-02T12:42:21.000Z",
+      "description": "There are three rules for writing the novel. Unfortunately, no one knows what they are. (W. Somerset Maugham) Everyone has to develop their own writing style, based on their own strengths and weakn…",
+      "tags": [
+        "writing"
+      ]
+    },
+    {
+      "id": "a57df737-1466-4e29-9185-c3bbab15df6a",
+      "title": "Practical Math: My Journey from Idea to Application | Happiness Machines",
+      "url": "https://blog.ignaciobrasca.com/opinion/2024/07/29/practical-math.html",
+      "savedAt": "2024-08-02T12:40:29.000Z",
+      "description": "An exploration of the process I went through to turn a casual thought into a real-world math application.",
+      "tags": [
+        "learning"
+      ]
+    },
+    {
+      "id": "a91ab861-318a-4022-8244-642cbe8e3310",
+      "title": "DRMacIver's Notebook: Asymmetric vices and the unity of virtue",
+      "url": "https://notebook.drmaciver.com/posts/2024-07-31-14:05.html",
+      "savedAt": "2024-08-02T01:48:31.000Z",
+      "description": "I was trying to find a post I’d written about this and then realised\nit was a\nTwitter thread. This post is just me copying out that thread and\nlightly editing it for format so I have somewhere more stable to refer\nto it.",
+      "tags": [
+        "philosophy"
+      ]
+    },
     {
       "id": "d99734ab-2ef1-472b-b9c8-0c5a7578a1ab",
       "title": "Creativity Fundamentally Comes From Memorization",
@@ -4613,17 +4663,6 @@
       "description": "When interviewing, particularly for technical positions, many people over value their technical preparation, and don't consider the importance of personality and leadership preparation.",
       "tags": [
         "career"
-      ]
-    },
-    {
-      "id": "90cfb6e9-10b2-432a-ac03-4c41359e9e7f",
-      "title": "Vector Clocks Explained",
-      "url": "https://riak.com/why-vector-clocks-are-easy/",
-      "savedAt": "2024-03-10T00:32:28.000Z",
-      "description": "January 29, 2010 Vector clocks are confusing the first time you're introduced to them. It's not clear what their benefits are, nor how it is you derive said benefits. Indeed, each Riak developer has had his own set of false starts in making them behave.",
-      "tags": [
-        "for-later",
-        "cs/distsys"
       ]
     },
     {
