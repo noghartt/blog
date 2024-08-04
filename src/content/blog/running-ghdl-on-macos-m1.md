@@ -1,9 +1,0 @@
----
-title: "Running GHDL on MacOS M1"
-createdAt: {{createdAt}}
-pubDate: 2023-11-16T11:21:00.886Z
-draft: true
-tags:
-  - mac
-  - tutorial
----

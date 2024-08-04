@@ -8,7 +8,7 @@ import rehypeKatex from 'rehype-katex';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://noghartt.dev',
+  site: 'https://th-garden.vercel.app',
   integrations: [
     mdx(),
     sitemap(),
