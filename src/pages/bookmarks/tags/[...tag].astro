@@ -57,7 +57,12 @@ const { bookmarks } = Astro.props;
 ---
 
 <Layout>
-  <GoBackButton />
+  <div class="header">
+    <GoBackButton />
+    <Link href="/bookmarks/tags">
+      Bookmarks categorized by tags
+    </Link>
+  </div>
   <section class="tag-container">
     <h1>{tag}.</h1>
     <section>
@@ -75,6 +80,11 @@ const { bookmarks } = Astro.props;
 </Layout>
 
 <style>
+  .header {
+    display: flex;
+    gap: var(--spacing-2x);
+  }
+
   .tag-container {
     display: flex;
     flex-direction: column;
