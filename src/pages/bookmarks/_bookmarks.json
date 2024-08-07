@@ -1,6 +1,58 @@
 {
-  "lastUpdate": "2024-08-03T06:09:37.434Z",
+  "lastUpdate": "2024-08-07T17:11:41.780Z",
   "data": [
+    {
+      "id": "88c3a2b4-8e6f-4514-b4cc-c1d3f0431dc2",
+      "title": "React Compiler, How Does It Work? [1] - Entry Point through Babel Plugin | 장용석 블로그",
+      "url": "https://yongseok.me/blog/en/react_compiler_1/",
+      "savedAt": "2024-08-07T16:08:08.000Z",
+      "description": "We aim to deeply explore the React Compiler. Let's start by examining the compiler's entry point through the Babel plugin.",
+      "tags": [
+        "for-later",
+        "framework/react"
+      ]
+    },
+    {
+      "id": "1643dc31-405a-4cc7-ac79-0efc1d35bc0e",
+      "title": "There is no mystery over who wrote the Blue Screen of Death, despite what some may want you to believe - The Old New Thing",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20240730-00/?p=110062",
+      "savedAt": "2024-08-07T14:39:15.000Z",
+      "description": "No real contradictions in anybody's story.",
+      "tags": [
+        "computer-history"
+      ]
+    },
+    {
+      "id": "1d6560eb-52fb-44d4-8d56-9b38eee96238",
+      "title": "x86re",
+      "url": "https://x86re.com/1.html",
+      "savedAt": "2024-08-06T22:32:52.000Z",
+      "description": null,
+      "tags": [
+        "reverse-engineering"
+      ]
+    },
+    {
+      "id": "3c7e5481-a63f-4087-9afa-ee4b7fb5a73e",
+      "title": "bytecode interpreters for tiny computers ⁑ Dercuano",
+      "url": "https://dercuano.github.io/notes/tiny-interpreters-for-microcontrollers.html",
+      "savedAt": "2024-08-05T16:36:54.000Z",
+      "description": "I've previously come to the conclusion that there's little reason for\nusing bytecode in the modern world, except in order to get more\ncompact code, for which it can be very effective.  So, what kind of a\nbytecode engine will give you more compact code?",
+      "tags": [
+        "cs/pl-theory"
+      ]
+    },
+    {
+      "id": "1b0b11fb-850a-487d-a4ff-11409605a82a",
+      "title": "The algebra (and calculus!) of algebraic data types",
+      "url": "https://codewords.recurse.com/issues/three/algebra-and-calculus-of-algebraic-data-types",
+      "savedAt": "2024-08-03T06:47:46.000Z",
+      "description": "Note: This article assumes some introductory Haskell knowledge.",
+      "tags": [
+        "cs/programming-languages",
+        "type-theory"
+      ]
+    },
     {
       "id": "90cfb6e9-10b2-432a-ac03-4c41359e9e7f",
       "title": "Vector Clocks Explained",
@@ -60,14 +112,6 @@
       "tags": [
         "self-improvement"
       ]
-    },
-    {
-      "id": "52288021-f1a0-43e9-8bdb-c90abf995309",
-      "title": "Lysxia - Where does the name \"algebraic data type\" come from?",
-      "url": "https://omnivore.app/noghartt/lysxia-where-does-the-name-algebraic-data-type-come-from-1910ade9424",
-      "savedAt": "2024-07-31T22:18:13.000Z",
-      "description": "A blog about functional programming",
-      "tags": []
     },
     {
       "id": "f77679ec-a123-42de-bafa-776542a2e684",
