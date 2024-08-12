@@ -1,6 +1,130 @@
 {
-  "lastUpdate": "2024-08-07T17:11:41.780Z",
+  "lastUpdate": "2024-08-12T11:41:09.600Z",
   "data": [
+    {
+      "id": "a16ed523-ccc3-4fdb-a557-d259cc438c47",
+      "title": "The Illustrated QUIC Connection: Every Byte Explained",
+      "url": "https://quic.xargs.org",
+      "savedAt": "2024-08-12T11:39:23.000Z",
+      "description": "Every byte of a QUIC connection explained and reproduced",
+      "tags": [
+        "networking"
+      ]
+    },
+    {
+      "id": "c865dfa5-6467-4232-b137-acab2865750e",
+      "title": "Monitoring Node.js: Watch Your Event Loop Lag! - David Hettler 🥨",
+      "url": "https://davidhettler.net/blog/event-loop-lag/",
+      "savedAt": "2024-08-12T11:36:22.000Z",
+      "description": "Event loop lag is an essential, but often overlooked performance metric for Node.js applications. What is it and why does it matter?",
+      "tags": [
+        "cs/programming-languages/javascript"
+      ]
+    },
+    {
+      "id": "4ffe46f3-6677-4e9a-b1db-512efbae7741",
+      "title": "Adam Keys is Thinking - Methods of production",
+      "url": "https://therealadam.com/2024/08/11/methods-of-production.html",
+      "savedAt": "2024-08-12T00:28:23.000Z",
+      "description": "Herein, a napkin sketch on producing creative work, ideas on finding the spark(s) that consistently lead us to assemble new things, and the hand-wavy stuff in-between.\nProduction is connecting the dots Extensively, manically, collect ideas (i.e., dots). Collect ideas, put ‘em in order. This is the tricky-but-fun part!\nBoom, that’s something new! Like this essay. Collect, connect, write, post, again and again.\nAustin Kleon, It’s not inside you trying to get out, it’s outside you trying to get in:",
+      "tags": [
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "385fb05a-a850-4f04-ab6c-de8adb56b1eb",
+      "title": "Tales of the M1 GPU - Asahi Linux",
+      "url": "https://asahilinux.org/2022/11/tales-of-the-m1-gpu/",
+      "savedAt": "2024-08-11T21:13:42.000Z",
+      "description": "Porting Linux to Apple Silicon",
+      "tags": [
+        "cs/operating-system",
+        "hardware"
+      ]
+    },
+    {
+      "id": "fa48dc31-2463-46cd-ad1d-4222ad294520",
+      "title": "SNES: Sprites and backgrounds rendering",
+      "url": "https://fabiensanglard.net/snes_ppus_why/index.html",
+      "savedAt": "2024-08-11T20:28:02.000Z",
+      "description": "The last article discussed the hardware of the Super Nintendo's graphic system. This one describes how these components collaborate to render sprites and backgrounds.",
+      "tags": [
+        "cs/gamedev",
+        "hardware"
+      ]
+    },
+    {
+      "id": "5e10a972-0ee5-422d-bd97-51207af6b899",
+      "title": "WebGPU Unleashed: A Practical Tutorial",
+      "url": "https://shi-yan.github.io/webgpuunleashed/",
+      "savedAt": "2024-08-11T20:06:46.000Z",
+      "description": "WebGPU Unleashed, your ticket to the dynamic world of graphics programming. Dive in and discover the magic of creating stunning visuals from scratch, mastering the art of real-time graphics, and unlocking the power of WebGPU - all in one captivating tutorial.",
+      "tags": [
+        "cs/computer-graphics",
+        "web"
+      ]
+    },
+    {
+      "id": "32069283-2b95-414e-bd95-5e1521f81d9c",
+      "title": "Hacking a Virtual Power Plant | rya.nc",
+      "url": "https://rya.nc/vpp-hack.html",
+      "savedAt": "2024-08-11T15:20:00.000Z",
+      "description": "I recently had solar panels and a battery storage system from GivEnergy installed at my house. A major selling point for me was that they have a local…",
+      "tags": [
+        "cs/cryptography",
+        "hacking"
+      ]
+    },
+    {
+      "id": "1c1a3030-1091-46de-a68d-a1825e15d0e0",
+      "title": "Ray Tracing Harmonic Functions",
+      "url": "https://markjgillespie.com/Research/harnack-tracing/index.html",
+      "savedAt": "2024-08-10T15:13:01.000Z",
+      "description": "Denise Yang\n                  Carnegie Mellon University& Pixar Animation Studios",
+      "tags": [
+        "cs/computer-graphics"
+      ]
+    },
+    {
+      "id": "54f8495c-9ae8-4cc8-ad51-3147cf0991b1",
+      "title": "The First Fitbit: How the Fitness Tracker Was Engineered - IEEE Spectrum",
+      "url": "https://spectrum.ieee.org/fitbit",
+      "savedAt": "2024-08-09T21:06:14.000Z",
+      "description": "<p>They had a billion-dollar idea—and a lot to learn about hardware</p>",
+      "tags": [
+        "computer-history"
+      ]
+    },
+    {
+      "id": "bc8d42ff-d4d5-4f1e-b778-09d4e334e687",
+      "title": "Do Quests, Not Goals",
+      "url": "https://www.raptitude.com/2024/08/do-quests-not-goals/",
+      "savedAt": "2024-08-09T21:01:51.000Z",
+      "description": "South Island, New Zealand, a.k.a. Middle-Earth If you were to make a list of what you want to get done this week, it would mostly consist of things you have to do. Get groceries. Book a hair appointment. Get back to so-and-so. Read that health and safety thing for work. If you were to make a list of things you",
+      "tags": [
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "c1117e27-2699-4de4-8038-e85d4037e132",
+      "title": "Learning & The Power of the First Step - TK • Newsletter",
+      "url": "https://teekay.substack.com/p/learning-and-the-power-of-the-first",
+      "savedAt": "2024-08-09T20:17:08.000Z",
+      "description": "4 lessons that will make you start right now",
+      "tags": [
+        "learning"
+      ]
+    },
+    {
+      "id": "fc33d5cd-f34d-4099-8c87-2d37580a7f37",
+      "title": "How to talk to your parents about hardware memory safety | CHERIoT Platform",
+      "url": "https://cheriot.org/cheri/2024/08/06/how-to-talk-about-CHERI.html",
+      "savedAt": "2024-08-07T20:47:20.000Z",
+      "description": "Some conversations are difficult to have with members of older generations who grew up with different social norms. In particular, when you’re talking to people who grew up with PDP-11s with their completely flat memory, or Lisp machines or Burroughs Large Systems with their deeply opinionated and language-integrated hardware memory safety, you may find it hard to talk about CHERI. This guide aims to help you have those conversations with the minimum of stress on both sides.",
+      "tags": [
+        "hardware"
+      ]
+    },
     {
       "id": "88c3a2b4-8e6f-4514-b4cc-c1d3f0431dc2",
       "title": "React Compiler, How Does It Work? [1] - Entry Point through Babel Plugin | 장용석 블로그",
