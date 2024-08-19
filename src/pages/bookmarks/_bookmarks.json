@@ -1,6 +1,155 @@
 {
-  "lastUpdate": "2024-08-12T11:41:09.600Z",
+  "lastUpdate": "2024-08-19T15:14:11.771Z",
   "data": [
+    {
+      "id": "c28ca4af-92f0-4ca7-a738-f9a83fe1201c",
+      "title": "How to avoid losing items? Holding pens. | Alex W.'s Blog",
+      "url": "https://blog.alexwendland.com/2024-07-07-holding-pens/",
+      "savedAt": "2024-08-19T14:48:59.000Z",
+      "description": "-- a phrase my mom would always say when she’d lost something.",
+      "tags": [
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "db95cdee-935e-4445-bc23-b1a0aef513da",
+      "title": "Efficient and Insightful Generalization",
+      "url": "https://okmij.org/ftp/ML/generalization.html",
+      "savedAt": "2024-08-19T14:10:32.000Z",
+      "description": "A short guide on OCaml type checker, describing  the surprisingly elegant algorithm for generalization, which generalizes to first-class polymorphism, MLF and local types.  Polymorphism and regions have much in common.",
+      "tags": [
+        "cs/compilers",
+        "cs/programming-languages/ocaml",
+        "for-later"
+      ]
+    },
+    {
+      "id": "e3723acc-146b-47d3-afc7-b498864f24ed",
+      "title": "The Art of Learning - TK • Newsletter",
+      "url": "https://teekay.substack.com/p/the-art-of-learning",
+      "savedAt": "2024-08-18T15:42:13.000Z",
+      "description": "Improving the learning process to achieve your goals through the meta",
+      "tags": [
+        "learning"
+      ]
+    },
+    {
+      "id": "bcea2c2d-3d72-47f3-a5fd-c25c36942db0",
+      "title": "The Compiler Writer Resource Page",
+      "url": "https://c9x.me/compile/bib/",
+      "savedAt": "2024-08-17T18:35:03.000Z",
+      "description": "I know complete pans of the literature are left\nout, but this is a page for amateur compiler\nwriters.  Anything that I did not find practical is\nnot listed here. (I also did not include the things\nthat I do not yet know!)\nAll the remarks in grey and even the selection of\ndocuments are personal.  If you have suggestions of\npapers to include, please contact me! Finally, the\norder of items in the various sections is totally\narbitrary.",
+      "tags": [
+        "compilers",
+        "cs/compilers"
+      ]
+    },
+    {
+      "id": "d32ec09b-3bbc-47ff-a755-a8712c86eb11",
+      "title": "HTTP/1.0 From Scratch",
+      "url": "https://kmcd.dev/posts/http1.0-from-scratch/",
+      "savedAt": "2024-08-16T01:05:08.000Z",
+      "description": "Laying the Foundation: Building the Web with HTTP/1.0.",
+      "tags": [
+        "for-later",
+        "web"
+      ]
+    },
+    {
+      "id": "38039a3c-3761-42f5-8689-889ea204fae2",
+      "title": "HTTP/0.9 From Scratch",
+      "url": "https://kmcd.dev/posts/http0.9-from-scratch/",
+      "savedAt": "2024-08-16T01:05:01.000Z",
+      "description": "Building the foundation with HTTP/0.9",
+      "tags": [
+        "for-later",
+        "web"
+      ]
+    },
+    {
+      "id": "55e8cad5-3c00-475e-a5e6-2242e7fb6275",
+      "title": "Crafting Interpreters with Rust: On Garbage Collection | Tung Le Vo",
+      "url": "https://tunglevo.com/note/crafting-interpreters-with-rust-on-garbage-collection/",
+      "savedAt": "2024-08-16T01:04:48.000Z",
+      "description": "I became interested in implementing programming languages a few years ago and discovered [Crafting Interpreters](https://craftinginterpreters.com/) by Bob Nystrom. At the time, I had experience with Rust and decided to use it to follow the book. Albeit, being a noob, I managed to implement a fully functional bytecode interpreter that supported every feature of the Lox language as described. However, my implementation suffered memory leaks due to reference counting. Back then, I didn't fully grasp Rust to design and implement a proper garbage collector (GC)! Now that I have more confidence in the language, I decided to revisit the project and improve its memory management scheme.",
+      "tags": [
+        "cs/compilers"
+      ]
+    },
+    {
+      "id": "d9f82953-f9ea-485c-9345-987a6f5d5a6b",
+      "title": "A Visual Guide to Quantization - by Maarten Grootendorst",
+      "url": "https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-quantization",
+      "savedAt": "2024-08-16T01:04:36.000Z",
+      "description": "Explore the quantization of Large Language Models (LLMs) with 60+ illustrations.",
+      "tags": [
+        "cs/ai",
+        "for-later"
+      ]
+    },
+    {
+      "id": "b6b9dab2-2adb-466e-a15b-8bde222146d4",
+      "title": "Higher-kinded Bounded Polymorphism",
+      "url": "https://okmij.org/ftp/ML/higher-kind-poly.html",
+      "savedAt": "2024-08-16T01:04:19.000Z",
+      "description": "How bounded higher-kinded polymorphism arises in practice, and how to express it in OCaml, in several different ways. Some ways are rather concise -- but less widely known.",
+      "tags": [
+        "functional-programming"
+      ]
+    },
+    {
+      "id": "2d0632f4-cfa0-464c-897a-ce26d92df6f8",
+      "title": "Examples of Great URL Design - Jim Nielsen’s Blog",
+      "url": "https://blog.jim-nielsen.com/2023/examples-of-great-urls/",
+      "savedAt": "2024-08-15T04:01:13.000Z",
+      "description": "Writing about the big beautiful mess that is making things for the world wide web.",
+      "tags": [
+        "web"
+      ]
+    },
+    {
+      "id": "2f3e2ea4-e8d9-4536-889b-da657e6970f7",
+      "title": "Visual Data Structures Cheat-Sheet - by Nick M",
+      "url": "https://photonlines.substack.com/p/visual-data-structures-cheat-sheet",
+      "savedAt": "2024-08-15T03:48:26.000Z",
+      "description": "A visual overview of some of the key data-structures used in the real world.",
+      "tags": [
+        "cs/algorithms"
+      ]
+    },
+    {
+      "id": "17651468-f9d7-4be7-bc16-ad4a7d17441d",
+      "title": "Ask HN: What are some \"toy\" projects you used to learn neural networks hands-on? | Hacker News",
+      "url": "https://news.ycombinator.com/item?id=41227515",
+      "savedAt": "2024-08-12T22:52:11.000Z",
+      "description": "And if you can share Docker Compose based set-up, please do (I like Docker Compose for its simplicity).",
+      "tags": [
+        "cs/ai"
+      ]
+    },
+    {
+      "id": "8fed7eca-fa40-42c7-9bcf-b90f93b37902",
+      "title": "Some Books I Like // One Year of NULL BITMAP • Buttondown",
+      "url": "https://buttondown.com/jaffray/archive/some-books-i-like-one-year-of-null-bitmap/",
+      "savedAt": "2024-08-12T21:55:23.000Z",
+      "description": "This is the 52nd NULL BITMAP, which means I have been doing this for a whole year! I skipped one week before I decided that this was going to be a weekly...",
+      "tags": [
+        "books",
+        "cs",
+        "resource/list"
+      ]
+    },
+    {
+      "id": "376108e0-d8bb-499f-980d-7ec4163cecc6",
+      "title": "How we tamed Node.js event loop lag: a deepdive | Trigger.dev",
+      "url": "https://trigger.dev/blog/event-loop-lag",
+      "savedAt": "2024-08-12T11:47:31.000Z",
+      "description": "We recently experienced some service degradation and downtime due to event loop lag in our Node.js service. Here's how we diagnosed and fixed the issue.",
+      "tags": [
+        "cs/performance",
+        "cs/programming-languages/javascript"
+      ]
+    },
     {
       "id": "a16ed523-ccc3-4fdb-a557-d259cc438c47",
       "title": "The Illustrated QUIC Connection: Every Byte Explained",
