@@ -1,6 +1,78 @@
 {
-  "lastUpdate": "2024-08-19T15:14:11.771Z",
+  "lastUpdate": "2024-08-23T16:40:34.522Z",
   "data": [
+    {
+      "id": "f4b63713-4336-4cf6-b5c0-1f4fa6a92c9a",
+      "title": "Lean into the pain (Aaron Swartz's Raw Thought)",
+      "url": "http://www.aaronsw.com/weblog/dalio",
+      "savedAt": "2024-08-23T16:35:48.000Z",
+      "description": "When you first begin to exercise, it’s somewhat painful. Not wildly painful, like touching a hot stove, but enough that if your only goal was to avoid pain, you certainly would stop doing it. But if you keep exercising… well, it just keeps getting more painful. When you’re done, if you’ve really pushed yourself, you often feel exhausted and sore. And the next morning it’s even worse.",
+      "tags": [
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "16b601d3-c6fe-4029-ab0c-c31bb35ef09a",
+      "title": "Look at yourself objectively (Aaron Swartz's Raw Thought)",
+      "url": "http://www.aaronsw.com/weblog/semmelweis",
+      "savedAt": "2024-08-23T16:08:58.000Z",
+      "description": "In the 1840s, hospitals were dangerous places. Mothers who went in to give birth often didn’t make it out. For example, at Vienna General Hospital’s First Obstetrical Clinic, as many as 10% of mothers died of puerperal fever after giving birth. But there was some good news: at the Second Clinic, the number was just 4%. Expectant mothers noticed this — some would get down on their knees and beg to be admitted to the Second Clinic. Others, hearing new patients were being admitted to the First Clinic that day, decided they’d rather give birth in the streets.",
+      "tags": [
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "c438b98c-d1ec-4aef-aaf9-6d4ac518a3f8",
+      "title": "Practices of Reliable Software Design",
+      "url": "https://two-wrongs.com/practices-of-reliable-software-design",
+      "savedAt": "2024-08-20T12:57:43.000Z",
+      "description": "I was nerd-sniped. Out of the blue, a friend asked me,",
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "id": "e3e6c9c9-8c8f-4779-987f-b21973c1f618",
+      "title": "What I Learned Working For Mark Zuckerberg - Noah Kagan",
+      "url": "https://noahkagan.com/what-i-learned-working-for-mark-zuckerberg/",
+      "savedAt": "2024-08-20T12:40:47.000Z",
+      "description": "Listen to this email instead 🙂 – Spotify – iTunes When I walked into the first floor of the Facebook building on University Avenue, in Palo Alto, I wasn’t sure if I was in a frat house or a startup. There were cables falling from the ceilings, people running around and I was told to […]",
+      "tags": [
+        "career"
+      ]
+    },
+    {
+      "id": "de971699-704a-44a5-b270-f2f74c9fabeb",
+      "title": "How to write.",
+      "url": "https://www.simplermachines.com/how-to-write/",
+      "savedAt": "2024-08-20T12:34:07.000Z",
+      "description": "Write a lot. This is alpha and omega of writing advice, the beginning and the end, and it's that way for a reason– I don’t know anyone who’s good writing who hasn’t also put in serious hours.",
+      "tags": [
+        "writing"
+      ]
+    },
+    {
+      "id": "383ec958-6de5-46f9-9875-5cf137c2617d",
+      "title": "Late Again – Rands in Repose",
+      "url": "https://randsinrepose.com/archives/late-again/",
+      "savedAt": "2024-08-20T12:24:22.000Z",
+      "description": "Awkward.\n\nSeven of us now. Sitting around the table. Five minutes since the start of the meeting. We've used up our chit-chat allowance and wonder if you will show.\n\nIn the scheme of things relevant to a company's success, showing up late to a meeting is not the end of the world. When it happens a l",
+      "tags": [
+        "career"
+      ]
+    },
+    {
+      "id": "bd6f65d0-dbe7-4e65-81d2-cb404d211e5a",
+      "title": "naklecha/llama3-from-scratch: llama3 implementation one matrix multiplication at a time",
+      "url": "https://github.com/naklecha/llama3-from-scratch",
+      "savedAt": "2024-08-19T15:15:27.000Z",
+      "description": "llama3 implementation one matrix multiplication at a time - naklecha/llama3-from-scratch",
+      "tags": [
+        "cs/ai",
+        "for-later",
+        "resource/learning"
+      ]
+    },
     {
       "id": "c28ca4af-92f0-4ca7-a738-f9a83fe1201c",
       "title": "How to avoid losing items? Holding pens. | Alex W.'s Blog",
