@@ -1,6 +1,103 @@
 {
-  "lastUpdate": "2024-08-23T16:40:34.522Z",
+  "lastUpdate": "2024-08-26T00:38:53.485Z",
   "data": [
+    {
+      "id": "c15a0f4d-d28c-4865-aac4-5dcd8acf3a00",
+      "title": "You Are NOT Dumb, You Just Lack the Prerequisites",
+      "url": "https://lelouch.dev/blog/you-are-probably-not-dumb/",
+      "savedAt": "2024-08-26T00:32:55.000Z",
+      "description": "I always thought I was too dumb to understand math. During my school years, it was evident to me that for some kids math was easy, and for others like myself: painfully difficult.",
+      "tags": [
+        "learning"
+      ]
+    },
+    {
+      "id": "4aa54101-fd33-47ba-bd43-1d27730a1e7e",
+      "title": "Self-hosting DNS - GHOST",
+      "url": "https://ghostdev.xyz/posts/self-hosting-dns/",
+      "savedAt": "2024-08-26T00:31:37.000Z",
+      "description": "My journey of DNS, including self-hosting with Pi-hole and AdGuard Home, using paid services like NextDNS and AdGuard DNS, and public privacy-respecting resolvers.",
+      "tags": [
+        "cs/networking",
+        "homelab"
+      ]
+    },
+    {
+      "id": "fd70ec44-cebf-4b6e-9ed4-fc73f13b9ccc",
+      "title": "How SSH Secures Your Connection :: Noratrieb's blog",
+      "url": "https://noratrieb.dev/blog/posts/ssh-security/",
+      "savedAt": "2024-08-25T22:00:53.000Z",
+      "description": "Explaining SSH security by example",
+      "tags": [
+        "cs/cryptography",
+        "cs/networking"
+      ]
+    },
+    {
+      "id": "4847642b-158e-42d6-ad87-355a911e8fd5",
+      "title": "B-trees",
+      "url": "https://shachaf.net/w/b-trees",
+      "savedAt": "2024-08-25T21:04:40.000Z",
+      "description": "Say we have some things, and we want to be able to store and look them up in\norder. We could just put them in a big sorted array:",
+      "tags": [
+        "cs/algorithms",
+        "cs/database"
+      ]
+    },
+    {
+      "id": "ec2332e6-e60d-406e-8ffc-0d6961fcafe7",
+      "title": "A ToC of the 20 part linker essay [LWN.net]",
+      "url": "https://lwn.net/Articles/276782/",
+      "savedAt": "2024-08-25T20:52:16.000Z",
+      "description": "Posted Apr 7, 2008 6:28 UTC (Mon) by JesseW (subscriber, #41816)\n         \n        Parent article: Striking gold in binutils",
+      "tags": [
+        "cs",
+        "resource/learning"
+      ]
+    },
+    {
+      "id": "e4e1b05b-172b-422d-bd81-edff1f0bd780",
+      "title": "Ethernet History Deepdive – Why Do We Have Different Frame Types? – Daniels Networking Blog",
+      "url": "https://lostintransit.se/2024/08/21/ethernet-history-deepdive-why-do-we-have-different-frame-types/",
+      "savedAt": "2024-08-25T19:33:51.000Z",
+      "description": "In my previous post Encapsulation of PDUs On Trunk Ports, I showed what happens to PDUs when you change the configuration of a trunk. You may have noticed that there are typically three different types of Ethernet encapsulations that we see:",
+      "tags": [
+        "computer-history",
+        "cs/networking"
+      ]
+    },
+    {
+      "id": "6d6a38f7-e170-43ff-97ce-fcddc9cc9b24",
+      "title": "Home",
+      "url": "https://lispcookbook.github.io/cl-cookbook/",
+      "savedAt": "2024-08-25T15:47:40.000Z",
+      "description": "A collection of examples of using Common Lisp",
+      "tags": [
+        "books",
+        "cs/programming-languages"
+      ]
+    },
+    {
+      "id": "f61b3fb3-9183-4f7a-8505-4ff2a3fc9c5b",
+      "title": "Obsession | notes.eatonphil.com",
+      "url": "https://notes.eatonphil.com/2024-08-24-obsession.html",
+      "savedAt": "2024-08-25T13:40:05.000Z",
+      "description": "Obsession",
+      "tags": [
+        "career",
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "b5dab6be-a73f-444a-8960-93060c75d185",
+      "title": "Applying Books in My Life - TK • Newsletter",
+      "url": "https://teekay.substack.com/p/applying-books-in-my-life",
+      "savedAt": "2024-08-25T13:28:37.000Z",
+      "description": "Hey! In this newsletter I talk about how books are shaping my life and how I'm applying the knowledge gained from reading them.",
+      "tags": [
+        "self-improvement"
+      ]
+    },
     {
       "id": "f4b63713-4336-4cf6-b5c0-1f4fa6a92c9a",
       "title": "Lean into the pain (Aaron Swartz's Raw Thought)",
@@ -5569,16 +5666,6 @@
       "url": "https://erthalion.info/2020/11/28/evolution-of-btree-index-am/",
       "savedAt": "2024-02-17T23:38:02.000Z",
       "description": "I have to admit, my research blog posts are getting longer and longer. From one\nside I find it genuinely encouraging, because if one gets so much information\njust by scratching the topic, imagine what’s hidden beneath the surface! One\nuniversity professor once said “what could be interesting in databases?”, and\nit turns out freaking a lot! On the other side it certainly poses problems for\npotential readers. To overcome them I would suggest an interesting approach:\nprint this blog post out, or open it on your tablet/e-reader, where you can\nmake notes with a pencil or markers. Now while reading it try to spot ideas\nparticularly exciting for you and mark them. Along the way there would be\ndefinitely some obscure parts or questions, write them on the sides as well.\nYou can experiment with the diagrams, changing or extending them, or just\ndrawing funny faces. But do not read everything at once, have no fear of\nputting it aside for a while, and read in chunks that are convenient for you.\nSome parts could be skipped as the text is build out of relatively independent\ntopics. The table of contents can help and guide you. Having said that we’re\nready to embark on the journey.",
-      "tags": [
-        "cs/database"
-      ]
-    },
-    {
-      "id": "4847642b-158e-42d6-ad87-355a911e8fd5",
-      "title": "B-trees",
-      "url": "https://shachaf.net/w/b-trees",
-      "savedAt": "2024-02-17T22:49:50.000Z",
-      "description": "Let’s invent B(+)-trees.",
       "tags": [
         "cs/database"
       ]
