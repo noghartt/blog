@@ -6,6 +6,7 @@ import GoBackButton from '../../../components/GoBackButton.astro';
 
 import bookmarksJson from '../_bookmarks.json';
 import TreeNode from './_TreeNode.astro';
+import Link from '../../../components/Link.astro';
 
 const bookmarksData = bookmarksJson.data;
 
@@ -78,7 +79,12 @@ const sanitizeTag = (tag: string) => tag.replaceAll(/\//g, '-');
 ---
 
 <Layout>
-  <GoBackButton />
+  <div class="header">
+    <GoBackButton />
+    <Link href="/bookmarks">
+      Bookmarks
+    </Link>
+  </div>
   <section class="posts">
     <section>
       <h2>bookmarks.</h2>
@@ -101,6 +107,11 @@ const sanitizeTag = (tag: string) => tag.replaceAll(/\//g, '-');
 </Layout>
 
 <style>
+  .header {
+    display: flex;
+    gap: var(--spacing-2x);
+  }
+
   .description {
     display: flex;
     flex-direction: column;
