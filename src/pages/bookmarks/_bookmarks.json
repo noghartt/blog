@@ -1,6 +1,46 @@
 {
-  "lastUpdate": "2024-08-26T00:38:53.485Z",
+  "lastUpdate": "2024-08-28T01:56:29.153Z",
   "data": [
+    {
+      "id": "696c7e4b-9707-48af-853e-c13937cb956d",
+      "title": "Fix the machine, not the person (Aaron Swartz's Raw Thought)",
+      "url": "http://www.aaronsw.com/weblog/nummi",
+      "savedAt": "2024-08-28T01:56:07.000Z",
+      "description": "The General Motors plant in Fremont was a disaster. “Everything was a fight,” the head of the union admits. “They spent more time on grievances and on things like that than they did on producing cars. They had strikes all the time. It was just chaos constantly. … It was considered the worst workforce in the automobile industry in the United States.”",
+      "tags": [
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "eaca02b1-d953-416f-befd-b591f6d59e7e",
+      "title": "Cherish mistakes (Aaron Swartz's Raw Thought)",
+      "url": "http://www.aaronsw.com/weblog/geremiah",
+      "savedAt": "2024-08-28T00:06:49.000Z",
+      "description": "At one, they hate making mistakes. How else could it be? “We’re not ever going to enjoy screwing up,” they told me. But this attitude has a lot of consequences. Everything they do has to go through several layers of approval to make sure it’s not a mistake. And when someone does screw up, they try to hide it.",
+      "tags": [
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "1964efb6-a57e-49b0-8370-149095b1c5d3",
+      "title": "Confront reality (Aaron Swartz's Raw Thought)",
+      "url": "http://www.aaronsw.com/weblog/anders",
+      "savedAt": "2024-08-27T01:03:10.000Z",
+      "description": "We are all capable of believing things which we know to be untrue, and then, when we are finally proved wrong, impudently twisting the facts so as to show that we were right. Intellectually, it is possible to carry on this process for an indefinite time: the only check on it is that sooner or later a false belief bumps up against solid reality, usually on a battlefield.",
+      "tags": [
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "1d11cae0-3c29-446e-b334-650486ca03be",
+      "title": "Predicting the Future of Distributed Systems",
+      "url": "https://blog.colinbreck.com/predicting-the-future-of-distributed-systems/",
+      "savedAt": "2024-08-26T15:14:19.000Z",
+      "description": "There are significant changes happening in distributed systems.",
+      "tags": [
+        "cs/distsys"
+      ]
+    },
     {
       "id": "c15a0f4d-d28c-4865-aac4-5dcd8acf3a00",
       "title": "You Are NOT Dumb, You Just Lack the Prerequisites",
