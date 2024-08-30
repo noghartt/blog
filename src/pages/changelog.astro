@@ -1,0 +1,40 @@
+---
+import dayjs from 'dayjs'
+
+import Layout from "../layout/Layout.astro";
+import GoBackButton from '../components/GoBackButton.astro';
+
+const changelog = [
+  {
+    time: new Date('2024-08-30T22:41:29.205Z'),
+    title: 'Add a new /changelog page',
+  },
+  {
+    time: new Date('2024-08-30T22:30:29.205Z'),
+    title: 'Add a table of contents section on the bookmarks page',
+  },
+]
+
+---
+
+<Layout>
+  <GoBackButton />
+  <h1>Changelog</h1>
+  <section>
+    <ul>
+      {changelog.map((item) => (
+        <li>
+          {dayjs(item.time).format('YYYY-MM-DD HH:mm')} - {item.title}
+        </li>
+      ))}
+    </ul>
+  </section>
+</Layout>
+
+<style>
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+</style>
