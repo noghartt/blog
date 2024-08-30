@@ -1,6 +1,69 @@
 {
-  "lastUpdate": "2024-08-28T01:56:29.153Z",
+  "lastUpdate": "2024-08-30T02:06:59.628Z",
   "data": [
+    {
+      "id": "adc16391-5af0-4b34-ab3f-0f2a8d5f4f12",
+      "title": "Distributed systems theory for the distributed systems engineer | Paper Trail",
+      "url": "https://www.the-paper-trail.org/post/2014-08-09-distributed-systems-theory-for-the-distributed-systems-engineer/",
+      "savedAt": "2024-08-30T01:55:53.000Z",
+      "description": "Writing about distributed systems, compilers, virtual machines, databases and research papers from SOSP, ATC, NSDI, OSDI, EuroSys and others",
+      "tags": [
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "c99f35f5-2ca3-40d1-bdc8-1de17d59d0af",
+      "title": "Notes on Distributed Systems for Young Bloods – Something Similar",
+      "url": "https://www.somethingsimilar.com/2013/01/14/notes-on-distributed-systems-for-young-bloods/",
+      "savedAt": "2024-08-30T01:55:33.000Z",
+      "description": "I’ve been thinking about the lessons distributed systems engineers learn on\nthe job. A great deal of our instruction is through scars made by mistakes\nmade in production traffic. These scars are useful reminders, sure, but it’d\nbe better to have more engineers with the full count of their fingers.",
+      "tags": [
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "a590a759-6fb9-4b10-a88f-f98aa0df4865",
+      "title": "Learning about distributed systems: where to start?",
+      "url": "https://muratbuffalo.blogspot.com/2020/06/learning-about-distributed-systems.html",
+      "savedAt": "2024-08-30T01:39:33.000Z",
+      "description": "This is definitely not a \"learn distributed systems in 21 days\" post. I recommend a principled, from the foundations-up, studying ...",
+      "tags": [
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "cd635ee9-4049-4493-9b8b-8b8dd2defea7",
+      "title": "Best resources to learn about data and distributed systems - Pierre Zemb",
+      "url": "https://pierrezemb.fr/posts/distsys-resources/",
+      "savedAt": "2024-08-30T01:14:33.000Z",
+      "description": "Learning distributed systems is tough. You need to go through a lot of academic papers, concepts, code review, before being able to have a global pictures. Thankfully, there is a lot of resources out there that can help you. Here's the best resources I used to learn distributed systems",
+      "tags": [
+        "cs/distsys",
+        "resource/list"
+      ]
+    },
+    {
+      "id": "6fe927b5-b999-414a-8dc1-ce8035096544",
+      "title": "Database “sharding” came from UO? – Raph's Website",
+      "url": "https://www.raphkoster.com/2009/01/08/database-sharding-came-from-uo/",
+      "savedAt": "2024-08-29T00:08:12.000Z",
+      "description": "Lessons Learned: Sharding for startups is a technical post about database scalability. What caught my eye was the term. What an odd term — “sharding.” Why would a database be desc…",
+      "tags": [
+        "computer-history",
+        "cs/database"
+      ]
+    },
+    {
+      "id": "47346597-f253-4998-afc6-5a19d510a789",
+      "title": "Rachel Thomas, PhD - Your Immune System is Not a Muscle",
+      "url": "https://rachel.fast.ai/posts/2024-08-13-crowds-vs-friends/",
+      "savedAt": "2024-08-28T23:56:35.000Z",
+      "description": "an AI researcher going back to school for immunology",
+      "tags": [
+        "biology",
+        "health"
+      ]
+    },
     {
       "id": "696c7e4b-9707-48af-853e-c13937cb956d",
       "title": "Fix the machine, not the person (Aaron Swartz's Raw Thought)",
@@ -1202,17 +1265,6 @@
       "tags": [
         "cs/distsys",
         "type/paper"
-      ]
-    },
-    {
-      "id": "a590a759-6fb9-4b10-a88f-f98aa0df4865",
-      "title": "Learning about distributed systems: where to start?",
-      "url": "https://muratbuffalo.blogspot.com/2020/06/learning-about-distributed-systems.html",
-      "savedAt": "2024-07-20T14:47:42.000Z",
-      "description": "This is definitely not a \"learn distributed systems in 21 days\" post. I recommend a principled, from the foundations-up, studying ...",
-      "tags": [
-        "cs/distsys",
-        "resource/list"
       ]
     },
     {
