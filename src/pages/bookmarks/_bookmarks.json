@@ -1,6 +1,72 @@
 {
-  "lastUpdate": "2024-08-30T02:06:59.628Z",
+  "lastUpdate": "2024-09-01T15:15:29.267Z",
   "data": [
+    {
+      "id": "52c8e40f-a1e3-4820-be01-e22c6470e6d1",
+      "title": "Essays: NSA Surveillance: a Guide to Staying Secure - Schneier on Security",
+      "url": "https://www.schneier.com/essays/archives/2013/09/nsa_surveillance_a_g.html",
+      "savedAt": "2024-09-01T13:47:07.000Z",
+      "description": "Now that we have enough details about how the NSA eavesdrops on the internet, including today’s disclosures of the NSA’s deliberate weakening of cryptographic systems, we can finally start to figure out how to protect ourselves.",
+      "tags": [
+        "cs/cryptography",
+        "cs/security"
+      ]
+    },
+    {
+      "id": "cf3ea77d-6afa-4179-a633-931c4e60f393",
+      "title": "My Software Bookshelf | olano.dev",
+      "url": "https://olano.dev/blog/my-software-bookshelf/",
+      "savedAt": "2024-09-01T13:39:46.000Z",
+      "description": "The easiest way to make a to-read pile grow is to read a book from it.",
+      "tags": [
+        "books",
+        "cs",
+        "resource/list"
+      ]
+    },
+    {
+      "id": "2ae0034d-d533-4a74-a150-226cbde7229c",
+      "title": "State and time are the same thing • Buttondown",
+      "url": "https://buttondown.com/hillelwayne/archive/state-and-time-are-the-same-thing/",
+      "savedAt": "2024-08-31T20:15:29.000Z",
+      "description": "State is time, time is state.",
+      "tags": [
+        "cs/distsys",
+        "math/formal-methods"
+      ]
+    },
+    {
+      "id": "d47daa48-e931-47f4-bbc6-4a3404d3edf9",
+      "title": "How much of success is luck?",
+      "url": "https://longform.asmartbear.com/lucky/",
+      "savedAt": "2024-08-31T20:06:28.000Z",
+      "description": "\"You're so lucky.\"  That's true.  There's also decades of sacrifice, emotional turmoil, long hours, perseverance.  So… is it lucky?",
+      "tags": [
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "ba4b2f66-6f02-4872-bf60-858b4f5083b0",
+      "title": "How to sync Mac and Linux /home | Derek Sivers",
+      "url": "https://sive.rs/macx",
+      "savedAt": "2024-08-31T16:47:48.000Z",
+      "description": "My main computer is a Linux/BSD desktop, but I also use a Mac laptop for recording and travel.\n\tThis created a problem keeping them in sync.",
+      "tags": [
+        "homelab",
+        "tools/scripting"
+      ]
+    },
+    {
+      "id": "6cc4409e-e0c7-4412-8b4c-badc2b2cfcb1",
+      "title": "Dick Grune's Annotated Literature Lists",
+      "url": "https://web.archive.org/web/20120328052718/http://www.dickgrune.com/Summaries/CS/CompilerConstruction-1979.html",
+      "savedAt": "2024-08-30T22:59:38.000Z",
+      "description": "Peter Calingaert,\n\"Assemblers, Compilers and Program Translation\",\nComputer Science Press/Springer-Verlag,\nPotomac, Maryland 20854/Berlin,\n1979,\npp. 270.\n\n\n\nThe only book on compiler construction that gives serious treatment to\nassemblers, linkers and loaders.",
+      "tags": [
+        "computer-history",
+        "cs/compilers"
+      ]
+    },
     {
       "id": "adc16391-5af0-4b34-ab3f-0f2a8d5f4f12",
       "title": "Distributed systems theory for the distributed systems engineer | Paper Trail",
@@ -312,7 +378,6 @@
       "savedAt": "2024-08-17T18:35:03.000Z",
       "description": "I know complete pans of the literature are left\nout, but this is a page for amateur compiler\nwriters.  Anything that I did not find practical is\nnot listed here. (I also did not include the things\nthat I do not yet know!)\nAll the remarks in grey and even the selection of\ndocuments are personal.  If you have suggestions of\npapers to include, please contact me! Finally, the\norder of items in the various sections is totally\narbitrary.",
       "tags": [
-        "compilers",
         "cs/compilers"
       ]
     },
