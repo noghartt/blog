@@ -28,11 +28,11 @@ export const post = (props: CollectionEntry<'blog'>) => {
         </div>
         <div style={{ display: 'flex', justifyContent: 'space-between', width: '100%' }}>
           <p style={{ display: 'flex', gap: 8 }}>
-            {props.data.tags.map((tag, i) => (
+            {(props.data.tags || []).map((tag, i) => (
               <span key={i}>#{tag}</span>
             ))}
           </p>
-          <p>{dayjs(props.data.createdAt).format('YYYY-MM-DD')}</p>
+          <p>{dayjs(props.data.pubDate).format('YYYY-MM-DD')}</p>
         </div>
       </div>
     </div>
