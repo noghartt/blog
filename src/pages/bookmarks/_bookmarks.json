@@ -1,6 +1,158 @@
 {
-  "lastUpdate": "2024-09-01T15:15:29.267Z",
+  "lastUpdate": "2024-09-04T17:58:54.870Z",
   "data": [
+    {
+      "id": "5553e3cd-58c0-4ab7-99a5-5ac64d15c361",
+      "title": "cc",
+      "url": "https://hbr.github.io/Lambda-Calculus/cc-tex/cc.pdf",
+      "savedAt": "2024-09-04T17:49:41.000Z",
+      "description": null,
+      "tags": []
+    },
+    {
+      "id": "6cc4409e-e0c7-4412-8b4c-badc2b2cfcb1",
+      "title": "Dick Grune's Annotated Literature Lists",
+      "url": "https://web.archive.org/web/20120328052718/http://www.dickgrune.com/Summaries/CS/CompilerConstruction-1979.html",
+      "savedAt": "2024-09-04T11:45:37.000Z",
+      "description": "Peter Calingaert,\n\"Assemblers, Compilers and Program Translation\",\nComputer Science Press/Springer-Verlag,\nPotomac, Maryland 20854/Berlin,\n1979,\npp. 270.\n\n\n\nThe only book on compiler construction that gives serious treatment to\nassemblers, linkers and loaders.",
+      "tags": [
+        "computer-history",
+        "cs/compilers"
+      ]
+    },
+    {
+      "id": "4dee3d39-6b8a-49f0-bad7-baa1b7281908",
+      "title": "The Art of Finishing | ByteDrum",
+      "url": "https://www.bytedrum.com/posts/art-of-finishing/",
+      "savedAt": "2024-09-03T23:19:49.000Z",
+      "description": "My endless battle with the \"Project Hydra\": why I can't seem to finish projects, and the strategies I'm exploring to finally complete what I start. A personal journey through productivity's thorniest challenge.",
+      "tags": [
+        "management",
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "9062b0cb-4737-4a43-b445-d35fb7e70f20",
+      "title": "Ask HN: Resources for GPU Compilers? | Hacker News",
+      "url": "https://news.ycombinator.com/item?id=41428118",
+      "savedAt": "2024-09-03T17:05:48.000Z",
+      "description": "Faith Ekstrand has an impressive track record of compiler work and has written a few blog posts[1], [1a]. Her Mastodon[2] is also worth a follow.",
+      "tags": [
+        "cs/compilers",
+        "hardware"
+      ]
+    },
+    {
+      "id": "3d5b01f5-6a1f-4cda-992f-6a8d58839f9e",
+      "title": "Opinions for Writing Good CSS",
+      "url": "https://andrewwalpole.com/blog/opinions-for-writing-good-css/",
+      "savedAt": "2024-09-03T01:20:36.000Z",
+      "description": "CSS is a flexible language that, in my opinion, requires opinions to be written well and consistently. Here are some of my opinions for writing good CSS.",
+      "tags": [
+        "web"
+      ]
+    },
+    {
+      "id": "f48a54cd-ba1f-42dc-8c2a-73d2707d5f86",
+      "title": "Full Text, Full Archive RSS Feeds for any Blog | DOGESEC",
+      "url": "https://www.dogesec.com/blog/full_text_rss_atom_blog_feeds/",
+      "savedAt": "2024-09-03T01:16:17.000Z",
+      "description": "RSS and ATOM feeds are problematic for two reasons; 1) lack of history, 2) contain limited post content. We built some open-source software to fix that.",
+      "tags": [
+        "cool"
+      ]
+    },
+    {
+      "id": "b7b47d2d-22f6-459f-86b8-f85e8b74ef51",
+      "title": "Notes/Primer on Clang Compiler Frontend (1) : Introduction and Architecture - Youssef Ateya",
+      "url": "https://youssefaa.com/notes/notes-on-clang-compiler-frontend/",
+      "savedAt": "2024-09-02T13:03:52.000Z",
+      "description": "Notes/Primer on Clang Compiler Frontend: Introduction and Architecture\nThese are my notes on chapters 1 & 2 of the Clang Compiler Frontend by Ivan Murashko. The book is focused on teaching the fundamentals of LLVM to C++ engineers who are interested in learning about compilers to optimize their daily workflow by enhancing their code quality and overall development process. (I’ve referened this book extensively, and a lot of the snippets here are from this book.",
+      "tags": [
+        "cs/compilers",
+        "for-later"
+      ]
+    },
+    {
+      "id": "5006e948-8c79-412e-a604-7725c6a11f63",
+      "title": "Authenticated Boot and Disk Encryption on Linux",
+      "url": "https://0pointer.net/blog/authenticated-boot-and-disk-encryption-on-linux.html",
+      "savedAt": "2024-09-02T13:03:11.000Z",
+      "description": "Posts and writings by Lennart Poettering",
+      "tags": [
+        "cs/security",
+        "os/linux"
+      ]
+    },
+    {
+      "id": "48f2300b-3dc4-4885-a64a-a0112c1dd2fc",
+      "title": "What is Table-Oriented Programming? :: Table-Oriented Programming (TOP)",
+      "url": "https://wayland.github.io/table-oriented-programming/TOP/Introduction/What.xml",
+      "savedAt": "2024-09-02T12:59:25.000Z",
+      "description": "Table-oriented programming is, on the surface, an extremely high level of \nprogramming language support for tables.  Most languages don't even get \nclose to this level of support.  The common language which has the highest \nlevel of support, SQL, doesn't support all the features desired by the TOP \n(Table-Oriented Programming) aficionados.",
+      "tags": [
+        "cs/programming-paradigms"
+      ]
+    },
+    {
+      "id": "8aedbafb-30fe-407e-8c35-8417429bc5ab",
+      "title": "August 2024 Time Tracking",
+      "url": "https://www.jefftk.com/p/august-2024-time-tracking",
+      "savedAt": "2024-09-01T23:37:52.000Z",
+      "description": "Every so often ( 2022, 2017, more 2017, 2015, 2011) Julia and will track how we spend our time for a week. This is useful for seeing whether how we're spending our time matches how we think we're spending it (and how we would like to be spending it) while also avoiding a pattern where one of us ends up putting in substantially more hours on childcare or other shared responsibilities without us not",
+      "tags": [
+        "life/tracking"
+      ]
+    },
+    {
+      "id": "0984132a-3bc8-44ad-a156-b6907c57ac5b",
+      "title": "(12) WhatsApp",
+      "url": "https://web.whatsapp.com",
+      "savedAt": "2024-09-01T23:17:02.000Z",
+      "description": "Quickly send and receive WhatsApp messages right from your computer.",
+      "tags": []
+    },
+    {
+      "id": "cf9bba48-7130-4837-84a2-f1d0cf8706f1",
+      "title": "Neurotechnology Numbers Worth Knowing",
+      "url": "https://milan.cvitkovic.net/writing/neurotechnology_numbers_worth_knowing/",
+      "savedAt": "2024-09-01T19:58:49.000Z",
+      "description": "Facts about your head worth having in your head",
+      "tags": [
+        "biology"
+      ]
+    },
+    {
+      "id": "cc4513eb-28ce-4718-b842-8a8559f1e27c",
+      "title": "A new cycle-stepped 6502 CPU emulator",
+      "url": "https://floooh.github.io/2019/12/13/cycle-stepped-6502.html",
+      "savedAt": "2024-09-01T18:47:46.000Z",
+      "description": "TL;DR: The how and why of the new 6502 emulator in the chips project.",
+      "tags": [
+        "cs/emulator"
+      ]
+    },
+    {
+      "id": "ff078a05-fccc-4a5a-abf3-d8e594846170",
+      "title": "Putting a meaningful dent in your error backlog – Dan Slimmon",
+      "url": "https://blog.danslimmon.com/2024/08/15/putting-a-meaningful-dent-in-your-error-backlog/",
+      "savedAt": "2024-09-01T18:33:03.000Z",
+      "description": "We often don't realize how noisy the errors have gotten until things are already well out of hand. After all, we've got shit to do. Deadlines to hit. By the time we decide to get serious about error management, a huge, impenetrable, meaningless backlog of errors has already accumulated. I call this stuff \"slag.\"",
+      "tags": [
+        "cs/observability"
+      ]
+    },
+    {
+      "id": "6cdbeed7-6641-44f8-8d8c-0e8158bf0c3a",
+      "title": "Zig and Emulators",
+      "url": "https://floooh.github.io/2024/08/24/zig-and-emulators.html",
+      "savedAt": "2024-09-01T18:28:30.000Z",
+      "description": "Some quick Zig feedback in the context of a new 8-bit emulator project I starteda little while ago:",
+      "tags": [
+        "cs/emulator",
+        "cs/programming-languages/zig"
+      ]
+    },
     {
       "id": "52c8e40f-a1e3-4820-be01-e22c6470e6d1",
       "title": "Essays: NSA Surveillance: a Guide to Staying Secure - Schneier on Security",
@@ -54,17 +206,6 @@
       "tags": [
         "homelab",
         "tools/scripting"
-      ]
-    },
-    {
-      "id": "6cc4409e-e0c7-4412-8b4c-badc2b2cfcb1",
-      "title": "Dick Grune's Annotated Literature Lists",
-      "url": "https://web.archive.org/web/20120328052718/http://www.dickgrune.com/Summaries/CS/CompilerConstruction-1979.html",
-      "savedAt": "2024-08-30T22:59:38.000Z",
-      "description": "Peter Calingaert,\n\"Assemblers, Compilers and Program Translation\",\nComputer Science Press/Springer-Verlag,\nPotomac, Maryland 20854/Berlin,\n1979,\npp. 270.\n\n\n\nThe only book on compiler construction that gives serious treatment to\nassemblers, linkers and loaders.",
-      "tags": [
-        "computer-history",
-        "cs/compilers"
       ]
     },
     {
