@@ -1,9 +1,50 @@
 {
-  "lastUpdate": "2024-09-04T17:58:54.870Z",
+  "lastUpdate": "2024-09-07T11:19:07.589Z",
   "data": [
     {
+      "id": "04120e34-6c4f-11ef-b5a7-8f146453f28a",
+      "title": "Programming with Lambda Calculus",
+      "url": "https://hbr.github.io/Lambda-Calculus/lambda2/lambda.pdf",
+      "savedAt": "2024-09-06T12:57:24.000Z",
+      "description": null,
+      "tags": [
+        "cs/compilers"
+      ]
+    },
+    {
+      "id": "cae450ec-9552-424d-819d-c97aeb918d96",
+      "title": "Founder Mode",
+      "url": "https://paulgraham.com/foundermode.html",
+      "savedAt": "2024-09-06T12:47:08.000Z",
+      "description": "September 2024At a YC event last week Brian Chesky gave a talk that everyone who\nwas there will remember. Most founders I talked to afterward said\nit was the best they'd ever heard. Ron Conway, for the first time\nin his life, forgot to take notes. I'm not going to try to reproduce\nit here. Instead I want to talk about a question it raised.The theme of Brian's talk was that the conventional wisdom about\nhow to run larger companies is mistaken. As Airbnb grew, well-meaning\npeople advised him that he had to run the company in a certain way\nfor it to scale. Their advice could be optimistically summarized\nas \"hire good people and give them room to do their jobs.\" He\nfollowed this advice and the results were disastrous. So he had to\nfigure out a better way on his own, which he did partly by studying\nhow Steve Jobs ran Apple. So far it seems to be working. Airbnb's\nfree cash flow margin is now among the best in Silicon Valley.The audience at this event included a lot of the most successful\nfounders we've funded, and one after another said that the same\nthing had happened to them. They'd been given the same advice about\nhow to run their companies as they grew, but instead of helping\ntheir companies, it had damaged them.Why was everyone telling these founders the wrong thing? That was\nthe big mystery to me. And after mulling it over for a bit I figured\nout the answer: what they were being told was how to run a company\nyou hadn't founded — how to run a company if you're merely a\nprofessional manager. But this m.o. is so much less effective that\nto founders it feels broken. There are things founders can do that\nmanagers can't, and not doing them feels wrong to founders, because\nit is.In effect there are two different ways to run a company: founder\nmode and manager mode. Till now most people even in Silicon Valley\nhave implicitly assumed that scaling a startup meant switching to\nmanager mode. But we can infer the existence of another mode from\nthe dismay of founders who've tried it, and the success of their\nattempts to escape from it.There are as far as I know no books specifically about founder mode.\nBusiness schools don't know it exists. All we have so far are the\nexperiments of individual founders who've been figuring it out for\nthemselves. But now that we know what we're looking for, we can\nsearch for it. I hope in a few years founder mode will be as well\nunderstood as manager mode. We can already guess at some of the\nways it will differ.The way managers are taught to run companies seems to be like modular\ndesign in the sense that you treat subtrees of the org chart as\nblack boxes. You tell your direct reports what to do, and it's up\nto them to figure out how. But you don't get involved in the details\nof what they do. That would be micromanaging them, which is bad.Hire good people and give them room to do their jobs. Sounds great\nwhen it's described that way, doesn't it? Except in practice, judging\nfrom the report of founder after founder, what this often turns out\nto mean is: hire professional fakers and let them drive the company\ninto the ground.One theme I noticed both in Brian's talk and when talking to founders\nafterward was the idea of being gaslit. Founders feel like they're\nbeing gaslit from both sides — by the people telling them they\nhave to run their companies like managers, and by the people working\nfor them when they do. Usually when everyone around you disagrees\nwith you, your default assumption should be that you're mistaken.\nBut this is one of the rare exceptions. VCs who haven't been founders\nthemselves don't know how founders should run companies, and C-level\nexecs, as a class, include some of the most skillful liars in the\nworld.\n[1]Whatever founder mode consists of, it's pretty clear that it's going\nto break the principle that the CEO should engage with the company\nonly via his or her direct reports. \"Skip-level\" meetings will\nbecome the norm instead of a practice so unusual that there's a\nname for it. And once you abandon that constraint there are a huge\nnumber of permutations to choose from.For example, Steve Jobs used to run an annual retreat for what he\nconsidered the 100 most important people at Apple, and these were\nnot the 100 people highest on the org chart. Can you imagine the\nforce of will it would take to do this at the average company? And\nyet imagine how useful such a thing could be. It could make a big\ncompany feel like a startup. Steve presumably wouldn't have kept\nhaving these retreats if they didn't work. But I've never heard of\nanother company doing this. So is it a good idea, or a bad one? We\nstill don't know. That's how little we know about founder mode.\n[2]Obviously founders can't keep running a 2000 person company the way\nthey ran it when it had 20. There's going to have to be some amount\nof delegation. Where the borders of autonomy end up, and how sharp\nthey are, will probably vary from company to company. They'll even\nvary from time to time within the same company, as managers earn\ntrust. So founder mode will be more complicated than manager mode.\nBut it will also work better. We already know that from the examples\nof individual founders groping their way toward it.Indeed, another prediction I'll make about founder mode is that\nonce we figure out what it is, we'll find that a number of individual\nfounders were already most of the way there — except that in doing\nwhat they did they were regarded by many as eccentric or worse.\n[3]Curiously enough it's an encouraging thought that we still know so\nlittle about founder mode. Look at what founders have achieved\nalready, and yet they've achieved this against a headwind of bad\nadvice. Imagine what they'll do once we can tell them how to run\ntheir companies like Steve Jobs instead of John Sculley.Notes[1]\nThe more diplomatic way of phrasing this statement would be\nto say that experienced C-level execs are often very skilled at\nmanaging up. And I don't think anyone with knowledge of this world\nwould dispute that.[2]\nIf the practice of having such retreats became so widespread\nthat even mature companies dominated by politics started to do it,\nwe could quantify the senescence of companies by the average depth\non the org chart of those invited.[3]\nI also have another less optimistic prediction: as soon as\nthe concept of founder mode becomes established, people will start\nmisusing it. Founders who are unable to delegate even things they\nshould will use founder mode as the excuse. Or managers who aren't\nfounders will decide they should try to act like founders. That may\neven work, to some extent, but the results will be messy when it\ndoesn't; the modular approach does at least limit the damage a bad\nCEO can do.Thanks to Brian Chesky, Patrick Collison, \nRon Conway, Jessica\nLivingston, Elon Musk, Ryan Petersen, Harj Taggar, and Garry Tan\nfor reading drafts of this.",
+      "tags": [
+        "career",
+        "management"
+      ]
+    },
+    {
+      "id": "02364fad-fa12-41ea-8485-2f4a89620a0c",
+      "title": "On distributed systems | Distributed Systems by Szymon Durak",
+      "url": "https://www.superdurszlak.dev/posts/on-distributed-systems/",
+      "savedAt": "2024-09-06T12:32:39.000Z",
+      "description": "What are these distributed systems, after all?",
+      "tags": [
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "1e6aeed0-f67d-4fd9-98b8-edeb9f5389a0",
+      "title": "Thoughts on \"The Future of TLA+\" • Buttondown",
+      "url": "https://buttondown.com/hillelwayne/archive/what-could-be-added-to-tla/",
+      "savedAt": "2024-09-06T12:09:15.000Z",
+      "description": "What could be added to TLA+ without compromising Lamport's vision?",
+      "tags": [
+        "cs/distsys"
+      ]
+    },
+    {
       "id": "5553e3cd-58c0-4ab7-99a5-5ac64d15c361",
-      "title": "cc",
+      "title": "Typed Lambda Calculus / Calculus of Constructions",
       "url": "https://hbr.github.io/Lambda-Calculus/cc-tex/cc.pdf",
       "savedAt": "2024-09-04T17:49:41.000Z",
       "description": null,
