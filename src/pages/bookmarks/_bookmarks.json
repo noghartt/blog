@@ -1,6 +1,66 @@
 {
-  "lastUpdate": "2024-09-07T11:19:07.589Z",
+  "lastUpdate": "2024-09-09T12:08:41.258Z",
   "data": [
+    {
+      "id": "491b97fc-65e4-4277-9530-59806d88f501",
+      "title": "ATProto for distributed systems engineers - AT Protocol",
+      "url": "https://atproto.com/articles/atproto-for-distsys-engineers",
+      "savedAt": "2024-09-09T10:04:24.000Z",
+      "description": "AT Protocol is the tech developed at Bluesky for open social networking. In this article we're going to explore AT Proto from the perspective of distributed backend engineering.",
+      "tags": [
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "ce76b6a7-6ad9-494c-a666-b5d29ef89dda",
+      "title": "Legacy",
+      "url": "https://longform.asmartbear.com/legacy/",
+      "savedAt": "2024-09-08T23:28:13.000Z",
+      "description": "Humans have always tried to live forever. Maybe you can, but not in the way you imagine.",
+      "tags": [
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "71f12a2e-d154-4323-b1ad-a5cc6401bfc4",
+      "title": "Taming Consensus in the Wild (with the Shared Log Abstraction)",
+      "url": "https://muratbuffalo.blogspot.com/2024/08/taming-consensus-in-wild-with-shared.html",
+      "savedAt": "2024-09-08T14:30:09.000Z",
+      "description": "This paper recently appeared at ACM SIGOPS Operating Systems Review.  It provides an overview of the shared log abstraction in distributed s...",
+      "tags": [
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "842ac4a7-010a-4198-8653-6ec27e409f17",
+      "title": "DNS \"propagation\" is actually caches expiring",
+      "url": "https://jvns.ca/blog/2021/12/06/dns-doesn-t-propagate/",
+      "savedAt": "2024-09-08T14:25:22.000Z",
+      "description": "DNS \"propagation\" is actually caches expiring",
+      "tags": [
+        "cs/networking"
+      ]
+    },
+    {
+      "id": "fb6f9dcf-9715-4f47-824c-b1256725d304",
+      "title": "The Fundamental Law Of Software Dependencies",
+      "url": "https://matklad.github.io/2024/09/03/the-fundamental-law-of-dependencies.html",
+      "savedAt": "2024-09-08T13:40:06.000Z",
+      "description": "Canonical source code for software should include checksums of the content of all its\ndependencies.",
+      "tags": [
+        "cs"
+      ]
+    },
+    {
+      "id": "f63c6836-1715-4b07-aa5f-932c177133e1",
+      "title": "Why is Browser Observability Hard | Hazel Weakly",
+      "url": "https://hazelweakly.me/blog/why-is-browser-observability-hard/",
+      "savedAt": "2024-09-08T12:58:51.000Z",
+      "description": "So the big thing that makes everything so difficult for browsers is that opentelemetry has a concept of a lifecycle for telemetry that doesn’t map very well to...",
+      "tags": [
+        "cs/observability"
+      ]
+    },
     {
       "id": "04120e34-6c4f-11ef-b5a7-8f146453f28a",
       "title": "Programming with Lambda Calculus",
@@ -48,7 +108,10 @@
       "url": "https://hbr.github.io/Lambda-Calculus/cc-tex/cc.pdf",
       "savedAt": "2024-09-04T17:49:41.000Z",
       "description": null,
-      "tags": []
+      "tags": [
+        "type/article",
+        "cs/compilers"
+      ]
     },
     {
       "id": "6cc4409e-e0c7-4412-8b4c-badc2b2cfcb1",
@@ -144,14 +207,6 @@
       "tags": [
         "life/tracking"
       ]
-    },
-    {
-      "id": "0984132a-3bc8-44ad-a156-b6907c57ac5b",
-      "title": "(12) WhatsApp",
-      "url": "https://web.whatsapp.com",
-      "savedAt": "2024-09-01T23:17:02.000Z",
-      "description": "Quickly send and receive WhatsApp messages right from your computer.",
-      "tags": []
     },
     {
       "id": "cf9bba48-7130-4837-84a2-f1d0cf8706f1",
@@ -1531,7 +1586,9 @@
       "url": "https://www.arxiv.org/pdf/2407.09468",
       "savedAt": "2024-07-20T12:36:25.000Z",
       "description": null,
-      "tags": []
+      "tags": [
+        "cs/ai"
+      ]
     },
     {
       "id": "35f7f620-da55-4d5f-b994-e022bb65add8",
@@ -2020,7 +2077,9 @@
       "url": "https://github.com/karpathy/llm.c/discussions/677",
       "savedAt": "2024-07-12T01:49:04.000Z",
       "description": "In this post we are reproducing GPT-2 in llm.c. This is \"the GPT-2\", the full, 1558M parameter version that was introduced in OpenAI's blog post Better Language Models and their Impli...",
-      "tags": []
+      "tags": [
+        "cs/ai"
+      ]
     },
     {
       "id": "b2f11275-9ab9-4a13-92a5-2a89d69db4f3",
@@ -2095,7 +2154,10 @@
       "url": "https://www.orionreed.com/posts/scoped-propagators",
       "savedAt": "2024-07-10T04:42:01.000Z",
       "description": "My research investigates the intersection of computing, human-system interfaces, and emancipatory politics. I am interested in the potential of computing as a medium for thought, as a tool for collective action, and as a means of emancipation.",
-      "tags": []
+      "tags": [
+        "web",
+        "cs/browsers"
+      ]
     },
     {
       "id": "4d3c7716-d9fe-4992-807f-eade901c34f6",
@@ -2114,7 +2176,10 @@
       "url": "https://aosabook.org/en/v1/bdb.html",
       "savedAt": "2024-07-10T02:29:29.000Z",
       "description": "Conway's Law states that a design reflects the structure of the\norganization that produced it. Stretching that a bit, we might\nanticipate that a software artifact designed and initially produced by\ntwo people might somehow reflect, not merely the structure of the\norganization, but the internal biases and philosophies each brings to\nthe table. One of us (Seltzer) has spent her career between the worlds\nof filesystems and database management systems. If questioned, she'll\nargue the two are fundamentally the same thing, and furthermore,\noperating systems and database management systems are essentially both\nresource managers and providers of convenient abstractions. The\ndifferences are \"merely\" implementation details. The other (Bostic)\nbelieves in the tool-based approach to software engineering and in the\nconstruction of components based on simpler building blocks, because\nsuch systems are invariably superior to monolithic architectures in\nthe important \"-bilities\": understandability, extensibility,\nmaintainability, testability, and flexibility.",
-      "tags": []
+      "tags": [
+        "cs",
+        "books"
+      ]
     },
     {
       "id": "f64527f5-2e65-44da-9d16-821107fe2b38",
@@ -2332,7 +2397,10 @@
       "url": "https://matklad.github.io/2024/07/05/properly-testing-concurrent-data-structures.html",
       "savedAt": "2024-07-06T03:43:59.000Z",
       "description": "There's a fascinating Rust library, loom, which can be used to\nthoroughly test lock-free data structures. I always wanted to learn how it works. I still do! But\nrecently I accidentally implemented a small toy which, I think, contains some of the loom's ideas,\nand it seems worthwhile to write about that. The goal here isn't to teach you what you should be\nusing in practice (if you need that, go read loom's docs), but rather to derive a couple of neat\nideas from first principles.",
-      "tags": []
+      "tags": [
+        "web",
+        "cs/browsers"
+      ]
     },
     {
       "id": "d8d35bf6-3b1b-11ef-a90c-8b0b22f4eb2c",
@@ -4540,7 +4608,10 @@
       "url": "https://danielchasehooper.com/posts/good-ideas-in-cs/",
       "savedAt": "2024-04-23T01:03:15.000Z",
       "description": "Ideas every programmer likes and why Garbage Collection and Object Oriented Programming are bad",
-      "tags": []
+      "tags": [
+        "cool",
+        "cs"
+      ]
     },
     {
       "id": "215925a4-acc2-433f-96a5-6b6efcdf99a2",
@@ -4559,7 +4630,9 @@
       "url": "https://bost.ocks.org/mike/algorithms/",
       "savedAt": "2024-04-22T03:31:16.000Z",
       "description": "Algorithms are a fascinating use case for visualization. To visualize an algorithm, we don’t merely fit data to a chart; there is no primary dataset. Instead there are logical rules that describe behavior. This may be why algorithm visualizations are so unusual, as designers experiment with novel forms to better communicate. This is reason enough to study them.",
-      "tags": []
+      "tags": [
+        "cs/algorithms"
+      ]
     },
     {
       "id": "2749efe4-fb38-45fc-8192-04a3580f594a",
@@ -4797,7 +4870,10 @@
       "url": "https://blog.daknob.net/do-you-really-need-ipv4-anymore/",
       "savedAt": "2024-04-13T16:24:40.000Z",
       "description": "Setting up and maintaining access networks today requires double the effort\ndue to the parallel coexistence of IPv6 and IPv4. Dual-stack has network\nengineers and sysadmins do twice the amount of work, so there must be a good\nreason for it, right?",
-      "tags": []
+      "tags": [
+        "cs/networking",
+        "for-later"
+      ]
     },
     {
       "id": "32e829a7-172d-4f96-ac1c-ac31e50eb48d",
@@ -5253,7 +5329,9 @@
       "url": "https://github.com/Dobiasd/articles/blob/master/internals_of_the_async_await_pattern_from_first_principles.md",
       "savedAt": "2024-03-20T00:35:39.000Z",
       "description": "thoughts on programming. Contribute to Dobiasd/articles development by creating an account on GitHub.",
-      "tags": []
+      "tags": [
+        "cs/programming-languages/javascript"
+      ]
     },
     {
       "id": "a8fb643a-258d-4788-89a9-e2175ce65941",
@@ -5282,7 +5360,11 @@
       "url": "https://github.com/Dobiasd/articles",
       "savedAt": "2024-03-19T20:24:28.000Z",
       "description": "This repository serves as a programming-related brain dump.",
-      "tags": []
+      "tags": [
+        "blog",
+        "resource/list",
+        "cs"
+      ]
     },
     {
       "id": "f0f7139a-4317-4a2f-984d-a8560752e25f",
@@ -5598,7 +5680,9 @@
       "url": "https://amoedo.substack.com/p/o-juro-e-negativo-apos-2008",
       "savedAt": "2024-03-06T21:31:36.000Z",
       "description": "no legacy só há perda fixa e perda variável",
-      "tags": []
+      "tags": [
+        "economy"
+      ]
     },
     {
       "id": "52302567-88fd-431d-8412-d3a3030b1839",
@@ -5837,7 +5921,9 @@
       "url": "https://stephango.com/earth",
       "savedAt": "2024-02-26T21:57:33.000Z",
       "description": "Humans are not the last level of life’s fractal pattern. The Earth itself is becoming a sentient organism, a new stage of life, a species that exists on a sc...",
-      "tags": []
+      "tags": [
+        "thoughts"
+      ]
     },
     {
       "id": "754366b8-4ad0-42dc-940b-ef228b6f0d69",
@@ -6015,7 +6101,9 @@
       "url": "https://web.archive.org/web/20080723122307/http://www.cecs.csulb.edu/%7emonge/classes/share/B+TreeIndexes.html",
       "savedAt": "2024-02-17T20:58:32.000Z",
       "description": "The Wayback Machine - https://web.archive.org/web/20080723122307/http://www.cecs.csulb.edu/%7emonge/classes/share/B+TreeIndexes.html",
-      "tags": []
+      "tags": [
+        "cs/database"
+      ]
     },
     {
       "id": "5686bfb9-4c54-447d-818e-11f2c6ab83c2",
@@ -6023,7 +6111,10 @@
       "url": "https://softwaredoug.com/blog/2023/10/13/fight-undead-documentation",
       "savedAt": "2024-02-14T22:50:48.000Z",
       "description": "Software documentation that doesn’t suck needs to exist with the living",
-      "tags": []
+      "tags": [
+        "management",
+        "engineering"
+      ]
     },
     {
       "id": "5a0c7479-b899-49ec-9473-694dfc510411",
@@ -6052,7 +6143,10 @@
       "url": "https://www.science.org/content/article/how-seriously-read-scientific-paper",
       "savedAt": "2024-02-11T21:48:43.000Z",
       "description": "Reading becomes easier with experience, but it is up to each scientist to identify the techniques that work best for them.",
-      "tags": []
+      "tags": [
+        "learning",
+        "academy"
+      ]
     },
     {
       "id": "d9ea9ccc-f14a-412a-8a1e-0aeba04af7ca",
@@ -6102,7 +6196,11 @@
       "url": "https://blog.appliedcomputing.io/p/okrs-are-bullshit",
       "savedAt": "2024-02-09T00:03:03.000Z",
       "description": "It's a new year, time for a new rant! And yes, before you ask, the post title is deliberately provocative. You might say this is my ploy to get more paid subscribers, because only paid subscribers can leave comments and I expect that the title alone will make many of you want to comment. 😝",
-      "tags": []
+      "tags": [
+        "self-improvement",
+        "management",
+        "career"
+      ]
     },
     {
       "id": "79959e1c-6248-43c0-b6f1-21149e30b7d5",
