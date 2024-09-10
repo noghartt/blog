@@ -1,6 +1,101 @@
 {
-  "lastUpdate": "2024-09-09T12:08:41.258Z",
+  "lastUpdate": "2024-09-10T01:27:06.427Z",
   "data": [
+    {
+      "id": "78757c68-b5e0-40c6-b71e-292aa4f7c787",
+      "title": "Practices of Reliable Software Design",
+      "url": "https://entropicthoughts.com/practices-of-reliable-software-design",
+      "savedAt": "2024-09-09T19:42:11.000Z",
+      "description": "I was nerd-sniped. Out of the blue, a friend asked me,",
+      "tags": [
+        "cs",
+        "engineering"
+      ]
+    },
+    {
+      "id": "ac7a4eed-84b7-4bef-89cf-df580827ed69",
+      "title": "B-trees and database indexes",
+      "url": "https://planetscale.com/blog/btrees-and-database-indexes",
+      "savedAt": "2024-09-09T18:59:53.000Z",
+      "description": "B-trees are used by many modern DBMSs. Learn how they work, how databases use them, and how your choice of primary key can affect index performance.",
+      "tags": [
+        "cs/database"
+      ]
+    },
+    {
+      "id": "cd97741b-5258-40ab-9505-151bafceedbd",
+      "title": "What to Do When You Forget Your Root Password – Tookmund – A place for my random thoughts about software",
+      "url": "https://tookmund.com/2024/06/linux-forgot-password",
+      "savedAt": "2024-09-09T18:42:22.000Z",
+      "description": "Forgetting your root password would initially seem like a problem requiring\na full re-install, one that you can’t easily recover from without wiping\neverything away.",
+      "tags": [
+        "os/linux"
+      ]
+    },
+    {
+      "id": "2e0b9910-e2ce-4cb6-ac5f-b1c0909e3c9f",
+      "title": "What I Gave Up To Become An Engineering Manager",
+      "url": "https://emdiary.substack.com/p/what-i-gave-up-to-become-an-em",
+      "savedAt": "2024-09-09T17:35:35.000Z",
+      "description": "The five things I had to let go to transition successfully from IC to EM.",
+      "tags": [
+        "career"
+      ]
+    },
+    {
+      "id": "0c83df21-7796-4ca6-8d24-acf7441fd885",
+      "title": "Explore AMX instructions: Unlock the performance of Apple Silicon | by 郑启航 | Sep, 2024 | Medium",
+      "url": "https://medium.com/@zhen8838/explore-amx-instructions-unlock-the-performance-of-apple-silicon-e0276a293aec",
+      "savedAt": "2024-09-09T14:20:08.000Z",
+      "description": "Since 2020, Apple has published M1/M2/M3. They have at least four different ways to perform high-intensity computing tasks. If we use ARM NEON instructions to accelerate the sgemm kernel on the…",
+      "tags": [
+        "hardware",
+        "os/osx"
+      ]
+    },
+    {
+      "id": "e629dd88-798b-49d8-8543-5ee96c83e672",
+      "title": "Feynman Algorithm",
+      "url": "https://wiki.c2.com/?FeynmanAlgorithm=",
+      "savedAt": "2024-09-09T13:03:01.000Z",
+      "description": "The Feynman algorithm was facetiously suggested by Murray Gell-Mann, a colleague of Feynman, in a New York Times interview.",
+      "tags": [
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "6b5c08af-1624-419c-8a89-3e4fdcef6e4b",
+      "title": "Programming languages resources | Max Bernstein",
+      "url": "https://bernsteinbear.com/pl-resources/",
+      "savedAt": "2024-09-09T13:01:46.000Z",
+      "description": "This page is a collection of my favorite resources for people getting started\nwriting programming languages. I hope to keep it updated as long as I continue\nto find great stuff.",
+      "tags": [
+        "cs/compilers",
+        "cs/pl-theory"
+      ]
+    },
+    {
+      "id": "f0b04df1-bd05-4cfd-aa62-aa5c93dd85f2",
+      "title": "Implementing HanoiDB - Session 1: Introduction",
+      "url": "https://www.youtube.com/watch?v=TodqnIJwQJ4",
+      "savedAt": "2024-09-09T12:57:48.000Z",
+      "description": "This is a new series looking at HanoiDB, an interesting indexed key-value storage engine that was originally built for Riak. We start by getting the ancient code running on a more recent Erlang/OTP version, then write out some data to disk and try to read it back from a new Rust crate.",
+      "tags": [
+        "cs/database"
+      ]
+    },
+    {
+      "id": "474ee109-52cd-4bda-95f9-7233d7c11af0",
+      "title": "Linux's Bedtime Routine – Tookmund – A place for my random thoughts about software",
+      "url": "https://tookmund.com/2024/09/hibernation-preparation",
+      "savedAt": "2024-09-09T12:21:16.000Z",
+      "description": "How does Linux move from an awake machine to a hibernating one?\nHow does it then manage to restore all state?\nThese questions led me to read way too much C in trying to figure out\nhow this particular hardware/software boundary is navigated.",
+      "tags": [
+        "cs/operating-system",
+        "linux",
+        "os/linux"
+      ]
+    },
     {
       "id": "491b97fc-65e4-4277-9530-59806d88f501",
       "title": "ATProto for distributed systems engineers - AT Protocol",
@@ -731,7 +826,7 @@
       "savedAt": "2024-08-12T11:39:23.000Z",
       "description": "Every byte of a QUIC connection explained and reproduced",
       "tags": [
-        "networking"
+        "cs/networking"
       ]
     },
     {
@@ -2621,16 +2716,6 @@
       "description": "A write-ahead log is not a universal part of durability",
       "tags": [
         "cs/database"
-      ]
-    },
-    {
-      "id": "6b5c08af-1624-419c-8a89-3e4fdcef6e4b",
-      "title": "Programming languages resources | Max Bernstein",
-      "url": "https://bernsteinbear.com/pl-resources/",
-      "savedAt": "2024-07-01T12:42:24.000Z",
-      "description": "This page is a collection of my favorite resources for people getting started\nwriting programming languages. I hope to keep it updated as long as I continue\nto find great stuff.",
-      "tags": [
-        "cs/pl-theory"
       ]
     },
     {
@@ -5077,16 +5162,6 @@
         "programming",
         "books",
         "reading"
-      ]
-    },
-    {
-      "id": "e629dd88-798b-49d8-8543-5ee96c83e672",
-      "title": "Feynman Algorithm",
-      "url": "https://wiki.c2.com/?FeynmanAlgorithm=",
-      "savedAt": "2024-04-03T16:15:07.000Z",
-      "description": "The Feynman Algorithm:",
-      "tags": [
-        "self-improvement"
       ]
     },
     {
