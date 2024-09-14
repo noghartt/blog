@@ -1,6 +1,181 @@
 {
-  "lastUpdate": "2024-09-10T01:27:06.427Z",
+  "lastUpdate": "2024-09-14T19:08:00.433Z",
   "data": [
+    {
+      "id": "050ecf16-07bf-4f11-b59d-c1fb7267afce",
+      "title": "My 71 TiB ZFS NAS after 10 years and zero drive failures",
+      "url": "https://louwrentius.com/my-71-tib-zfs-nas-after-10-years-and-zero-drive-failures.html",
+      "savedAt": "2024-09-14T18:59:34.000Z",
+      "description": "My 4U 71 TiB ZFS NAS built with twenty-four 4 TB drives is over 10 years old and still going strong.",
+      "tags": [
+        "homelab"
+      ]
+    },
+    {
+      "id": "2f69c06e-2a11-439f-a1e7-1b5d58c54907",
+      "title": "Introduction to the PDP 11, Unit 1, System Overview",
+      "url": "https://www.youtube.com/watch?v=A4xLMKbGYV8",
+      "savedAt": "2024-09-14T02:16:11.000Z",
+      "description": "This is a remake of the first in a set of videos produced for Digital Equipment almost 40 years ago.  In 1977, I created storyboards and wrote the scripts for all 28 videotapes. They were part of a training package called “Introduction to the PDP-11”. The original videos were discovered on a computer museum website.  I was thrilled to come across examples of the kinds of training packages that I worked on during my time with Digital.",
+      "tags": [
+        "computer-history"
+      ]
+    },
+    {
+      "id": "49c56a04-c8ca-4535-88b9-c54974844cdf",
+      "title": "Home — Bluesky",
+      "url": "https://bsky.app",
+      "savedAt": "2024-09-13T16:31:10.000Z",
+      "description": "Social media as it should be. Find your community among millions of users, unleash your creativity, and have some fun again.",
+      "tags": []
+    },
+    {
+      "id": "484a8001-69bf-4390-8a5a-965a906ae0f6",
+      "title": "The Lesson to Unlearn",
+      "url": "https://paulgraham.com/lesson.html",
+      "savedAt": "2024-09-13T02:19:46.000Z",
+      "description": "December 2019\nThe most damaging thing you learned in school wasn't something you\nlearned in any specific class. It was learning to get good grades.When I was in college, a particularly earnest philosophy grad student\nonce told me that he never cared what grade he got in a class, only\nwhat he learned in it. This stuck in my mind because it was the\nonly time I ever heard anyone say such a thing.For me, as for most students, the measurement of what I was learning\ncompletely dominated actual learning in college.  I was fairly\nearnest; I was genuinely interested in most of the classes I took,\nand I worked hard. And yet I worked by far the hardest when I was\nstudying for a test.In theory, tests are merely what their name implies: tests of what\nyou've learned in the class. In theory you shouldn't have to prepare\nfor a test in a class any more than you have to prepare for a blood\ntest. In theory you learn from taking the class, from going to the\nlectures and doing the reading and/or assignments, and the test\nthat comes afterward merely measures how well you learned.In practice, as almost everyone reading this will know, things are\nso different that hearing this explanation of how classes and tests\nare meant to work is like hearing the etymology of a word whose\nmeaning has changed completely. In practice, the phrase \"studying\nfor a test\" was almost redundant, because that was when one really\nstudied.  The difference between diligent and slack students was\nthat the former studied hard for tests and the latter didn't.  No\none was pulling all-nighters two weeks into the semester.Even though I was a diligent student, almost all the work I did in\nschool was aimed at getting a good grade on something.To many people, it would seem strange that the preceding sentence\nhas a \"though\" in it. Aren't I merely stating a tautology? Isn't\nthat what a diligent student is, a straight-A student? That's how\ndeeply the conflation of learning with grades has infused our\nculture.Is it so bad if learning is conflated with grades?  Yes, it is bad.\nAnd it wasn't till decades after college, when I was running Y Combinator, that I realized how bad it is.I knew of course when I was a student that studying for a test is\nfar from identical with actual learning. At the very least, you\ndon't retain knowledge you cram into your head the night before an\nexam. But the problem is worse than that. The real problem is that\nmost tests don't come close to measuring what they're supposed to.If tests truly were tests of learning, things wouldn't be so bad.\nGetting good grades and learning would converge, just a little late.\nThe problem is that nearly all tests given to students are terribly\nhackable. Most people who've gotten good grades know this, and know\nit so well they've ceased even to question it.  You'll see when you\nrealize how naive it sounds to act otherwise.Suppose you're taking a class on medieval history and the final\nexam is coming up. The final exam is supposed to be a test of your\nknowledge of medieval history, right? So if you have a couple days\nbetween now and the exam, surely the best way to spend the time,\nif you want to do well on the exam, is to read the best books you\ncan find about medieval history. Then you'll know a lot about it,\nand do well on the exam.No, no, no, experienced students are saying to themselves.  If you\nmerely read good books on medieval history, most of the stuff you\nlearned wouldn't be on the test.  It's not good books you want to\nread, but the lecture notes and assigned reading in this class.\nAnd even most of that you can ignore, because you only have to worry\nabout the sort of thing that could turn up as a test question.\nYou're looking for sharply-defined chunks of information. If one\nof the assigned readings has an interesting digression on some\nsubtle point, you can safely ignore that, because it's not the sort\nof thing that could be turned into a test question.  But if the\nprofessor tells you that there were three underlying causes of the\nSchism of 1378, or three main consequences of the Black Death, you'd\nbetter know them. And whether they were in fact the causes or\nconsequences is beside the point.  For the purposes of this class\nthey are.At a university there are often copies of old exams floating around,\nand these narrow still further what you have to learn. As well as\nlearning what kind of questions this professor asks, you'll often\nget actual exam questions. Many professors re-use them.  After\nteaching a class for 10 years, it would be hard not to, at least\ninadvertently.In some classes, your professor will have had some sort of political\naxe to grind, and if so you'll have to grind it too. The need for\nthis varies. In classes in math or the hard sciences or engineering\nit's rarely necessary, but at the other end of the spectrum there\nare classes where you couldn't get a good grade without it.Getting a good grade in a class on x is so different from learning\na lot about x that you have to choose one or the other, and you\ncan't blame students if they choose grades.  Everyone judges them\nby their grades — graduate programs, employers, scholarships, even\ntheir own parents.I liked learning, and I really enjoyed some of the papers and\nprograms I wrote in college. But did I ever, after turning in a\npaper in some class, sit down and write another just for fun? Of\ncourse not. I had things due in other classes. If it ever came to\na choice of learning or grades, I chose grades. I hadn't come to\ncollege to do badly.Anyone who cares about getting good grades has to play this game,\nor they'll be surpassed by those who do. And at elite universities,\nthat means nearly everyone, since someone who didn't care about\ngetting good grades probably wouldn't be there in the first place.\nThe result is that students compete to maximize the difference\nbetween learning and getting good grades.Why are tests so bad? More precisely, why are they so hackable?\nAny experienced programmer could answer that. How hackable is\nsoftware whose author hasn't paid any attention to preventing it\nfrom being hacked? Usually it's as porous as a colander.Hackable is the default for any test imposed by an authority. The\nreason the tests you're given are so consistently bad — so consistently\nfar from measuring what they're supposed to measure — is simply\nthat the people creating them haven't made much effort to prevent\nthem from being hacked.But you can't blame teachers if their tests are hackable. Their job\nis to teach, not to create unhackable tests. The real problem is\ngrades, or more precisely, that grades have been overloaded. If\ngrades were merely a way for teachers to tell students what they\nwere doing right and wrong, like a coach giving advice to an athlete,\nstudents wouldn't be tempted to hack tests. But unfortunately after\na certain age grades become more than advice. After a certain age,\nwhenever you're being taught, you're usually also being judged.I've used college tests as an example, but those are actually the\nleast hackable. All the tests most students take their whole lives\nare at least as bad, including, most spectacularly of all, the test\nthat gets them into college. If getting into college were merely a\nmatter of having the quality of one's mind measured by admissions\nofficers the way scientists measure the mass of an object, we could\ntell teenage kids \"learn a lot\" and leave it at that.  You can tell\nhow bad college admissions are, as a test, from how unlike high\nschool that sounds. In practice, the freakishly specific nature of\nthe stuff ambitious kids have to do in high school is directly\nproportionate to the hackability of college admissions.  The classes\nyou don't care about that are mostly memorization, the random\n\"extracurricular activities\" you have to participate in to show\nyou're \"well-rounded,\" the standardized tests as artificial as\nchess, the \"essay\" you have to write that's presumably meant to hit\nsome very specific target, but you're not told what.As well as being bad in what it does to kids, this test is also bad\nin the sense of being very hackable. So hackable that whole industries\nhave grown up to hack it. This is the explicit purpose of test-prep\ncompanies and admissions counsellors, but it's also a significant\npart of the function of private schools.Why is this particular test so hackable? I think because of what\nit's measuring. Although the popular story is that the way to get\ninto a good college is to be really smart, admissions officers at\nelite colleges neither are, nor claim to be, looking only for that.\nWhat are they looking for?  They're looking for people who are not\nsimply smart, but admirable in some more general sense.  And how\nis this more general admirableness measured?  The admissions officers\nfeel it. In other words, they accept who they like.So what college admissions is a test of is whether you suit the\ntaste of some group of people. Well, of course a test like that is\ngoing to be hackable. And because it's both very hackable and there's\n(thought to be) a lot at stake, it's hacked like nothing else.\nThat's why it distorts your life so much for so long.It's no wonder high school students often feel alienated. The shape\nof their lives is completely artificial.But wasting your time is not the worst thing the educational system\ndoes to you. The worst thing it does is to train you that the way\nto win is by hacking bad tests.  This is a much subtler problem\nthat I didn't recognize until I saw it happening to other people.When I started advising startup founders at Y Combinator, especially\nyoung ones, I was puzzled by the way they always seemed to make\nthings overcomplicated. How, they would ask, do you raise money?\nWhat's the trick for making venture capitalists want to invest in\nyou? The best way to make VCs want to invest in you, I would explain,\nis to actually be a good investment. Even if you could trick VCs\ninto investing in a bad startup, you'd be tricking yourselves too.\nYou're investing time in the same company you're asking them to\ninvest money in. If it's not a good investment, why are you even\ndoing it?Oh, they'd say, and then after a pause to digest this revelation,\nthey'd ask: What makes a startup a good investment?So I would explain that what makes a startup promising, not just\nin the eyes of investors but in fact, is \ngrowth.  \nIdeally in revenue,\nbut failing that in usage. What they needed to do was get lots of\nusers.How does one get lots of users? They had all kinds of ideas about\nthat. They needed to do a big launch that would get them \"exposure.\"\nThey needed influential people to talk about them. They even knew\nthey needed to launch on a tuesday, because that's when one gets\nthe most attention.No, I would explain, that is not how to get lots of users. The way\nyou get lots of users is to make the product really great. Then\npeople will not only use it but recommend it to their friends, so\nyour growth will be exponential once you \nget it started.At this point I've told the founders something you'd think would\nbe completely obvious: that they should make a good company by\nmaking a good product. And yet their reaction would be something\nlike the reaction many physicists must have had when they first\nheard about the theory of relativity: a mixture of astonishment at\nits apparent genius, combined with a suspicion that anything so\nweird couldn't possibly be right. Ok, they would say, dutifully.\nAnd could you introduce us to such-and-such influential person? And\nremember, we want to launch on Tuesday.It would sometimes take founders years to grasp these simple lessons.\nAnd not because they were lazy or stupid. They just seemed blind\nto what was right in front of them.Why, I would ask myself, do they always make things so complicated?\nAnd then one day I realized this was not a rhetorical question.Why did founders tie themselves in knots doing the wrong things\nwhen the answer was right in front of them? Because that was what\nthey'd been trained to do. Their education had taught them that the\nway to win was to hack the test. And without even telling them they\nwere being trained to do this. The younger ones, the recent graduates,\nhad never faced a non-artificial test. They thought this was just\nhow the world worked: that the first thing you did, when facing any\nkind of challenge, was to figure out what the trick was for hacking\nthe test. That's why the conversation would always start with how\nto raise money, because that read as the test. It came at the end\nof YC. It had numbers attached to it, and higher numbers seemed to\nbe better. It must be the test.There are certainly big chunks of the world where the way to win\nis to hack the test. This phenomenon isn't limited to schools.  And\nsome people, either due to ideology or ignorance, claim that this\nis true of startups too. But it isn't. In fact, one of the most\nstriking things about startups is the degree to which you win by\nsimply doing good work. There are edge cases, as there are in\nanything, but in general you win by getting users, and what users\ncare about is whether the product does what they want.Why did it take me so long to understand why founders made startups\novercomplicated? Because I hadn't realized explicitly that schools\ntrain us to win by hacking bad tests. And not just them, but me!\nI'd been trained to hack bad tests too, and hadn't realized it till\ndecades later.I had lived as if I realized it, but without knowing why. For\nexample, I had avoided working for big companies. But if you'd asked\nwhy, I'd have said it was because they were bogus, or bureaucratic.\nOr just yuck. I never understood how much of my dislike of big\ncompanies was due to the fact that you win by hacking bad tests.Similarly, the fact that the tests were unhackable was a lot of\nwhat attracted me to startups. But again, I hadn't realized that\nexplicitly.I had in effect achieved by successive approximations something\nthat may have a closed-form solution.  I had gradually undone my\ntraining in hacking bad tests without knowing I was doing it.  Could\nsomeone coming out of school banish this demon just by knowing its\nname, and saying begone? It seems worth trying.Merely talking explicitly about this phenomenon is likely to make\nthings better, because much of its power comes from the fact that\nwe take it for granted. After you've noticed it, it seems the\nelephant in the room, but it's a pretty well camouflaged elephant.\nThe phenomenon is so old, and so pervasive. And it's simply the\nresult of neglect. No one meant things to be this way. This is just\nwhat happens when you combine learning with grades, competition,\nand the naive assumption of unhackability.It was mind-blowing to realize that two of the things I'd puzzled\nabout the most — the bogusness of high school, and the difficulty\nof getting founders to see the obvious — both had the same cause.\nIt's rare for such a big block to slide into place so late.Usually when that happens it has implications in a lot of different\nareas, and this case seems no exception. For example, it suggests\nboth that education could be done better, and how you might fix it.\nBut it also suggests a potential answer to the question all big\ncompanies seem to have: how can we be more like a startup? I'm not\ngoing to chase down all the implications now. What I want to focus\non here is what it means for individuals.To start with, it means that most ambitious kids graduating from\ncollege have something they may want to unlearn.  But it also changes\nhow you look at the world. Instead of looking at all the different\nkinds of work people do and thinking of them vaguely as more or\nless appealing, you can now ask a very specific question that will\nsort them in an interesting way: to what extent do you win at this\nkind of work by hacking bad tests?It would help if there was a way to recognize bad tests quickly.\nIs there a pattern here? It turns out there is.Tests can be divided into two kinds: those that are imposed by\nauthorities, and those that aren't.  Tests that aren't imposed by\nauthorities are inherently unhackable, in the sense that no one is\nclaiming they're tests of anything more than they actually test. A\nfootball match, for example, is simply a test of who wins, not which\nteam is better. You can tell that from the fact that commentators\nsometimes say afterward that the better team won. Whereas tests\nimposed by authorities are usually proxies for something else. A\ntest in a class is supposed to measure not just how well you did\non that particular test, but how much you learned in the class.\nWhile tests that aren't imposed by authorities are inherently\nunhackable, those imposed by authorities have to be made unhackable.\nUsually they aren't.  So as a first approximation, bad tests are\nroughly equivalent to tests imposed by authorities.You might actually like to win by hacking bad tests. Presumably\nsome people do. But I bet most people who find themselves doing\nthis kind of work don't like it. They just take it for granted that\nthis is how the world works, unless you want to drop out and be\nsome kind of hippie artisan.I suspect many people implicitly assume that working in a\nfield with bad tests is the price of making lots of money. But that,\nI can tell you, is false. It used to be true. In the mid-twentieth\ncentury, when the economy was \ncomposed of oligopolies, \nthe only way\nto the top was by playing their game. But it's not true now.  There\nare now ways to get rich by doing good work, and that's part of the\nreason people are so much more excited about getting rich than they\nused to be. When I was a kid, you could either become an engineer\nand make cool things, or make lots of money by becoming an \"executive.\"\nNow you can make lots of money by making cool things.Hacking bad tests is becoming less important as the link between\nwork and authority erodes. The erosion of that link is one of the\nmost important trends happening now, and we see its effects in\nalmost every kind of work people do. Startups are one of the most\nvisible examples, but we see much the same thing in writing. Writers\nno longer have to submit to publishers and editors to reach readers;\nnow they can go direct.The more I think about this question, the more optimistic I get.\nThis seems one of those situations where we don't realize how much\nsomething was holding us back until it's eliminated. And I can\nforesee the whole bogus edifice crumbling. Imagine what happens as\nmore and more people start to ask themselves if they want to win\nby hacking bad tests, and decide that they don't.  The kinds of\nwork where you win by hacking bad tests will be starved of talent,\nand the kinds where you win by doing good work will see an influx\nof the most ambitious people. And as hacking bad tests shrinks in\nimportance, education will evolve to stop training us to do it.\nImagine what the world could look like if that happened.This is not just a lesson for individuals to unlearn, but one for\nsociety to unlearn, and we'll be amazed at the energy that's liberated\nwhen we do.\nNotes[1] If using tests only to measure learning sounds impossibly\nutopian, that is already the way things work at Lambda School.\nLambda School doesn't have grades. You either graduate or you don't.\nThe only purpose of tests is to decide at each stage of the curriculum\nwhether you can continue to the next. So in effect the whole school\nis pass/fail.[2] If the final exam consisted of a long conversation with the\nprofessor, you could prepare for it by reading good books on medieval\nhistory. A lot of the hackability of tests in schools is due to the\nfact that the same test has to be given to large numbers of students.[3] Learning is the naive algorithm for getting good grades.[4] Hacking has \nmultiple senses. There's a narrow sense in which\nit means to compromise something. That's the sense in which one\nhacks a bad test. But there's another, more general sense, meaning\nto find a surprising solution to a problem, often by thinking\ndifferently about it. Hacking in this sense is a wonderful thing.\nAnd indeed, some of the hacks people use on bad tests are impressively\ningenious; the problem is not so much the hacking as that, because\nthe tests are hackable, they don't test what they're meant to.[5] The people who pick startups at Y Combinator are similar to\nadmissions officers, except that instead of being arbitrary, their\nacceptance criteria are trained by a very tight feedback loop. If\nyou accept a bad startup or reject a good one, you will usually know it\nwithin a year or two at the latest, and often within a month.[6] I'm sure admissions officers are tired of reading applications\nfrom kids who seem to have no personality beyond being willing to\nseem however they're supposed to seem to get accepted.  What they\ndon't realize is that they are, in a sense, looking in a mirror.\nThe lack of authenticity in the applicants is a reflection of the\narbitrariness of the application process. A dictator might just as\nwell complain about the lack of authenticity in the people around\nhim.[7] By good work, I don't mean morally good, but good in the sense\nin which a good craftsman does good work.[8] There are borderline cases where it's hard to say which category\na test falls in. For example, is raising venture capital like college\nadmissions, or is it like selling to a customer?[9] Note that a good test is merely one that's unhackable. Good\nhere doesn't mean morally good, but good in the sense of working\nwell. The difference between fields with bad tests and good ones\nis not that the former are bad and the latter are good, but that\nthe former are bogus and the latter aren't. But those two measures\nare not unrelated.  As Tara Ploughman said, the path from good to\nevil goes through bogus.[10] People who think the recent increase in \neconomic inequality is\ndue to changes in tax policy seem very naive to anyone with experience\nin startups. Different people are getting rich now than used to,\nand they're getting much richer than mere tax savings could make\nthem.[11] Note to tiger parents: you may think you're training your kids\nto win, but if you're training them to win by hacking bad tests,\nyou are, as parents so often do, training them to fight the last\nwar.Thanks to Austen Allred, Trevor Blackwell, Patrick Collison,\nJessica Livingston, Robert Morris, and Harj Taggar for reading\ndrafts of this.",
+      "tags": [
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "d618c9f7-8650-4072-b667-8306391253fb",
+      "title": "Object-Oriented",
+      "url": "http://mumble.net/~jar/articles/oo.html",
+      "savedAt": "2024-09-12T23:48:26.000Z",
+      "description": "Jonathan Rees, December 2001 -- originally composed as email first\nto Paul Graham and then to the \"lightweight languages\" mailing list at\nMIT.",
+      "tags": [
+        "cs/oop",
+        "cs/programming-paradigms"
+      ]
+    },
+    {
+      "id": "5fab7cd1-994f-43e0-af54-0878227eda21",
+      "title": "The Long Road to Fiber Optics - by Brian Potter",
+      "url": "https://www.construction-physics.com/p/the-long-road-to-fiber-optics",
+      "savedAt": "2024-09-12T13:36:07.000Z",
+      "description": "Over the past six decades, advances in computers and microprocessors have completely reshaped our world.",
+      "tags": [
+        "engineering",
+        "interesting"
+      ]
+    },
+    {
+      "id": "ea72b867-a34d-4d03-b007-8b49d72dc4c9",
+      "title": "Your customers hate MVPs. Make a SLC instead.",
+      "url": "https://longform.asmartbear.com/slc/",
+      "savedAt": "2024-09-11T23:58:21.000Z",
+      "description": "\"MVP\" implies a selfish process, abusing customers so you can \"learn.\" Instead, make the first version SLC: Simple, Loveable, and Complete.",
+      "tags": [
+        "career",
+        "startup"
+      ]
+    },
+    {
+      "id": "5b6594bb-d108-4c2f-8fa9-39feac2ea7dc",
+      "title": "Going Buildless | Max Böck",
+      "url": "https://mxb.dev/blog/buildless/",
+      "savedAt": "2024-09-11T23:41:56.000Z",
+      "description": "Max Böck is a professional front-end developer based in Vienna, Austria.",
+      "tags": [
+        "cs/browsers",
+        "web"
+      ]
+    },
+    {
+      "id": "ce76b6a7-6ad9-494c-a666-b5d29ef89dda",
+      "title": "Legacy",
+      "url": "https://longform.asmartbear.com/legacy/",
+      "savedAt": "2024-09-11T23:41:41.000Z",
+      "description": "Humans have always tried to live forever. Maybe you can, but not in the way you imagine.",
+      "tags": [
+        "career",
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "87534b5b-31e3-4f1a-b1fb-2aa85b3bcd1e",
+      "title": "Closures in Zig",
+      "url": "https://www.openmymind.net/Closures-in-Zig/",
+      "savedAt": "2024-09-11T23:31:19.000Z",
+      "description": "Creating closures in zig and storing anytype as a field",
+      "tags": [
+        "cs/programming-languages/zig"
+      ]
+    },
+    {
+      "id": "697b7e22-67f1-4f4e-a9a7-c0a745fd45a2",
+      "title": "My Homelab Setup",
+      "url": "https://arslan.io/2024/09/10/my-homelab-setup/",
+      "savedAt": "2024-09-11T23:15:41.000Z",
+      "description": "I replaced my existing Homelab setup from the ground up with Unifi's latest Gateways, Switches APs, and Cameras. Here is what I did and how it ended up.",
+      "tags": [
+        "homelab"
+      ]
+    },
+    {
+      "id": "a9487675-91ac-4366-96f3-ef63184a9ebc",
+      "title": "What’s in an e-graph? | Max Bernstein",
+      "url": "https://bernsteinbear.com/blog/whats-in-an-egraph/",
+      "savedAt": "2024-09-11T23:14:34.000Z",
+      "description": "This post follows from several conversations with CF Bolz-Tereick, Philip Zucker, Chris Fallin, and Max Willsey.",
+      "tags": [
+        "cs/compilers",
+        "cs/pl-theory"
+      ]
+    },
+    {
+      "id": "01500f09-52f9-4787-bcb4-07a20eb1df7f",
+      "title": "The BITSAVERS.ORG Documents Library : Free Texts : Free Download, Borrow and Streaming : Internet Archive",
+      "url": "https://archive.org/details/bitsavers",
+      "savedAt": "2024-09-11T03:13:46.000Z",
+      "description": "Since the 1990s, the bitsavers collective has been scanning computer-related documentation and materials as well as rescuing software from rapidly-fading media. Intended to be a permanent and accessible collection of manuals, technical specifications and lore related to computer brands and...",
+      "tags": [
+        "computer-history"
+      ]
+    },
+    {
+      "id": "d499b75c-ea32-4a84-82ac-b81277add605",
+      "title": "\"Pushing the Limits of Web Browsers\" by Lars Bak (2012)",
+      "url": "https://www.youtube.com/watch?t=743s&v=m4EB_k57g-I",
+      "savedAt": "2024-09-10T19:15:45.000Z",
+      "description": "Innovation is crucial for keeping web browsers a vibrant development platform. In the past four years, amazing performance improvements of JavaScript have enabled new kinds of web applications. However, this is far from sufficient. We clearly need to address the inefficiencies of developing large complex web applications. This talk will discuss advances in virtual machine technology and programming languages that likely will shape the future of web programming.\n\nLars Bak\nGoogle Inc.\n\nLars Bak is a veteran virtual machinist. His passion for designing and implementing object-oriented virtual machines has left marks on several software systems: Beta, Self, Strongtalk, Sun's HotSpot and CLDC HI, OOVM Smalltalk, V8, and Dart. Since joining Google in the fall of 2006, Lars has been responsible for the design and implementation of V8 & Dart. He graduated from Aarhus University in 1988 with a MS degree in computer science.",
+      "tags": [
+        "cs/browsers",
+        "type/video"
+      ]
+    },
+    {
+      "id": "45ff16dc-8c57-424a-8d6b-cd34b436131d",
+      "title": "Erasure Coding for Distributed Systems",
+      "url": "https://transactional.blog/blog/2024-erasure-coding",
+      "savedAt": "2024-09-10T18:44:24.000Z",
+      "description": "An overview of erasure coding, its trade-offs, and applications in distributed storage systems.",
+      "tags": [
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "031abd53-81ab-4b9d-83f8-a5398c551c02",
+      "title": "Constraining writers in distributed systems",
+      "url": "https://shachaf.net/w/constraining-writers-in-distributed-systems",
+      "savedAt": "2024-09-10T18:38:14.000Z",
+      "description": "This is a note to describe a pattern for avoiding failures in distributed\nsystems, variants of which has been written about multiple ways with multiple\nnames (“copysets”, “read/write quorum systems”).",
+      "tags": [
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "418326a9-a61f-478c-8f31-e71fffabacbb",
+      "title": "How does it feel to test a compiler? | by Alexander Zakharenko | Jul, 2024 | Medium",
+      "url": "https://medium.com/@zakharenko/how-does-it-feel-to-test-a-compiler-fa1ff5d86065",
+      "savedAt": "2024-09-10T11:51:02.000Z",
+      "description": "In this article the experience of a Kotlin/Native compiler QA engineer and some compiler QA and testing practices are described with tasks and cases examples",
+      "tags": [
+        "cs/compilers"
+      ]
+    },
     {
       "id": "78757c68-b5e0-40c6-b71e-292aa4f7c787",
       "title": "Practices of Reliable Software Design",
@@ -104,16 +279,6 @@
       "description": "AT Protocol is the tech developed at Bluesky for open social networking. In this article we're going to explore AT Proto from the perspective of distributed backend engineering.",
       "tags": [
         "cs/distsys"
-      ]
-    },
-    {
-      "id": "ce76b6a7-6ad9-494c-a666-b5d29ef89dda",
-      "title": "Legacy",
-      "url": "https://longform.asmartbear.com/legacy/",
-      "savedAt": "2024-09-08T23:28:13.000Z",
-      "description": "Humans have always tried to live forever. Maybe you can, but not in the way you imagine.",
-      "tags": [
-        "self-improvement"
       ]
     },
     {
