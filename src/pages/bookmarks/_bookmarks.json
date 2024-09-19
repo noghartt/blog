@@ -1,6 +1,70 @@
 {
-  "lastUpdate": "2024-09-14T19:08:00.433Z",
+  "lastUpdate": "2024-09-19T01:09:26.307Z",
   "data": [
+    {
+      "id": "2adab883-e071-4462-9133-f4926287998c",
+      "title": "A gentle guide to self-hosting your software | ᕕʕ •ᴥ•ʔ୨ Shank Space",
+      "url": "https://knhash.in/gentle-guide-to-self-hosting/",
+      "savedAt": "2024-09-18T22:33:22.000Z",
+      "description": "There was a time when software (and games! Games are just software for fun!) were distributed on DVD. A physical disk that you would insert into your system ...",
+      "tags": [
+        "cs/devops",
+        "homelab"
+      ]
+    },
+    {
+      "id": "ceb93b2c-5ac8-4d58-80a8-ff5f83b239ab",
+      "title": "Books - Computing History",
+      "url": "https://www.computinghistory.org.uk/sec/383/Books/",
+      "savedAt": "2024-09-17T22:32:46.000Z",
+      "description": "The UK Computer and Videogame Museum",
+      "tags": [
+        "books",
+        "computer-history",
+        "cs"
+      ]
+    },
+    {
+      "id": "c45a136b-874f-4bcf-851b-4a9cd31f0fb2",
+      "title": "Code Reviews Do Find Bugs",
+      "url": "https://entropicthoughts.com/code-reviews-do-find-bugs",
+      "savedAt": "2024-09-17T20:40:56.000Z",
+      "description": "There’s some 2015 research out of Microsoft titled Code Reviews Do Not Find\nBugs11 Code Reviews Do Not Find Bugs; How the Current Code Review Best\nPractice Slows Us Down; Czerwonka, Greiler, Tilford; IEEE International\nConference on Software Engineering; 2015. which seems strangely named because\nreviewers do find bugs.",
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "id": "4e62b043-8965-4640-a44e-8faf862e0347",
+      "title": "Chapter 0 Preface — Programming Languages",
+      "url": "https://opendsa.cs.vt.edu/ODSA/Books/PL/html/index.html",
+      "savedAt": "2024-09-17T00:59:22.000Z",
+      "description": null,
+      "tags": [
+        "books",
+        "cs/pl-theory"
+      ]
+    },
+    {
+      "id": "a244209e-3347-4614-9dca-fe4d58bc9203",
+      "title": "NetworkManager or networkd [LWN.net]",
+      "url": "https://lwn.net/Articles/990281/",
+      "savedAt": "2024-09-15T23:35:43.000Z",
+      "description": "Posted Sep 13, 2024 22:42 UTC (Fri) by NYKevin (subscriber, #129325)\n         In reply to: NetworkManager or networkd by mathstuf\n        Parent article: Debating ifupdown replacements for Debian trixie",
+      "tags": [
+        "cs/networking"
+      ]
+    },
+    {
+      "id": "64b7e739-6694-4ab3-a985-b2ae0c96c6e4",
+      "title": "CSCI 181G PO",
+      "url": "https://cs.pomona.edu/classes/cs181g/",
+      "savedAt": "2024-09-15T04:44:32.000Z",
+      "description": "This is the website for CSCI 181G PO: Game Engine Programming.  Course information is available in the syllabus.",
+      "tags": [
+        "cs/gamedev"
+      ]
+    },
     {
       "id": "050ecf16-07bf-4f11-b59d-c1fb7267afce",
       "title": "My 71 TiB ZFS NAS after 10 years and zero drive failures",
