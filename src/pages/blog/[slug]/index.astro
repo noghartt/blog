@@ -74,63 +74,63 @@ const readingTime = remarkPluginFrontmatter.readingTime;
 >
   <GoBackButton />
 
-  <section class="header">
-    <section>
-      <h1>{post.data.title}</h1>
-      <p>
-        <strong>Created at:</strong>
-        {date}
-      </p>
-      {lastCommit ? (
+  <section class="content">
+    <section class="header">
+      <section>
+        <h1>{post.data.title}</h1>
         <p>
-          <strong>Last updated at:</strong>
-          <span>
-            {dayjs(lastCommit.date).format('YYYY-MM-DD HH:mm')}
-            (<Link href={`${GITHUB_REPO_URL}/commit/${lastCommit.hash.slice(0, 7)}`} isExternal>{lastCommit.hash.slice(0, 7)}</Link>)
-          </span>
+          <strong>Created at:</strong>
+          {date}
         </p>
-      ) : null}
-      {readingTime ? (
-        <p>
-          <strong>Reading time:</strong>
-          {readingTime.text} ({readingTime.words} words)
-        </p>
-      ) : null}
-      <section class="tags">
-        <strong>Tags:</strong>
-        {post.data.tags.map((tag: string) => (
-          <Link href={`/tag/${tag}`}>
-            <p>#{tag}</p>
-          </Link>
-        ))}
+        {lastCommit ? (
+          <p>
+            <strong>Last updated at:</strong>
+            <span>
+              {dayjs(lastCommit.date).format('YYYY-MM-DD HH:mm')}
+              (<Link href={`${GITHUB_REPO_URL}/commit/${lastCommit.hash.slice(0, 7)}`} isExternal>{lastCommit.hash.slice(0, 7)}</Link>)
+            </span>
+          </p>
+        ) : null}
+        {readingTime ? (
+          <p>
+            <strong>Reading time:</strong>
+            {readingTime.text} ({readingTime.words} words)
+          </p>
+        ) : null}
+        <section class="tags">
+          <strong>Tags:</strong>
+          {post.data.tags.map((tag: string) => (
+            <Link href={`/tag/${tag}`}>
+              <p>#{tag}</p>
+            </Link>
+          ))}
+        </section>
       </section>
     </section>
+
+    <article>
+      {tableOfContents.length > 0
+        ? (
+          <details class="toc" open>
+            <summary>
+              <h2>Table of Contents</h2>
+            </summary>
+              <ul>
+                {tableOfContents.map(({ text, url, depth }) => (
+                  <li style={{ marginLeft: `${depth * 16}px` }}>
+                    <div>
+                      <Link href={url}>
+                        <p>{text}</p>
+                      </Link>
+                    </div>
+                  </li>
+                ))}
+              </ul>
+          </details>
+        ): null}
+      <Content />
+    </article>
   </section>
-
-  <article>
-    {tableOfContents.length > 0
-      ? (
-        <details class="toc" open>
-          <summary>
-            <h2>Table of Contents</h2>
-          </summary>
-            <ul>
-              {tableOfContents.map(({ text, url, depth }) => (
-                <li style={{ marginLeft: `${depth * 16}px` }}>
-                  <div>
-                    <Link href={url}>
-                      <p>{text}</p>
-                    </Link>
-                  </div>
-                </li>
-              ))}
-            </ul>
-        </details>
-      ): null}
-
-    </section>
-    <Content />
-  </article>
 </Layout>
 
 <style is:global>
@@ -140,10 +140,26 @@ const readingTime = remarkPluginFrontmatter.readingTime;
     gap: var(--spacing-2x);
   }
 
+  .content {
+    position: relative;
+    display: flex;
+    gap: var(--spacing-4x);
+    flex-direction: column;
+  }
+
   .toc {
     gap: var(--spacing-2x);
     background: #f5f5f5;
     padding: var(--spacing-2x);
+  }
+
+  @media screen and (min-width: 425px) {
+    .toc {
+      position: absolute;
+      top: -15px;
+      left: -300px;
+      max-width: 270px;
+    }
   }
 
   .toc summary {
@@ -152,12 +168,14 @@ const readingTime = remarkPluginFrontmatter.readingTime;
 
   .toc summary h2 {
     display: inline;
-    margin-left: var(--spacing);
+  }
+
+  .toc ul li p {
+    text-align: left;
   }
 
   .toc ul {
-    /* TODO: The flexbox seems not working in Chrome. */
-    margin-top: var(--spacing-2x);
+    margin-left: 0;
   }
 
   .toc h2 {
