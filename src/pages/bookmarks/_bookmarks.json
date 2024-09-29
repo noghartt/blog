@@ -1,6 +1,155 @@
 {
-  "lastUpdate": "2024-09-22T04:12:47.967Z",
+  "lastUpdate": "2024-09-29T00:36:50.642Z",
   "data": [
+    {
+      "id": "1fb08990-b73e-4df2-a7a8-35df3aada20d",
+      "title": "Refactoring Invariants • Buttondown",
+      "url": "https://buttondown.com/hillelwayne/archive/refactoring-invariants/",
+      "savedAt": "2024-09-29T00:36:27.000Z",
+      "description": "Porting a formal methods idea to everyday coding",
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "id": "8bea69a5-bfeb-477d-8e9a-3f13f80a7263",
+      "title": "Alpha Conversion | Kevin Sookocheff",
+      "url": "https://sookocheff.com/post/fp/alpha-conversion/",
+      "savedAt": "2024-09-28T19:32:09.000Z",
+      "description": "Alpha conversion (also written \\(\\alpha\\)-conversion) is a way of removing name clashes in expressions.\nA name clash arises when a \\(\\beta\\)-reduction places an expression with a free variable in the scope of a bound variable with the same name as the free variable.\n— Greg Michaelson, An Introduction to Functional Programming Through Lambda Calculus\nWhen we are performing a \\(beta\\)-reduction it is possible that the variable name in an inner expression is the same as a variable name in an outer expression.",
+      "tags": [
+        "cs/pl-theory"
+      ]
+    },
+    {
+      "id": "98eb23ea-3200-4fea-8cd1-fb009dd53b61",
+      "title": "XXIIVV — goals",
+      "url": "https://wiki.xxiivv.com/site/goals.html",
+      "savedAt": "2024-09-28T16:01:18.000Z",
+      "description": "Internal are goals dealing with personal growth, and external,\nas having an effect on the outside world.",
+      "tags": [
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "497ed124-948f-42f4-8602-7ce3f584d3e6",
+      "title": "The guide to implementing 2D platformers | Higher-Order Fun",
+      "url": "http://higherorderfun.com/blog/2012/05/20/the-guide-to-implementing-2d-platformers/",
+      "savedAt": "2024-09-28T01:39:04.000Z",
+      "description": "Having previously been disappointed by the information available on the topic, this is my attempt at categorizing different ways to implement 2D platform games, list their strengths and weaknesses, and discuss some implementation details.",
+      "tags": [
+        "cs/gamedev"
+      ]
+    },
+    {
+      "id": "300dcf35-a92e-47a1-b761-3b47a2cbe5a6",
+      "title": "Wealth = Have ÷ Need | Derek Sivers",
+      "url": "https://sive.rs/whn",
+      "savedAt": "2024-09-27T16:54:35.000Z",
+      "description": "Not a new idea, but just another visualization and reminder.",
+      "tags": [
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "a9121e70-472a-4115-b2a3-7e79a450e92c",
+      "title": "Raft",
+      "url": "https://thesecretlivesofdata.com/raft/",
+      "savedAt": "2024-09-27T14:34:25.000Z",
+      "description": "Please note: this is a working draft. Click here to provide feedback.",
+      "tags": [
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "e8bc4ba6-aee7-4805-944f-63016a48a581",
+      "title": "Facebook",
+      "url": "https://www.facebook.com",
+      "savedAt": "2024-09-26T03:37:25.000Z",
+      "description": "Hellboy não consegue distribuição nos EUA e vai direto para plataformas digitais",
+      "tags": []
+    },
+    {
+      "id": "e7e287d7-5b4a-41a0-b5f9-91bf92292cdb",
+      "title": "Tensor Labbet · A blog of deep learnings",
+      "url": "https://tensorlabbet.com",
+      "savedAt": "2024-09-25T22:47:41.000Z",
+      "description": "In this post: Ilya Sutskevers AI Reading list in ~120 words per item \n    \n    (15 min read)",
+      "tags": [
+        "cs/ai"
+      ]
+    },
+    {
+      "id": "b484c011-59b8-40b4-8a82-72e7598e2eb4",
+      "title": "Be someone who does things | notes.eatonphil.com",
+      "url": "https://notes.eatonphil.com/2024-09-23-be-someone-who-does-things.html",
+      "savedAt": "2024-09-24T10:24:17.000Z",
+      "description": "Be someone who does things",
+      "tags": [
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "8c67a82d-ab4e-4930-ae88-db4029783620",
+      "title": "Linearizability! Refinement! Prophecy! – Surfing Complexity",
+      "url": "https://surfingcomplexity.blog/2024/09/22/linearizability-refinement-prophecy/",
+      "savedAt": "2024-09-23T00:55:56.000Z",
+      "description": "Back in August, Murat Derimbas published a blog post about the paper by Herlihy and Wing that first introduced the concept of linearizability. When we move from sequential programs to concurrent ones, we need to extend our concept of what \"correct\" means to account for the fact that operations from different threads can overlap in…",
+      "tags": []
+    },
+    {
+      "id": "2327b338-c85c-4ee7-bd7b-9d17c9acac7c",
+      "title": "Trapped Priors As A Basic Problem Of Rationality",
+      "url": "https://www.astralcodexten.com/p/trapped-priors-as-a-basic-problem",
+      "savedAt": "2024-09-22T15:14:51.000Z",
+      "description": "P(A|B) = [P(A)*P(B|A)]/P(B), all the rest is commentary.",
+      "tags": [
+        "statistics"
+      ]
+    },
+    {
+      "id": "759d4b25-9662-4538-a7a4-9bf608e450dd",
+      "title": "Go To Statement Considered Harmful",
+      "url": "https://homepages.cwi.nl/~storm/teaching/reader/Dijkstra68.pdf",
+      "savedAt": "2024-09-22T14:47:26.000Z",
+      "description": null,
+      "tags": [
+        "computer-history",
+        "cs"
+      ]
+    },
+    {
+      "id": "7580e9d0-9433-4011-85af-d6eca1817fb4",
+      "title": "How not to be boring - PostHog",
+      "url": "https://posthog.com/blog/brand",
+      "savedAt": "2024-09-22T13:28:08.000Z",
+      "description": "The world would be more fun if most startups hadn't undergone a personality bypass. But, sadly, most software companies look and feel the same…",
+      "tags": [
+        "business",
+        "startup"
+      ]
+    },
+    {
+      "id": "a577f037-c9bd-45b7-b7b6-501aa85ade01",
+      "title": "Applied Mathematical Programming",
+      "url": "https://web.mit.edu/15.053/www/AMP.htm",
+      "savedAt": "2024-09-22T12:57:26.000Z",
+      "description": "by Bradley, Hax,\nand Magnanti (Addison-Wesley, 1977) \n\nThis\nbook is a reference book for 15.053, Optimization Methods in\n    Business Analytics, taught at MIT.",
+      "tags": [
+        "cs",
+        "math"
+      ]
+    },
+    {
+      "id": "e6f7d22a-b918-406a-8564-e63ae3213c8a",
+      "title": "Informal History Of Programming Ideas",
+      "url": "https://wiki.c2.com/?InformalHistoryOfProgrammingIdeas=",
+      "savedAt": "2024-09-22T04:47:39.000Z",
+      "description": "WelcomeVisitors stated circa 1996 that the Wiki pages hosted by WardCunningham are part of the PortlandPatternRepository and contain \"an incomplete and casually written history of programming ideas\". I'm suggesting that this page is used to highlight areas in which any Wiki reader feels that the current informally written history is either incomplete or unbalanced.",
+      "tags": [
+        "computer-history"
+      ]
+    },
     {
       "id": "e2176823-b7ef-48d4-9a86-37558af6e845",
       "title": "Visual guide to SSH tunneling and port forwarding - ITTAVERN.COM",
@@ -3299,17 +3448,6 @@
       "description": "Anomalies An anomaly or read phenomena can happen when a transaction reads data that may have been modified by another concurrent transaction.\nDirty read A dirty read happens when a transaction T1 reads data that has been modified by a concurrent transaction T2 that has not has been committed or rolled back yet. T1 ends up working with stale data if T2 does not commit.\nT2 starts executing and sets x to a new value, T1 starts executing and reads x, the value of x is the value just set by T2, T2 rolls back, the value of x is not persisted to the database but T1 will move forward with the stale value of x that was written before T2 rolled back.",
       "tags": [
         "cs/database"
-      ]
-    },
-    {
-      "id": "e65590eb-c3a2-4988-9cab-aea33c30d2f4",
-      "title": "Not Just Scale - Marc's Blog",
-      "url": "https://brooker.co.za/blog/2024/06/04/scale",
-      "savedAt": "2024-06-26T03:02:48.000Z",
-      "description": "Bookmarking this so I can stop writing it over and over.",
-      "tags": [
-        "cs/distsys",
-        "for-later"
       ]
     },
     {
