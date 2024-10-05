@@ -1,6 +1,178 @@
 {
-  "lastUpdate": "2024-09-29T00:36:50.642Z",
+  "lastUpdate": "2024-10-05T14:03:11.723Z",
   "data": [
+    {
+      "id": "9e3ed36b-2654-450b-aef8-27fb408ae84e",
+      "title": "Why TCP needs 3 handshakes | PixelsTech",
+      "url": "https://www.pixelstech.net/article/1727412048-Why-TCP-needs-3-handshakes",
+      "savedAt": "2024-10-05T14:02:53.000Z",
+      "description": "Prerequisite KnowledgeFirst, let's look at the control bits and state machine of TCP, which form the basis for understanding the three-way handshake of TCP.TCP Packet Control BitsThe control bits in t",
+      "tags": [
+        "cs/networking"
+      ]
+    },
+    {
+      "id": "5663c741-30d4-44fa-ba44-ddaaaa4ce714",
+      "title": "Welcome to Linux From Scratch!",
+      "url": "https://www.linuxfromscratch.org/index.html",
+      "savedAt": "2024-10-05T13:51:57.000Z",
+      "description": "Linux From Scratch (LFS) is a project that provides you with\n        step-by-step instructions for building your own custom Linux system,\n        entirely from source code.",
+      "tags": [
+        "os/linux"
+      ]
+    },
+    {
+      "id": "bf6cc00b-1419-4752-a2cf-4636787c5f51",
+      "title": "TCP Server in Zig - Part 1 - Single Threaded",
+      "url": "https://www.openmymind.net/TCP-Server-In-Zig-Part-1-Single-Threaded/",
+      "savedAt": "2024-10-04T19:52:46.000Z",
+      "description": "An Introduction to building TCP Servers in Zig",
+      "tags": [
+        "cs/networking",
+        "cs/programming-languages/zig"
+      ]
+    },
+    {
+      "id": "2e4a48df-c249-41fc-9e9e-5449f6a4d6e9",
+      "title": "Terminal colours are tricky",
+      "url": "https://jvns.ca/blog/2024/10/01/terminal-colours/",
+      "savedAt": "2024-10-04T19:51:58.000Z",
+      "description": "Terminal colours are tricky",
+      "tags": [
+        "computer-history",
+        "cs"
+      ]
+    },
+    {
+      "id": "47c3603e-2db8-4e6c-bcbc-799e5cd81685",
+      "title": "Programmer's Guide | C64 OS",
+      "url": "https://www.c64os.com/c64os/programmersguide/",
+      "savedAt": "2024-10-04T19:50:28.000Z",
+      "description": "This guide is being written and released and few chapters at a time. If a chapter seems\n\t\t\t\t\t\t\t\tto be empty, or if you click a chapter in the table of contents but it loads up Chapter 1,\n\t\t\t\t\t\t\t\tthat's mostly likely because the chapter you've clicked doesn't exist yet.",
+      "tags": [
+        "computer-history",
+        "hardware"
+      ]
+    },
+    {
+      "id": "ed89ba98-5668-4731-8d09-eff288231927",
+      "title": "Magic isn’t real - Inside thoughts",
+      "url": "https://pthorpe92.dev/programming/magic/",
+      "savedAt": "2024-10-04T19:44:00.000Z",
+      "description": "Any sufficiently advanced technology is indistinguishable from magic.",
+      "tags": [
+        "cs"
+      ]
+    },
+    {
+      "id": "663e97e6-3120-497f-ac38-4d85f30f4589",
+      "title": "Why is the Speed of Light So Fast? (Part 1)",
+      "url": "https://profmattstrassler.com/2024/10/01/why-is-the-speed-of-light-so-fast-part-1/",
+      "savedAt": "2024-10-04T19:27:03.000Z",
+      "description": "The speed of light is much faster, and the energy in ordinary objects far greater, than what daily life accustoms us to. Why? Step 1: new perspectives",
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "3c7e5481-a63f-4087-9afa-ee4b7fb5a73e",
+      "title": "bytecode interpreters for tiny computers ⁑ Dercuano",
+      "url": "https://dercuano.github.io/notes/tiny-interpreters-for-microcontrollers.html",
+      "savedAt": "2024-10-03T14:19:12.000Z",
+      "description": "I've previously come to the conclusion that there's little reason for\nusing bytecode in the modern world, except in order to get more\ncompact code, for which it can be very effective.  So, what kind of a\nbytecode engine will give you more compact code?",
+      "tags": [
+        "cs/compilers",
+        "cs/pl-theory",
+        "cs/programming-languages"
+      ]
+    },
+    {
+      "id": "e247512d-ff1a-4146-918f-567943ef5b09",
+      "title": "How to train a model on 10k H100 GPUs?",
+      "url": "https://soumith.ch/blog/2024-10-02-training-10k-scale.md.html",
+      "savedAt": "2024-10-03T11:59:35.000Z",
+      "description": "A quick note summarizing common knowledge among the large-scale training cohort",
+      "tags": [
+        "cs/ai",
+        "hardware"
+      ]
+    },
+    {
+      "id": "3fa1a736-ded4-4106-aebf-4ba07d0d7b1c",
+      "title": "Integrity Constraints and the Relational Derivative • Buttondown",
+      "url": "https://buttondown.com/jaffray/archive/integrity-constraints-and-the-relational/",
+      "savedAt": "2024-10-02T01:28:02.000Z",
+      "description": "In a SQL database, you can set up a foreign key with REFERENCES: nullbitmap=# CREATE TABLE ab (a INT PRIMARY KEY, b INT); CREATE TABLE nullbitmap=# INSERT...",
+      "tags": [
+        "cs/database",
+        "math/relational-algebra"
+      ]
+    },
+    {
+      "id": "248712fd-a959-4af4-8078-572160f87e1d",
+      "title": "Being who you are, while becoming better",
+      "url": "https://longform.asmartbear.com/be-yourself/",
+      "savedAt": "2024-10-01T14:44:45.000Z",
+      "description": "We're told \"be yourself\" to seek happiness and success. But what if \"being yourself\" also means striving to become better? What is \"yourself?\"",
+      "tags": [
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "29deed38-d733-4d85-a756-2851ab0a2c07",
+      "title": "Pivot Points",
+      "url": "https://longform.asmartbear.com/pivot-points/",
+      "savedAt": "2024-10-01T14:37:54.000Z",
+      "description": "Not \"enabling constraints\", not \"weaknesses\", not even \"strengths\". The concept of a \"Pivot Point\" grapples with the same reality, but more constructive and useful.",
+      "tags": [
+        "business",
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "b4eae096-f1b7-40a7-a05b-020c131cfb0b",
+      "title": "William Cotton",
+      "url": "http://williamcotton.com/articles/a-burrito-is-a-monad",
+      "savedAt": "2024-10-01T14:02:12.000Z",
+      "description": "William Cotton",
+      "tags": [
+        "functional-programming"
+      ]
+    },
+    {
+      "id": "6a09170b-ed77-4ed4-a4b2-78b6547928e9",
+      "title": "Introduction to the λ-calculus",
+      "url": "https://lawrencecpaulson.github.io/2024/09/30/Intro_Lambda_Calculus.html",
+      "savedAt": "2024-09-30T22:07:31.000Z",
+      "description": "The λ-calculus has had a pervasive impact on computer science – \nand not just in functional programming languages,\nmost of which can be viewed as extended λ-calculi,\nbut even in modern systems programming languages such as Rust.\nPolymorphic type checking emerged in the context of the typed λ-calculus\nand now exists (to some extent) in many modern languages.\nTurning to theory, denotational semantics is normally expressed within\na form of λ-calculus.\nBoth higher-order logic and dependent type theories \nare extensions of the λ-calculus.\nBut it is a mysterious beast: let’s take a look.",
+      "tags": [
+        "cs/pl-theory",
+        "math/logic"
+      ]
+    },
+    {
+      "id": "9d059108-0cc5-4f16-bff8-a96dac187296",
+      "title": "How Discord Stores Trillions of Messages",
+      "url": "https://discord.com/blog/how-discord-stores-trillions-of-messages",
+      "savedAt": "2024-09-29T14:37:45.000Z",
+      "description": "Engineer Bo Ingram shares insight into how Discord shoulders its traffic and provides a platform for our users to communicate.",
+      "tags": [
+        "cs/database"
+      ]
+    },
+    {
+      "id": "23012869-2ba1-4141-ba21-cd0e3aca5358",
+      "title": "glouw/c8c: The chip8 compiler, assembler, and virtual machine",
+      "url": "https://github.com/glouw/c8c",
+      "savedAt": "2024-09-29T12:43:27.000Z",
+      "description": "The chip8 compiler, assembler, and virtual machine - glouw/c8c",
+      "tags": [
+        "cs/compilers",
+        "cs/pl-theory",
+        "cs/virtualization",
+        "type/repository"
+      ]
+    },
     {
       "id": "1fb08990-b73e-4df2-a7a8-35df3aada20d",
       "title": "Refactoring Invariants • Buttondown",
@@ -1360,16 +1532,6 @@
       "description": null,
       "tags": [
         "reverse-engineering"
-      ]
-    },
-    {
-      "id": "3c7e5481-a63f-4087-9afa-ee4b7fb5a73e",
-      "title": "bytecode interpreters for tiny computers ⁑ Dercuano",
-      "url": "https://dercuano.github.io/notes/tiny-interpreters-for-microcontrollers.html",
-      "savedAt": "2024-08-05T16:36:54.000Z",
-      "description": "I've previously come to the conclusion that there's little reason for\nusing bytecode in the modern world, except in order to get more\ncompact code, for which it can be very effective.  So, what kind of a\nbytecode engine will give you more compact code?",
-      "tags": [
-        "cs/pl-theory"
       ]
     },
     {
