@@ -1,6 +1,158 @@
 {
-  "lastUpdate": "2024-10-05T14:03:11.723Z",
+  "lastUpdate": "2024-10-12T01:13:02.476Z",
   "data": [
+    {
+      "id": "f5cf3fa5-bed8-412e-b56b-c25904c3a375",
+      "title": "brutalist-manifesto",
+      "url": "http://www.call-with-current-continuation.org/articles/brutalist-manifesto.txt",
+      "savedAt": "2024-10-12T01:12:38.000Z",
+      "description": null,
+      "tags": [
+        "programming"
+      ]
+    },
+    {
+      "id": "6d6af1ff-fcb0-448f-8964-aa76f86ec315",
+      "title": "How I manage my dotfiles · Jamie Tanna | Software Engineer",
+      "url": "https://www.jvt.me/posts/2024/10/11/dotfiles/",
+      "savedAt": "2024-10-12T00:29:04.000Z",
+      "description": "A deep dive into how managing my dotfiles has (not) evolved over the last 10 years.",
+      "tags": [
+        "dotfiles"
+      ]
+    },
+    {
+      "id": "ce0bff5c-207c-4cd5-a171-78456f97e921",
+      "title": "rust-gpu.github.io",
+      "url": "https://rust-gpu.github.io",
+      "savedAt": "2024-10-11T22:12:37.000Z",
+      "description": "Rust GPU makes it possible to write and run GPU software in Rust, leveraging the\nlanguage's powerful safety and concurrency features to enhance performance and\nreliability. With Rust GPU, you can seamlessly develop for both CPU and GPU using a\nunified codebase, all while benefiting from Rust’s existing ecosystem.",
+      "tags": [
+        "cs/programming-languages/rust",
+        "hardware"
+      ]
+    },
+    {
+      "id": "fa09b711-3618-472e-bdcd-ad1bbbd605ca",
+      "title": "No Feedback ∴ No Good",
+      "url": "https://entropicthoughts.com/no-feedback-no-good",
+      "savedAt": "2024-10-11T22:10:25.000Z",
+      "description": "The strange character in the middle of the title is a maths symbol pronounced\ntherefore.",
+      "tags": [
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "9a65cbd1-641e-4ecc-abc6-874f37b67508",
+      "title": "Monty Anderson",
+      "url": "https://montyanderson.net/writing/search",
+      "savedAt": "2024-10-09T17:24:19.000Z",
+      "description": "A linguistic system is a series of differences of sound combined with a series of differences of ideas.\n\t\t\t\t\t— Ferdinand de Saussure, 1916",
+      "tags": [
+        "cs/ai"
+      ]
+    },
+    {
+      "id": "030cbbcb-3fc7-46f2-99d7-63ae8ec9e9e6",
+      "title": "An Illustrated Proof of the CAP Theorem",
+      "url": "https://mwhittaker.github.io/blog/an_illustrated_proof_of_the_cap_theorem/",
+      "savedAt": "2024-10-09T14:41:45.000Z",
+      "description": "The CAP Theorem is a\n    fundamental theorem in distributed systems that states any distributed\n    system can have at most two of the following three properties.",
+      "tags": [
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "20e691aa-b4c9-4727-a92e-6378936f8c99",
+      "title": "The Problem With Building Good Habits | Stephan Joppich",
+      "url": "https://stephanjoppich.com/problems-with-building-good-habits/",
+      "savedAt": "2024-10-09T03:12:27.000Z",
+      "description": "Today I consider the habit-building lifestyle a nightmare. It’s not that habit-building has ruined my life, but it has done me more harm than good.",
+      "tags": [
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "b9780218-7217-4cc3-990d-e9e582a24a65",
+      "title": "Two Workflow Tips",
+      "url": "https://matklad.github.io/2024/10/08/two-tips.html",
+      "savedAt": "2024-10-08T20:59:40.000Z",
+      "description": "An article about a couple of relatively recent additions to my workflow which I wish I knew about\nyears ago.",
+      "tags": [
+        "productivity",
+        "programming"
+      ]
+    },
+    {
+      "id": "6c26613e-f516-4ab8-b135-1e48458f6f84",
+      "title": "There is No Now - ACM Queue",
+      "url": "https://queue.acm.org/detail.cfm?id=2745385",
+      "savedAt": "2024-10-07T23:17:51.000Z",
+      "description": "The time elapsed between when I wrote that word and when you read it was at least a couple of weeks. That kind of delay is one that we take for granted and don't even think about in written media.",
+      "tags": [
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "8c9c2f91-d55a-44a8-a4d5-ceef776173d3",
+      "title": "The Writings of Leslie Lamport",
+      "url": "https://lamport.azurewebsites.net/pubs/pubs.html",
+      "savedAt": "2024-10-07T23:14:45.000Z",
+      "description": "This document is a sort of scientific\nautobiography.  It not only lists the papers I have written, but also\ndescribes them and explains how I came to write some of them.  I have\nincluded almost all my technical papers and electronic versions\nof many of them for downloading.  Omitted are some papers for which I\nno longer have copies and papers that are incomplete.  I have also\nomitted early versions of some of these papers--even in cases where\nthe title changed.  Included are some initial drafts of papers that I\nabandoned before fixing errors or other problems in them.  A table of\ncontents precedes the descriptions.  I also include a brief\ncurriculum vitae.  A printable version of this document\nis available as a pdf file.",
+      "tags": [
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "5367f4ae-9fe3-4b3a-8b61-795a3108caba",
+      "title": "LEGO IDEAS - Working Turing Machine",
+      "url": "https://ideas.lego.com/projects/10a3239f-4562-4d23-ba8e-f4fc94eef5c7",
+      "savedAt": "2024-10-07T23:14:01.000Z",
+      "description": "What is a Turing machine?Depending on who you ask, it's either an abstract model of an algorithmic machine or an esoteric programming language. It's ...",
+      "tags": [
+        "cool"
+      ]
+    },
+    {
+      "id": "84f42227-ea92-425b-9885-c51c88f29f15",
+      "title": "CRDTs go brrr",
+      "url": "https://josephg.com/blog/crdts-go-brrr/",
+      "savedAt": "2024-10-06T15:14:09.000Z",
+      "description": "A few years ago I was really bothered by an academic paper.",
+      "tags": [
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "baa9919d-2504-4860-a036-618ebb1d2dc8",
+      "title": "15 rules for blogging, and my current streak (Interconnected)",
+      "url": "https://interconnected.org/home/2020/09/10/streak",
+      "savedAt": "2024-10-06T15:11:58.000Z",
+      "description": "Posted on Thursday 10 Sep 2020. 493 words, 2 links. By Matt Webb.",
+      "tags": [
+        "blog"
+      ]
+    },
+    {
+      "id": "f7e57a65-8e92-424d-88e9-b27be41e1c6c",
+      "title": "Patterns for Personal Web Sites",
+      "url": "http://www.rdrop.com/~half/Creations/Writings/Web.patterns/index.html",
+      "savedAt": "2024-10-06T15:09:07.000Z",
+      "description": "Guidelines for creating a living personal Web site.",
+      "tags": [
+        "blog"
+      ]
+    },
+    {
+      "id": "c12d9e90-beeb-457f-8a11-aa20a2d6742e",
+      "title": "Search for Charts by Data Visualization Functions",
+      "url": "https://datavizcatalogue.com/search.html",
+      "savedAt": "2024-10-05T19:15:41.000Z",
+      "description": "The Data Visualisation Catalogue, helping you find the right data visualization method for your data",
+      "tags": [
+        "data-analytics"
+      ]
+    },
     {
       "id": "9e3ed36b-2654-450b-aef8-27fb408ae84e",
       "title": "Why TCP needs 3 handshakes | PixelsTech",
@@ -2630,16 +2782,6 @@
       "tags": [
         "for-later",
         "web"
-      ]
-    },
-    {
-      "id": "baa9919d-2504-4860-a036-618ebb1d2dc8",
-      "title": "15 rules for blogging, and my current streak (Interconnected)",
-      "url": "https://interconnected.org/home/2020/09/10/streak",
-      "savedAt": "2024-07-14T00:36:20.000Z",
-      "description": "Posted on Thursday 10 Sep 2020. 493 words, 2 links. By Matt Webb.",
-      "tags": [
-        "writing"
       ]
     },
     {
