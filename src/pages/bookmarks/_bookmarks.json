@@ -1,6 +1,177 @@
 {
-  "lastUpdate": "2024-10-12T01:13:02.476Z",
+  "lastUpdate": "2024-10-20T21:10:34.217Z",
   "data": [
+    {
+      "id": "19e1d045-aaf6-4fc6-b406-ebc2481d55c6",
+      "title": "start - TLA+ Wiki",
+      "url": "https://docs.tlapl.us",
+      "savedAt": "2024-10-19T00:28:07.000Z",
+      "description": "This wiki is community driven, and aims to become a useful resource for TLA+ users.",
+      "tags": [
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "d2863066-1122-462f-96dc-2cb27074eb0e",
+      "title": "Focus on decisions, not tasks",
+      "url": "https://technicalwriting.dev/strategy/decisions.html",
+      "savedAt": "2024-10-18T21:52:35.000Z",
+      "description": "A quote from Every Page Is Page One\nthat has deeply changed how I approach technical writing:",
+      "tags": [
+        "writing"
+      ]
+    },
+    {
+      "id": "9c7cec10-4394-4fd0-b176-2ac1b7d80754",
+      "title": "A liveness example in TLA+ – Surfing Complexity",
+      "url": "https://surfingcomplexity.blog/2024/10/16/a-liveness-example-in-tla/",
+      "savedAt": "2024-10-17T22:58:00.000Z",
+      "description": "If you've ever sat at a stop light that was just stuck on red, where there was clearly a problem with the light where it wasn't ever switching green, you've encountered a liveness problem with a system. Is the turning light just taking a long time? Or is it broken? A liveness property of a…",
+      "tags": [
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "9fe6fe56-2b5e-407e-a526-7ce33a596c63",
+      "title": "Books",
+      "url": "https://www.brendangregg.com/books.html",
+      "savedAt": "2024-10-16T10:53:02.000Z",
+      "description": "I've been asked for textbook recommendations from time to time, which I've been sharing on this page. I'll keep this list up to date as I finish reading more books that I'd recommend. Note that this is not a list of all the books I own, but rather, only those I'd recommend. I've worked in programming, system administration, computer security, and for a while I've now focused on computer performance. My bookshelf reflects my career.",
+      "tags": [
+        "books",
+        "cs/observability"
+      ]
+    },
+    {
+      "id": "5ad6bfc2-cd62-4541-ab6c-ff2521890d14",
+      "title": "Web Browser Engineering",
+      "url": "https://browser.engineering/index.html",
+      "savedAt": "2024-10-15T16:37:40.000Z",
+      "description": "Web browsers are ubiquitous, but how do they work? This book\nexplains, building a basic but complete web browser, from networking to\nJavaScript, in a couple thousand lines of Python.",
+      "tags": [
+        "web"
+      ]
+    },
+    {
+      "id": "b3198dd5-0ffa-4472-b1ea-df4c3c1fae59",
+      "title": "NTAPI Undocumented Functions",
+      "url": "http://undocumented.ntinternals.net",
+      "savedAt": "2024-10-15T14:06:40.000Z",
+      "description": null,
+      "tags": []
+    },
+    {
+      "id": "8e7a31ed-f4ac-4de0-b8d1-394db3518732",
+      "title": "RescueTime - Your Weekly dashboard",
+      "url": "https://www.rescuetime.com/dashboard",
+      "savedAt": "2024-10-13T23:24:26.000Z",
+      "description": "Time logged\n                — 23h more than the week before",
+      "tags": []
+    },
+    {
+      "id": "d1189652-ac67-4b42-84c4-8d5c6e0a89eb",
+      "title": "Error Handling in a Correctness-Critical Rust Project | sled-rs.github.io",
+      "url": "https://sled.rs/errors.html",
+      "savedAt": "2024-10-13T17:18:48.000Z",
+      "description": "blog\n        \n        API considerations\n        \n        error handling in Rust\n        \n        jepsen-proof engineering\n        \n        theoretical performance guide",
+      "tags": [
+        "cs/programming-languages/rust"
+      ]
+    },
+    {
+      "id": "1e4444a0-2cbb-4731-942f-bb7adbc31830",
+      "title": "sled book shop | sled-rs.github.io",
+      "url": "https://sled.rs/books.html",
+      "savedAt": "2024-10-13T17:10:42.000Z",
+      "description": "These books have been vital for shaping my mental models in ways that have helped me to build systems such as sled.",
+      "tags": [
+        "books",
+        "cs"
+      ]
+    },
+    {
+      "id": "42d11371-ddcd-4d47-bcef-47b6f768fa62",
+      "title": "Why do systems fail? Tandem NonStop system and fault tolerance",
+      "url": "https://www.erlang-solutions.com/blog/why-do-systems-fail-tandem-nonstop-system-and-fault-tolerance/",
+      "savedAt": "2024-10-12T22:38:25.000Z",
+      "description": "Explore Tandem NonStop architecture principles and their relevance to high availability in software systems like Elixir, Gleam, and Erlang.",
+      "tags": [
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "74701fff-0c03-450a-85a9-f7da97f14da3",
+      "title": "The Mach System",
+      "url": "https://codex.cs.yale.edu/avi/os-book/OS9/appendices-dir/b.pdf",
+      "savedAt": "2024-10-12T22:28:49.000Z",
+      "description": null,
+      "tags": [
+        "cs/operating-system",
+        "hardware"
+      ]
+    },
+    {
+      "id": "92e6f8f4-7c3b-4a9b-a73e-60695b3748d7",
+      "title": "Let the network tell you where you are: a nerd snipe story",
+      "url": "https://rachelbythebay.com/w/2024/10/01/lldp/",
+      "savedAt": "2024-10-12T16:22:42.000Z",
+      "description": "I was successfully nerd-sniped a few days ago and figured I'd share my \nproposed solution with everyone just in case they could benefit from it.\nI've added a few of my own constraints based on expectations for how \nthings could go wrong.  So, if this seems familiar, maybe it is, but \nI've made it a little more complicated.",
+      "tags": [
+        "cs/networking"
+      ]
+    },
+    {
+      "id": "fa19e028-93d4-4115-914a-8f6e0a64a29e",
+      "title": "How to convince engineers that formal methods is cool • Buttondown",
+      "url": "https://buttondown.com/hillelwayne/archive/how-to-convince-engineers-that-formal-methods-is/",
+      "savedAt": "2024-10-12T14:02:20.000Z",
+      "description": "Based on my experiences convincing people it's cool",
+      "tags": [
+        "cs",
+        "math/formal-methods"
+      ]
+    },
+    {
+      "id": "d9d51834-4d70-48a6-97f2-4c784d1735f4",
+      "title": "Build Systems, Not Heroes",
+      "url": "https://vitonsky.net/blog/2024/10/11/system-approach/",
+      "savedAt": "2024-10-12T13:58:42.000Z",
+      "description": "Enterprise programming is the management of system complexity. The main goals of most enterprise projects are to minimize bugs, ensure scalability, and release as soon as possible. These goals are unreachable in projects where people rely on individual skills rather than on a system-based approach.",
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "id": "c71c6c67-fa64-4ace-b4c4-7766b6768750",
+      "title": "A Dictionary of Single-Letter Variable Names | Blog | jackkelly.name",
+      "url": "http://jackkelly.name/blog/archives/2024/10/12/a_dictionary_of_single-letter_variable_names/index.html",
+      "savedAt": "2024-10-12T13:55:56.000Z",
+      "description": "Haskell’s expressive type system means that type signatures can carry\na lot of information. Haskell’s polymorphism means that you sometime\nwrite a function that works across an enormous range of types, and are\noften left wondering “what do I actually call my variables?”. It is\noften the case that there’s nothing to say beyond “this variable is a Functor”,\nor “this variable is a monadic action”, and so a single-letter variable\nname is appropriate. An unofficial and largely undocumented convention\nhas emerged around these variable names, and so I wanted to write them\nall down in one place.",
+      "tags": [
+        "cs/programming-languages/haskell",
+        "functional-programming"
+      ]
+    },
+    {
+      "id": "c652d5d5-e407-4aae-bcf8-82e91b8da139",
+      "title": "Learning By Writing — LessWrong",
+      "url": "https://www.lesswrong.com/posts/ii4xtogen7AyYmN6B/learning-by-writing",
+      "savedAt": "2024-10-12T04:15:14.000Z",
+      "description": "Holden shares his step-by-step process for forming opinions on a topic, developing and refining hypotheses, and ultimately arriving at a nuanced view…",
+      "tags": [
+        "learning"
+      ]
+    },
+    {
+      "id": "c81fbdd1-910d-482d-a0db-36c83e464df3",
+      "title": "Sequences Highlights — LessWrong",
+      "url": "https://www.lesswrong.com/highlights",
+      "savedAt": "2024-10-12T01:36:59.000Z",
+      "description": "\"The Sequences\" is a series of essays by Eliezer Yudkowsky. They describe how to avoid the typical failure modes of human reason and instead think in ways that more reliably lead to true and accurate beliefs. These essays are the foundational texts of LessWrong.\n\nTo provide a quick and accessible introduction to The Sequences, we have selected 50 of the best essays that capture some of the seminal ideas. \n\nEstimated read time of 8 hours.\n\nArt by Dall-E 2",
+      "tags": [
+        "cool"
+      ]
+    },
     {
       "id": "f5cf3fa5-bed8-412e-b56b-c25904c3a375",
       "title": "brutalist-manifesto",
