@@ -1,6 +1,160 @@
 {
-  "lastUpdate": "2024-10-20T21:10:34.217Z",
+  "lastUpdate": "2024-10-26T14:08:40.435Z",
   "data": [
+    {
+      "id": "8a6fe34d-e0f7-477b-bc9f-7354ac23d9ae",
+      "title": "Queuing Theory Tutorial",
+      "url": "https://people.revoledu.com/kardi/tutorial/Queuing/index.html",
+      "savedAt": "2024-10-25T18:52:54.000Z",
+      "description": "Tutorial on Queuing Theory - Standard Queuing System and Queuing Rule of Thumb",
+      "tags": [
+        "math/queueing-theory"
+      ]
+    },
+    {
+      "id": "84a75e04-114e-49ef-b481-cac3cbfe280e",
+      "title": "Understanding DNS resolution on Linux and Kubernetes",
+      "url": "http://jpetazzo.github.io/2024/05/12/understanding-kubernetes-dns-hostnetwork-dnspolicy-dnsconfigforming/",
+      "savedAt": "2024-10-24T22:06:25.000Z",
+      "description": "I recently investigated a warning message on Kubernetes that said: DNSConfigForming ... Nameserver limits were exceeded, some nameservers have been omitted. This was technically a Kubernetes event with type: Warning, and these usually indicate that there’s something wrong, so I wanted to investigate it.",
+      "tags": [
+        "cs/devops",
+        "cs/networking"
+      ]
+    },
+    {
+      "id": "133a4232-fce4-4776-8e63-cc3eb28bbf90",
+      "title": "Whence '\\n'? – Casey Rodarmor's Blog",
+      "url": "https://rodarmor.com/blog/whence-newline/",
+      "savedAt": "2024-10-24T12:29:06.000Z",
+      "description": "If you do just foo, the following justfile\nwill write a single byte 0x0A to a file named bar:",
+      "tags": [
+        "cs/programming-languages/rust"
+      ]
+    },
+    {
+      "id": "81352df0-cbf2-4b24-a58a-3356c27539b4",
+      "title": "On the Importance of Typing Fast | rugu",
+      "url": "https://www.rugu.dev/en/blog/on-typing-fast/",
+      "savedAt": "2024-10-24T04:40:56.000Z",
+      "description": "It is often mentioned that the bottleneck in building software projects is not\none’s typing ability but ability to think clearly, and to design the\narchitecture effectively. Afterall, if typing speed was so essential to\nprogramming, the time difference between rewriting an already existing project\nwith that of creating it from scratch would not be as high as it is.",
+      "tags": [
+        "interesting"
+      ]
+    },
+    {
+      "id": "f3410557-5246-4798-8029-4b6334873c8c",
+      "title": "S-38.3143 Queueing Theory (5 ECTS) L",
+      "url": "http://www.netlab.tkk.fi/opetus/s383143/kalvot/english.shtml",
+      "savedAt": "2024-10-24T04:21:54.000Z",
+      "description": "Lectures notes are in pdf-format. The captions of figures are\nin Finnish due the lack of time.",
+      "tags": [
+        "math/queueing-theory"
+      ]
+    },
+    {
+      "id": "67646708-de18-44cb-bf93-66e3e1e6f7de",
+      "title": "Building and scaling Notion’s data lake",
+      "url": "https://www.notion.so/blog/building-and-scaling-notions-data-lake",
+      "savedAt": "2024-10-23T10:43:19.000Z",
+      "description": "How Notion build and grew our data lake to keep up with rapid growth",
+      "tags": [
+        "engineering",
+        "programming"
+      ]
+    },
+    {
+      "id": "06ccff63-d337-404a-8c42-21dfe71178f8",
+      "title": "Learning to learn | K/L",
+      "url": "https://kevin.the.li/posts/learning-to-learn",
+      "savedAt": "2024-10-23T01:53:15.000Z",
+      "description": "The fastest way to get better at something is to start slow.",
+      "tags": [
+        "learning"
+      ]
+    },
+    {
+      "id": "6f33e113-897b-4753-8dcd-1ca9ee897606",
+      "title": "Google Testing Blog: SMURF: Beyond the Test Pyramid",
+      "url": "https://testing.googleblog.com/2024/10/smurf-beyond-test-pyramid.html",
+      "savedAt": "2024-10-23T01:50:37.000Z",
+      "description": "This article was adapted from a Google Testing on the Toilet  (TotT) episode. You can download a printer-friendly version  of this TotT epis...",
+      "tags": [
+        "programming"
+      ]
+    },
+    {
+      "id": "78907d20-e127-4b0b-8956-b0da567ac4ed",
+      "title": "What docs as code really means | passo.uno :: Fabrizio Ferri-Benedetti on Technical Writing",
+      "url": "https://passo.uno/what-docs-as-code-means/",
+      "savedAt": "2024-10-23T01:47:57.000Z",
+      "description": "I’ve recently started a new job as a documentation engineer. While my work is largely the same as that of a technical writer, the sound and semantics of my new job title gave me some pause and made me think about what it really means to be doing docs-as-code. To say that it’s about writing documentation using the same tools and methods as software developers is correct, but fails to acknowledge the full consequences of the fact. Most descriptions of docs-as-code are naive because they stop at the implications of being developers’ attachés.",
+      "tags": [
+        "writing"
+      ]
+    },
+    {
+      "id": "29541516-ccc1-47e6-8ac7-dcf0ba5f98b5",
+      "title": "start - TLA+ Wiki",
+      "url": "https://docs.tlapl.us/start",
+      "savedAt": "2024-10-23T01:26:37.000Z",
+      "description": "This wiki is community driven, and aims to become a useful resource for TLA+ users.",
+      "tags": [
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "75998918-e0ae-4dd1-b932-1907bac8e10e",
+      "title": "Distributed Systems Reading List",
+      "url": "https://dancres.github.io/Pages/",
+      "savedAt": "2024-10-21T00:58:49.000Z",
+      "description": "I often argue that the toughest thing about distributed systems is changing the way you think.  The below is a collection of material I've found useful for motivating these changes.",
+      "tags": [
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "072c1f6c-97d7-4bb2-8aeb-4da5dd1f13eb",
+      "title": "Cognitive load",
+      "url": "https://minds.md/zakirullin/cognitive",
+      "savedAt": "2024-10-20T22:38:46.000Z",
+      "description": "There are so many buzzwords and best practices out there, but let's focus on something more fundamental. What matters is the amount of confusion developers feel when going through the code.",
+      "tags": [
+        "cs",
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "27b2be1d-2f46-42cb-b7b6-f18f1cd3bdb3",
+      "title": "Which kernel is the most readable one? | Lobsters",
+      "url": "https://lobste.rs/s/to1rtr/which_kernel_is_most_readable_one",
+      "savedAt": "2024-10-20T22:11:24.000Z",
+      "description": "33 comments",
+      "tags": [
+        "cs/operating-system"
+      ]
+    },
+    {
+      "id": "553b2d91-da6a-40a5-bfce-28b6a6fc76a3",
+      "title": "On accountability | A Working Library",
+      "url": "https://aworkinglibrary.com/writing/on-accountability",
+      "savedAt": "2024-10-20T22:00:01.000Z",
+      "description": "The word “accountability” gets a bad rap. It’s often confusing—does it mean the same thing as being responsible? (Sometimes, yes.) Is saying that someone is accountable the same thing as saying the...",
+      "tags": [
+        "management",
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "fcfbbb92-9703-470a-a44e-e3a8fff1ca8b",
+      "title": "Accountability sinks | A Working Library",
+      "url": "https://aworkinglibrary.com/writing/accountability-sinks",
+      "savedAt": "2024-10-20T21:59:51.000Z",
+      "description": "In The Unaccountability Machine, Dan Davies argues that organizations form “accountability sinks,” structures that absorb or obscure the consequences of a decision such that no one can be held dire...",
+      "tags": [
+        "management"
+      ]
+    },
     {
       "id": "19e1d045-aaf6-4fc6-b406-ebc2481d55c6",
       "title": "start - TLA+ Wiki",
@@ -2386,17 +2540,6 @@
       "tags": [
         "engineering",
         "self-improvement"
-      ]
-    },
-    {
-      "id": "75998918-e0ae-4dd1-b932-1907bac8e10e",
-      "title": "Distributed Systems Reading List",
-      "url": "https://dancres.github.io/Pages/",
-      "savedAt": "2024-07-23T18:00:12.000Z",
-      "description": "I often argue that the toughest thing about distributed systems is changing the way you think.  The below is a collection of material I've found useful for motivating these changes.",
-      "tags": [
-        "cs/distsys",
-        "resource/list"
       ]
     },
     {
