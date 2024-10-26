@@ -36,7 +36,7 @@ const year = new Date().getFullYear() - 2002;
     </p>
   </section>
   <section class="lists">
-    <h2>lists.</h2>
+    <h2>Lists</h2>
     <ul>
       {lists.map(list => (
         <li>
@@ -50,17 +50,14 @@ const year = new Date().getFullYear() - 2002;
     </ul>
   </section>
   <section class="posts">
-    <h2>posts.</h2>
+    <h2>Archive</h2>
     <ul>
       {postsSorted.map(post => (
         <li>
-          <p>
-            {post.data.pubDate.toISOString().split('T')[0]}
-          </p>
           <Link href={`/blog/${post.slug}`}>
-            <p class="post-title">
-              {post.data.title}
-            </p>
+            {post.data.pubDate.toISOString().split('T')[0]}
+            {' '}
+            {post.data.title}
           </Link>
         </li>
       ))}
@@ -81,15 +78,11 @@ const year = new Date().getFullYear() - 2002;
     gap: var(--spacing);
   }
 
-  .posts ul li {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    column-gap: var(--spacing-8x);
-  }
-
   .posts :global(a) {
     flex: 1;
+    display: flex;
+    gap: var(--spacing);
+    text-decoration: underline;
   }
 
   @media screen and (max-width: 425px) {
