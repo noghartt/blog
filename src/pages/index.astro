@@ -35,20 +35,6 @@ const year = new Date().getFullYear() - 2002;
       and <Link href={`${GITHUB_REPO_URL}/blob/main/LICENSE-posts`} isExternal>CC BY-SA 4.0</Link> licenses.
     </p>
   </section>
-  <section class="lists">
-    <h2>Lists</h2>
-    <ul>
-      {lists.map(list => (
-        <li>
-          <Link href={`/lists/${list.slug}`}>
-            <p class="post-title">
-              {list.data.title}
-            </p>
-          </Link>
-        </li>
-      ))}
-    </ul>
-  </section>
   <section class="posts">
     <h2>Archive</h2>
     <ul>
