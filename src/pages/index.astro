@@ -5,11 +5,7 @@ import Layout from "../layout/Layout.astro";
 import Link from "../components/Link.astro";
 import { GITHUB_REPO_URL, TWITTER_URL, GITHUB_PROFILE_URL } from '../config';
 
-const [posts, lists] = await Promise.all([
-  getCollection('blog', ({ data }) => !data.draft),
-  getCollection('lists', ({ data }) => !data.draft),
-]);
-
+const posts = await getCollection('blog', ({ data }) => !data.draft);
 const postsSorted = posts.sort((a, b) =>
   Math.floor(b.data.pubDate / 1000) -
   Math.floor(a.data.pubDate / 1000)
@@ -38,7 +34,7 @@ const year = new Date().getFullYear() - 2002;
   <section class="posts">
     <h2>Archive</h2>
     <ul>
-      {postsSorted.map(post => (
+      {postsSorted.slice(0, 5).map(post => (
         <li>
           <Link href={`/blog/${post.slug}`}>
             {post.data.pubDate.toISOString().split('T')[0]}
@@ -47,6 +43,9 @@ const year = new Date().getFullYear() - 2002;
           </Link>
         </li>
       ))}
+      <li>
+        <Link href="/blog">See more posts...</Link>
+      </li>
     </ul>
   </section>
 </Layout>
