@@ -20,7 +20,7 @@ const postsSorted = posts.sort((a, b) =>
       <h2>Archives</h2>
     </section>
     <ul>
-      {postsSorted.slice(0, 4).map(post => (
+      {postsSorted.map(post => (
         <li>
           <Link href={`/blog/${post.slug}`}>
             {post.data.pubDate.toISOString().split('T')[0]}
