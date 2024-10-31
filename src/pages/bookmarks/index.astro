@@ -8,14 +8,10 @@ import Link from "../../components/Link.astro";
 import bookmarksJson from './_bookmarks.json';
 
 const bookmarksData = bookmarksJson.data;
-const bookmarksSorted = bookmarksData.sort((a, b) =>
-  Math.floor(Number(b.savedAt) / 1000) -
-  Math.floor(Number(a.savedAt) / 1000)
-);
 
 const groupByMonth = (bookmarks) => {
   const grouped = bookmarks.reduce((acc, bookmark) => {
-    const month = dayjs(bookmark.savedAt).format('YYYY [/] MMMM');
+    const month = dayjs(bookmark.savedAt).startOf('month').toISOString();
     if (!acc[month]) {
       acc[month] = [];
     }
@@ -25,9 +21,17 @@ const groupByMonth = (bookmarks) => {
   return grouped;
 };
 
-const bookmarksGroupedByMonth = groupByMonth(bookmarksSorted);
+const sortByMonth = (bookmarks) =>
+  Object.fromEntries(
+    Object.entries(bookmarks)
+      .sort(([a], [b]) => dayjs(a).isBefore(b, 'month') ? 1 : -1)
+      .map(([month, bookmark]) => [dayjs(month).format('YYYY [/] MMMM'), bookmark])
+  );
 
-const tableOfContents = Object.entries(bookmarksGroupedByMonth).map(([month, bookmarks]) => ({
+const bookmarksGroupedByMonth = groupByMonth(bookmarksData);
+const bookmarksSorted = sortByMonth(bookmarksGroupedByMonth);
+
+const tableOfContents = Object.keys(bookmarksSorted).map((month) => ({
   text: month,
   url: `#${month}`,
   depth: 1,
@@ -74,7 +78,7 @@ const tableOfContents = Object.entries(bookmarksGroupedByMonth).map(([month, boo
       </ul>
     </details>
     <section class="bookmarks">
-      {Object.entries(bookmarksGroupedByMonth).map(([month, bookmarks]) => (
+      {Object.entries(bookmarksSorted).map(([month, bookmarks]) => (
         <div class="description">
           <h3 id={month}>
             <a class="heading-link" href={`#${month}`}>
