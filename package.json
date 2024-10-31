@@ -10,7 +10,7 @@
     "preview": "astro preview",
     "astro": "astro",
     "create:article": "tsx ./scripts/new-post.ts",
-    "generate:bookmarks": "tsx --env-file=./.env ./scripts/generate-bookmarks.ts"
+    "generate:bookmarks": "tsx --env-file=./.env ./scripts/generate-bookmarks-reader.ts"
   },
   "dependencies": {
     "@resvg/resvg-js": "^2.6.2",
