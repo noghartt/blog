@@ -1,5 +1,4 @@
 import rss from "@astrojs/rss";
-import { getCollection } from "astro:content";
 
 import { SITE } from "../../config";
 import bookmarksJson from './_bookmarks.json';
@@ -11,8 +10,6 @@ const bookmarksSorted = bookmarksData.sort((a, b) =>
 );
 
 export async function GET() {
-  const posts = await getCollection("blog", ({ data }) => !data.draft);
-
   const items = bookmarksSorted
     .sort((a, b) => new Date(b.savedAt) - new Date(a.savedAt))
     .map(({ title, description, url, savedAt }) => {

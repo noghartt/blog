@@ -1,6 +1,39 @@
 {
-  "lastUpdate": "2024-10-31T00:08:19.681Z",
+  "lastUpdate": "2024-11-01T00:16:55.416Z",
   "data": [
+    {
+      "id": "01jbjh3sqpj9adp2bbjjcqj104",
+      "title": "Getting Big Things Done",
+      "url": "https://brooker.co.za/blog/2020/10/19/big-changes.html",
+      "savedAt": "2024-11-01T00:13:28.694000+00:00",
+      "description": "Marc Brooker shares insights on successfully tackling large projects by emphasizing the importance of clearly defining the problem and writing down thoughts to avoid self-deception. He advises engaging with diverse perspectives and stakeholders, while also building a supportive team to enhance project success. Adaptability is crucial, as one may need to revise their approach based on new learnings throughout the project.",
+      "tags": [
+        "management",
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "01jbjfbapd672ymxbgqbp12s0n",
+      "title": "How Do You Spend Your Time?",
+      "url": "https://brooker.co.za/blog/2024/02/06/time.html",
+      "savedAt": "2024-10-31T23:42:38.285000+00:00",
+      "description": "Marc Brooker, an engineer at Amazon Web Services, shares his approach to managing time effectively in the workplace. He emphasizes the importance of setting a time budget with clear themes and goals, which helps ensure that work aligns with project priorities. By being flexible in the short term but consistent in the long term, he advocates for thoughtful time management to enhance productivity and job satisfaction.",
+      "tags": [
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "01jbhxpqfs4r77xdynn6dzcgn7",
+      "title": "Solving the Mystery of ARM7TDMI Multiply Carry Flag",
+      "url": "https://bmchtech.github.io/post/multiply/",
+      "savedAt": "2024-10-31T18:34:17.465000+00:00",
+      "description": "The ARM7TDMI's multiplication instructions include a unique carry flag feature that helps understand its multiplication performance. The CPU can efficiently perform multiply-add operations and sometimes terminates calculations early, which simplifies the process. This behavior allows for optimized handling of signed multiplication and the generation of addends in a compact manner.",
+      "tags": [
+        "hardware",
+        "for-later",
+        "cs/emulator"
+      ]
+    },
     {
       "id": "01jbepag1q1cexje9bwpvqxct3",
       "title": "Axioms of Systemantics",
@@ -2883,7 +2916,6 @@
       "savedAt": "2024-10-30T15:26:22.431000+00:00",
       "description": "What I found in the mire",
       "tags": [
-        "for-later",
         "self-improvement"
       ]
     },
