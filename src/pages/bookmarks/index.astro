@@ -1,5 +1,6 @@
 ---
 import dayjs from 'dayjs';
+import dayjsTimezone from 'dayjs/plugin/timezone';
 
 import Layout from "../../layout/Layout.astro";
 import GoBackButton from '../../components/GoBackButton.astro';
@@ -9,9 +10,11 @@ import bookmarksJson from './_bookmarks.json';
 
 const bookmarksData = bookmarksJson.data;
 
+dayjs.extend(dayjsTimezone);
+
 const groupByMonth = (bookmarks) => {
   const grouped = bookmarks.reduce((acc, bookmark) => {
-    const month = dayjs(bookmark.savedAt).startOf('month').toISOString();
+    const month = dayjs.tz(bookmark.savedAt, 'America/Sao_Paulo').startOf('month').toISOString();
     if (!acc[month]) {
       acc[month] = [];
     }
