@@ -10,11 +10,9 @@ import bookmarksJson from './_bookmarks.json';
 
 const bookmarksData = bookmarksJson.data;
 
-dayjs.extend(dayjsTimezone);
-
 const groupByMonth = (bookmarks) => {
   const grouped = bookmarks.reduce((acc, bookmark) => {
-    const month = dayjs.tz(bookmark.savedAt, 'America/Sao_Paulo').startOf('month').toISOString();
+    const month = dayjs(bookmark.savedAt).startOf('month').toISOString();
     if (!acc[month]) {
       acc[month] = [];
     }
