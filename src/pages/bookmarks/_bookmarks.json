@@ -1,6 +1,82 @@
 {
-  "lastUpdate": "2024-11-01T00:16:55.416Z",
+  "lastUpdate": "2024-11-02T04:43:26.377Z",
   "data": [
+    {
+      "id": "01jbnjx47d3p5ax63n944wegxa",
+      "title": "Damas-Hindley-Milner inference two ways",
+      "url": "https://bernsteinbear.com/blog/type-inference/",
+      "savedAt": "2024-11-02T04:42:30.509000+00:00",
+      "description": "The Damas-Hindley-Milner type inference system generates type constraints based on how variables and expressions interact, allowing for type determination without programmer annotations. It uses data structures like monotypes, type variables, and type constructors to represent types in Python. The inference algorithm processes expressions to produce a type and a mapping of type variables to their corresponding types, facilitating polymorphism through the use of type schemes.",
+      "tags": [
+        "for-later",
+        "type-theory"
+      ]
+    },
+    {
+      "id": "01jbnjwn7xex90xm3xbqyg28ay",
+      "title": "On the cruelty of really teaching computing science",
+      "url": "https://www.cs.utexas.edu/~EWD/transcriptions/EWD10xx/EWD1036.html",
+      "savedAt": "2024-11-02T04:42:15.165000+00:00",
+      "description": "The author argues that computers represent a radical novelty that challenges traditional ways of teaching and understanding mathematics and programming. This novelty requires a new approach to education, as many in the academic and business worlds fail to recognize the complexities involved in computing. Ultimately, the author believes that computing science should evolve beyond its roots in mathematics and logic to better address these challenges.",
+      "tags": [
+        "cs",
+        "math/formal-methods"
+      ]
+    },
+    {
+      "id": "01jbnj2h8yygfg6y9509061eek",
+      "title": "Can't trust any VPN these days",
+      "url": "https://blog.orhun.dev/cant-trust-any-vpn/",
+      "savedAt": "2024-11-02T04:27:59.134000+00:00",
+      "description": "Discord was banned in Turkey on October 9, 2024, leading the author to struggle with their VPN setup to access the platform again. They discovered that their DNS was leaking, which prevented the VPN from working effectively. After troubleshooting and updating their configuration, they successfully restored access to Discord.",
+      "tags": [
+        "cs/networking"
+      ]
+    },
+    {
+      "id": "01jbmwgf85v3b1g769ft8e72cp",
+      "title": "Sets, types and type checking",
+      "url": "https://kaleidawave.github.io/posts/sets-types-and-type-checking/",
+      "savedAt": "2024-11-01T22:11:07.141000+00:00",
+      "description": "This post explains the concept of types and type-checking, highlighting their importance in structuring programs and catching errors. Types help categorize data, allowing for better reasoning about what data is used in a program. The author also discusses how types can be constructed, including operations like intersections and parameter types.",
+      "tags": [
+        "for-later",
+        "type-theory"
+      ]
+    },
+    {
+      "id": "01jbm5m266rjwsn6pjpswc28qa",
+      "title": "Surfing Complexity",
+      "url": "https://surfingcomplexity.blog/",
+      "savedAt": "2024-11-01T15:31:07.590000+00:00",
+      "description": "This blog post discusses how TLA+ can be used to model multi-version concurrency control (MVCC), a method for ensuring transaction isolation in databases like Postgres and MySQL. The author explains that while MVCC helps manage concurrent transactions, it cannot achieve serializability, leading to potential issues like the lost update problem. The post also highlights how MVCC allows transactions to operate on snapshots of the database, ensuring visibility and preventing conflicts during writes.",
+      "tags": [
+        "for-later",
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "01jbm5kn7mtq5ztw0328b4qky0",
+      "title": "Multi-version concurrency control in TLA+",
+      "url": "https://surfingcomplexity.blog/2024/10/31/multi-version-concurrency-control-in-tla/",
+      "savedAt": "2024-11-01T15:30:54.323000+00:00",
+      "description": "This blog post explains how TLA+ can be used to model multi-version concurrency control (MVCC), a method for handling transaction isolation in databases like Postgres and MySQL. MVCC allows transactions to read from a snapshot of the database, preventing issues like lost updates by blocking concurrent writes to the same object. However, the author notes that MVCC does not achieve serializability, which is a stronger isolation guarantee.",
+      "tags": [
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "01jbjhsmne318jz45p5cy6jx95",
+      "title": "Computer Organization E-book by Stephen Marz",
+      "url": "https://marz.utk.edu/my-courses/cosc230/book/",
+      "savedAt": "2024-11-01T00:25:24.397000+00:00",
+      "description": "The e-book \"Computer Organization\" by Stephen Marz covers key topics about computer systems, starting with computer organization and number systems. It explains how CPU instructions are formed and discusses the digital components of a CPU. Finally, the book integrates these concepts to show how they work together, along with appendices for RISC-V programming examples.",
+      "tags": [
+        "cs",
+        "books",
+        "hardware"
+      ]
+    },
     {
       "id": "01jbjh3sqpj9adp2bbjjcqj104",
       "title": "Getting Big Things Done",
