@@ -84,7 +84,7 @@ const readingTime = remarkPluginFrontmatter.readingTime;
         </p>
         {lastCommit ? (
           <p>
-            <strong>Last updated at:</strong>
+            <strong>Updated at:</strong>
             <span>
               {dayjs(lastCommit.date).format('YYYY-MM-DD HH:mm')}
               (<Link href={`${GITHUB_REPO_URL}/commit/${lastCommit.hash.slice(0, 7)}`} isExternal>{lastCommit.hash.slice(0, 7)}</Link>)
@@ -99,7 +99,7 @@ const readingTime = remarkPluginFrontmatter.readingTime;
         ) : null}
         <section class="tags">
           <strong>Tags:</strong>
-          {post.data.tags.map((tag: string) => (
+          {(post.data.tags || []).map((tag: string) => (
             <Link href={`/tag/${tag}`}>
               <p>#{tag}</p>
             </Link>
