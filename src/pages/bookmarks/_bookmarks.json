@@ -1,6 +1,205 @@
 {
-  "lastUpdate": "2024-11-02T04:43:26.377Z",
+  "lastUpdate": "2024-11-03T16:04:31.287Z",
   "data": [
+    {
+      "id": "01jbs7s6d4gcmy2gwjvqm19y8f",
+      "title": "Why I use TLA+ and not(TLA+): Episode 1",
+      "url": "https://protocols-made-fun.com/specification/modelchecking/tlaplus/quint/2024/10/05/tla-and-not-tla.html",
+      "savedAt": "2024-11-03T14:45:05.060000+00:00",
+      "description": "Igor Konnov explains why he prefers using TLA+ for his projects, highlighting its flexibility and well-defined semantics. He finds it easier to work with than other languages and appreciates its practical set of primitives for modeling complex systems. Konnov also notes that new users often struggle with TLA+'s syntax but believes that a better feedback loop can help them learn more effectively.",
+      "tags": [
+        "math/formal-methods"
+      ]
+    },
+    {
+      "id": "01jbs7keh563cgmjn70248sxa1",
+      "title": "Smolderingly fast b-trees",
+      "url": "https://www.scattered-thoughts.net/writing/smolderingly-fast-btrees/",
+      "savedAt": "2024-11-03T14:41:56.773000+00:00",
+      "description": "B-trees are generally slower than hashmaps, but performance can vary widely based on specific use cases. B-trees struggle with cache lookups and key comparisons, especially with random strings, making them less efficient in certain scenarios. While they avoid some issues found in hashmaps, b-trees have their own performance cliffs that can impact overall speed.",
+      "tags": [
+        "cs/algorithms"
+      ]
+    },
+    {
+      "id": "01jbs48m8p4d730ky8thdqt1cz",
+      "title": "Sensors and gauges - Observability in distributed systems",
+      "url": "https://www.superdurszlak.dev/posts/sensors-and-gauges-observability-in-distributed-systems/",
+      "savedAt": "2024-11-03T13:43:36.469000+00:00",
+      "description": "Logs are the most basic and flexible form of instrumentation in distributed systems, helping troubleshoot issues and analyze system behavior. Metrics come next, providing real-time monitoring and insights into system performance. Traces are often added last to complement logs and metrics, offering additional context for specific executions.",
+      "tags": [
+        "cs/distsys",
+        "cs/observability"
+      ]
+    },
+    {
+      "id": "01jbs2yserzzmbsv6pg747h5qj",
+      "title": "How Not to Disagree",
+      "url": "https://boz.com/articles/disagree",
+      "savedAt": "2024-11-03T13:20:45.528000+00:00",
+      "description": "In business, disagreements with management are common but can lead to damaging outcomes if not handled well. Leaders should commit to the new direction, acknowledge frustrations, and empower their team to take ownership of the change for effective collaboration and trust-building. True leadership comes from commitment, trust, and empowering others to succeed.",
+      "tags": [
+        "management"
+      ]
+    },
+    {
+      "id": "01jbs2w26jm4mzw0p91g2fdvhc",
+      "title": "What Can You Learn from Photographing Your Life? | The New Yorker",
+      "url": "https://www.newyorker.com/culture/open-questions/what-can-you-learn-from-photographing-your-life",
+      "savedAt": "2024-11-03T13:19:16.178000+00:00",
+      "description": "Photographing everyday life can help us appreciate the passage of time, even if our pictures seem mundane. While our descendants may not value our photos, they can still serve as a meaningful record of our experiences. Ultimately, photography allows us to find beauty and significance in the ordinary moments of life.",
+      "tags": [
+        "cool"
+      ]
+    },
+    {
+      "id": "01jbr30h8aj05dfy5aydjw7fnm",
+      "title": "How we shrunk our Javascript monorepo git size by 94%",
+      "url": "https://www.jonathancreamer.com/how-we-shrunk-our-git-repo-size-by-94-percent/",
+      "savedAt": "2024-11-03T04:02:28.233000+00:00",
+      "description": "The team at Microsoft reduced their massive Javascript monorepo size from 178GB to just 5GB by addressing issues with large files and inefficient Git packing. They implemented better management of change files and utilized new Git features to optimize data compression. These improvements not only helped their repo but also aim to benefit the wider developer community.",
+      "tags": [
+        "cs/programming-languages/javascript"
+      ]
+    },
+    {
+      "id": "01jbq62zqrt05w1jfd7dy9njms",
+      "title": "Five Common Misconceptions About Event-Driven Architecture",
+      "url": "https://www.reactivesystems.eu/2024/09/30/five-common-misconceptions-about-eda.html",
+      "savedAt": "2024-11-02T19:36:59.896000+00:00",
+      "description": "Event-driven architecture (EDA) is often misunderstood, with common misconceptions including the belief that it requires event sourcing or specific tools like Kafka. EDA focuses on communication between services through events, which can be implemented without being fully event-driven in every part of an application. While EDA may seem complex at first, it can actually provide clearer roles and responsibilities compared to traditional command-based systems.",
+      "tags": [
+        "cs/distsys",
+        "cs/architecture"
+      ]
+    },
+    {
+      "id": "01jbpscp7jpxvft7f7z5dae98f",
+      "title": "Be Suspicious of Success",
+      "url": "https://buttondown.com/hillelwayne/archive/be-suspicious-of-success/",
+      "savedAt": "2024-11-02T15:55:06.353000+00:00",
+      "description": "Be suspicious when software appears to be successful, as it may be working for the wrong reasons. It's important to verify code through tests and to check not just the \"happy paths\" but also the \"sad paths\" where errors occur. Remember, just because something works doesn't mean it won't fail unexpectedly later.",
+      "tags": [
+        "math/formal-methods"
+      ]
+    },
+    {
+      "id": "01jbpnd2fbvwj5e13cmq3wgm19",
+      "title": "Table of Contents",
+      "url": "https://sre.google/workbook/table-of-contents/",
+      "savedAt": "2024-11-02T14:45:24.587000+00:00",
+      "description": "The document is a table of contents for a book on Site Reliability Engineering (SRE). It covers topics such as Service Level Objectives (SLOs), monitoring, incident response, and organizational change management. The book is divided into sections on foundations, practices, and processes, with various case studies and examples included.",
+      "tags": [
+        "cs",
+        "books"
+      ]
+    },
+    {
+      "id": "01jbpnbvxey4k3kkt5x0nvx4t1",
+      "title": "Observability 101: Terminology and Concepts",
+      "url": "https://medium.com/honeycombio/observability-101-terminology-and-concepts-honeycomb-821f17fde452",
+      "savedAt": "2024-11-02T14:44:45.102000+00:00",
+      "description": "Observability is the ability to understand the health of software services using data generated without new code changes. Key concepts include telemetry, which consists of metrics, logs, traces, and structured events that provide insights into system performance. Effective observability requires good data and tools that allow for flexible querying and analysis.",
+      "tags": [
+        "cs/observability"
+      ]
+    },
+    {
+      "id": "01jbpnb1aswvya7brrzj67yzky",
+      "title": "Getting Started with OpenTelemetry Visualization - A Practical Guide",
+      "url": "https://signoz.io/blog/opentelemetry-visualization/",
+      "savedAt": "2024-11-02T14:44:17.881000+00:00",
+      "description": "OpenTelemetry is a framework for collecting and exporting telemetry data from applications. Visualization tools, like SigNoz, help turn this data into understandable charts and dashboards. Effective visualization aids in optimizing system performance and provides actionable insights.",
+      "tags": [
+        "cs/devops",
+        "cs/observability"
+      ]
+    },
+    {
+      "id": "01jbpnafpwf53kvqs7k4sk53bw",
+      "title": "Setting Up Prometheus, Grafana, Loki, Tempo & Mimir for end-to-end Monitoring & Logging Atmosly",
+      "url": "https://medium.com/@contact_81356/setting-up-prometheus-grafana-loki-tempo-mimir-for-end-to-end-monitoring-logging-atmosly-b1fb5204e1b4",
+      "savedAt": "2024-11-02T14:43:59.835000+00:00",
+      "description": "The article discusses setting up a monitoring and logging stack using Prometheus, Grafana, Loki, Tempo, and Mimir for effective application management. It highlights the benefits of real-time metrics, customizable dashboards, and efficient log storage to improve system performance and troubleshooting. Atmosly offers a one-click deployment of this stack, making it easy for developers to access powerful monitoring tools.",
+      "tags": [
+        "cs/devops",
+        "cs/observability"
+      ]
+    },
+    {
+      "id": "01jbpmz8z76jg49s1byb02qjen",
+      "title": "Prometheus 101: Metrics, Monitoring, Practical Setup and More",
+      "url": "https://harsh05.medium.com/prometheus-101-metrics-monitoring-practical-setup-and-more-eaccf18bdf91",
+      "savedAt": "2024-11-02T14:37:52.487000+00:00",
+      "description": "Monitoring is the process of collecting and analyzing data to ensure system performance and reliability. Prometheus is an open-source tool that efficiently gathers and stores metrics, allowing users to monitor and alert based on system health. Setting up Prometheus with Node Exporter on AWS demonstrates its practical use for real-time monitoring and analysis.",
+      "tags": [
+        "cs/devops",
+        "cs/observability"
+      ]
+    },
+    {
+      "id": "01jbpmw3s2310fwed424tr3he7",
+      "title": "Monitoring Your Apps in Kubernetes Environment with Prometheus",
+      "url": "https://medium.com/kubernetes-tutorials/monitoring-your-kubernetes-deployments-with-prometheus-5665eda54045",
+      "savedAt": "2024-11-02T14:36:08.866000+00:00",
+      "description": "Prometheus is an open-source monitoring tool that integrates well with Kubernetes and easily collects metrics from applications. To monitor your app, you expose a /metrics endpoint and configure Prometheus to automatically discover it. The article guides you through setting up Prometheus and an example application to visualize its metrics.",
+      "tags": [
+        "cs/devops",
+        "cs/observability"
+      ]
+    },
+    {
+      "id": "01jbntm7g62115ke27p32hpecv",
+      "title": "Linearizability in distributed systems",
+      "url": "https://eli.thegreenplace.net/2024/linearizability-in-distributed-systems/",
+      "savedAt": "2024-11-02T06:57:27.558000+00:00",
+      "description": "Linearizability is a strong consistency model that makes it appear as if operations on a single piece of data happen instantaneously and in a specific order, even when they are executed concurrently. This model ensures that all clients see the same value for the data, maintaining a consistent view of operations. Unlike serializability, which applies to multiple operations across different objects, linearizability focuses on a single object, ensuring clear and ordered operations.",
+      "tags": [
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "01jbntkay54e3s4xfqjsgds522",
+      "title": "Crushing Castlevania with Antithesis",
+      "url": "https://antithesis.com/blog/castlevania/",
+      "savedAt": "2024-11-02T06:56:58.309000+00:00",
+      "description": "The Antithesis blog discusses the challenges of playing the original NES game Castlevania, particularly getting past the difficult \"stompers\" in Stage 6. The authors illustrate how their testing tool, Antithesis, can help navigate complex software states and overcome barriers in both gaming and real-world code testing. By refining their approach, they demonstrate that innovative methods can lead to successful exploration and debugging.",
+      "tags": [
+        "cs/testing"
+      ]
+    },
+    {
+      "id": "01jbns8m7e7hxcb1b71hgyvpw6",
+      "title": "Building A Strong Ownership Culture in A Team",
+      "url": "https://candost.blog/strong-ownership-culture-in-a-team/",
+      "savedAt": "2024-11-02T06:33:38.798000+00:00",
+      "description": "Building a strong ownership culture in a team requires leaders to delegate responsibilities and empower team members to make decisions. Setting clear goals and investing in skill development helps individuals take ownership of their work. Regular feedback and accountability ensure that team members grow and learn together.",
+      "tags": [
+        "management"
+      ]
+    },
+    {
+      "id": "01jbns2fcgfyyf3m12xz6yt2z4",
+      "title": "Bias For Action",
+      "url": "https://candost.blog/bias-towards-action/",
+      "savedAt": "2024-11-02T06:30:17.231000+00:00",
+      "description": "The author reflects on the importance of taking action rather than waiting to learn everything before starting a project. They emphasize that learning through doing, especially in software development, leads to better results and faster growth. Balancing between understanding principles and applying actions is crucial for success in a fast-paced environment.",
+      "tags": [
+        "management",
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "01jbnrnd0wy4z1dts7mqwm9qhz",
+      "title": "On Good Software Engineers",
+      "url": "https://candost.blog/on-good-software-engineers/",
+      "savedAt": "2024-11-02T06:23:08.828000+00:00",
+      "description": "Good software engineers are trusted team players who deliver high-quality solutions by effectively collaborating and communicating with others. They understand their organization's processes and adapt to its culture while continuously learning and improving. Great engineers not only meet these expectations but also take the initiative to fix problems and enhance processes proactively.",
+      "tags": [
+        "management",
+        "engineering"
+      ]
+    },
     {
       "id": "01jbnjx47d3p5ax63n944wegxa",
       "title": "Damas-Hindley-Milner inference two ways",
@@ -904,7 +1103,6 @@
       "savedAt": "2024-06-30T21:40:25.344000+00:00",
       "description": "Let's open a hex editor and see what this thing is made of",
       "tags": [
-        "for-later",
         "cs/database"
       ]
     },
