@@ -1,6 +1,123 @@
 {
-  "lastUpdate": "2024-11-03T16:04:31.287Z",
+  "lastUpdate": "2024-11-09T20:51:29.719Z",
   "data": [
+    {
+      "id": "01jc99xdzzyhpdhz0pq0jc3e73",
+      "title": "How should I read type system notation?",
+      "url": "https://langdev.stackexchange.com/questions/2692/how-should-i-read-type-system-notation/2693#2693",
+      "savedAt": "2024-11-09T20:30:11.963000+00:00",
+      "description": "A type system is a set of rules that define how expressions and types work in a programming language. It uses specific notation to represent typing judgments, which state the type of an expression under certain conditions or contexts. Understanding these rules allows programmers to check the correctness of code and ensures that types are used consistently.",
+      "tags": [
+        "type-theory",
+        "cs/pl-theory"
+      ]
+    },
+    {
+      "id": "01jc96tsyfptkzmksrgsyt18em",
+      "title": "Userland Disk I/O",
+      "url": "https://transactional.blog/how-to-learn/disk-io",
+      "savedAt": "2024-11-09T19:36:20.175000+00:00",
+      "description": "Databases often use O_DIRECT for unbuffered I/O, allowing them to manage their own page cache and improve data durability. Different operating systems have various methods for ensuring data durability, like using fsync() in Unix or FlushFileBuffers() in Windows. Choosing the right filesystem, such as XFS or Ext4, can enhance performance by optimizing how data is stored and accessed.",
+      "tags": [
+        "cs/database",
+        "cs/operating-system"
+      ]
+    },
+    {
+      "id": "01jc95sxbyb58re8tw40k1kb1k",
+      "title": "PSA: SQLite does not do checksums",
+      "url": "https://avi.im/blag/2024/sqlite-bit-flip/",
+      "savedAt": "2024-11-09T19:18:22.334000+00:00",
+      "description": "SQLite does not perform checksums by default, which means it cannot detect if a database has been corrupted. This lack of error detection can lead to serious issues, like incorrect data being read without any warning. While there are options to add checksums, they come with limitations and may not be compatible with certain extensions.",
+      "tags": [
+        "cs/database"
+      ]
+    },
+    {
+      "id": "01jc94r2gbwn66bvj0aemzs0ms",
+      "title": "A mental model for Linux file, hard and soft links",
+      "url": "https://bhoot.dev/2024/on-linux-file-and-links/",
+      "savedAt": "2024-11-09T18:59:53.483000+00:00",
+      "description": "The author explains the concepts of hard and soft links in Linux, focusing on how they relate to inodes and filenames. Hard links connect multiple filenames to the same inode, while soft links point to a target filename but have their own inode. The post aims to clarify these concepts for better understanding.",
+      "tags": [
+        "os/linux"
+      ]
+    },
+    {
+      "id": "01jc4ynx00gx1afnkmgjsgfjva",
+      "title": "Rust versions of TAPL's System F and System F-omega type checkers",
+      "url": "https://hg.sr.ht/~icefox/determination",
+      "savedAt": "2024-11-08T03:56:53.120000+00:00",
+      "description": "The author has created Rust type checkers for System F and System Fω, based on implementations from the book \"Types And Programming Languages.\" These ports focus solely on type checking, simplifying variable names and removing unnecessary complexity from the original OCaml code. The project includes various versions of the type checkers and aims to improve understanding of the underlying concepts.",
+      "tags": [
+        "type-theory",
+        "type/repository",
+        "cs/programming-languages/rust"
+      ]
+    },
+    {
+      "id": "01jc4g8066etb77m1m253fpwg3",
+      "title": "Probability for Computer Scientists",
+      "url": "https://chrispiech.github.io/probabilityForComputerScientists/en/index.html",
+      "savedAt": "2024-11-07T23:44:37.574000+00:00",
+      "description": "\"Probability for Computer Scientists\" is a course reader written by Chris Piech for Stanford's CS109 class. The book builds on ideas from previous instructors and the Sheldon Ross textbook. Contributors are welcome to help improve the reader through GitHub.",
+      "tags": [
+        "cs",
+        "math",
+        "books"
+      ]
+    },
+    {
+      "id": "01jc45rfasfwvf1nw14sw3zpks",
+      "title": "How Complex Systems Fail",
+      "url": "https://how.complexsystems.fail/",
+      "savedAt": "2024-11-09T20:16:12.001000+00:00",
+      "description": "Complex systems, like transportation and healthcare, are naturally hazardous and cannot completely eliminate risks. They rely on multiple layers of defense, including technology and human expertise, to prevent accidents from small failures combining into larger ones. Safety is dynamic and emerges from ongoing adaptations by practitioners who balance production needs with the management of potential hazards.",
+      "tags": [
+        "systems-theory"
+      ]
+    },
+    {
+      "id": "01jbvf37m5kw3g0e6cg50s5ve1",
+      "title": "It's About the Guarantees",
+      "url": "https://ferd.ca/it-s-about-the-guarantees.html",
+      "savedAt": "2024-11-04T11:31:22.885000+00:00",
+      "description": "Supervisors in Erlang are often associated with restarts, but their role goes beyond that. One important aspect of Erlang supervisors is that their start phase is synchronous, allowing for stable initialization. It's crucial to provide a stable state during initialization to ensure the rest of the system can be booted knowing that what came before is healthy. Supervised processes offer guarantees during the initialization phase, not just best efforts. When dealing with external services, it's important to expect failure and not make their presence a guarantee of your system. The decision of how much failure to tolerate should be made by the client's callers, not the client itself.",
+      "tags": [
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "01jbsrvmc0gxmwx8hd0j8pb2kx",
+      "title": "Pattern: Event sourcing",
+      "url": "https://microservices.io/patterns/data/event-sourcing.html",
+      "savedAt": "2024-11-03T19:43:30.688000+00:00",
+      "description": "Event sourcing is a pattern that allows services to reliably update databases and send messages without using traditional distributed transactions. It stores the state of business entities as a sequence of events, ensuring atomicity and the ability to reconstruct the current state by replaying these events. While it offers benefits like reliable event publishing and an audit log, it also introduces complexity and requires handling eventually consistent data.",
+      "tags": [
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "01jbsrmc8bwg86h6j34krz8txa",
+      "title": "Pattern: Saga",
+      "url": "https://microservices.io/patterns/data/saga.html",
+      "savedAt": "2024-11-03T19:39:33.003000+00:00",
+      "description": "The Saga pattern helps manage transactions across multiple microservices, ensuring data consistency without using traditional distributed transactions. It involves coordinating local transactions either through choreography, where each service triggers the next, or orchestration, where a central orchestrator directs the process. While this pattern provides benefits, such as maintaining consistency, it requires careful design to handle compensating transactions and potential data anomalies.",
+      "tags": [
+        "cs/distsys",
+        "cs/microservices"
+      ]
+    },
+    {
+      "id": "01jbsr8wsvb3fszgywtbdtrcy9",
+      "title": "Logging Guide",
+      "url": "https://wippler.dev/posts/logging-guide",
+      "savedAt": "2024-11-03T19:33:16.731000+00:00",
+      "description": "Applications need to generate log messages to provide information about their health, status, and security events. These logs can be categorized into informational, audit, warnings, and errors, each serving a specific purpose for operators and compliance. Effective logging practices include categorizing logs, avoiding duplicate messages, and providing detailed context for better understanding and troubleshooting.",
+      "tags": [
+        "cs/observability"
+      ]
+    },
     {
       "id": "01jbs7s6d4gcmy2gwjvqm19y8f",
       "title": "Why I use TLA+ and not(TLA+): Episode 1",
@@ -239,7 +356,6 @@
       "savedAt": "2024-11-01T22:11:07.141000+00:00",
       "description": "This post explains the concept of types and type-checking, highlighting their importance in structuring programs and catching errors. Types help categorize data, allowing for better reasoning about what data is used in a program. The author also discusses how types can be constructed, including operations like intersections and parameter types.",
       "tags": [
-        "for-later",
         "type-theory"
       ]
     },
@@ -4193,10 +4309,9 @@
       "id": "01jbep87daegzhhy8cahfggp2t",
       "title": "Synchronization is bad for scale",
       "url": "https://wippler.dev/posts/synchronization-is-bad-for-scale",
-      "savedAt": "2024-07-07T06:53:24.699000+00:00",
+      "savedAt": "2024-11-03T19:32:21.991000+00:00",
       "description": "In the early days of Mailgun I started working on a distributed lock service. Something I had worked on briefly at Rackspace. Even as I implemented the thing, I had the sneaky suspicion that it was a bad idea.",
       "tags": [
-        "for-later",
         "cs/distsys",
         "cs/database"
       ]
