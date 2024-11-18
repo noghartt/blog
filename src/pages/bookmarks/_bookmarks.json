@@ -1,6 +1,163 @@
 {
-  "lastUpdate": "2024-11-09T20:51:29.719Z",
+  "lastUpdate": "2024-11-18T02:25:29.400Z",
   "data": [
+    {
+      "id": "01jcybc7gad02fc5bhz4rnv0mz",
+      "title": "PlayStation 2 Architecture",
+      "url": "https://www.copetti.org/writings/consoles/playstation-2/",
+      "savedAt": "2024-11-18T00:39:48.490000+00:00",
+      "description": "The PlayStation 2, released in 2000, featured a unique architecture that combined multiple processors for improved performance. Its powerful Emotion Engine CPU allowed for advanced graphics and efficient processing, making it popular despite not being the most powerful console of its generation. The console also included various I/O components and memory options to enhance gaming experiences.",
+      "tags": [
+        "hardware",
+        "cs/gamedev"
+      ]
+    },
+    {
+      "id": "01jcybazkc2zsw0skhgv6rz859",
+      "title": "The Lost Reading Items",
+      "url": "https://tensorlabbet.com/2024/11/11/lost-reading-items/",
+      "savedAt": "2024-11-18T00:39:07.628000+00:00",
+      "description": "This post explores the missing items from Ilya Sutskever's 2020 AI reading list, which originally included about 40 papers but only 27 were shared online. It highlights potential important papers related to meta-learning and reinforcement learning that may have been omitted. The author aims to reconstruct this lost knowledge to better understand what was significant in the AI field at that time.",
+      "tags": [
+        "cs/ai",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01jcy9t8v3x8ckrezxwfh3vr7z",
+      "title": "githublog/2021/12/14/doing-more-than-one-thing.md at main · francisrstokes/githublog",
+      "url": "https://github.com/francisrstokes/githublog/blob/main/2021/12/14/doing-more-than-one-thing.md",
+      "savedAt": "2024-11-18T00:12:31.458000+00:00",
+      "description": "The text explains how a multitasking kernel uses a table of interrupt handlers to manage tasks in a program. Each task has its own stack and state, which are saved and restored during context switches. The kernel ensures tasks do not exceed their allocated stack size and uses inline assembly for low-level control in the code.",
+      "tags": [
+        "cs/operating-system"
+      ]
+    },
+    {
+      "id": "01jcxxjv969bn7bqms2eh8wnt7",
+      "title": "Managing High Performers",
+      "url": "https://substack.com/@staysaasy/p-144436923",
+      "savedAt": "2024-11-17T20:38:45.285000+00:00",
+      "description": "Managing high performers requires intentional guidance and support to help them reach their full potential. It's important to set clear expectations, provide constructive feedback, and engage in career planning to keep them motivated and invested. Regular management practices should be applied, as even top performers need direction to thrive and avoid stagnation.",
+      "tags": [
+        "management"
+      ]
+    },
+    {
+      "id": "01jcntzv2jmbjkqpgxtdseac8s",
+      "title": "A Smart Bear » A life-changing challenge guided by Pascal’s Wager",
+      "url": "https://longform.asmartbear.com/pascals-wager/",
+      "savedAt": "2024-11-14T17:19:29.874000+00:00",
+      "description": "The article applies Pascal's Wager to everyday interactions, emphasizing that humility leads to better outcomes than arrogance. It suggests that approaching situations with a mindset of curiosity and a willingness to learn can improve communication and relationships. By being humble, we can gain more from our interactions and avoid unnecessary conflict.",
+      "tags": [
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "01jcmby8bepmx65nf0hzxa7a0e",
+      "title": "Why you're bad at giving feedback",
+      "url": "https://posthog.com/newsletter/how-to-give-feedback",
+      "savedAt": "2024-11-14T03:37:14.862000+00:00",
+      "description": "Giving effective feedback is challenging because it requires honesty without discouragement. Many people make mistakes by using vague language, mixing praise with criticism, or avoiding direct communication. To improve, focus on being specific, timely, and balanced in your feedback, while ensuring it's based on facts rather than assumptions.",
+      "tags": [
+        "management"
+      ]
+    },
+    {
+      "id": "01jcmbwbbydegxjyvq76cnhxt9",
+      "title": "Eventually consistent plain text accounting",
+      "url": "https://tylercipriani.com/blog/2024/10/24/plain-text-accounting/",
+      "savedAt": "2024-11-14T03:36:12.414000+00:00",
+      "description": "Tyler Cipriani shares how he uses hledger, a plain text accounting system, to track his spending over six months. He emphasizes the importance of avoiding manual entry by using CSV files from his bank and creating rules to transform them into journal files for analysis. His approach allows him to gradually build and improve his understanding of his finances without feeling overwhelmed.",
+      "tags": [
+        "finances"
+      ]
+    },
+    {
+      "id": "01jcm96h1yq00y47ycgw678n63",
+      "title": "The Lying p Value",
+      "url": "https://entropicthoughts.com/the-lying-p-value",
+      "savedAt": "2024-11-14T02:49:20.190000+00:00",
+      "description": "The p-value of 0.05 is often misunderstood, as it does not guarantee that a study's methodology is correct 95% of the time. Research shows that many studies make errors in computing significance, leading to a base accuracy of only 85%. Therefore, a significant result at p=0.05 should be treated with caution and requires further investigation.",
+      "tags": [
+        "math/statistics"
+      ]
+    },
+    {
+      "id": "01jcdfm02f07qs9avq0d0k2m2h",
+      "title": "The Universe of Discourse",
+      "url": "https://blog.plover.com/math/PM.html",
+      "savedAt": "2024-11-11T11:26:51.982000+00:00",
+      "description": "Principia Mathematica is an odd book, worth looking into from a historical point of view as well as a mathematical one.",
+      "tags": [
+        "math"
+      ]
+    },
+    {
+      "id": "01jcc9aspx84d45dx6rsn0747j",
+      "title": "Thoughts on Meaning and Writing",
+      "url": "https://mattlakeman.org/2020/10/06/thoughts-on-meaning-and-writing/",
+      "savedAt": "2024-11-11T00:17:44.669000+00:00",
+      "description": "The author reflects on his personal heuristic for finding meaning in life, which involves doing things that will result in discrete, memorable experiences that can be added to a bullet point list. He discusses the importance of relationships, work, money, and passion projects, and suggests that having a child is the simplest way to create an enormous amount of meaning in a person's life. He also talks about the role of writing in creating digital permanence and the opportunity to revisit experiences, and shares his own experience of writing a novel.",
+      "tags": [
+        "writing",
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "01jcbfdxhhy478yfynqtca108b",
+      "title": "Every Transaction Matters",
+      "url": "https://world.hey.com/joan.westenberg/every-transaction-matters-cef1e6b7",
+      "savedAt": "2024-11-10T16:45:03.921000+00:00",
+      "description": "Joan Westenberg views life as a series of transactions to minimize waste of time and energy. She reflects on how some activities, like mindless scrolling, lead to regrets because they deplete her resources without value. By being mindful of her choices, she aims to focus on what truly matters to her.",
+      "tags": [
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "01jca44eezrbezcxwaw3b93647",
+      "title": "TLA from first principles",
+      "url": "https://buttondown.com/hillelwayne/archive/tla-from-first-principles/",
+      "savedAt": "2024-11-10T04:08:24.798000+00:00",
+      "description": "The author is revising a chapter on Temporal Logic of Actions (TLA+) for their book, \"Logic for Programmers,\" using a simple example with two variables, Alice and Bob. They explain how to represent valid and invalid behaviors in terms of money transfers between Alice and Bob, incorporating rules to ensure no overdrafts occur. The text also introduces TLA+ as a specification language for modeling such systems and highlights the importance of temporal logic in understanding changes over time.",
+      "tags": [
+        "cs/distsys",
+        "math/formal-methods"
+      ]
+    },
+    {
+      "id": "01jca3z665y3b2tmwjv20rhy4w",
+      "title": "[yap transcript] On first principles thinking",
+      "url": "https://ludwigabap.bearblog.dev/yap-transcript-on-first-principles-thinking/",
+      "savedAt": "2024-11-10T04:05:32.485000+00:00",
+      "description": "First principles thinking involves breaking down complex problems into smaller, manageable parts to understand their fundamental components. This method helps clarify what is essential and allows you to build solutions step by step. By avoiding assumptions and focusing on these core elements, you can develop a clearer approach to problem-solving.",
+      "tags": [
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "01jc9c4n6t9yng2vnzdhkcjc2h",
+      "title": "Why I don’t like discussing action items during incident reviews",
+      "url": "https://surfingcomplexity.blog/2024/09/28/why-i-dont-like-discussing-action-items-during-incident-reviews/",
+      "savedAt": "2024-11-09T21:09:05.881000+00:00",
+      "description": "Lorin Hochstein believes that focusing on learning about system behavior is more valuable than discussing action items during incident reviews. He argues that understanding the system's complexity is crucial, and that time spent on action items detracts from this learning opportunity. Hochstein suggests that learning leads to better action items, while discussions of action items can easily happen later.",
+      "tags": [
+        "management",
+        "engineering"
+      ]
+    },
+    {
+      "id": "01jc9bft2xdqn0fx6k377hh2f9",
+      "title": "If you don’t examine what worked, how will you know what works?",
+      "url": "https://surfingcomplexity.blog/2024/10/17/if-you-dont-examine-what-worked-how-will-you-know-what-works/",
+      "savedAt": "2024-11-09T20:57:42.749000+00:00",
+      "description": "To improve systems after incidents, it's important to examine what went right, not just what went wrong. Understanding how people adapt and successfully navigate challenges can reveal effective work patterns. By focusing on positive outcomes during incident reviews, organizations can learn valuable lessons and foster better practices.",
+      "tags": [
+        "cs/distsys",
+        "engineering",
+        "systems-theory"
+      ]
+    },
     {
       "id": "01jc99xdzzyhpdhz0pq0jc3e73",
       "title": "How should I read type system notation?",
@@ -6827,7 +6984,7 @@
       "savedAt": "2024-09-22T15:14:52.862000+00:00",
       "description": "P(A|B) = [P(A)*P(B|A)]/P(B), all the rest is commentary.",
       "tags": [
-        "statistics"
+        "math/statistics"
       ]
     },
     {
