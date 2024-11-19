@@ -10,6 +10,7 @@
     "preview": "astro preview",
     "astro": "astro",
     "create:article": "tsx ./scripts/new-post.ts",
+    "create:til": "tsx ./scripts/generate-til",
     "generate:bookmarks": "tsx --env-file=./.env ./scripts/generate-bookmarks-reader.ts"
   },
   "dependencies": {

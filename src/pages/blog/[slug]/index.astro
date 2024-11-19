@@ -111,21 +111,23 @@ const readingTime = remarkPluginFrontmatter.readingTime;
     <article>
       {tableOfContents.length > 0
         ? (
-          <details class="toc" open>
+          <details class="toc--wrapper" open>
             <summary>
               <h2>Table of Contents</h2>
             </summary>
-              <ul>
-                {tableOfContents.map(({ text, url, depth }) => (
-                  <li style={{ marginLeft: `${depth * 16}px` }}>
-                    <div>
-                      <Link href={url}>
-                        <p>{text}</p>
-                      </Link>
-                    </div>
-                  </li>
-                ))}
-              </ul>
+            <section class="toc">
+                <ul>
+                  {tableOfContents.map(({ text, url, depth }) => (
+                    <li style={{ marginLeft: `${depth * 16}px` }}>
+                      <div>
+                        <Link href={url}>
+                          <p>{text}</p>
+                        </Link>
+                      </div>
+                    </li>
+                  ))}
+                </ul>
+            </section>
           </details>
         ): null}
       <Content />
@@ -149,13 +151,13 @@ const readingTime = remarkPluginFrontmatter.readingTime;
 
   .toc {
     gap: var(--spacing-2x);
-    background: #f5f5f5;
     padding: var(--spacing-2x);
   }
 
   @media screen and (min-width: 425px) {
-    .toc {
-      position: absolute;
+    .toc--wrapper {
+      background: #f5f5f5;
+      /* position: absolute; */
       top: 5px;
       left: -300px;
       max-width: 270px;

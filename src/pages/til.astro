@@ -1,0 +1,37 @@
+---
+import Layout from "../layout/Layout.astro";
+import GoBackButton from '../components/GoBackButton.astro';
+import { getCollection } from "astro:content";
+import dayjs from 'dayjs';
+
+const til = await getCollection('til');
+---
+
+<Layout>
+  <GoBackButton />
+  <div>
+    <h1>Today I learned</h1>
+    <p>Here I have everything that I learned in some way during my day.</p>
+  </div>
+  <ul>
+    {til.map(async item => {
+      const createdAt = dayjs(item.data.createdAt).format('YYYY/MM/DD ddd [-] hh:mm A')
+      const { Content } = await item.render();
+      return (
+        <li>
+          <p>{createdAt}, {item.data.title}</p>
+          <div>
+            <Content />
+          </div>
+        </li>
+      );
+    })}
+  </ul>
+</Layout>
+
+<style>
+  li {
+    font-family: monospace;
+    list-style-type:symbols("-");
+  }
+</style>
