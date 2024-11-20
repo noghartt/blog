@@ -4,7 +4,6 @@ import type { CollectionEntry } from 'astro:content';
 import type { GetStaticPathsResult } from 'astro';
 
 import Layout from '../../layout/Layout.astro';
-import Link from '../../components/Link.astro';
 import Posts from '../../components/Posts.astro';
 import GoBackButton from '../../components/GoBackButton.astro';
 
@@ -14,7 +13,7 @@ interface Props {
 
 export const prerender = true;
 export async function getStaticPaths(): Promise<GetStaticPathsResult> {
-  const posts = await getCollection('blog');
+  const posts = await getCollection('blog', (post) => !post.data.draft);
 
   const existentTags = posts.reduce(
     (tags, post) => new Set([...tags, ...post.data.tags || []]),

@@ -7,7 +7,7 @@ const blogCollection = defineCollection({
     .object({
       title: z.string(),
       pubDate: z.coerce.date(),
-      tags: z.array(z.string()).optional(),
+      tags: z.array(z.string()).default([]).optional(),
       draft: z.boolean().optional(),
     })
     .merge(rssSchema)
