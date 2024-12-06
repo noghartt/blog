@@ -1,6 +1,181 @@
 {
-  "lastUpdate": "2024-12-01T01:40:14.687Z",
+  "lastUpdate": "2024-12-06T02:27:36.556Z",
   "data": [
+    {
+      "id": "01jecqx7hdnpg0xsgt6xj8r9mw",
+      "title": "The Meditation on Curiosity",
+      "url": "https://www.lesswrong.com/s/NBDFAKt3GbFwnwzQF/p/3nZMgRTfFEfHp34Gb",
+      "savedAt": "2024-12-06T01:12:49.508000+00:00",
+      "description": "Curiosity is essential for rational thinking and helps us question our beliefs honestly. Instead of just fulfilling a duty to investigate, we should seek genuine interest in our inquiries and be open to changing our views. True curiosity ignites a desire to learn and explore, guiding our thoughts and actions in a meaningful way.",
+      "tags": [
+        "philosophy",
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "01je79zqbygb3b1anxjgw74bpb",
+      "title": "Evolving my ergonomic setup (or, my laptop with extra steps)",
+      "url": "https://ntietz.com/blog/evolving-ergo-setup/",
+      "savedAt": "2024-12-03T22:24:21.886000+00:00",
+      "description": "Nicole designed multiple ergonomic prototypes to make using her laptop more comfortable. Her latest setup is smaller, lighter, and easier to travel with, helping reduce arm and hand pain. She enjoys creating these tools in her workshop and is willing to help others who need similar solutions.",
+      "tags": [
+        "cool",
+        "tools/setup"
+      ]
+    },
+    {
+      "id": "01je52hjy66n1h2mkrtyqdn4rr",
+      "title": "SQLite Index Visualization: Structure",
+      "url": "https://mrsuh.com/articles/2024/sqlite-index-visualization-structure/",
+      "savedAt": "2024-12-03T01:35:49.702000+00:00",
+      "description": "The article explains how SQLite uses a B-Tree structure to store indexes, consisting of Pages and Cells that hold index data. It describes different examples of index creation, including single-column and multi-column indexes, illustrating how data is organized within these structures. The author emphasizes the importance of visualization for understanding and comparing various indexes in SQLite.",
+      "tags": [
+        "cs/database"
+      ]
+    },
+    {
+      "id": "01je3sw6qwypdqw13jbwfqx0h9",
+      "title": "Work hard",
+      "url": "https://terrytao.wordpress.com/career-advice/work-hard/",
+      "savedAt": "2024-12-02T13:45:06.044000+00:00",
+      "description": "Mathematics requires hard work, not just intelligence or sudden insights. To succeed, one must read, write, and understand details thoroughly. Enjoying your work and managing your time well are key to maintaining productivity and motivation.",
+      "tags": [
+        "math",
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "01je3qghv13ehw0pe20kzvf26c",
+      "title": "A Smart Bear » Failure to face the truth",
+      "url": "https://longform.asmartbear.com/failure-to-face-the-truth/",
+      "savedAt": "2024-12-02T13:03:47.041000+00:00",
+      "description": "The article discusses the concept of \"failure to face the truth,\" which is a primary blocker of progress in both personal and professional contexts. People often avoid the truth because it can be painful or career-altering, and denial and rationalization are the norm. However, facing the truth is crucial for teams to function well, for companies to develop effective strategies, and for individuals to improve in many areas simultaneously. The article also provides examples of famous books and frameworks, such as Radical Candor and Five Dysfunctions of a Team, which emphasize the importance of constructive conflict and facing the truth.",
+      "tags": [
+        "career",
+        "management",
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "01je2cr2jcd8a9n7khkx2062e9",
+      "title": "Going a Little Further",
+      "url": "https://edanparker.hashnode.dev/going-a-little-further",
+      "savedAt": "2024-12-02T00:36:24.780000+00:00",
+      "description": "Going a little further in your work means putting in extra effort to learn and grow, whether by seeking help, exploring documentation, or communicating clearly. This approach not only helps solve immediate problems but also builds valuable skills for the future. By investing in your growth, you can make stronger contributions to your team and enhance your own capabilities.",
+      "tags": [
+        "career",
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "01je28z8sts4xxhez7h2x3c878",
+      "title": "Don't miss the next article.",
+      "url": "https://longform.asmartbear.com/scars/",
+      "savedAt": "2024-12-01T23:30:26.234000+00:00",
+      "description": "Scars represent our unique experiences and emotional baggage, shaping who we are. While it's important to embrace these scars, they can also blind us to better choices. To grow, we must align our decisions with our core values and seek guidance from others to overcome our blind spots.",
+      "tags": [
+        "startup",
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "01je25nds5xvj2m3r3ga812p5d",
+      "title": "What implementation-independent test file formats exist for language tooling?",
+      "url": "https://lobste.rs/s/58jah7",
+      "savedAt": "2024-12-01T22:32:37.925000+00:00",
+      "description": "The specific format of test files for language tooling is less important than their usability and efficiency. It's beneficial to use a format that combines code and metadata, such as comments, to mark relationships between identifiers. Snapshot testing is recommended for managing test outputs, allowing for easier updates and less manual intervention when changing the format.",
+      "tags": [
+        "cs/testing",
+        "cs/pl-theory"
+      ]
+    },
+    {
+      "id": "01je1g773drcn7sz44qney3e31",
+      "title": "Fairness in TLA+",
+      "url": "https://sriku.org/posts/fairness-in-tlaplus/",
+      "savedAt": "2024-12-01T16:17:52.237000+00:00",
+      "description": "The author shares their journey of understanding fairness concepts in TLA+, focusing on weak and strong fairness. They explain the importance of \"progress\" and \"stabilize\" in breaking down complex formulae. The article also provides clear definitions and relationships between these concepts for better comprehension.",
+      "tags": [
+        "cs/distsys",
+        "math/formal-methods"
+      ]
+    },
+    {
+      "id": "01je1cc0afzs697feaqh0a2dde",
+      "title": "Parents & Owners in React: Data Flow",
+      "url": "https://julesblom.com/writing/parents-owners-data-flow",
+      "savedAt": "2024-12-01T15:10:34.831000+00:00",
+      "description": "React components can be organized into a hierarchy, allowing for flexible composition and control over content. Understanding the difference between parent and owner components is key to effective data flow and component management. Properly composed components can reduce complexity and improve encapsulation in a React application.",
+      "tags": [
+        "web",
+        "framework/react"
+      ]
+    },
+    {
+      "id": "01je0493b69b6ca4br8423e1hd",
+      "title": "How to do distributed locking",
+      "url": "https://martin.kleppmann.com/2016/02/08/how-to-do-distributed-locking.html",
+      "savedAt": "2024-12-01T03:29:56.582000+00:00",
+      "description": "The Redlock algorithm aims to provide fault-tolerant distributed locks using Redis, but it has significant limitations. For efficiency, simpler single-node locking is often sufficient, while for correctness, a more reliable system like ZooKeeper is recommended. Overall, Redlock is seen as overly complex and not safe enough for critical locking needs.",
+      "tags": [
+        "for-later",
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "01je048ej0e9d4jengk7j09yda",
+      "title": ">>> 2024-02-11 the top of the DNS hierarchy (PDF)",
+      "url": "https://computer.rip/2024-02-11-the-top-of-the-DNS-hierarchy.html",
+      "savedAt": "2024-12-01T03:29:35.296000+00:00",
+      "description": "Bitcoin and DNS both rely on a small number of hardcoded domain names for essential functions. DNS translates web addresses into numerical IP addresses and is structured in a hierarchical system, with thirteen root servers at the top. These root servers are crucial for internet functionality and have faced various DDoS attacks, but their design helps maintain stability.",
+      "tags": [
+        "cs/networking"
+      ]
+    },
+    {
+      "id": "01je00zs42dctd7n4rtg9ymtvm",
+      "title": "asatarin/testing-distributed-systems: Curated list of resources on testing distributed systems",
+      "url": "https://github.com/asatarin/testing-distributed-systems",
+      "savedAt": "2024-12-01T02:32:25.474000+00:00",
+      "description": "The text is a curated list of resources focused on testing distributed systems, highlighting various methodologies and tools used by companies like Amazon and Google. It discusses approaches such as formal verification with TLA+, deterministic simulation, and chaos testing, emphasizing their benefits and challenges. Additionally, it includes links to case studies, workshops, and techniques for improving the reliability and performance of distributed systems.",
+      "tags": [
+        "cs/distsys",
+        "cs/testing",
+        "type/repository"
+      ]
+    },
+    {
+      "id": "01je00pzsd174cn09ky6w285vc",
+      "title": "Learning and reviewing system internals: tactics and psychology",
+      "url": "https://jack-vanlightly.com/blog/2024/5/7/learning-and-reviewing-system-internals-tactics-and-psychology",
+      "savedAt": "2024-12-01T02:27:37.388000+00:00",
+      "description": "Studying and reviewing system internals involves learning, forming opinions, and making judgments. Sharing your understanding with others helps test and improve your knowledge. Building mental models and seeking feedback are key to understanding complex systems effectively.",
+      "tags": [
+        "learning",
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "01je00875eqftmx3qfxhz0zg57",
+      "title": "Lamport clocks",
+      "url": "https://blog.fponzi.me/2024-02-02-lamport-clocks.html",
+      "savedAt": "2024-12-01T02:19:33.421000+00:00",
+      "description": "This document is a summary of the paper \"Time, Clocks, and the Ordering of Events in a Distributed System\" by Leslie Lamport. The paper introduces the concept of \"happened before\" relation and logical clocks, also known as Lamport clocks. It explains how these clocks can be used to solve the mutual exclusion problem in a distributed system. The paper provides a formal definition of the \"happened before\" relation and the Clock condition for logical clocks. It also discusses the limitations of logical clocks and presents a system of clocks using physical clocks that can satisfy the strong clock condition. The document concludes with an example of how Lamport clocks can be used to solve the mutual exclusion problem and a TLA+ specification based on the paper's concepts.",
+      "tags": [
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "01jdzzjfkv4kv273fjrzyyv0zz",
+      "title": "Understanding the BM25 full text search algorithm",
+      "url": "https://emschwartz.me/understanding-the-bm25-full-text-search-algorithm/",
+      "savedAt": "2024-12-01T02:07:41.179000+00:00",
+      "description": "BM25 is a popular algorithm used for full text search that ranks documents based on their relevance to a query. It combines factors like term frequency and the rarity of query terms to score documents, allowing comparisons within the same collection. Higher BM25 scores indicate a greater likelihood that a document is relevant to the query.",
+      "tags": [
+        "cs/database",
+        "cs/algorithms"
+      ]
+    },
     {
       "id": "01jdzxpjj570d25z9j36d05rjf",
       "title": "Jan 14 A career ending mistake",
@@ -38,6 +213,7 @@
       "savedAt": "2024-11-29T19:39:31.403000+00:00",
       "description": "Build your own version of SQLite in this coding challenge. You will learn about SQL syntax, SQLite's file format, and how to handle basic SQL queries. This project will help you understand important concepts like B-trees and indexes.",
       "tags": [
+        "for-later",
         "cs/database",
         "resource/learning"
       ]
@@ -2621,6 +2797,14 @@
         "cool",
         "hardware"
       ]
+    },
+    {
+      "id": "01jbep9fbjjd1g2zjcw0sjqtcj",
+      "title": "IBM RISC System/6000 Family",
+      "url": "https://computeradsfromthepast.substack.com/p/ibm-risc-system6000-family",
+      "savedAt": "2024-12-01T23:01:16.353000+00:00",
+      "description": "Just when PowerSeeker thought they had nowhere to go...",
+      "tags": []
     },
     {
       "id": "01jbep9f2nw2fzhas0n1et5e51",
