@@ -113,7 +113,7 @@ const readingTime = remarkPluginFrontmatter.readingTime;
         ? (
           <details class="toc--wrapper" open>
             <summary>
-              <h2>Table of Contents</h2>
+              Table of Contents
             </summary>
             <section class="toc">
                 <ul>
@@ -157,10 +157,11 @@ const readingTime = remarkPluginFrontmatter.readingTime;
   @media screen and (min-width: 425px) {
     .toc--wrapper {
       background: #f5f5f5;
-      /* position: absolute; */
+      position: absolute;
       top: 5px;
       left: -300px;
-      max-width: 270px;
+      width: 270px;
+      padding: var(--spacing);
     }
   }
 
