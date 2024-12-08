@@ -1,6 +1,81 @@
 {
-  "lastUpdate": "2024-12-06T02:27:36.556Z",
+  "lastUpdate": "2024-12-08T06:49:18.779Z",
   "data": [
+    {
+      "id": "01jejfsr9skfcaeyx40ba9bp9y",
+      "title": "Hey, wait – is employee performance really Gaussian distributed??",
+      "url": "https://timdellinger.substack.com/p/hey-wait-is-employee-performance",
+      "savedAt": "2024-12-08T06:37:36.441000+00:00",
+      "description": "Employee performance is likely Pareto-distributed rather than Gaussian, meaning a small number of employees make a significant impact while many perform below expectations. This insight suggests that traditional performance management practices, which often rely on the assumption of a bell curve, may be flawed and can unjustly penalize competent workers. Companies should reconsider how they evaluate performance and hiring, focusing on individual circumstances rather than rigid statistical norms.",
+      "tags": [
+        "business",
+        "for-later",
+        "management"
+      ]
+    },
+    {
+      "id": "01jejbqnvh85p18h4r5pajb3jq",
+      "title": "𝔇𝔢𝔱𝔢𝔯𝔪𝔦𝔫𝔦𝔰𝔱𝔦𝔠 𝔰𝔦𝔪𝔲𝔩𝔞𝔱𝔦𝔬𝔫 𝔱𝔢𝔰𝔱𝔦𝔫𝔤",
+      "url": "https://poorlydefinedbehaviour.github.io/posts/deterministic_simulation_testing/",
+      "savedAt": "2024-12-08T05:26:34.097000+00:00",
+      "description": "The text discusses a simulation testing framework for a Paxos implementation, which allows for the reproduction of bugs by using a seeded random number generator. It describes how the simulator generates actions, such as sending messages or crashing replicas, and tracks the state of the system. The goal is to ensure that the replicas make consistent decisions, even under various failure scenarios.",
+      "tags": [
+        "cs/distsys",
+        "cs/testing"
+      ]
+    },
+    {
+      "id": "01jehn7gjmnj2n02hm9x9k9qv0",
+      "title": "Pessimistic or Optimistic Concurrency Control? Lessons Learned from Real-World Customer Scenarios",
+      "url": "https://medium.com/@siddontang/pessimistic-or-optimistic-concurrency-control-lessons-learned-from-real-world-customer-scenarios-a4f0b8dd6e49",
+      "savedAt": "2024-12-07T22:53:15.732000+00:00",
+      "description": "Choosing between Pessimistic Concurrency Control (PCC) and Optimistic Concurrency Control (OCC) is challenging for database design. Real-world customer experiences showed that PCC provides more stable and predictable performance than OCC, which can lead to unexpected rollbacks and complexities. As a result, many customers now prefer PCC for its reliability and ease of use.",
+      "tags": [
+        "cs/database"
+      ]
+    },
+    {
+      "id": "01jefv24mzb6ag664exk23dgne",
+      "title": "Category Theory in Programming",
+      "url": "https://docs.racket-lang.org/ctp/index.html",
+      "savedAt": "2024-12-07T05:56:42.271000+00:00",
+      "description": "The tutorial \"Category Theory in Programming\" introduces Racket programmers to the mathematical concepts of category theory and how they relate to programming. It aims to help programmers think differently about their work by using abstract ideas from category theory to improve problem-solving and system design. By exploring these concepts, readers can gain new insights and enhance their programming skills.",
+      "tags": [
+        "for-later",
+        "math/category-theory"
+      ]
+    },
+    {
+      "id": "01jefv1gmxwasae2z42p4vxttz",
+      "title": "Crash Course on Notation in Programming Language Theory",
+      "url": "http://siek.blogspot.com/2012/07/crash-course-on-notation-in-programming.html",
+      "savedAt": "2024-12-07T05:56:21.789000+00:00",
+      "description": "This blog post by Jeremy Siek introduces the notation used in programming language theory to help readers understand his other writings. It explains how relations and rules define the syntax and semantics of programming languages, using examples like integer arithmetic. The post concludes by highlighting the importance of relations in defining type systems and the challenges of applying these rules to compile expressions.",
+      "tags": [
+        "for-later",
+        "cs/pl-theory"
+      ]
+    },
+    {
+      "id": "01jeft63cmr6jvafhppa03yc9e",
+      "title": "7 Databases in 7 Weeks for 2025",
+      "url": "https://matt.blwt.io/post/7-databases-in-7-weeks-for-2025/",
+      "savedAt": "2024-12-07T05:41:28.132000+00:00",
+      "description": "The article suggests spending a week learning about seven different databases that are worth exploring in 2025. These databases include PostgreSQL, SQLite, DuckDB, ClickHouse, FoundationDB, TigerBeetle, and CockroachDB, each with unique features and use cases. The goal is to help readers understand various database technologies to solve different problems effectively.",
+      "tags": [
+        "cs/database"
+      ]
+    },
+    {
+      "id": "01jee5ms1t51rf265dg5g6r9f6",
+      "title": "How to Study Mathematics",
+      "url": "https://www.math.uh.edu/~dblecher/pf2.html",
+      "savedAt": "2024-12-06T14:23:09.882000+00:00",
+      "description": "To study mathematics effectively, start by understanding definitions, theorems, and their relationships. Focus on the logical structure of theorems and practice applying them to problems. Developing technique is key, as it helps you solve complex problems and gain a deeper understanding of the subject.",
+      "tags": [
+        "math"
+      ]
+    },
     {
       "id": "01jecqx7hdnpg0xsgt6xj8r9mw",
       "title": "The Meditation on Curiosity",
@@ -296,6 +371,7 @@
       "savedAt": "2024-11-25T19:26:55.229000+00:00",
       "description": "The text lists a series of tutorials focused on user interface development and graphics programming using Ant Tweak Bar and OpenGL. Topics include basic shapes, transformations, lighting, shadow mapping, and advanced techniques like tessellation and Vulkan. Each tutorial builds on the previous ones to enhance understanding of 3D graphics and rendering.",
       "tags": [
+        "for-later",
         "resource/list",
         "cs/computer-graphics"
       ]
@@ -7913,7 +7989,8 @@
       "savedAt": "2024-10-17T22:58:00.394000+00:00",
       "description": "If you've ever sat at a stop light that was just stuck on red, where there was clearly a problem with the light where it wasn't ever switching green, you've encountered a liveness problem with a system. Is the turning light just taking a long time? Or is it broken? A liveness property of a…",
       "tags": [
-        "cs/distsys"
+        "cs/distsys",
+        "math/formal-methods"
       ]
     },
     {
