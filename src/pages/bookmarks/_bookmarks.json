@@ -1,6 +1,101 @@
 {
-  "lastUpdate": "2024-12-08T06:49:18.779Z",
+  "lastUpdate": "2024-12-12T04:42:29.423Z",
   "data": [
+    {
+      "id": "01jerhxmr8stt4z4ey71e2r6gd",
+      "title": "one big choice shapes a hundred more",
+      "url": "https://sive.rs/ripple",
+      "savedAt": "2024-12-10T15:10:07.624000+00:00",
+      "description": "Derek Sivers reflects on a life-changing choice when he sees a beautiful house but realizes it doesn't align with his desire for adventure. Instead of settling down, he prefers to explore the world and make choices that lead to new experiences. He emphasizes that one big decision can influence many smaller ones, encouraging us to think about the long-term implications of our choices.",
+      "tags": [
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "01jeph3jazmfcpa05kn5a7bkwy",
+      "title": "How to Grow Professional Relationships",
+      "url": "https://tej.as/blog/how-to-grow-professional-relationships-tjs-model",
+      "savedAt": "2024-12-09T20:17:24.318000+00:00",
+      "description": "The TJS Collaboration Model describes a spectrum of professional relationships, moving from competition to collaboration. Successful collaboration occurs when individuals work together on the same project, fostering trust and synergy. To enhance relationships, it's important to adopt an abundance mindset and actively support each other's goals.",
+      "tags": [
+        "career"
+      ]
+    },
+    {
+      "id": "01jep93rmapkkcpfpq77et2z96",
+      "title": "The Art of Long-Term Thinking in a Short-Sighted World",
+      "url": "https://www.joanwestenberg.com/the-art-of-long-term-thinking-in-a-short-sighted-world/",
+      "savedAt": "2024-12-09T17:57:42.154000+00:00",
+      "description": "The author argues that society often prioritizes short-term gains, like taking immediate money, instead of considering long-term benefits, such as investing in lasting assets. This short-sightedness leads to poor decisions in areas like architecture and technology. The proposal is to start thinking about the future by making decisions that will benefit people 100 years from now.",
+      "tags": [
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "01jekbc3km9fwcbbhzj02ghdj6",
+      "title": "Local Optimizations Don't Lead to Global Optimums",
+      "url": "https://ferd.ca/local-optimizations-don-t-lead-to-global-optimums.html",
+      "savedAt": "2024-12-08T14:39:29.395000+00:00",
+      "description": "Local optimizations in systems often lead to increased costs and inefficiencies without realigning the entire system. As technology automates tasks, it can create unexpected pressures, making it harder to maintain balance and adaptability. Ultimately, systems need to be continuously adjusted to handle disruptions, rather than relying solely on automation for improvement.",
+      "tags": [
+        "cs/distsys",
+        "systems-theory"
+      ]
+    },
+    {
+      "id": "01jejjrrtn8338nd4kywthychv",
+      "title": "Read, Write, Execute",
+      "url": "https://hh360.user.srcf.net/blog/",
+      "savedAt": "2024-12-08T07:29:29.941000+00:00",
+      "description": "The paper \"Fast Flexible Paxos\" introduces a new approach to improve state machine replication protocols by combining techniques from Fast Paxos and Flexible Paxos. This method allows operations to be replicated to fewer servers while maintaining performance and consistency. The authors believe that Fast Flexible Paxos could enhance the efficiency of distributed systems without increasing the burden on server resources.",
+      "tags": [
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "01jejj79yjbygybtfadqszhk5q",
+      "title": "Sensibly Default",
+      "url": "https://matt.blwt.io/post/sensibly-default/",
+      "savedAt": "2024-12-08T07:20:02.793000+00:00",
+      "description": "The author expresses frustration with GraphQL's security flaws, particularly its lack of sensible defaults that can lead to vulnerabilities. Many GraphQL implementations enable risky features like schema introspection by default, which can expose sensitive information. The author argues for better default configurations to enhance security and protect users from potential attacks.",
+      "tags": [
+        "web",
+        "cs/security"
+      ]
+    },
+    {
+      "id": "01jejj0emmfrm9q5w93banx63r",
+      "title": "Compilers: Incrementally and Extensibly",
+      "url": "https://okmij.org/ftp/tagless-final/Compiler/index.html#intro",
+      "savedAt": "2024-12-08T07:16:13.076000+00:00",
+      "description": "The course teaches students to build a real compiler that translates a high-level language into x86-64 machine code using OCaml. It emphasizes incremental development, allowing students to gradually extend their compiler while reusing previous work. The approach includes modern software practices like test-driven development and version control.",
+      "tags": [
+        "for-later",
+        "cs/compilers",
+        "cs/pl-theory"
+      ]
+    },
+    {
+      "id": "01jejhr396n1h28c5wvmkns59b",
+      "title": "Predictive Scaling in MongoDB Atlas, an Experiment",
+      "url": "https://emptysqua.re/blog/mongodb-predictive-scaling-experiment/",
+      "savedAt": "2024-12-08T07:11:39.301000+00:00",
+      "description": "MongoDB experimented with predictive scaling in their Atlas cloud service to better anticipate customer demand and automatically adjust server sizes. This aims to save customers money and reduce carbon emissions by optimizing resource use. The results showed that predictive scaling could significantly improve CPU utilization compared to the existing reactive method.",
+      "tags": [
+        "cs/database"
+      ]
+    },
+    {
+      "id": "01jejh266kxhsmw4xeppw8ze9x",
+      "title": "How Good Are American Roads?",
+      "url": "https://www.construction-physics.com/p/how-good-are-american-roads",
+      "savedAt": "2024-12-08T06:59:41.395000+00:00",
+      "description": "American interstate roads are generally high-quality, but urban roads often suffer from poor conditions. While the U.S. ranks well in international comparisons, many non-interstate roads are in worse shape compared to those in Europe. Overall, major cities in the U.S. tend to have significant road quality issues, especially in California.",
+      "tags": [
+        "cool",
+        "infrastructure"
+      ]
+    },
     {
       "id": "01jejfsr9skfcaeyx40ba9bp9y",
       "title": "Hey, wait – is employee performance really Gaussian distributed??",
