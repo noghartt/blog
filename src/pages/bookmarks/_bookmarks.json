@@ -1,6 +1,507 @@
 {
-  "lastUpdate": "2024-12-12T04:42:29.423Z",
+  "lastUpdate": "2024-12-17T22:52:46.204Z",
   "data": [
+    {
+      "id": "01jfbd0khg187w75a9109k0633",
+      "title": "A CAP tradeoff in the wild",
+      "url": "https://decomposition.al/blog/2023/12/31/a-cap-tradeoff-in-the-wild/",
+      "savedAt": "2024-12-17T22:49:56.016000+00:00",
+      "description": "The CAP theorem states that in a networked system, you can't have both safety (correct responses) and liveness (eventual responses) when partitions occur. A bug in Kubernetes illustrates this tradeoff, where two components can't communicate due to a network issue, leading to inconsistent data. Developers struggle to find a solution that maintains both properties, highlighting the challenges of distributed systems.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01jfbcg80109k3j2p74ze56rd8",
+      "title": "Distributed Systems Horror Stories: Kubernetes Deep Health Checks",
+      "url": "https://encore.dev/blog/horror-stories-k8s",
+      "savedAt": "2024-12-17T22:40:59.905000+00:00",
+      "description": "The blog post discusses a mistake in distributed systems that can lead to cascading failure, specifically focusing on Kubernetes deep health checks. Kubernetes is a container orchestration platform that allows developers to configure and run applications without needing to be networking experts. The post explains the concept of liveness, readiness, and startup probes in Kubernetes and zooms in on readiness probes for HTTP-based applications. It highlights the potential for cascading failure when a deep readiness check is implemented and offers suggestions for improving the handling of dependencies and failures in distributed systems.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01jfbcbvc4719wx5b35kkqtyjz",
+      "title": "Modern Hardware for Future Databases",
+      "url": "https://transactional.blog/blog/2024-modern-database-hardware",
+      "savedAt": "2024-12-17T22:38:35.908000+00:00",
+      "description": "The future of databases may see exciting changes, but access to advanced hardware remains uncertain. Technologies like RDMA and SmartNICs promise to improve database performance, yet many of these innovations are not available in the cloud for general use. Without accessible hardware, significant advancements in database capabilities may be limited.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01jfbcavtzvemck6nrr2xbaq92",
+      "title": "Dependent Types and the Art of HTTP Headers",
+      "url": "https://www.unwoundstack.com/blog/dependent-types-and-http-headers.html",
+      "savedAt": "2024-12-17T22:38:03.615000+00:00",
+      "description": "The article explores how to use dependent types in Idris to ensure that HTTP header names are valid at compile time. It demonstrates creating types that represent conditions, like even numbers, and shows how to enforce these conditions automatically. The author aims to combine type safety with practical applications, like representing header names, to avoid errors in code.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01jfbcaaxskg5cbm1m0x3jm7jv",
+      "title": "The Structure of a Worldview",
+      "url": "https://www.allcatsarefemale.com/p/the-structure-of-a-worldview",
+      "savedAt": "2024-12-17T22:37:46.296000+00:00",
+      "description": "The essay explores how worldviews are structured and how they influence beliefs and behaviors. It compares worldviews to personality traits, suggesting that both exist in a high-dimensional space with core values that shape individual perspectives. Understanding these structures could help explain the differences among groups and guide further research on worldviews.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01jfbc9n09424nq3ma1xm9bz5r",
+      "title": "On the Relationship Between Static Analysis and Type Theory",
+      "url": "https://semantic-domain.blogspot.com/2019/08/on-relationship-between-static-analysis.html",
+      "savedAt": "2024-12-17T22:37:23.848000+00:00",
+      "description": "Type systems and static analyses are closely related; one view sees type systems as a form of static analysis, while another sees them as a foundation for building static analyses. Types can represent program properties or define valid programs, which can lead to confusion in understanding their role. A unified perspective on type theory and static analysis can reveal valuable insights across different domains.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01jfbc628718t41ckx5dma8yaz",
+      "title": "The disaggregated write-ahead log",
+      "url": "https://blog.schmizz.net/disaggregated-wal",
+      "savedAt": "2024-12-17T22:35:26.343000+00:00",
+      "description": "The traditional approach to replicated systems involves co-locating the write-ahead log (WAL) on nodes maintaining state, often using consensus protocols like Paxos or Raft. Google's Colossus stores logs and state for internal systems and cloud services like Bigtable and Spanner. AWS developed a transactional journal primitive for multi-zone replicated services like DynamoDB and Amazon S3. Other companies like Meta and Fauna are exploring disaggregated log setups for improved management and scalability. The concept of a hypothetical S2, a serverless API for logs, could revolutionize distributed systems by simplifying complex processes and enabling innovative design solutions.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01jfbc5qkjaa92eykn76q57gh5",
+      "title": "A Roadmap to Security Game Testing: Finding Exploits in Video Games",
+      "url": "https://shalzuth.com/Blog/FindingExploitsInGames",
+      "savedAt": "2024-12-17T22:35:15.442000+00:00",
+      "description": "This guide explains how to find exploits in the video game Sword of Convallaria for educational purposes. It covers techniques for extracting game data, analyzing network protocols, and conducting security testing. The author encourages readers to improve their skills in identifying vulnerabilities to help create a more secure gaming environment.",
+      "tags": [
+        "cs/gamedev"
+      ]
+    },
+    {
+      "id": "01jfbc2aft0zn68xsy9dwzsnph",
+      "title": "Model checking safety of Ben-Or's Byzantine consensus with Apalache",
+      "url": "https://protocols-made-fun.com/specification/modelchecking/tlaplus/apalache/2024/11/03/ben-or.html",
+      "savedAt": "2024-12-17T22:33:23.705000+00:00",
+      "description": "The text discusses using the Apalache model checker to verify the safety of Ben-Or’s Byzantine consensus algorithm. It highlights the importance of checking message types and responses from both correct and faulty processes, while also emphasizing the need for careful definitions of process behaviors. The method proves effective in finding execution examples and checking invariants quickly, even in the presence of faults.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01jfbc220kdqqtbxxhxjxft5v9",
+      "title": "A Map of Sync",
+      "url": "https://stack.convex.dev/a-map-of-sync",
+      "savedAt": "2024-12-17T22:33:15.027000+00:00",
+      "description": "The local-first and sync space is complex, with various platforms and technologies making it hard to understand their relationships. Convex is working on improving its sync engine for better offline support and responsiveness. This document categorizes sync platforms across different dimensions to clarify their functionalities and trade-offs.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01jfbc13pjx69pdnn059h1x49h",
+      "title": "Optimizers: The Low-Key MVP",
+      "url": "https://duckdb.org/2024/11/14/optimizers.html",
+      "savedAt": "2024-12-17T22:32:43.986000+00:00",
+      "description": "The query optimizer is crucial for improving the performance of analytical databases like DuckDB. It automatically modifies inefficient query plans to make them much faster, especially as data changes over time. By using optimization rules, DuckDB can significantly enhance query performance, often by a factor of ten.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01jfbc0fsxtmec2r9r18y9z5c0",
+      "title": "How Public Key Cryptography Really Works | Quanta Magazine",
+      "url": "https://www.quantamagazine.org/how-public-key-cryptography-really-works-20241115/",
+      "savedAt": "2024-12-17T22:32:23.613000+00:00",
+      "description": "Public key cryptography uses two keys: a public key that anyone can access and a private key that remains secret. This system allows messages to be securely scrambled and unscrambled, ensuring that only the intended recipient can read them. While advances in technology like quantum computers pose threats to this method, new solutions are being developed to keep information secure.",
+      "tags": [
+        "for-later",
+        "cs/cryptography"
+      ]
+    },
+    {
+      "id": "01jfbbxbmqhzycrny1amn9jgmq",
+      "title": "Implementing Type Systems as Macros",
+      "url": "https://lambdaland.org/posts/2023-08-14_types_with_macros/",
+      "savedAt": "2024-12-17T22:30:41.047000+00:00",
+      "description": "The article explains how to implement type systems using macros in Racket, focusing on creating macros that check and erase type information during function definitions and calls. It introduces key macros like `checked-λ` and `checked-app`, which ensure type consistency and help produce compile-time errors for type mismatches. Additionally, it describes supporting functions that aid in managing type information while maintaining the structure of the code.",
+      "tags": [
+        "for-later",
+        "type-theory"
+      ]
+    },
+    {
+      "id": "01jfbbg2rvy38bgrwaark1s33j",
+      "title": "Data Replication Design Spectrum",
+      "url": "https://transactional.blog/blog/2024-data-replication-design-spectrum",
+      "savedAt": "2024-12-17T22:23:25.979000+00:00",
+      "description": "This post analyzes different data replication algorithms, focusing on their efficiency, availability, and latency. It compares classic and optimized versions of these algorithms, highlighting trade-offs like read throughput and failure tolerance. Ultimately, it shows that reconfiguration-based algorithms can be more cost-effective than quorum-based methods for certain use cases.",
+      "tags": [
+        "cs/distsys",
+        "cs/database"
+      ]
+    },
+    {
+      "id": "01jfbbexsj4xngpe04wxbz4tg4",
+      "title": "PSA: Most databases do not do checksums by default",
+      "url": "https://avi.im/blag/2024/databases-checksum/",
+      "savedAt": "2024-12-17T22:22:48.114000+00:00",
+      "description": "Most databases, including SQLite and Postgres, do not have checksums enabled by default, which can lead to serious data issues. A checksum can help detect problems like single bit flips that can corrupt data without notice. Some databases that do enable checksums by default include TigerBeetle, FoundationDB, and MySQL with InnoDB.",
+      "tags": [
+        "for-later",
+        "cs/database"
+      ]
+    },
+    {
+      "id": "01jfbbcpfq4d19tqscncnnfpe1",
+      "title": "Extending MVCC to be serializable, in TLA+",
+      "url": "https://surfingcomplexity.blog/2024/11/03/extending-mvcc-to-be-serializable-in-tla/",
+      "savedAt": "2024-12-17T22:21:35.095000+00:00",
+      "description": "This blog post discusses how to extend multi-version concurrency control (MVCC) to achieve serializability, addressing its limitations in snapshot isolation. The author introduces a new module in TLA+ that tracks additional transaction dependencies to prevent non-serializable histories. By incorporating new abort mechanisms, the modified MVCC ensures consistent transaction execution while maintaining serializability.",
+      "tags": [
+        "for-later",
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "01jfbbca47cpq8zyn0cw8b9ny9",
+      "title": "CAP is Good, Actually",
+      "url": "https://buttondown.com/jaffray/archive/cap-is-good-actually/",
+      "savedAt": "2024-12-17T22:21:22.439000+00:00",
+      "description": "The CAP theorem states that a distributed system cannot achieve consistency, availability, and tolerance to network partitions all at once. It is often misunderstood, leading to confusion in its application to real-world systems. However, CAP is valuable as it helps clarify design constraints and guides decision-making in distributed computing.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01jfbb9a0w0f6na2t9drs5s047",
+      "title": "lorentz app",
+      "url": "https://lorentz.app/blog-item.html?id=healthy-health-checks",
+      "savedAt": "2024-12-17T22:19:44.028000+00:00",
+      "description": "The Lorentz app focuses on making health checks for systems easier and more effective. It covers various types of health checks, including those for processes, containers, and load balancers. The app aims to improve health interpretation and ensure better system performance.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01jfbb81vb9wjpxv1ktx2px4h2",
+      "title": "The Prequel to SQL is SEQUEL",
+      "url": "https://buttondown.com/jaffray/archive/the-prequel-to-sql-is-sequel/",
+      "savedAt": "2024-12-17T22:19:02.891000+00:00",
+      "description": "The paper \"SEQUEL: A Structured English Query Language\" by Don Chamberlin and Ray Boyce is the precursor to SQL and highlights the early ideas of data-processing. Although it was groundbreaking for its time, the paper shows some outdated concepts and grammar issues when read in 2024. Despite these quirks, the foundational ideas in SEQUEL were remarkably advanced and influenced the development of modern SQL.",
+      "tags": [
+        "for-later",
+        "cs/database"
+      ]
+    },
+    {
+      "id": "01jfbb3c3tzb838z41jgm665r3",
+      "title": "Transaction Isolation in Postgres, explained",
+      "url": "https://www.thenile.dev/blog/transaction-isolation-postgres",
+      "savedAt": "2024-12-17T22:16:29.562000+00:00",
+      "description": "Transaction isolation in Postgres helps manage how multiple transactions interact with each other. It has different levels, from \"Read Uncommitted\" to \"Serializable,\" which determine how anomalies like dirty reads and phantom reads are handled. Postgres uses a method called MVCC to avoid locking issues, but higher isolation levels can lead to transaction rollbacks in highly concurrent situations.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01jfbb2ptjq1cna3k6798bvpa1",
+      "title": "Two-phase commit and beyond",
+      "url": "https://muratbuffalo.blogspot.com/2018/12/2-phase-commit-and-beyond.html",
+      "savedAt": "2024-12-17T22:16:07.762000+00:00",
+      "description": "The post discusses the two-phase commit protocol and its challenges in distributed systems, particularly focusing on modeling it with TLA+. It highlights issues like consistency and progress, especially when failures occur, and illustrates the FLP impossibility result, which shows that consensus cannot be achieved under certain conditions. The introduction of a Backup Transaction Manager (BTM) aims to address some of these issues, but it still faces challenges in maintaining consistency when resource managers fail.",
+      "tags": [
+        "for-later",
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "01jfbax724k1gvv4awj6xegg25",
+      "title": "The Soul of an Old Machine: Revisiting the von Neumann Architecture",
+      "url": "https://ankush.dev/p/neumann_architecture",
+      "savedAt": "2024-12-17T22:13:07.780000+00:00",
+      "description": "The von Neumann architecture, crucial in modern computing, allows machines to store both data and instructions in the same memory. This design enables general-purpose computing, making it possible for computers to perform a wide range of tasks without physical rewiring. Despite advancements, challenges like memory latency and round-off errors in floating-point arithmetic continue to affect computing today.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01jfbav1hdt4y1fwpd12692xh4",
+      "title": "SQLite Index Visualization: Search",
+      "url": "https://mrsuh.com/articles/2024/sqlite-index-visualization-search/",
+      "savedAt": "2024-12-17T22:11:56.589000+00:00",
+      "description": "SQLite uses binary search to quickly find values in an index. When querying, it reads pages and compares cell values, resulting in fewer comparisons than the worst-case scenario. Understanding how SQLite searches indexes helps us see how it manages data efficiently.",
+      "tags": [
+        "for-later",
+        "cs/database"
+      ]
+    },
+    {
+      "id": "01jfb8x04by29p83e1cm8nwvs5",
+      "title": "Using Nix to Try Tools",
+      "url": "https://entropicthoughts.com/using-nix-to-try-tools",
+      "savedAt": "2024-12-17T21:38:03.531000+00:00",
+      "description": "Achilleas uses curl with hyperfine to benchmark web performance, but installing hyperfine globally can be inconvenient. Instead, Nix allows us to run hyperfine without global installation by creating a temporary environment. This approach is efficient and demonstrates the benefits of using Nix for quick experiments.",
+      "tags": [
+        "for-later",
+        "tools/nix"
+      ]
+    },
+    {
+      "id": "01jfb8w9k3p89274exvxzrdfmv",
+      "title": "Building a distributed log using S3 (under 150 lines of Go)",
+      "url": "https://avi.im/blag/2024/s3-log/",
+      "savedAt": "2024-12-17T21:37:40.451000+00:00",
+      "description": "The article explains how to create a durable and scalable distributed log using Amazon S3, emphasizing the benefits of using cloud storage over traditional disk systems. It covers key concepts like appending records, ensuring unique identifiers for each entry, and implementing checksums for data integrity. The project is open-source and invites contributions from readers.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01jfb6pfzscqfv1xxq68sby6ce",
+      "title": "Disillusioning the Magic of the fork System Call",
+      "url": "https://blog.codingconfessions.com/p/the-magic-of-fork",
+      "savedAt": "2024-12-17T20:59:33.241000+00:00",
+      "description": "The fork system call in Unix-like operating systems creates a child process that is a copy of the parent process. After the fork, the parent receives the child's process ID, while the child gets a return value of zero, allowing them to follow different execution paths. The article explains how this process works at a low level, including the use of registers and kernel functions.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01jfb6p43f9pmc1hz54mkbxx07",
+      "title": "Quake 3 Source Code Review: Network Model (Part 3 of 5) >>",
+      "url": "https://fabiensanglard.net/quake3/network.php",
+      "savedAt": "2024-12-17T20:59:21.071000+00:00",
+      "description": "The Quake III network model is designed for fast-paced gameplay, using UDP/IP for communication to minimize latency and avoid sending old information. It features a system that efficiently manages game state updates by using snapshots and deltas, allowing for both full and partial updates depending on what information is available. The server keeps track of the last 32 game states for each client, ensuring that updates are streamlined and reliable despite potential packet loss.",
+      "tags": [
+        "for-later",
+        "cs/networking"
+      ]
+    },
+    {
+      "id": "01jfary2qhryemr87enaxt8zjq",
+      "title": "Analytics-Optimized Concurrent Transactions",
+      "url": "https://duckdb.org/2024/10/30/analytics-optimized-concurrent-transactions.html",
+      "savedAt": "2024-12-17T16:59:01.745000+00:00",
+      "description": "DuckDB uses innovative concurrency control techniques that allow multiple transactions to operate simultaneously without locking data, making it efficient for analytical workloads. It employs Multi-Version Concurrency Control (MVCC) and Write-Ahead Logging (WAL) to ensure data consistency and durability. This approach enables DuckDB to handle large-scale updates effectively while maintaining transactional guarantees.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01jfaggmq9ky3wd0f65n12ehhc",
+      "title": "Playground Wisdom: Threads Beat Async/Await",
+      "url": "https://lucumr.pocoo.org/2024/11/18/threads-beat-async-await/",
+      "savedAt": "2024-12-17T14:31:52.809000+00:00",
+      "description": "The author believes that async/await is not the best solution for concurrency in programming languages and suggests that threads offer a better alternative. While async/await has driven innovation and made concurrent programming more accessible, it also introduces complexity that can complicate development. Ultimately, the author argues for a return to using threads for clearer and more effective concurrency.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01jfagbez3t6a3tvjkadxt56qs",
+      "title": "An Overview of Distributed PostgreSQL Architectures",
+      "url": "https://www.crunchydata.com/blog/an-overview-of-distributed-postgresql-architectures",
+      "savedAt": "2024-12-17T14:29:03.075000+00:00",
+      "description": "Distributed PostgreSQL architectures aim to improve the availability and durability of databases while addressing the operational challenges of single-machine setups. However, these architectures often come with trade-offs in performance and complexity, particularly related to latency and consistency. Overall, while distributed systems provide scalability, they may also lead to slower responses and require careful consideration of workload suitability.",
+      "tags": [
+        "for-later",
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "01jfaerzngxmqaqj6mpq8hs0mv",
+      "title": "Understanding Round Robin DNS",
+      "url": "https://blog.hyperknot.com/p/understanding-round-robin-dns",
+      "savedAt": "2024-12-17T14:01:29.007000+00:00",
+      "description": "Round Robin DNS allows multiple servers to share the load for a single subdomain, helping to automatically detect offline servers. Browsers and Cloudflare choose which server to connect to based on various methods, with browsers generally performing better in detecting the closest server. However, Cloudflare struggles with offline server detection, leading to potential service issues for users.",
+      "tags": [
+        "cs/networking"
+      ]
+    },
+    {
+      "id": "01jfaehhc6d0wpf2ejxzhjzjpw",
+      "title": "Herding elephants: Lessons learned from sharding Postgres at Notion",
+      "url": "https://www.notion.com/blog/sharding-postgres-at-notion",
+      "savedAt": "2024-12-17T13:57:24.998000+00:00",
+      "description": "Notion successfully improved its application performance by sharding its PostgreSQL database into 480 logical shards across 32 physical databases. The sharding process involved careful planning on which data to partition and how to manage it effectively to maintain data integrity and avoid inconsistencies. They implemented a custom routing scheme from their application to ensure efficient data access during the migration.",
+      "tags": [
+        "cs/distsys",
+        "cs/database"
+      ]
+    },
+    {
+      "id": "01jfadcfsgnmgg3s23xt1r6g57",
+      "title": "A Brief Introduction to Linear Types",
+      "url": "https://borretti.me/article/linear-types-exceptions",
+      "savedAt": "2024-12-17T13:37:10.960000+00:00",
+      "description": "The article discusses how linear type systems can handle exceptions and error management. It explains the challenges of ensuring linear types are used correctly without resource leaks when exceptions occur. The author suggests using affine types, which allow for safer exception handling by automatically managing resource cleanup.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01jfadb8gd68hk55mdaga32bmc",
+      "title": "Checking linearizability in Go",
+      "url": "https://notes.eatonphil.com/2024-10-31-checking-linearizability-in-go.html",
+      "savedAt": "2024-12-17T13:36:30.733000+00:00",
+      "description": "The article discusses how to check for linearizability in Go using the Porcupine tool, which helps verify strict consistency in distributed systems. It provides examples of modeling a distributed register and a key-value store, illustrating how to define operations and validate their histories. The author emphasizes that while Porcupine cannot prove linearizability, it can help build confidence in the system's behavior.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01jfad7kbrd2pfybt3t4js2b5w",
+      "title": "What To Use Instead of PGP",
+      "url": "https://soatok.blog/2024/11/15/what-to-use-instead-of-pgp/",
+      "savedAt": "2024-12-17T13:34:30.776000+00:00",
+      "description": "The author argues that PGP is outdated and often misused, suggesting that there are better alternatives for secure communication. Tools like Sigstore for code signing and Signal for messaging are recommended instead, as they provide stronger cryptographic practices. Overall, the message is clear: people should move away from using PGP due to its flaws and seek modern solutions.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01jfad7bc2dj6d950nt0wttf7b",
+      "title": "How LLMs work",
+      "url": "https://www.seangoedecke.com/how-llms-work/",
+      "savedAt": "2024-12-17T13:34:22.594000+00:00",
+      "description": "A large language model (LLM) is a type of neural network that predicts the next piece of text in a sequence by outputting probabilities for possible tokens. It uses processes like attention mechanisms and feed-forward networks to determine which tokens to focus on and how to generate the next token. The model's structure allows it to learn complex relationships and improve its predictions based on the context of previous tokens.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01jfad72hwc6ynaqgs43exakef",
+      "title": "LevelDB Explained - How to Analyze the Time Complexity of SkipLists?",
+      "url": "https://selfboot.cn/en/2024/09/24/leveldb_source_skiplist_time_analysis/",
+      "savedAt": "2024-12-17T13:34:13.564000+00:00",
+      "description": "The article explains how to analyze the time complexity of skip lists used in LevelDB. It breaks down the performance of search, insertion, and deletion operations, showing that the average complexity can be comparable to balanced trees. The author also provides benchmark tests to evaluate the performance of skip lists.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01jfad5mtjwqmebb41w5ckdp07",
+      "title": "githublog/2024/11/1/sending-an-ethernet-packet.md at main · francisrstokes/githublog · GitHub",
+      "url": "https://github.com/francisrstokes/githublog/blob/main/2024/11/1/sending-an-ethernet-packet.md",
+      "savedAt": "2024-12-17T13:33:26.738000+00:00",
+      "description": "The blog post describes the author's experience of sending their first ethernet packet while debugging issues with the W5100 chip. They faced challenges in communication due to incorrect command sequences and timing, which resulted in unexpected outcomes. Ultimately, through exploration and adjustments, they successfully managed to send a packet.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01jfad504yeqegp02qnf6hv1x8",
+      "title": "Why I Will Always Be Angry About Software Engineering",
+      "url": "https://ludic.mataroa.blog/blog/why-i-will-always-be-angry-about-software-engineering/",
+      "savedAt": "2024-12-17T13:33:05.566000+00:00",
+      "description": "The author expresses deep frustration with the waste and incompetence in the software engineering field, feeling that many talented individuals are stuck in unfulfilling jobs. After leaving a corporate position, they started a consultancy to make a meaningful impact and challenge the flawed systems in place. The author believes that anger about poor practices in software engineering—and in other fields—can drive positive change.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01jfad4n54szhve7brnf42a3jd",
+      "title": "One thought on “Reading the Generalized Isolation Level Definitions paper with Alloy”",
+      "url": "https://surfingcomplexity.blog/2024/11/18/reading-the-generalized-isolation-level-definitions-paper-with-alloy/",
+      "savedAt": "2024-12-17T13:32:54.308000+00:00",
+      "description": "My last few blog posts have been about how I used TLA+ to gain a better understanding of database transaction consistency models. This post will be in the same spirit, but I’ll be using a dif…",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01jfad49cmwr71a9sj6h8m4k4j",
+      "title": "Exploring Postgres's arena allocator by writing an HTTP server from scratch",
+      "url": "https://www.enterprisedb.com/blog/exploring-postgress-arena-allocator-writing-http-server-scratch",
+      "savedAt": "2024-12-17T13:32:42.260000+00:00",
+      "description": "The text discusses creating an HTTP server using PostgreSQL's memory management features. It explains how to handle connections, allocate memory within a specific context, and send responses to clients. The server is designed to process a single connection at a time, simplifying memory management and error handling.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01jfad3y3r7swzqrayfw9a6nxr",
+      "title": "Data Modeling with Sums and Products",
+      "url": "https://funktionale-programmierung.de/2024/11/25/sums-products-english.html",
+      "savedAt": "2024-12-17T13:32:30.712000+00:00",
+      "description": "Sums and products are data structures used in programming, where products represent \"and data\" and sums represent \"or data.\" They are essential in functional programming and can be implemented in various languages like Java, Python, and Haskell. These constructs help organize complex data, making it easier to manage and use in applications.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01jf9gaafjt202j4e4kdxzshy9",
+      "title": "Mitigation",
+      "url": "https://jacobian.org/2024/dec/10/risk-mitigation/",
+      "savedAt": "2024-12-17T05:09:11.282000+00:00",
+      "description": "Mitigation is the process of taking actions to reduce a risk, which usually means lowering the likelihood of an event or minimizing its impact. It's important to consider both aspects when brainstorming solutions to ensure a comprehensive approach. Defense in Depth involves applying multiple mitigations to effectively manage risk.",
+      "tags": [
+        "systems-theory",
+        "decision-making",
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "01jf9ete0b4mdxzmhmz2g8djse",
+      "title": "An introduction to thinking about risk",
+      "url": "https://jacobian.org/2024/dec/4/risk-introduction/",
+      "savedAt": "2024-12-17T04:43:02.027000+00:00",
+      "description": "Jacob Kaplan-Moss explores the concept of risk in his introduction to a new series, aiming to help readers understand and analyze risk more effectively. He explains that risk involves both potential benefits and potential losses, and can be broken down into likelihood and impact. The series will provide tools and frameworks for discussing risk clearly, making it accessible for those outside specialized fields.",
+      "tags": [
+        "systems-theory",
+        "decision-making",
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "01jf80zwv9ms0yrxw2s1deyqns",
+      "title": "Why is it so hard to buy things that work well?",
+      "url": "https://danluu.com/nothing-works/",
+      "savedAt": "2024-12-16T15:22:06.569000+00:00",
+      "description": "It is often hard to find products that work well because companies focus more on efficiency and marketing than on creating quality. Many firms make decisions without serious technical consideration, leading to a lack of pressure to improve their products. This problem exists across various industries, resulting in inefficiencies and a tendency to prioritize profit over product quality.",
+      "tags": [
+        "cool",
+        "economy",
+        "business"
+      ]
+    },
+    {
+      "id": "01jf2zpz09rtntz91ehp5t36z4",
+      "title": "Bypassing regulatory locks, Faraday cages and upgrading your hearing",
+      "url": "https://lagrangepoint.substack.com/p/airpods-hearing-aid-hacking",
+      "savedAt": "2024-12-14T16:23:33.129000+00:00",
+      "description": "Rithwik Jayasimha and his dad found a way to unlock the Hearing Aid feature on AirPods Pro 2 for their hard-of-hearing grandma, despite Apple's regional restrictions. They built a Faraday cage and used clever techniques to spoof the device's location to make it appear as if it was in the U.S. Now, they plan to help others in Bengaluru access this feature as well.",
+      "tags": [
+        "cool",
+        "hacking",
+        "reverse-engineering"
+      ]
+    },
+    {
+      "id": "01jexh9he84xmc6hyjwyygqz0x",
+      "title": "The Importance of Saying \"Oops\"",
+      "url": "https://www.lesswrong.com/s/NBDFAKt3GbFwnwzQF/p/wCqfCLs8z5Qw4GbKS",
+      "savedAt": "2024-12-12T13:35:21.031000+00:00",
+      "description": "Admitting to big mistakes can lead to significant improvements in life. Instead of making small concessions and prolonging the struggle, it's better to acknowledge a fundamental problem all at once. This approach can help avoid repeating errors and promote faster growth.",
+      "tags": [
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "01jewmfng5spnx9nxtwgdd1sn1",
+      "title": "The Monads Hurt My Head — But Not Anymore",
+      "url": "https://golem.ph.utexas.edu/category/2009/07/the_monads_hurt_my_head_but_no.html",
+      "savedAt": "2024-12-12T05:11:53.093000+00:00",
+      "description": "John Baez shares his experiences discussing monads with his friend Bill Schmitt, realizing he has become less intimidated by the topic. Monads are mathematical structures that help study algebraic concepts, and they can be described in various ways. Baez expresses his eagerness to understand more about different aspects of monad theory that once confused him.",
+      "tags": [
+        "math/category-theory",
+        "functional-programming"
+      ]
+    },
     {
       "id": "01jerhxmr8stt4z4ey71e2r6gd",
       "title": "one big choice shapes a hundred more",
@@ -266,6 +767,7 @@
       "savedAt": "2024-12-01T16:17:52.237000+00:00",
       "description": "The author shares their journey of understanding fairness concepts in TLA+, focusing on weak and strong fairness. They explain the importance of \"progress\" and \"stabilize\" in breaking down complex formulae. The article also provides clear definitions and relationships between these concepts for better comprehension.",
       "tags": [
+        "for-later",
         "cs/distsys",
         "math/formal-methods"
       ]
@@ -332,6 +834,7 @@
       "savedAt": "2024-12-01T02:19:33.421000+00:00",
       "description": "This document is a summary of the paper \"Time, Clocks, and the Ordering of Events in a Distributed System\" by Leslie Lamport. The paper introduces the concept of \"happened before\" relation and logical clocks, also known as Lamport clocks. It explains how these clocks can be used to solve the mutual exclusion problem in a distributed system. The paper provides a formal definition of the \"happened before\" relation and the Clock condition for logical clocks. It also discusses the limitations of logical clocks and presents a system of clocks using physical clocks that can satisfy the strong clock condition. The document concludes with an example of how Lamport clocks can be used to solve the mutual exclusion problem and a TLA+ specification based on the paper's concepts.",
       "tags": [
+        "for-later",
         "cs/distsys"
       ]
     },
@@ -961,6 +1464,7 @@
       "savedAt": "2024-11-02T06:57:27.558000+00:00",
       "description": "Linearizability is a strong consistency model that makes it appear as if operations on a single piece of data happen instantaneously and in a specific order, even when they are executed concurrently. This model ensures that all clients see the same value for the data, maintaining a consistent view of operations. Unlike serializability, which applies to multiple operations across different objects, linearizability focuses on a single object, ensuring clear and ordered operations.",
       "tags": [
+        "for-later",
         "cs/distsys"
       ]
     },
@@ -1312,6 +1816,7 @@
       "savedAt": "2024-02-12T14:30:04.270000+00:00",
       "description": "An intuition for distributed consensus in OLTP systems",
       "tags": [
+        "for-later",
         "cs/distsys"
       ]
     },
@@ -1776,6 +2281,7 @@
       "savedAt": "2024-03-07T12:57:34.290000+00:00",
       "description": "The CAP theorem is too simplistic and too widely misunderstood to be of much use for characterizing systems. Therefore I ask that we retire all references to the CAP theorem, stop talking about the CAP theorem, and put the poor thing to rest\nMartin Kleppmann\nIn 2000, Eric Brewer introduced the CAP Conjecture during his keynote address Towards Robust Distributed Systems at the Principles of Distributed Computing conference. Brewer posited that a distributed system cannot achieve Consistency, Availability, and Partition Tolerance simultaneously.",
       "tags": [
+        "for-later",
         "cs/distsys"
       ]
     },
