@@ -1,6 +1,61 @@
 {
-  "lastUpdate": "2024-12-25T16:13:54.032Z",
+  "lastUpdate": "2024-12-30T00:15:15.128Z",
   "data": [
+    {
+      "id": "01jgaemjzmrmqbvc6k1zs3wze9",
+      "title": "Time Tracking in Obsidian",
+      "url": "https://transactional.blog/personal/time-tracking-in-obsidian",
+      "savedAt": "2024-12-30T00:14:46.771000+00:00",
+      "description": "The author shares how they manage their time using Obsidian instead of a paper planner. They create a weekly plan by allocating hours to different projects and tasks, ensuring at least 50% of their time is dedicated to core projects. The setup includes using a Pomodoro Timer to log time spent on tasks and comparing actual time to their planned estimates.",
+      "tags": [
+        "note-taking",
+        "productivity"
+      ]
+    },
+    {
+      "id": "01jg8jhemjq4r0y0d0emfhzpvd",
+      "title": "Common Misconceptions about Compilers",
+      "url": "https://sbaziotis.com/compilers/common-misconceptions-about-compilers.html",
+      "savedAt": "2024-12-29T06:44:29.458000+00:00",
+      "description": "This article discusses common misconceptions about mainstream compilers like LLVM and GCC, highlighting that they often don't produce optimal code and focus mainly on running time. It points out that while compilers can be fast, they may not optimize for certain factors like data locality and that separate compilation may not always be beneficial. Overall, it emphasizes the complexity of compiler design and the practical reasons for using interpreters despite the performance advantages of compiled code.",
+      "tags": [
+        "for-later",
+        "cs/compilers"
+      ]
+    },
+    {
+      "id": "01jg0s50hmtxvphfrw6yg2x4p5",
+      "title": "Networking For People Who Don't Network",
+      "url": "https://blog.staysaasy.com/p/networking-for-people-who-dont-network",
+      "savedAt": "2024-12-26T06:06:06.388000+00:00",
+      "description": "Networking can be easy and rewarding by following simple habits, much like working out. Building strong connections with coworkers is key, as they are the most accessible and meaningful part of your network. To maintain relationships, reach out regularly, meet in person, and share personal details to foster a genuine connection.",
+      "tags": [
+        "career",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01jg0pexrnbpnafqganx28802p",
+      "title": "Confusing or misunderstood topics in systems programming: Part 0",
+      "url": "https://pthorpe92.dev/programming/systems/common-misunderstandings/",
+      "savedAt": "2024-12-26T05:19:05.492000+00:00",
+      "description": "The author discusses confusing topics in Linux systems programming, starting with processes, which are fundamental for understanding other concepts. They aim to simplify these topics for beginners and self-taught developers who might find them challenging. Future posts will cover related subjects like pipes, threads, and asynchronous programming.",
+      "tags": [
+        "cs"
+      ]
+    },
+    {
+      "id": "01jg088emnwan2d7j8ejc1snbg",
+      "title": "GitHub - facundoolano/software-papers: 📚 A curated list of papers for Software Engineers",
+      "url": "https://github.com/facundoolano/software-papers",
+      "savedAt": "2024-12-26T01:10:53.332000+00:00",
+      "description": "The text is a curated list of important papers for software engineers, compiled by the author on GitHub. It includes influential works by notable figures like Dijkstra, Knuth, and Turing, spanning various topics in computer science. This resource serves as a valuable reference for understanding key concepts and advancements in software engineering.",
+      "tags": [
+        "cs",
+        "type/paper",
+        "type/repository"
+      ]
+    },
     {
       "id": "01jfnqw3954mhcm835ccsgv6g0",
       "title": "Implementing Raft: Part 0 - Introduction",
