@@ -20,6 +20,9 @@ importers:
       markdown-it:
         specifier: ^13.0.2
         version: 13.0.2
+      marked:
+        specifier: ^15.0.4
+        version: 15.0.4
       sanitize-html:
         specifier: ^2.13.0
         version: 2.13.0
@@ -1932,6 +1935,11 @@ packages:
   markdownlint@0.35.0:
     resolution: {integrity: sha512-wgp8yesWjFBL7bycA3hxwHRdsZGJhjhyP1dSxKVKrza0EPFYtn+mHtkVy6dvP1kGSjovyG5B8yNP6Frj0UFUJg==}
     engines: {node: '>=18'}
+
+  marked@15.0.4:
+    resolution: {integrity: sha512-TCHvDqmb3ZJ4PWG7VEGVgtefA5/euFmsIhxtD0XsBxI39gUSKL81mIRFdt0AiNQozUahd4ke98ZdirExd/vSEw==}
+    engines: {node: '>= 18'}
+    hasBin: true
 
   mdast-util-definitions@6.0.0:
     resolution: {integrity: sha512-scTllyX6pnYNZH/AIp/0ePz6s4cZtARxImwoPJ7kS42n+MnVsI4XbnG6d4ibehRIldYMWM2LD7ImQblVhUejVQ==}
@@ -4808,6 +4816,8 @@ snapshots:
     dependencies:
       markdown-it: 14.1.0
       markdownlint-micromark: 0.1.10
+
+  marked@15.0.4: {}
 
   mdast-util-definitions@6.0.0:
     dependencies:

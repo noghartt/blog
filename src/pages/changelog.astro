@@ -1,19 +1,13 @@
 ---
-import dayjs from 'dayjs'
+import dayjs from 'dayjs';
+import { marked } from 'marked';
+import { getCollection } from 'astro:content';
 
 import Layout from "../layout/Layout.astro";
 import GoBackButton from '../components/GoBackButton.astro';
 
-const changelog = [
-  {
-    time: new Date('2024-08-30T22:41:29.205Z'),
-    title: 'Add a new /changelog page',
-  },
-  {
-    time: new Date('2024-08-30T22:30:29.205Z'),
-    title: 'Add a table of contents section on the bookmarks page',
-  },
-]
+const [changelog] = await getCollection('changelog');
+const changelogSorted = changelog.data.sort((a, b) => a > b ? 1 : -1)
 
 ---
 
@@ -22,11 +16,18 @@ const changelog = [
   <h1>Changelog</h1>
   <section>
     <ul>
-      {changelog.map((item) => (
-        <li>
-          {dayjs(item.time).format('YYYY-MM-DD HH:mm')} - {item.title}
-        </li>
-      ))}
+      {changelogSorted.map(async (item) => {
+        const parsedMarkdown = marked.parse(item.title, {  });
+        return (
+          <li>
+            <p>
+              <span>{dayjs(item.time).format('YYYY-MM-DD')}</span>
+              <span>-</span>
+              <span set:html={parsedMarkdown} />
+            </p>
+          </li>
+        );
+      })}
     </ul>
   </section>
 </Layout>
@@ -35,6 +36,11 @@ const changelog = [
   ul {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: var(--spacing);
+  }
+
+  li {
+    display: flex;
+    gap: 4px;
   }
 </style>

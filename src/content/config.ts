@@ -29,10 +29,19 @@ const tilCollection = defineCollection({
     tags: z.array(z.string()).default([]).optional(),
     createdAt: z.coerce.date(),
   }),
-})
+});
+
+const changelogCollection = defineCollection({
+  type: 'data',
+  schema: z.array(z.object({
+    time: z.string().datetime(),
+    title: z.string(),
+  })),
+});
 
 export const collections = {
   blog: blogCollection,
   lists: listsCollection,
   til: tilCollection,
+  changelog: changelogCollection,
 }
