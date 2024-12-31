@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@resvg/resvg-js": "^2.6.2",
-    "astro": "^4.16.6",
+    "astro": "^5.1.1",
     "dayjs": "^1.11.11",
     "markdown-it": "^13.0.2",
     "sanitize-html": "^2.13.0",
@@ -24,11 +24,11 @@
     "simple-git": "^3.25.0"
   },
   "devDependencies": {
-    "@astrojs/mdx": "^3.1.8",
-    "@astrojs/react": "^3.6.2",
-    "@astrojs/rss": "^4.0.9",
+    "@astrojs/mdx": "^4.0.3",
+    "@astrojs/react": "^4.1.2",
+    "@astrojs/rss": "^4.0.10",
     "@astrojs/sitemap": "^3.2.1",
-    "@astrojs/vercel": "^7.8.2",
+    "@astrojs/vercel": "^8.0.1",
     "@types/hast": "^3.0.4",
     "@types/markdown-it": "^12.2.3",
     "@types/react": "^18.3.3",
