@@ -1,6 +1,729 @@
 {
-  "lastUpdate": "2024-12-30T00:15:15.128Z",
+  "lastUpdate": "2024-12-31T21:44:57.272Z",
   "data": [
+    {
+      "id": "01jgfatrg1npwzw6hrqykcjmtd",
+      "title": "Examining Intel's Arrow Lake, at the System Level",
+      "url": "https://chipsandcheese.com/p/examining-intels-arrow-lake-at-the",
+      "savedAt": "2024-12-31T21:44:26.881000+00:00",
+      "description": "Arrow Lake is the codename for Intel's newest generation of high performance desktop CPUs.",
+      "tags": [
+        "hardware"
+      ]
+    },
+    {
+      "id": "01jgfasm3249by29kcm7fxg0z6",
+      "title": "Basic Awareness in Addition to Deep Understanding",
+      "url": "https://www.openmymind.net/Basic-Awareness-In-Addition-To-Deep-Understanding/",
+      "savedAt": "2024-12-31T21:43:49.602000+00:00",
+      "description": "Software developers need both deep understanding and basic awareness of tools and concepts. While mastery is important, having a general knowledge of various topics can help in problem-solving. Writing about these topics can improve retention and serve as a useful reference in the future.",
+      "tags": [
+        "cs",
+        "learning",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01jgfasa5tgqec27rjwz890mq8",
+      "title": "That's Not an Abstraction, That's Just a Layer of Indirection",
+      "url": "https://fhur.me/posts/2024/thats-not-an-abstraction",
+      "savedAt": "2024-12-31T21:43:39.450000+00:00",
+      "description": "Abstractions in software can simplify complex systems, but not all abstractions are useful; some are just unnecessary layers that complicate code. Good abstractions hide complexity effectively, while bad ones add confusion and performance costs. It's important to evaluate whether an abstraction truly simplifies a system or just adds extra indirection.",
+      "tags": [
+        "cs",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01jgfarrrp0abztybc4dyajvpm",
+      "title": "About 40 hours (23 min. read)",
+      "url": "https://thesquareplanet.com/blog/about-40-hours/",
+      "savedAt": "2024-12-31T21:43:21.622000+00:00",
+      "description": "Many companies expect employees to work long hours, which can lead to burnout and lower productivity. Simply increasing hours does not guarantee more output, as productivity tends to decline over time. Finding a balance and aligning work with personal productivity cycles can improve performance without overworking.",
+      "tags": [
+        "for-later",
+        "productivity"
+      ]
+    },
+    {
+      "id": "01jgfare3j0web0wqbbmssry9g",
+      "title": "Here's What the Fight For Your Attention Really Looks Like",
+      "url": "https://posting-nexus.ghost.io/goodreads-challenge-spotify-wrapped-social-media-competition-posting-attention/",
+      "savedAt": "2024-12-31T21:43:10.706000+00:00",
+      "description": "The internet has turned personal enjoyment into a competition, making leisure activities feel like tasks to complete. This shift leads to a constant pressure to quantify our experiences, such as tracking books read or miles run, instead of simply enjoying them. As we seek connection through social media, we often feel more disconnected and overwhelmed by the need to keep up with others.",
+      "tags": [
+        "productivity"
+      ]
+    },
+    {
+      "id": "01jgfapwfdex23923h4w9kqf2d",
+      "title": "Use of Time in Distributed Databases (part 2): Use of logical clocks in databases",
+      "url": "https://muratbuffalo.blogspot.com/2024/12/use-of-time-in-distributed-databases_26.html",
+      "savedAt": "2024-12-31T21:42:19.885000+00:00",
+      "description": "This article discusses the use of logical clocks in distributed databases, focusing on three approaches: vector clocks, dependency graph maintenance, and epoch services. Vector clocks are used in some systems to manage updates and conflicts, but their complexity has led others like Cassandra to prefer physical timestamps. Approaches like COPS and Chardonnay show how managing dependencies and using centralized services can improve consistency and performance in distributed transactions.",
+      "tags": [
+        "for-later",
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "01jgfapkny1cvy6z44g00g4btp",
+      "title": "USB-C head-to-head comparison",
+      "url": "https://www.lumafield.com/article/usb-c-cable-charger-head-to-head-comparison-apple-thunderbolt-amazon-basics",
+      "savedAt": "2024-12-31T21:42:10.878000+00:00",
+      "description": "The reign of the Lightning cable is over, and the USB-C era has begun — leaving us wondering what sets one charger apart from another. We do a teardown of Apple's Thunderbolt 4 and its competitors.",
+      "tags": [
+        "hardware",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01jgfap15qhytqgg300s99kr1e",
+      "title": "I Thought I Found a Bug…",
+      "url": "http://www.os2museum.com/wp/i-thought-i-found-a-bug/",
+      "savedAt": "2024-12-31T21:41:51.927000+00:00",
+      "description": "The reason for the complexity is that COMMAND. COM tries to deal with a case that the file ends with a Ctrl-Z character (which wasn’t the case for me), and if so, the Ctrl-Z needs to be deleted.",
+      "tags": [
+        "for-later",
+        "computer-history"
+      ]
+    },
+    {
+      "id": "01jgfankej1th5qydjkqdzt29d",
+      "title": "Against a universal definition of ‘type’ (pdf)",
+      "url": "https://jimmyhmiller.github.io/advent-of-papers/2024/dec-24-against-types",
+      "savedAt": "2024-12-31T21:41:37.874000+00:00",
+      "description": "The paper by Tomas Petricek argues against having a universal definition of \"type,\" suggesting that this allows the concept to grow and adapt. He believes that requiring a precise definition limits our ability to explore new ideas. Instead, he proposes alternative ways to understand types, drawing on philosophical concepts.",
+      "tags": [
+        "cs",
+        "for-later",
+        "type-theory"
+      ]
+    },
+    {
+      "id": "01jgfan6wj6eez1b7wwefm1a6f",
+      "title": "Lock Files Considered Harmful",
+      "url": "http://www.chriswarbo.net/blog/2024-05-17-lock_files_considered_harmful.html",
+      "savedAt": "2024-12-31T21:41:25.010000+00:00",
+      "description": "This post is about files used by dependency management tools like Yarn, to cache the results of non-deterministic processes (e. g.",
+      "tags": [
+        "cs",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01jgfamrq9fhw5hde9frx5t61g",
+      "title": "Use of Time in Distributed Databases (part 1)",
+      "url": "https://muratbuffalo.blogspot.com/2024/12/use-of-time-in-distributed-databases.html",
+      "savedAt": "2024-12-31T21:41:10.505000+00:00",
+      "description": "Distributed systems are characterized by nodes executing concurrently with no shared state and no common clock. Coordination between nodes a...",
+      "tags": [
+        "for-later",
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "01jgfamdaqkx3wtpvpexppnsx9",
+      "title": "A worked example of copy-and-patch compilation",
+      "url": "https://scot.tg/2024/12/22/worked-example-of-copy-and-patch-compilation/",
+      "savedAt": "2024-12-31T21:40:58.839000+00:00",
+      "description": "The author is developing a toy compiler to enhance a C compiler by using a technique called copy-and-patch compilation. This involves generating small code snippets that can be inserted into the compiler's operations, allowing for efficient function calls without unnecessary register shuffling. The process includes tokenization, parsing, and generating code that effectively uses registers to perform calculations as demonstrated in a running example.",
+      "tags": [
+        "for-later",
+        "cs/compilers"
+      ]
+    },
+    {
+      "id": "01jgfakr9j5v1f0tm31ehpmz18",
+      "title": "Andrew Kelley   Practical Data Oriented Design (DoD)",
+      "url": "https://www.youtube.com/watch?v=IroPQ150F6c",
+      "savedAt": "2024-12-31T21:40:37.298000+00:00",
+      "description": "Copyright: Belongs to Handmade Seattle (https ://vimeo.com/649009599). I'm not the owner of the video and hold no copyright.  And the video is not monetized.\n\nIn this video Andrew Kelley (creator of Zig programming language) explains various strategies one can use to reduce memory footprint of programs while also making the program cache friendly which increase throughput.\n\nAt the end he presents a case study where DoD principles are used in Zig compiler for faster compilation.\n\nReferences:\n\n- CppCon 2014: Mike Acton \"Data-Oriented Design and C++\": youtube.com/watch?v=rX0ItVEVjHc\n- Handmade Seattle: handmade-seattle.com/\n- Richard Fabian, 'Data-Oriented Design': dataorienteddesign.com/dodbook/\n- IT Hare, 'Infographics: Operation Costs in CPU Clock Cycles': ithare.com/infographics-operation-costs-in-cpu-clock-cycles/\n- The Brain Dump, 'Handles are the better pointers': floooh.github.io/2018/06/17/handles-vs-pointers.html",
+      "tags": [
+        "cs",
+        "for-later",
+        "type/video"
+      ]
+    },
+    {
+      "id": "01jgfak0qr2jv91d0ahca23sah",
+      "title": "Problem Driven Development",
+      "url": "https://staysaasy.com/engineering/2024/12/17/problem-driven-development.html",
+      "savedAt": "2024-12-31T21:40:13.176000+00:00",
+      "description": "Problem Driven Development helps senior engineers create effective technical roadmaps by focusing on solving real issues instead of just listing solutions. By identifying and prioritizing the biggest problems, teams can align their efforts and ensure that their work addresses actual needs. Regularly revisiting these problems keeps the roadmap relevant and impactful.",
+      "tags": [
+        "cs",
+        "career",
+        "for-later",
+        "management"
+      ]
+    },
+    {
+      "id": "01jgfaj9bx90chwcj0gnj8xtgh",
+      "title": "Formal Methods: Just Good Engineering Practice?",
+      "url": "https://brooker.co.za/blog/2024/04/17/formal",
+      "savedAt": "2024-12-31T21:39:49.245000+00:00",
+      "description": "Marc Brooker argues that formal methods are essential for effective software engineering, especially in large-scale and critical systems. He believes that using these methods can reduce rework and the costs associated with changes, ultimately speeding up the development process. While not every type of software benefits equally from formal methods, they are crucial for optimizing complex system designs.",
+      "tags": [
+        "cs",
+        "for-later",
+        "math/formal-methods"
+      ]
+    },
+    {
+      "id": "01jgfag7mmab9r9pz50t4egkmy",
+      "title": "Post-apocalyptic programming",
+      "url": "https://zserge.com/posts/post-apocalyptic-programming/",
+      "savedAt": "2024-12-31T21:38:41.939000+00:00",
+      "description": "The text discusses implementing a simple programming language inspired by Forth using an LC-3 assembler. It explains the essential instructions and memory layout needed to create an interpreter that can evaluate and define custom words. The goal is to enable basic operations, such as addition and memory fetching, while allowing users to create their own compound words.",
+      "tags": [
+        "cs",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01jgfafj95vs11ypexw5w1ywz8",
+      "title": "Snapshot Isolation vs Serializability",
+      "url": "https://brooker.co.za/blog/2024/12/17/occ-and-isolation",
+      "savedAt": "2024-12-31T21:38:20.068000+00:00",
+      "description": "In my re:Invent talk on the internals of Aurora DSQL I mentioned that I think snapshot isolation is a sweet spot in the database isolation spectrum for most kinds of applications.",
+      "tags": [
+        "for-later",
+        "cs/distsys",
+        "cs/database"
+      ]
+    },
+    {
+      "id": "01jgfacyhxgw11jzbjq7kmrmhw",
+      "title": "Goodhart's Law Isn't as Useful as You Might Think",
+      "url": "https://commoncog.com/goodharts-law-not-useful/",
+      "savedAt": "2024-12-31T21:36:54.333000+00:00",
+      "description": "Goodhart's Law is useless. It tells you about a phenomenon, but it doesn't tell you how to solve it. We look at how organisations actually prevent Goodhart's Law, and illustrate this with Amazon's Weekly Business Review as an example.",
+      "tags": [
+        "for-later",
+        "management"
+      ]
+    },
+    {
+      "id": "01jgfacdh01pm6qb5zfhfexcqn",
+      "title": "On btrfs and memory corruption",
+      "url": "https://quantum5.ca/2024/12/22/on-btrfs-and-memory-corruption/",
+      "savedAt": "2024-12-31T21:36:36.896000+00:00",
+      "description": "My experience with btrfs RAID-1 and a bad stick of RAM on my home NAS, what I did to recover the corrupted data, and my thoughts on detection and prevention of similar incidents.",
+      "tags": [
+        "cs",
+        "hardware",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01jgfac39arwefpentc0dmdxr9",
+      "title": "Chi-Squared From Fundamentals",
+      "url": "https://entropicthoughts.com/chi-square-from-fundamentals",
+      "savedAt": "2024-12-31T21:36:26.410000+00:00",
+      "description": "The article discusses how to analyze website visit counts to check if page popularity is random or influenced by specific factors. By using statistical methods like the chi-squared test, the author examines the distribution of visits to determine if the patterns observed are due to chance. After fixing their analytics tool, they found that the visit patterns indicated some pages were indeed more popular than others.",
+      "tags": [
+        "for-later",
+        "math/statistics"
+      ]
+    },
+    {
+      "id": "01jgfabgg8tt6e960n3q2xgr0y",
+      "title": "The Martial Art of Rationality",
+      "url": "https://www.lesswrong.com/s/NBDFAKt3GbFwnwzQF/p/teaxCFgtmCQ3E9fy8",
+      "savedAt": "2024-12-31T21:36:07.176000+00:00",
+      "description": "I often use the metaphor that rationality is the martial art of mind. You don’t need huge, bulging muscles to learn martial arts—there’s a tendency t…",
+      "tags": [
+        "thinking",
+        "for-later",
+        "philosophy"
+      ]
+    },
+    {
+      "id": "01jgfab6qmrs6atb3x4ke4hcwt",
+      "title": "Bayesian reasoning",
+      "url": "https://ncatlab.org/nlab/show/Bayesian+reasoning",
+      "savedAt": "2024-12-31T21:35:57.172000+00:00",
+      "description": "Bayesian reasoning is an application of probability theory to inductive reasoning (and abductive reasoning).",
+      "tags": [
+        "for-later",
+        "math/probability"
+      ]
+    },
+    {
+      "id": "01jgfaawnp6f87eavm4rkxe18x",
+      "title": "Utilizing highly synchronized clocks in distributed databases",
+      "url": "https://muratbuffalo.blogspot.com/2024/12/utilizing-highly-synchronized-clocks-in.html",
+      "savedAt": "2024-12-31T21:35:46.870000+00:00",
+      "description": "This master's thesis explores how using highly synchronized clocks can improve the performance of CockroachDB, a distributed database. By dynamically adjusting uncertainty intervals based on real-time clock synchronization, the researchers achieved significant reductions in transaction latency. Their findings suggest that adopting modern clock synchronization methods can enhance throughput and consistency in distributed systems.",
+      "tags": [
+        "for-later",
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "01jgfaaeqk77tg69pdv42j5f6h",
+      "title": "Parkinson's Law: It's Real, So Use It",
+      "url": "https://theengineeringmanager.substack.com/p/parkinsons-law-its-real-so-use-it",
+      "savedAt": "2024-12-31T21:35:32.595000+00:00",
+      "description": "Parkinson's Law suggests that work expands to fill the time available for its completion, emphasizing the importance of setting challenging deadlines to improve results. Projects without deadlines tend to take longer and may suffer from scope bloat. By understanding the Iron Triangle of scope, resources, and time, one can manipulate these factors to achieve better outcomes within set timeframes. Deadlines create a sense of urgency, fostering innovation and productivity, and when applied effectively, they lead to tangible progress and improved organizational efficiency.",
+      "tags": [
+        "for-later",
+        "management"
+      ]
+    },
+    {
+      "id": "01jgfa9f0chqmmtn1417ejp7de",
+      "title": "Property-testing async code in Rust to build reliable distributed systems",
+      "url": "https://rustlab.it/talks/property-testing-async-code-in-rust-to-build-reliable-distributed-systems#abstract",
+      "savedAt": "2024-12-31T21:35:00.108000+00:00",
+      "description": "The talk focuses on property-testing asynchronous code in Rust to improve the reliability of distributed systems. It discusses how Zed Industries used Rust's async model to test numerous execution sequences. This approach helps enhance the stability of their collaborative editor based on CRDTs.",
+      "tags": [
+        "for-later",
+        "cs/distsys",
+        "cs/testing"
+      ]
+    },
+    {
+      "id": "01jgfa8qj6x8xn5a9hreqzq032",
+      "title": "An Intuitive Explanation of Bayes's Theorem",
+      "url": "https://www.lesswrong.com/posts/XTXWPQSEgoMkAupKt/an-intuitive-explanation-of-bayes-s-theorem",
+      "savedAt": "2024-12-31T21:34:36.102000+00:00",
+      "description": "(Note: The author now considers this explanation obsoleted by the Bayes' Rule Guide.) …",
+      "tags": [
+        "thinking",
+        "for-later",
+        "philosophy",
+        "math/probability"
+      ]
+    },
+    {
+      "id": "01jgfa8ctcgde4k5t4et17cp03",
+      "title": "Bayes theorem, and making probability intuitive – by 3Blue1Brown",
+      "url": "https://paulvanderlaken.com/2020/01/21/bayes-theorem-probability-intuitive-3blue1brown/",
+      "savedAt": "2024-12-31T21:34:25.100000+00:00",
+      "description": "This video I’ve been meaning to watch for a while now. It another great visual explanation of a statistics topic by the 3Blue1Brown Youtube channel (which I’ve covered before, multiple …",
+      "tags": [
+        "for-later",
+        "math/probability"
+      ]
+    },
+    {
+      "id": "01jgfa7tf4czdx9h4fyvc9ttg4",
+      "title": "How to Lead a More Rational Life with Bayes' Theorem",
+      "url": "https://x-team.com/magazine/bayes-theorem",
+      "savedAt": "2024-12-31T21:34:06.308000+00:00",
+      "description": "Bayes' theorem is heavily used in machine learning, AI, statistics, and other areas. But it's also a useful tool to lead a more rational life.",
+      "tags": [
+        "for-later",
+        "philosophy",
+        "math/probability"
+      ]
+    },
+    {
+      "id": "01jgfa4b5fg5cngygbcyrxkbyw",
+      "title": "An Introduction To Bayesian Inference",
+      "url": "https://kevinbinz.com/tag/bayescraft/",
+      "savedAt": "2024-12-31T21:32:12.335000+00:00",
+      "description": "Posts about bayescraft written by kevinbinz",
+      "tags": [
+        "thinking",
+        "for-later",
+        "philosophy"
+      ]
+    },
+    {
+      "id": "01jgfa3mbrjwqb4sqn31170k74",
+      "title": "SemVer Is Not About You Nov 23, 2024",
+      "url": "https://matklad.github.io/2024/11/23/semver-is-not-about-you.html",
+      "savedAt": "2024-12-31T21:31:48.984000+00:00",
+      "description": "A popular genre of articles for the past few year has been a SemVer Critique, pointing out various\nthings that are wrong with SemVer itself, or with the way SemVer is being applied, and, customarily,\nsuggesting an alternative versioning scheme. Usually, the focus is either on how SemVer ought to be\nused, by library authors (nitpicking the definition of a breaking change), or on how SemVer is (not)\nuseful for a library consumer (nitpicking the definition of a breaking change).",
+      "tags": [
+        "cs",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01jgfa38rpqfxkpk6hbtt4d1t6",
+      "title": "Database mocks are just not worth it",
+      "url": "https://www.shayon.dev/post/2024/365/database-mocks-are-just-not-worth-it/",
+      "savedAt": "2024-12-31T21:31:37.110000+00:00",
+      "description": "Relying on mocked databases can lead to missed issues that only appear with real data, such as constraint violations and performance problems. Testing with a real database helps catch errors early, especially as your application evolves and features change. Balancing real database tests with mocks allows for thorough testing of both data integrity and higher-level application logic.",
+      "tags": [
+        "for-later",
+        "cs/testing"
+      ]
+    },
+    {
+      "id": "01jgfa29w5fqe7mgw7rmdhvchm",
+      "title": "A Tricycle of the Mind",
+      "url": "https://marcusb.org/posts/2024/12/a-tricycle-of-the-mind/",
+      "savedAt": "2024-12-31T21:31:05.477000+00:00",
+      "description": "This Christmas, my daughter and I are building a computer together.",
+      "tags": [
+        "cs",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01jgfa1ygq5pd87ej6271aanpt",
+      "title": "Software Design is Knowledge Building",
+      "url": "https://olano.dev/blog/software-design-is-knowledge-building/",
+      "savedAt": "2024-12-31T21:30:53.847000+00:00",
+      "description": "The story highlights how a software project, initially successful, can become unmanageable when the original developer leaves and others lack the necessary understanding of its design. This situation illustrates the importance of knowledge building in software development, as new teams often struggle without the original context and insights. Ultimately, good software design should focus on creating a shared understanding that helps future teams modify and maintain the system effectively.",
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "id": "01jgfa1gw2xpdw736a41q844v9",
+      "title": "The road to Emacs maximalism",
+      "url": "https://schonfinkel.github.io/blog/20241230-the_road_to_emacs_maximalism.html",
+      "savedAt": "2024-12-31T21:30:39.873000+00:00",
+      "description": "A couple years ago I've started watching David Wilson's channel (also know as SystemCrafters), originally his channel focused heavilly on F# (and that's how I found him), but eventually he started posting more and \"GNU slash Emacs\" content.",
+      "tags": [
+        "for-later",
+        "tools/emacs"
+      ]
+    },
+    {
+      "id": "01jgfa156t85n0fs0pdyqpv2jt",
+      "title": "Technical Debt is Entropy In Software",
+      "url": "https://grohan.co/2024/12/27/entropy/",
+      "savedAt": "2024-12-31T21:30:27.930000+00:00",
+      "description": "Technical debt in software is similar to entropy, which inevitably increases over time without outside energy. This complexity arises from poorly designed software and dense dependency graphs, leading to maintenance challenges and increased risks. To move from custom software to a more commoditized state, we need to simplify and reduce this complexity.",
+      "tags": [
+        "for-later",
+        "engineering"
+      ]
+    },
+    {
+      "id": "01jgfa0vmt6cx9a1g1wt0pdvj5",
+      "title": "On Ada's Dependent Types, and its Types as a Whole",
+      "url": "https://nytpu.com/gemlog/2024-12-27",
+      "savedAt": "2024-12-31T21:30:18.138000+00:00",
+      "description": "Ada's dependent types allow the creation of types that rely on concrete values, such as arrays whose lengths are determined at runtime. This feature helps avoid dynamic memory allocation while maintaining good scoping practices. The language's design focuses on modeling the intended use of types, making it unique compared to more formalized programming languages.",
+      "tags": [
+        "cs",
+        "for-later",
+        "type-theory"
+      ]
+    },
+    {
+      "id": "01jgfa0j36ybd7yb1kh91btr59",
+      "title": "Intel's $475 million error: the silicon behind the Pentium division bug",
+      "url": "http://www.righto.com/2024/12/this-die-photo-of-pentium-shows.html",
+      "savedAt": "2024-12-31T21:30:08.357000+00:00",
+      "description": "The Pentium chip had a rare bug in its floating-point division algorithm, causing inaccuracies in certain calculations. This issue stemmed from a faulty lookup table in the chip's design, which led to some values being inaccessible. Despite the bug being extremely rare, it resulted in significant financial losses for Intel.",
+      "tags": [
+        "cs",
+        "hardware",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01jgfa02dbc3gzjxbrny5945xf",
+      "title": "Morris Chang and the Origins of TSMC",
+      "url": "https://www.construction-physics.com/p/morris-chang-and-the-origins-of-tsmc",
+      "savedAt": "2024-12-31T21:29:52.298000+00:00",
+      "description": "Morris Chang played a key role in establishing Taiwan Semiconductor Manufacturing Company (TSMC), which became the world's leading semiconductor manufacturer. Despite initial skepticism and challenges, he convinced Taiwan's leadership to support his vision for a reliable contract semiconductor fabrication service. TSMC's success was unexpected at the time, but it has shaped the semiconductor industry significantly.",
+      "tags": [
+        "for-later",
+        "engineering"
+      ]
+    },
+    {
+      "id": "01jgf9zmfn8stqz9njzenxqy1x",
+      "title": "Implementing and Verifying \"Static Program Analysis\" in Agda, Part 1: Lattices",
+      "url": "https://danilafe.com/blog/01_spa_agda_lattices/",
+      "savedAt": "2024-12-31T21:29:38.037000+00:00",
+      "description": "The text discusses how to use lattices in static program analysis, focusing on the order of signs like positive and negative. It explains that we can combine simpler signs to create a more complex structure while maximizing specificity. The goal is to define operations that help analyze and compare the signs of program variables effectively.",
+      "tags": [
+        "cs",
+        "for-later",
+        "math/formal-methods"
+      ]
+    },
+    {
+      "id": "01jgf9z90v0epyq7d973861966",
+      "title": "Reads causing writes in Postgres",
+      "url": "https://jesipow.com/blog/postgres-reads-cause-writes/",
+      "savedAt": "2024-12-31T21:29:26.299000+00:00",
+      "description": "The article explains how certain read-only operations in Postgres can lead to updates, specifically through mechanisms like hint bits and page pruning. It describes how multiple versions of a row can exist in a transaction, potentially showing different data upon repeated reads, even without modifications by the transaction itself. The piece also details how updates and deletions create new row versions while leaving older ones, which can lead to complexities in data visibility and storage management.",
+      "tags": [
+        "for-later",
+        "cs/database"
+      ]
+    },
+    {
+      "id": "01jgf9ytbmt58e7kgcqg082ebf",
+      "title": "Server-Sent Events (SSE) Are Underrated",
+      "url": "https://igorstechnoclub.com/server-sent-events-sse-are-underrated/",
+      "savedAt": "2024-12-31T21:29:11.284000+00:00",
+      "description": "Server-Sent Events (SSE) are a simple way for servers to send updates to clients over HTTP, unlike WebSockets which allow two-way communication. SSE is efficient and works well with existing web infrastructure, making it suitable for real-time applications like news feeds and stock tickers. Despite being less popular than WebSockets, SSE offers clear advantages in specific use cases where unidirectional data flow is sufficient.",
+      "tags": [
+        "cs",
+        "web",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01jgf9ya6e1ptk3mnahnqa1g8q",
+      "title": "seconds since the Epoch",
+      "url": "https://aphyr.com/posts/378-seconds-since-the-epoch",
+      "savedAt": "2024-12-31T21:28:54.734000+00:00",
+      "description": "POSIX time, often called Unix time, is not simply the number of seconds since the Unix epoch, as it ignores leap seconds that adjust for Earth's rotation. This discrepancy can lead to errors in systems that rely on precise timekeeping, especially in distributed applications. There are calls to eliminate leap seconds by 2035 to simplify time calculations and reduce potential bugs.",
+      "tags": [
+        "cs",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01jgf9xthacr36h1hxhqap5f2z",
+      "title": "Twelve Virtues of Rationality",
+      "url": "https://www.yudkowsky.net/rational/virtues",
+      "savedAt": "2024-12-31T21:28:38.698000+00:00",
+      "description": "The \"Twelve Virtues of Rationality\" by Eliezer S. Yudkowsky emphasizes the importance of curiosity, relinquishing false beliefs, and being open to evidence. It encourages a mindset of humility and simplicity in thought, while promoting honest argument and empirical understanding. The key is to remain flexible in your beliefs and strive for clarity and precision in your reasoning.",
+      "tags": [
+        "thinking",
+        "for-later",
+        "philosophy"
+      ]
+    },
+    {
+      "id": "01jgf9wx6y6ajzvparph5ks660",
+      "title": "Deliver the Bare Minimum",
+      "url": "https://btxx.org/posts/bare/",
+      "savedAt": "2024-12-31T21:28:08.669000+00:00",
+      "description": "The author advocates for simplicity in software development, emphasizing the importance of delivering only what is necessary. They warn against over-engineering, using a hypothetical example to illustrate how adding extra features can waste time and create complications. The key message is to keep things as simple as possible, only adding complexity when absolutely needed.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01jgf9vvgacajyq48pj50y5rmq",
+      "title": "On long term software development: caring (enough) about the future",
+      "url": "https://berthub.eu/articles/posts/on-long-term-software-development/",
+      "savedAt": "2024-12-31T21:27:34.154000+00:00",
+      "description": "Long-term software development requires careful management of dependencies and complexity to ensure the software remains maintainable over the years. Keeping the code simple, well-documented, and limiting the number of dependencies can help prevent issues down the line. A stable team and regular refactoring are also crucial for sustaining software quality over time.",
+      "tags": [
+        "for-later",
+        "engineering"
+      ]
+    },
+    {
+      "id": "01jgf9vd57ptck3tj8qdvyhhty",
+      "title": "How bloom filters made SQLite 10x faster",
+      "url": "https://avi.im/blag/2024/sqlite-past-present-future/",
+      "savedAt": "2024-12-31T21:27:19.463000+00:00",
+      "description": "Researchers improved SQLite's performance for analytical queries by implementing Bloom filters, making it 7x-10x faster. They focused on optimizing join operations, which are usually slow in SQLite due to its use of Nested Loop joins. The changes have already been incorporated into SQLite version 3.38.0, benefiting users with faster query execution.",
+      "tags": [
+        "for-later",
+        "cs/database"
+      ]
+    },
+    {
+      "id": "01jgf9tvdxezsyqj03xcqxc1br",
+      "title": "Ideas from \"A Philosophy of Software Design\"",
+      "url": "https://www.16elt.com/2024/09/25/first-book-of-byte-sized-tech/",
+      "savedAt": "2024-12-31T21:27:01.309000+00:00",
+      "description": "The author explains that software complexity builds up over time, often due to duplicated logic and poor exception handling. By centralizing related code and reducing the number of exceptions, developers can simplify their systems and make maintenance easier. Techniques like exception aggregation and masking help manage complexity and improve code clarity.",
+      "tags": [
+        "for-later",
+        "engineering"
+      ]
+    },
+    {
+      "id": "01jgf9tcwpehrchwvjanrgdk7m",
+      "title": "Nix is a build system",
+      "url": "http://www.chriswarbo.net/blog/2024-05-24-nix_build_system.html",
+      "savedAt": "2024-12-31T21:26:46.422000+00:00",
+      "description": "Nix is a unique build system that offers composability, allowing build recipes to import from one another. Unlike traditional tools like Make, which can lead to errors when dependencies are missing, Nix can efficiently manage dependencies through its functional definitions. This makes Nix more than just a package manager; it addresses the limitations of other build tools.",
+      "tags": [
+        "tools/nix"
+      ]
+    },
+    {
+      "id": "01jgf9rm8ej127qdv79nvvxy34",
+      "title": "The Canva outage: another tale of saturation and resilience",
+      "url": "https://surfingcomplexity.blog/2024/12/21/the-canva-outage-another-tale-of-saturation-and-resilience/",
+      "savedAt": "2024-12-31T21:25:48.430000+00:00",
+      "description": "Canva experienced a major outage due to an overload of requests after clients downloaded a new version, which led to 1.5 million requests per second overwhelming their API Gateway. Automated systems and performance issues compounded the problem, making it difficult for the system to recover. The engineers adapted by manually increasing capacity and gradually restoring traffic to stabilize the service.",
+      "tags": [
+        "for-later",
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "01jgf9qtb1xqc6bpvqe199j3v8",
+      "title": "UIs Should Be Versioned, Just Like We Version APIs",
+      "url": "http://okayfail.com/garden/uis-should-be-versioned-just-like-we-version-apis.html",
+      "savedAt": "2024-12-31T21:25:21.889000+00:00",
+      "description": "User interfaces (UIs) should have versioning like application programming interfaces (APIs) to provide stability for users. Constant changes to UIs disrupt users' skills and create unnecessary frustration, unlike the stable designs of everyday tools. The tech industry often neglects the impact of these changes on people, prioritizing profit over user experience.",
+      "tags": [
+        "ui",
+        "web",
+        "design",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01jgf9n675wsx5j03tjp7qzfes",
+      "title": "Notes From Figma II: Engineering Learnings",
+      "url": "https://andrewkchan.dev/posts/figma2.html",
+      "savedAt": "2024-12-31T21:23:55.749000+00:00",
+      "description": "Figma faced challenges with tech debt and out-of-memory issues while racing to stay ahead of competitors. The company fostered a culture of side projects that encouraged creativity and exploration, leading to innovative features. Effective communication and alignment within teams were crucial to successfully navigate complex engineering challenges.",
+      "tags": [
+        "for-later",
+        "engineering"
+      ]
+    },
+    {
+      "id": "01jgf9hctkkw9kwb1v731vstjs",
+      "title": "Turing Machines",
+      "url": "https://samwho.dev/turing-machines/",
+      "savedAt": "2024-12-31T21:21:51.443000+00:00",
+      "description": "A Turing machine is a theoretical device that can compute anything computable, forming the basis for modern computers. The concept of \"Turing complete\" describes programming languages that can simulate a Turing machine. This post explains Turing machines, their relation to modern computers, and offers a way to write and run your own Turing machine programs.",
+      "tags": [
+        "cs",
+        "for-later",
+        "cs/computation-theory"
+      ]
+    },
+    {
+      "id": "01jgf9gjz7adnmy9k65mpy2chr",
+      "title": "Pragmatic Category Theory | Part 1: Semigroup Intro",
+      "url": "https://chshersh.com/blog/2024-07-30-pragmatic-category-theory-part-01.html",
+      "savedAt": "2024-12-31T21:21:24.967000+00:00",
+      "description": "Dmitrii Kovanikov aims to make functional programming concepts, like semigroups, more accessible and useful for real-world applications. A semigroup is a simple mathematical structure that involves appending values of the same type in an associative manner. Through a series of blog posts, Kovanikov will explore various practical uses of semigroups in programming, demonstrating their value beyond just theoretical concepts.",
+      "tags": [
+        "for-later",
+        "math/category-theory"
+      ]
+    },
+    {
+      "id": "01jgf9fyanp5xg6xkr20x9nnp7",
+      "title": "Energy Cheat Sheet",
+      "url": "https://www.construction-physics.com/p/energy-cheat-sheet",
+      "savedAt": "2024-12-31T21:21:03.829000+00:00",
+      "description": "The author discusses the importance of energy infrastructure for decarbonizing the US and shares a cheat sheet to understand energy better. Most of the country's energy still comes from burning hydrocarbons, despite efforts to increase renewable sources. A significant amount of energy is wasted, highlighting the need for improved efficiency and better ways to move and store energy.",
+      "tags": [
+        "for-later",
+        "engineering"
+      ]
+    },
+    {
+      "id": "01jgf9evjgajn188fgdharxf0k",
+      "title": "An Introduction to Residuality Theory - Barry O'Reilly - CPH DevFest 2024",
+      "url": "https://www.youtube.com/watch?v=1KHXAWLSMqE",
+      "savedAt": "2024-12-31T21:20:28.239000+00:00",
+      "description": "Barry O'Reilly discusses Residuality Theory in software architecture, focusing on managing complexity and uncertainty in system design. He emphasizes the importance of stress-testing architectures to ensure their resilience and adaptability. The goal is to create robust systems that can effectively handle changes and challenges in their environment.",
+      "tags": [
+        "cs",
+        "for-later",
+        "management",
+        "type/video"
+      ]
+    },
+    {
+      "id": "01jgf9dwb4kx1gkrcvjhzhka0w",
+      "title": "Pushing AMD’s Infinity Fabric to its Limits",
+      "url": "https://chipsandcheese.com/p/pushing-amds-infinity-fabric-to-its",
+      "savedAt": "2024-12-31T21:19:56.260000+00:00",
+      "description": "The article discusses how AMD's Infinity Fabric impacts latency and bandwidth when running multiple applications on their processors. Testing shows that increasing bandwidth demands can significantly raise latency, but isolating bandwidth-hungry tasks to different cores can help control latency. AMD's recent Zen 5 architecture appears to improve performance for latency-sensitive applications, even under heavy load.",
+      "tags": [
+        "hardware",
+        "for-later",
+        "engineering"
+      ]
+    },
+    {
+      "id": "01jgf9d8m61gqqggmx3r9hq6qp",
+      "title": "\"Performance Matters\" by Emery Berger",
+      "url": "https://www.youtube.com/watch?v=r-TLSBdHe1A",
+      "savedAt": "2024-12-31T21:19:36.070000+00:00",
+      "description": "The talk \"Performance Matters\" by Emery Berger discusses the challenges of improving computer program performance. It highlights how optimizations can sometimes lead to slower execution times due to factors like cache usage and program layout. The speaker emphasizes the importance of analyzing performance to make effective improvements.",
+      "tags": [
+        "cs",
+        "for-later",
+        "type/video"
+      ]
+    },
+    {
+      "id": "01jgf9ct69zj9ad33grt4aaadx",
+      "title": "(Mostly) Deterministic Simulation Testing in Go",
+      "url": "https://www.polarsignals.com/blog/posts/2024/05/28/mostly-dst-in-go",
+      "savedAt": "2024-12-31T21:19:21.289000+00:00",
+      "description": "The article discusses deterministic simulation testing (DST) in Go, which helps find hard-to-reproduce bugs earlier in development. The author explains how they created a custom concurrency model to run Go programs on a single OS thread, using WebAssembly to achieve more reliable execution. Despite some limitations, this approach successfully uncovered several bugs and shows promise for improving software reliability in Go applications.",
+      "tags": [
+        "for-later",
+        "cs/distsys",
+        "cs/testing"
+      ]
+    },
+    {
+      "id": "01jgf9c3547v7g2ybq6a3t7hzt",
+      "title": "How We Built a Self-Healing System to Survive a Terrifying Concurrency Bug At Netflix",
+      "url": "https://pushtoprod.substack.com/p/netflix-terrifying-concurrency-bug",
+      "savedAt": "2024-12-31T21:18:57.700000+00:00",
+      "description": "A concurrency bug at Netflix caused CPUs to fail rapidly, leaving the team with no immediate fix until Monday. To survive the weekend, they created a self-healing system that randomly terminated and replaced instances to maintain capacity. This unconventional solution allowed the team to focus on their well-being while waiting for the client team to deploy a proper fix.",
+      "tags": [
+        "for-later",
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "01jgf9bpftqz1x5rqb31dygv8j",
+      "title": "How We Got the Lithium-ion Battery",
+      "url": "https://www.construction-physics.com/p/how-we-got-the-lithium-ion-battery",
+      "savedAt": "2024-12-31T21:18:44.730000+00:00",
+      "description": "The lithium-ion battery was developed over several decades through the contributions of many researchers worldwide. Key advancements included the discovery of suitable materials for the battery's anode and cathode, leading to practical designs. Continuous improvements in chemistry and manufacturing have made these batteries more efficient and affordable.",
+      "tags": [
+        "for-later",
+        "engineering"
+      ]
+    },
+    {
+      "id": "01jgf9bb736c6c3pa3x3y22cnr",
+      "title": "Your lying virtual eyes",
+      "url": "https://surfingcomplexity.blog/2024/12/07/your-lying-virtual-eyes/",
+      "savedAt": "2024-12-31T21:18:33.187000+00:00",
+      "description": "The article discusses how software operators interact with complex systems through representations, which can lead to misunderstandings and accidents. It highlights incidents in aviation where sensor failures caused catastrophic outcomes, emphasizing that both humans and automated systems struggle with conflicting signals. The author suggests that instead of focusing solely on fail-safe designs, we should prioritize helping operators make sense of unclear input signals during critical situations.",
+      "tags": [
+        "for-later",
+        "systems-theory"
+      ]
+    },
+    {
+      "id": "01jgf90k83fwgdzepf6s9rw96n",
+      "title": "Ask HN: How do you improve your writing?",
+      "url": "https://news.ycombinator.com/item?id=42485647",
+      "savedAt": "2024-12-31T21:12:40.963000+00:00",
+      "description": "The author is looking for advice on how to improve their writing after starting a blog on Substack. They have moved from writing Haikus to longer posts that blend poetry and personal experiences. They seek suggestions for places to get feedback on their work.",
+      "tags": [
+        "writing"
+      ]
+    },
+    {
+      "id": "01jgbzqdxvdqx9akvw8fra9p3n",
+      "title": "I Don’t Use Monads",
+      "url": "https://funcall.blogspot.com/2024/12/i-don-use-monads.html",
+      "savedAt": "2024-12-30T14:32:40.123000+00:00",
+      "description": "Joe Marshall, a \"mostly functional\" programmer, avoids using monads because they complicate code and mimic imperative styles that he finds inferior. He prefers languages like Lisp, which already have features like `progn` and `setf` that handle side effects without needing monads. Marshall believes that while monads are popular in functional programming, they are not always necessary or idiomatic in the languages he uses.",
+      "tags": [
+        "functional-programming"
+      ]
+    },
+    {
+      "id": "01jgah0cxpw3ebsdsz36z1cnsd",
+      "title": "Feel, don't think",
+      "url": "https://ntietz.com/blog/feel-dont-think/?utm_source=atom&utm_medium=feed",
+      "savedAt": "2024-12-30T00:56:10.934000+00:00",
+      "description": "The author shares their journey of returning to music while recovering from illness, discovering the importance of feeling over thinking in both music and writing. They found a teacher who helped them focus on expression and rhythm, leading to breakthroughs in their playing. This approach also transformed their writing, allowing them to connect more deeply with their emotions and creativity.",
+      "tags": [
+        "self-improvement"
+      ]
+    },
     {
       "id": "01jgaemjzmrmqbvc6k1zs3wze9",
       "title": "Time Tracking in Obsidian",
@@ -8137,10 +8860,13 @@
       "id": "01jbep6psd5ethhdxjez73n6ew",
       "title": "Trapped Priors As A Basic Problem Of Rationality",
       "url": "https://www.astralcodexten.com/p/trapped-priors-as-a-basic-problem",
-      "savedAt": "2024-09-22T15:14:51.641000+00:00",
+      "savedAt": "2024-12-31T21:32:55.920000+00:00",
       "description": "P(A|B) = [P(A)*P(B|A)]/P(B), all the rest is commentary.",
       "tags": [
-        "math/statistics"
+        "cool",
+        "for-later",
+        "math/statistics",
+        "math/probability"
       ]
     },
     {
@@ -8478,6 +9204,7 @@
       "savedAt": "2024-10-07T23:17:51.259000+00:00",
       "description": "The time elapsed between when I wrote that word and when you read it was at least a couple of weeks. That kind of delay is one that we take for granted and don't even think about in written media.",
       "tags": [
+        "for-later",
         "cs/distsys"
       ]
     },
