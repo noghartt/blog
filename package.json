@@ -11,6 +11,7 @@
     "astro": "astro",
     "create:article": "tsx ./scripts/new-post.ts",
     "create:til": "tsx ./scripts/generate-til",
+    "create:changelog": "tsx ./scripts/generate-changelog.ts",
     "generate:bookmarks": "tsx --env-file=./.env ./scripts/generate-bookmarks-reader.ts"
   },
   "dependencies": {
