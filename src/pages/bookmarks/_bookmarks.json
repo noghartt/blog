@@ -1,6 +1,27 @@
 {
-  "lastUpdate": "2024-12-31T21:44:57.272Z",
+  "lastUpdate": "2025-01-04T18:56:48.207Z",
   "data": [
+    {
+      "id": "01jgmjqwrhdps0kb42xthreemp",
+      "title": "Can we use this index, please? – Why not?",
+      "url": "https://hdombrovskaya.wordpress.com/2024/12/29/can-we-use-this-index-please-why-not/",
+      "savedAt": "2025-01-02T22:38:53.713000+00:00",
+      "description": "The author shares a story about a query that performed inconsistently due to its complexity and the need for additional filtering on a large dataset. Despite having an index, the query was slow because it required verifying extracted values from a wide table. A revised query approach allowed the database to optimize performance, demonstrating the importance of understanding how query planners work.",
+      "tags": [
+        "cs/database"
+      ]
+    },
+    {
+      "id": "01jghds936tebcs7g9qhfp4mb0",
+      "title": "The magic of metalinguistic programming",
+      "url": "https://ericnormand.substack.com/p/the-magic-of-metalinguistic-programming",
+      "savedAt": "2025-01-01T17:14:32.934000+00:00",
+      "description": "It's just a change of paradigm",
+      "tags": [
+        "cs",
+        "cs/pl-theory"
+      ]
+    },
     {
       "id": "01jgfatrg1npwzw6hrqykcjmtd",
       "title": "Examining Intel's Arrow Lake, at the System Level",
@@ -19,8 +40,7 @@
       "description": "Software developers need both deep understanding and basic awareness of tools and concepts. While mastery is important, having a general knowledge of various topics can help in problem-solving. Writing about these topics can improve retention and serve as a useful reference in the future.",
       "tags": [
         "cs",
-        "learning",
-        "for-later"
+        "learning"
       ]
     },
     {
@@ -30,8 +50,7 @@
       "savedAt": "2024-12-31T21:43:39.450000+00:00",
       "description": "Abstractions in software can simplify complex systems, but not all abstractions are useful; some are just unnecessary layers that complicate code. Good abstractions hide complexity effectively, while bad ones add confusion and performance costs. It's important to evaluate whether an abstraction truly simplifies a system or just adds extra indirection.",
       "tags": [
-        "cs",
-        "for-later"
+        "cs"
       ]
     },
     {
@@ -7247,6 +7266,7 @@
       "savedAt": "2024-07-27T02:44:27.943000+00:00",
       "description": "The Ray Tracing in One Weekend series of books are available to the public for free online. They are\n  released under the CC0\n  license. This means that they are as close to public domain as we can get. (While that also frees you from the\n  requirement of providing attribution, it would help the overall project if you could point back to this web site as a\n  service to other users.)",
       "tags": [
+        "for-later",
         "cs/graphic"
       ]
     },
