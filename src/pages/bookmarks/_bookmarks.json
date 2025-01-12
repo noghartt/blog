@@ -1,6 +1,38 @@
 {
-  "lastUpdate": "2025-01-04T18:56:48.207Z",
+  "lastUpdate": "2025-01-12T02:47:42.848Z",
   "data": [
+    {
+      "id": "01jhc6h8hpm205sk44fchzgbpx",
+      "title": "Operating System in 1,000 Lines - Intro",
+      "url": "https://operating-system-in-1000-lines.vercel.app/en",
+      "savedAt": "2025-01-12T02:47:19.862000+00:00",
+      "description": "This book guides you through building a small operating system from scratch in just 1,000 lines of code. You'll learn essential functions like context switching, paging, and file operations while also tackling the challenges of debugging. It's a rewarding journey into OS development, requiring some knowledge of C and UNIX-like systems.",
+      "tags": [
+        "for-later",
+        "cs/operating-system"
+      ]
+    },
+    {
+      "id": "01jhazz76w93fyqcnqnsnwjv43",
+      "title": "Queues Don't Fix Overload",
+      "url": "https://ferd.ca/queues-don-t-fix-overload.html",
+      "savedAt": "2025-01-11T15:33:22.780000+00:00",
+      "description": "Queues are often misused to address system overload, but they can lead to bigger problems and system crashes. Instead of just adding queues, it's important to identify bottlenecks and choose between blocking input or shedding load to maintain system reliability. Properly managing these limits can improve performance and prevent failures, making systems more efficient and easier to maintain.",
+      "tags": [
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "01jgvh75v8gkqs36d08ewa0v28",
+      "title": "🏆 How I'm advancing my career without neglecting my life. \"New year's resolutions\" done right.",
+      "url": "https://strategizeyourcareer.com/p/how-im-advancing-my-career-without-neglecting-my-life",
+      "savedAt": "2025-01-05T15:26:58.408000+00:00",
+      "description": "This guide helps software engineers balance their careers with personal life by reflecting on their values and setting intentional goals. It emphasizes the importance of focusing on different life areas at various times to avoid burnout. By understanding life stages and prioritizing growth, individuals can achieve meaningful career and personal success.",
+      "tags": [
+        "career",
+        "self-improvement"
+      ]
+    },
     {
       "id": "01jgmjqwrhdps0kb42xthreemp",
       "title": "Can we use this index, please? – Why not?",
@@ -60,7 +92,7 @@
       "savedAt": "2024-12-31T21:43:21.622000+00:00",
       "description": "Many companies expect employees to work long hours, which can lead to burnout and lower productivity. Simply increasing hours does not guarantee more output, as productivity tends to decline over time. Finding a balance and aligning work with personal productivity cycles can improve performance without overworking.",
       "tags": [
-        "for-later",
+        "management",
         "productivity"
       ]
     },
@@ -254,7 +286,6 @@
       "description": "I often use the metaphor that rationality is the martial art of mind. You don’t need huge, bulging muscles to learn martial arts—there’s a tendency t…",
       "tags": [
         "thinking",
-        "for-later",
         "philosophy"
       ]
     },
@@ -334,7 +365,6 @@
       "savedAt": "2024-12-31T21:34:06.308000+00:00",
       "description": "Bayes' theorem is heavily used in machine learning, AI, statistics, and other areas. But it's also a useful tool to lead a more rational life.",
       "tags": [
-        "for-later",
         "philosophy",
         "math/probability"
       ]
@@ -505,8 +535,8 @@
       "description": "The \"Twelve Virtues of Rationality\" by Eliezer S. Yudkowsky emphasizes the importance of curiosity, relinquishing false beliefs, and being open to evidence. It encourages a mindset of humility and simplicity in thought, while promoting honest argument and empirical understanding. The key is to remain flexible in your beliefs and strive for clarity and precision in your reasoning.",
       "tags": [
         "thinking",
-        "for-later",
-        "philosophy"
+        "philosophy",
+        "philosophy/rationalism"
       ]
     },
     {
@@ -3613,6 +3643,7 @@
       "description": "At Resonate, we consider deterministic simulation testing (DST) to be a cornerstone of our mission to build correct and reliable distributed systems. While an increasing array of projects, including Foundation DB, TigerBeetle DB, and Resonate itself, have embraced DST, along with companies like Antithesis providing platforms dedicated to this approach, comprehensive information remains limited.",
       "tags": [
         "cs/distsys",
+        "cs/testing",
         "programming"
       ]
     },
