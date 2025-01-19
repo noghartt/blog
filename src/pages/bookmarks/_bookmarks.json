@@ -1,6 +1,154 @@
 {
-  "lastUpdate": "2025-01-12T02:47:42.848Z",
+  "lastUpdate": "2025-01-19T13:30:01.505Z",
   "data": [
+    {
+      "id": "01jhzc1qwd10f9fjc3egj1549b",
+      "title": "Writing, Briefly",
+      "url": "https://paulgraham.com/writing44.html",
+      "savedAt": "2025-01-19T13:29:16.941000+00:00",
+      "description": "Writing well is essential because it helps generate ideas, not just communicate them. To improve your writing, quickly draft a rough version and then refine it by cutting unnecessary parts and using a conversational tone. Practice regularly, seek feedback, and remember that many ideas emerge while you write.",
+      "tags": [
+        "writing"
+      ]
+    },
+    {
+      "id": "01jhygddgph0tfxadb532ta5m4",
+      "title": "What You'll Wish You'd Known",
+      "url": "https://paulgraham.com/hs.html",
+      "savedAt": "2025-01-19T05:27:48.960000+00:00",
+      "description": "In high school, it's important to focus on learning what you enjoy rather than just getting good grades. Treat school like a day job, taking intellectual responsibility for your own growth and interests. Many successful people regret wasting time in school, so find projects that excite you and help you develop your skills.",
+      "tags": [
+        "favorites",
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "01jhxee1ja7598wyxa6h6vpdx2",
+      "title": "Split Out Unrelated Changes",
+      "url": "https://www.joshuakgoldberg.com/blog/split-out-unrelated-changes/",
+      "savedAt": "2025-01-18T19:32:28.362000+00:00",
+      "description": "This blog post explains why it's important to split unrelated changes into separate pull requests for easier review. Smaller pull requests are quicker to review and reduce the risk of bugs, while also keeping the Git history cleaner. The author suggests automating stylistic changes and only including unrelated changes if they truly add value.",
+      "tags": [
+        "tools/git",
+        "software-engineering"
+      ]
+    },
+    {
+      "id": "01jhvke5ame0bm46fsfdaxxq03",
+      "title": "how do we set up teams for success?",
+      "url": "https://semaphore.substack.com/p/how-do-we-set-up-teams-for-success",
+      "savedAt": "2025-01-18T02:21:26.228000+00:00",
+      "description": "To set up teams for success, managers must create an environment that fosters collaboration and clarity. Understanding each team member's needs and encouraging open communication are key to building trust and accountability. A strong feedback culture helps teams learn from mistakes and improve together.",
+      "tags": [
+        "management"
+      ]
+    },
+    {
+      "id": "01jhthdqjr63est93mhfqj84z5",
+      "title": "How/why to get good at debugging your mind",
+      "url": "https://learnhowtolearn.org/how-to-get-good-at-debugging-your-mind/",
+      "savedAt": "2025-01-17T16:27:00.567000+00:00",
+      "description": "Understanding your own mind can greatly improve your life and help others as well. By practicing mental debugging, you can identify and solve your own problems more effectively. This skill also allows you to help others by teaching them how to improve their thinking and overcome their challenges.",
+      "tags": [
+        "favorites",
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "01jhsd7gzm3k3e5632v78t6mgg",
+      "title": "fold-… and monoids",
+      "url": "https://funcall.blogspot.com/2025/01/fold-and-monoids.html",
+      "savedAt": "2025-01-17T05:54:28.468000+00:00",
+      "description": "Monoids are mathematical structures with an associative binary function and an identity element, widely used in computer science, such as in string concatenation or integer addition. The concept of folds, like fold-left and fold-right, allows for processing lists using these monoids, making code cleaner and easier to reason about. Additionally, folds can be applied to create pipelines and manage state transitions without the need for traditional loops.",
+      "tags": [
+        "functional-programming"
+      ]
+    },
+    {
+      "id": "01jhpnr05vm5kh509vgjx3s483",
+      "title": "Holding a Program in One's Head",
+      "url": "https://paulgraham.com/head.html",
+      "savedAt": "2025-01-16T04:25:33.627000+00:00",
+      "description": "A good programmer can hold their entire code in their mind, much like a mathematician with a problem. To effectively understand and manipulate a program, it's important to minimize distractions, work in long sessions, and write clean, readable code. Large organizations often hinder this creative process, making it easier for smaller teams or startups to innovate.",
+      "tags": [
+        "favorites",
+        "software-engineering"
+      ]
+    },
+    {
+      "id": "01jhm2jdfasy7gc2b4aeh2b7wy",
+      "title": "\"Simple Made Easy\" - Rich Hickey (2011)",
+      "url": "https://www.youtube.com/watch?v=SxdOUGdseq4&t=15s",
+      "savedAt": "2025-01-15T04:11:58.826000+00:00",
+      "description": "The text emphasizes the idea of simplicity. It uses repetitive questioning to highlight the difference between complexity and simplicity. Ultimately, it suggests that things can be simpler than they seem.",
+      "tags": [
+        "cs/talks",
+        "favorites"
+      ]
+    },
+    {
+      "id": "01jhm2d95c7d8rvd0jq0tvs2bj",
+      "title": "Try Snapshot Testing for Compilers and Compiler-Like Things",
+      "url": "https://www.cs.cornell.edu/%7Easampson/blog/turnt.html",
+      "savedAt": "2025-01-15T04:09:10.572000+00:00",
+      "description": "Snapshot testing is an easy way to test programs that transform text, by saving input and output pairs in version control. This method simplifies test writing, allowing developers to quickly add new tests and check for changes. Tools like Turnt make it simple to run these tests and manage outputs, fostering better test coverage with minimal effort.",
+      "tags": [
+        "for-later",
+        "cs/compilers"
+      ]
+    },
+    {
+      "id": "01jhgwmjwxd7n8vme4n1ve1aqp",
+      "title": "The 2025 AI Engineer Reading List",
+      "url": "https://www.latent.space/p/2025-papers",
+      "savedAt": "2025-01-13T22:30:35.165000+00:00",
+      "description": "The 2025 AI Engineer Reading List features 50 essential papers and models across 10 AI engineering fields, including LLMs and Code Generation. Each section includes five key readings to help engineers stay practical and up-to-date without wasting time on overly familiar topics. The list is curated for those looking to enhance their knowledge and skills in the rapidly evolving AI landscape.",
+      "tags": [
+        "cs/ai"
+      ]
+    },
+    {
+      "id": "01jhd9z6hrwgqwb9k87bs4snzm",
+      "title": "HOWTO: Control yourself",
+      "url": "https://matt.might.net/articles/how-to-control-yourself/",
+      "savedAt": "2025-01-12T13:06:36.727000+00:00",
+      "description": "The text discusses how to manage self-control by understanding willpower and willenergy. It suggests strategies like avoiding temptation and making tasks easier to conserve willpower. Lifestyle design and habit formation are emphasized for long-term behavior change.",
+      "tags": [
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "01jhd8nk6btwabmjzfgahg62fz",
+      "title": "Not every user owns an iPhone",
+      "url": "https://calendar.perfplanet.com/2024/not-every-user-owns-an-iphone/",
+      "savedAt": "2025-01-12T12:43:53.419000+00:00",
+      "description": "Many software developers use high-end devices like iPhones, but most users have different, often less powerful devices. This disparity can lead to a poor experience for users on lower-end Android phones, which are common and make up a large part of the mobile web audience. Developers should consider these users' realities to create more inclusive and accessible web applications.",
+      "tags": [
+        "web"
+      ]
+    },
+    {
+      "id": "01jhd6wtgzqhyvcezc7rt7n9jg",
+      "title": "Flattening ASTs (and Other Compiler Data Structures)",
+      "url": "https://www.cs.cornell.edu/~asampson/blog/flattening.html",
+      "savedAt": "2025-01-12T12:12:53.151000+00:00",
+      "description": "This text discusses the benefits of flattening abstract syntax trees (ASTs) in compilers by using a contiguous array instead of pointers. By doing this, memory allocation becomes more efficient, and it reduces fragmentation, leading to faster performance. The author demonstrates this with a comparison of a standard interpreter and a flattened version, showing that the flattened interpreter is significantly faster.",
+      "tags": [
+        "cs/compilers",
+        "cs/pl-theory"
+      ]
+    },
+    {
+      "id": "01jhcaq7w2jn98q0xwznh8dt7f",
+      "title": "Dual N-Back",
+      "url": "https://gwern.net/dnb-faq#personal-reflection-on-results",
+      "savedAt": "2025-01-12T04:00:30.082000+00:00",
+      "description": "The study on Dual N-Back training found that both young and older adults improved their working memory after five weeks, with gains lasting 18 months. Although young participants showed some transfer of benefits to untrained tasks, older adults did not. Users reported significant improvements in their working memory but mixed results regarding changes in intelligence test scores.",
+      "tags": [
+        "learning",
+        "tools/spaced-repetition"
+      ]
+    },
     {
       "id": "01jhc6h8hpm205sk44fchzgbpx",
       "title": "Operating System in 1,000 Lines - Intro",
@@ -217,7 +365,6 @@
       "description": "Marc Brooker argues that formal methods are essential for effective software engineering, especially in large-scale and critical systems. He believes that using these methods can reduce rework and the costs associated with changes, ultimately speeding up the development process. While not every type of software benefits equally from formal methods, they are crucial for optimizing complex system designs.",
       "tags": [
         "cs",
-        "for-later",
         "math/formal-methods"
       ]
     },
@@ -3413,10 +3560,10 @@
     },
     {
       "id": "01jbepa3cy6198b0vwxqw6sehn",
-      "title": "How web bloat impacts users with slow devices",
+      "title": "Tecno S8C",
       "url": "https://danluu.com/slow-device/",
       "savedAt": "2024-03-18T09:19:05.458000+00:00",
-      "description": "In 2017, we looked at how web bloat affects users with slow connections. Even in the U.S., many users didn't have broadband speeds, making much of the web difficult to use. It's still the case that many users don't have broadband speeds, both inside and outside of the U.S. and that much of the modern web isn't usable for people with slow internet, but the exponential increase in bandwidth (Nielsen suggests this is 50% per year for high-end connections) has outpaced web bloat for typical sites, making this less of a problem than it was in 2017, although it's still a serious problem for people with poor connections.",
+      "description": "In 2017, we looked at how web bloat affects users with slow connections. Even in the U.",
       "tags": [
         "web",
         "for-later"
@@ -4969,7 +5116,7 @@
     },
     {
       "id": "01jbep93a2z595f155rvpmcdzw",
-      "title": "How (some) good corporate engineering blogs are written",
+      "title": "https://segment.com/blog/when-aws-autoscale-doesn-t/",
       "url": "https://danluu.com/corp-eng-blogs/",
       "savedAt": "2024-06-01T13:44:55.451000+00:00",
       "description": "I've been comparing notes with people who run corporate engineering blogs and one thing that I think is curious is that it's pretty common for my personal blog to get more traffic than the entire corp eng blog for a company with a nine to ten figure valuation and it's not uncommon for my blog to get an order of magnitude more traffic.",
@@ -5616,6 +5763,7 @@
       "savedAt": "2024-06-24T02:04:49.616000+00:00",
       "description": "Efficient memorization using the spacing effect: literature review of widespread applicability, tips on use & what it’s good for.",
       "tags": [
+        "learning",
         "for-later",
         "self-improvement"
       ]
@@ -6014,10 +6162,10 @@
     },
     {
       "id": "01jbep8f3j471w5x6g84rrp0zh",
-      "title": "Malloc tutorial",
+      "title": "malloc",
       "url": "https://danluu.com/malloc-tutorial/",
       "savedAt": "2024-06-30T03:35:09.225000+00:00",
-      "description": "Let's write a malloc and see how it works with existing programs!",
+      "description": "This is basically an expanded explanation of what I did after reading this tutorial by Marwan Burelle and then sitting down and trying to write my own implementation, so the steps are going to be fairly similar.",
       "tags": [
         "cs",
         "for-later"
