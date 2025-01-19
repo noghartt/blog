@@ -1,6 +1,17 @@
 {
-  "lastUpdate": "2025-01-19T13:30:01.505Z",
+  "lastUpdate": "2025-01-19T17:51:10.064Z",
   "data": [
+    {
+      "id": "01jhzckvwdy845pnyg3knspj8h",
+      "title": "How to Lose Time and Money",
+      "url": "https://paulgraham.com/selfindulgence.html",
+      "savedAt": "2025-01-19T13:39:10.861000+00:00",
+      "description": "Paul Graham explains that people often lose money not through overspending but through bad investments that don’t trigger warning signs. Similarly, we can waste time on unproductive tasks that feel like work but accomplish little, leading to a false sense of productivity. To protect both time and money, we need to develop new awareness of these hidden traps.",
+      "tags": [
+        "management",
+        "self-improvement"
+      ]
+    },
     {
       "id": "01jhzc1qwd10f9fjc3egj1549b",
       "title": "Writing, Briefly",
@@ -61,7 +72,7 @@
       "savedAt": "2025-01-17T05:54:28.468000+00:00",
       "description": "Monoids are mathematical structures with an associative binary function and an identity element, widely used in computer science, such as in string concatenation or integer addition. The concept of folds, like fold-left and fold-right, allows for processing lists using these monoids, making code cleaner and easier to reason about. Additionally, folds can be applied to create pipelines and manage state transitions without the need for traditional loops.",
       "tags": [
-        "functional-programming"
+        "cs/functional-programming"
       ]
     },
     {
@@ -907,7 +918,7 @@
       "savedAt": "2024-12-30T14:32:40.123000+00:00",
       "description": "Joe Marshall, a \"mostly functional\" programmer, avoids using monads because they complicate code and mimic imperative styles that he finds inferior. He prefers languages like Lisp, which already have features like `progn` and `setf` that handle side effects without needing monads. Marshall believes that while monads are popular in functional programming, they are not always necessary or idiomatic in the languages he uses.",
       "tags": [
-        "functional-programming"
+        "cs/functional-programming"
       ]
     },
     {
@@ -993,9 +1004,9 @@
       "savedAt": "2024-12-21T16:27:43.606000+00:00",
       "description": "Ozempic and other GLP-1 receptor agonists are approved for treating diabetes and obesity, but they also show promise for various addictions and even conditions like dementia. These drugs work by controlling hunger and cravings through specific pathways in the brain, making them seem almost magical in their effects. Researchers are exploring how these medications might influence overall health and weight management beyond their original purposes.",
       "tags": [
-        "cool",
         "health",
-        "biology"
+        "biology",
+        "favorites"
       ]
     },
     {
@@ -1005,7 +1016,7 @@
       "savedAt": "2024-12-19T01:01:00.588000+00:00",
       "description": "The blog OhHelloAna shares a collection of bookmarks related to tech and web development, along with other interesting topics. It features resources on CSS, accessibility, and web design, as well as articles on personal growth and societal issues. The author aims to share valuable insights and findings that they have come across.",
       "tags": [
-        "cool",
+        "favorites",
         "resource/list"
       ]
     },
@@ -1493,9 +1504,9 @@
       "savedAt": "2024-12-16T15:22:06.569000+00:00",
       "description": "It is often hard to find products that work well because companies focus more on efficiency and marketing than on creating quality. Many firms make decisions without serious technical consideration, leading to a lack of pressure to improve their products. This problem exists across various industries, resulting in inefficiencies and a tendency to prioritize profit over product quality.",
       "tags": [
-        "cool",
         "economy",
-        "business"
+        "business",
+        "favorites"
       ]
     },
     {
@@ -1505,8 +1516,8 @@
       "savedAt": "2024-12-14T16:23:33.129000+00:00",
       "description": "Rithwik Jayasimha and his dad found a way to unlock the Hearing Aid feature on AirPods Pro 2 for their hard-of-hearing grandma, despite Apple's regional restrictions. They built a Faraday cage and used clever techniques to spoof the device's location to make it appear as if it was in the U.S. Now, they plan to help others in Bengaluru access this feature as well.",
       "tags": [
-        "cool",
-        "hacking",
+        "favorites",
+        "cs/hacking",
         "reverse-engineering"
       ]
     },
@@ -1528,7 +1539,7 @@
       "description": "John Baez shares his experiences discussing monads with his friend Bill Schmitt, realizing he has become less intimidated by the topic. Monads are mathematical structures that help study algebraic concepts, and they can be described in various ways. Baez expresses his eagerness to understand more about different aspects of monad theory that once confused him.",
       "tags": [
         "math/category-theory",
-        "functional-programming"
+        "cs/functional-programming"
       ]
     },
     {
@@ -1622,7 +1633,7 @@
       "savedAt": "2024-12-08T06:59:41.395000+00:00",
       "description": "American interstate roads are generally high-quality, but urban roads often suffer from poor conditions. While the U.S. ranks well in international comparisons, many non-interstate roads are in worse shape compared to those in Europe. Overall, major cities in the U.S. tend to have significant road quality issues, especially in California.",
       "tags": [
-        "cool",
+        "favorites",
         "infrastructure"
       ]
     },
@@ -1719,7 +1730,7 @@
       "savedAt": "2024-12-03T22:24:21.886000+00:00",
       "description": "Nicole designed multiple ergonomic prototypes to make using her laptop more comfortable. Her latest setup is smaller, lighter, and easier to travel with, helping reduce arm and hand pain. She enjoys creating these tools in her workshop and is willing to help others who need similar solutions.",
       "tags": [
-        "cool",
+        "favorites",
         "tools/setup"
       ]
     },
@@ -2041,8 +2052,8 @@
       "savedAt": "2024-11-25T12:46:49.391000+00:00",
       "description": "The author shares their experience configuring Git identities using conditional includes based on remote URLs. They also explain how to set up SSH keys for different GitHub accounts by creating custom host entries. The post invites feedback on this approach to improve their setup.",
       "tags": [
-        "tools/git",
-        "interesting"
+        "favorites",
+        "tools/git"
       ]
     },
     {
@@ -2387,7 +2398,7 @@
       "savedAt": "2024-11-03T13:19:16.178000+00:00",
       "description": "Photographing everyday life can help us appreciate the passage of time, even if our pictures seem mundane. While our descendants may not value our photos, they can still serve as a meaningful record of our experiences. Ultimately, photography allows us to find beauty and significance in the ordinary moments of life.",
       "tags": [
-        "cool"
+        "favorites"
       ]
     },
     {
@@ -2964,7 +2975,7 @@
       "tags": [
         "resource",
         "type-theory",
-        "functional-programming"
+        "cs/functional-programming"
       ]
     },
     {
@@ -3172,8 +3183,8 @@
       "savedAt": "2024-03-02T16:03:18.026000+00:00",
       "description": "I wrote a working Minecraft server in Bash! wait, why did I do that",
       "tags": [
-        "for-later",
-        "interesting"
+        "favorites",
+        "for-later"
       ]
     },
     {
@@ -3204,7 +3215,7 @@
       "savedAt": "2024-03-03T19:43:14.467000+00:00",
       "description": "Interactive article explaining the physics of an airfoil and what makes airplanes fly",
       "tags": [
-        "curiosity",
+        "til",
         "for-later"
       ]
     },
@@ -3483,7 +3494,7 @@
       "savedAt": "2024-03-16T05:16:26.037000+00:00",
       "description": "Is DNA all you need?",
       "tags": [
-        "cool"
+        "favorites"
       ]
     },
     {
@@ -3747,7 +3758,7 @@
       "savedAt": "2024-03-28T19:17:10.283000+00:00",
       "description": "Tech independence is not depending on any particular company or software.",
       "tags": [
-        "cool"
+        "favorites"
       ]
     },
     {
@@ -3767,8 +3778,8 @@
       "savedAt": "2024-03-28T22:16:52.343000+00:00",
       "description": "An in-depth analysis that explains how this console works internally",
       "tags": [
-        "cool",
         "hardware",
+        "favorites",
         "for-later"
       ]
     },
@@ -3801,7 +3812,7 @@
       "savedAt": "2024-03-29T03:09:15.892000+00:00",
       "description": "A list of things you're allowed to do that you thought you couldn't, or didn't even know you could.",
       "tags": [
-        "cool",
+        "favorites",
         "self-improvement"
       ]
     },
@@ -3875,8 +3886,8 @@
       "savedAt": "2024-04-02T21:30:41.877000+00:00",
       "description": "Everything I Know About SSDs. SSD Documentation. A technical description of the differences between Hard Drives and Solid State Devices",
       "tags": [
-        "cool",
-        "hardware"
+        "hardware",
+        "favorites"
       ]
     },
     {
@@ -3920,7 +3931,7 @@
       "savedAt": "2024-04-05T01:39:40.819000+00:00",
       "description": "Writing a container in a few lines of Go code, as seen at DockerCon 2017 and on O'Reilly Safari - lizrice/containers-from-scratch",
       "tags": [
-        "cool"
+        "favorites"
       ]
     },
     {
@@ -3930,8 +3941,8 @@
       "savedAt": "2024-04-05T03:07:30.673000+00:00",
       "description": "Lately I’ve been doing a lot of work with the ARM64 instruction set, and I\nthought it would be fun to try to visualize it. ARM64 encodes every instruction\nas a 32-bit integer, so one way to visualize the instruction set is by plotting\nthe instructions along a space-filling curve, such as a Hilbert curve1, and\ncoloring them according to their instruction class (i.e., general, advsimd,\nfloat, sve, etc…).",
       "tags": [
-        "cool",
-        "hardware"
+        "hardware",
+        "favorites"
       ]
     },
     {
@@ -3973,8 +3984,8 @@
       "savedAt": "2024-04-05T15:19:40.604000+00:00",
       "description": "Updates about my life and what I learn about creating software",
       "tags": [
-        "cool",
-        "cs/devops"
+        "cs/devops",
+        "favorites"
       ]
     },
     {
@@ -4123,9 +4134,9 @@
       "description": "Custom CPU built with discrete logic chips",
       "tags": [
         "cs",
-        "cool",
         "math",
-        "hardware"
+        "hardware",
+        "favorites"
       ]
     },
     {
@@ -4206,7 +4217,7 @@
       "savedAt": "2024-04-20T13:18:01.689000+00:00",
       "description": "Addiction Pathways in the Brain",
       "tags": [
-        "medical"
+        "health"
       ]
     },
     {
@@ -4217,7 +4228,7 @@
       "description": "Powered by blists - more mailing lists",
       "tags": [
         "cs",
-        "hacking"
+        "cs/hacking"
       ]
     },
     {
@@ -4310,8 +4321,8 @@
       "description": "Everything I went through to add support for HD resolutions to Halo 2 on the Original Xbox. From patching the game's rendering engine and memory allocator, to hot patching the Xbox OS, to overclocking the GPU and running performance benchmarks. This post covers how I pushed the game and console to t",
       "tags": [
         "cs",
-        "cool",
-        "hardware"
+        "hardware",
+        "favorites"
       ]
     },
     {
@@ -4321,7 +4332,7 @@
       "savedAt": "2024-04-22T03:31:03.328000+00:00",
       "description": "<p>DSS-43 is the only antenna that can communicate with the probe</p>",
       "tags": [
-        "cool"
+        "favorites"
       ]
     },
     {
@@ -4393,8 +4404,8 @@
       "description": "A minimal GPU design in Verilog to learn how GPUs work from the ground up - adam-maj/tiny-gpu",
       "tags": [
         "cs",
-        "cool",
         "hardware",
+        "favorites",
         "for-later",
         "type/repository"
       ]
@@ -4501,8 +4512,8 @@
       "description": "In response to a question on Twitter1, Richard Hipp wrote about why SQLite uses a bytecode VM for executing SQL statements.",
       "tags": [
         "cs",
-        "cool",
-        "hardware"
+        "hardware",
+        "favorites"
       ]
     },
     {
@@ -4521,7 +4532,7 @@
       "description": "More specifically, Ansible is homoiconic and has syntactic macros",
       "tags": [
         "cs",
-        "cool"
+        "favorites"
       ]
     },
     {
@@ -4658,7 +4669,7 @@
       "description": "Naming something we see and benefit from every day",
       "tags": [
         "city",
-        "cool"
+        "favorites"
       ]
     },
     {
@@ -4709,7 +4720,7 @@
       "savedAt": "2024-05-10T00:41:51.904000+00:00",
       "description": "<p>Engineers found space in the geriatric spacecraft’s memory to deal with a stuck bit</p>",
       "tags": [
-        "cool"
+        "favorites"
       ]
     },
     {
@@ -4720,7 +4731,7 @@
       "description": "The above is a map of all Hacker News posts since its founding, laid semantically i. e.",
       "tags": [
         "cs",
-        "cool"
+        "favorites"
       ]
     },
     {
@@ -4742,8 +4753,8 @@
       "description": "how make gpu fast?",
       "tags": [
         "cs",
-        "cool",
-        "hardware"
+        "hardware",
+        "favorites"
       ]
     },
     {
@@ -4870,7 +4881,7 @@
       "savedAt": "2024-05-20T11:08:45.741000+00:00",
       "description": "Oh God it's already Thursday",
       "tags": [
-        "cool"
+        "favorites"
       ]
     },
     {
@@ -4892,7 +4903,7 @@
       "description": "HTML | TXT | PDF",
       "tags": [
         "cs",
-        "cool"
+        "favorites"
       ]
     },
     {
@@ -4913,7 +4924,7 @@
       "description": "Zachary W. Huang",
       "tags": [
         "cs",
-        "cool"
+        "favorites"
       ]
     },
     {
@@ -4982,7 +4993,7 @@
       "description": "Published on February 23, 2019, last updated October 30, 2021",
       "tags": [
         "cs",
-        "functional-programming"
+        "cs/functional-programming"
       ]
     },
     {
@@ -4992,7 +5003,7 @@
       "savedAt": "2024-05-30T12:22:46.968000+00:00",
       "description": "Today we ALMOST make 2,5-DMA. 2,5-DMA by itself is a Schedule I drug in the USA. However, we can almost make it and bypass anything illegal. I hope you enjoy the video!\n\nSources:\nhttps://en.wikipedia.org/wiki/Controlled_Substances_Act#Schedule_I_drugs\nhttps://isomerdesign.com/PiHKAL/read.php?id=54&domain=pk\nhttps://isomerdesign.com/PiHKAL/read.php?domain=pk&id=20#rxa12389\n\nSOCIALS:\nPatreon: patreon.com/Chemdelic \nInstagram:  https://www.instagram.com/chemdelic/\nDiscord:  https://discord.com/invite/dmfMKupj9W\nCashapp: $ChemdelicLLC\nMerch: https://chemdelic-shop.fourthwall.com/\n\nDisclaimer:\nThe content provided in these videos is for entertainment or educational purposes only and should not be attempted or replicated under any circumstances. Viewers are strongly advised against attempting to recreate any of the actions, stunts, or activities depicted, as they may involve significant risk of injury, legal liability, or other harm. By choosing to engage in any similar activities, individuals do so at their own risk and assume full responsibility for any resulting consequences. The creators of these videos will not be held liable for any damages, injuries, or legal issues arising from viewers attempting to replicate the content. Viewer discretion is advised, and all viewers are encouraged to exercise sound judgment and respect all applicable laws and safety guidelines.",
       "tags": [
-        "cool",
+        "favorites",
         "type/video"
       ]
     },
@@ -5067,8 +5078,7 @@
       "savedAt": "2024-05-30T16:07:18.629000+00:00",
       "description": "Neal Stephenson’s In the Beginning… Was the Command Line is one of the most profound pieces of writing about technology I’ve read. I found myself underscoring and highlighting numerous passages in this essay that reads equally as much like political propaganda, memoir, novella, and journalistic reporting all at once. If you have a couple of hours to spare, I’d recommend this essay only behind Greg Egan’s Diaspora, my favorite piece of science fiction, as a must-read.",
       "tags": [
-        "cool",
-        "interesting"
+        "favorites"
       ]
     },
     {
@@ -5079,7 +5089,7 @@
       "description": "I needed a bit of a break from “real work” recently, so I started a new\nprogramming project that was low-stakes and purely recreational. On April 21st,\nI set out to see how much of a Unix-like operating system for x86_64 targets\nthat I could put together in about a month. The result is\nBunnix. Not including days I didn’t work\non Bunnix for one reason or another, I spent 27 days on this project.",
       "tags": [
         "cs",
-        "cool"
+        "favorites"
       ]
     },
     {
@@ -5100,7 +5110,7 @@
       "savedAt": "2024-05-31T01:05:01.414000+00:00",
       "description": "For the longest of time, I was under the impression that developers and programmers, for the most part, are as or even more so interested in technology, tools, efficiency and productivity as I am. This came from the somewhat outdated understanding that the barrier of entry into programming was mentally taxing and required fucking around with compiling, development environment et al.",
       "tags": [
-        "cool"
+        "favorites"
       ]
     },
     {
@@ -5163,7 +5173,7 @@
       "savedAt": "2024-06-02T20:18:03.527000+00:00",
       "description": "A blog about making culture. Since 1999.",
       "tags": [
-        "cool",
+        "favorites",
         "systems-theory"
       ]
     },
@@ -5217,7 +5227,7 @@
       "savedAt": "2024-06-08T16:47:17.969000+00:00",
       "description": "If an expert can't understand your explanation, you've dumbed it down too much!",
       "tags": [
-        "interesting"
+        "favorites"
       ]
     },
     {
@@ -5302,7 +5312,7 @@
       "savedAt": "2024-06-13T23:15:04.330000+00:00",
       "description": "I spent the last month wondering and investigating how we might design better workflows for creative work that meld the best of human intuition and machine intelligence. I think a promising path is in the design of notation. More explicitly, I believe inventing better notations can contribute far more than automated tools to our effective intelligence in understanding ourselves, the world, and our place in it.",
       "tags": [
-        "interesting"
+        "favorites"
       ]
     },
     {
@@ -5422,7 +5432,7 @@
       "savedAt": "2024-06-15T04:06:52.368000+00:00",
       "description": "Defining the security/hacker mindset as extreme reductionism: ignoring the surface abstractions and limitations to treat a system as a source of parts to manipulate into a different system, with different (and usually unintended) capabilities.",
       "tags": [
-        "interesting"
+        "favorites"
       ]
     },
     {
@@ -5559,7 +5569,7 @@
       "savedAt": "2024-06-16T20:20:17.721000+00:00",
       "description": "A description of advanced tips and tricks for effective Internet research of papers/books, with real-world examples.",
       "tags": [
-        "interesting"
+        "favorites"
       ]
     },
     {
@@ -5983,8 +5993,8 @@
       "savedAt": "2024-06-26T03:03:11.297000+00:00",
       "description": "Two years ago, something very strange happened to me while working from my home network. I was exploiting a blind XXE vulnerability that required an external HTTP server to smuggle out files, so I spun up an AWS box and ran a simple Python webserver to receive the traffic from the vulnerable server.",
       "tags": [
-        "hacking",
-        "for-later"
+        "for-later",
+        "cs/hacking"
       ]
     },
     {
@@ -6092,7 +6102,7 @@
       "savedAt": "2024-06-29T07:47:02.626000+00:00",
       "description": "Photo by Krzysztof Hepner on Unsplash It’s the classic love story. Girl meets boy. Boy isn’t sure if his function will succeed, so he returns a metatype for his actual type indicating whether the operation succeeded or failed. Boy loses girl. We’ve all been there. Here’s how it happened. Err, well, at least that second…",
       "tags": [
-        "functional-programming"
+        "cs/functional-programming"
       ]
     },
     {
@@ -6155,7 +6165,7 @@
       "savedAt": "2024-06-30T02:59:38.749000+00:00",
       "description": "Super Tilt Bro. is an online game. You can even make an account to be placed on the official ranking, to do that you simply enter your login/password and... the technical trouble begins! Nice little c...",
       "tags": [
-        "curiosity",
+        "til",
         "cs/gamedev",
         "cs/cryptography"
       ]
@@ -6418,7 +6428,7 @@
       "savedAt": "2024-07-05T00:51:42.779000+00:00",
       "description": "How far can we get leveraging the lens library in\nHaskell to model Moore Machines and Wiring Diagrams?",
       "tags": [
-        "functional-programming"
+        "cs/functional-programming"
       ]
     },
     {
@@ -6429,7 +6439,7 @@
       "description": "Hello! I'm Niklas Oberhuber and I write about programming, machine learning and my projects.",
       "tags": [
         "cs",
-        "cool"
+        "favorites"
       ]
     },
     {
@@ -6770,7 +6780,7 @@
       "description": "Update: I gave a talk at NY Haskell following this blogpost, although I didn’t manage to talk about everything:",
       "tags": [
         "cs/type-system",
-        "functional-programming"
+        "cs/functional-programming"
       ]
     },
     {
@@ -7920,7 +7930,7 @@
       "savedAt": "2024-08-11T15:20:00.520000+00:00",
       "description": "I recently had solar panels and a battery storage system from GivEnergy installed at my house. A major selling point for me was that they have a local…",
       "tags": [
-        "hacking",
+        "cs/hacking",
         "cs/cryptography"
       ]
     },
@@ -8047,7 +8057,7 @@
       "savedAt": "2024-08-16T01:04:19.354000+00:00",
       "description": "How bounded higher-kinded polymorphism arises in practice, and how to express it in OCaml, in several different ways. Some ways are rather concise -- but less widely known.",
       "tags": [
-        "functional-programming"
+        "cs/functional-programming"
       ]
     },
     {
@@ -8552,7 +8562,7 @@
       "savedAt": "2024-09-03T01:16:17.786000+00:00",
       "description": "RSS and ATOM feeds are problematic for two reasons; 1) lack of history, 2) contain limited post content. We built some open-source software to fix that.",
       "tags": [
-        "cool"
+        "favorites"
       ]
     },
     {
@@ -8686,7 +8696,6 @@
       "savedAt": "2024-09-09T12:21:16.003000+00:00",
       "description": "How does Linux move from an awake machine to a hibernating one?\nHow does it then manage to restore all state?\nThese questions led me to read way too much C in trying to figure out\nhow this particular hardware/software boundary is navigated.",
       "tags": [
-        "linux",
         "os/linux",
         "cs/operating-system"
       ]
@@ -8896,8 +8905,8 @@
       "savedAt": "2024-09-12T13:36:07.613000+00:00",
       "description": "Over the past six decades, advances in computers and microprocessors have completely reshaped our world.",
       "tags": [
-        "engineering",
-        "interesting"
+        "favorites",
+        "engineering"
       ]
     },
     {
@@ -9062,7 +9071,7 @@
       "savedAt": "2024-12-31T21:32:55.920000+00:00",
       "description": "P(A|B) = [P(A)*P(B|A)]/P(B), all the rest is commentary.",
       "tags": [
-        "cool",
+        "favorites",
         "for-later",
         "math/statistics",
         "math/probability"
@@ -9205,7 +9214,7 @@
       "savedAt": "2024-10-01T14:02:12.932000+00:00",
       "description": "William Cotton",
       "tags": [
-        "functional-programming"
+        "cs/functional-programming"
       ]
     },
     {
@@ -9383,7 +9392,7 @@
       "savedAt": "2024-10-07T23:14:01.903000+00:00",
       "description": "What is a Turing machine?Depending on who you ask, it's either an abstract model of an algorithmic machine or an esoteric programming language. It's ...",
       "tags": [
-        "cool"
+        "favorites"
       ]
     },
     {
@@ -9496,7 +9505,7 @@
       "savedAt": "2024-10-12T01:36:59.224000+00:00",
       "description": "\"The Sequences\" is a series of essays by Eliezer Yudkowsky. They describe how to avoid the typical failure modes of human reason and instead think in ways that more reliably lead to true and accurate beliefs. These essays are the foundational texts of LessWrong.\n\nTo provide a quick and accessible introduction to The Sequences, we have selected 50 of the best essays that capture some of the seminal ideas. \n\nEstimated read time of 8 hours.\n\nArt by Dall-E 2",
       "tags": [
-        "cool"
+        "favorites"
       ]
     },
     {
@@ -9516,7 +9525,7 @@
       "savedAt": "2024-10-12T13:55:56.885000+00:00",
       "description": "Haskell’s expressive type system means that type signatures can carry\na lot of information. Haskell’s polymorphism means that you sometime\nwrite a function that works across an enormous range of types, and are\noften left wondering “what do I actually call my variables?”. It is\noften the case that there’s nothing to say beyond “this variable is a Functor”,\nor “this variable is a monadic action”, and so a single-letter variable\nname is appropriate. An unofficial and largely undocumented convention\nhas emerged around these variable names, and so I wanted to write them\nall down in one place.",
       "tags": [
-        "functional-programming",
+        "cs/functional-programming",
         "cs/programming-languages/haskell"
       ]
     },
@@ -9770,7 +9779,7 @@
       "savedAt": "2024-10-24T04:40:56.258000+00:00",
       "description": "It is often mentioned that the bottleneck in building software projects is not\none’s typing ability but ability to think clearly, and to design the\narchitecture effectively. Afterall, if typing speed was so essential to\nprogramming, the time difference between rewriting an already existing project\nwith that of creating it from scratch would not be as high as it is.",
       "tags": [
-        "interesting"
+        "favorites"
       ]
     },
     {
