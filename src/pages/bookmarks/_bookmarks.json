@@ -1,6 +1,101 @@
 {
-  "lastUpdate": "2025-01-19T17:51:10.064Z",
+  "lastUpdate": "2025-02-03T01:48:01.587Z",
   "data": [
+    {
+      "id": "01jk4qsr405vj3x1mnj9pg0sy7",
+      "title": "How I Am Productive",
+      "url": "https://www.lesswrong.com/posts/JTHe5oGvdj6T73o4o/how-i-am-productive",
+      "savedAt": "2025-02-03T01:46:31.935000+00:00",
+      "description": "The author explains how they became productive by implementing systems and habits in their life. They stress the importance of organization, including writing down ideas, keeping track of events on a calendar, and using a to-do list. Prioritization is also crucial, and the author recommends using the Eisenhower Matrix to distinguish between important and urgent tasks. Timeboxing and taking breaks are helpful techniques for staying focused, and regular reviews at various intervals (daily, weekly, monthly, and every six months) can aid in reflection and improvement.",
+      "tags": []
+    },
+    {
+      "id": "01jk1e72x93sc3z17zrrvf4xay",
+      "title": "Productivity",
+      "url": "https://blog.samaltman.com/productivity",
+      "savedAt": "2025-02-01T19:01:19.913000+00:00",
+      "description": "To boost productivity, focus on working on what you care about and prioritize tasks effectively. Make lists to stay organized, minimize distractions, and maintain a healthy work-life balance. Remember, it's essential to work on the right problems to truly be productive.",
+      "tags": [
+        "favorites",
+        "productivity"
+      ]
+    },
+    {
+      "id": "01jk1dvwq0gpvf3pdavppd6v48",
+      "title": "Every productivity thought I've ever had, as concisely as possible",
+      "url": "https://guzey.com/productivity/",
+      "savedAt": "2025-02-01T18:55:13.120000+00:00",
+      "description": "The author discusses how productivity systems eventually fail and suggests that accepting procrastination can help reduce guilt. He emphasizes the importance of finding excitement in long-term tasks to stay motivated and argues against traditional advice like eliminating distractions. Instead, he promotes creating flexible rules that adapt to individual needs to maintain productivity.",
+      "tags": [
+        "favorites",
+        "productivity",
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "01jjzqzwarhgrjwbw4j7d9v1rd",
+      "title": "Anatomy of a Formal Proof",
+      "url": "https://www.ams.org/journals/notices/202502/noti3114/noti3114.html",
+      "savedAt": "2025-02-01T03:13:40.696000+00:00",
+      "description": "The text discusses the use of Lean, a proof assistant, to construct formal mathematical proofs using a library called Mathlib. It highlights how contributors to Mathlib ensure that theorems and structures are reusable and easy to apply in new proofs. The document also mentions the growing role of AI in assisting with proof construction, alongside the historical development of formal proof systems.",
+      "tags": [
+        "for-later",
+        "math/formal-proof"
+      ]
+    },
+    {
+      "id": "01jjjjve3194qbmbr13nvpem2f",
+      "title": "Playing to Win Overview",
+      "url": "https://www.sirlin.net/articles/playing-to-win",
+      "savedAt": "2025-01-27T00:33:44.544000+00:00",
+      "description": "\"Playing to Win\" emphasizes the importance of making strategic moves to win games, rather than adhering to self-imposed restrictions. Many players, referred to as \"scrubs,\" misunderstand this concept and label effective tactics as \"cheap,\" which limits their potential for improvement. True enjoyment in competitive games comes from mastering strategies and optimizing chances to win, rather than avoiding certain moves.",
+      "tags": [
+        "favorites",
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "01jjhygnfepfsk63j9ekeay1e5",
+      "title": "Willingness to look stupid",
+      "url": "https://danluu.com/look-stupid/",
+      "savedAt": "2025-01-26T18:38:20.142000+00:00",
+      "description": "The author believes that being willing to look stupid can lead to greater understanding and personal growth, despite occasional negative perceptions from others. They share experiences where asking seemingly foolish questions helped them learn more effectively. Overall, the author values honesty and effort over the fear of appearing foolish, especially in challenging situations like interviews or medical appointments.",
+      "tags": [
+        "favorites",
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "01jjhr92pvw5xsta4y0zxyw4mr",
+      "title": "150 Great Articles & Essays: interesting articles to read online",
+      "url": "https://tetw.org/Greats",
+      "savedAt": "2025-01-26T16:49:20.090000+00:00",
+      "description": "This collection features 150 great articles and essays available for free online. It includes interesting nonfiction and journalism on various topics, including men. The Electric Typewriter curates the best writing from around the internet.",
+      "tags": [
+        "writing",
+        "favorites"
+      ]
+    },
+    {
+      "id": "01jj50dtmwyjr81n6c482qzhp6",
+      "title": "Storage is cheap, but not thinking about logging is expensive",
+      "url": "https://www.counting-stuff.com/storage-is-cheap-storing-isnt-2/",
+      "savedAt": "2025-01-21T18:01:36.668000+00:00",
+      "description": "Storage costs are low, but failing to plan data logging properly can lead to high expenses and inefficiencies. Many teams collect excessive data without clear metrics, making it hard to derive useful insights later. It's crucial to focus on what data is genuinely needed for decision-making to avoid creating burdensome tech debt.",
+      "tags": []
+    },
+    {
+      "id": "01jj4xv033c1y4wr34k32snzbn",
+      "title": "Building a tiny Linux from scratch",
+      "url": "https://blinry.org/tiny-linux/",
+      "savedAt": "2025-01-21T17:16:22.499000+00:00",
+      "description": "Last week, I built a tiny Linux system from scratch that only takes up 2.5 MB and can boot from a USB stick. I learned how to compile the Linux kernel and Busybox, and created a simple init process to run commands. Now, I can boot this minimal Linux on my laptop and explore how it works!",
+      "tags": [
+        "os/linux",
+        "for-later",
+        "cs/operating-system"
+      ]
+    },
     {
       "id": "01jhzckvwdy845pnyg3knspj8h",
       "title": "How to Lose Time and Money",
@@ -9753,10 +9848,10 @@
     },
     {
       "id": "01jbep672gfjcdtg4fnht5phax",
-      "title": "Building and scaling Notion’s data lake",
+      "title": "Building and scaling Notion’s in-house data lake",
       "url": "https://www.notion.so/blog/building-and-scaling-notions-data-lake",
       "savedAt": "2024-10-23T10:43:19.693000+00:00",
-      "description": "How Notion build and grew our data lake to keep up with rapid growth",
+      "description": "In the past three years Notion’s data has expanded 10x due to user and content growth, with a doubling rate of 6-12 months.",
       "tags": [
         "engineering",
         "programming"
