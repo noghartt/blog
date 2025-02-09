@@ -66,6 +66,10 @@ const rssFeedURL = new URL('rss.xml', Astro.site).href;
     <ViewTransitions />
 
     <script defer src="https://cloud.umami.is/script.js" data-website-id="2fc8746f-8a7b-48ee-b932-1d26da3f83c0"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
   </head>
   <body>
     <main>
@@ -102,6 +106,7 @@ const rssFeedURL = new URL('rss.xml', Astro.site).href;
 
   html,
   body {
+    font-family: "EB Garamond", serif;
     font-weight: 300;
     min-height: 100vh;
     line-height: 1.5;
