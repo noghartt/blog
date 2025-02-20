@@ -1,13 +1,113 @@
 {
-  "lastUpdate": "2025-02-03T01:48:01.587Z",
+  "lastUpdate": "2025-02-20T02:34:29.215Z",
   "data": [
+    {
+      "id": "01jm8awyrwyvarr0g27mhykepz",
+      "title": "Finding Flow: Escaping Digital Distractions Through Deep Work and Slow Living",
+      "url": "https://www.ssp.sh/blog/finding-flow/",
+      "savedAt": "2025-02-16T21:33:45.116000+00:00",
+      "description": "The author explores how to escape digital distractions by embracing slow living and deep work. They emphasize the importance of environment, routine, and nature in fostering creativity and focus. By slowing down and being present, individuals can achieve a deeper sense of satisfaction and clarity in their work and life.",
+      "tags": [
+        "productivity"
+      ]
+    },
+    {
+      "id": "01jm7q62jj2aytmvjmn2sq7tg7",
+      "title": "50 Years of Travel Tips",
+      "url": "https://kk.org/thetechnium/50-years-of-travel-tips/",
+      "savedAt": "2025-02-16T15:49:12.402000+00:00",
+      "description": "Kevin Kelly shares his travel wisdom from over 50 years of experience. He emphasizes the importance of organizing trips around personal passions and suggests embracing spontaneity. For memorable journeys, he advises spending more time in fewer places and going straight to remote destinations first.",
+      "tags": [
+        "life/travel"
+      ]
+    },
+    {
+      "id": "01jm7jxkshw5nz7ashq0hd77fb",
+      "title": "PRÉCIS OF BREAKDOWN OF WILL George Ainslie 116A Veterans Affairs Medical Center Coatesville, PA 19320",
+      "url": "https://web.archive.org/web/20090515020333/http://www.picoeconomics.com/breakdown.htm",
+      "savedAt": "2025-02-18T00:48:11.207000+00:00",
+      "description": "The text discusses how the perception of choices influences self-control and decision-making over time. It explains that people often struggle with immediate rewards versus future benefits, leading to inconsistent choices. Additionally, personal rules and emotional rewards play a significant role in shaping motivations and behaviors.",
+      "tags": [
+        "productivity",
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "01jm0zbsct938yvmswqke7hyzc",
+      "title": "Using Generics to Inject Stubs when Testing",
+      "url": "https://www.openmymind.net/Using-Generics-To-Inject-Stubs-When-Testing/",
+      "savedAt": "2025-02-14T00:57:27.193000+00:00",
+      "description": "The author discusses the importance of fast and reliable unit tests, advocating for the use of stubs in specific situations. They introduce a pattern using generics to create testable versions of a Client struct for TCP communication. This allows for more controlled testing by injecting a TestStream that records written data, enabling effective assertions about the output.",
+      "tags": [
+        "cs/programming-languages/zig"
+      ]
+    },
+    {
+      "id": "01jkvs75jgk2xppesp8nr45yvw",
+      "title": "Applied Picoeconomics",
+      "url": "https://www.lesswrong.com/posts/NjzBrtvDS4jXi5Krp/applied-picoeconomics",
+      "savedAt": "2025-02-12T00:33:52.207000+00:00",
+      "description": "Scott Alexander explores picoeconomics, which models akrasia as a conflict between present and future selves. He shares his experience of creating a strict oath to study for two hours a day, finding it effective for maintaining his commitment. The key is to make the rules clear and binding, avoiding loopholes that could lead to failure.",
+      "tags": [
+        "self-improvement",
+        "philosophy/rationalism"
+      ]
+    },
+    {
+      "id": "01jksc7rm5f6nqd3fxgm1pn1aj",
+      "title": "Fire And Motion",
+      "url": "https://www.joelonsoftware.com/2002/01/06/fire-and-motion/",
+      "savedAt": "2025-02-11T02:08:31.365000+00:00",
+      "description": "The author struggles with unproductive periods as a developer but finds that just getting started is the key to productivity. He compares the concept of \"Fire and Motion\" from military strategy to getting things done in life, emphasizing the importance of consistent progress. By moving forward a little bit every day, even small improvements can lead to long-term success in software development.",
+      "tags": [
+        "favorites",
+        "productivity",
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "01jkkjc87yxh3sxpkm72t4gxsd",
+      "title": "The Holy Grail of Self-Improvement",
+      "url": "https://www.ribbonfarm.com/2016/03/24/the-holy-grail-of-self-improvement/",
+      "savedAt": "2025-02-08T20:00:23.294000+00:00",
+      "description": "The text discusses how behavior change relies on forming new habits by reshaping our mental models rather than just relying on external rewards. It emphasizes that habits are emergent patterns influenced by our environment and experiences, rather than fixed actions. To effectively change habits, we need to embrace curiosity and allow disturbances in our routines to create space for new behaviors.",
+      "tags": [
+        "favorites",
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "01jk9xykm8t2czkb5mjz215y1g",
+      "title": "HOWTO: Be more productive",
+      "url": "http://www.aaronsw.com/weblog/productivity",
+      "savedAt": "2025-02-05T02:10:14.792000+00:00",
+      "description": "To be more productive, focus on the quality of your time and choose important tasks wisely. Create a list of different projects to work on, which helps you stay engaged and creative. Avoid procrastination by listening to your body and finding inspiration in your surroundings.",
+      "tags": [
+        "productivity",
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "01jk9s2dry90zzw8nqx0ms3r54",
+      "title": "Akrasia, hyperbolic discounting, and picoeconomics",
+      "url": "https://www.lesswrong.com/posts/geNZ6ZpfFce5intER/akrasia-hyperbolic-discounting-and-picoeconomics",
+      "savedAt": "2025-02-05T00:44:56.990000+00:00",
+      "description": "Akrasia is when we act against our own long-term interests, and psychologist George C Ainslie explores why this happens in his book \"Breakdown of Will\" using picoeconomics. One key concept is hyperbolic discounting, where we value immediate rewards more than future ones, leading to internal conflicts over time. Ainslie's analysis shows how making clear resolutions and understanding our intertemporal bargaining can help us overcome akrasia and act in our best interests.",
+      "tags": [
+        "self-improvement"
+      ]
+    },
     {
       "id": "01jk4qsr405vj3x1mnj9pg0sy7",
       "title": "How I Am Productive",
       "url": "https://www.lesswrong.com/posts/JTHe5oGvdj6T73o4o/how-i-am-productive",
       "savedAt": "2025-02-03T01:46:31.935000+00:00",
       "description": "The author explains how they became productive by implementing systems and habits in their life. They stress the importance of organization, including writing down ideas, keeping track of events on a calendar, and using a to-do list. Prioritization is also crucial, and the author recommends using the Eisenhower Matrix to distinguish between important and urgent tasks. Timeboxing and taking breaks are helpful techniques for staying focused, and regular reviews at various intervals (daily, weekly, monthly, and every six months) can aid in reflection and improvement.",
-      "tags": []
+      "tags": [
+        "favorites",
+        "productivity",
+        "self-improvement"
+      ]
     },
     {
       "id": "01jk1e72x93sc3z17zrrvf4xay",
@@ -299,10 +399,10 @@
     },
     {
       "id": "01jghds936tebcs7g9qhfp4mb0",
-      "title": "The magic of metalinguistic programming",
+      "title": "The magic of metalinguistic programming\nThe magic of metalinguistic programming",
       "url": "https://ericnormand.substack.com/p/the-magic-of-metalinguistic-programming",
       "savedAt": "2025-01-01T17:14:32.934000+00:00",
-      "description": "It's just a change of paradigm",
+      "description": "Eric Normand discusses metalinguistic programming, highlighting how using an interpreter can simplify coding by reducing the amount of code needed. This approach allows programmers to switch paradigms, making it easier to handle complex problems. He believes metalinguistic abstraction is a valuable but underexplored topic in programming literature.",
       "tags": [
         "cs",
         "cs/pl-theory"
@@ -310,10 +410,10 @@
     },
     {
       "id": "01jgfatrg1npwzw6hrqykcjmtd",
-      "title": "Examining Intel's Arrow Lake, at the System Level",
+      "title": "Examining Intel's Arrow Lake, at the System Level\nExamining Intel's Arrow Lake, at the System Level",
       "url": "https://chipsandcheese.com/p/examining-intels-arrow-lake-at-the",
       "savedAt": "2024-12-31T21:44:26.881000+00:00",
-      "description": "Arrow Lake is the codename for Intel's newest generation of high performance desktop CPUs.",
+      "description": "Intel's Arrow Lake is a new generation of high-performance desktop CPUs that focuses on maximizing performance over energy efficiency. It features a multi-die architecture with improved bandwidth, but struggles with higher latency compared to AMD’s chips. Arrow Lake has larger cache capacities, yet its L3 cache performance still lags behind AMD, highlighting a need for further improvements in latency and bandwidth.",
       "tags": [
         "hardware"
       ]
@@ -346,6 +446,7 @@
       "savedAt": "2024-12-31T21:43:21.622000+00:00",
       "description": "Many companies expect employees to work long hours, which can lead to burnout and lower productivity. Simply increasing hours does not guarantee more output, as productivity tends to decline over time. Finding a balance and aligning work with personal productivity cycles can improve performance without overworking.",
       "tags": [
+        "for-later",
         "management",
         "productivity"
       ]
@@ -725,7 +826,7 @@
     },
     {
       "id": "01jgfa02dbc3gzjxbrny5945xf",
-      "title": "Morris Chang and the Origins of TSMC",
+      "title": "Morris Chang and the Origins of TSMC - by Brian Potter\nMorris Chang and the Origins of TSMC",
       "url": "https://www.construction-physics.com/p/morris-chang-and-the-origins-of-tsmc",
       "savedAt": "2024-12-31T21:29:52.298000+00:00",
       "description": "Morris Chang played a key role in establishing Taiwan Semiconductor Manufacturing Company (TSMC), which became the world's leading semiconductor manufacturer. Despite initial skepticism and challenges, he convinced Taiwan's leadership to support his vision for a reliable contract semiconductor fabrication service. TSMC's success was unexpected at the time, but it has shaped the semiconductor industry significantly.",
@@ -905,7 +1006,7 @@
     },
     {
       "id": "01jgf9fyanp5xg6xkr20x9nnp7",
-      "title": "Energy Cheat Sheet",
+      "title": "Energy Cheat Sheet - by Brian Potter - Construction Physics\nEnergy Cheat Sheet",
       "url": "https://www.construction-physics.com/p/energy-cheat-sheet",
       "savedAt": "2024-12-31T21:21:03.829000+00:00",
       "description": "The author discusses the importance of energy infrastructure for decarbonizing the US and shares a cheat sheet to understand energy better. Most of the country's energy still comes from burning hydrocarbons, despite efforts to increase renewable sources. A significant amount of energy is wasted, highlighting the need for improved efficiency and better ways to move and store energy.",
@@ -929,7 +1030,7 @@
     },
     {
       "id": "01jgf9dwb4kx1gkrcvjhzhka0w",
-      "title": "Pushing AMD’s Infinity Fabric to its Limits",
+      "title": "Pushing AMD’s Infinity Fabric to its Limits\nPushing AMD’s Infinity Fabric to its Limits",
       "url": "https://chipsandcheese.com/p/pushing-amds-infinity-fabric-to-its",
       "savedAt": "2024-12-31T21:19:56.260000+00:00",
       "description": "The article discusses how AMD's Infinity Fabric impacts latency and bandwidth when running multiple applications on their processors. Testing shows that increasing bandwidth demands can significantly raise latency, but isolating bandwidth-hungry tasks to different cores can help control latency. AMD's recent Zen 5 architecture appears to improve performance for latency-sensitive applications, even under heavy load.",
@@ -965,7 +1066,7 @@
     },
     {
       "id": "01jgf9c3547v7g2ybq6a3t7hzt",
-      "title": "How We Built a Self-Healing System to Survive a Terrifying Concurrency Bug At Netflix",
+      "title": "(1) How We Built a Self-Healing System to Survive a Terrifying Concurrency Bug At Netflix\nHow We Built a Self-Healing System to Survive a Terrifying Concurrency Bug At Netflix",
       "url": "https://pushtoprod.substack.com/p/netflix-terrifying-concurrency-bug",
       "savedAt": "2024-12-31T21:18:57.700000+00:00",
       "description": "A concurrency bug at Netflix caused CPUs to fail rapidly, leaving the team with no immediate fix until Monday. To survive the weekend, they created a self-healing system that randomly terminated and replaced instances to maintain capacity. This unconventional solution allowed the team to focus on their well-being while waiting for the client team to deploy a proper fix.",
@@ -976,7 +1077,7 @@
     },
     {
       "id": "01jgf9bpftqz1x5rqb31dygv8j",
-      "title": "How We Got the Lithium-ion Battery",
+      "title": "How We Got the Lithium-Ion Battery - by Brian Potter\nHow We Got the Lithium-ion Battery",
       "url": "https://www.construction-physics.com/p/how-we-got-the-lithium-ion-battery",
       "savedAt": "2024-12-31T21:18:44.730000+00:00",
       "description": "The lithium-ion battery was developed over several decades through the contributions of many researchers worldwide. Key advancements included the discovery of suitable materials for the battery's anode and cathode, leading to practical designs. Continuous improvements in chemistry and manufacturing have made these batteries more efficient and affordable.",
@@ -1094,7 +1195,7 @@
     },
     {
       "id": "01jfn0qmkpvdv4xsnyqf1kqt9y",
-      "title": "Why Does Ozempic Cure All Diseases?",
+      "title": "Why Does Ozempic Cure All Diseases? - by Scott Alexander\nWhy Does Ozempic Cure All Diseases?",
       "url": "https://www.astralcodexten.com/p/why-does-ozempic-cure-all-diseases",
       "savedAt": "2024-12-21T16:27:43.606000+00:00",
       "description": "Ozempic and other GLP-1 receptor agonists are approved for treating diabetes and obesity, but they also show promise for various addictions and even conditions like dementia. These drugs work by controlling hunger and cravings through specific pathways in the brain, making them seem almost magical in their effects. Researchers are exploring how these medications might influence overall health and weight management beyond their original purposes.",
@@ -1178,7 +1279,7 @@
     },
     {
       "id": "01jfbcaaxskg5cbm1m0x3jm7jv",
-      "title": "The Structure of a Worldview",
+      "title": "The Structure of a Worldview - by Regan\nThe Structure of a Worldview",
       "url": "https://www.allcatsarefemale.com/p/the-structure-of-a-worldview",
       "savedAt": "2024-12-17T22:37:46.296000+00:00",
       "description": "The essay explores how worldviews are structured and how they influence beliefs and behaviors. It compares worldviews to personality traits, suggesting that both exist in a high-dimensional space with core values that shape individual perspectives. Understanding these structures could help explain the differences among groups and guide further research on worldviews.",
@@ -1397,7 +1498,7 @@
     },
     {
       "id": "01jfb6pfzscqfv1xxq68sby6ce",
-      "title": "Disillusioning the Magic of the fork System Call",
+      "title": "Disillusioning the Magic of the fork System Call\nDisillusioning the Magic of the fork System Call",
       "url": "https://blog.codingconfessions.com/p/the-magic-of-fork",
       "savedAt": "2024-12-17T20:59:33.241000+00:00",
       "description": "The fork system call in Unix-like operating systems creates a child process that is a copy of the parent process. After the fork, the parent receives the child's process ID, while the child gets a return value of zero, allowing them to follow different execution paths. The article explains how this process works at a low level, including the use of registers and kernel functions.",
@@ -1449,7 +1550,7 @@
     },
     {
       "id": "01jfaerzngxmqaqj6mpq8hs0mv",
-      "title": "Understanding Round Robin DNS",
+      "title": "Understanding Round Robin DNS - by Zsolt Ero\nUnderstanding Round Robin DNS",
       "url": "https://blog.hyperknot.com/p/understanding-round-robin-dns",
       "savedAt": "2024-12-17T14:01:29.007000+00:00",
       "description": "Round Robin DNS allows multiple servers to share the load for a single subdomain, helping to automatically detect offline servers. Browsers and Cloudflare choose which server to connect to based on various methods, with browsers generally performing better in detecting the closest server. However, Cloudflare struggles with offline server detection, leading to potential service issues for users.",
