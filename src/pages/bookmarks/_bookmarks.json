@@ -1,6 +1,75 @@
 {
-  "lastUpdate": "2025-02-20T02:34:29.215Z",
+  "lastUpdate": "2025-02-25T23:42:53.831Z",
   "data": [
+    {
+      "id": "01jmy8szrxyz0p9rwtfe9x2507",
+      "title": "How Core Git Developers Configure Git",
+      "url": "https://blog.gitbutler.com/how-git-core-devs-configure-git/",
+      "savedAt": "2025-02-25T10:00:28.188000+00:00",
+      "description": "This blog post discusses lesser-known Git configuration settings that can improve user experience. The author shares settings recommended by core Git developers and suggests that some should be default options. Key settings include changing the default branch name to \"main\" and adjusting how diff and push commands behave.",
+      "tags": [
+        "tools/git"
+      ]
+    },
+    {
+      "id": "01jmts6vc6yf620ze5r32n660e",
+      "title": "Ask for no, don’t ask for yes",
+      "url": "https://www.mooreds.com/wordpress/archives/3518",
+      "savedAt": "2025-02-24T01:30:09.158000+00:00",
+      "description": "To make progress, it's better to ask for \"no\" instead of \"yes\" when proposing ideas to your boss. This approach allows you to take action confidently while still keeping your boss informed. Adding a deadline encourages quicker responses and helps keep projects moving forward.",
+      "tags": [
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "01jmt32qmn5s92xktxq017zf38",
+      "title": "The Bottom Line",
+      "url": "https://www.lesswrong.com/s/gFvira6tHpLXnqCLH/p/34XxbRFe54FycoCDw",
+      "savedAt": "2025-02-23T19:03:25.588000+00:00",
+      "description": "Two boxes are up for auction, with only one containing a diamond, but the evidence for which box it is is uncertain. A clever arguer can make a case for one box based on selective signs, but their conclusion does not change the actual probability of where the diamond is. The true effectiveness of reasoning depends on how well one understands and analyzes all available evidence, rather than just seeking arguments to support a preferred conclusion.",
+      "tags": [
+        "philosophy/rationalism"
+      ]
+    },
+    {
+      "id": "01jmspwx8qsenyxvwbdszc5p9g",
+      "title": "Learning: the hardest problem in computer science",
+      "url": "https://www.herostrat.us/posts/learning-the-hardest-problem-in-computer-science/",
+      "savedAt": "2025-02-23T15:30:31.831000+00:00",
+      "description": "The author reflects on the challenges of teaching coding and how traditional methods often leave beginners confused. They emphasize the need for deeper understanding rather than just surface-level knowledge. Despite the difficulties, the author finds meaning in helping students learn and grow.",
+      "tags": []
+    },
+    {
+      "id": "01jmn4c8v24p22ebp97nyhe0dq",
+      "title": "Algebraic effects are a functional approach to manage side effects",
+      "url": "https://crowdhailer.me/2025-02-14/algebraic-effects-are-a-functional-approach-to-manage-side-effects/",
+      "savedAt": "2025-02-21T20:49:54.530000+00:00",
+      "description": "Algebraic effects provide a structured way to manage side effects in programs, making them more predictable. They allow programs to handle interactions with the outside world, like random numbers or input/output operations, without relying on hidden side effects. This approach improves code clarity and helps developers understand the effects their functions have.",
+      "tags": [
+        "cs/functional-programming"
+      ]
+    },
+    {
+      "id": "01jmn1m0fh8g8rg7gkns98p96w",
+      "title": "Speed matters: Why working quickly is more important than it seems",
+      "url": "http://jsomers.net/blog/speed-matters",
+      "savedAt": "2025-02-21T20:01:42.384000+00:00",
+      "description": "Working quickly helps you finish more tasks and makes starting new ones feel less daunting. When tasks are completed faster, you become more inclined to take on more work, leading to greater productivity. In contrast, slowness can create a negative cycle where tasks seem too costly, causing you to avoid them altogether.",
+      "tags": [
+        "favorites",
+        "productivity"
+      ]
+    },
+    {
+      "id": "01jmjzdany5erd8j593xnmywb9",
+      "title": "Meta’s Hyperscale Infrastructure: Overview and Insights",
+      "url": "https://cacm.acm.org/research/metas-hyperscale-infrastructure-overview-and-insights/",
+      "savedAt": "2025-02-21T00:44:37.438000+00:00",
+      "description": "Meta has built a global hyperscale infrastructure to efficiently deliver its services by optimizing hardware and software together. They focus on fast development practices and autonomous resource management, allowing developers to concentrate on building products without worrying about complex infrastructure. Meta is transitioning to a model where all its datacenters work together as a single unit, enhancing efficiency and scalability.",
+      "tags": [
+        "infrastructure"
+      ]
+    },
     {
       "id": "01jm8awyrwyvarr0g27mhykepz",
       "title": "Finding Flow: Escaping Digital Distractions Through Deep Work and Slow Living",
