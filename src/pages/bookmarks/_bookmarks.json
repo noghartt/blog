@@ -1,6 +1,64 @@
 {
-  "lastUpdate": "2025-02-25T23:42:53.831Z",
+  "lastUpdate": "2025-03-09T14:17:55.668Z",
   "data": [
+    {
+      "id": "01jnxm931jsrpg2yez32rx4gkq",
+      "title": "A brief meditation on formal systems and lying goblins",
+      "url": "https://the-nerve-blog.ghost.io/a-brief-meditation-on-formal-systems-and-lying-goblins/",
+      "savedAt": "2025-03-09T14:17:24.785000+00:00",
+      "description": "The text discusses a famous logic puzzle from the movie Labyrinth, where a character must choose the correct door by asking one of two goblins, one of whom always lies. It explains how to solve the puzzle using boolean algebra, highlighting the importance of formulating the right question. The author emphasizes that a formal approach can simplify complex problems and improve understanding of logic.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01jnndvyc1rs6ng8f8zn8k0p59",
+      "title": "Zen and the Art of Microcode Hacking",
+      "url": "https://bughunters.google.com/blog/5424842357473280/zen-and-the-art-of-microcode-hacking",
+      "savedAt": "2025-03-06T09:51:27.105000+00:00",
+      "description": "The article discusses microcode, its importance in CPU security, and how AMD updates it to fix bugs. It highlights a vulnerability in AMD's microcode patch signature validation that allows unauthorized patches to be created. Future posts will explore how this vulnerability was discovered and the methods used to address it.",
+      "tags": []
+    },
+    {
+      "id": "01jnfdgrw2kv1s8090z9jm3gsv",
+      "title": "My LLM codegen workflow atm",
+      "url": "https://harper.blog/2025/02/16/my-llm-codegen-workflow-atm/",
+      "savedAt": "2025-03-04T01:49:54.434000+00:00",
+      "description": "Harper Reed shares his workflow for using LLMs to write software, which starts with brainstorming and planning a detailed specification. He then breaks the plan into small, manageable tasks before executing them with tools like Claude and Aider. This approach helps him increase productivity and improve code quality through iterative development and testing.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "01jne7bw580vspv2034cq9ywv7",
+      "title": "Leader election with S3 and If-Match",
+      "url": "https://quanttype.net/posts/2025-02-25-leader-election-with-s3-and-if-match.html",
+      "savedAt": "2025-03-03T14:43:08.072000+00:00",
+      "description": "This text explains how to implement leader election in distributed systems using Amazon S3's If-Match condition to create a distributed lock. It outlines the steps for acquiring and releasing a lock, as well as the importance of synchronizing clocks to avoid issues with stale locks. The post also highlights that while S3 can be used for locking, it may not be the most efficient choice for high-performance applications.",
+      "tags": [
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "01jncraaq60avqr52vdbb1v6e4",
+      "title": "Finding Time to Invest in Yourself",
+      "url": "https://nav.al/finding-time",
+      "savedAt": "2025-03-03T01:00:54.374000+00:00",
+      "description": "To invest in yourself, you often need to rent your time and seek opportunities where you can learn quickly, like in new or evolving fields. Taking on accountability in your job helps you build specific knowledge and develop a founder mentality, which can lead to greater opportunities. Focus on mastering skills that are valuable over time, and be proactive in solving problems that others can't.",
+      "tags": [
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "01jn2g69w7dz6hnyxfh8rhc1fm",
+      "title": "Rationalization",
+      "url": "https://www.lesswrong.com/s/gFvira6tHpLXnqCLH/p/SFZoEBpLo9frSJGkc",
+      "savedAt": "2025-02-27T01:26:29.511000+00:00",
+      "description": "In this document titled \"Rationalization,\" the author explores the concepts of rationality and rationalization. Rationality refers to the process of gathering evidence and using it to reach a conclusion, while rationalization is the backward flow from conclusion to selected evidence. The author argues that rationalization is not a true form of rationality because it seeks to fix beliefs in place rather than change them. The author also emphasizes the importance of curiosity in the pursuit of truth and highlights the potential pitfalls of biased thinking in scientific inquiry.",
+      "tags": [
+        "philosophy/rationalism"
+      ]
+    },
     {
       "id": "01jmy8szrxyz0p9rwtfe9x2507",
       "title": "How Core Git Developers Configure Git",
@@ -2095,7 +2153,6 @@
       "savedAt": "2024-12-01T03:29:56.582000+00:00",
       "description": "The Redlock algorithm aims to provide fault-tolerant distributed locks using Redis, but it has significant limitations. For efficiency, simpler single-node locking is often sufficient, while for correctness, a more reliable system like ZooKeeper is recommended. Overall, Redlock is seen as overly complex and not safe enough for critical locking needs.",
       "tags": [
-        "for-later",
         "cs/distsys"
       ]
     },
@@ -6346,6 +6403,7 @@
       "savedAt": "2024-06-28T03:25:47.621000+00:00",
       "description": "When you procrastinate, you're probably not procrastinating because of the pain of working. …",
       "tags": [
+        "favorites",
         "self-improvement"
       ]
     },
@@ -7965,10 +8023,10 @@
     },
     {
       "id": "01jbep7k5tedxzn658aqv51fjw",
-      "title": "Pragmatic Category Theory | Part 1: Semigroup Intro - DEV Community",
+      "title": "Motivation",
       "url": "https://dev.to/chshersh/pragmatic-category-theory-part-1-semigroup-intro-1ign",
       "savedAt": "2024-07-30T20:22:02.381000+00:00",
-      "description": "Motivation   Functional Programming abstractions have a bad rep for not being...",
+      "description": "I've been using pure FP in production for 10 years. I programmed in Haskell, OCaml, Elm and PureScript.",
       "tags": [
         "math"
       ]
