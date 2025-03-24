@@ -1,6 +1,117 @@
 {
-  "lastUpdate": "2025-03-09T14:17:55.668Z",
+  "lastUpdate": "2025-03-24T00:35:05.621Z",
   "data": [
+    {
+      "id": "01jq2m7qtd4sz377rmd8qp2e1v",
+      "title": "The append-and-review note",
+      "url": "https://karpathy.bearblog.dev/the-append-and-review-note/",
+      "savedAt": "2025-03-23T23:08:34.509000+00:00",
+      "description": "The \"append-and-review note\" is a simple note-taking method where you add thoughts and tasks to a single text note without complex organization. You can easily find and review your notes by scrolling and copying important items back to the top. This approach helps clear your mind and allows you to focus on other tasks, while still keeping track of your ideas.",
+      "tags": [
+        "writing"
+      ]
+    },
+    {
+      "id": "01jpp0vcbf3s7zeqyy3phh0nqf",
+      "title": "complexity as entropy",
+      "url": "https://explaining.software/archive/complexity-as-entropy/",
+      "savedAt": "2025-03-19T01:38:53.423000+00:00",
+      "description": "The text discusses how software complexity can be understood through the lens of entropy, highlighting that without clear structures, code becomes difficult to explain and maintain. It critiques the idea that cleaning up small issues alone can prevent software from deteriorating, emphasizing that good design requires ongoing effort and attention to the bigger picture. Ultimately, it argues that focusing solely on minor problems ignores the systemic nature of software and risks increasing complexity over time.",
+      "tags": [
+        "software-engineering"
+      ]
+    },
+    {
+      "id": "01jpdgev0eqzxrk0sb20yfsycx",
+      "title": "1. Lambda Calculus - Grammar & Terms",
+      "url": "https://brightprogrammer.in/posts/1-lambda-calculus-conversion/",
+      "savedAt": "2025-03-15T18:18:29.774000+00:00",
+      "description": "Lambda calculus is a very simple programming language with only two main instructions: abstraction and application. It allows for the manipulation of symbols to create functions and expressions without needing specific type information. This foundational language can express complex logic and computations through basic operations.",
+      "tags": [
+        "cs"
+      ]
+    },
+    {
+      "id": "01jpdg6yr1ey3yp6brp6m55mq6",
+      "title": "Fixing Recursions In Grammar",
+      "url": "https://brightprogrammer.in/posts/fixing-recursions-in-grammar/",
+      "savedAt": "2025-03-15T18:14:11.456000+00:00",
+      "description": "The text discusses the problem of left recursion in context-free grammars, which can cause nontermination in parsing algorithms. It explains how to fix left recursion by rewriting the grammar into a right-recursive form. Additionally, the author mentions mutual left recursion and suggests methods to analyze and simplify complex grammars.",
+      "tags": [
+        "cs/formal-grammar"
+      ]
+    },
+    {
+      "id": "01jpd7a3m25jbnsz9tv0hk1r9h",
+      "title": "How I Biohack My Vitality",
+      "url": "https://desmolysium.com/vitality/#supplements",
+      "savedAt": "2025-03-15T15:38:37.570000+00:00",
+      "description": "The author reflects on moving away from stimulants and focusing on improving daily vitality through better diet, exercise, and mood-boosting activities. They share their experience with the GLP-1 agonist semaglutide and the mixed effects of supplements like SAMe. While stimulants can enhance energy and cognition, the author acknowledges their potential downsides and advocates for more awareness of these issues.",
+      "tags": [
+        "biohack",
+        "favorites"
+      ]
+    },
+    {
+      "id": "01jp861f7ysa9n1wegk8cecsvj",
+      "title": "Why cryptography is not based on NP-complete problems",
+      "url": "https://blintzbase.com/posts/cryptography-is-not-based-on-np-hard-problems",
+      "savedAt": "2025-03-13T16:40:13.822000+00:00",
+      "description": "Cryptography relies on problems that are hard to solve for randomly chosen instances, like the RSA problem, rather than NP-complete problems. NP-complete problems may be difficult in the worst case, but they don't guarantee that random instances will also be hard. Therefore, cryptographic security depends on average-case hardness, which is not provided by NP-complete problems.",
+      "tags": [
+        "cs/cryptography"
+      ]
+    },
+    {
+      "id": "01jp7zkb2r6j139s5vyszzy9b5",
+      "title": "Added Replication Slots in",
+      "url": "https://www.interdb.jp/pg/index.html",
+      "savedAt": "2025-03-13T14:47:39.352000+00:00",
+      "description": "The document provides updates on PostgreSQL features, including new sections on replication slots and conflicts. It explains the complex subsystems of PostgreSQL to help users understand its internal workings. The author, Hironobu Suzuki, has extensive experience with databases and has published several related books.",
+      "tags": [
+        "resource",
+        "cs/database"
+      ]
+    },
+    {
+      "id": "01jp7z1nkm7b4mkgqafa60f87e",
+      "title": "Turbocharging V8 with mutable heap numbers",
+      "url": "https://v8.dev/blog/mutable-heap-number",
+      "savedAt": "2025-03-13T14:38:00.308000+00:00",
+      "description": "The V8 team improved JavaScript performance by optimizing the Math.random function, which led to a 2.5x speedup in the async-fs benchmark. They introduced mutable heap number slots to eliminate unnecessary memory allocations and allow faster integer operations. These changes also contributed to a 1.6% boost in the overall JetStream2 score.",
+      "tags": [
+        "cs/programming-languages/javascript"
+      ]
+    },
+    {
+      "id": "01jp48hprh42nmm7kzx3g23pmc",
+      "title": "Lambda Calculus and Lisp, part 1",
+      "url": "https://babbagefiles.xyz/lambda-calculus-and-lisp-01/",
+      "savedAt": "2025-03-12T04:07:05.233000+00:00",
+      "description": "This text introduces a series of blog posts about lambda calculus and Lisp, highlighting their origins and connections. It explains that while Lisp incorporates the concept of lambda functions, it is not a direct realization of lambda calculus as originally intended by its creator, John McCarthy. The discussion will delve into both programming aspects and philosophical implications of these foundational concepts in computer science.",
+      "tags": [
+        "cs/lisp",
+        "cs/functional-programming"
+      ]
+    },
+    {
+      "id": "01jp33yhvwgktjarswe2xv9n6v",
+      "title": "XOR in boolean logic",
+      "url": "https://www.chiark.greenend.org.uk/~sgtatham/quasiblog/xor/",
+      "savedAt": "2025-03-11T17:27:28.892000+00:00",
+      "description": "XOR is a bitwise operation that compares two bits and returns 1 if they are different and 0 if they are the same. It has various applications, such as in cryptography, graphics, and error-correcting codes. XOR can also be used for tasks like swapping bits and calculating sums without carrying, making it useful in many mathematical and programming contexts.",
+      "tags": [
+        "cs"
+      ]
+    },
+    {
+      "id": "01jnym9zxbghhrr394zyj1axx0",
+      "title": "Time Depletion",
+      "url": "http://the-lagrangian.blogspot.com/2015/10/time-depletion.html",
+      "savedAt": "2025-03-09T23:37:08.779000+00:00",
+      "description": "The feeling of mental effort helps you switch tasks efficiently. Resolution signals the completion of a task, allowing you to move on without exerting willpower. Endings define beginnings and encapsulate the interaction energies that led up to them.",
+      "tags": []
+    },
     {
       "id": "01jnxm931jsrpg2yez32rx4gkq",
       "title": "A brief meditation on formal systems and lying goblins",
