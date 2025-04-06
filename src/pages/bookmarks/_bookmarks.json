@@ -1,6 +1,200 @@
 {
-  "lastUpdate": "2025-03-24T00:35:05.621Z",
+  "lastUpdate": "2025-04-06T14:30:03.714Z",
   "data": [
+    {
+      "id": "01jr3kxv3taxwd7yfrnx99td61",
+      "title": "Total functions and beyond",
+      "url": "https://ericnormand.substack.com/p/total-functions-and-beyond",
+      "savedAt": "2025-04-05T18:38:06.458000+00:00",
+      "description": "Eric Normand discusses total functions, which always return valid values for valid inputs, contrasting them with partial functions that can return undefined or problematic values. He emphasizes that total functions improve code reliability and reasoning, and explores the idea of viewing function types as a spectrum rather than a strict binary. Normand also highlights the importance of handling inputs carefully to avoid invalid outputs, advocating for techniques that ensure functions remain total.",
+      "tags": [
+        "cs/functional-programming"
+      ]
+    },
+    {
+      "id": "01jr3eg497rc0d94sqmn3epjqm",
+      "title": "Bret Victor - Inventing on Principle",
+      "url": "https://www.youtube.com/watch?v=PUv66718DII",
+      "savedAt": "2025-04-05T17:03:14.215000+00:00",
+      "description": "Bret Victor emphasizes the importance of creators being able to see the immediate results of their work, especially in coding. He believes that having a clear connection between ideas and their visual representation can enhance creativity and problem-solving. His principle encourages inventors to explore and interact with their work to amplify understanding and innovation.",
+      "tags": [
+        "cs/talks"
+      ]
+    },
+    {
+      "id": "01jr3bhdfyk0qfdkbcswb721j4",
+      "title": "Domain-Agnostic and Domain-Specific Tools",
+      "url": "https://borretti.me/article/domain-agnostic-and-domain-specific-tools",
+      "savedAt": "2025-04-05T16:11:30.686000+00:00",
+      "description": "This text argues against using a single tool for all tasks, emphasizing that domain-specific tools are more effective for specific use cases than domain-agnostic tools. Domain-agnostic tools like Obsidian are flexible but lack the structured data models found in domain-specific tools, which can lead to inefficiency. The author suggests that allowing data to exist in separate silos can enhance productivity instead of forcing everything into one interconnected system.",
+      "tags": [
+        "thoughts"
+      ]
+    },
+    {
+      "id": "01jr3be0nfjcwzm5yb8t85431j",
+      "title": "What is a CUDA Device Architecture?",
+      "url": "https://modal.com/gpu-glossary/device-hardware/cuda-device-architecture",
+      "savedAt": "2025-04-05T16:09:39.246000+00:00",
+      "description": "CUDA stands for Compute Unified Device Architecture, which refers to a high-level device architecture and programming model for parallel computing. It simplifies GPU design by using uniform hardware units called Streaming Multiprocessors, making it easier for software engineers to program. The original vision for CUDA was detailed in a 2008 white paper by Lindholm et al., which is recommended for further reading.",
+      "tags": [
+        "hardware/gpu"
+      ]
+    },
+    {
+      "id": "01jr2aqdt8pnhc7b86rxr3fts5",
+      "title": "More Drowning Children",
+      "url": "https://www.astralcodexten.com/p/more-drowning-children",
+      "savedAt": "2025-04-05T06:38:04.616000+00:00",
+      "description": "The text discusses the moral implications of helping drowning children based on proximity and personal responsibility. It argues that people feel less obligated to save multiple children nearby than to help one child in their hometown. Ultimately, it suggests that moral obligations should be balanced with practical considerations and the roles of community responsibility.",
+      "tags": [
+        "philosophy"
+      ]
+    },
+    {
+      "id": "01jr2a1ce2d73xd11b56t6hvfy",
+      "title": "Philosophy and Methodology of Experiments",
+      "url": "https://buttondown.com/jaffray/archive/philosophy-and-methodology-of-experiments/",
+      "savedAt": "2025-04-05T06:26:02.306000+00:00",
+      "description": "The text discusses the methodology of conducting experiments, particularly in performance testing, emphasizing the importance of separating data collection from analysis. It outlines how to structure experimental data in a spreadsheet and highlights the significance of treating runs as logs of what happened rather than discoveries. The author also mentions using tools like pivot tables and graphs to analyze the collected data effectively.",
+      "tags": [
+        "cs",
+        "science"
+      ]
+    },
+    {
+      "id": "01jr29t7qchpe7mt4hmejy8c7j",
+      "title": "How does async Rust work",
+      "url": "https://bertptrs.nl/2023/04/27/how-does-async-rust-work.html",
+      "savedAt": "2025-04-05T06:22:08.108000+00:00",
+      "description": "Rust's async system allows applications to handle I/O efficiently by using asynchronous functions that return a special type called Future. These functions are transformed into a state machine, which the executor polls until completion, allowing the CPU to perform other tasks in the meantime. The article introduces Beul, a minimalistic futures executor that simplifies the execution of async code.",
+      "tags": [
+        "cs/programming-languages/rust"
+      ]
+    },
+    {
+      "id": "01jr29p97pz8frsaxnngnkp6zk",
+      "title": "My Beancount books are 95% automatic after 3 years",
+      "url": "https://fangpenlin.com/posts/2024/12/30/my-beancount-books-are-95-percent-automatic/",
+      "savedAt": "2025-04-05T06:19:58.581000+00:00",
+      "description": "The author built BeanHub to automate their accounting using open-source Beancount files. They open-sourced 15 projects while developing BeanHub to give back to the community and promote their product. By focusing on a plaintext-based format, they aim to provide users control over their data and a reliable way to track changes.",
+      "tags": [
+        "favorites",
+        "tools/finances"
+      ]
+    },
+    {
+      "id": "01jr29fj1fxza7wg9yxgm78xep",
+      "title": "What is wrong with the architecture of the Internet?",
+      "url": "https://ouroboros.rocks/blog/2022/02/12/what-is-wrong-with-the-architecture-of-the-internet/",
+      "savedAt": "2025-04-05T06:16:18.223000+00:00",
+      "description": "The architecture of the Internet has design problems due to violations of important principles like separation of concerns and separation of mechanism and policy. These issues lead to difficulties in maintaining and evolving the network, making it hard to implement changes like IPv6. As a result, innovation is stifled, and developers often resort to simpler solutions that bypass core networking protocols.",
+      "tags": [
+        "cs/networking"
+      ]
+    },
+    {
+      "id": "01jr29azygxbw2w5zmppn0se1b",
+      "title": "Programming Really Is Simple Mathematics",
+      "url": "https://bertrandmeyer.com/2025/02/25/new-preprint-programming-really-is-simple-mathematics/",
+      "savedAt": "2025-04-05T06:13:48.624000+00:00",
+      "description": "Bertrand Meyer and Reto Weber present a new approach to programming called PRISM, which simplifies programming concepts using basic set theory. This method has no axioms and builds programming principles from just one set and one relation. The authors aim to reconstruct all of programming while proving many important theorems about it, all verified by a formal proof system.",
+      "tags": [
+        "cs",
+        "math/formal-proof"
+      ]
+    },
+    {
+      "id": "01jqzba9r439nrn7ftpp143s4b",
+      "title": "Every Intervention Is A Complex Calculation of Tradeoffs",
+      "url": "https://desmolysium.com/every-intervention-is-a-complex-calculation-of-tradeoffs/?utm_source=rss&utm_medium=rss&utm_campaign=every-intervention-is-a-complex-calculation-of-tradeoffs",
+      "savedAt": "2025-04-04T02:50:39.747000+00:00",
+      "description": "The author discusses the complexities of various interventions, highlighting that each has benefits and drawbacks. For example, while moclobemide boosts mood and energy, it also reduces emotional depth and cognitive sharpness. Ultimately, the author emphasizes the importance of weighing these tradeoffs to decide what is worth pursuing for personal well-being.",
+      "tags": [
+        "biohack"
+      ]
+    },
+    {
+      "id": "01jqz77wp16ngf2rdwgj7qf0hr",
+      "title": "Win Streaking and Reliability",
+      "url": "https://notebook.drmaciver.com/posts/2025-03-31-18:47.html",
+      "savedAt": "2025-04-04T01:39:26.529000+00:00",
+      "description": "The author is trying to improve their win streaks in the game Slay the Spire by changing their play style from casual to more deliberate. They realize that relying on instinct has limited their success, as they often take risks that can lead to early losses. To get better, they plan to adopt a more structured approach to their gameplay, even if it feels less enjoyable.",
+      "tags": [
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "01jqsfsex7e4t561r3vcq8mq4e",
+      "title": "What to Do",
+      "url": "https://paulgraham.com/do.html",
+      "savedAt": "2025-04-01T20:13:24.263000+00:00",
+      "description": "One should help people, take care of the world, and create good new things. Making new things shows our best thinking and potential. These principles guide us to live meaningfully and contribute positively to society.",
+      "tags": []
+    },
+    {
+      "id": "01jqqg4h6jbm9tqfgnhe10gag5",
+      "title": ".arpa, rDNS and a few magical ICMP hacks",
+      "url": "https://sdomi.pl/weblog/24-arpa-hacks/",
+      "savedAt": "2025-04-01T01:40:58.194000+00:00",
+      "description": "The author shares their excitement about obtaining an ip6.arpa zone, which is typically reserved for ISPs. They discuss the history and purpose of the .arpa domains, particularly for reverse DNS, which maps IP addresses to domain names. The post also explores creative uses of reverse DNS and some technical hacks related to ICMP and IPv6.",
+      "tags": [
+        "cs/networking"
+      ]
+    },
+    {
+      "id": "01jqmcphmhqfe9sjf9st4rdks5",
+      "title": "A Society That Lost Focus",
+      "url": "https://ploum.net/2024-03-18-lost-focus.html",
+      "savedAt": "2025-03-30T20:43:10.865000+00:00",
+      "description": "White-collar work has become a fast-paced cycle of responding to emails, which limits deep thinking and creativity. The internet has shifted to monetizing our attention, leading to a constant barrage of distractions and shallow ideas. To regain our focus, we need to embrace disconnected times and value deeper, more thoughtful work over quick, catchy content.",
+      "tags": [
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "01jqkzdpaqtvh5qcs9sdhj35t1",
+      "title": "The surreal joy of having an overprovisioned homelab",
+      "url": "https://xeiaso.net/talks/2025/surreal-joy-homelab/",
+      "savedAt": "2025-03-30T16:51:09.271000+00:00",
+      "description": "A homelab is a personal space where you can experiment with computers and self-host important services. It allows you to run various applications and learn new skills in a hands-on way. Overall, having a homelab brings joy and flexibility to managing tech projects at home.",
+      "tags": [
+        "homelab",
+        "cs/devops"
+      ]
+    },
+    {
+      "id": "01jqkvmve29kyv1hy0a2336xqx",
+      "title": "An HTTP Server in Go From scratch: Part 2",
+      "url": "https://www.krayorn.com/posts/http-server-go-2/",
+      "savedAt": "2025-03-30T15:45:09.570000+00:00",
+      "description": "The author shares improvements made to their HTTP server written in Go, including new methods for handling headers and support for streaming responses. They also introduce middleware and subrouter functionality to organize routes and apply specific behavior to groups of routes. The demo app showcases how these features enhance server capabilities and user experience.",
+      "tags": [
+        "for-later",
+        "cs/networking"
+      ]
+    },
+    {
+      "id": "01jqk31eet2ebqg9rm39msf752",
+      "title": "A Field Guide to Rapidly Improving AI Products",
+      "url": "https://hamel.dev/blog/posts/field-guide/#maintaining-trust-in-evals-is-critical",
+      "savedAt": "2025-03-30T08:35:07.866000+00:00",
+      "description": "The most common mistake in AI development is focusing too much on tools instead of understanding errors. Successful teams prioritize customized data viewers and maintain trust in their evaluation systems through regular human checks. They also structure roadmaps around experiments rather than fixed features to adapt quickly and effectively.",
+      "tags": [
+        "cs/ai",
+        "business"
+      ]
+    },
+    {
+      "id": "01jqh4kv83jrqhheahq4x6px4a",
+      "title": "SQL Indexing and Tuning e-Book",
+      "url": "https://use-the-index-luke.com/",
+      "savedAt": "2025-03-29T14:24:10.499000+00:00",
+      "description": "The e-book \"Use The Index, Luke\" explains SQL indexing in a simple way for developers, focusing on its importance during development. It covers indexing for various databases like MySQL, Oracle, and SQL Server, providing vendor-neutral insights and specific notes. The resource is available for free online and complements a paid book on SQL performance.",
+      "tags": [
+        "cs/database"
+      ]
+    },
     {
       "id": "01jq2m7qtd4sz377rmd8qp2e1v",
       "title": "The append-and-review note",
