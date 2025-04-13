@@ -1,6 +1,240 @@
 {
-  "lastUpdate": "2025-04-06T14:30:03.714Z",
+  "lastUpdate": "2025-04-13T21:59:28.716Z",
   "data": [
+    {
+      "id": "01jrrjgwjgwdk6qvgebhqemvcw",
+      "title": "Creating 256 Bytes of RAM (in a simulation)",
+      "url": "https://www.youtube.com/watch?v=HGkuRp5HfH8",
+      "savedAt": "2025-04-13T21:57:36.464000+00:00",
+      "description": "Sebastian Lague explains how to create a simple simulation of 256 bytes of RAM using registers and memory cells. He describes the process of building a grid of memory cells that can store and retrieve data efficiently. The final result is a functioning random access memory (RAM) system that can be used in a simulated computer.",
+      "tags": [
+        "hardware",
+        "type/video"
+      ]
+    },
+    {
+      "id": "01jrregxnxvkyt5ze6dkmfqzpf",
+      "title": "Async from scratch 1: What's in a Future, anyway?",
+      "url": "https://natkr.com/2025-04-10-async-from-scratch-1/",
+      "savedAt": "2025-04-13T20:47:43.293000+00:00",
+      "description": "This article introduces a series on building an async Rust environment, explaining the concept of a Future, which allows functions to pause while waiting for something. It simplifies the idea of polling for results through an example of a simple dice roll and demonstrates how to manage states with enums. The post also touches on creating timeouts and handling multiple await points, setting the stage for more complex async operations in Rust.",
+      "tags": [
+        "cs/programming-languages/rust"
+      ]
+    },
+    {
+      "id": "01jrrbsjg1rh1gv18e6pbwac1a",
+      "title": "Refactoring won't save you from a layoff",
+      "url": "https://www.seangoedecke.com/where-the-money-comes-from/",
+      "savedAt": "2025-04-13T20:00:01.025000+00:00",
+      "description": "Many software engineers may not realize their work needs to connect to company profits to maintain job stability. If their contributions don't directly generate revenue, they risk being overlooked or laid off. To secure their positions, engineers should understand their company's business model and align their work with profit-generating efforts.",
+      "tags": [
+        "career"
+      ]
+    },
+    {
+      "id": "01jrr4s64ytyab6bse9vrthhqy",
+      "title": "My favorite technical blogs",
+      "url": "https://eatonphil.com/blogs.html",
+      "savedAt": "2025-04-13T17:57:28.426000+00:00",
+      "description": "The text lists various technical blogs that focus on different topics like systems programming, formal methods, compilers, databases, and distributed systems. Each blog is associated with its author, along with their social media platforms. It highlights the diverse range of voices and insights available in the technical blogging community.",
+      "tags": [
+        "cs",
+        "blog",
+        "resource/list"
+      ]
+    },
+    {
+      "id": "01jrr4rbz3fn5pmahjjgw8zvt7",
+      "title": "The Computer Backup Rule of Three",
+      "url": "https://www.hanselman.com/blog/the-computer-backup-rule-of-three",
+      "savedAt": "2025-04-13T17:57:01.539000+00:00",
+      "description": "Always back up your important data in multiple ways. Use at least two physical backups and a cloud service for extra safety. Remember, backups are only useful if you can restore the data when needed.",
+      "tags": [
+        "cs",
+        "favorites"
+      ]
+    },
+    {
+      "id": "01jrr41f6m95bd1r7qr5k7kpgq",
+      "title": "The Best Programmers I Know",
+      "url": "https://endler.dev/2025/best-programmers/",
+      "savedAt": "2025-04-13T17:44:31.188000+00:00",
+      "description": "The author shares key traits of the best programmers based on his observations. He emphasizes the importance of understanding tools deeply, continuously learning, and helping others. Great engineers simplify problems, write clearly, and maintain patience while solving challenges.",
+      "tags": [
+        "career"
+      ]
+    },
+    {
+      "id": "01jrn440n496hv59ghb9p4ktfe",
+      "title": "Build your own SQLite, Part 1: Listing tables",
+      "url": "https://blog.sylver.dev/build-your-own-sqlite-part-1-listing-tables?source=more_series_bottom_blogs",
+      "savedAt": "2025-04-12T13:48:11.300000+00:00",
+      "description": "This blog post explains how to read the header of an SQLite database and parse table B-tree leaf pages. It details the structure of the database header, including the magic string and page size, and discusses functions for reading page content and cell pointers. The ultimate goal is to create a simple REPL that can list tables within the database.",
+      "tags": [
+        "cs/database"
+      ]
+    },
+    {
+      "id": "01jrm92m0mrsqr80h9aend79bb",
+      "title": "There is No Automatic Reset for Engineering",
+      "url": "http://agileotter.blogspot.com/2025/03/there-is-no-automatic-reset-in.html",
+      "savedAt": "2025-04-12T05:55:34.035000+00:00",
+      "description": "Engineering decisions are permanent and cannot be automatically reset, meaning that rushed changes create lasting issues in the codebase. While it's important to act quickly at times, cutting corners can lead to ongoing problems that hinder future development. A balanced approach, focusing on advancing features, sustaining quality, and accelerating progress, can help manage these challenges effectively.",
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "id": "01jrm8wtyzv4r1kx5nytarhcek",
+      "title": "A Quick Journey Into the Linux Kernel",
+      "url": "https://www.lucavall.in/blog/a-quick-journey-into-the-linux-kernel",
+      "savedAt": "2025-04-12T05:52:24.543000+00:00",
+      "description": "The Linux kernel, even in its older 2.6 version, offers valuable insights into operating system fundamentals like process scheduling and memory management. It handles concurrency and interrupts uniquely, using mechanisms like tasklets and workqueues to maintain system responsiveness. Understanding kernel development can deepen knowledge of performance and system design, making it a helpful area for engineers to explore.",
+      "tags": [
+        "os/linux"
+      ]
+    },
+    {
+      "id": "01jrm7wj93kmrb6dmy2qg6e2k0",
+      "title": "🦀 Building a search engine from scratch, in Rust: part 1",
+      "url": "https://jdrouet.github.io/posts/202503170800-search-engine-part-1/",
+      "savedAt": "2025-04-12T05:34:47.075000+00:00",
+      "description": "In the first part of building a search engine, the author explores using the File System API for cross-platform storage with encryption. This approach allows for intuitive file handling and efficient performance while maintaining security. The goal is to create a reliable storage layer that works well across desktop, mobile, and browser platforms.",
+      "tags": [
+        "cs/database"
+      ]
+    },
+    {
+      "id": "01jrm73xhasf7c4epkf30xn653",
+      "title": "Apple’s Darwin OS and XNU Kernel Deep Dive",
+      "url": "https://tansanrao.com/blog/2025/04/xnu-kernel-and-darwin-evolution-and-architecture/",
+      "savedAt": "2025-04-12T05:21:19.402000+00:00",
+      "description": "The article explores the evolution of Apple's Darwin OS and its XNU kernel, highlighting its hybrid design that combines Mach microkernel and BSD elements for performance and adaptability. It details how XNU has evolved to support various architectures and devices while improving system stability and security. Overall, XNU's design allows for seamless integration across Apple's product lineup, from Macs to iPhones.",
+      "tags": [
+        "os/osx"
+      ]
+    },
+    {
+      "id": "01jrm73h2pjd0v2djczsd5sx57",
+      "title": "BTrees, Inverted Indices, and a Model for Full Text Search",
+      "url": "https://ohadravid.github.io/posts/2025-04-08-btrees-and-mental-models/#a-primer-on-text-analysis",
+      "savedAt": "2025-04-12T05:21:06.646000+00:00",
+      "description": "This article explains how full text search engines work by using techniques like tokenization and inverted indexing to efficiently find and rank documents based on user queries. It discusses the importance of storing tokens with their document IDs and positions to improve search performance and support features like prefix queries. The author also compares this efficient approach to a slower, naive search method that scans every document for each term.",
+      "tags": [
+        "cs/database"
+      ]
+    },
+    {
+      "id": "01jrbrfya2mw8n0pac71crz9pp",
+      "title": "Catalog of Patterns of Distributed Systems",
+      "url": "https://martinfowler.com/articles/patterns-of-distributed-systems/",
+      "savedAt": "2025-04-08T22:31:49.314000+00:00",
+      "description": "The \"Catalog of Patterns of Distributed Systems\" by Unmesh Joshi offers solutions for common challenges in distributed systems, such as data synchronization and handling network delays. In 2020, the author began compiling these solutions into patterns, which were later published in a book in 2023. The website provides summaries of each pattern with links to detailed chapters in the eBook, helping organizations improve their distributed software systems.",
+      "tags": [
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "01jr6ytyym5egdfca7ta0a15sm",
+      "title": "It's Time to Stop Building KV Databases",
+      "url": "https://buttondown.com/jaffray/archive/its-time-to-stop-building-kv-databases/",
+      "savedAt": "2025-04-07T01:46:29.716000+00:00",
+      "description": "The author argues against using Key-Value (KV) databases, claiming they lack flexibility and force users to create their own data models from scratch. Instead, they propose a new type of embedded database that maintains a clear distinction between logical and physical schemas, allowing for easier querying and better schema management. This new database would avoid the complexity of query planners while still offering essential features like type systems and asynchronous schema changes.",
+      "tags": [
+        "cs/database"
+      ]
+    },
+    {
+      "id": "01jr6q75eecmy21ner5ex945hr",
+      "title": "How far neuroscience is from understanding brains",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10585277/",
+      "savedAt": "2025-04-06T23:33:20.974000+00:00",
+      "description": "Neuroscience is still far from fully understanding how brains work. Recent studies show new insights into brain dynamics and functions, particularly in visual processing. Ongoing research is needed to better connect brain activity with behavior.",
+      "tags": [
+        "for-later",
+        "neuroscience"
+      ]
+    },
+    {
+      "id": "01jr6q3cegyv053xt0g3d7wgk5",
+      "title": "A Brief, Incomplete, and Mostly Wrong History of Programming Languages",
+      "url": "https://james-iry.blogspot.com/2009/05/brief-incomplete-and-mostly-wrong.html",
+      "savedAt": "2025-04-06T23:31:17.072000+00:00",
+      "description": "The text humorously recounts the history of programming languages, starting from early inventions like punch cards and Ada Lovelace's first program. It highlights notable developments, such as the creation of FORTRAN, LISP, and Java, while playfully critiquing their shortcomings. Overall, the article showcases the evolution of programming languages with a mix of factual details and witty commentary.",
+      "tags": [
+        "programming-languages"
+      ]
+    },
+    {
+      "id": "01jr6ngc1hq8sdjwyqm5p0mh0r",
+      "title": "Don't Be Afraid Of Types",
+      "url": "https://lmika.org/2025/03/18/dont-be-afraid-of-types.html",
+      "savedAt": "2025-04-06T23:03:25.489000+00:00",
+      "description": "The author discusses a common hesitation among developers to create new types in their code, often due to fears of disrupting the existing structure. They argue that creating new types, even for simple cases, can simplify code and improve clarity. The piece encourages developers to embrace the creation of types, as it can lead to easier data handling and better organization.",
+      "tags": []
+    },
+    {
+      "id": "01jr63zqqv68z4tmp5a6gssh4z",
+      "title": "Your Network, Your Rules: Take Charge With Own DNS",
+      "url": "https://dzone.com/articles/private-dns-nameserver",
+      "savedAt": "2025-04-06T17:57:14.619000+00:00",
+      "description": "This article explains how to set up your own DNS nameserver for better privacy and control over your online presence. It discusses using tools like BIND, Unbound, and dnsdist to manage DNS queries effectively. By self-hosting a DNS nameserver, you can enhance your security and reduce reliance on public services.",
+      "tags": [
+        "cs/networking"
+      ]
+    },
+    {
+      "id": "01jr63xyxf5btmjvs4nzy89g4z",
+      "title": "How browsers REALLY load Web pages",
+      "url": "https://fosdem.org/2025/schedule/event/fosdem-2025-4852-how-browsers-really-load-web-pages/",
+      "savedAt": "2025-04-06T17:56:16.430000+00:00",
+      "description": "When browsers load web pages, they consider many factors to decide which resources to load first. This talk explains how these decisions are made and how you can influence them for better performance. You will learn about the complexities of resource loading and how to avoid common mistakes.",
+      "tags": [
+        "cs/browsers"
+      ]
+    },
+    {
+      "id": "01jr63vrzf04tpmap33scwsq8p",
+      "title": "2024's hottest topics in databases (a bibliometric approach)",
+      "url": "https://rmarcus.info/blog/2025/03/28/hottest-db-topics.html",
+      "savedAt": "2025-04-06T17:55:04.814000+00:00",
+      "description": "The article reviews the latest trends in database research using citation data to identify popular topics. Key areas of focus include learned indexes, query optimization using machine learning, and improvements in database management systems. The author highlights the importance of data cleaning and matching tools, which are becoming more effective through the integration of machine learning techniques.",
+      "tags": [
+        "cs/database"
+      ]
+    },
+    {
+      "id": "01jr63afaw8te2rk8wzt6ypy0m",
+      "title": "to do nothing",
+      "url": "https://shilin.ca/to-do-nothing/",
+      "savedAt": "2025-04-06T17:45:37.884000+00:00",
+      "description": "It's a rainy Saturday in Montreal, and the author reflects on the challenge of doing nothing in a busy mind. They describe their thoughts as an annoying friend named Becky, who constantly suggests tasks and distractions. Ultimately, the author decides to embrace silence and do nothing for a while before their date.",
+      "tags": [
+        "philosophy"
+      ]
+    },
+    {
+      "id": "01jr6200v2yhm9kkrzywanrmm3",
+      "title": "The History of the Web",
+      "url": "https://thehistoryoftheweb.com/timeline/",
+      "savedAt": "2025-04-06T17:22:26.786000+00:00",
+      "description": "Tim Berners-Lee created the first web browser and website, showcasing the web's potential. Early search engines like World Wide Web Worm and WebCrawler made it easier to find information online. Over time, browsers evolved with new features and tools, leading to the development of popular platforms like Firefox and JavaScript.",
+      "tags": [
+        "web",
+        "engineering"
+      ]
+    },
+    {
+      "id": "01jr5rvs3vy2ppk1t3wszn7hxn",
+      "title": "Nix derivations by hand, without guessing",
+      "url": "https://bernsteinbear.com/blog/nix-by-hand/",
+      "savedAt": "2025-04-06T14:42:50.619000+00:00",
+      "description": "Max Bernstein’s blog discusses how to manually create a simple Nix derivation that outputs a \"hello world\" file without using the Nix language. The author explains the process of generating necessary hashes and paths, highlighting the importance of understanding the low-level details involved. Ultimately, the tutorial leads to successfully building the desired output file using a well-defined recipe.",
+      "tags": [
+        "tools/nix"
+      ]
+    },
     {
       "id": "01jr3kxv3taxwd7yfrnx99td61",
       "title": "Total functions and beyond",
@@ -3775,10 +4009,11 @@
       "id": "01jbepaa1gkev1n9p0r0sb5k5y",
       "title": "Salary Negotiation: Make More Money, Be More Valued | Kalzumeus Software",
       "url": "https://www.kalzumeus.com/2012/01/23/salary-negotiation/",
-      "savedAt": "2024-03-01T15:19:57.034000+00:00",
+      "savedAt": "2025-04-13T18:35:12.812000+00:00",
       "description": "Salary negotiation advice, mostly for engineers. Running total of raises negotiated due to this essay: $9M+.",
       "tags": [
-        "career"
+        "career",
+        "favorites"
       ]
     },
     {
