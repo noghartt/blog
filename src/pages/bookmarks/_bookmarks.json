@@ -1,6 +1,26 @@
 {
-  "lastUpdate": "2025-04-13T21:59:28.716Z",
+  "lastUpdate": "2025-04-15T00:19:57.448Z",
   "data": [
+    {
+      "id": "01jrrqkqscyteeas4bdrnfksnx",
+      "title": "High Agency\nIn 30 Minutes",
+      "url": "https://www.highagency.com/",
+      "savedAt": "2025-04-13T23:26:32.747000+00:00",
+      "description": "High agency is the ability to solve problems effectively and take action, even in difficult situations. It combines clear thinking, a bias to act, and a willingness to disagree with the norm. People with high agency creatively navigate challenges and embrace their uniqueness, often leading to extraordinary outcomes.",
+      "tags": [
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "01jrrq7k6ada7sf825y8ttrv9e",
+      "title": "What I'd do as a College Freshman in 2025",
+      "url": "https://muratbuffalo.blogspot.com/2025/04/what-id-do-as-college-freshman.html",
+      "savedAt": "2025-04-13T23:19:54.826000+00:00",
+      "description": "As a college freshman in 2025, focus on mastering computer science and soft skills, as they are essential for success in the tech industry. Stay in the U.S. for college to build valuable connections and gain inspiration from peers. Embrace an entrepreneurial mindset, aiming for depth and leveraging your skills to thrive in a rapidly changing environment.",
+      "tags": [
+        "career"
+      ]
+    },
     {
       "id": "01jrrjgwjgwdk6qvgebhqemvcw",
       "title": "Creating 256 Bytes of RAM (in a simulation)",
@@ -9,6 +29,7 @@
       "description": "Sebastian Lague explains how to create a simple simulation of 256 bytes of RAM using registers and memory cells. He describes the process of building a grid of memory cells that can store and retrieve data efficiently. The final result is a functioning random access memory (RAM) system that can be used in a simulated computer.",
       "tags": [
         "hardware",
+        "favorites",
         "type/video"
       ]
     },
