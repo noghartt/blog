@@ -1,13 +1,14 @@
 import fs from 'fs/promises';
 import path from 'path';
+import { setTimeout } from 'timers/promises';
 
 const READWISE_API_URL = 'https://readwise.io/api/v3/list/';
 const READWISE_READER_API_KEY = `Token ${process.env.READWISE_READER_API_KEY}`;
 
-const fetchBookmarks = async ({ nextPage } = { nextPage: null }) => {
+const fetchBookmarks = async ({ nextPage: nextPageArg } = { nextPage: null }) => {
   const queryParams = new URLSearchParams();
-  if (nextPage) {
-    queryParams.append('pageCursor', nextPage);
+  if (nextPageArg) {
+    queryParams.append('pageCursor', nextPageArg);
   }
 
   try {
@@ -21,6 +22,16 @@ const fetchBookmarks = async ({ nextPage } = { nextPage: null }) => {
     });
 
     if (!response.ok) {
+      if (response.status === 429) {
+        const retryAfter = response.headers.get('Retry-After');
+        if (retryAfter) {
+          const retryAfterSeconds = parseInt(retryAfter, 10);
+          console.log(`Rate limit exceeded. Retrying after ${retryAfterSeconds} seconds...`);
+          await setTimeout(retryAfterSeconds * 1000);
+          return fetchBookmarks({ nextPage: nextPageArg });
+        }
+      }
+
       return { error: response.statusText, data: null };
     }
 
