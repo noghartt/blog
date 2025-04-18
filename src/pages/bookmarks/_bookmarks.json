@@ -1,6 +1,526 @@
 {
-  "lastUpdate": "2025-04-15T00:19:57.448Z",
+  "lastUpdate": "2025-04-18T22:57:56.929Z",
   "data": [
+    {
+      "id": "01js5hc4qzm1emzds2yqngv31a",
+      "title": "How CouchDB Prevents Data Corruption: fsync",
+      "url": "https://neighbourhood.ie/blog/2025/02/26/how-couchdb-prevents-data-corruption-fsync",
+      "savedAt": "2025-04-18T22:47:40.031000+00:00",
+      "description": "Neighbourhoodie Software is a software development company based in Berlin, Germany. We are experts in CouchDB, PouchDB, and Offline First.",
+      "tags": [
+        "for-later",
+        "cs/database"
+      ]
+    },
+    {
+      "id": "01js5ha71643twtybqwysvd2e7",
+      "title": "3 thoughts on “Paxos made visual in FizzBee”",
+      "url": "https://surfingcomplexity.blog/2025/03/09/paxos-made-visual-in-fizzbee/",
+      "savedAt": "2025-04-18T22:46:36.838000+00:00",
+      "description": "Unfortunately, Paxos is quite difficult to understand, in spite of numerous attempts to make it more approachable. — Diego Ongaro and John Ousterhout, In Search of an Understandable Consensus Algor…",
+      "tags": [
+        "for-later",
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "01js5h9bgah2n5exmknnj0eevz",
+      "title": "Implementing SQL JOIN Support in ChronDB via PostgreSQL Protocol",
+      "url": "https://www.moclojer.com/blog/implementing-sql-join-support-in-chrondb-via-postgresql-protocol/",
+      "savedAt": "2025-04-18T22:46:08.650000+00:00",
+      "description": "Learn how ChronDB, a Git-based database, now supports SQL JOIN operations through PostgreSQL protocol. This technical deep dive covers INNER JOIN and LEFT JOIN implementation, performance optimizations, and how to query related data across tables in a version-controlled database environment.",
+      "tags": [
+        "for-later",
+        "cs/database"
+      ]
+    },
+    {
+      "id": "01js5h790kd6pr07yf52xftca0",
+      "title": "Faster interpreters in Go: Catching up with C++",
+      "url": "https://planetscale.com/blog/faster-interpreters-in-go-catching-up-with-cpp",
+      "savedAt": "2025-04-18T22:45:00.563000+00:00",
+      "description": "A novel technique for implementing dynamic language interpreters in Go, applied to the Vitess SQL evaluation engine",
+      "tags": [
+        "for-later",
+        "cs/database",
+        "cs/compilers"
+      ]
+    },
+    {
+      "id": "01js5h6k3d5dj99cx95nkvv58c",
+      "title": "Just Throw It Into Postgres",
+      "url": "https://simonsafar.com/2025/throw_it_into_postgres/",
+      "savedAt": "2025-04-18T22:44:38.125000+00:00",
+      "description": "The author discusses the flexibility of using Postgres databases for various types of data, even when they don't fit neatly into traditional database structures. Instead of forcing data into a rigid schema, it's better to store raw data and organize it later as needed. This approach allows for easier adjustments and better handling of unexpected data changes or new requirements.",
+      "tags": [
+        "cs/database"
+      ]
+    },
+    {
+      "id": "01js5ghy9r6p2hv80jde1wnsz9",
+      "title": "Hacking the Postgres wire protocol",
+      "url": "https://pgdog.dev/blog/hacking-postgres-wire-protocol",
+      "savedAt": "2025-04-18T22:33:21.463000+00:00",
+      "description": "PgDog is a network proxy that helps manage queries between Postgres and clients without changing application code. It understands SQL, allowing it to route queries to multiple databases based on sharding keys. PgDog optimizes data handling and ingestion through efficient manipulation of Postgres wire protocols.",
+      "tags": [
+        "for-later",
+        "cs/database"
+      ]
+    },
+    {
+      "id": "01js5ggtpfzqp7qvdjgkg63wf0",
+      "title": "SQLite Transactions and Virtual Tables",
+      "url": "https://misfra.me/2025/sqlite-transactions-and-virtual-tables/",
+      "savedAt": "2025-04-18T22:32:45.007000+00:00",
+      "description": "SQLite allows virtual tables to support writing and transactions through specific hooks. These hooks manage transaction boundaries, ensuring that all changes commit or roll back together, maintaining data integrity. Virtual table authors must ensure that operations that can fail are handled in the appropriate hooks to avoid transaction issues.",
+      "tags": [
+        "for-later",
+        "cs/database"
+      ]
+    },
+    {
+      "id": "01js5e95p2bddmssr37xvbdy55",
+      "title": "An epic treatise on error models for systems programming languages",
+      "url": "https://typesanitizer.com/blog/errors.html",
+      "savedAt": "2025-04-18T21:53:36.962000+00:00",
+      "description": "Musings on the representation, propagation and handling of errors in existing programming languages, as well as thoughts on future systems. (15K+ words)",
+      "tags": [
+        "for-later",
+        "cs/pl-theory"
+      ]
+    },
+    {
+      "id": "01js5e73x5vzvqwtq0p8da9q8x",
+      "title": "Practical Alloy",
+      "url": "https://practicalalloy.github.io/",
+      "savedAt": "2025-04-18T21:52:29.605000+00:00",
+      "description": "\"Practical Alloy\" is a hands-on guide that introduces formal software design using the Alloy modeling language. The book teaches how to create models that help explore design options and verify requirements. It includes practical examples to illustrate both structural and behavioral modeling for various software systems.",
+      "tags": [
+        "for-later",
+        "math/formal-methods"
+      ]
+    },
+    {
+      "id": "01js5e5gta19t9sh8xkjxsy9bb",
+      "title": "Antithesis driven testing",
+      "url": "https://sqlsync.dev/posts/antithesis-driven-testing/",
+      "savedAt": "2025-04-18T21:51:37.290000+00:00",
+      "description": "Antithesis is a powerful testing tool that helps developers find hidden bugs in complex systems through deterministic simulation and fault injection. It allows for the creation of varied test scenarios without needing to rewrite existing software, making testing more efficient and comprehensive. With Antithesis, developers can focus on high-level properties, evolving their test suites to continuously improve software reliability.",
+      "tags": [
+        "for-later",
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "01js5dwrnsen104ac3dkbwwwnr",
+      "title": "Revisiting an early critique of formal verification",
+      "url": "https://lawrencecpaulson.github.io/2025/03/14/revisiting_demillo.html",
+      "savedAt": "2025-04-18T21:46:50.425000+00:00",
+      "description": "In 1979, a paper critiqued the field of program verification, arguing that mathematical proofs and formal program verification were fundamentally different. While some points made by the authors were valid, many of their main arguments have been proven wrong over time, as significant mathematical results have been successfully verified using formal methods. Today, program verification is integral to the development of mission-critical software and hardware, showing that the field has advanced considerably since the authors' original critique.",
+      "tags": [
+        "for-later",
+        "math/formal-methods"
+      ]
+    },
+    {
+      "id": "01js5dtvzrzg87761fsq18d09d",
+      "title": "An Introduction to Virtual Consensus in Delos",
+      "url": "https://jack-vanlightly.com/blog/2025/2/5/an-introduction-to-virtual-consensus-in-delos",
+      "savedAt": "2025-04-18T21:45:48.280000+00:00",
+      "description": "This is the first of a number of posts looking at log replication protocols, mainly in the context of state machine replication (SMR). This first post will look at a log replication protocol design called Virtual Consensus from the paper:    Virtual Consensus in Delos   .   In 2020, a team of resear",
+      "tags": [
+        "for-later",
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "01js5ds18w3bqxqt85b54496hm",
+      "title": "Introduction",
+      "url": "https://transactional.blog/building-berkeleydb/introduction",
+      "savedAt": "2025-04-18T21:44:48.156000+00:00",
+      "description": "This tutorial series teaches you how to build a BerkeleyDB replacement library step by step, starting from reading data to adding advanced features. BerkeleyDB is chosen for its simplicity and widespread use, making it a great foundation for learning about B-Trees. While familiarity with C is assumed, you can also use other languages to create a compatible library.",
+      "tags": [
+        "for-later",
+        "cs/database"
+      ]
+    },
+    {
+      "id": "01js5drk7ybw31zp0n88vqx8s9",
+      "title": "Concurrency bugs in Lucene: How to fix optimistic concurrency failures",
+      "url": "https://www.elastic.co/search-labs/blog/optimistic-concurrency-lucene-debugging",
+      "savedAt": "2025-04-18T21:44:33.790000+00:00",
+      "description": "Thanks to Fray, a deterministic concurrency testing framework from CMU’s PASTA Lab, we tracked down a tricky Lucene bug and squashed it",
+      "tags": [
+        "for-later",
+        "cs/database"
+      ]
+    },
+    {
+      "id": "01js5dqddxebefxwyekhtjb46p",
+      "title": "Just because you’re getting an index scan, doesn't mean you can’t do better!",
+      "url": "https://www.pgmustard.com/blog/index-scan-doesnt-mean-its-fast",
+      "savedAt": "2025-04-18T21:43:55.069000+00:00",
+      "description": "An issue I often see folks missing is that they see that all of their scans involve indexes and they think that the query is as fast as it can be.",
+      "tags": [
+        "for-later",
+        "cs/database"
+      ]
+    },
+    {
+      "id": "01js5dpx0earzce8b4f4v9dydr",
+      "title": "MySQL transactions per second vs fsyncs per second",
+      "url": "https://sirupsen.com/napkin/problem-10-mysql-transactions-per-second",
+      "savedAt": "2025-04-18T21:43:38.253000+00:00",
+      "description": "MySQL transactions per second depend on the number of fsyncs per second that MySQL can commit to disk. A modern disk can do around 1000 fsyncs per second, but MySQL groups multiple writes with each fsync. Depending on various factors such as writes per transaction, number of indexes, hardware, and size of writes, MySQL can handle 5000-15,000 writes per second. The article discusses the author's hypothesis on the maximum throughput of MySQL and the number of fsyncs per second.",
+      "tags": [
+        "for-later",
+        "cs/database"
+      ]
+    },
+    {
+      "id": "01js5dp141bz7rjegkbe1x4gt4",
+      "title": "Land ahoy: leaving the Sea of Nodes",
+      "url": "https://v8.dev/blog/leaving-the-sea-of-nodes",
+      "savedAt": "2025-04-18T21:43:09.697000+00:00",
+      "description": "V8's compiler, Turbofan, is transitioning from a complex Sea of Nodes (SoN) representation to a simpler Control-Flow Graph (CFG) called Turboshaft. This change aims to make the compiler more efficient and intuitive, especially when handling JavaScript's numerous side effects and branches. The new CFG approach allows for better optimizations and faster compilation times compared to the previous SoN method.",
+      "tags": [
+        "for-later",
+        "cs/compilers",
+        "cs/optimization",
+        "cs/programming-languages/javascript"
+      ]
+    },
+    {
+      "id": "01js5d5sjkatfed2tpq1y0f0kb",
+      "title": "What Fekete’s Anomaly Can Teach Us About Isolation",
+      "url": "https://brooker.co.za/blog/2025/02/05/feketes",
+      "savedAt": "2025-04-18T21:34:17.682000+00:00",
+      "description": "Fekete's anomaly illustrates a situation in databases where transactions can show unexpected results due to isolation levels. It involves two users, Pat and Betty, who experience conflicting account balances after separate transactions, highlighting potential issues with snapshot isolation. This anomaly prompts developers to consider whether it is a problem and how to address it, balancing performance with data consistency.",
+      "tags": [
+        "for-later",
+        "cs/database"
+      ]
+    },
+    {
+      "id": "01js5d5beeexdqg3qs5wfg05qz",
+      "title": "How do LLMs work?",
+      "url": "https://notebook.drmaciver.com/posts/2025-02-08-09:26.html",
+      "savedAt": "2025-04-18T21:34:03.213000+00:00",
+      "description": "Large Language Models (LLMs) work by predicting and generating text based on given input, like an advanced autocomplete feature. Creating an effective LLM involves training it on vast amounts of text and adjusting its parameters to improve its predictions. The quality of the chatbot depends on the underlying language model and how well it has been trained using human feedback.",
+      "tags": [
+        "llm",
+        "cs/ai",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01js5d4vke9zc152dpax8q99wn",
+      "title": "Systems Correctness Practices at AWS",
+      "url": "https://queue.acm.org/detail.cfm?ref=rss&id=3712057",
+      "savedAt": "2025-04-18T21:33:46.990000+00:00",
+      "description": "AWS uses formal and semi-formal methods to ensure the reliability and correctness of its services. Key tools like TLA+ and the P programming language help teams validate system designs and improve performance. AWS also employs lightweight methods, such as property-based testing and fault injection, to enhance testing and catch bugs effectively.",
+      "tags": [
+        "for-later",
+        "cs/distsys",
+        "math/formal-methods"
+      ]
+    },
+    {
+      "id": "01js5d3e6vdmg0h8satkvcnqzf",
+      "title": "Hacking a Smart Home Device",
+      "url": "https://jmswrnr.com/blog/hacking-a-smart-home-device#string-theory",
+      "savedAt": "2025-04-18T21:33:00.507000+00:00",
+      "description": "The article explains how to reverse engineer a smart home device that uses UDP to communicate with its cloud server. It details the analysis of packet data, encryption keys, and the process of creating a man-in-the-middle attack to intercept and decrypt messages. The author shares insights into the device's firmware and the methods used to understand and manipulate its communication protocols.",
+      "tags": [
+        "for-later",
+        "cs/hacking"
+      ]
+    },
+    {
+      "id": "01js5c6q8tzahggn1gwqgrvv72",
+      "title": "Distributed Systems Programming Has Stalled",
+      "url": "https://www.shadaj.me/writing/distributed-programming-stalled",
+      "savedAt": "2025-04-18T21:17:19.514000+00:00",
+      "description": "Despite advancements in distributed systems over the past decade, programming them has not significantly improved, leaving developers facing challenges like concurrency and fault tolerance. Current frameworks mainly provide superficial solutions and do not offer a native programming model that effectively addresses the complexities of distributed systems. A new programming model is needed to allow developers to write distributed code more intuitively while maintaining control over performance and correctness.",
+      "tags": [
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "01js57cd06xsevbstsx0dywnqz",
+      "title": "Model error",
+      "url": "https://surfingcomplexity.blog/2025/04/06/model-error/",
+      "savedAt": "2025-04-18T19:53:02.726000+00:00",
+      "description": "Software models are often overly simplified, leading to significant errors when they fail to capture the complexity of the real world. These model errors can have serious consequences, as seen in examples like the 2008 financial crisis and recent mistakes in contact management. Understanding that all models are inherently flawed is crucial for improving software design and preventing future issues.",
+      "tags": [
+        "cs/distsys",
+        "systems-theory"
+      ]
+    },
+    {
+      "id": "01js56cevtf5ft3yvm40a1z8kj",
+      "title": "One or Two? How Many Queues?",
+      "url": "https://brooker.co.za/blog/2025/03/25/two-queues",
+      "savedAt": "2025-04-18T19:35:36.058000+00:00",
+      "description": "Marc Brooker discusses how the common belief that one queue is better than two can be misleading. In some situations, like using a restroom with different facilities, having separate queues can actually reduce wait times. The key factor is whether people have a strong preference for what they want to use, which can affect how efficiently the queues are utilized.",
+      "tags": [
+        "for-later",
+        "cs/distsys",
+        "math/queueing-theory"
+      ]
+    },
+    {
+      "id": "01js56btgng7jx5q1mqxxpqk21",
+      "title": "Things that go wrong with disk IO",
+      "url": "https://notes.eatonphil.com/2025-03-27-things-that-go-wrong-with-disk-io.html",
+      "savedAt": "2025-04-18T19:35:15.220000+00:00",
+      "description": "When writing applications that handle data, it's important to be aware of potential issues like lost writes, data corruption, and misdirected reads or writes. Many systems, including databases, do not always account for these problems, which can lead to data integrity issues. Using proper techniques like checksumming and ensuring data is correctly written to disk can help mitigate these risks.",
+      "tags": [
+        "hardware",
+        "for-later",
+        "cs/database"
+      ]
+    },
+    {
+      "id": "01js56bfkkkdtjrt0cr8t7m14f",
+      "title": "Dice and Queues",
+      "url": "https://justincartwright.com/2025/02/25/dice-and-queues.html",
+      "savedAt": "2025-04-18T19:35:04.051000+00:00",
+      "description": "Queuing theory shows that as utilization approaches 100%, the average queue size can grow significantly and even towards infinity. A simulation using dice rolls helps visualize how arrival and service rates affect queue sizes. The results confirm that higher utilization leads to larger queues, demonstrating the unpredictable nature of waiting lines.",
+      "tags": [
+        "for-later",
+        "math/queueing-theory"
+      ]
+    },
+    {
+      "id": "01js56b3vy2f35ad5t961ccr76",
+      "title": "Size matter",
+      "url": "https://pgdba.org/post/2025/04/size_matter/",
+      "savedAt": "2025-04-18T19:34:52.030000+00:00",
+      "description": "The shared buffer in PostgreSQL manages data flow in memory but has limitations in buffer replacement strategies. It uses a system called the clock sweep to replace buffers, which can be inefficient if many buffers are in use. The optimal size for the shared buffer depends on the server's memory, with 64GB being a reasonable upper limit to avoid performance issues.",
+      "tags": [
+        "for-later",
+        "cs/database"
+      ]
+    },
+    {
+      "id": "01js5643z0trrrf9zt2eraje2y",
+      "title": "Snapshot Isolation vs Serializability",
+      "url": "https://brooker.co.za/blog/2024/12/17/occ-and-isolation.html",
+      "savedAt": "2025-04-18T19:31:02.752000+00:00",
+      "description": "Snapshot isolation (SI) is a beneficial database isolation level for many applications, balancing performance and consistency. It allows read and write operations to occur with fewer conflicts compared to serializability, which requires stricter rules and can complicate programming. The author argues that SI, combined with strong consistency, is the best default choice for most transactional workloads.",
+      "tags": [
+        "for-later",
+        "cs/database"
+      ]
+    },
+    {
+      "id": "01js563qhmp7x92dnpbgcjfhq3",
+      "title": "Versioning versus Coordination",
+      "url": "https://brooker.co.za/blog/2025/02/04/versioning",
+      "savedAt": "2025-04-18T19:30:50.035000+00:00",
+      "description": "Marc Brooker discusses the advantages of using versioning in distributed database systems over traditional coordination methods. By allowing transactions to create new versions of data, it enhances scalability, throughput, and performance without blocking operations. This approach minimizes the need for coordination, making systems more efficient and easier to design.",
+      "tags": [
+        "for-later",
+        "cs/distsys",
+        "cs/database"
+      ]
+    },
+    {
+      "id": "01js55w9fqe6qqdt1mb7j7c5kx",
+      "title": "The Challenge",
+      "url": "https://jdrouet.github.io/posts/202503161800-search-engine-intro/",
+      "savedAt": "2025-04-18T19:26:46.263000+00:00",
+      "description": "This article introduces a project to build a client-side search engine using Rust, focusing on cross-platform compatibility and encryption. The author aims to tackle the unique challenges of running a search engine in browsers and mobile apps while keeping it lightweight and efficient. The series will cover various aspects of the search engine's construction, starting with the storage layer and progressing to performance optimization and synchronization.",
+      "tags": [
+        "cs/database",
+        "cs/programming-languages/rust"
+      ]
+    },
+    {
+      "id": "01js55sf10jk9srdskj6cdqk13",
+      "title": "How to Write Blog Posts that Developers Read",
+      "url": "https://refactoringenglish.com/chapters/write-blog-posts-developers-read/#show-more-pictures",
+      "savedAt": "2025-04-18T19:25:13.632000+00:00",
+      "description": "To attract readers, blog posts should get to the point quickly and address topics that matter to developers. Writers should also think about how to reach a larger audience and plan how readers will find their articles. Adding visuals and accommodating skimmers can significantly enhance a blog post's appeal.",
+      "tags": [
+        "writing",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01js55khjqrqmybq7t9g68w4v3",
+      "title": "Demystifying monads in Rust through property-based testing",
+      "url": "https://sunshowers.io/posts/monads-through-pbt/",
+      "savedAt": "2025-04-18T19:21:59.639000+00:00",
+      "description": "The article explores monads in Rust, highlighting their performance impact through property-based testing. It explains how the `prop_flat_map` function introduces monadic composition, which can make value shrinking unpredictable. Programmers are advised to prefer non-monadic operations when possible, as they are often more efficient.",
+      "tags": [
+        "for-later",
+        "cs/functional-programming",
+        "cs/programming-languages/rust"
+      ]
+    },
+    {
+      "id": "01js55jptrbxyhsr2g075s8hxp",
+      "title": "Resilience: some key ingredients",
+      "url": "https://surfingcomplexity.blog/2025/02/15/resilience-some-key-ingredients/",
+      "savedAt": "2025-04-18T19:21:32.248000+00:00",
+      "description": "Resilience in systems refers to their ability to cope with challenges beyond their limits, which can be enhanced through graceful extensibility. Key factors for resilience include having spare resources, flexibility, expertise, diversity among responders, and effective coordination during incidents. Understanding these ingredients can help improve responses to unexpected challenges.",
+      "tags": [
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "01js54gqstcq6x6sn2xqy3p2tj",
+      "title": "Comptime Zig ORM Mar 19, 2025",
+      "url": "https://matklad.github.io/2025/03/19/comptime-zig-orm.html",
+      "savedAt": "2025-04-18T19:02:59.130000+00:00",
+      "description": "The text describes how to define and manage a database schema in Zig, focusing on two main objects: accounts and transfers. It outlines the structure for these objects, including their fields and how to create a database type that can handle them. Additionally, it explains how to set up indexing for efficient data retrieval in the database.",
+      "tags": [
+        "for-later",
+        "cs/database"
+      ]
+    },
+    {
+      "id": "01js536te7n96qctqabhh2kw77",
+      "title": "Large Lambda Model",
+      "url": "https://theopolis.net/posts/large-lambda-model.html",
+      "savedAt": "2025-04-18T18:40:05.575000+00:00",
+      "description": "The Large Lambda Model uses an embedding layer to convert tokens into a format the model can understand. It employs multiple layers, including LayerNorm and self-attention, to process inputs and generate outputs. Finally, the model combines these layers to predict the next token in a sequence.",
+      "tags": [
+        "llm",
+        "cs/ai",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01js533fpx105fa31xw0vpe8nw",
+      "title": "Compiler Engineering for Substructural Languages I: The Problem with Polymorphism",
+      "url": "https://zanzix.github.io/posts/5-substructural-polymorphism.html",
+      "savedAt": "2025-04-18T18:38:16.285000+00:00",
+      "description": "The text discusses how to handle substitutions in substructural languages, focusing on the relationship between term and type contexts. It introduces data structures for managing substitutions and highlights the importance of indexing term variables by type variables. The author emphasizes that term substitutions must be carefully designed to maintain this relationship while implementing operations like renaming and extending contexts.",
+      "tags": [
+        "for-later",
+        "cs/compilers"
+      ]
+    },
+    {
+      "id": "01js50hf230z6z2vs51azb4y3a",
+      "title": "How to Sync Anything",
+      "url": "https://neighbourhood.ie/blog/2025/04/06/how-to-sync-anything",
+      "savedAt": "2025-04-18T17:53:28.643000+00:00",
+      "description": "Syncing data between systems can be tricky due to issues like inconsistency and lost updates. Effective replication requires a reliable method to compare source and target data so they can stay in sync. Using a well-defined sync function can help ensure that changes are accurately captured and applied in the right order.",
+      "tags": [
+        "for-later",
+        "cs/database"
+      ]
+    },
+    {
+      "id": "01js4wsjkwyn6z14cmy5zzvhfd",
+      "title": "Why The First Computers Were Made Out Of Light Bulbs",
+      "url": "https://www.youtube.com/watch?v=FU_YFpfDqqA",
+      "savedAt": "2025-04-18T16:48:00.124000+00:00",
+      "description": "The first computers used light bulbs and vacuum tubes to control the flow of electricity. This technology allowed for the creation of basic logic gates and early computers that could perform calculations. However, these machines were large, power-hungry, and often unreliable.",
+      "tags": [
+        "computer-history"
+      ]
+    },
+    {
+      "id": "01js4vqzmrjng2wz1t0d80bxxe",
+      "title": "Good models protect us from bad models",
+      "url": "https://surfingcomplexity.blog/2025/04/15/good-models-protect-us-from-bad-models/",
+      "savedAt": "2025-04-18T16:29:39.352000+00:00",
+      "description": "Resilience engineering offers valuable insights about complex systems, even if they aren't directly actionable. Good models help us understand incidents better and protect us from simplistic, misleading solutions. While these models may feel unsatisfying, they prevent us from relying on incorrect but easy-to-implement approaches.",
+      "tags": [
+        "systems-theory"
+      ]
+    },
+    {
+      "id": "01js4v9brer3a7yttf1ewxpk46",
+      "title": "Flambda2 Ep. 4: How to write a purely functional compiler",
+      "url": "https://ocamlpro.com/blog/2025_02_19_the_flambda2_snippets_4/",
+      "savedAt": "2025-04-18T16:21:40.238000+00:00",
+      "description": "In this episode, we explain how the Flambda2 Optimising Compiler analyzes and transforms OCaml code using two main traversal methods: downward and upward. The downward pass focuses on static analysis and inlining, while the upward pass identifies and removes dead code. This structured approach allows for efficient optimizations and simplifies the compilation process.",
+      "tags": [
+        "for-later",
+        "cs/compilers"
+      ]
+    },
+    {
+      "id": "01js4nkr0db4jqt2ntvpspyrgs",
+      "title": "100 Ways To Live Better",
+      "url": "https://www.lesswrong.com/posts/HJeD6XbMGEfcrx3mD/100-ways-to-live-better/",
+      "savedAt": "2025-04-18T14:42:29.004000+00:00",
+      "description": "Jacob Falkovich shares 100 pieces of life advice aimed at improving daily living. His tips include expressing yourself, limiting political discussions, and creating fun habits. The advice encourages personal growth and connecting with others in meaningful ways.",
+      "tags": [
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "01js4kx3dj12ehwp3brr486nfx",
+      "title": "The Hitchhiker's Guide to Concurrency",
+      "url": "https://learnyousomeerlang.com/the-hitchhikers-guide-to-concurrency",
+      "savedAt": "2025-04-18T14:12:38.450000+00:00",
+      "description": "The text introduces concurrent Erlang's concept based on message passing and the actor model. Erlang's concurrency allows multiple independent actors to run, even on a single-core processor. By utilizing lightweight processes and asynchronous message passing, Erlang ensures reliability and fault-tolerance in handling errors efficiently.",
+      "tags": [
+        "cs",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01js3rm9hf8kchsevntbt2z0fe",
+      "title": "Implementers, Solvers, and Finders",
+      "url": "https://rkoutnik.com/2016/04/21/implementers-solvers-and-finders.html",
+      "savedAt": "2025-04-18T06:15:58.254000+00:00",
+      "description": "Many programmers feel stuck in their careers and want more autonomy instead of just executing tasks. The author suggests categorizing programming roles into Implementers, Solvers, and Finders to better align job titles with responsibilities. Ultimately, the goal is to help programmers find fulfilling roles where they can continue to code while having the autonomy they desire.",
+      "tags": [
+        "career",
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "01js3rf8dzqvrxmz35ppbr3qja",
+      "title": "Parser Combinators Beat Regexes",
+      "url": "https://entropicthoughts.com/parser-combinators-beat-regexes",
+      "savedAt": "2025-04-18T06:13:13.279000+00:00",
+      "description": "In Haskell, parser combinators are preferred over regular expressions because they offer better performance and flexibility. While regex can handle simple tasks, writing parsers in Haskell is straightforward and allows for more complex state management. This approach is especially useful for problems that require tracking changes in state, like enabling or disabling certain instructions.",
+      "tags": [
+        "for-later",
+        "cs/compilers"
+      ]
+    },
+    {
+      "id": "01js3qhw5ge4a8dw4e5cf2h70a",
+      "title": "Demystifying the #! (shebang): Kernel Adventures",
+      "url": "https://crocidb.com/post/kernel-adventures/demystifying-the-shebang/",
+      "savedAt": "2025-04-18T05:57:10.448000+00:00",
+      "description": "The shebang (#!) at the beginning of a script specifies which interpreter to use when executing it, allowing scripts to run smoothly without needing to call the interpreter directly. Linux uses the kernel to process the shebang, ensuring the correct interpreter is found and executed, which simplifies running different types of scripts. If a script lacks execute permissions or a shebang, the kernel will return an error, but the shell may still attempt to run it as a fallback.",
+      "tags": [
+        "os/linux"
+      ]
+    },
+    {
+      "id": "01js16sx4jzz8yr9xszbph8q7q",
+      "title": "Impromptu disaster recovery",
+      "url": "https://fasterthanli.me/articles/impromptu-disaster-recovery#bringing-back-the-essentials",
+      "savedAt": "2025-04-17T06:25:58.930000+00:00",
+      "description": "The author discusses issues with using the `yq` command-line tool for processing YAML files, specifically how it can unintentionally merge multiple files into one when using the in-place editing flag. This behavior can lead to data loss if users are not careful, as it overwrites the first file in the list with combined content from all matched files. The author suggests that a better approach would be to manage and compare resources more effectively in Kubernetes.",
+      "tags": [
+        "cs/devops",
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "01jrwh3xv3gmp7s2f4tcj2ptqt",
+      "title": "Expose an external resource with a Kubernetes Ingress",
+      "url": "https://www.diomedet.com/posts/expose-an-external-resource-with-a-kubernetes-ingress/",
+      "savedAt": "2025-04-15T10:50:00.931000+00:00",
+      "description": "The author wanted to expose their Home Assistant instance to the internet using Kubernetes Ingress, as they already have a Kubernetes cluster set up. They explained that a Service is needed to redirect requests to the Ingress, and shared YAML configurations for creating the necessary Service and Ingress. By following these steps, the author can access Home Assistant externally while also preparing for future services within the Kubernetes cluster.",
+      "tags": [
+        "cs/devops",
+        "infrastructure"
+      ]
+    },
     {
       "id": "01jrrqkqscyteeas4bdrnfksnx",
       "title": "High Agency\nIn 30 Minutes",
@@ -93,6 +613,7 @@
       "savedAt": "2025-04-12T13:48:11.300000+00:00",
       "description": "This blog post explains how to read the header of an SQLite database and parse table B-tree leaf pages. It details the structure of the database header, including the magic string and page size, and discusses functions for reading page content and cell pointers. The ultimate goal is to create a simple REPL that can list tables within the database.",
       "tags": [
+        "for-later",
         "cs/database"
       ]
     },
@@ -143,6 +664,7 @@
       "savedAt": "2025-04-12T05:21:06.646000+00:00",
       "description": "This article explains how full text search engines work by using techniques like tokenization and inverted indexing to efficiently find and rank documents based on user queries. It discusses the importance of storing tokens with their document IDs and positions to improve search performance and support features like prefix queries. The author also compares this efficient approach to a slower, naive search method that scans every document for each term.",
       "tags": [
+        "for-later",
         "cs/database"
       ]
     },
@@ -202,6 +724,7 @@
       "savedAt": "2025-04-06T17:57:14.619000+00:00",
       "description": "This article explains how to set up your own DNS nameserver for better privacy and control over your online presence. It discusses using tools like BIND, Unbound, and dnsdist to manage DNS queries effectively. By self-hosting a DNS nameserver, you can enhance your security and reduce reliance on public services.",
       "tags": [
+        "for-later",
         "cs/networking"
       ]
     },
@@ -212,6 +735,7 @@
       "savedAt": "2025-04-06T17:56:16.430000+00:00",
       "description": "When browsers load web pages, they consider many factors to decide which resources to load first. This talk explains how these decisions are made and how you can influence them for better performance. You will learn about the complexities of resource loading and how to avoid common mistakes.",
       "tags": [
+        "for-later",
         "cs/browsers"
       ]
     },
@@ -568,7 +1092,8 @@
       "savedAt": "2025-03-09T14:17:24.785000+00:00",
       "description": "The text discusses a famous logic puzzle from the movie Labyrinth, where a character must choose the correct door by asking one of two goblins, one of whom always lies. It explains how to solve the puzzle using boolean algebra, highlighting the importance of formulating the right question. The author emphasizes that a formal approach can simplify complex problems and improve understanding of logic.",
       "tags": [
-        "for-later"
+        "for-later",
+        "math/formal-methods"
       ]
     },
     {
@@ -710,7 +1235,7 @@
     },
     {
       "id": "01jm7jxkshw5nz7ashq0hd77fb",
-      "title": "PRÉCIS OF BREAKDOWN OF WILL George Ainslie 116A Veterans Affairs Medical Center Coatesville, PA 19320",
+      "title": "Picoeconomics",
       "url": "https://web.archive.org/web/20090515020333/http://www.picoeconomics.com/breakdown.htm",
       "savedAt": "2025-02-18T00:48:11.207000+00:00",
       "description": "The text discusses how the perception of choices influences self-control and decision-making over time. It explains that people often struggle with immediate rewards versus future benefits, leading to inconsistent choices. Additionally, personal rules and emotional rewards play a significant role in shaping motivations and behaviors.",
@@ -1951,7 +2476,9 @@
       "savedAt": "2024-12-17T22:38:35.908000+00:00",
       "description": "The future of databases may see exciting changes, but access to advanced hardware remains uncertain. Technologies like RDMA and SmartNICs promise to improve database performance, yet many of these innovations are not available in the cloud for general use. Without accessible hardware, significant advancements in database capabilities may be limited.",
       "tags": [
-        "for-later"
+        "hardware",
+        "for-later",
+        "cs/database"
       ]
     },
     {
