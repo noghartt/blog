@@ -14,14 +14,20 @@ const til = await getCollection('til');
     <p>Here I have everything that I learned in some way during my day.</p>
   </div>
   <ul>
-    {til.map(async item => {
+    {til.map(async (item, i) => {
       const createdAt = dayjs(item.data.createdAt).format('YYYY/MM/DD ddd [-] hh:mm A')
       const { Content } = await item.render();
       return (
         <li>
-          <p>{createdAt}, {item.data.title}</p>
-          <div>
-            <Content />
+          <p>{i + 1}.</p>
+          <div class="content">
+            <p class="title">
+              <span>{item.data.title}</span>
+              <span>{createdAt}</span>
+            </p>
+            <div>
+              <Content />
+            </div>
           </div>
         </li>
       );
@@ -30,8 +36,31 @@ const til = await getCollection('til');
 </Layout>
 
 <style>
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing);
+  }
+
   li {
-    font-family: monospace;
-    list-style-type:symbols("-");
+    display: flex;
+    gap: var(--spacing);
+  }
+
+  li .content {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 100%;
+  }
+
+  .title {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  li:not(:first-child) {
+    border-top: 1px solid #000;
+    padding-top: var(--spacing);
   }
 </style>
