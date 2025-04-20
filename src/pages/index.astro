@@ -16,9 +16,10 @@ const year = new Date().getFullYear() - 2002;
 const links = [
   [
     { href: '/now', title: '/now' },
-    { href: '/changelog', title: '/changelog' },
     { href: '/bookmarks', title: '/bookmarks' },
+    { href: '/til', title: '/til' },
     { href: '/tags', title: '/tags' },
+    { href: '/changelog', title: '/changelog' },
   ],
 ];
 
@@ -43,15 +44,17 @@ const links = [
   </section>
   <section class="links">
     <h2>Links</h2>
-    {links.map((section) => (
-      <ul>
-        {section.map((link) => (
-          <li>
-            <Link href={link.href}>{link.title}</Link>
-          </li>
-        ))}
-      </ul>
-    ))}
+    <div>
+      {links.map((section) => (
+        <ul>
+          {section.map((link) => (
+            <li>
+              <Link href={link.href}>{link.title}</Link>
+            </li>
+          ))}
+        </ul>
+      ))}
+    </div>
   </section>
   <section class="posts">
     <h2>Archive</h2>
