@@ -5,6 +5,10 @@ import { getCollection } from "astro:content";
 import dayjs from 'dayjs';
 
 const til = await getCollection('til');
+const sortedTil = til.sort((a, b) =>
+  Math.floor(b.data.createdAt / 1000) -
+  Math.floor(a.data.createdAt / 1000)
+);
 ---
 
 <Layout>
@@ -14,20 +18,22 @@ const til = await getCollection('til');
     <p>Here I have everything that I learned in some way during my day.</p>
   </div>
   <ul>
-    {til.map(async (item, i) => {
+    {sortedTil.map(async (item, i) => {
       const createdAt = dayjs(item.data.createdAt).format('YYYY/MM/DD ddd [-] hh:mm A')
       const { Content } = await item.render();
       return (
         <li>
           <p>{i + 1}.</p>
           <div class="content">
-            <p class="title">
-              <span>{item.data.title}</span>
-              <span>{createdAt}</span>
-            </p>
-            <div>
+            <a href={`#${item.slug}`}>
+              <p class="title" id={item.slug}>
+                <span>{item.data.title}</span>
+                <span>{createdAt}</span>
+              </p>
+            </a>
+            <section class="article">
               <Content />
-            </div>
+            </section>
           </div>
         </li>
       );
@@ -62,5 +68,10 @@ const til = await getCollection('til');
   li:not(:first-child) {
     border-top: 1px solid #000;
     padding-top: var(--spacing);
+  }
+
+  section.article :global(li) {
+    list-style-type: initial;
+    margin-left: var(--spacing-2x);
   }
 </style>
