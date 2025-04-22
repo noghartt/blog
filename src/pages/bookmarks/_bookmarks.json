@@ -1,6 +1,129 @@
 {
-  "lastUpdate": "2025-04-18T22:57:56.929Z",
+  "lastUpdate": "2025-04-22T00:35:59.321Z",
   "data": [
+    {
+      "id": "01jscxebj5zv5z37s5pgaystzz",
+      "title": "An introduction to Bayes' rule - Chapter 1",
+      "url": "https://jamesstone.sites.sheffield.ac.uk/books/bayes-rule/an-introduction-to-bayes-rule-chapter-1",
+      "savedAt": "2025-04-21T19:33:16.484000+00:00",
+      "description": "Bayes' rule is a fundamental concept in probability and statistics that helps us update our beliefs based on new evidence. It has applications in various fields, including genetics, psychology, and machine learning. This chapter introduces the key ideas and historical context of Bayes' rule.",
+      "tags": []
+    },
+    {
+      "id": "01jscx5d094ex0aqq56ee0b85e",
+      "title": "But good sir, what is electricity?",
+      "url": "https://lcamtuf.substack.com/p/but-good-sir-what-is-electricity",
+      "savedAt": "2025-04-21T19:28:23.048000+00:00",
+      "description": "This article explores the basics of electricity and how certain materials conduct it. It explains the structure of atoms, focusing on electrons and their interactions, which play a crucial role in electrical conductivity. The piece emphasizes the differences between conductors and insulators and how the movement of electrons creates electricity.",
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "01jscvnk0z5x3a5th4kjhkccgz",
+      "title": "The Skill That Never Goes Obsolete",
+      "url": "https://www.autodidacts.io/troubleshooting/",
+      "savedAt": "2025-04-21T19:02:16.351000+00:00",
+      "description": "Troubleshooting is a crucial skill that involves identifying and fixing problems in various systems. It requires a thoughtful approach, balancing information gathering with attempts to fix issues. By cultivating this skill, one can improve effectiveness across different domains.",
+      "tags": [
+        "thinking",
+        "favorites",
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "01jsc541xwzfzayvbp0jtzvhsg",
+      "title": "Push Ifs Up And Fors Down Nov 15, 2023",
+      "url": "https://matklad.github.io/2023/11/15/push-ifs-up-and-fors-down.html",
+      "savedAt": "2025-04-21T12:28:13.116000+00:00",
+      "description": "Move \"if\" conditions to the caller to simplify control flow and reduce bugs in your functions. Instead of processing items one by one, handle batches to improve performance. Overall, aim to push \"ifs\" up and \"fors\" down for clearer and more efficient code.",
+      "tags": [
+        "cs"
+      ]
+    },
+    {
+      "id": "01jsc4ep1xnf1k97scqhjdj7yp",
+      "title": "Design of a NAND gate using the ICPS PDK",
+      "url": "https://mole99.uber.space/2024/NAND_tutorial/Design%20of%20a%20NAND%20gate%20using%20the%20ICPS%20PDK.html",
+      "savedAt": "2025-04-21T12:16:32.829000+00:00",
+      "description": "This tutorial explains how to design a NAND gate using the ICPS PDK with tools like xschem for schematics and KLayout for layout. It provides step-by-step instructions for setting up the environment, drawing the schematic, creating the netlist, and verifying the layout. By following these steps, you can successfully create a NAND gate design ready for fabrication.",
+      "tags": [
+        "hardware"
+      ]
+    },
+    {
+      "id": "01js8ecmmfj65pc9g2pw090axp",
+      "title": "Impact, agency, and taste",
+      "url": "https://www.benkuhn.net/impact/",
+      "savedAt": "2025-04-20T01:53:13.871000+00:00",
+      "description": "The author discusses the importance of agency and taste in achieving high-impact work. Successful individuals take accountability for their goals and focus on finding effective solutions, often through data analysis and reflection. Developing a good intuition for impactful projects requires practice and a willingness to learn from experiences.",
+      "tags": [
+        "career",
+        "favorites"
+      ]
+    },
+    {
+      "id": "01js7b9asmbtwkckkhwe0e91cd",
+      "title": "Phil Eaton on Technical Blogging",
+      "url": "https://writethatblog.substack.com/p/phil-eaton-on-technical-blogging",
+      "savedAt": "2025-04-19T15:39:45.332000+00:00",
+      "description": "Phil Eaton is a seasoned tech blogger who began writing in 2015 to boost his career and share knowledge with others. He emphasizes that blogging helps solidify understanding and can benefit both individuals and their companies. Eaton encourages new bloggers to write about what confuses them and highlights the low stakes and high rewards of sharing their insights.",
+      "tags": [
+        "writing"
+      ]
+    },
+    {
+      "id": "01js7a83fpf8p10r294bpnpm3y",
+      "title": "Decomposing Transactional Systems",
+      "url": "https://transactional.blog/blog/2025-decomposing-transactional-systems",
+      "savedAt": "2025-04-19T15:21:36.502000+00:00",
+      "description": "A transaction in a database involves reading and writing data, with writes often buffered until the transaction commits. The process includes obtaining a read version, checking for conflicts, and validating the transaction before finalizing it with a commit timestamp. Once all checks are complete, the transaction's changes are applied to the database, ensuring consistency and atomicity.",
+      "tags": [
+        "for-later",
+        "cs/database"
+      ]
+    },
+    {
+      "id": "01js60c8f53nzhmj1gezcv2yxz",
+      "title": "Rust Collections Case Study: BTreeMap",
+      "url": "https://cglab.ca/~abeinges/blah/rust-btree-case/",
+      "savedAt": "2025-04-19T03:09:52.485000+00:00",
+      "description": "The BTreeMap uses a stack-based approach to manage node traversal and insertion efficiently without parent pointers, enhancing cache performance. Insertion is handled carefully to avoid unnecessary writes by maintaining a search stack that represents the path from the root to the target leaf. The design emphasizes safety and performance by abstracting complex logic away from the main BTreeMap operations.",
+      "tags": [
+        "cs/algorithms",
+        "cs/programming-languages/rust"
+      ]
+    },
+    {
+      "id": "01js603tdsxdpy6jd4phs9dw4v",
+      "title": "{transitions} = f(state)",
+      "url": "https://jordaneldredge.com/blog/transitions-f-of-state/",
+      "savedAt": "2025-04-19T03:05:15.961000+00:00",
+      "description": "Thinking of a React app as a state machine helps manage state updates and prevents invalid actions. When using asynchronous or concurrent updates, developers need to ensure that the UI reflects the valid states to avoid triggering errors. Implementing optimistic updates or pending states can help maintain this integrity during network requests or transitions.",
+      "tags": [
+        "framework/react"
+      ]
+    },
+    {
+      "id": "01js5yyvrh1pz1zaygy5f9tm6h",
+      "title": "The Mysterious Flow of Fluid in the Brain | Quanta Magazine",
+      "url": "https://www.quantamagazine.org/the-mysterious-flow-of-fluid-in-the-brain-20250326/",
+      "savedAt": "2025-04-19T02:45:04.912000+00:00",
+      "description": "A popular hypothesis for how the brain clears molecular waste, which may help explain why sleep feels refreshing, is a subject of debate.",
+      "tags": [
+        "biology"
+      ]
+    },
+    {
+      "id": "01js5ytshhkypxt4w644xxjr9b",
+      "title": "How the Brain Protects Itself From Blood-Borne Threats | Quanta Magazine",
+      "url": "https://www.quantamagazine.org/how-the-brain-protects-itself-from-blood-borne-threats-20230620/",
+      "savedAt": "2025-04-19T02:42:51.569000+00:00",
+      "description": "To buffer the brain against menaces in the blood, a dynamic, multi-tiered system of protection is built into the brain’s blood vessels.",
+      "tags": [
+        "biology"
+      ]
+    },
     {
       "id": "01js5hc4qzm1emzds2yqngv31a",
       "title": "How CouchDB Prevents Data Corruption: fsync",
