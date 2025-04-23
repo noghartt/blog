@@ -1,3 +1,4 @@
+import { Console } from 'console';
 import fs from 'fs/promises';
 import path from 'path';
 import { setTimeout } from 'timers/promises';
@@ -13,6 +14,7 @@ const fetchBookmarks = async ({ nextPage: nextPageArg } = { nextPage: null }) =>
 
   try {
     const url = `${READWISE_API_URL}?${queryParams.toString()}`;
+    console.log('Fetching bookmarks from:', url);
     const response = await fetch(url, {
       method: 'GET',
       headers: {
@@ -68,17 +70,23 @@ const writeJsonFile = async (data: any) => {
 (async () => {
   const bookmarks = [];
   let nextPage = null;
-  do {
-    console.log('Fetching bookmarks from:', nextPage ?? 'start');
-    const response = await fetchBookmarks({ nextPage });
-    if (response.error) {
-      console.log('Error while fetching:', response.error);
-      break;
-    }
+  try {
+    do {
+      console.log('Fetching bookmarks from:', nextPage ?? 'start');
+      const response = await fetchBookmarks({ nextPage });
+      if (response.error) {
+        console.log('Error while fetching:', response.error);
+        break;
+      }
 
-    nextPage = response.nextPage;
-    bookmarks.push(...response.data);
-  } while (nextPage);
+      nextPage = response.nextPage;
+      bookmarks.push(...response.data);
+    } while (nextPage);
+
+
+  } catch (e) {
+    console.log('Error while fetching:', e);
+  }
 
   const mappedBookmarks = bookmarks.map(bookmark => ({
     id: bookmark.id,
