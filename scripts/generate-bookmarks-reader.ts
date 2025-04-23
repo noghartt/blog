@@ -1,4 +1,3 @@
-import { Console } from 'console';
 import fs from 'fs/promises';
 import path from 'path';
 import { setTimeout } from 'timers/promises';
@@ -14,7 +13,6 @@ const fetchBookmarks = async ({ nextPage: nextPageArg } = { nextPage: null }) =>
 
   try {
     const url = `${READWISE_API_URL}?${queryParams.toString()}`;
-    console.log('Fetching bookmarks from:', url);
     const response = await fetch(url, {
       method: 'GET',
       headers: {
@@ -57,6 +55,7 @@ const fetchBookmarks = async ({ nextPage: nextPageArg } = { nextPage: null }) =>
       nextPage,
     }
   } catch (err) {
+    console.log('Error while fetching bookmarks:', err);
     return { error: err, data: null };
   }
 }
