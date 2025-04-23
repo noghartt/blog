@@ -1,0 +1,46 @@
+name: Daily JSON Update
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-json:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run update script
+        run: npx tsx ./scripts/generate-bookmarks-reader.ts
+
+      - name: Check for changes
+        id: git-check
+        run: |
+          git add .
+          git diff --staged --quiet || echo "changes=true" >> $GITHUB_OUTPUT
+
+      - name: Create Pull Request
+        if: steps.git-check.outputs.changes == 'true'
+        uses: peter-evans/create-pull-request@v5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: 'chore: daily JSON update'
+          branch: daily-json-update
+          delete-branch: true
+          title: 'Daily JSON Update'
+          body: |
+            This PR contains the daily automated JSON file updates.
+
+            *Automated pull request created by GitHub Actions*
