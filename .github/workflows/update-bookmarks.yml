@@ -13,6 +13,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Setup PNPM
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8.6.0
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
