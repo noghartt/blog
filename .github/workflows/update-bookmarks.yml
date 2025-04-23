@@ -16,7 +16,7 @@ jobs:
       - name: Setup PNPM
         uses: pnpm/action-setup@v2
         with:
-          version: 8.6.0
+          version: 9.15.0
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -43,11 +43,11 @@ jobs:
         uses: peter-evans/create-pull-request@v5
         with:
           token: ${{ secrets.GH_TOKEN }}
-          commit-message: 'chore: daily JSON update'
-          branch: daily-json-update
+          commit-message: 'update bookmark - automated'
+          branch: daily-bookmark-update
           delete-branch: true
-          title: 'Daily JSON Update'
+          title: 'Daily Bookmark Update'
           body: |
-            This PR contains the daily automated JSON file updates.
+            This PR contains the daily automated bookmark file updates.
 
             *Automated pull request created by GitHub Actions*
