@@ -28,12 +28,14 @@ jobs:
         run: pnpm install
 
       - name: Run update script
+        env:
+          READWISE_READER_API_KEY: ${{ secrets.READWISE_READER_API_KEY }}
         run: pnpx tsx ./scripts/generate-bookmarks-reader.ts
 
       - name: Check for changes
         id: git-check
         run: |
-          git add .
+          git add ./src
           git diff --staged --quiet || echo "changes=true" >> $GITHUB_OUTPUT
 
       - name: Create Pull Request
