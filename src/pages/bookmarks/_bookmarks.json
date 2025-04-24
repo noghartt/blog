@@ -1,6 +1,16 @@
 {
-  "lastUpdate": "2025-04-24T00:05:23.761Z",
+  "lastUpdate": "2025-04-24T03:16:21.354Z",
   "data": [
+    {
+      "id": "01jsjwm5srg1awzxhq9dc1bsqw",
+      "title": "Transactions are a protocol",
+      "url": "https://notes.eatonphil.com/2025-04-20-transactions-are-a-protocol.html",
+      "savedAt": "2025-04-24T03:14:25.208000+00:00",
+      "description": "Transactions are not built into every storage system, but can be added to any of them, like Redis or S3. Techniques exist to make these systems transactional, and developers can also create their own transaction layers. Understanding transactions is important for ensuring consistency and reliability in data management.",
+      "tags": [
+        "cs/database"
+      ]
+    },
     {
       "id": "01jscxebj5zv5z37s5pgaystzz",
       "title": "An introduction to Bayes' rule - Chapter 1",
