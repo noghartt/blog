@@ -1,6 +1,17 @@
 {
-  "lastUpdate": "2025-04-24T03:16:21.354Z",
+  "lastUpdate": "2025-04-25T00:05:25.673Z",
   "data": [
+    {
+      "id": "01jsk2cnvez91q738yh59gn542",
+      "title": "Solving SICP",
+      "url": "https://lockywolf.wordpress.com/2021/02/08/solving-sicp/",
+      "savedAt": "2025-04-24T04:55:10.958000+00:00",
+      "description": "The author successfully completed the SICP exercises, showing they are achievable with focused effort and planning. The report highlights the time needed for both solving problems and providing feedback, suggesting instructors may need to select exercises based on course coverage and time constraints. Despite the challenges, the author believes that teaching SICP to first-year students may be difficult due to the extensive time commitment required.",
+      "tags": [
+        "cs",
+        "books"
+      ]
+    },
     {
       "id": "01jsjwm5srg1awzxhq9dc1bsqw",
       "title": "Transactions are a protocol",
