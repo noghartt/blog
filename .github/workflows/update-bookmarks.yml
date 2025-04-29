@@ -47,6 +47,7 @@ jobs:
           branch: daily-bookmark-update
           delete-branch: true
           title: 'Daily Bookmark Update'
+          assignees: noghartt
           body: |
             This PR contains the daily automated bookmark file updates.
 
