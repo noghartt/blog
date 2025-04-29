@@ -1,6 +1,37 @@
 {
-  "lastUpdate": "2025-04-29T00:05:33.662Z",
+  "lastUpdate": "2025-04-29T04:23:48.439Z",
   "data": [
+    {
+      "id": "01jszst8gd7ax5zzz59d5axnpj",
+      "title": "Tiny Emulators",
+      "url": "https://floooh.github.io/tiny8bit-preview/",
+      "savedAt": "2025-04-29T03:35:26.477000+00:00",
+      "description": null,
+      "tags": [
+        "cs/emulator"
+      ]
+    },
+    {
+      "id": "01jszssv1eq31m0qvdf4tqkkyd",
+      "title": "Why do electrons not fall into the nucleus?",
+      "url": "https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Quantum_Mechanics/09._The_Hydrogen_Atom/Atomic_Theory/Why_atoms_do_not_Collapse",
+      "savedAt": "2025-04-29T03:35:12.685000+00:00",
+      "description": "Electrons do not fall into the nucleus because they behave as quantum particles, which do not have definite positions or velocities. Instead of spiraling into the nucleus, electrons exist in regions of probability, where they are most likely to be found at certain distances. This balance of energy keeps them stable around the nucleus, preventing the atom from collapsing.",
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "01jszpr8yx73x1xqr6jtgmaemv",
+      "title": "Advice for time management as a manager",
+      "url": "https://www.benkuhn.net/tmgr/",
+      "savedAt": "2025-04-29T02:41:55.677000+00:00",
+      "description": "Managing your time as a team lead is different from being an individual contributor, as you'll need to balance multiple priorities and focus on your team's output. It’s important to prioritize tasks, delegate effectively, and carve out time for deep work to maintain productivity. Don’t hesitate to seek help and adjust your expectations as you navigate these new responsibilities.",
+      "tags": [
+        "career",
+        "self-improvement"
+      ]
+    },
     {
       "id": "01jsk2cnvez91q738yh59gn542",
       "title": "Solving SICP",
