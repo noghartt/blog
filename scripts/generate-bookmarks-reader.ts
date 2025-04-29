@@ -7,6 +7,7 @@ const READWISE_READER_API_KEY = `Token ${process.env.READWISE_READER_API_KEY}`;
 
 const fetchBookmarks = async ({ nextPage: nextPageArg } = { nextPage: null }) => {
   const queryParams = new URLSearchParams();
+  queryParams.append('page_size', '1');
   if (nextPageArg) {
     queryParams.append('pageCursor', nextPageArg);
   }
@@ -37,10 +38,12 @@ const fetchBookmarks = async ({ nextPage: nextPageArg } = { nextPage: null }) =>
 
     const data = await response.json();
 
+    console.log(data.results);
+
     const dataFiltered = data.results.filter(bookmark => {
-      // if (!['article', 'video'].includes(bookmark.category)) {
-      // return false;
-      // }
+      if (['rss', 'note', 'email'].includes(bookmark.category)) {
+        return false;
+      }
 
       if (bookmark.tags.newsletter) {
         return false;
