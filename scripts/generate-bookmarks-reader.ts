@@ -38,9 +38,9 @@ const fetchBookmarks = async ({ nextPage: nextPageArg } = { nextPage: null }) =>
     const data = await response.json();
 
     const dataFiltered = data.results.filter(bookmark => {
-      if (!['article', 'video'].includes(bookmark.category)) {
-        return false;
-      }
+      // if (!['article', 'video'].includes(bookmark.category)) {
+      // return false;
+      // }
 
       if (bookmark.tags.newsletter) {
         return false;
