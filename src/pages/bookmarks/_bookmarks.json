@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-04-29T19:29:11.955Z",
+  "lastUpdate": "2025-04-30T03:39:00.436Z",
   "data": [
     {
       "id": "01jszst8gd7ax5zzz59d5axnpj",
@@ -45,22 +45,6 @@
       ]
     },
     {
-      "id": "01jsk2dhcwan8x3dpbncw9gj5h",
-      "title": null,
-      "url": null,
-      "savedAt": "2025-04-24T04:55:39.164000+00:00",
-      "description": null,
-      "tags": []
-    },
-    {
-      "id": "01jsk2cx57kf7n7jvtksg9aqg5",
-      "title": null,
-      "url": null,
-      "savedAt": "2025-04-24T04:55:18.439000+00:00",
-      "description": null,
-      "tags": []
-    },
-    {
       "id": "01jsk2cnvez91q738yh59gn542",
       "title": "Solving SICP",
       "url": "https://lockywolf.wordpress.com/2021/02/08/solving-sicp/",
@@ -100,14 +84,6 @@
       ]
     },
     {
-      "id": "01jscw29es8bb6qh698p5ze81b",
-      "title": null,
-      "url": null,
-      "savedAt": "2025-04-21T19:09:12.537000+00:00",
-      "description": null,
-      "tags": []
-    },
-    {
       "id": "01jscvnk0z5x3a5th4kjhkccgz",
       "title": "The Skill That Never Goes Obsolete",
       "url": "https://www.autodidacts.io/troubleshooting/",
@@ -118,14 +94,6 @@
         "favorites",
         "self-improvement"
       ]
-    },
-    {
-      "id": "01jscetmt7vt8x6wvgrb1wz86h",
-      "title": null,
-      "url": null,
-      "savedAt": "2025-04-21T15:17:50.535000+00:00",
-      "description": null,
-      "tags": []
     },
     {
       "id": "01jsc541xwzfzayvbp0jtzvhsg",
@@ -157,22 +125,6 @@
         "career",
         "favorites"
       ]
-    },
-    {
-      "id": "01js7bnnnkzjxmhczpbhr6q60g",
-      "title": null,
-      "url": null,
-      "savedAt": "2025-04-19T15:46:29.683000+00:00",
-      "description": null,
-      "tags": []
-    },
-    {
-      "id": "01js7b9ft88qhw3bav0s8g5wed",
-      "title": null,
-      "url": null,
-      "savedAt": "2025-04-19T15:39:50.472000+00:00",
-      "description": null,
-      "tags": []
     },
     {
       "id": "01js7b9asmbtwkckkhwe0e91cd",
@@ -757,14 +709,6 @@
       ]
     },
     {
-      "id": "01js3prr7cfkdxcmf6ncm3qnea",
-      "title": null,
-      "url": null,
-      "savedAt": "2025-04-18T05:43:27.212000+00:00",
-      "description": null,
-      "tags": []
-    },
-    {
       "id": "01js16sx4jzz8yr9xszbph8q7q",
       "title": "Impromptu disaster recovery",
       "url": "https://fasterthanli.me/articles/impromptu-disaster-recovery#bringing-back-the-essentials",
@@ -787,30 +731,6 @@
       ]
     },
     {
-      "id": "01jrry1gxqs256nnw4m5rx9jtz",
-      "title": null,
-      "url": null,
-      "savedAt": "2025-04-14T01:18:55.927000+00:00",
-      "description": null,
-      "tags": []
-    },
-    {
-      "id": "01jrrw10m4gje8q1p60zknpqb6",
-      "title": null,
-      "url": null,
-      "savedAt": "2025-04-14T00:43:42.084000+00:00",
-      "description": null,
-      "tags": []
-    },
-    {
-      "id": "01jrrvvperqwj41m5jerfahytm",
-      "title": null,
-      "url": null,
-      "savedAt": "2025-04-14T00:40:47.832000+00:00",
-      "description": null,
-      "tags": []
-    },
-    {
       "id": "01jrrqkqscyteeas4bdrnfksnx",
       "title": "High Agency\nIn 30 Minutes",
       "url": "https://www.highagency.com/",
@@ -821,14 +741,6 @@
       ]
     },
     {
-      "id": "01jrrq7td6nwp0d4cbfzwy5dty",
-      "title": null,
-      "url": null,
-      "savedAt": "2025-04-13T23:20:02.214000+00:00",
-      "description": null,
-      "tags": []
-    },
-    {
       "id": "01jrrq7k6ada7sf825y8ttrv9e",
       "title": "What I'd do as a College Freshman in 2025",
       "url": "https://muratbuffalo.blogspot.com/2025/04/what-id-do-as-college-freshman.html",
@@ -837,14 +749,6 @@
       "tags": [
         "career"
       ]
-    },
-    {
-      "id": "01jrrq3a79888k723hmrb6yqgx",
-      "title": null,
-      "url": null,
-      "savedAt": "2025-04-13T23:17:34.569000+00:00",
-      "description": null,
-      "tags": []
     },
     {
       "id": "01jrrjgwjgwdk6qvgebhqemvcw",
@@ -1015,14 +919,6 @@
       ]
     },
     {
-      "id": "01jr6njh79gp49kbmt63gpx5rq",
-      "title": null,
-      "url": null,
-      "savedAt": "2025-04-06T23:04:36.329000+00:00",
-      "description": null,
-      "tags": []
-    },
-    {
       "id": "01jr6ngc1hq8sdjwyqm5p0mh0r",
       "title": "Don't Be Afraid Of Types",
       "url": "https://lmika.org/2025/03/18/dont-be-afraid-of-types.html",
@@ -1061,14 +957,6 @@
       "tags": [
         "cs/database"
       ]
-    },
-    {
-      "id": "01jr63aqanjhkev69zjashgy8p",
-      "title": null,
-      "url": null,
-      "savedAt": "2025-04-06T17:45:46.069000+00:00",
-      "description": null,
-      "tags": []
     },
     {
       "id": "01jr63afaw8te2rk8wzt6ypy0m",
@@ -1122,14 +1010,6 @@
       ]
     },
     {
-      "id": "01jr3bhk9cmr5xckd2bdby0rk9",
-      "title": null,
-      "url": null,
-      "savedAt": "2025-04-05T16:11:36.620000+00:00",
-      "description": null,
-      "tags": []
-    },
-    {
       "id": "01jr3bhdfyk0qfdkbcswb721j4",
       "title": "Domain-Agnostic and Domain-Specific Tools",
       "url": "https://borretti.me/article/domain-agnostic-and-domain-specific-tools",
@@ -1158,14 +1038,6 @@
       "tags": [
         "philosophy"
       ]
-    },
-    {
-      "id": "01jr2a1fp59asvd29x83wbmz28",
-      "title": null,
-      "url": null,
-      "savedAt": "2025-04-05T06:26:05.637000+00:00",
-      "description": null,
-      "tags": []
     },
     {
       "id": "01jr2a1ce2d73xd11b56t6hvfy",
@@ -1231,14 +1103,6 @@
       ]
     },
     {
-      "id": "01jqz79kfym6d40qekyzd3wm69",
-      "title": null,
-      "url": null,
-      "savedAt": "2025-04-04T01:40:22.654000+00:00",
-      "description": null,
-      "tags": []
-    },
-    {
       "id": "01jqz77wp16ngf2rdwgj7qf0hr",
       "title": "Win Streaking and Reliability",
       "url": "https://notebook.drmaciver.com/posts/2025-03-31-18:47.html",
@@ -1265,14 +1129,6 @@
       "tags": [
         "cs/networking"
       ]
-    },
-    {
-      "id": "01jqmdpkyaf55vc3yp50gf02yh",
-      "title": null,
-      "url": null,
-      "savedAt": "2025-03-30T21:00:41.802000+00:00",
-      "description": null,
-      "tags": []
     },
     {
       "id": "01jqmcphmhqfe9sjf9st4rdks5",
@@ -1318,22 +1174,6 @@
       ]
     },
     {
-      "id": "01jqk25yn9nz3s44z55cfjjwk4",
-      "title": null,
-      "url": null,
-      "savedAt": "2025-03-30T08:20:06.953000+00:00",
-      "description": null,
-      "tags": []
-    },
-    {
-      "id": "01jqk259xv1nf5etdd6q6jkqp8",
-      "title": null,
-      "url": null,
-      "savedAt": "2025-03-30T08:19:45.723000+00:00",
-      "description": null,
-      "tags": []
-    },
-    {
       "id": "01jqh4kv83jrqhheahq4x6px4a",
       "title": "SQL Indexing and Tuning e-Book",
       "url": "https://use-the-index-luke.com/",
@@ -1352,14 +1192,6 @@
       "tags": [
         "writing"
       ]
-    },
-    {
-      "id": "01jpp0vfbtw1pxgyq62e5xe8gg",
-      "title": null,
-      "url": null,
-      "savedAt": "2025-03-19T01:38:56.506000+00:00",
-      "description": null,
-      "tags": []
     },
     {
       "id": "01jpp0vcbf3s7zeqyy3phh0nqf",
@@ -1512,30 +1344,6 @@
       ]
     },
     {
-      "id": "01jnbx4hvw094t0m0cfywedk1b",
-      "title": null,
-      "url": null,
-      "savedAt": "2025-03-02T17:05:53.531000+00:00",
-      "description": null,
-      "tags": []
-    },
-    {
-      "id": "01jn6yrakd2h9nwek51p1163yk",
-      "title": null,
-      "url": null,
-      "savedAt": "2025-02-28T18:57:57.869000+00:00",
-      "description": null,
-      "tags": []
-    },
-    {
-      "id": "01jn2g6je3c2rqzcpsscsbx27n",
-      "title": null,
-      "url": null,
-      "savedAt": "2025-02-27T01:26:38.275000+00:00",
-      "description": null,
-      "tags": []
-    },
-    {
       "id": "01jn2g69w7dz6hnyxfh8rhc1fm",
       "title": "Rationalization",
       "url": "https://www.lesswrong.com/s/gFvira6tHpLXnqCLH/p/SFZoEBpLo9frSJGkc",
@@ -1566,14 +1374,6 @@
       ]
     },
     {
-      "id": "01jmt33b5kvqdnyfv53hwn21xy",
-      "title": null,
-      "url": null,
-      "savedAt": "2025-02-23T19:03:45.587000+00:00",
-      "description": null,
-      "tags": []
-    },
-    {
       "id": "01jmt32qmn5s92xktxq017zf38",
       "title": "The Bottom Line",
       "url": "https://www.lesswrong.com/s/gFvira6tHpLXnqCLH/p/34XxbRFe54FycoCDw",
@@ -1582,22 +1382,6 @@
       "tags": [
         "philosophy/rationalism"
       ]
-    },
-    {
-      "id": "01jmsq3c7rjfygy37wn4n2vtv9",
-      "title": null,
-      "url": null,
-      "savedAt": "2025-02-23T15:34:03.768000+00:00",
-      "description": null,
-      "tags": []
-    },
-    {
-      "id": "01jmsq2tep0d937j5whjybw90v",
-      "title": null,
-      "url": null,
-      "savedAt": "2025-02-23T15:33:45.558000+00:00",
-      "description": null,
-      "tags": []
     },
     {
       "id": "01jmspwx8qsenyxvwbdszc5p9g",
@@ -1616,14 +1400,6 @@
       "tags": [
         "cs/functional-programming"
       ]
-    },
-    {
-      "id": "01jmn2fhtsps0pmecnhvgvxarw",
-      "title": null,
-      "url": null,
-      "savedAt": "2025-02-21T20:16:44.889000+00:00",
-      "description": null,
-      "tags": []
     },
     {
       "id": "01jmn1m0fh8g8rg7gkns98p96w",
@@ -1699,30 +1475,6 @@
       ]
     },
     {
-      "id": "01jksceczj8srtgw83jrj7bfy6",
-      "title": null,
-      "url": null,
-      "savedAt": "2025-02-11T02:12:08.818000+00:00",
-      "description": null,
-      "tags": []
-    },
-    {
-      "id": "01jksce5xfnh6mg6zahgey1j4r",
-      "title": null,
-      "url": null,
-      "savedAt": "2025-02-11T02:12:01.583000+00:00",
-      "description": null,
-      "tags": []
-    },
-    {
-      "id": "01jkscbzrxrdzwfhaw5kgymzek",
-      "title": null,
-      "url": null,
-      "savedAt": "2025-02-11T02:10:49.757000+00:00",
-      "description": null,
-      "tags": []
-    },
-    {
       "id": "01jksc7rm5f6nqd3fxgm1pn1aj",
       "title": "Fire And Motion",
       "url": "https://www.joelonsoftware.com/2002/01/06/fire-and-motion/",
@@ -1733,46 +1485,6 @@
         "productivity",
         "self-improvement"
       ]
-    },
-    {
-      "id": "01jkkr9f14mdaxbcptabs5g1qs",
-      "title": null,
-      "url": null,
-      "savedAt": "2025-02-08T21:43:43.396000+00:00",
-      "description": null,
-      "tags": []
-    },
-    {
-      "id": "01jkkqtf3sq9fgr256s0fe713y",
-      "title": null,
-      "url": null,
-      "savedAt": "2025-02-08T21:35:31.961000+00:00",
-      "description": null,
-      "tags": []
-    },
-    {
-      "id": "01jkkqsfv25szqsafwkd86xykn",
-      "title": null,
-      "url": null,
-      "savedAt": "2025-02-08T21:34:59.938000+00:00",
-      "description": null,
-      "tags": []
-    },
-    {
-      "id": "01jkkq71g0b0t1fc8wkrf658vt",
-      "title": null,
-      "url": null,
-      "savedAt": "2025-02-08T21:24:55.424000+00:00",
-      "description": null,
-      "tags": []
-    },
-    {
-      "id": "01jkkpjnsknpf57xzwz0csd50x",
-      "title": null,
-      "url": null,
-      "savedAt": "2025-02-08T21:13:48.083000+00:00",
-      "description": null,
-      "tags": []
     },
     {
       "id": "01jkkjc87yxh3sxpkm72t4gxsd",
@@ -1807,14 +1519,6 @@
       ]
     },
     {
-      "id": "01jk6fgwm1qwe0pt3s20m1cdxx",
-      "title": null,
-      "url": null,
-      "savedAt": "2025-02-03T18:00:21.889000+00:00",
-      "description": null,
-      "tags": []
-    },
-    {
       "id": "01jk4qsr405vj3x1mnj9pg0sy7",
       "title": "How I Am Productive",
       "url": "https://www.lesswrong.com/posts/JTHe5oGvdj6T73o4o/how-i-am-productive",
@@ -1825,14 +1529,6 @@
         "productivity",
         "self-improvement"
       ]
-    },
-    {
-      "id": "01jk1e7fgk979as07twngkr69z",
-      "title": null,
-      "url": null,
-      "savedAt": "2025-02-01T19:01:32.819000+00:00",
-      "description": null,
-      "tags": []
     },
     {
       "id": "01jk1e72x93sc3z17zrrvf4xay",
@@ -1943,38 +1639,6 @@
       ]
     },
     {
-      "id": "01jhyh1cp0hwt0mqpkwk1p7p2w",
-      "title": null,
-      "url": null,
-      "savedAt": "2025-01-19T05:37:13.920000+00:00",
-      "description": null,
-      "tags": []
-    },
-    {
-      "id": "01jhygsrmppw4fm91dmvfpymds",
-      "title": null,
-      "url": null,
-      "savedAt": "2025-01-19T05:33:04.022000+00:00",
-      "description": null,
-      "tags": []
-    },
-    {
-      "id": "01jhygjmcvm8yd815xy00bw0qt",
-      "title": null,
-      "url": null,
-      "savedAt": "2025-01-19T05:29:10.299000+00:00",
-      "description": null,
-      "tags": []
-    },
-    {
-      "id": "01jhyghvep9s9ktbknhnyz4372",
-      "title": null,
-      "url": null,
-      "savedAt": "2025-01-19T05:28:44.758000+00:00",
-      "description": null,
-      "tags": []
-    },
-    {
       "id": "01jhygddgph0tfxadb532ta5m4",
       "title": "What You'll Wish You'd Known",
       "url": "https://paulgraham.com/hs.html",
@@ -2005,14 +1669,6 @@
       "tags": [
         "management"
       ]
-    },
-    {
-      "id": "01jhtjfxzv391kwtec3wva0c1q",
-      "title": null,
-      "url": null,
-      "savedAt": "2025-01-17T16:45:41.243000+00:00",
-      "description": null,
-      "tags": []
     },
     {
       "id": "01jhthdqjr63est93mhfqj84z5",
@@ -2110,14 +1766,6 @@
       ]
     },
     {
-      "id": "01jhcarje4bpb9mw99pqw0z75x",
-      "title": null,
-      "url": null,
-      "savedAt": "2025-01-12T04:01:13.668000+00:00",
-      "description": null,
-      "tags": []
-    },
-    {
       "id": "01jhcaq7w2jn98q0xwznh8dt7f",
       "title": "Dual N-Back",
       "url": "https://gwern.net/dnb-faq#personal-reflection-on-results",
@@ -2140,14 +1788,6 @@
       ]
     },
     {
-      "id": "01jhbn03hvbr86nv4ejhcwcd49",
-      "title": null,
-      "url": null,
-      "savedAt": "2025-01-11T21:40:51.899000+00:00",
-      "description": null,
-      "tags": []
-    },
-    {
       "id": "01jhazz76w93fyqcnqnsnwjv43",
       "title": "Queues Don't Fix Overload",
       "url": "https://ferd.ca/queues-don-t-fix-overload.html",
@@ -2156,46 +1796,6 @@
       "tags": [
         "cs/distsys"
       ]
-    },
-    {
-      "id": "01jgxyjc134n1c8drqyd4sj239",
-      "title": null,
-      "url": null,
-      "savedAt": "2025-01-06T13:58:45.539000+00:00",
-      "description": null,
-      "tags": []
-    },
-    {
-      "id": "01jgxsx8bfngnqqg4znf6dkdk2",
-      "title": null,
-      "url": null,
-      "savedAt": "2025-01-06T12:37:19.343000+00:00",
-      "description": null,
-      "tags": []
-    },
-    {
-      "id": "01jgxsk80bdjz8mpydgy6hrr84",
-      "title": null,
-      "url": null,
-      "savedAt": "2025-01-06T12:31:51.307000+00:00",
-      "description": null,
-      "tags": []
-    },
-    {
-      "id": "01jgxsjvhsm7mm2t8fka9h8xxe",
-      "title": null,
-      "url": null,
-      "savedAt": "2025-01-06T12:31:38.553000+00:00",
-      "description": null,
-      "tags": []
-    },
-    {
-      "id": "01jgxscsgctpr0mpyy33vw8f3h",
-      "title": null,
-      "url": null,
-      "savedAt": "2025-01-06T12:28:19.852000+00:00",
-      "description": null,
-      "tags": []
     },
     {
       "id": "01jgvh75v8gkqs36d08ewa0v28",
@@ -2217,30 +1817,6 @@
       "tags": [
         "cs/database"
       ]
-    },
-    {
-      "id": "01jgknwm8hpswwczqgkfhnnsgh",
-      "title": null,
-      "url": null,
-      "savedAt": "2025-01-02T14:14:40.145000+00:00",
-      "description": null,
-      "tags": []
-    },
-    {
-      "id": "01jgknhccqtj5s7a7d66txnhx2",
-      "title": null,
-      "url": null,
-      "savedAt": "2025-01-02T14:08:31.639000+00:00",
-      "description": null,
-      "tags": []
-    },
-    {
-      "id": "01jgknacpmnav6zden3sby2djr",
-      "title": null,
-      "url": null,
-      "savedAt": "2025-01-02T14:04:42.580000+00:00",
-      "description": null,
-      "tags": []
     },
     {
       "id": "01jghds936tebcs7g9qhfp4mb0",
@@ -3050,14 +2626,6 @@
       ]
     },
     {
-      "id": "01jfn0rk58e1a9x6d8ttf1kc97",
-      "title": null,
-      "url": null,
-      "savedAt": "2024-12-21T16:28:14.888000+00:00",
-      "description": null,
-      "tags": []
-    },
-    {
       "id": "01jfn0qmkpvdv4xsnyqf1kqt9y",
       "title": "Why Does Ozempic Cure All Diseases? - by Scott Alexander\nWhy Does Ozempic Cure All Diseases?",
       "url": "https://www.astralcodexten.com/p/why-does-ozempic-cure-all-diseases",
@@ -3648,14 +3216,6 @@
       ]
     },
     {
-      "id": "01jexhf12hch7svg6dfjymsm73",
-      "title": null,
-      "url": null,
-      "savedAt": "2024-12-12T13:38:20.881000+00:00",
-      "description": null,
-      "tags": []
-    },
-    {
       "id": "01jexh9he84xmc6hyjwyygqz0x",
       "title": "The Importance of Saying \"Oops\"",
       "url": "https://www.lesswrong.com/s/NBDFAKt3GbFwnwzQF/p/wCqfCLs8z5Qw4GbKS",
@@ -3675,14 +3235,6 @@
         "math/category-theory",
         "cs/functional-programming"
       ]
-    },
-    {
-      "id": "01jerhyp7fynt1evbdac131p9a",
-      "title": null,
-      "url": null,
-      "savedAt": "2024-12-10T15:10:41.903000+00:00",
-      "description": null,
-      "tags": []
     },
     {
       "id": "01jerhxmr8stt4z4ey71e2r6gd",
@@ -3769,14 +3321,6 @@
       ]
     },
     {
-      "id": "01jejh57akjxs84md86zq4dfrd",
-      "title": null,
-      "url": null,
-      "savedAt": "2024-12-08T07:01:20.851000+00:00",
-      "description": null,
-      "tags": []
-    },
-    {
       "id": "01jejh266kxhsmw4xeppw8ze9x",
       "title": "How Good Are American Roads?",
       "url": "https://www.construction-physics.com/p/how-good-are-american-roads",
@@ -3821,22 +3365,6 @@
       ]
     },
     {
-      "id": "01jefvvc5282dtgd1hvjdwx29n",
-      "title": null,
-      "url": null,
-      "savedAt": "2024-12-07T06:10:29.154000+00:00",
-      "description": null,
-      "tags": []
-    },
-    {
-      "id": "01jefvv21twkjfgbazxxe4c0mf",
-      "title": null,
-      "url": null,
-      "savedAt": "2024-12-07T06:10:18.810000+00:00",
-      "description": null,
-      "tags": []
-    },
-    {
       "id": "01jefv24mzb6ag664exk23dgne",
       "title": "Category Theory in Programming",
       "url": "https://docs.racket-lang.org/ctp/index.html",
@@ -3877,14 +3405,6 @@
       "tags": [
         "math"
       ]
-    },
-    {
-      "id": "01jecrc37n6r6h9drb9jwf5na7",
-      "title": null,
-      "url": null,
-      "savedAt": "2024-12-06T01:11:59.477000+00:00",
-      "description": null,
-      "tags": []
     },
     {
       "id": "01jecqx7hdnpg0xsgt6xj8r9mw",
@@ -4018,22 +3538,6 @@
       ]
     },
     {
-      "id": "01je017mpqhsj2azrm8yxr50qf",
-      "title": null,
-      "url": null,
-      "savedAt": "2024-12-01T02:36:43.095000+00:00",
-      "description": null,
-      "tags": []
-    },
-    {
-      "id": "01je0118mn2ctrfm6d3gspq7rn",
-      "title": null,
-      "url": null,
-      "savedAt": "2024-12-01T02:33:14.133000+00:00",
-      "description": null,
-      "tags": []
-    },
-    {
       "id": "01je00zs42dctd7n4rtg9ymtvm",
       "title": "asatarin/testing-distributed-systems: Curated list of resources on testing distributed systems",
       "url": "https://github.com/asatarin/testing-distributed-systems",
@@ -4097,22 +3601,6 @@
       "tags": [
         "cs/testing"
       ]
-    },
-    {
-      "id": "01jdz4cjp5t0ca8b3c590sc9qn",
-      "title": null,
-      "url": null,
-      "savedAt": "2024-11-30T18:12:36.165000+00:00",
-      "description": null,
-      "tags": []
-    },
-    {
-      "id": "01jdz44qhm1ph3wpkpbe7f0cx8",
-      "title": null,
-      "url": null,
-      "savedAt": "2024-11-30T18:08:18.996000+00:00",
-      "description": null,
-      "tags": []
     },
     {
       "id": "01jdz44hzkd6x37vnbqeghf4j1",
@@ -4185,38 +3673,6 @@
       "tags": [
         "reading"
       ]
-    },
-    {
-      "id": "01jdjm5n9mdmkxq9qncpcv5wr9",
-      "title": null,
-      "url": null,
-      "savedAt": "2024-11-25T21:38:19.060000+00:00",
-      "description": null,
-      "tags": []
-    },
-    {
-      "id": "01jdjkz9ge1ewa645a5txyny4a",
-      "title": null,
-      "url": null,
-      "savedAt": "2024-11-25T21:34:50.382000+00:00",
-      "description": null,
-      "tags": []
-    },
-    {
-      "id": "01jdjkxa38afx2ynq7jjh0gh3d",
-      "title": null,
-      "url": null,
-      "savedAt": "2024-11-25T21:33:45.448000+00:00",
-      "description": null,
-      "tags": []
-    },
-    {
-      "id": "01jdjhphzysssm6vw620rkkxyx",
-      "title": null,
-      "url": null,
-      "savedAt": "2024-11-25T20:55:07.006000+00:00",
-      "description": null,
-      "tags": []
     },
     {
       "id": "01jdjexmxt8xkarfmpvqgqebcf",
@@ -4292,190 +3748,6 @@
         "favorites",
         "tools/git"
       ]
-    },
-    {
-      "id": "01jdbyn3g66n8st6z3seggtkry",
-      "title": null,
-      "url": null,
-      "savedAt": "2024-02-01T01:00:13.678000+00:00",
-      "description": null,
-      "tags": []
-    },
-    {
-      "id": "01jdbyn3axybykywng45p0pen8",
-      "title": null,
-      "url": null,
-      "savedAt": "2024-02-03T17:32:15.090000+00:00",
-      "description": null,
-      "tags": []
-    },
-    {
-      "id": "01jdbyn35eyp7xk0taqm3a74fx",
-      "title": null,
-      "url": null,
-      "savedAt": "2024-02-04T22:19:04.861000+00:00",
-      "description": null,
-      "tags": []
-    },
-    {
-      "id": "01jdbyn308dk48wyrmg4h4ykhw",
-      "title": null,
-      "url": null,
-      "savedAt": "2024-02-07T03:41:56.855000+00:00",
-      "description": null,
-      "tags": []
-    },
-    {
-      "id": "01jdbyn2xwhrvgz6nj9c7xmqc4",
-      "title": null,
-      "url": null,
-      "savedAt": "2024-02-07T03:41:56.855000+00:00",
-      "description": null,
-      "tags": []
-    },
-    {
-      "id": "01jdbyn2jkty4b70tt4xz6n0gq",
-      "title": null,
-      "url": null,
-      "savedAt": "2024-02-10T20:23:28.066000+00:00",
-      "description": null,
-      "tags": []
-    },
-    {
-      "id": "01jdbyn2g6d6ft7axzv2tvn6ns",
-      "title": null,
-      "url": null,
-      "savedAt": "2024-02-10T20:23:28.066000+00:00",
-      "description": null,
-      "tags": []
-    },
-    {
-      "id": "01jdbyn1ad45d4z1jb5qvghsa5",
-      "title": null,
-      "url": null,
-      "savedAt": "2024-02-25T17:13:46.659000+00:00",
-      "description": null,
-      "tags": []
-    },
-    {
-      "id": "01jdbyn17kbqy74as62t288s39",
-      "title": null,
-      "url": null,
-      "savedAt": "2024-02-25T17:13:46.659000+00:00",
-      "description": null,
-      "tags": []
-    },
-    {
-      "id": "01jdbyn0x5938z2g7f6hn86s3v",
-      "title": null,
-      "url": null,
-      "savedAt": "2024-02-26T21:57:33.694000+00:00",
-      "description": null,
-      "tags": []
-    },
-    {
-      "id": "01jdbyn0jjzrvjnkvg57k9mf81",
-      "title": null,
-      "url": null,
-      "savedAt": "2024-02-29T10:35:39.228000+00:00",
-      "description": null,
-      "tags": []
-    },
-    {
-      "id": "01jdbymzet8fykfvw98c7d7bz5",
-      "title": null,
-      "url": null,
-      "savedAt": "2024-03-06T21:31:36.742000+00:00",
-      "description": null,
-      "tags": []
-    },
-    {
-      "id": "01jdbymzcgz749sgcevafmrw0x",
-      "title": null,
-      "url": null,
-      "savedAt": "2024-03-06T21:31:36.742000+00:00",
-      "description": null,
-      "tags": []
-    },
-    {
-      "id": "01jdbymychdh5w6zzdy4jf00d2",
-      "title": null,
-      "url": null,
-      "savedAt": "2024-03-12T11:50:24.777000+00:00",
-      "description": null,
-      "tags": []
-    },
-    {
-      "id": "01jdbymxsbjn4qd40dj0rn8f0d",
-      "title": null,
-      "url": null,
-      "savedAt": "2024-03-16T13:28:29.885000+00:00",
-      "description": null,
-      "tags": []
-    },
-    {
-      "id": "01jdbymxd0yp6n2ez0f7vpp31b",
-      "title": null,
-      "url": null,
-      "savedAt": "2024-03-18T22:53:32.810000+00:00",
-      "description": null,
-      "tags": []
-    },
-    {
-      "id": "01jdbymx308rfnfrrq4jbb1fjh",
-      "title": null,
-      "url": null,
-      "savedAt": "2024-03-20T00:29:22.829000+00:00",
-      "description": null,
-      "tags": []
-    },
-    {
-      "id": "01jdbymv9kg0fent1dz47111z0",
-      "title": null,
-      "url": null,
-      "savedAt": "2024-03-31T05:37:18.413000+00:00",
-      "description": null,
-      "tags": []
-    },
-    {
-      "id": "01jdbymtygvwy6n4j7ybrm1s0n",
-      "title": null,
-      "url": null,
-      "savedAt": "2024-04-02T21:30:41.877000+00:00",
-      "description": null,
-      "tags": []
-    },
-    {
-      "id": "01jdbymgbxftyk9ennsjzdzta8",
-      "title": null,
-      "url": null,
-      "savedAt": "2024-06-13T23:15:04.330000+00:00",
-      "description": null,
-      "tags": []
-    },
-    {
-      "id": "01jdbym7qmpvngyntsjv5b209q",
-      "title": null,
-      "url": null,
-      "savedAt": "2024-07-10T22:07:33.662000+00:00",
-      "description": null,
-      "tags": []
-    },
-    {
-      "id": "01jdbym7mg7bq298vgfbrsnsas",
-      "title": null,
-      "url": null,
-      "savedAt": "2024-07-10T22:07:33.662000+00:00",
-      "description": null,
-      "tags": []
-    },
-    {
-      "id": "01jdbym7h6pxxrw4v9k5g6tgva",
-      "title": null,
-      "url": null,
-      "savedAt": "2024-07-10T22:07:33.662000+00:00",
-      "description": null,
-      "tags": []
     },
     {
       "id": "01jd3ewk99zzmrfsembjs0fa2w",
@@ -4969,14 +4241,6 @@
         "management",
         "self-improvement"
       ]
-    },
-    {
-      "id": "01jbnry657zfcax4hqv7tqx7wg",
-      "title": null,
-      "url": null,
-      "savedAt": "2024-11-02T06:27:56.711000+00:00",
-      "description": null,
-      "tags": []
     },
     {
       "id": "01jbnrnd0wy4z1dts7mqwm9qhz",
