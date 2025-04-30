@@ -38,10 +38,8 @@ const fetchBookmarks = async ({ nextPage: nextPageArg } = { nextPage: null }) =>
 
     const data = await response.json();
 
-    console.log(data.results);
-
     const dataFiltered = data.results.filter(bookmark => {
-      if (['rss', 'note', 'email'].includes(bookmark.category)) {
+      if (['rss', 'note', 'email', 'highlight'].includes(bookmark.category)) {
         return false;
       }
 
