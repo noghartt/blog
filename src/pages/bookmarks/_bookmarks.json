@@ -1,6 +1,48 @@
 {
-  "lastUpdate": "2025-04-30T03:39:00.436Z",
+  "lastUpdate": "2025-05-01T03:26:58.321Z",
   "data": [
+    {
+      "id": "01jt4xv4r27b8wd80cdv3nmc3m",
+      "title": "Pwning the Ladybird browser",
+      "url": "https://jessie.cafe/posts/pwning-ladybirds-libjs/",
+      "savedAt": "2025-05-01T03:22:01.858000+00:00",
+      "description": "The Ladybird browser has a vulnerability caused by a use-after-free (UAF) bug in its JavaScript interpreter, which can be exploited by using a proxied function object. This allows an attacker to manipulate the interpreter's argument buffer, potentially leading to memory access issues. By carefully crafting inputs, an attacker can leak sensitive information and gain control over the system.",
+      "tags": [
+        "cs/hacking",
+        "cs/browsers"
+      ]
+    },
+    {
+      "id": "01jt2hr25vjst5e6fywy8yzr3v",
+      "title": "Why I Blog and How I Automate it",
+      "url": "https://www.ryanwwest.com/why-blog/",
+      "savedAt": "2025-04-30T05:12:09.147000+00:00",
+      "description": "The author explains their motivation for blogging and how they automate their blog posts using a Markdown-based system and Hugo. They detail their process of organizing knowledge, creating blog posts, and automating the publishing process to streamline content creation. Additionally, they discuss their use of the giscus comment system integrated with GitHub for blog comments and share ideas for future improvements.",
+      "tags": [
+        "writing"
+      ]
+    },
+    {
+      "id": "01jt2gtmyy92gkwvjdd7dn6651",
+      "title": "Tools for keeping focused",
+      "url": "https://www.benkuhn.net/focustools/",
+      "savedAt": "2025-04-30T04:56:05.341000+00:00",
+      "description": "The author shares tools and strategies to reduce distractions and improve focus. Key methods include disabling notifications, checking email less frequently, and using website blockers. These small changes have collectively helped the author stay more productive and intentional with their attention.",
+      "tags": [
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "01jt2ehyce9fk47kh4wtpjb3hd",
+      "title": "Attention is your scarcest resource",
+      "url": "https://www.benkuhn.net/attention/",
+      "savedAt": "2025-04-30T04:16:22.926000+00:00",
+      "description": "The author shares that attention is a limited resource, crucial for effective work and management. They emphasize the need to focus on one task at a time and avoid distractions to improve productivity. By learning to manage their obligations and minimizing interruptions, they became better at their managerial role.",
+      "tags": [
+        "favorites",
+        "self-improvement"
+      ]
+    },
     {
       "id": "01jszst8gd7ax5zzz59d5axnpj",
       "title": "Tiny Emulators",
@@ -5199,6 +5241,7 @@
       "savedAt": "2024-03-14T12:14:52.294000+00:00",
       "description": "how it works • example topics • compounding improvements • what I’ve gotten out of it • tips",
       "tags": [
+        "favorites",
         "self-improvement"
       ]
     },
