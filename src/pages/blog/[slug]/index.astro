@@ -79,33 +79,26 @@ const readingTime = remarkPluginFrontmatter.readingTime;
       <section>
         <h1>{post.data.title}</h1>
         <p>
-          <strong>Created at:</strong>
           {date}
-        </p>
-        {lastCommit ? (
-          <p>
-            <strong>Updated at:</strong>
+          -
+          <span>
+            {dayjs(lastCommit.date).format('YYYY-MM-DD HH:mm')}
+            (<Link href={`${GITHUB_REPO_URL}/commit/${lastCommit.hash.slice(0, 7)}`} isExternal>{lastCommit.hash.slice(0, 7)}</Link>),
+          </span>
+          {readingTime ? (
             <span>
-              {dayjs(lastCommit.date).format('YYYY-MM-DD HH:mm')}
-              (<Link href={`${GITHUB_REPO_URL}/commit/${lastCommit.hash.slice(0, 7)}`} isExternal>{lastCommit.hash.slice(0, 7)}</Link>)
+              {readingTime.text}
             </span>
-          </p>
-        ) : null}
-        {readingTime ? (
-          <p>
-            <strong>Reading time:</strong>
-            {readingTime.text} ({readingTime.words} words)
-          </p>
-        ) : null}
-        <section class="tags">
-          <strong>Tags:</strong>
-          {(post.data.tags || []).map((tag: string) => (
-            <Link href={`/tag/${tag}`}>
-              <p>#{tag}</p>
-            </Link>
+          ) : null}
+          <br />
+          {(post.data.tags || []).map((tag, i) => (
+            <span>
+              <Link href={`/tag/${tag}`}>
+                #{tag}{i < (post.data.tags || []).length - 1 ? ',' : ''}
+              </Link>
+            </span>
           ))}
-        </section>
-      </section>
+       </p>
     </section>
 
     <article>
