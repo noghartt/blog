@@ -25,6 +25,9 @@ const groupByTag = (bookmarks: typeof bookmarksData): Record<string, typeof book
 
 const tags = groupByTag(bookmarksData);
 
+const bookmarksWithoutTags = bookmarksData.filter((bookmark) => bookmark.tags.length === 0);
+tags['without-tags'] = bookmarksWithoutTags;
+
 const tagsSorted = Object.entries(tags).sort(([tagA], [tagB]) =>
   tagA.localeCompare(tagB)
 );
@@ -134,5 +137,4 @@ const sanitizeTag = (tag: string) => tag.replaceAll(/\//g, '-');
      margin-top: var(--spacing);
    }
 </style>
-
 

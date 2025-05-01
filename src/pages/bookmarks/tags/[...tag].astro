@@ -17,6 +17,9 @@ export async function getStaticPaths(): Promise<GetStaticPathsResult> {
     return acc;
   }, {});
 
+  const bookmarksWithoutTags = bookmarksJson.data.filter((bookmark) => bookmark.tags.length === 0);
+  bookmarksPerTag['without-tags'] = bookmarksWithoutTags;
+
   const aggregateBookmarks = (tag: string, acc: any = []) => {
     for (const subTag in bookmarksPerTag) {
       if (subTag === tag || subTag.startsWith(`${tag}/`)) {
