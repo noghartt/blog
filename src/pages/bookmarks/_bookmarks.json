@@ -1,6 +1,79 @@
 {
-  "lastUpdate": "2025-05-01T03:26:58.321Z",
+  "lastUpdate": "2025-05-02T00:06:28.543Z",
   "data": [
+    {
+      "id": "01jt6qbk9ts780hfxt4pksb119",
+      "title": "IO devices and latency",
+      "url": "https://planetscale.com/blog/io-devices-and-latency",
+      "savedAt": "2025-05-01T20:07:09.882000+00:00",
+      "description": "Non-volatile storage is essential for storing important data like photos and bank records, evolving from tape systems to faster hard drives (HDDs) and solid-state drives (SSDs). While HDDs improve speed over tape, SSDs offer even lower latency and better performance, but their efficiency can be affected by how data is organized. The shift to cloud storage provides scalable options but can introduce delays when accessing data over networks.",
+      "tags": [
+        "hardware",
+        "cs/database"
+      ]
+    },
+    {
+      "id": "01jt6nje4gy8sw7gnkrrnyfcnr",
+      "title": "Disconnecting Distraction",
+      "url": "https://www.paulgraham.com/distraction.html",
+      "savedAt": "2025-05-01T19:35:56.816000+00:00",
+      "description": "Procrastination thrives on distractions, but avoiding them is tricky as they constantly evolve. The internet has become a major source of distraction, requiring new strategies to stay focused on work. Setting up a separate computer for internet use can help limit distractions and improve productivity.",
+      "tags": [
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "01jt6ah9g7ajx2mayjk394ebnp",
+      "title": "Battle of the Mallocators",
+      "url": "https://smalldatum.blogspot.com/2025/04/battle-of-mallocators.html",
+      "savedAt": "2025-05-01T16:23:04.967000+00:00",
+      "description": "Using jemalloc or tcmalloc with RocksDB helps prevent out-of-memory (OOM) issues that occur with glibc malloc, especially when managing large buffer pools. InnoDB does not face the same problems as MyRocks, but peak memory usage can still be larger than expected with jemalloc. Overall, jemalloc and tcmalloc offer better performance and lower memory usage compared to glibc malloc for both MyRocks and InnoDB.",
+      "tags": [
+        "cs/database"
+      ]
+    },
+    {
+      "id": "01jt5aeqyagjtp974t2yrywa41",
+      "title": "What is Entropy?",
+      "url": "https://jasonfantl.com/posts/What-is-Entropy/#information-theory",
+      "savedAt": "2025-05-01T07:02:27.017000+00:00",
+      "description": "Entropy measures the uncertainty of a system based on the number of possible configurations, or microstates, that fit a given overall state, or macrostate. It increases when more microstates are available, making a system more unpredictable. Understanding entropy requires considering all aspects of a system, including position and velocity, to accurately gauge its complexity.",
+      "tags": [
+        "physics",
+        "information-theory"
+      ]
+    },
+    {
+      "id": "01jt5a8cw108cxwr99k2va4msq",
+      "title": "Personal Knowledge Management Workflow for a Deeper Life — as a Computer Scientist",
+      "url": "https://www.ssp.sh/blog/pkm-workflow-for-a-deeper-life/#stop-reading-news",
+      "savedAt": "2025-05-01T06:58:59.073000+00:00",
+      "description": "The author discusses a personal knowledge management system that helps reduce stress and enhances creativity by organizing thoughts and tasks into a \"second brain.\" This system allows for better idea connections and easier management of multiple projects, aiding in memory retention and overall mental clarity. Through journaling and note-taking, the author emphasizes the importance of capturing ideas for future reflection and growth.",
+      "tags": [
+        "writing",
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "01jt5a3e76rt9z7jfbmm70qjwx",
+      "title": "Why Vim Is More than Just an Editor – Vim Language, Motions, and Modes Explained",
+      "url": "https://www.ssp.sh/blog/why-using-neovim-data-engineer-and-writer-2023/",
+      "savedAt": "2025-05-01T06:56:16.614000+00:00",
+      "description": "Vim is more than just an editor because it is based solely on shortcuts and has its own language called Vim language. Learning the Vim language allows users to navigate and edit text faster and more efficiently. Vim motions are a key aspect of the language, helping users navigate within a document. Vim also has different modes, including normal, insert, visual, and command mode, allowing users to perform different actions. Neovim is a popular version of Vim that uses Lua for configuration and has many plugins available. Learning Vim can greatly improve productivity and efficiency for developers.",
+      "tags": [
+        "tools/neovim"
+      ]
+    },
+    {
+      "id": "01jt51spcyyg8kh8wpdwp575vn",
+      "title": "The Top Idea in Your Mind",
+      "url": "https://www.paulgraham.com/top.html",
+      "savedAt": "2025-05-01T04:31:08.702000+00:00",
+      "description": "Paul Graham argues that the main idea in your mind influences your ability to solve problems effectively. He warns that distractions, like money and disputes, can take over your thoughts and hinder your progress. To maintain focus on what matters, it's important to be aware of what occupies your mind and to steer clear of unproductive concerns.",
+      "tags": [
+        "self-improvement"
+      ]
+    },
     {
       "id": "01jt4xv4r27b8wd80cdv3nmc3m",
       "title": "Pwning the Ladybird browser",
@@ -113,7 +186,9 @@
       "url": "https://jamesstone.sites.sheffield.ac.uk/books/bayes-rule/an-introduction-to-bayes-rule-chapter-1",
       "savedAt": "2025-04-21T19:33:16.484000+00:00",
       "description": "Bayes' rule is a fundamental concept in probability and statistics that helps us update our beliefs based on new evidence. It has applications in various fields, including genetics, psychology, and machine learning. This chapter introduces the key ideas and historical context of Bayes' rule.",
-      "tags": []
+      "tags": [
+        "math"
+      ]
     },
     {
       "id": "01jscx5d094ex0aqq56ee0b85e",
@@ -10931,14 +11006,6 @@
       ]
     },
     {
-      "id": "01jbep6t5n8zhdvaqed35fzw8c",
-      "title": "@sawaratsuki.bsky.social",
-      "url": "https://bsky.app",
-      "savedAt": "2024-09-13T16:31:10.840000+00:00",
-      "description": "Logo by @sawaratsuki. bsky.",
-      "tags": []
-    },
-    {
       "id": "01jbep6szhgxerfd5yydbzhp8d",
       "title": "Introduction to the PDP 11, Unit 1, System Overview",
       "url": "https://www.youtube.com/watch?v=A4xLMKbGYV8",
@@ -11115,14 +11182,6 @@
       "tags": [
         "cs/ai"
       ]
-    },
-    {
-      "id": "01jbep6n6cnyjn951paytrd9q7",
-      "title": "Facebook",
-      "url": "https://www.facebook.com",
-      "savedAt": "2024-09-26T03:37:25.083000+00:00",
-      "description": "Hellboy não consegue distribuição nos EUA e vai direto para plataformas digitais",
-      "tags": []
     },
     {
       "id": "01jbep6mp9ma63ya8be8tbmxhn",
