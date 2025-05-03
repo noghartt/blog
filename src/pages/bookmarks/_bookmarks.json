@@ -1,6 +1,47 @@
 {
-  "lastUpdate": "2025-05-02T00:06:28.543Z",
+  "lastUpdate": "2025-05-03T00:06:17.167Z",
   "data": [
+    {
+      "id": "01jt8zta6rcs35zzx1363dztne",
+      "title": "Parsing is Search",
+      "url": "https://buttondown.com/jaffray/archive/parsing-is-search/",
+      "savedAt": "2025-05-02T17:13:29.560000+00:00",
+      "description": "Parsing is fundamentally a search problem, especially when dealing with arbitrary grammars. Instead of simply following rules, parsers must often backtrack and explore multiple options to find the correct match. This perspective helps clarify how different parsing algorithms work and highlights the complexities involved.",
+      "tags": [
+        "cs/parsers"
+      ]
+    },
+    {
+      "id": "01jt8xfr84k7c5vzjv00rmgqxc",
+      "title": "Why Bloom filters?",
+      "url": "https://eli.thegreenplace.net/2025/bloom-filters/",
+      "savedAt": "2025-05-02T16:32:46.340000+00:00",
+      "description": "Bloom filters are a space-efficient way to test if an item is part of a set, using a probabilistic method that can quickly reject non-members. They work by hashing items and setting bits in an array, allowing for fast membership checks with a chance of false positives. This makes Bloom filters useful in various applications, especially in data storage systems.",
+      "tags": [
+        "cs/algorithms"
+      ]
+    },
+    {
+      "id": "01jt8hte6qthta5qk3mzcxs8h9",
+      "title": "Functions are Vectors",
+      "url": "https://thenumb.at/Functions-are-Vectors/",
+      "savedAt": "2025-05-02T13:08:53.591000+00:00",
+      "description": "Functions can be represented as vectors in mathematics. The equation shows how a function, p[x], can be expressed using an exponential form. This approach simplifies complex functions into a more manageable format.",
+      "tags": [
+        "math"
+      ]
+    },
+    {
+      "id": "01jt7jy6891x41awd7tx9ygra2",
+      "title": "The Fuzzing Book",
+      "url": "https://www.fuzzingbook.org/",
+      "savedAt": "2025-05-02T04:09:10.665000+00:00",
+      "description": "\"The Fuzzing Book\" teaches how to automate software testing to find bugs more efficiently. It offers several ways to engage with the material, including reading online, using interactive Jupyter Notebooks, and downloading code for personal projects. The book also provides slides for presentations, making it useful for both learning and teaching.",
+      "tags": [
+        "books",
+        "cs/testing"
+      ]
+    },
     {
       "id": "01jt6qbk9ts780hfxt4pksb119",
       "title": "IO devices and latency",
