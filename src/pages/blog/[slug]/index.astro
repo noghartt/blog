@@ -94,8 +94,8 @@ const readingTime = remarkPluginFrontmatter.readingTime;
           {(post.data.tags || []).map((tag, i) => (
             <span>
               <Link href={`/tag/${tag}`}>
-                #{tag}{i < (post.data.tags || []).length - 1 ? ',' : ''}
-              </Link>
+                #{tag}
+              </Link>{i < (post.data.tags || []).length - 1 ? ',' : ''}
             </span>
           ))}
        </p>
