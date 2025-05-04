@@ -1,6 +1,17 @@
 {
-  "lastUpdate": "2025-05-03T00:06:17.167Z",
+  "lastUpdate": "2025-05-04T00:06:38.227Z",
   "data": [
+    {
+      "id": "01jtc6j5wc5vw1x8402pr3z4w4",
+      "title": "A Better Man Page Viewer",
+      "url": "https://www.visualmode.dev/a-better-man-page-viewer",
+      "savedAt": "2025-05-03T23:09:06.316000+00:00",
+      "description": "The article discusses improving the experience of viewing man pages by using Neovim as a more effective pager. By exporting a specific command, users can open man pages within Neovim, allowing for better navigation and link-following. This setup enhances usability, making it easier to look up command flags and documentation.",
+      "tags": [
+        "tools/shell",
+        "tools/neovim"
+      ]
+    },
     {
       "id": "01jt8zta6rcs35zzx1363dztne",
       "title": "Parsing is Search",
