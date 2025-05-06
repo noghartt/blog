@@ -1,6 +1,17 @@
 {
-  "lastUpdate": "2025-05-05T00:06:32.523Z",
+  "lastUpdate": "2025-05-06T00:06:41.465Z",
   "data": [
+    {
+      "id": "01jtez904kfm3xbjw5pq3m57n5",
+      "title": "The most important thing to understand about queues",
+      "url": "https://blog.danslimmon.com/2016/08/26/the-most-important-thing-to-understand-about-queues/",
+      "savedAt": "2025-05-05T00:59:28.787000+00:00",
+      "description": "Queueing theory explains how systems handle tasks and the relationship between capacity and wait times. As a system approaches maximum capacity, average wait time can grow indefinitely. To manage queues, you can increase capacity, decrease demand, or limit the queue size.",
+      "tags": [
+        "for-later",
+        "math/queueing-theory"
+      ]
+    },
     {
       "id": "01jtc6j5wc5vw1x8402pr3z4w4",
       "title": "A Better Man Page Viewer",
