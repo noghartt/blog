@@ -1,6 +1,16 @@
 {
-  "lastUpdate": "2025-05-06T00:06:41.465Z",
+  "lastUpdate": "2025-05-07T00:06:28.212Z",
   "data": [
+    {
+      "id": "01jthqh0whf2y598k2f3dv08nq",
+      "title": "Contents",
+      "url": "https://texdraft.github.io/lisp-compiler/internals.html",
+      "savedAt": "2025-05-06T02:41:46.384000+00:00",
+      "description": "The HLC is the first LISP compiler that can compile itself and aims to replace LISP function definitions with efficient machine code. It processes LISP code in two passes: the first transforms the code into a simpler form, and the second translates it into assembly instructions for execution on the IBM 7090. The compiler generates specific instructions for handling function calls and managing local variables during execution.",
+      "tags": [
+        "computer-history"
+      ]
+    },
     {
       "id": "01jtez904kfm3xbjw5pq3m57n5",
       "title": "The most important thing to understand about queues",
