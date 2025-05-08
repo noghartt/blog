@@ -1,6 +1,28 @@
 {
-  "lastUpdate": "2025-05-07T00:06:28.212Z",
+  "lastUpdate": "2025-05-08T00:06:28.786Z",
   "data": [
+    {
+      "id": "01jtnq37qg571zxhgkqza247r4",
+      "title": "Critical Architecture/Software Theory",
+      "url": "https://tomasp.net/architecture/",
+      "savedAt": "2025-05-07T15:51:12.368000+00:00",
+      "description": "Tomas Petricek discusses how architecture can inspire a critical approach to software design. He believes that, like buildings, software should question existing practices and reveal contradictions. By applying formal structures, programmers can create software that better fits its context and serves social needs.",
+      "tags": [
+        "cs",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01jtnmm307faxqtgkfhhjkp291",
+      "title": "Propositions as Types",
+      "url": "https://homepages.inf.ed.ac.uk/wadler/papers/propositions-as-types/propositions-as-types.pdf",
+      "savedAt": "2025-05-07T15:07:58.856000+00:00",
+      "description": "Propositions as Types is a principle that links logic to computation and describes a correspondence between a given logic and a given programming language. It provides a true isomorphism preserving the deep structure of proofs and programs, simplification, and evaluation. It underpins the foundations of functional programming and has inspired the design of automated proof assistants and programming languages. Its applications include certified compilers, computer-checked proofs, and verification of browser plug-ins. The principle has many names and many origins and applies to a wide variety of logics and computation.",
+      "tags": [
+        "for-later",
+        "type-theory"
+      ]
+    },
     {
       "id": "01jthqh0whf2y598k2f3dv08nq",
       "title": "Contents",
