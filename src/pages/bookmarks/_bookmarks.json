@@ -1,6 +1,17 @@
 {
-  "lastUpdate": "2025-05-08T00:06:28.786Z",
+  "lastUpdate": "2025-05-10T00:06:17.378Z",
   "data": [
+    {
+      "id": "01jtte2s89efewqcapjxe8h2t2",
+      "title": "Virtual DOM",
+      "url": "https://pdubroy.github.io/200andchange/virtual-dom/",
+      "savedAt": "2025-05-09T11:49:52.521000+00:00",
+      "description": "The Virtual DOM is a lightweight implementation used in web libraries like React for building user interfaces. It allows developers to create and update web components efficiently without the overhead of a full framework. This approach provides flexibility by enabling the integration of various state management libraries or functioning independently.",
+      "tags": [
+        "web",
+        "framework/react"
+      ]
+    },
     {
       "id": "01jtnq37qg571zxhgkqza247r4",
       "title": "Critical Architecture/Software Theory",
