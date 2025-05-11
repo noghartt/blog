@@ -1,6 +1,27 @@
 {
-  "lastUpdate": "2025-05-08T00:06:28.786Z",
+  "lastUpdate": "2025-05-11T00:06:23.192Z",
   "data": [
+    {
+      "id": "01jty2yakz9tqfbs10a78gtbng",
+      "title": "Reading \"Business\" Books Is A Waste Of Time",
+      "url": "https://theorthagonist.substack.com/p/why-reading-business-books-is-a-waste?r=17qf9c&utm_medium=ios&triedRedirect=true",
+      "savedAt": "2025-05-10T21:52:09.773000+00:00",
+      "description": "Most popular business books are more about emotional appeal than practical advice, often oversimplifying complex situations. The author argues that real business success comes from understanding reality, strategy, and operational details, rather than following generic slogans. Instead of relying on these books, aspiring entrepreneurs should focus on learning rigorous concepts from academic sources.",
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "01jtte2s89efewqcapjxe8h2t2",
+      "title": "Virtual DOM",
+      "url": "https://pdubroy.github.io/200andchange/virtual-dom/",
+      "savedAt": "2025-05-09T11:49:52.521000+00:00",
+      "description": "The Virtual DOM is a lightweight implementation used in web libraries like React for building user interfaces. It allows developers to create and update web components efficiently without the overhead of a full framework. This approach provides flexibility by enabling the integration of various state management libraries or functioning independently.",
+      "tags": [
+        "web",
+        "framework/react"
+      ]
+    },
     {
       "id": "01jtnq37qg571zxhgkqza247r4",
       "title": "Critical Architecture/Software Theory",
