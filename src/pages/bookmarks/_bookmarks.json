@@ -1,6 +1,27 @@
 {
-  "lastUpdate": "2025-05-11T00:06:23.192Z",
+  "lastUpdate": "2025-05-12T00:06:47.652Z",
   "data": [
+    {
+      "id": "01jv0kf1pa8ey6bqycwv12115h",
+      "title": "On work processes and outcomes",
+      "url": "https://surfingcomplexity.blog/2025/05/10/on-work-processes-and-outcomes/",
+      "savedAt": "2025-05-11T21:19:23.850000+00:00",
+      "description": "Lorin Hochstein presents two models of work processes and outcomes. Model I suggests that following proper processes prevents bad outcomes, while Model II emphasizes understanding actual work practices that often lead to success. The second model encourages examining normal work to learn from successes instead of only focusing on failures.",
+      "tags": [
+        "systems-theory"
+      ]
+    },
+    {
+      "id": "01jtzw5qxa4sbmy4g017hf6hvd",
+      "title": "How much information is in DNA?",
+      "url": "https://dynomight.substack.com/p/dna?r=17qf9c&utm_medium=ios&triedRedirect=true",
+      "savedAt": "2025-05-11T14:32:21.590000+00:00",
+      "description": "DNA contains a vast amount of information, but much of it may not serve a clear purpose. While algorithms can compress DNA significantly, the true \"information content\" is complex and not fully understood. Ultimately, estimating the information in DNA could range from 480 million to 6 billion bits, but many aspects remain mysterious.",
+      "tags": [
+        "biology",
+        "information-theory"
+      ]
+    },
     {
       "id": "01jty2yakz9tqfbs10a78gtbng",
       "title": "Reading \"Business\" Books Is A Waste Of Time",
