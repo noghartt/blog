@@ -1,6 +1,17 @@
 {
-  "lastUpdate": "2025-05-12T00:06:47.652Z",
+  "lastUpdate": "2025-05-13T00:06:38.861Z",
   "data": [
+    {
+      "id": "01jv25qzjpc8qnhwqngke2qd38",
+      "title": "Learning Containers From The Bottom Up",
+      "url": "https://iximiuz.com/en/posts/container-learning-path/",
+      "savedAt": "2025-05-12T11:58:05.397000+00:00",
+      "description": "The author, Ivan Velichko, shares his journey of learning about containers, emphasizing that they are not just lightweight virtual machines but complex technologies. He outlines a structured learning path that starts from understanding container runtimes and progresses through images, managers, and orchestrators. Velichko advises against relying solely on high-level tools like Docker or Kubernetes, as this can lead to misunderstandings in the container ecosystem.",
+      "tags": [
+        "cs/devops",
+        "infrastructure"
+      ]
+    },
     {
       "id": "01jv0kf1pa8ey6bqycwv12115h",
       "title": "On work processes and outcomes",
