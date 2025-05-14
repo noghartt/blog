@@ -1,6 +1,27 @@
 {
-  "lastUpdate": "2025-05-13T00:06:38.861Z",
+  "lastUpdate": "2025-05-14T00:06:22.033Z",
   "data": [
+    {
+      "id": "01jv5ntv9tcwzs7ggythmshywa",
+      "title": "On becoming competitive when joining a new company",
+      "url": "https://ludwigabap.bearblog.dev/on-becoming-competitive-when-joining-a-new-company/",
+      "savedAt": "2025-05-13T20:36:59.834000+00:00",
+      "description": "To become competitive at a new job, focus on building strong relationships and understanding the company's dynamics. Spend time learning the codebase and observing how successful colleagues work to gain their trust and knowledge. By being serviceable, fast, and friendly, you'll position yourself for interesting projects and opportunities.",
+      "tags": [
+        "career",
+        "favorites"
+      ]
+    },
+    {
+      "id": "01jv5m9kya4cxak3wefnbkz1e2",
+      "title": "Why do things go right?",
+      "url": "https://safetydifferently.com/why-do-things-go-right/",
+      "savedAt": "2025-05-13T20:10:06.666000+00:00",
+      "description": "Erik Hollnagel argues that instead of only focusing on preventing mistakes, we should understand why most things go right in safety management. Many organizations are now recognizing the limitations of traditional safety measures, which often lead to a culture of blame and mismanagement. To improve safety, we should enhance the capacities that contribute to positive outcomes, rather than just trying to eliminate negative indicators.",
+      "tags": [
+        "systems-theory"
+      ]
+    },
     {
       "id": "01jv25qzjpc8qnhwqngke2qd38",
       "title": "Learning Containers From The Bottom Up",
