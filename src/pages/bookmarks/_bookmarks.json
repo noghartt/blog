@@ -1,6 +1,119 @@
 {
-  "lastUpdate": "2025-05-15T00:06:28.046Z",
+  "lastUpdate": "2025-05-16T00:06:22.054Z",
   "data": [
+    {
+      "id": "01jvb4b6r7agqy0qaw6crbmk24",
+      "title": "Overcoming the Legacy Code Challenge",
+      "url": "https://ahelwer.ca/post/2025-05-15-tla-dev-status/",
+      "savedAt": "2025-05-15T23:26:48.070000+00:00",
+      "description": "The blog post discusses the current state of TLA⁺ language tooling and emphasizes the need for improved development tools to enhance the TLA⁺ experience. It highlights existing tools and the challenges faced in making TLA⁺ more accessible to developers. The author expresses optimism about the future of TLA⁺ and encourages contributions to its tooling ecosystem.",
+      "tags": [
+        "cs/distsys",
+        "math/formal-methods"
+      ]
+    },
+    {
+      "id": "01jvb1gqgbv9z5h83sw71crwc8",
+      "title": "Behind the Scenes: Sleeping soundly with the help of TLA+",
+      "url": "https://blogs.oracle.com/cloud-infrastructure/post/sleeping-soundly-with-the-help-of-tla",
+      "savedAt": "2025-05-15T22:37:23.338000+00:00",
+      "description": "The drive manager automates the process of managing hard drives in Object Storage while ensuring data safety through formal verification with TLA+. It uses safety checks to prevent data loss during drive removal and decommissioning. Thanks to TLA+, the system has successfully avoided data loss and improved operational efficiency.",
+      "tags": []
+    },
+    {
+      "id": "01jvaz314ekpvcjfbxj58ysake",
+      "title": "Newtyped Indices are Proofs",
+      "url": "https://eikopf.bearblog.dev/newtyped-indices-are-proofs/",
+      "savedAt": "2025-05-15T21:54:57.294000+00:00",
+      "description": "Newtyped indices in Rust help manage complex ownership scenarios, such as in graphs, by providing a structured way to reference types. These indices can be viewed as proofs of existence for their associated types, ensuring that specific values are present. By treating these types as evidence, developers can create more complex types and access patterns while maintaining clear semantics in their code.",
+      "tags": [
+        "cs/compilers",
+        "cs/programming-languages/rust"
+      ]
+    },
+    {
+      "id": "01jvattx1vyxy25kwypr42y7y4",
+      "title": "Working on Complex Systems",
+      "url": "https://www.thecoder.cafe/p/complex-systems",
+      "savedAt": "2025-05-15T20:40:36.667000+00:00",
+      "description": "Complex systems are different from complicated ones because they require unique solutions and can behave unpredictably. They often show characteristics like delayed consequences and nonlinearity, making them challenging to navigate. To manage complex systems effectively, it's important to embrace adaptability, innovation, and observability.",
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "id": "01jvat32qtzg7727g5cjd81vmz",
+      "title": "Onwards to the Core: etcd",
+      "url": "https://www.mgasch.com/2021/01/listwatch-part-1/",
+      "savedAt": "2025-05-15T20:27:36.058000+00:00",
+      "description": "The article discusses etcd, the default storage backend for Kubernetes, highlighting its role as a reliable key-value store that supports features like time travel queries and efficient change notifications. It explains how etcd uses a multi-version concurrency control mechanism to manage data and ensure strong consistency. Understanding etcd is essential for optimizing the Kubernetes ListWatch() implementation and improving overall performance.",
+      "tags": [
+        "cs/distsys",
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "01jvasq337spf1b8mzzxv5yryy",
+      "title": "Statistical Properties: Are We Serious?",
+      "url": "https://emptysqua.re/blog/are-we-serious-about-statistical-properties-tlaplus/#a-menu-for-tlasupsup",
+      "savedAt": "2025-05-15T20:21:03.207000+00:00",
+      "description": "The author proposes adding performance modeling features to TLA+ after discovering the limitations of queueing theory for estimating system performance. They discuss existing tools that handle statistical modeling, such as PRISM and FizzBee, which offer capabilities like cost functions and probability distributions. The text suggests that integrating performance modeling into TLA+ could enhance its usability and effectiveness.",
+      "tags": [
+        "cs/distsys",
+        "math/formal-methods"
+      ]
+    },
+    {
+      "id": "01jvarkyr0s33s14w46c10bh1d",
+      "title": "Rethinking Modern Asynchronous Paradigms",
+      "url": "https://blog.dogac.dev/modern-asynchronous-paradigms/",
+      "savedAt": "2025-05-15T20:01:51.872000+00:00",
+      "description": "Developers often work with asynchronous operations to make efficient use of CPU time while waiting for tasks to complete. Different programming languages handle asynchronous programming in various ways, with constructs like Java's Future and Kotlin's coroutines simplifying the process. New approaches aim to reduce blocking calls and improve concurrency by using event loops and non-blocking code execution.",
+      "tags": [
+        "cs",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01jvapzw48f38apggnmdyd2exf",
+      "title": "Stop using REST for state synchronization",
+      "url": "https://www.mbid.me/posts/stop-using-rest-for-state-synchronization/",
+      "savedAt": "2025-05-15T19:33:25.256000+00:00",
+      "description": "Many web applications need to synchronize state between the client and server, but using REST for this can lead to complex and error-prone code. The author suggests that we should adopt better state synchronization protocols instead of relying on REST, which is designed for state transfer. New technologies like Automerge and Yjs are emerging to address these issues, and the author hopes they will become widely used.",
+      "tags": [
+        "web"
+      ]
+    },
+    {
+      "id": "01jvamtky4ht5fantv7p58128j",
+      "title": "My 2025 high-end Linux PC 🐧",
+      "url": "https://michael.stapelberg.ch/posts/2025-05-15-my-2025-high-end-linux-pc/",
+      "savedAt": "2025-05-15T18:55:35.876000+00:00",
+      "description": "The author successfully built a high-end Linux PC after replacing a faulty CPU. They chose an Intel 285K CPU, a 4TB SSD, and an NVIDIA graphics card for optimal performance. The build is now stable and efficient, with good power consumption and convenient component access.",
+      "tags": [
+        "hardware",
+        "os/linux"
+      ]
+    },
+    {
+      "id": "01jv951x9e73aq9s3n2sbvx7tk",
+      "title": "Beej's Guide to Networking Concepts",
+      "url": "https://beej.us/guide/bgnet0/",
+      "savedAt": "2025-05-15T05:00:43.181000+00:00",
+      "description": "Beej's Guide to Networking Concepts offers a resource for learning about network programming. Readers can find various formats like HTML and PDF for easy access. The author encourages feedback for corrections and provides contact information for further communication.",
+      "tags": [
+        "books",
+        "cs/networking"
+      ]
+    },
+    {
+      "id": "01jv9163zeppc1ms03sgygy2fa",
+      "title": "GitHub - miguelmota/bash-streams-handbook: 💻 Learn Bash streams, pipelines and redirection, from beginner to advanced.",
+      "url": "https://github.com/miguelmota/bash-streams-handbook",
+      "savedAt": "2025-05-15T03:53:06.797000+00:00",
+      "description": "The GitHub repository by miguelmota teaches users about Bash streams, pipelines, and redirection from beginner to advanced levels. It explains standard input, output, and error, along with how to redirect these streams and use pipelines to connect commands. Users can learn practical examples of writing and reading data through these streams to enhance their command-line skills.",
+      "tags": []
+    },
     {
       "id": "01jv83t1kw3s72qq75mcfb8hvf",
       "title": "Beyond the Wrist: Debugging RSI",
@@ -40,6 +153,7 @@
       "description": "The author, Ivan Velichko, shares his journey of learning about containers, emphasizing that they are not just lightweight virtual machines but complex technologies. He outlines a structured learning path that starts from understanding container runtimes and progresses through images, managers, and orchestrators. Velichko advises against relying solely on high-level tools like Docker or Kubernetes, as this can lead to misunderstandings in the container ecosystem.",
       "tags": [
         "cs/devops",
+        "for-later",
         "infrastructure"
       ]
     },
