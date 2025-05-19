@@ -1,6 +1,36 @@
 {
-  "lastUpdate": "2025-05-18T00:06:37.968Z",
+  "lastUpdate": "2025-05-19T00:06:34.915Z",
   "data": [
+    {
+      "id": "01jvj6pvpp8sf35t7v3bw0x9qa",
+      "title": "SSTable and Log Structured Storage: LevelDB",
+      "url": "https://www.igvita.com/2012/02/06/sstable-and-log-structured-storage-leveldb/",
+      "savedAt": "2025-05-18T17:22:48.150000+00:00",
+      "description": "SSTable is a data structure used to efficiently store large numbers of key-value pairs in a sorted manner. It is a simple and useful way to exchange large, sorted data segments. LevelDB is a database engine that utilizes SSTables and a MemTable to provide fast read and write access. It is designed to be embedded in applications and takes care of the flushing, merging, and other details of managing SSTables. LevelDB is a powerful tool for managing large datasets and is being used in various applications, including web browsers.",
+      "tags": [
+        "cs/database"
+      ]
+    },
+    {
+      "id": "01jvj6djq9zfgyp2xvmjjbfwd5",
+      "title": "Memtable & SSTable (Sorted String Table)",
+      "url": "https://www.mauriciopoppe.com/notes/computer-science/data-structures/memtable-sstable/",
+      "savedAt": "2025-05-18T17:17:44.041000+00:00",
+      "description": "Memtable holds data in memory before saving it to disk, enabling faster writes and reads. SSTable is a sorted data structure for storing key-value pairs efficiently. Indexing and merging techniques optimize performance for both structures.",
+      "tags": [
+        "cs/database"
+      ]
+    },
+    {
+      "id": "01jvhvfzp0s813q35j2zmwqty8",
+      "title": "Spaced Repetition Systems Have Gotten Way Better",
+      "url": "https://domenic.me/fsrs/",
+      "savedAt": "2025-05-18T14:06:48.512000+00:00",
+      "description": "Spaced repetition systems have improved significantly with the introduction of the FSRS algorithm, which uses machine learning to optimize card review schedules. This algorithm predicts the best time to review material just before forgetting it, allowing for a more efficient learning process. Anki, a popular spaced repetition software, now uses FSRS as its default algorithm, enhancing the effectiveness of memorization for users.",
+      "tags": [
+        "learning"
+      ]
+    },
     {
       "id": "01jvb4b6r7agqy0qaw6crbmk24",
       "title": "Overcoming the Legacy Code Challenge",
