@@ -1,6 +1,48 @@
 {
-  "lastUpdate": "2025-05-20T00:06:35.046Z",
+  "lastUpdate": "2025-05-22T00:07:21.739Z",
   "data": [
+    {
+      "id": "01jvt68yyb64wgp6yxd5mt86d8",
+      "title": "What every computer science major should know",
+      "url": "https://matt.might.net/articles/what-cs-majors-should-know/?ref=parconley.com",
+      "savedAt": "2025-05-21T19:49:08.171000+00:00",
+      "description": "Every computer science major should know key concepts like programming languages, discrete mathematics, and data structures. They must also be comfortable with Unix systems and understand basic systems administration. Additionally, practical skills like user interface design and knowledge of artificial intelligence are important for their future careers.",
+      "tags": [
+        "cs",
+        "favorites",
+        "resource/list"
+      ]
+    },
+    {
+      "id": "01jvqxkb6e9wsa1jas4za31wbm",
+      "title": "Good Performance for Bad Days",
+      "url": "https://brooker.co.za/blog/2025/05/20/icpe",
+      "savedAt": "2025-05-20T22:39:02.350000+00:00",
+      "description": "Marc Brooker discusses the need for better performance evaluation in systems, particularly under overload conditions. He highlights that many studies focus on ideal scenarios rather than the challenges faced during saturation, which can lead to system failures. Brooker emphasizes the importance of understanding real-world performance to improve system reliability.",
+      "tags": [
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "01jvqq89cm20yay74dez1xe9kx",
+      "title": "The Ingredients of a Productive Monorepo",
+      "url": "https://blog.swgillespie.me/posts/monorepo-ingredients/",
+      "savedAt": "2025-05-20T20:48:08.596000+00:00",
+      "description": "A productive monorepo requires specific tools that often need to be created from scratch, as existing solutions may not fully address the unique challenges it presents. Key principles include ensuring operations are efficient and managing source control effectively, especially as the repository grows. Continuous integration and delivery processes must adapt to handle many tests and deployments while maintaining code quality and collaboration among developers.",
+      "tags": [
+        "cs"
+      ]
+    },
+    {
+      "id": "01jvqnwgvyeewnc83jffsce4p6",
+      "title": "Not causal chains, but interactions and adaptations",
+      "url": "https://surfingcomplexity.blog/2025/05/19/not-causal-chains-but-interactions-and-adaptations/",
+      "savedAt": "2025-05-20T20:24:14.462000+00:00",
+      "description": "The author critiques traditional root-cause analysis (RCA) for oversimplifying complex system failures by focusing on linear causal chains. Instead, they advocate for a resilience engineering (RE) model that emphasizes interactions and adaptations within systems, recognizing that multiple factors contribute to incidents. This approach encourages organizations to enhance their fault tolerance and adaptability rather than just eliminating root causes.",
+      "tags": [
+        "systems-theory"
+      ]
+    },
     {
       "id": "01jvj6pvpp8sf35t7v3bw0x9qa",
       "title": "SSTable and Log Structured Storage: LevelDB",
