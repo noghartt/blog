@@ -1,6 +1,36 @@
 {
-  "lastUpdate": "2025-05-22T00:07:21.739Z",
+  "lastUpdate": "2025-05-23T00:07:31.462Z",
   "data": [
+    {
+      "id": "01jvwk20gdmasyczqntkh864kk",
+      "title": "HOWTO: Avoid temptation -- why avoiding temptation is harder than you think",
+      "url": "https://matt.might.net/articles/how-to-avoid-temptation/",
+      "savedAt": "2025-05-22T18:11:00.749000+00:00",
+      "description": "Avoiding temptation is challenging because it creates a pull on our willpower, leading us to three zones: the safe zone, the danger zone, and the akratic zone. To resist temptation effectively, we need to maintain distance from tempting objects and recognize when our willpower is weakening. Ultimately, it's essential to avoid situations that require unsustainable resistance to temptation.",
+      "tags": [
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "01jvwgrzy43ssrwae4zz2j9g31",
+      "title": "HOWTO: Change your behavior",
+      "url": "https://matt.might.net/articles/how-to-change-your-behavior/",
+      "savedAt": "2025-05-22T17:31:08.100000+00:00",
+      "description": "Changing behavior is a multi-stage process that involves understanding where you are in the transtheoretical model, which includes stages like precontemplation, action, and relapse. To succeed in long-term change, focus on targeted strategies for your specific stage and track your behaviors to identify triggers. Remember, experiencing relapse is common, and self-forgiveness is important as you work toward lasting change.",
+      "tags": [
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "01jvw4sbfrwb7bxjvqah4a70qs",
+      "title": "Transpiler, a meaningless word",
+      "url": "https://people.csail.mit.edu/rachit/post/transpiler/",
+      "savedAt": "2025-05-22T14:01:37.016000+00:00",
+      "description": "The author argues that the term \"transpiler\" is misleading because it oversimplifies the complex task of converting code between programming languages. Many so-called \"transpilers\" actually perform functions similar to compilers, including handling different language semantics and transformations. The article emphasizes that both compilers and transpilers grapple with intricate programming concepts, making the distinction between them less meaningful.",
+      "tags": [
+        "cs/compilers"
+      ]
+    },
     {
       "id": "01jvt68yyb64wgp6yxd5mt86d8",
       "title": "What every computer science major should know",
