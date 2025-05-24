@@ -1,6 +1,36 @@
 {
-  "lastUpdate": "2025-05-23T00:07:31.462Z",
+  "lastUpdate": "2025-05-24T00:07:19.229Z",
   "data": [
+    {
+      "id": "01jvzjagqcnggsr9jj21wz8em9",
+      "title": "Why Algebraic Effects",
+      "url": "https://antelang.org/blog/why_effects/",
+      "savedAt": "2025-05-23T21:55:54.220000+00:00",
+      "description": "Algebraic effects are a powerful feature in programming languages that allow for cleaner control flow, enabling the implementation of various features like exceptions and coroutines. They improve code expressivity and usability by composing well with each other, making it easier to design cleaner APIs. Even in simple applications, algebraic effects can help with dependency injection and ensuring purity in function calls.",
+      "tags": [
+        "cs/pl-theory"
+      ]
+    },
+    {
+      "id": "01jvxs31pqba7czs0ar88e6nfx",
+      "title": "The Annotated Kolmogorov-Arnold Network (KAN)",
+      "url": "https://alexzhang13.github.io/blog/2024/annotated-kan/",
+      "savedAt": "2025-05-23T05:15:40.631000+00:00",
+      "description": "The text discusses the Annotated Kolmogorov-Arnold Network (KAN), explaining its architecture and training process. It outlines the use of B-splines for optimizations and how KANs can be configured with different activation functions. Additionally, the authors provide insights into the model training loop and visualization techniques for network activations.",
+      "tags": [
+        "cs/ai"
+      ]
+    },
+    {
+      "id": "01jvxs2sah8qqwbst1tq5wbm4m",
+      "title": "The Annotated Transformer",
+      "url": "https://nlp.seas.harvard.edu/annotated-transformer/",
+      "savedAt": "2025-05-23T05:15:32.049000+00:00",
+      "description": "The Annotated Transformer explains the architecture and training of the Transformer model, which uses stacked self-attention layers in both the encoder and decoder. It describes how embeddings, positional encoding, and feed-forward networks are integrated into the model. The document also includes examples of model predictions and training procedures.",
+      "tags": [
+        "cs/ai"
+      ]
+    },
     {
       "id": "01jvwk20gdmasyczqntkh864kk",
       "title": "HOWTO: Avoid temptation -- why avoiding temptation is harder than you think",
@@ -5250,10 +5280,10 @@
       "id": "01jbepabn6wby1kpr4edh4659t",
       "title": "Nobody Ever Gets Credit for Fixing Problems that Never Happened",
       "url": "https://web.mit.edu/nelsonr/www/Repenning=Sterman_CMR_su01_.pdf",
-      "savedAt": "2024-02-25T17:49:12+00:00",
+      "savedAt": "2025-05-23T05:40:31.529000+00:00",
       "description": "Improvement programs can help organizations increase their capability and efficiency over time. However, a focus on short-term gains often leads to a cycle of working harder and neglecting long-term improvement efforts. Managers must balance immediate throughput needs with investing in sustainable improvement for lasting success.",
       "tags": [
-        "for-later",
+        "career",
         "systems-theory"
       ]
     },
@@ -8220,8 +8250,8 @@
       "savedAt": "2024-06-26T00:29:28.458000+00:00",
       "description": "d8 is V8’s own developer shell.",
       "tags": [
-        "for-later",
-        "cs/compilers"
+        "cs/compilers",
+        "cs/programming-languages/javascript"
       ]
     },
     {
