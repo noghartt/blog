@@ -1,6 +1,14 @@
 {
-  "lastUpdate": "2025-05-25T00:07:41.710Z",
+  "lastUpdate": "2025-05-26T00:07:31.318Z",
   "data": [
+    {
+      "id": "01jw4gh7496m2hwrxxpkcawjv8",
+      "title": "Against Curry-Howard Mysticism [loc-000S]",
+      "url": "https://liamoc.net/forest/loc-000S/index.xml",
+      "savedAt": "2025-05-25T20:00:48.777000+00:00",
+      "description": "The author argues that the Curry-Howard correspondence is often misunderstood in programming, especially among those without a strong background in logic and type theory. They emphasize that for most programming practices, Curry-Howard is not practically useful unless using dependently-typed languages. The article calls for better education and discourages the use of complex jargon that can confuse and mislead programmers.",
+      "tags": []
+    },
     {
       "id": "01jvzjagqcnggsr9jj21wz8em9",
       "title": "Why Algebraic Effects",
