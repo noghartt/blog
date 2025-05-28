@@ -1,6 +1,26 @@
 {
-  "lastUpdate": "2025-05-26T00:07:31.318Z",
+  "lastUpdate": "2025-05-28T00:07:32.572Z",
   "data": [
+    {
+      "id": "01jw9n6z8f6z5v91eajfwedn6h",
+      "title": "Access Control Syntax",
+      "url": "https://journal.stuffwithstuff.com/2025/05/26/access-control-syntax/",
+      "savedAt": "2025-05-27T19:58:48.078000+00:00",
+      "description": "The author discusses how to manage public and private declarations in a programming language that currently lacks a module system. They explore various syntax options, like modifiers before declarations and using special prefixes in names to indicate access levels. Ultimately, the author leans towards defaulting to public declarations with a simple way to mark private ones for ease of use.",
+      "tags": [
+        "cs/pl-theory"
+      ]
+    },
+    {
+      "id": "01jw87er2280k1nh8yv6x4hbw2",
+      "title": "How I use Obsidian",
+      "url": "https://stephango.com/vault",
+      "savedAt": "2025-05-27T06:39:08.354000+00:00",
+      "description": "Steph Ango uses Obsidian for note-taking, writing, and organizing her thoughts in a flexible way that embraces chaos. She prefers a file-based system over folders, using links and templates to connect ideas and streamline her process. Her unique approach includes regular reviews and a simple rating system to help her manage and reflect on her notes.",
+      "tags": [
+        "note-taking"
+      ]
+    },
     {
       "id": "01jw4gh7496m2hwrxxpkcawjv8",
       "title": "Against Curry-Howard Mysticism [loc-000S]",
