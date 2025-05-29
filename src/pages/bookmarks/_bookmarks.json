@@ -1,6 +1,14 @@
 {
-  "lastUpdate": "2025-05-28T00:07:32.572Z",
+  "lastUpdate": "2025-05-29T00:07:29.257Z",
   "data": [
+    {
+      "id": "01jwbhgnzfdwa47k9wv76z6px9",
+      "title": "Awesome Emacs on macOS",
+      "url": "https://xenodium.com/awesome-emacs-on-macos",
+      "savedAt": "2025-05-28T13:32:54.105000+00:00",
+      "description": "The author, Alvaro Ramirez, shares tips for using Emacs on macOS after transitioning from GNU/Linux. He discusses various customizations and integrations, including setting the Command key as the Meta key and enabling SF Symbols for app development. Additionally, he emphasizes building personal utilities in Emacs to enhance productivity on macOS.",
+      "tags": []
+    },
     {
       "id": "01jw9n6z8f6z5v91eajfwedn6h",
       "title": "Access Control Syntax",
@@ -9995,7 +10003,8 @@
       "savedAt": "2024-07-27T15:24:19.424000+00:00",
       "description": null,
       "tags": [
-        "math"
+        "math",
+        "favorites"
       ]
     },
     {
