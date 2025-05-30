@@ -1,6 +1,16 @@
 {
-  "lastUpdate": "2025-05-29T00:07:29.257Z",
+  "lastUpdate": "2025-05-30T00:07:42.051Z",
   "data": [
+    {
+      "id": "01jwez1a1g77n0bdm5cfk7cj5f",
+      "title": "immersive linear algebra",
+      "url": "https://immersivemath.com/ila/index.html",
+      "savedAt": "2025-05-29T21:26:40.432000+00:00",
+      "description": "\"Immersive Linear Algebra\" is a book that introduces key concepts in linear algebra. It covers topics like vectors, the dot product, the vector product, and Gaussian elimination. The book aims to help readers understand and navigate these mathematical ideas easily.",
+      "tags": [
+        "math/linear-algebra"
+      ]
+    },
     {
       "id": "01jwbhgnzfdwa47k9wv76z6px9",
       "title": "Awesome Emacs on macOS",
