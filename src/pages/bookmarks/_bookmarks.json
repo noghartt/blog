@@ -1,6 +1,27 @@
 {
-  "lastUpdate": "2025-05-30T00:07:42.051Z",
+  "lastUpdate": "2025-05-31T00:07:26.375Z",
   "data": [
+    {
+      "id": "01jwgvh08ydfave21e87385nad",
+      "title": "Bayes For Everyone - by Scott Alexander - Astral Codex Ten",
+      "url": "https://www.astralcodexten.com/p/bayes-for-everyone",
+      "savedAt": "2025-05-30T15:03:49.278000+00:00",
+      "description": "Scott Alexander discusses how to teach Bayes' theorem to students in a way that makes it engaging and relevant to their lives. He believes that using relatable examples and encouraging discussions can help kids understand and appreciate Bayesian thinking. The goal is to turn learning into an exciting exploration rather than just another subject to memorize.",
+      "tags": [
+        "learning",
+        "math/probability"
+      ]
+    },
+    {
+      "id": "01jwfbfyydrjey0m8wwjt7g5va",
+      "title": "What does \"Undecidable\" mean, anyway",
+      "url": "https://buttondown.com/hillelwayne/archive/what-does-undecidable-mean-anyway/",
+      "savedAt": "2025-05-30T01:04:23.501000+00:00",
+      "description": "The text explains the concept of \"undecidable\" in computer science, particularly in relation to decision problems and Turing machines. A problem is undecidable if no algorithm can determine its solution for all possible inputs, with the Halting problem as a famous example. While some programs can be analyzed for their behavior, undecidability means we can't create a universal method to solve every possible problem.",
+      "tags": [
+        "cs/theory"
+      ]
+    },
     {
       "id": "01jwez1a1g77n0bdm5cfk7cj5f",
       "title": "immersive linear algebra",
