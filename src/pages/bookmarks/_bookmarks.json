@@ -1,6 +1,45 @@
 {
-  "lastUpdate": "2025-05-28T00:07:32.572Z",
+  "lastUpdate": "2025-05-31T00:07:26.375Z",
   "data": [
+    {
+      "id": "01jwgvh08ydfave21e87385nad",
+      "title": "Bayes For Everyone - by Scott Alexander - Astral Codex Ten",
+      "url": "https://www.astralcodexten.com/p/bayes-for-everyone",
+      "savedAt": "2025-05-30T15:03:49.278000+00:00",
+      "description": "Scott Alexander discusses how to teach Bayes' theorem to students in a way that makes it engaging and relevant to their lives. He believes that using relatable examples and encouraging discussions can help kids understand and appreciate Bayesian thinking. The goal is to turn learning into an exciting exploration rather than just another subject to memorize.",
+      "tags": [
+        "learning",
+        "math/probability"
+      ]
+    },
+    {
+      "id": "01jwfbfyydrjey0m8wwjt7g5va",
+      "title": "What does \"Undecidable\" mean, anyway",
+      "url": "https://buttondown.com/hillelwayne/archive/what-does-undecidable-mean-anyway/",
+      "savedAt": "2025-05-30T01:04:23.501000+00:00",
+      "description": "The text explains the concept of \"undecidable\" in computer science, particularly in relation to decision problems and Turing machines. A problem is undecidable if no algorithm can determine its solution for all possible inputs, with the Halting problem as a famous example. While some programs can be analyzed for their behavior, undecidability means we can't create a universal method to solve every possible problem.",
+      "tags": [
+        "cs/theory"
+      ]
+    },
+    {
+      "id": "01jwez1a1g77n0bdm5cfk7cj5f",
+      "title": "immersive linear algebra",
+      "url": "https://immersivemath.com/ila/index.html",
+      "savedAt": "2025-05-29T21:26:40.432000+00:00",
+      "description": "\"Immersive Linear Algebra\" is a book that introduces key concepts in linear algebra. It covers topics like vectors, the dot product, the vector product, and Gaussian elimination. The book aims to help readers understand and navigate these mathematical ideas easily.",
+      "tags": [
+        "math/linear-algebra"
+      ]
+    },
+    {
+      "id": "01jwbhgnzfdwa47k9wv76z6px9",
+      "title": "Awesome Emacs on macOS",
+      "url": "https://xenodium.com/awesome-emacs-on-macos",
+      "savedAt": "2025-05-28T13:32:54.105000+00:00",
+      "description": "The author, Alvaro Ramirez, shares tips for using Emacs on macOS after transitioning from GNU/Linux. He discusses various customizations and integrations, including setting the Command key as the Meta key and enabling SF Symbols for app development. Additionally, he emphasizes building personal utilities in Emacs to enhance productivity on macOS.",
+      "tags": []
+    },
     {
       "id": "01jw9n6z8f6z5v91eajfwedn6h",
       "title": "Access Control Syntax",
@@ -9995,7 +10034,8 @@
       "savedAt": "2024-07-27T15:24:19.424000+00:00",
       "description": null,
       "tags": [
-        "math"
+        "math",
+        "favorites"
       ]
     },
     {
