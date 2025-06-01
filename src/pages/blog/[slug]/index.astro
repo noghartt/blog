@@ -147,14 +147,17 @@ const readingTime = remarkPluginFrontmatter.readingTime;
     padding: var(--spacing-2x);
   }
 
-  @media screen and (min-width: 425px) {
+  .toc--wrapper {
+    background: #f5f5f5;
+    padding: var(--spacing);
+  }
+
+  @media screen and (min-width: 1024px) {
     .toc--wrapper {
-      background: #f5f5f5;
       position: absolute;
       top: 5px;
       left: -300px;
       width: 270px;
-      padding: var(--spacing);
     }
   }
 
