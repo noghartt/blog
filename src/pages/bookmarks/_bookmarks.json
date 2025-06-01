@@ -1,6 +1,16 @@
 {
-  "lastUpdate": "2025-05-31T00:07:26.375Z",
+  "lastUpdate": "2025-06-01T00:08:27.969Z",
   "data": [
+    {
+      "id": "01jwjb5p9wk3j7q37dr34xw0ey",
+      "title": "Write down what you’ve done",
+      "url": "https://terrytao.wordpress.com/career-advice/write-down-what-youve-done/",
+      "savedAt": "2025-05-31T04:56:30.268000+00:00",
+      "description": "Composers often regret forgetting their ideas, just as mathematicians forget important tricks they didn't write down. It's helpful to sketch out interesting arguments to keep them accessible for future use and to improve your mathematical writing skills. Even incomplete ideas should be noted down, as they might be useful later, and make sure to back up your files.",
+      "tags": [
+        "writing"
+      ]
+    },
     {
       "id": "01jwgvh08ydfave21e87385nad",
       "title": "Bayes For Everyone - by Scott Alexander - Astral Codex Ten",
@@ -4055,6 +4065,7 @@
       "description": "Mathematics requires hard work, not just intelligence or sudden insights. To succeed, one must read, write, and understand details thoroughly. Enjoying your work and managing your time well are key to maintaining productivity and motivation.",
       "tags": [
         "math",
+        "favorites",
         "self-improvement"
       ]
     },
@@ -7003,8 +7014,7 @@
       "savedAt": "2024-05-05T22:46:57.998000+00:00",
       "description": "Naming something we see and benefit from every day",
       "tags": [
-        "city",
-        "favorites"
+        "city"
       ]
     },
     {
