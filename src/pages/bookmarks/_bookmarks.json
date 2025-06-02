@@ -1,6 +1,24 @@
 {
-  "lastUpdate": "2025-06-01T00:08:27.969Z",
+  "lastUpdate": "2025-06-02T00:07:21.688Z",
   "data": [
+    {
+      "id": "01jwnt6n0nj2p4rnff1yj3817t",
+      "title": "Awesome Emacs on macOS",
+      "url": "https://lmno.lol/alvaro/awesome-emacs-on-macos",
+      "savedAt": "2025-06-01T13:16:53.653000+00:00",
+      "description": "The author shares their experience using Emacs on macOS, highlighting various integrations and tweaks for improved functionality. They discuss customizing key bindings, visual elements, and tools for iOS/macOS development. The post also emphasizes the author's growing use of Emacs and Org mode, suggesting ongoing updates and support for their work.",
+      "tags": []
+    },
+    {
+      "id": "01jwmsy7r3nc00949kk7mvhr2x",
+      "title": "Crafting your environment",
+      "url": "https://ericnormand.substack.com/p/crafting-your-environment?utm_source=%2Finbox&utm_medium=reader2",
+      "savedAt": "2025-06-01T03:53:03.491000+00:00",
+      "description": "Improving your programming tools can enhance your cognitive resources, but it shouldn't consume too much time. Typing speed isn't the main bottleneck; instead, it's about how effectively you think and learn during the programming process. Small, consistent improvements to your environment can lead to greater productivity and engagement.",
+      "tags": [
+        "cs"
+      ]
+    },
     {
       "id": "01jwjb5p9wk3j7q37dr34xw0ey",
       "title": "Write down what you’ve done",
