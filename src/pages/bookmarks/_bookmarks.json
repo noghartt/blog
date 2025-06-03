@@ -1,6 +1,57 @@
 {
-  "lastUpdate": "2025-06-02T00:07:21.688Z",
+  "lastUpdate": "2025-06-03T00:07:25.953Z",
   "data": [
+    {
+      "id": "01jwrnxbmznrvrvq5mkmp9x66e",
+      "title": "Designing Error Types in Rust Libraries",
+      "url": "https://d34dl0ck.me/rust-bites-designing-error-types-in-rust-libraries/index.html",
+      "savedAt": "2025-06-02T15:59:38.143000+00:00",
+      "description": "When designing error types in Rust libraries, it's crucial to consider how they will be used by other crates and to avoid exposing inner error types that can create unwanted dependencies. Using the `thiserror` crate with boxed trait objects is recommended to encapsulate errors while providing meaningful messages. Additionally, looking at `std::io::Error` can offer valuable insights for creating structured and extensible error types.",
+      "tags": [
+        "cs/programming-languages/rust"
+      ]
+    },
+    {
+      "id": "01jwrk08nx7pc7nj7q483prgrp",
+      "title": "How We Migrated 30+ Kubernetes Clusters to Terraform",
+      "url": "https://medium.com/learnings-from-the-paas/how-we-migrated-30-kubernetes-clusters-to-terraform-cd2b1cef8b84",
+      "savedAt": "2025-06-02T15:08:47.677000+00:00",
+      "description": "The blog post details how a team migrated over 30 Kubernetes clusters from a mix of tools to Terraform using a structured and iterative approach. They focused on automation, local testing, and hands-on learning to improve their processes and reduce risks. Ultimately, this transition set them up for easier maintenance and better collaboration in future projects.",
+      "tags": [
+        "cs/devops"
+      ]
+    },
+    {
+      "id": "01jwrjsyjv5rdzm8jbxx02gzrb",
+      "title": "If you are useful, it doesn’t mean you are valued",
+      "url": "https://betterthanrandom.substack.com/p/if-you-are-useful-it-doesnt-mean",
+      "savedAt": "2025-06-02T15:05:20.731000+00:00",
+      "description": "Understanding the difference between being useful and being valued is crucial for career growth. Being useful means you complete tasks efficiently, while being valued means you influence decisions and have opportunities for development. Reflect on your role to see if you are truly valued or just seen as a reliable worker.",
+      "tags": [
+        "career"
+      ]
+    },
+    {
+      "id": "01jwrjgcv1c1qx1fjyvqz5rmbp",
+      "title": "0.9999... ≊ 1",
+      "url": "https://lcamtuf.substack.com/p/09999-1",
+      "savedAt": "2025-06-02T15:00:07.649000+00:00",
+      "description": "The debate over whether 0.9999... is equal to 1 has many people confused, despite proofs confirming their equality. Some argue that there is a difference, but mathematically, the difference is infinitesimal and effectively zero. In everyday math, we treat 0.9999... as equal to 1, even if it feels counterintuitive.",
+      "tags": [
+        "math"
+      ]
+    },
+    {
+      "id": "01jwq1t56efs1xyttww7kgabff",
+      "title": "Building a Linear Regression from Scratch with Python & Mathematics",
+      "url": "https://www.iamtk.co/building-a-linear-regression-from-scratch-with-python-and-mathematics",
+      "savedAt": "2025-06-02T00:49:07.278000+00:00",
+      "description": "This text explains how to build a linear regression model from scratch using Python, focusing on the cost function and gradient descent. It details the computation of the cost to measure model performance and the optimization of parameters to minimize this cost. The process involves iterating through training examples, updating parameters, and using vectorization for efficiency.",
+      "tags": [
+        "cs/ai",
+        "data-analytics"
+      ]
+    },
     {
       "id": "01jwnt6n0nj2p4rnff1yj3817t",
       "title": "Awesome Emacs on macOS",
@@ -3585,7 +3636,6 @@
       "savedAt": "2024-12-17T22:11:56.589000+00:00",
       "description": "SQLite uses binary search to quickly find values in an index. When querying, it reads pages and compares cell values, resulting in fewer comparisons than the worst-case scenario. Understanding how SQLite searches indexes helps us see how it manages data efficiently.",
       "tags": [
-        "for-later",
         "cs/database"
       ]
     },
@@ -3596,7 +3646,6 @@
       "savedAt": "2024-12-17T21:38:03.531000+00:00",
       "description": "Achilleas uses curl with hyperfine to benchmark web performance, but installing hyperfine globally can be inconvenient. Instead, Nix allows us to run hyperfine without global installation by creating a temporary environment. This approach is efficient and demonstrates the benefits of using Nix for quick experiments.",
       "tags": [
-        "for-later",
         "tools/nix"
       ]
     },
