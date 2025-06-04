@@ -1,6 +1,16 @@
 {
-  "lastUpdate": "2025-06-03T00:07:25.953Z",
+  "lastUpdate": "2025-06-04T00:07:40.782Z",
   "data": [
+    {
+      "id": "01jwtqqfhb9fw1b47p4f3w1g7z",
+      "title": "The Shape of the Essay Field",
+      "url": "https://paulgraham.com/field.html",
+      "savedAt": "2025-06-03T11:09:51.531000+00:00",
+      "description": "An essay should share new information that readers do not already know. There are three reasons someone might not know something: it’s unimportant, they are obtuse, or they are inexperienced. Writing for smart people about important topics often resonates more with younger readers, as they have more room for new ideas.",
+      "tags": [
+        "writing"
+      ]
+    },
     {
       "id": "01jwrnxbmznrvrvq5mkmp9x66e",
       "title": "Designing Error Types in Rust Libraries",
