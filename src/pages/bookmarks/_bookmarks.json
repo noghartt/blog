@@ -1,6 +1,27 @@
 {
-  "lastUpdate": "2025-06-04T00:07:40.782Z",
+  "lastUpdate": "2025-06-05T00:07:37.175Z",
   "data": [
+    {
+      "id": "01jwyh2fnptf9mnnmv627cc08m",
+      "title": "What Every Programmer Should Know about How CPUs Work • Matt Godbolt • GOTO 2024",
+      "url": "https://www.youtube.com/watch?v=-HNpim5x-IE",
+      "savedAt": "2025-06-04T22:30:29.814000+00:00",
+      "description": "The talk explains how CPUs process instructions and utilize techniques like out-of-order execution and branch prediction to improve performance. It also highlights the role of compilers in optimizing code for better CPU efficiency. Understanding these concepts can help programmers write better and more efficient code.",
+      "tags": [
+        "cs",
+        "hardware"
+      ]
+    },
+    {
+      "id": "01jwy3nhvqj46kq28jsqw2a8sr",
+      "title": "How Scale Makes Distributed Systems Slower • Jonathan Magen • GOTO 2024",
+      "url": "https://www.youtube.com/watch?v=GxTJ-3j9y0U",
+      "savedAt": "2025-06-04T18:36:14.583000+00:00",
+      "description": "Distributed systems can slow down when more resources are added due to the increased need for coordination. This coordination takes time and can complicate processes, leading to inefficiencies. Understanding which problems can be solved without coordination can help improve the performance of these systems.",
+      "tags": [
+        "cs/distsys"
+      ]
+    },
     {
       "id": "01jwtqqfhb9fw1b47p4f3w1g7z",
       "title": "The Shape of the Essay Field",
