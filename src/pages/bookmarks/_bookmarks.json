@@ -1,6 +1,16 @@
 {
-  "lastUpdate": "2025-06-06T00:07:32.615Z",
+  "lastUpdate": "2025-06-07T00:07:46.088Z",
   "data": [
+    {
+      "id": "01jx2hs2226vneths184vtty4t",
+      "title": "TigerBeetle 0.16.11",
+      "url": "https://jepsen.io/analyses/tigerbeetle-0.16.11",
+      "savedAt": "2025-06-06T11:59:47.266000+00:00",
+      "description": "TigerBeetle is a resilient database system that can continue operating without data loss, even if some replicas fail. However, it has issues with high latencies during single-node failures and can produce indefinite errors due to its retry mechanism. Recent tests have revealed safety concerns and performance problems that need to be addressed.",
+      "tags": [
+        "cs/distsys"
+      ]
+    },
     {
       "id": "01jwyh2fnptf9mnnmv627cc08m",
       "title": "What Every Programmer Should Know about How CPUs Work • Matt Godbolt • GOTO 2024",
@@ -11751,7 +11761,6 @@
       "description": "P(A|B) = [P(A)*P(B|A)]/P(B), all the rest is commentary.",
       "tags": [
         "favorites",
-        "for-later",
         "math/statistics",
         "math/probability"
       ]
