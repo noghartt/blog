@@ -1,6 +1,67 @@
 {
-  "lastUpdate": "2025-06-07T00:07:46.088Z",
+  "lastUpdate": "2025-06-09T00:07:38.905Z",
   "data": [
+    {
+      "id": "01jx8ykd6s53xqbd6xexm7pe9h",
+      "title": "Just fucking code.",
+      "url": "https://www.justfuckingcode.com/",
+      "savedAt": "2025-06-08T23:39:20.153000+00:00",
+      "description": "Programming is not as hard as people make it seem, and relying too much on AI tools can hinder your skills. Many who call themselves developers lack basic coding knowledge and produce poor-quality work. To succeed, focus on understanding and writing code yourself instead of depending solely on AI.",
+      "tags": [
+        "cs"
+      ]
+    },
+    {
+      "id": "01jx88fh0jek066t70kygw4mcv",
+      "title": "What's the big deal about Deterministic Simulation Testing?",
+      "url": "https://notes.eatonphil.com/2024-08-20-deterministic-simulation-testing.html",
+      "savedAt": "2025-06-08T17:12:44.306000+00:00",
+      "description": "Deterministic Simulation Testing (DST) helps find bugs in distributed systems by controlling randomness and simulating interactions on a single thread. This method allows developers to test how their code behaves under various conditions while injecting faults to mimic real-world issues. Although DST is powerful, it requires careful setup and cannot test everything without mocking external systems.",
+      "tags": [
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "01jx7xkmc7tmg5hgswc2xrg1v5",
+      "title": "How can one write blazing fast yet useful compilers (for lazy pure functional languages)?",
+      "url": "https://lobste.rs/s/e8abqn",
+      "savedAt": "2025-06-08T14:02:44.487000+00:00",
+      "description": "The author wants to create a fast compiler for a basic lazy statically-typed functional programming language, similar to Haskell. They aim for the compiler to handle large codebases quickly, ideally completing builds in milliseconds on a mid-range laptop. The author seeks advice on optimizing various compiler phases and has specific constraints like indentation-sensitive syntax and portable bootstrapping.",
+      "tags": [
+        "cs/compilers",
+        "programming-languages"
+      ]
+    },
+    {
+      "id": "01jx7wjz4w1t8pqs1g3faw22yj",
+      "title": "Self-Host & Tech Independence: The Joy of Building Your Own",
+      "url": "https://www.ssp.sh/blog/self-host-self-independence/",
+      "savedAt": "2025-06-08T13:44:54.172000+00:00",
+      "description": "The article discusses the benefits of self-hosting and building your own tech, inspired by the author’s experiences with open-source projects and Linux. It highlights the joy and independence that come from creating personalized solutions instead of relying on big tech companies. Sharing knowledge and tools within the open-source community enhances learning and fosters collaboration among like-minded individuals.",
+      "tags": [
+        "homelab"
+      ]
+    },
+    {
+      "id": "01jx7t3p6w9y5bds34106tdp2s",
+      "title": "a timeline -- V3.1",
+      "url": "https://jeffreykegler.github.io/personal/timeline_v3",
+      "savedAt": "2025-06-08T13:01:36.348000+00:00",
+      "description": "This text outlines the development of parsing techniques from the early 20th century to 2004, highlighting key algorithms and milestones. It discusses how parsing has evolved from basic operator expression parsing to more complex methods like Knuth's LR parsing. The journey shows the ongoing challenges in creating efficient and practical parsers, as well as the influence of mathematical concepts on parsing theory.",
+      "tags": [
+        "cs/parsers"
+      ]
+    },
+    {
+      "id": "01jx5x84tacstgq2dbd1fp5nmy",
+      "title": "Can We Rely On Timers For Distributed Algorithms?",
+      "url": "https://emptysqua.re/blog/timers-distributed-algorithms/",
+      "savedAt": "2025-06-07T19:17:59.242000+00:00",
+      "description": "Timers in distributed algorithms can be trusted if a proper safety margin is applied to account for clock drift and inaccuracies. While there are concerns about timer reliability, especially in asynchronous systems, a bounded inaccuracy model allows for more efficient protocols. Overall, with careful design, timers can support consistent operations in distributed systems like Raft and MongoDB.",
+      "tags": [
+        "cs/distsys"
+      ]
+    },
     {
       "id": "01jx2hs2226vneths184vtty4t",
       "title": "TigerBeetle 0.16.11",
