@@ -1,6 +1,26 @@
 {
-  "lastUpdate": "2025-06-09T00:07:38.905Z",
+  "lastUpdate": "2025-06-13T00:07:43.129Z",
   "data": [
+    {
+      "id": "01jxadqyhhf43dkvqgxsh0dpmz",
+      "title": "A Brief Tour of FLP Impossibility",
+      "url": "https://www.the-paper-trail.org/post/2008-08-13-a-brief-tour-of-flp-impossibility/",
+      "savedAt": "2025-06-09T13:23:12.049000+00:00",
+      "description": "The paper \"Impossibility of Distributed Consensus with One Faulty Process\" shows that achieving consensus in an asynchronous system is impossible, even with reliable communication links. It proves that there will always be an initial configuration where no processor can decide on a value due to message delays or failures. This result highlights the limitations of consensus algorithms in distributed computing environments.",
+      "tags": [
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "01jxa7tz9a4nqnbcw65m9zg0na",
+      "title": "atl.wiki",
+      "url": "https://atl.wiki/",
+      "savedAt": "2025-06-09T11:39:59.658000+00:00",
+      "description": "atl.wiki is a wiki created by the All Things Linux non-profit organization, offering resources and support for Linux users of all levels. Anyone can contribute by editing pages, improving content, and following the site's guidelines. For support or questions, users can connect through the Discord server or the contact options available on the site.",
+      "tags": [
+        "os/linux"
+      ]
+    },
     {
       "id": "01jx8ykd6s53xqbd6xexm7pe9h",
       "title": "Just fucking code.",
