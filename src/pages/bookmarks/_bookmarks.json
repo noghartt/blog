@@ -1,6 +1,17 @@
 {
-  "lastUpdate": "2025-06-13T00:07:43.129Z",
+  "lastUpdate": "2025-06-14T00:07:31.597Z",
   "data": [
+    {
+      "id": "01jxkn2p7x1qej2xh2jz25w8mj",
+      "title": "Notes on Managing ADHD",
+      "url": "https://borretti.me/article/notes-on-managing-adhd",
+      "savedAt": "2025-06-13T03:24:33.917000+00:00",
+      "description": "The text provides strategies for managing ADHD, emphasizing the importance of using a todo list to form habits and stay organized. It suggests journaling for introspection and understanding procrastination patterns, while also recommending centralizing tasks to avoid distractions. Finally, it highlights the need to control the environment and minimize interruptions to enhance productivity.",
+      "tags": [
+        "favorites",
+        "self-improvement"
+      ]
+    },
     {
       "id": "01jxadqyhhf43dkvqgxsh0dpmz",
       "title": "A Brief Tour of FLP Impossibility",
