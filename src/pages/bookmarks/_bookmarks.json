@@ -1,6 +1,36 @@
 {
-  "lastUpdate": "2025-06-14T00:07:31.597Z",
+  "lastUpdate": "2025-06-15T00:07:50.718Z",
   "data": [
+    {
+      "id": "01jxr39613v05wz7xygh7qmsfe",
+      "title": "ADRs.",
+      "url": "https://www.beflagrant.com/blog/adrs",
+      "savedAt": "2025-06-14T20:49:44.483000+00:00",
+      "description": "Architecture Decision Records (ADRs) help document significant decisions made during a project, providing context, the decision itself, and its consequences. This approach clarifies why decisions were made and how they may impact future changes in the system. By using a standard format, ADRs make it easier for current and future team members to understand the reasoning behind architectural choices.",
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "id": "01jxqsw4q8036xcp3ywbyx95b1",
+      "title": "Conformance Checking at MongoDB: Testing That Our Code Matches Our TLA+ Specs",
+      "url": "https://emptysqua.re/blog/mongodb-conformance-checking/",
+      "savedAt": "2025-06-14T18:05:19.976000+00:00",
+      "description": "The author discusses a project to ensure that MongoDB's implementation matches its TLA+ specifications using a method called trace-checking. They faced challenges because the specifications were abstract and not aligned with the implementation, making it difficult to verify conformance. The author suggests that starting with closely aligned specs and implementations would improve the process.",
+      "tags": [
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "01jxqqc3xenz4hr9abr3z61xse",
+      "title": "How Long Must I Test?",
+      "url": "https://emptysqua.re/blog/how-long-must-i-test/",
+      "savedAt": "2025-06-14T17:21:37.710000+00:00",
+      "description": "When testing for bugs in nondeterministic programs, it is important to run tests multiple times with different inputs to find rare issues. A new method called Probabilistic Concurrency Testing (PCT) efficiently identifies bugs by controlling thread scheduling. Many engineers lack knowledge about effective randomized testing, which can lead to missed bugs in distributed systems.",
+      "tags": [
+        "cs/distsys"
+      ]
+    },
     {
       "id": "01jxkn2p7x1qej2xh2jz25w8mj",
       "title": "Notes on Managing ADHD",
