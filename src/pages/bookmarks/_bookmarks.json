@@ -1,6 +1,16 @@
 {
-  "lastUpdate": "2025-06-17T00:07:40.763Z",
+  "lastUpdate": "2025-06-18T00:07:30.023Z",
   "data": [
+    {
+      "id": "01jxzqhbvvrv6a1z1sybf76rp0",
+      "title": "Double-Entry Ledgers: The Missing Primitive in Modern Software",
+      "url": "https://www.pgrs.net/2025/06/17/double-entry-ledgers-missing-primitive-in-modern-software/",
+      "savedAt": "2025-06-17T19:58:25.147000+00:00",
+      "description": "Double-entry ledgers are often overlooked in modern software, but they can simplify complex systems by providing a clear structure for tracking changes over time. The author is developing pgledger, a PostgreSQL implementation, to encourage more developers to adopt this useful modeling technique. By using ledgers, applications can easily manage various transactions, track balances, and audit changes without adding unnecessary complexity.",
+      "tags": [
+        "cs/database"
+      ]
+    },
     {
       "id": "01jxr39613v05wz7xygh7qmsfe",
       "title": "ADRs.",
