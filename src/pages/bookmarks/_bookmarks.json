@@ -1,6 +1,26 @@
 {
-  "lastUpdate": "2025-06-18T00:07:30.023Z",
+  "lastUpdate": "2025-06-19T00:07:32.398Z",
   "data": [
+    {
+      "id": "01jy2k5gqgyw183a09sm36x5s4",
+      "title": "Graphical Linear Algebra",
+      "url": "https://graphicallinearalgebra.net/",
+      "savedAt": "2025-06-18T22:39:45.904000+00:00",
+      "description": "Graphical Linear Algebra is a blog that explains linear algebra using diagrams and geometry. It offers many episodes covering topics like matrices, relations, and fractions in a visual way. The blog invites students and researchers to explore and contribute to this ongoing work.",
+      "tags": [
+        "math/linear-algebra"
+      ]
+    },
+    {
+      "id": "01jy2j4wrdhkp6yrnte55a6yn8",
+      "title": "I wrote a compiler",
+      "url": "https://blog.singleton.io/posts/2021-01-31-i-wrote-a-compiler/",
+      "savedAt": "2025-06-18T22:21:56.877000+00:00",
+      "description": "The author, who has a Computer Science degree, wrote a simple compiler called \"toybasic\" for a variant of BASIC on a rainy weekend. The compiler is written in Go and converts BASIC code into Go code, featuring a lexer, parser, and compiler stages. The project was both educational and enjoyable, allowing the author to revisit their first programming experiences.",
+      "tags": [
+        "cs/compilers"
+      ]
+    },
     {
       "id": "01jxzqhbvvrv6a1z1sybf76rp0",
       "title": "Double-Entry Ledgers: The Missing Primitive in Modern Software",
