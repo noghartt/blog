@@ -1,6 +1,74 @@
 {
-  "lastUpdate": "2025-06-19T00:07:32.398Z",
+  "lastUpdate": "2025-06-20T00:07:40.667Z",
   "data": [
+    {
+      "id": "01jy4tvnpr878n4e9wydhys0sg",
+      "title": "Homomorphically Encrypting CRDTs",
+      "url": "https://jakelazaroff.com/words/homomorphically-encrypted-crdts/",
+      "savedAt": "2025-06-19T19:32:40.791000+00:00",
+      "description": "Homomorphic encryption allows computers to perform operations on encrypted data without needing to decrypt it first. This article discusses building a homomorphically encrypted CRDT, which is a type of data structure, using a Rust library called THFE-rs. However, there are significant limitations, as operations with homomorphic encryption can be extremely slow and resource-intensive.",
+      "tags": [
+        "cs/distsys",
+        "cs/security"
+      ]
+    },
+    {
+      "id": "01jy4t6exnxkt8c6gbqy0rzhad",
+      "title": "In Praise of “Normal” Engineers",
+      "url": "https://charity.wtf/2025/06/19/in-praise-of-normal-engineers/",
+      "savedAt": "2025-06-19T19:21:05.717000+00:00",
+      "description": "Great engineering teams succeed because normal engineers work well together, not just because of rare \"10x\" stars. Building strong teams and good systems helps everyone contribute and improve. The best companies help regular engineers grow into world-class talent over time.",
+      "tags": [
+        "career"
+      ]
+    },
+    {
+      "id": "01jy35ns5qxc7dw535f8ge4yq5",
+      "title": "Monads are not like burritos",
+      "url": "https://byorgey.github.io/blog/posts/2025/06/16/monads-are-not-burritos.html",
+      "savedAt": "2025-06-19T04:03:13.207000+00:00",
+      "description": "The author argues that the popular \"monads are burritos\" analogy is misleading and unhelpful for learning about monads. They explain that monads do not always \"contain\" values in a simple way like burritos, so the analogy breaks down. Despite being a joke, some people still take the analogy seriously, which causes confusion.",
+      "tags": [
+        "cs/functional-programming"
+      ]
+    },
+    {
+      "id": "01jy35ev8a91szx8cg5nqe5qnj",
+      "title": "react/compiler/packages/babel-plugin-react-compiler/src/Inference/MUTABILITY_ALIASING_MODEL.md at main · facebook/react",
+      "url": "https://github.com/facebook/react/blob/main/compiler/packages/babel-plugin-react-compiler/src/Inference/MUTABILITY_ALIASING_MODEL.md",
+      "savedAt": "2025-06-19T03:59:25.962000+00:00",
+      "description": "The mutability and aliasing model tracks which values change together and how those changes happen in code. It uses effects like Create, Mutate, Alias, and Capture to describe how data flows and mutates. This helps React understand and optimize updates by grouping related mutations into reactive scopes.",
+      "tags": []
+    },
+    {
+      "id": "01jy2wqs621mgcyt78qjz6n6db",
+      "title": "Retries",
+      "url": "https://justinblank.com/notebooks/retries.html",
+      "savedAt": "2025-06-19T01:27:01.569000+00:00",
+      "description": "Retries in web clients are commonly used to handle failures, but they can worsen overload conditions by increasing traffic. Circuit breakers can help, but they may not always work effectively in distributed systems where some requests succeed while others fail. Instead of just relying on retries, using strategies like token buckets and deadline propagation can improve performance during overload situations.",
+      "tags": []
+    },
+    {
+      "id": "01jy2vw6mz9fg22h3xe1dg6576",
+      "title": "Building Effective AI Agents",
+      "url": "https://www.anthropic.com/engineering/building-effective-agents",
+      "savedAt": "2025-06-19T01:11:57.855000+00:00",
+      "description": "Anthropic has learned from working with various teams to build effective AI agents using large language models (LLMs). They differentiate between workflows, which follow predefined paths, and agents that operate flexibly and autonomously. The article provides practical advice for developers on choosing the right approach and emphasizes the importance of simplicity and effective design in building these systems.",
+      "tags": [
+        "llm",
+        "cs/ai"
+      ]
+    },
+    {
+      "id": "01jy2rye8mfd541h5azek261mv",
+      "title": "Time Series Forecasting with Graph Transformers",
+      "url": "https://kumo.ai/research/time-series-forecasting/",
+      "savedAt": "2025-06-19T00:20:45.459000+00:00",
+      "description": "This blog explains how to forecast time series data using graph transformers that consider connections between related data points. It shows how to build a model that uses both past data and graph information to predict future values. The post also compares simple regression forecasts with more detailed generative forecasts, highlighting their strengths.",
+      "tags": [
+        "cs/database"
+      ]
+    },
     {
       "id": "01jy2k5gqgyw183a09sm36x5s4",
       "title": "Graphical Linear Algebra",
