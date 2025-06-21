@@ -1,6 +1,69 @@
 {
-  "lastUpdate": "2025-06-20T00:07:40.667Z",
+  "lastUpdate": "2025-06-21T00:07:32.592Z",
   "data": [
+    {
+      "id": "01jy7qg9ynrzn3eentkt9fg8kk",
+      "title": "Career advice, or something like it",
+      "url": "https://brooker.co.za/blog/2025/06/20/career.html",
+      "savedAt": "2025-06-20T22:31:45.877000+00:00",
+      "description": "Avoid spending time in negative groups where people only complain. Focus on positive communities and people who inspire you. Use your energy to do good work and enjoy life outside of work.",
+      "tags": [
+        "career",
+        "favorites"
+      ]
+    },
+    {
+      "id": "01jy7ehxc3b14evcefh6yndfcg",
+      "title": "What I talk about when I talk about IRs",
+      "url": "https://bernsteinbear.com/blog/irs/",
+      "savedAt": "2025-06-20T19:55:21.347000+00:00",
+      "description": "Compiler intermediate representations (IRs break down complex code into simpler parts to help optimization. Different IR styles, like stack-based or register-based, affect how instructions and data flow are handled. Advanced IRs can explicitly show data and control dependencies to improve analysis and transformation.",
+      "tags": [
+        "cs/compilers",
+        "cs/programming-languages"
+      ]
+    },
+    {
+      "id": "01jy6sdy8nsx326w1zzngrhhah",
+      "title": "Variables Pt. 2",
+      "url": "https://makefiletutorial.com/",
+      "savedAt": "2025-06-20T13:46:11.092000+00:00",
+      "description": "Makefiles help decide which parts of a program need recompiling based on changed files. They use rules with targets and prerequisites to run commands only when needed. Makefiles also support features like automatic variables, wildcards, and including other files to manage complex projects efficiently.",
+      "tags": [
+        "cs"
+      ]
+    },
+    {
+      "id": "01jy5vk3cw0djxt9xrqkbsv2yy",
+      "title": "We Can Just Measure Things",
+      "url": "https://lucumr.pocoo.org/2025/6/17/measuring/",
+      "savedAt": "2025-06-20T05:04:42.908000+00:00",
+      "description": "Armin Ronacher reflects on a recent project where he and friends experimented with programming agents. He emphasizes the importance of measuring code quality and project health using these agents, as they can provide objective feedback without the emotional bias of human developers. Ronacher argues that better tools, documentation, and ecosystem stability benefit both agents and human programmers alike.",
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "id": "01jy5v30zn7y3q9myx7yj4wkty",
+      "title": "More frontend web tricks",
+      "url": "https://kaiwenwang.com/writing/more-frontend-web-tricks",
+      "savedAt": "2025-06-20T04:55:56.148000+00:00",
+      "description": "The author shares practical tips for improving website usability on different devices and browsers. They emphasize clear design, responsive layouts, and meaningful icons to enhance user experience. The text also discusses how marketing and presentation affect app success despite product quality.",
+      "tags": [
+        "web",
+        "design"
+      ]
+    },
+    {
+      "id": "01jy5rc69j4a82eqy1beqre5z0",
+      "title": "56 Responses to “Guess I’m A Rationalist Now”",
+      "url": "https://scottaaronson.blog/?p=8908",
+      "savedAt": "2025-06-20T04:08:30.769000+00:00",
+      "description": "Scott Aaronson attended a Rationalist conference and realized he identifies as a Rationalist after many years. He explains why he hesitated before, including cultural differences and fear of judgment. Despite criticism, he sees the Rationalist community as vibrant, thoughtful, and growing.",
+      "tags": [
+        "philosophy/rationalism"
+      ]
+    },
     {
       "id": "01jy4tvnpr878n4e9wydhys0sg",
       "title": "Homomorphically Encrypting CRDTs",
