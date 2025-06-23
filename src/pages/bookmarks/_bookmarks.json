@@ -1,6 +1,58 @@
 {
-  "lastUpdate": "2025-06-22T00:07:42.224Z",
+  "lastUpdate": "2025-06-23T00:07:40.533Z",
   "data": [
+    {
+      "id": "01jycsc61gfc17mycnrpwndrk5",
+      "title": "What is cosh(List(Bool))? Or beyond algebra: analysis of data types.",
+      "url": "https://cofault.com/aodt.html",
+      "savedAt": "2025-06-22T21:40:40.111000+00:00",
+      "description": "The text explores the mathematical structures of data types, particularly lists and trees, using algebraic expressions. It shows how lists can be represented with functions and how different types of collections, like bags and sets, have distinct combinatorial properties. The author concludes that there is a strong relationship between bags of rings and lists, suggesting deep connections in type theory.",
+      "tags": [
+        "cs/pl-theory"
+      ]
+    },
+    {
+      "id": "01jyby49qtc6vy4ww9swnx260j",
+      "title": "Git Notes: git's coolest, most unloved feature",
+      "url": "https://tylercipriani.com/blog/2022/11/19/git-notes-gits-coolest-most-unloved-feature/",
+      "savedAt": "2025-06-22T13:44:30.202000+00:00",
+      "description": "Git notes are powerful tools for adding metadata to commits in a Git repository. They can be used to track time spent, code reviews, and testing information. Despite being underutilized due to usability issues, Git notes have the potential to enhance collaboration and project history.",
+      "tags": [
+        "tools/git"
+      ]
+    },
+    {
+      "id": "01jyb4jr41yvsy961dcaca5j0x",
+      "title": "Estrogen: A trip report",
+      "url": "https://smoothbrains.net/posts/2025-06-15-estrogen.html",
+      "savedAt": "2025-06-22T06:18:00.705000+00:00",
+      "description": "Estrogen affects the brain by changing receptors linked to mood and perception, making people feel more embodied and less sensitive to sensory issues. For those with gender dysphoria, estrogen can reduce feelings of depersonalization and improve wellbeing. The author suggests estrogen acts like a mild psychedelic, reshaping body awareness and helping with psychological and sensory challenges.",
+      "tags": [
+        "biohack",
+        "chemistry"
+      ]
+    },
+    {
+      "id": "01jyb43t40b3xpqtrspms0d5c9",
+      "title": "Of Course ML Has Monads!",
+      "url": "https://existentialtype.wordpress.com/2011/05/01/of-course-ml-has-monads/",
+      "savedAt": "2025-06-22T06:09:51.232000+00:00",
+      "description": "The article argues that while Haskell is known for its use of monads, ML can also implement them using its module system. Monads in ML are just a specific way to structure programs, and creating them involves library design rather than language limitations. The author suggests that while monads can be useful, they are not inherently necessary or better in ML compared to Haskell.",
+      "tags": [
+        "cs/functional-programming"
+      ]
+    },
+    {
+      "id": "01jyafbew7f72cqsdmxnqkh86b",
+      "title": "How do Transistors Work?  How are Transistors Assembled Inside a CPU?",
+      "url": "https://www.youtube.com/watch?v=_Pqfjer8-O4",
+      "savedAt": "2025-06-22T00:07:01.767000+00:00",
+      "description": "Transistors inside a CPU work like tiny switches that control electricity to perform logic operations. Many transistors connect to form standard cells, which are like Lego bricks building complex circuits. These cells combine to create the CPU's functions, using billions of transistors organized with layers of wires.",
+      "tags": [
+        "hardware",
+        "electronics"
+      ]
+    },
     {
       "id": "01jy7qg9ynrzn3eentkt9fg8kk",
       "title": "Career advice, or something like it",
