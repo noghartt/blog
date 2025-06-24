@@ -1,6 +1,16 @@
 {
-  "lastUpdate": "2025-06-23T00:07:40.533Z",
+  "lastUpdate": "2025-06-24T00:07:32.584Z",
   "data": [
+    {
+      "id": "01jyetbd3xtm90b8yqnt76w66z",
+      "title": "The Halting Problem is a terrible example of NP-Harder",
+      "url": "https://buttondown.com/hillelwayne/archive/the-halting-problem-is-a-terrible-example-of-np/",
+      "savedAt": "2025-06-23T16:36:12.029000+00:00",
+      "description": "The halting problem is often used as an example of an NP-hard problem, but this is confusing and not ideal. There are problems harder than NP that are still decidable and easier to explain, like certain grid token movement puzzles. These problems show complexity beyond NP without jumping directly to undecidability like the halting problem.",
+      "tags": [
+        "cs/computation-theory"
+      ]
+    },
     {
       "id": "01jycsc61gfc17mycnrpwndrk5",
       "title": "What is cosh(List(Bool))? Or beyond algebra: analysis of data types.",
@@ -1537,7 +1547,6 @@
       "savedAt": "2025-04-18T19:35:36.058000+00:00",
       "description": "Marc Brooker discusses how the common belief that one queue is better than two can be misleading. In some situations, like using a restroom with different facilities, having separate queues can actually reduce wait times. The key factor is whether people have a strong preference for what they want to use, which can affect how efficiently the queues are utilized.",
       "tags": [
-        "for-later",
         "cs/distsys",
         "math/queueing-theory"
       ]
@@ -5516,7 +5525,8 @@
       "description": "Gödel, Escher, Bach: An Eternal Golden Braid (henceforth: GEB), the Pulitzer Prize winning book written in 1978 by Douglas Hofstadter, is described in its cryptic tagline as “a metaphorical fugue on…",
       "tags": [
         "math",
-        "books"
+        "books",
+        "favorites"
       ]
     },
     {
