@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-06-24T00:07:32.584Z",
+  "lastUpdate": "2025-06-25T00:07:49.516Z",
   "data": [
     {
       "id": "01jyetbd3xtm90b8yqnt76w66z",
@@ -1379,7 +1379,6 @@
       "savedAt": "2025-04-18T21:51:37.290000+00:00",
       "description": "Antithesis is a powerful testing tool that helps developers find hidden bugs in complex systems through deterministic simulation and fault injection. It allows for the creation of varied test scenarios without needing to rewrite existing software, making testing more efficient and comprehensive. With Antithesis, developers can focus on high-level properties, evolving their test suites to continuously improve software reliability.",
       "tags": [
-        "for-later",
         "cs/distsys"
       ]
     },
