@@ -1,6 +1,45 @@
 {
-  "lastUpdate": "2025-06-27T00:08:47.945Z",
+  "lastUpdate": "2025-06-28T00:08:21.874Z",
   "data": [
+    {
+      "id": "01jyqv739j6q373qha2zbjh374",
+      "title": "How to Think About Time in Programming",
+      "url": "https://shanrauf.com/archive/how-to-think-about-time-in-programming",
+      "savedAt": "2025-06-27T04:44:29.362000+00:00",
+      "description": "UTC is a global time standard that helps keep clocks in sync worldwide. Timezones adjust UTC to match local sun positions, but their rules can change unpredictably. Because of leap seconds and shifting rules, handling time in programming is complex and requires up-to-date data.",
+      "tags": [
+        "cs"
+      ]
+    },
+    {
+      "id": "01jyqv6g36m15dszdc7f4rs9kf",
+      "title": "Stateful workload operator: stateful systems on Kubernetes at LinkedIn",
+      "url": "https://www.linkedin.com/blog/engineering/infrastructure/stateful-workload-operator-stateful-systems-on-kubernetes-at-linkedin",
+      "savedAt": "2025-06-27T04:44:09.701000+00:00",
+      "description": "LinkedIn is transitioning to Kubernetes for managing stateful applications and host lifecycle maintenance, moving away from their custom scheduler. They have developed a Stateful Workload Operator that simplifies lifecycle management by centralizing orchestration tasks, allowing teams to focus on application health. This new approach improves consistency and reduces operational overhead while ensuring seamless integration with Kubernetes and infrastructure layers.",
+      "tags": []
+    },
+    {
+      "id": "01jyqv277h9q23gv8v6hpecjpn",
+      "title": "Learnings from building AI agents",
+      "url": "https://www.cubic.dev/blog/learnings-from-building-ai-agents",
+      "savedAt": "2025-06-27T04:41:49.553000+00:00",
+      "description": "The AI code review agent was too noisy and gave many false positives at first. By making the AI explain its reasoning and using specialized smaller agents, the team cut false positives by 51%. This made code reviews clearer, faster, and more trusted by developers.",
+      "tags": [
+        "llm",
+        "cs/ai"
+      ]
+    },
+    {
+      "id": "01jyqv020kp1nvm04tdwztq7pk",
+      "title": "How much code does that proc macro generate?",
+      "url": "https://nnethercote.github.io/2025/06/26/how-much-code-does-that-proc-macro-generate.html",
+      "savedAt": "2025-06-27T04:40:38.674000+00:00",
+      "description": "Rust proc macros can greatly increase code size and slow compile times. A new Rust compiler flag, -Zmacro-stats, helps measure how much code proc macros generate. Knowing this helps developers optimize macros and reduce compile time.",
+      "tags": [
+        "cs/programming-languages/rust"
+      ]
+    },
     {
       "id": "01jyetbd3xtm90b8yqnt76w66z",
       "title": "The Halting Problem is a terrible example of NP-Harder",
