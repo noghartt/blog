@@ -1,6 +1,27 @@
 {
-  "lastUpdate": "2025-06-29T00:08:55.230Z",
+  "lastUpdate": "2025-06-30T00:08:44.398Z",
   "data": [
+    {
+      "id": "01jyy9vsk02a90wre242pp9p10",
+      "title": "Bloom Filters by Example",
+      "url": "https://llimllib.github.io/bloomfilter-tutorial/",
+      "savedAt": "2025-06-29T16:55:54.208000+00:00",
+      "description": "A Bloom filter is a fast and memory-efficient data structure to check if an element is in a set. It uses hash functions to set bits in a bit vector to indicate presence. The size and number of hash functions affect the efficiency and error rate of a Bloom filter.",
+      "tags": [
+        "cs/database",
+        "cs/data-structures"
+      ]
+    },
+    {
+      "id": "01jywsfa6bddd11k6hvp4nvres",
+      "title": "My experience using financial commitments to overcome akrasia",
+      "url": "https://www.lesswrong.com/posts/DRrAMiekmqwDjnzS5/my-experience-using-financial-commitments-to-overcome",
+      "savedAt": "2025-06-29T02:50:13.579000+00:00",
+      "description": "The author uses financial commitments to motivate himself and overcome procrastination. He sets small penalties for failing tasks, making habits easier to keep and plans better. This method helps him focus on important work and daily habits by reducing distractions and increasing accountability.",
+      "tags": [
+        "self-improvement"
+      ]
+    },
     {
       "id": "01jyvs9sttqx7gcz4smw5zm92w",
       "title": "My TRT Lite Protocol",
@@ -3089,7 +3110,6 @@
       "description": "Copyright: Belongs to Handmade Seattle (https ://vimeo.com/649009599). I'm not the owner of the video and hold no copyright.  And the video is not monetized.\n\nIn this video Andrew Kelley (creator of Zig programming language) explains various strategies one can use to reduce memory footprint of programs while also making the program cache friendly which increase throughput.\n\nAt the end he presents a case study where DoD principles are used in Zig compiler for faster compilation.\n\nReferences:\n\n- CppCon 2014: Mike Acton \"Data-Oriented Design and C++\": youtube.com/watch?v=rX0ItVEVjHc\n- Handmade Seattle: handmade-seattle.com/\n- Richard Fabian, 'Data-Oriented Design': dataorienteddesign.com/dodbook/\n- IT Hare, 'Infographics: Operation Costs in CPU Clock Cycles': ithare.com/infographics-operation-costs-in-cpu-clock-cycles/\n- The Brain Dump, 'Handles are the better pointers': floooh.github.io/2018/06/17/handles-vs-pointers.html",
       "tags": [
         "cs",
-        "for-later",
         "type/video"
       ]
     },
