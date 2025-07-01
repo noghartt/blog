@@ -1,6 +1,17 @@
 {
-  "lastUpdate": "2025-06-30T00:08:44.398Z",
+  "lastUpdate": "2025-07-01T00:09:14.841Z",
   "data": [
+    {
+      "id": "01jz11hdrhxpv7n4wg0g3s9fhe",
+      "title": "Unnamed Document",
+      "url": "https://raw.githack.com/effectfully/inference-in-agda/master/InferenceInAgda.html",
+      "savedAt": "2025-06-30T18:28:09.105000+00:00",
+      "description": "Agda uses unification to infer types by turning unknowns into metavariables and checking them. Haskell infers types too but gives errors if some types cannot be found, unlike Agda. Agda is more flexible and can defer type problems to later, allowing more implicit variables.",
+      "tags": [
+        "cs",
+        "type-theory"
+      ]
+    },
     {
       "id": "01jyy9vsk02a90wre242pp9p10",
       "title": "Bloom Filters by Example",
