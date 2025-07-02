@@ -1,6 +1,17 @@
 {
-  "lastUpdate": "2025-07-01T00:09:14.841Z",
+  "lastUpdate": "2025-07-02T00:08:31.985Z",
   "data": [
+    {
+      "id": "01jz3813h3rf832c6rgt00qwhd",
+      "title": "Queuing Theory on a Cocktail Napkin by Dan Slimmon | DC Systems 007",
+      "url": "https://www.youtube.com/watch?v=tcfyDJgLOVc",
+      "savedAt": "2025-07-01T15:00:03.235000+00:00",
+      "description": "A queuing system has five key parts: servers, a queue, a way to decide order, arrivals, and processing. Queues are everywhere, and you cannot get rid of them, only move or manage them. Understanding queuing theory helps predict wait times and system behavior better.",
+      "tags": [
+        "cs",
+        "math/queueing-theory"
+      ]
+    },
     {
       "id": "01jz11hdrhxpv7n4wg0g3s9fhe",
       "title": "Unnamed Document",
