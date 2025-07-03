@@ -1,6 +1,16 @@
 {
-  "lastUpdate": "2025-07-02T00:08:31.985Z",
+  "lastUpdate": "2025-07-03T00:08:44.059Z",
   "data": [
+    {
+      "id": "01jz4jbemeznjj1j1n52hdz67b",
+      "title": "From Python Programmer to Distributed Systems Researcher in 10 Years Without a PhD",
+      "url": "https://emptysqua.re/blog/from-python-programmer-to-distributed-systems-researcher-in-10-years/",
+      "savedAt": "2025-07-02T03:19:42.478000+00:00",
+      "description": "The author started as a self-taught programmer interested in 3D graphics and later worked with Python and MongoDB. Over ten years, he learned about distributed systems by reading research papers and joining a research team, despite not having a PhD. Now, he is a senior research engineer contributing to distributed systems at MongoDB.",
+      "tags": [
+        "career"
+      ]
+    },
     {
       "id": "01jz3813h3rf832c6rgt00qwhd",
       "title": "Queuing Theory on a Cocktail Napkin by Dan Slimmon | DC Systems 007",
