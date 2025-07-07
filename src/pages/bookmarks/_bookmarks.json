@@ -1,6 +1,37 @@
 {
-  "lastUpdate": "2025-07-06T00:09:05.286Z",
+  "lastUpdate": "2025-07-07T00:08:39.910Z",
   "data": [
+    {
+      "id": "01jzgrz40yz2pacmmg835vt6mm",
+      "title": "Logical Quantifiers in Software",
+      "url": "https://buttondown.com/hillelwayne/archive/logical-quantifiers-in-software/",
+      "savedAt": "2025-07-06T21:06:11.614000+00:00",
+      "description": "Logical quantifiers like \"all\" and \"some\" help us express properties about sets and are useful in programming. They simplify code and can describe things like tests, database rules, and software behavior. Understanding quantifiers makes it easier to write clear and correct programs.",
+      "tags": [
+        "cs",
+        "math/logic"
+      ]
+    },
+    {
+      "id": "01jzg2rh4tctcwdfa100egr996",
+      "title": "Lies we tell ourselves to keep using Golang",
+      "url": "https://fasterthanli.me/articles/lies-we-tell-ourselves-to-keep-using-golang",
+      "savedAt": "2025-07-06T14:38:07.002000+00:00",
+      "description": "Go is easy to learn but lets many errors slip through, making careful coding hard. Companies use Go because it has good tools and many existing projects, not always because it’s the best choice. Using Go can create complex problems and extra work that other languages might avoid.",
+      "tags": [
+        "cs/programming-languages/go"
+      ]
+    },
+    {
+      "id": "01jzevftmv1wj210bjzy1zyagd",
+      "title": "How to Network as an Introvert",
+      "url": "https://aginfer.bearblog.dev/how-to-network-as-an-introvert/",
+      "savedAt": "2025-07-06T03:11:47.355000+00:00",
+      "description": "Networking as an introvert works best with simple steps that fit your style. Prepare before events, listen carefully, and make small, meaningful connections. Show confidence, be genuine, and follow up to build real relationships.",
+      "tags": [
+        "self-improvement"
+      ]
+    },
     {
       "id": "01jzdqx5hhsppnmn0pmh8e07d2",
       "title": "A Smart Guide to Choosing the Right Antidepressant",
