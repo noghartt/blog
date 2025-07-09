@@ -1,6 +1,17 @@
 {
-  "lastUpdate": "2025-07-08T00:08:30.397Z",
+  "lastUpdate": "2025-07-09T00:08:36.730Z",
   "data": [
+    {
+      "id": "01jznrh3vbeg1svw0vb18zj6hw",
+      "title": "RE//verse 2025: Full-stack Reverse Engineering of the Original Microsoft Xbox (Markus Gaasedelen)",
+      "url": "https://www.youtube.com/watch?v=hGlIkgmhZvc",
+      "savedAt": "2025-07-08T19:34:44.843000+00:00",
+      "description": "Markus Gaasedelen studied the original Xbox by exploring its hardware and software deeply. He learned by examining the motherboard, chips, and CPU, even building new hardware parts like an interposer. His work combined hardware hacking with software reverse engineering to understand the Xbox system fully.",
+      "tags": [
+        "for-later",
+        "reverse-engineering"
+      ]
+    },
     {
       "id": "01jzgrz40yz2pacmmg835vt6mm",
       "title": "Logical Quantifiers in Software",
