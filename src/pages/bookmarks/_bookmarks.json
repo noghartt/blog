@@ -1,6 +1,26 @@
 {
-  "lastUpdate": "2025-07-09T00:08:36.730Z",
+  "lastUpdate": "2025-07-10T00:08:41.717Z",
   "data": [
+    {
+      "id": "01jzqvsjeem74gkz3fcywexqvk",
+      "title": "You Are The Compiler",
+      "url": "https://funcall.blogspot.com/2025/06/you-are-compiler.html",
+      "savedAt": "2025-07-09T15:10:16.526000+00:00",
+      "description": "The compiler turns nested function calls into a sequence of calls and handles calling rules automatically. In Go, error handling and context passing are done manually by programmers, not the compiler. This makes code longer, error-prone, and breaks the natural nested call style.",
+      "tags": [
+        "cs/compilers"
+      ]
+    },
+    {
+      "id": "01jzqkz31bq1tzfrj7268ttybx",
+      "title": "The Mathematical Functions Grimoire",
+      "url": "https://fungrim.org/",
+      "savedAt": "2025-07-09T12:53:28.747000+00:00",
+      "description": "The Mathematical Functions Grimoire is an open source library of formulas and data about special functions. It has many entries, symbols, and topics that are easy to browse online. The data is designed to work well with computer algebra software.",
+      "tags": [
+        "math"
+      ]
+    },
     {
       "id": "01jznrh3vbeg1svw0vb18zj6hw",
       "title": "RE//verse 2025: Full-stack Reverse Engineering of the Original Microsoft Xbox (Markus Gaasedelen)",
@@ -30,6 +50,7 @@
       "savedAt": "2025-07-06T14:38:07.002000+00:00",
       "description": "Go is easy to learn but lets many errors slip through, making careful coding hard. Companies use Go because it has good tools and many existing projects, not always because it’s the best choice. Using Go can create complex problems and extra work that other languages might avoid.",
       "tags": [
+        "for-later",
         "cs/programming-languages/go"
       ]
     },
