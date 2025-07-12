@@ -1,6 +1,26 @@
 {
-  "lastUpdate": "2025-07-10T00:08:41.717Z",
+  "lastUpdate": "2025-07-12T00:08:30.142Z",
   "data": [
+    {
+      "id": "01jzv4zrw1x75bpwbknnck7taf",
+      "title": "An Introduction to Neurotransmitters (and How to Modulate Them)",
+      "url": "https://desmolysium.com/neurotransmitters/",
+      "savedAt": "2025-07-10T21:48:40.193000+00:00",
+      "description": "The article explains the role of various neurotransmitters like serotonin, dopamine, and noradrenaline in regulating mood, motivation, and cognitive functions. It describes how these neurotransmitters interact with specific receptors and pathways in the brain to influence behaviors and emotions. Additionally, it discusses methods to modulate neurotransmitter levels, which can impact overall mental health and well-being.",
+      "tags": [
+        "biology"
+      ]
+    },
+    {
+      "id": "01jzs1ryt0v16c2afg1vqbn7cf",
+      "title": "Writing a very simple JIT Compiler in about 1000 lines of C",
+      "url": "https://kuterdinel.com/writing-a-very-simple-jit-compiler-in-about-1000-lines-of-c.html",
+      "savedAt": "2025-07-10T02:14:02.304000+00:00",
+      "description": "This article explains how to build a very simple just-in-time (JIT) compiler in about 1000 lines of C code. It covers parsing expressions, encoding x86 instructions, and generating machine code for basic operations. The author also gives tips on extending the compiler with more features and handling variables.",
+      "tags": [
+        "cs/compilers"
+      ]
+    },
     {
       "id": "01jzqvsjeem74gkz3fcywexqvk",
       "title": "You Are The Compiler",
