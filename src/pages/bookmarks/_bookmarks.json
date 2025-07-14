@@ -1,6 +1,39 @@
 {
-  "lastUpdate": "2025-07-12T00:08:30.142Z",
+  "lastUpdate": "2025-07-14T00:08:47.908Z",
   "data": [
+    {
+      "id": "01jzzw7tgvj10804xv88jkftr3",
+      "title": "Inverse Triangle Inequality Jul 7, 2025",
+      "url": "https://matklad.github.io/2025/07/07/inverse-triangle-inequality.html",
+      "savedAt": "2025-07-12T17:51:59.003000+00:00",
+      "description": "The triangle inequality shows the shortest path between two points is a direct line, and this idea applies in many areas like coding and string comparison. In software development, breaking big changes into small, independent steps helps make progress faster and reviews easier. Sometimes, doing a quick messy version first and then refining it carefully leads to better, clearer code.",
+      "tags": [
+        "cs",
+        "favorites",
+        "software-engineering"
+      ]
+    },
+    {
+      "id": "01jzzn8zr2s0fysqeqcycemxap",
+      "title": "How NAT traversal works",
+      "url": "https://tailscale.com/blog/how-nat-traversal-works",
+      "savedAt": "2025-07-12T15:50:17.090000+00:00",
+      "description": "NAT traversal helps devices connect directly even when behind routers that hide their addresses. It uses special techniques like STUN and port mapping to open paths through firewalls and NATs. Although tricky with multiple NAT layers, these methods often still enable connections without needing complex fixes.",
+      "tags": [
+        "for-later",
+        "cs/networking"
+      ]
+    },
+    {
+      "id": "01jzzjzmt7g5rnbx94fpzq27pr",
+      "title": "LLM Inference in Production",
+      "url": "https://bentoml.com/llm/",
+      "savedAt": "2025-07-12T15:10:13.831000+00:00",
+      "description": "This handbook from bentoml.com explains how to deploy and optimize large language model (LLM) inference in production. It gathers clear, practical knowledge that is usually scattered and hard to find. Engineers can use it to make LLM inference faster, cheaper, and more reliable.",
+      "tags": [
+        "llm"
+      ]
+    },
     {
       "id": "01jzv4zrw1x75bpwbknnck7taf",
       "title": "An Introduction to Neurotransmitters (and How to Modulate Them)",
@@ -18,6 +51,7 @@
       "savedAt": "2025-07-10T02:14:02.304000+00:00",
       "description": "This article explains how to build a very simple just-in-time (JIT) compiler in about 1000 lines of C code. It covers parsing expressions, encoding x86 instructions, and generating machine code for basic operations. The author also gives tips on extending the compiler with more features and handling variables.",
       "tags": [
+        "for-later",
         "cs/compilers"
       ]
     },
