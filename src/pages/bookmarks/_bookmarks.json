@@ -1,6 +1,16 @@
 {
-  "lastUpdate": "2025-07-14T00:08:47.908Z",
+  "lastUpdate": "2025-07-15T00:08:47.632Z",
   "data": [
+    {
+      "id": "01k04nyk100b8j5php64jkskr8",
+      "title": "How to bring data centre-like connectivity to your home with IPTTTH",
+      "url": "https://www.daryllswer.com/how-to-bring-data-centre-like-connectivity-to-your-home-with-ipttth/",
+      "savedAt": "2025-07-14T14:38:17.120000+00:00",
+      "description": "The author describes setting up enterprise-level IP transit directly to their home in India using MPLS, bypassing usual ISPs. This setup is very expensive and complex, requiring coordination with multiple providers and handling technical issues. Despite challenges, it offers unique control and valuable insights into managing a high-grade home network.",
+      "tags": [
+        "cs/networking"
+      ]
+    },
     {
       "id": "01jzzw7tgvj10804xv88jkftr3",
       "title": "Inverse Triangle Inequality Jul 7, 2025",
@@ -152,7 +162,7 @@
     },
     {
       "id": "01jz11hdrhxpv7n4wg0g3s9fhe",
-      "title": "Unnamed Document",
+      "title": "Inference in Agda",
       "url": "https://raw.githack.com/effectfully/inference-in-agda/master/InferenceInAgda.html",
       "savedAt": "2025-06-30T18:28:09.105000+00:00",
       "description": "Agda uses unification to infer types by turning unknowns into metavariables and checking them. Haskell infers types too but gives errors if some types cannot be found, unlike Agda. Agda is more flexible and can defer type problems to later, allowing more implicit variables.",
