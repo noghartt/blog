@@ -1,6 +1,17 @@
 {
-  "lastUpdate": "2025-07-16T00:08:39.070Z",
+  "lastUpdate": "2025-07-17T00:08:37.987Z",
   "data": [
+    {
+      "id": "01k0akyw532zqjkyzdpqv0vbjh",
+      "title": "A distributed systems reliability glossary",
+      "url": "https://antithesis.com/resources/reliability_glossary/",
+      "savedAt": "2025-07-16T21:58:55.907000+00:00",
+      "description": "Distributed systems use different consistency models to manage how data is read and written across multiple processes. Some models prioritize availability and allow more anomalies, while others enforce strict order and correctness but require more coordination. Understanding these models helps design systems that balance reliability, performance, and consistency.",
+      "tags": [
+        "favorites",
+        "cs/distsys"
+      ]
+    },
     {
       "id": "01k04nyk100b8j5php64jkskr8",
       "title": "How to bring data centre-like connectivity to your home with IPTTTH",
