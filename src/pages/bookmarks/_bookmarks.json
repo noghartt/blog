@@ -1,6 +1,78 @@
 {
-  "lastUpdate": "2025-07-17T00:08:37.987Z",
+  "lastUpdate": "2025-07-18T00:08:29.565Z",
   "data": [
+    {
+      "id": "01k0ctg5j9a5ys7dn3q81pnnxe",
+      "title": "Caching is an Abstraction, not an Optimization",
+      "url": "https://buttondown.com/jaffray/archive/caching-is-an-abstraction-not-an-optimization/",
+      "savedAt": "2025-07-17T18:31:42.921000+00:00",
+      "description": "Caching is not just about making software faster but about simplifying how data is managed across storage layers. It acts as an abstraction that hides complexity and allows programs to work with different storage types more cleanly. Although caching relies on heuristics and can have downsides, it remains a powerful tool that only fails when misused.",
+      "tags": [
+        "cs/system-design"
+      ]
+    },
+    {
+      "id": "01k0cre6p635j6rw2n2qfz2n2v",
+      "title": "Zig's New Async I/O",
+      "url": "https://kristoff.it/blog/zig-new-async-io/",
+      "savedAt": "2025-07-17T17:55:41.382000+00:00",
+      "description": "Zig's new async I/O lets the caller decide how input/output works, making code more flexible and reusable. It supports different execution models, from blocking to async, without forcing concurrency. This design helps programs run efficiently by using non-blocking system calls and enabling parallelism when possible.",
+      "tags": [
+        "cs/programming-languages/zig"
+      ]
+    },
+    {
+      "id": "01k0cp8re6wek29hy601nw243j",
+      "title": "Working through ‘Writing A C Compiler’",
+      "url": "https://jollygoodsw.wordpress.com/2025/03/13/working-through-writing-a-c-compiler/",
+      "savedAt": "2025-07-17T17:17:45.797000+00:00",
+      "description": "The author is working through the book *Writing a C Compiler* to build a real C compiler step by step. The book includes a helpful test suite and clear chapters that add features gradually. The author plans to blog about their progress and finds the book very valuable.",
+      "tags": [
+        "cs/compilers"
+      ]
+    },
+    {
+      "id": "01k0cngx6rq4zvc05pjavj641p",
+      "title": "Type Theory in Computer Science, Linguistics, Logic",
+      "url": "https://www.youtube.com/watch?v=TrYosPPCQAY",
+      "savedAt": "2025-07-17T17:04:44.248000+00:00",
+      "description": "Type theory is a system that organizes different kinds of things called types to make logic and mathematics clearer. It helps define how sentences and predicates work by assigning types to them, like truth values or functions. This theory is important in computer science, linguistics, and philosophy for understanding language and logic precisely.",
+      "tags": [
+        "math",
+        "philosophy",
+        "type-theory"
+      ]
+    },
+    {
+      "id": "01k0cn3hy6gtv6tjzpnxxmfx95",
+      "title": "How Long Contexts Fail",
+      "url": "https://www.dbreunig.com/2025/06/22/how-contexts-fail-and-how-to-fix-them.html",
+      "savedAt": "2025-07-17T16:57:26.724000+00:00",
+      "description": "Very long contexts in AI models can cause problems like repeating mistakes, getting distracted, and confusing information. These issues make agents perform worse even with bigger context windows. To succeed, agents need careful management of what information they use, not just more data.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "01k0cmqmmmwy5z4jvyck84grqh",
+      "title": "How to Fix Your Context",
+      "url": "https://www.dbreunig.com/2025/06/26/how-to-fix-your-context.html",
+      "savedAt": "2025-07-17T16:50:56.276000+00:00",
+      "description": "Long contexts in AI can cause errors like confusion and distraction. To fix this, break tasks into smaller parts, use multiple agents, and prune unnecessary information. Managing context well improves accuracy and efficiency in AI responses.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "01k0b7dyw1n73c6ey4j5y0tat5",
+      "title": "The sound of inevitability",
+      "url": "https://tomrenner.com/posts/llm-inevitabilism/",
+      "savedAt": "2025-07-17T03:39:13.153000+00:00",
+      "description": "Inevitabilism is the belief that certain futures, like AI taking over, cannot be avoided. Big tech leaders use this idea to push people to accept and adapt to AI as if it’s unstoppable. But we still have a choice about how to shape the future, and we should fight for the future we want.",
+      "tags": [
+        "philosophy"
+      ]
+    },
     {
       "id": "01k0akyw532zqjkyzdpqv0vbjh",
       "title": "A distributed systems reliability glossary",
