@@ -1,6 +1,26 @@
 {
-  "lastUpdate": "2025-07-18T00:08:29.565Z",
+  "lastUpdate": "2025-07-19T00:08:39.076Z",
   "data": [
+    {
+      "id": "01k0fdy442hesk5zb4p88xe737",
+      "title": "Store tags after payloads",
+      "url": "https://www.scattered-thoughts.net/writing/store-tags-after-payloads/",
+      "savedAt": "2025-07-18T18:49:52.002000+00:00",
+      "description": "Storing the tag after the payload in sum types can save a lot of memory by reducing wasted space due to alignment requirements. Most languages put the tag before the payload, causing larger struct sizes, but Swift uses the reversed order to optimize size. This layout trick helps nested sum types use less space without hurting performance.",
+      "tags": [
+        "cs/compilers"
+      ]
+    },
+    {
+      "id": "01k0fbntc7nemrx32mh1562gg1",
+      "title": "Maybe writing speed actually is a bottleneck for programming",
+      "url": "https://buttondown.com/hillelwayne/archive/maybe-writing-speed-actually-is-a-bottleneck-for/",
+      "savedAt": "2025-07-18T18:10:22.726000+00:00",
+      "description": "The author argues that writing code faster could greatly boost programmer productivity. Faster writing enables more experimentation, tooling, and better coding practices. Even small speed gains might help, despite reading and thinking also being important.",
+      "tags": [
+        "cs"
+      ]
+    },
     {
       "id": "01k0ctg5j9a5ys7dn3q81pnnxe",
       "title": "Caching is an Abstraction, not an Optimization",
