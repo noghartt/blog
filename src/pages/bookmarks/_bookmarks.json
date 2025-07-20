@@ -1,6 +1,50 @@
 {
-  "lastUpdate": "2025-07-19T00:08:39.076Z",
+  "lastUpdate": "2025-07-20T00:09:23.308Z",
   "data": [
+    {
+      "id": "01k0j93pvb5ar1je52h0fxkvv3",
+      "title": "Programming Language Theory has a public relations problem",
+      "url": "https://happyfellow.bearblog.dev/programming-language-theory-has-a-public-relations-problem/",
+      "savedAt": "2025-07-19T21:23:15.435000+00:00",
+      "description": "Programming Language Theory (PLT) is a beautiful but very hard field that many people find confusing and impractical. Its problems include complex ideas, unclear applications, and heavy use of abstract methods that make learning difficult. The author wishes for clearer teaching and honesty about PLT’s challenges and beauty to help more people appreciate it.",
+      "tags": [
+        "cs/pl-theory"
+      ]
+    },
+    {
+      "id": "01k0j8stfrk3ywbrtevmb9ze12",
+      "title": "Basic facts about GPUs",
+      "url": "https://damek.github.io/random/basic-facts-about-gpus/",
+      "savedAt": "2025-07-19T21:17:51.479000+00:00",
+      "description": "GPUs run many threads organized in blocks and warps, sharing fast on-chip memory to speed up computation. To boost performance, threads cooperate by loading data tiles into shared memory, reducing slow global memory access. Efficient GPU kernels balance memory use and compute power to avoid stalls and maximize throughput.",
+      "tags": [
+        "cs",
+        "for-later",
+        "hardware/gpu"
+      ]
+    },
+    {
+      "id": "01k0j8nxf2vgkb6d9jbrvv3fcd",
+      "title": "NULLBITMAPGPT",
+      "url": "https://buttondown.com/jaffray/archive/nullbitmapgpt/",
+      "savedAt": "2025-07-19T21:15:43.457000+00:00",
+      "description": "The author uses a database approach to build a Markov Chain that predicts the next word based on previous words in past emails. They show how to extract word pairs, count their frequencies, and generate new text using SQL queries. This method is simple, scalable, and demonstrates the power of thinking with databases.",
+      "tags": [
+        "llm",
+        "cs/database"
+      ]
+    },
+    {
+      "id": "01k0hahtyb9kkkmseap0x7np06",
+      "title": "Why your website should be under 14kB in size",
+      "url": "https://endtimes.dev/why-your-website-should-be-under-14kb-in-size/",
+      "savedAt": "2025-07-19T12:29:12.523000+00:00",
+      "description": "Keeping your website under 14kB can significantly improve loading speed, potentially saving users up to 612ms compared to larger pages. This is due to the TCP slow start algorithm, which limits the amount of data sent initially to avoid packet loss. A smaller website size helps ensure critical content loads quickly, enhancing user experience.",
+      "tags": [
+        "web",
+        "cs/networking"
+      ]
+    },
     {
       "id": "01k0fdy442hesk5zb4p88xe737",
       "title": "Store tags after payloads",
