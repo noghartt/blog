@@ -1,6 +1,17 @@
 {
-  "lastUpdate": "2025-07-20T00:09:23.308Z",
+  "lastUpdate": "2025-07-21T00:08:56.740Z",
   "data": [
+    {
+      "id": "01k0mejqh66je8bzcf548pf313",
+      "title": "Reflections on OpenAI",
+      "url": "https://calv.info/openai-reflections",
+      "savedAt": "2025-07-20T17:37:19.398000+00:00",
+      "description": "The author recently left OpenAI and shares their experience of its fast growth and unique culture. OpenAI is very ambitious, secretive, and focused on practical AI risks while aiming to build AGI. Launching Codex was intense but rewarding, and the author sees OpenAI as a key player in the race for AGI.",
+      "tags": [
+        "business",
+        "engineering"
+      ]
+    },
     {
       "id": "01k0j93pvb5ar1je52h0fxkvv3",
       "title": "Programming Language Theory has a public relations problem",
