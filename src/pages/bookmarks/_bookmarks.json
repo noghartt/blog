@@ -1,6 +1,27 @@
 {
-  "lastUpdate": "2025-07-21T00:08:56.740Z",
+  "lastUpdate": "2025-07-22T00:08:34.054Z",
   "data": [
+    {
+      "id": "01k0q3pdjn966amgty0v07yydh",
+      "title": "Migrating my NAS from CoreOS/Flatcar Linux to NixOS",
+      "url": "https://michael.stapelberg.ch/posts/2025-07-13-nixos-nas-network-storage-config/",
+      "savedAt": "2025-07-21T18:24:49.237000+00:00",
+      "description": "The author explains how they moved their NAS from CoreOS/Flatcar Linux to NixOS, simplifying system management. They first used Docker on NixOS, then switched to native NixOS modules for better integration. The author recommends NixOS for declarative, automated system configuration and plans to convert more devices.",
+      "tags": [
+        "homelab",
+        "tools/nix"
+      ]
+    },
+    {
+      "id": "01k0pnefsx9grp038rt5xjapeh",
+      "title": "What part of Hindley-Milner do you not understand?",
+      "url": "https://stackoverflow.com/questions/12532552/what-part-of-hindley-milner-do-you-not-understand",
+      "savedAt": "2025-07-21T14:15:49.309000+00:00",
+      "description": "The author finds the Hindley-Milner notation confusing and hard to understand. They recognize some symbols but not many, like \"⊢\" or the vinculum. They ask for guidance on where to start learning about these symbols.",
+      "tags": [
+        "type-theory"
+      ]
+    },
     {
       "id": "01k0mejqh66je8bzcf548pf313",
       "title": "Reflections on OpenAI",
