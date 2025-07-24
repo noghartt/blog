@@ -1,6 +1,27 @@
 {
-  "lastUpdate": "2025-07-23T00:08:51.908Z",
+  "lastUpdate": "2025-07-24T00:08:42.330Z",
   "data": [
+    {
+      "id": "01k0tx6wjjtx79wrh34g5pngye",
+      "title": "technicalities: \"not rocket science\" (the story of monotone and bors)",
+      "url": "https://graydon2.dreamwidth.org/1597.html",
+      "savedAt": "2025-07-23T05:48:26.578000+00:00",
+      "description": "The author created a tool called bors to ensure code is only merged if all tests pass, keeping the main codebase stable. This follows the simple rule of automatically maintaining a repository that never breaks. Despite being easy in theory, many projects don't use this method, so bors helps enforce it effectively.",
+      "tags": [
+        "cs"
+      ]
+    },
+    {
+      "id": "01k0twrpm5e9ze0b5gq7k4dny6",
+      "title": "Mathematics for Computer Science",
+      "url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/video_galleries/lecture-videos/",
+      "savedAt": "2025-07-23T05:40:41.733000+00:00",
+      "description": "This course from MIT teaches math concepts for computer science. It covers topics like proofs, algorithms, probability, and cryptography. The materials include videos, notes, and problem sets for undergraduate students.",
+      "tags": [
+        "cs",
+        "math"
+      ]
+    },
     {
       "id": "01k0q3pdjn966amgty0v07yydh",
       "title": "Migrating my NAS from CoreOS/Flatcar Linux to NixOS",
