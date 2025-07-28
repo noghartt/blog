@@ -1,6 +1,640 @@
 {
-  "lastUpdate": "2025-07-27T00:09:24.857Z",
+  "lastUpdate": "2025-07-28T00:08:58.115Z",
   "data": [
+    {
+      "id": "01k16x2xhe4e3sv3sf3d5z2dwy",
+      "title": "The Intel 4004 Microprocessor and the Silicon Gate Technology",
+      "url": "http://www.intel4004.com/btstrp.htm",
+      "savedAt": "2025-07-27T21:37:09.678000+00:00",
+      "description": "Federico Faggin invented the bootstrap load, a circuit that boosts output voltage to full supply levels. This technique improved speed and power efficiency in the Intel 4004 microprocessor. He achieved this without extra manufacturing steps by using a deep understanding of device physics.",
+      "tags": [
+        "hardware",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k15ymmw9585h43tskk73vwcv",
+      "title": "Development shells with Nix: four quick examples",
+      "url": "https://michael.stapelberg.ch/posts/2025-07-27-dev-shells-with-nix-4-quick-examples/",
+      "savedAt": "2025-07-27T12:45:04.776000+00:00",
+      "description": "Nix lets you create development environments with exact package versions on any Linux system, not just NixOS. You can use simple commands like nix-shell or more advanced setups like flake.nix for reproducibility. Flakes also allow making system-independent shells, ensuring the same environment across different machines.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k15h3ved1vxgbxn0f3d2facf",
+      "title": "RealtimeKit and CPU Scheduling",
+      "url": "https://venam.net/blog/unix/2025/03/24/rtkit.html",
+      "savedAt": "2025-07-27T08:48:42.957000+00:00",
+      "description": "Take a look at your process tree, it's likely that you might notice a new service: rtkit-daemon, the RealtimeKit Daemon. It seems nobody on the internet is talking about it, so let's explain what it's about in this article.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k15h3hzyvcxxh0zak2bd0psf",
+      "title": "How often is the query plan optimal?",
+      "url": "https://vondra.me/posts/how-often-is-the-query-plan-optimal/",
+      "savedAt": "2025-07-27T08:48:33.278000+00:00",
+      "description": "Query optimizers often pick plans that are not the fastest because they rely on imperfect cost and selectivity estimates. Different data patterns and hardware setups affect which scan method is best, but the planner can still make mistakes. Despite its flaws, cost-based planning remains the best way to choose query plans, though improvements are needed for more accuracy.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k15h3dhdf2r1q1m5rvc640f5",
+      "title": "Tail Latency Might Matter More Than You Think",
+      "url": "https://brooker.co.za/blog/2021/04/19/latency.html",
+      "savedAt": "2025-07-27T08:48:28.717000+00:00",
+      "description": "My name is Marc Brooker. I've been writing code, reading code, and living vicariously through computers for as long as I can remember.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k15h38qx7hmnv27kzbv0mcmv",
+      "title": "Why English doesn’t use accents",
+      "url": "https://www.deadlanguagesociety.com/p/why-english-doesnt-use-accents",
+      "savedAt": "2025-07-27T08:48:23.805000+00:00",
+      "description": "And why French is full of them",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k15h2re8jnr7t2fdvgje4m9b",
+      "title": "Programming Extensible Data Types in Rust with CGP - Part 2: Modular Interpreters and Extensible Visitors",
+      "url": "https://contextgeneric.dev/blog/extensible-datatypes-part-2/",
+      "savedAt": "2025-07-27T08:48:07.112000+00:00",
+      "description": "This article shows how to build modular interpreters in Rust using extensible variants and CGP. It explains how to write reusable evaluation and transformation logic for different math expressions. The approach makes adding new operations easy, keeping code flexible and safe.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k15h2dhs4as65c2nfevpph99",
+      "title": "Hacking Coroutines into C",
+      "url": "https://wiomoc.de/misc/posts/hacking_coroutines_into_c.html",
+      "savedAt": "2025-07-27T08:47:55.961000+00:00",
+      "description": "The article explains how C coroutines are created using macros that convert code into state machines for pausing and resuming execution without a call stack. It shows examples like button press recording and non-blocking delays that use saved states and a simple scheduler to run tasks cooperatively. This approach enables writing readable, sequential logic in single-threaded environments with coroutine cancellation and condition variables support.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k15h1shxf4yyk57tkp4rc01t",
+      "title": "We Made Postgres Writes Faster, but it Broke Replication",
+      "url": "https://www.paradedb.com/blog/lsm_trees_in_postgres",
+      "savedAt": "2025-07-27T08:47:35.485000+00:00",
+      "description": "Zero-ETL search and analytics for Postgres",
+      "tags": [
+        "for-later",
+        "cs/database"
+      ]
+    },
+    {
+      "id": "01k15h1h191mt7cc325qfgcnb8",
+      "title": "Can we test it? Yes, we can! - Mitchell Hashimoto",
+      "url": "https://www.youtube.com/watch?v=MqC3tudPH6w",
+      "savedAt": "2025-07-27T08:47:26.761000+00:00",
+      "description": "As the co-founder of HashiCorp, Mitchell has been instrumental in the development of tools that many of us use daily, like Vagrant, Terraform, Vault, and more. He also helped shape the initial testing strategies for them, gaining hard-won insights into testing complex software along the way.\n\nAt BugBash, where everyone is a testing nerd (or at least wants to be), most of us have come across that one piece of code that cannot be tested. What do you do when the code you so eagerly want to test is not testable?\n\nWhile working on his latest passion project, Ghostty, Mitchell came across this challenge again and again.\n\nFor instance, Ghostty is a GPU rendered terminal emulator that demands GPU testing. In the age of AI, it’s surprising that we don’t yet have a broadly accepted solution for this – at least, not one that’s cracked the first page of google.\n\nSo Mitchell’s talk is his (current best) answer to a deceptively simple question, “How do you make something testable?”\n\nExpanding the boundaries of testing drives the work at Antithesis too. So, the good news/bad news is, there are fewer and fewer reasons to leave any code untested.\n\nhttps://antithesis.com/blog/2025/bugbash_2025/mitchell_hashimoto/",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k15h188jnznz1ytx33hcfj4t",
+      "title": "Tree-Structured Concurrency II: Replacing Background Tasks With Actors — 2025-07-02",
+      "url": "https://blog.yoshuawuyts.com/replacing-tasks-with-actors/",
+      "savedAt": "2025-07-27T08:47:17.778000+00:00",
+      "description": "(Tree-)Structured Concurrency is neat because it greatly simplifies concurrent programs. It greatly reduces, if not outright eliminates the possibility of logical races due to concurrency issues.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k15h0zv1rwmfvyxf15pyycwc",
+      "title": "Sort By Controversial",
+      "url": "https://slatestarcodex.com/2018/10/30/sort-by-controversial/",
+      "savedAt": "2025-07-27T08:47:09.153000+00:00",
+      "description": "Shiri created a program called Scissor to find controversial statements, but it caused big fights among her team. The program revealed hidden conflicts and led to two people being fired for causing trouble. The author warns that such statements can manipulate people and cause serious problems if not handled carefully.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k15h0q7v3k8m5ze5v5ejh4sk",
+      "title": "Gödel's beavers, or the limits of knowledge",
+      "url": "https://lcamtuf.substack.com/p/monkeys-typewriters-and-busy-beavers",
+      "savedAt": "2025-07-27T08:47:00.346000+00:00",
+      "description": "Can you examine infinitely many integers in finite time? Are there numbers you're not allowed to know? Can a monkey beat a beaver in a fair fight?",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k15h08wb38anhvaesp1gds6g",
+      "title": "Efficiency of a sparse hash table",
+      "url": "https://ashutoshpg.blogspot.com/2025/07/efficiency-of-sparse-hash-table.html",
+      "savedAt": "2025-07-27T08:46:45.642000+00:00",
+      "description": "Choosing the right initial size for a hash table can affect its speed, especially if it fits well in the CPU cache. Tests showed that making the hash table much bigger than needed slows it down in clear steps due to cache effects. Still, small size differences usually do not cause noticeable performance changes in real use.",
+      "tags": [
+        "for-later",
+        "cs/database"
+      ]
+    },
+    {
+      "id": "01k15gzz5y5jskj8v39a5g0rvy",
+      "title": "Austerity - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Austerity",
+      "savedAt": "2025-07-27T08:46:35.709000+00:00",
+      "description": "In economic policy, austerity is a set of political-economic policies that aim to reduce government budget deficits through spending cuts, tax increases, or a combination of both.",
+      "tags": [
+        "economy",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k15gzmyd9h8rx46btm636b7r",
+      "title": "How does a screen work?",
+      "url": "https://www.makingsoftware.com/chapters/how-a-screen-works",
+      "savedAt": "2025-07-27T08:46:25.229000+00:00",
+      "description": "From electron guns to tiny electric crystals - digital displays have always been the unsung hero of computing.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k15gyf2j2cjbhs2xvfh9pgw5",
+      "title": "Let's Learn x86-64 Assembly! Part 0 - Setup and First Steps",
+      "url": "https://gpfault.net/posts/asm-tut-0.txt.html",
+      "savedAt": "2025-07-27T08:45:46.450000+00:00",
+      "description": "This document introduces x86-64 assembly, focusing on setup and initial steps. It explains the outdated teaching methods in universities, the difference between assembly language and machine code, the role of assemblers and debuggers, as well as the importance of registers. The text covers memory addressing, the illusion of memory layout in 64-bit Windows, and the relationship between virtual and physical memory addresses. Additionally, it delves into the basics of writing assembly programs, analyzing code, and understanding the PE format and DLL imports for calling WinAPI functions.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k15gxrw78bgx0m3nv8v4y4gw",
+      "title": "Row Polymorphic Programming",
+      "url": "https://www.stranger.systems/posts/by-slug/row-polymorphic-programming.html",
+      "savedAt": "2025-07-27T08:45:23.719000+00:00",
+      "description": "Row polymorphism lets programmers write flexible code that works with records having different sets of fields. It helps handle messy data by allowing types to be based on the actual labels and types of fields in a record. This approach makes it easier to write generic functions without complex macros or manual type definitions.",
+      "tags": []
+    },
+    {
+      "id": "01k15gwwwbex4c9ty2c1y4d55m",
+      "title": "Strategies for very fast Lexers",
+      "url": "https://xnacly.me/posts/2025/fast-lexer-strategies/",
+      "savedAt": "2025-07-27T08:44:55.051000+00:00",
+      "description": "Making compilation pipelines fast, starting with the tokenizer",
+      "tags": [
+        "for-later",
+        "cs/parsers"
+      ]
+    },
+    {
+      "id": "01k15gwhhg0fbkn7ctxrw50bm6",
+      "title": "Human Stigmergy",
+      "url": "https://aethermug.com/posts/human-stigmergy",
+      "savedAt": "2025-07-27T08:44:43.440000+00:00",
+      "description": "Termites and ants build huge, complex homes without plans by leaving chemical marks for others to follow. This shows that memory can be stored outside the brain, in the environment itself. People do this too by placing objects as reminders, helping them remember tasks without needing to think hard.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k15gtz5jyge9rxjwqnjd1f0c",
+      "title": "Feynman: Knowing versus Understanding",
+      "url": "https://www.youtube.com/watch?v=NM-zWTU7X-k",
+      "savedAt": "2025-07-27T08:43:51.858000+00:00",
+      "description": "Richard Feynman on the differences of merely knowing how to reason mathematically and understanding how and why things are physically analyzed in the way they are.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k15gtq27azra4bh2ebsbzcdp",
+      "title": "Turing Machines: How Computers Evolved From People",
+      "url": "https://www.youtube.com/watch?v=AM3zNOrgj2A",
+      "savedAt": "2025-07-27T08:43:43.559000+00:00",
+      "description": "Go to https://ground.news/landingV8/purplemindcs?utm_source=purplemindcs&utm_medium=youtube&utm_campaign=july31 for a better way to stay informed. Subscribe for 40% off unlimited access to world-wide coverage through my link.\n\nSupport me on Patreon! https://www.patreon.com/PurpleMindCS \nIf you'd like to aid the success of this channel, this is the best way to do it! Every contribution is sincerely, greatly, appreciated.\n\nThis video is a reupload with a couple of tweaks (mostly to the very beginning).\nIf you watched the previous version, thank you for your support! This updated version offers a better viewing experience.\n\n\nWhat is the definition of a computer? If you search this question on the internet, most answers will reference electronics or various data storage/processing qualities. But the way we model the idea of a “computer” in computer science is completely different -- it's a genius (but seemingly-strange) theoretical device called a Turing Machine, named after Alan Turing who designed it in 1936. What’s weird about Turing machines is that at first glance, they seem entirely unrelated to our usual concept of a computer. They’re extremely rudimentary, consisting of only three basic components and governed by a simple set of rules. And yet, amazingly, Turing machines can actually carry out any algorithm that a modern computer can! The invention of the Turing Machine eventually settled a decades-long debate to define what computation is, and they gave us an entirely new way of understanding not just machines, but even the theoretical limits of our own brains.\n\nIn this video, we break down how a Turing machine works, use it to solve a couple of real algorithmic problems, and finally answer the question of why the simple device became (and still remains) the foundation of computer science.\n\n\nTuring’s paper: https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf\n\nBrittle Rille - Reunited by Kevin MacLeod is licensed under a Creative Commons Attribution 4.0...",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k15gt51z2d6rhrvp3gk6w09y",
+      "title": "Making the assumption rule only apply to atoms",
+      "url": "https://unstableontology.com/",
+      "savedAt": "2025-07-27T08:43:25.119000+00:00",
+      "description": "by Jessica Taylor",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k15gs9hq7hc3zgxd5ggfk5je",
+      "title": "Compiler bootstrapping in Nixpkgs",
+      "url": "https://blog.obsidian.systems/compiler-bootstrapping-in-nixpkgs/",
+      "savedAt": "2025-07-27T08:42:56.951000+00:00",
+      "description": "Nixpkgs faced challenges with cross compilation due to complex bootstrapping and multiple compiler builds. Over time, improvements simplified this by unifying toolchains and removing redundant cross packages. The goal is to treat compilers and libraries separately for cleaner, more efficient builds, benefiting current and future languages.",
+      "tags": [
+        "for-later",
+        "tools/nix"
+      ]
+    },
+    {
+      "id": "01k15grn4gdtgga24ym6shgkhg",
+      "title": "Adding lookbehinds to rust-lang/regex",
+      "url": "https://systemf.epfl.ch/blog/rust-regex-lookbehinds/",
+      "savedAt": "2025-07-27T08:42:36.047000+00:00",
+      "description": "The Rust regex engine now supports unbounded captureless lookbehinds, allowing patterns to check what precedes a match without including it. This feature is more flexible than many other engines, but it does not allow capture groups inside lookbehinds. The implementation improves Rust's regex capabilities and is available in the official repository.",
+      "tags": [
+        "for-later",
+        "cs/programming-languages/rust"
+      ]
+    },
+    {
+      "id": "01k15grccvt0g0d7cymt021zzx",
+      "title": "NixOS Secrets Management",
+      "url": "https://unmovedcentre.com/posts/secrets-management/",
+      "savedAt": "2025-07-27T08:42:27.099000+00:00",
+      "description": "This is the home of EmergentMind and serves as a central staging area for my creative and professional endeavors.",
+      "tags": []
+    },
+    {
+      "id": "01k15gr2g5gjcqzn2fxnn9b57p",
+      "title": "Lessons From Creating My First Text Adventure",
+      "url": "https://entropicthoughts.com/lessons-from-creating-first-text-adventure",
+      "savedAt": "2025-07-27T08:42:16.965000+00:00",
+      "description": "Since ParserComp voting has opened, the game is now public, and you can play it in your browser – even on your phone.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k15gqq181bjgvfttr8apjgre",
+      "title": "Programming Extensible Data Types in Rust with CGP - Part 3: Implementing Extensible Records",
+      "url": "https://contextgeneric.dev/blog/extensible-datatypes-part-3/",
+      "savedAt": "2025-07-27T08:42:05.223000+00:00",
+      "description": "CGP uses traits and partial records to build and merge Rust structs flexibly. It defines traits like BuildField and FinalizeBuild to handle fields incrementally and finalize structs. This design supports extensible records and reusable builder patterns in Rust code.",
+      "tags": [
+        "for-later",
+        "cs/programming-languages/rust"
+      ]
+    },
+    {
+      "id": "01k15gq90ma2mzx04ccekf94mp",
+      "title": "Reverse proxy deep dive",
+      "url": "https://medium.com/@mitendra_mahto/cross-posted-from-https-startwithawhy-com-reverseproxy-2024-01-15-reverseproxy-deep-dive-html-c3443dc3e0e5",
+      "savedAt": "2025-07-27T08:41:50.868000+00:00",
+      "description": "This post was originally published on my personal blog.",
+      "tags": [
+        "for-later",
+        "cs/networking"
+      ]
+    },
+    {
+      "id": "01k15gpyyb312p12mvvt7kzt5p",
+      "title": "constrained languages are easier to optimize",
+      "url": "https://jyn.dev/constrained-languages-are-easier-to-optimize/",
+      "savedAt": "2025-07-27T08:41:40.555000+00:00",
+      "description": "exposing raw pointers make the optimizer’s job horribly hard. high level languages can constrain your program, making more optimizations sound.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k15gpez4q9y6x2k15rqey5ab",
+      "title": "A Smart Bear » Specificity: A weapon of mass effectiveness",
+      "url": "https://longform.asmartbear.com/specificity/",
+      "savedAt": "2025-07-27T08:41:24.196000+00:00",
+      "description": "Want to write better? Swap generic words for specifics to make your text clear, powerful, engaging, and even funny.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k15gp834z80nkdnrphdb2ww3",
+      "title": "you are in a box",
+      "url": "https://jyn.dev/you-are-in-a-box/",
+      "savedAt": "2025-07-27T08:41:17.156000+00:00",
+      "description": "Programs and tools tend to grow too big because switching between them is hard, trapping users inside a \"box.\" Making tools work well together and lowering these switching costs can help us break free. But right now, most tools keep data locked inside, so we depend heavily on their creators.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k15gndk52mgwd89vs6s7eax1",
+      "title": "RNA Is the Cell’s Emergency Alert System | Quanta Magazine",
+      "url": "https://www.quantamagazine.org/rna-is-the-cells-emergency-alert-system-20250714/",
+      "savedAt": "2025-07-27T08:40:50.021000+00:00",
+      "description": "Cells detect DNA damage quickly through a molecular alarm triggered by mutated RNA and ribosome collisions. This alarm involves a protein called ZAK, which signals when ribosomes stall on damaged RNA, prompting the cell to repair or self-destruct. This rapid response helps prevent harmful effects like cancer or tissue damage.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k15gmpwe9693gg8ez3z0bnjm",
+      "title": "Function Over Form: Why ‘Unbiological’ Neural Networks Are the Truest Simulation of the Brain #",
+      "url": "https://dmf-archive.github.io/posts/form-follows-function/",
+      "savedAt": "2025-07-27T08:40:26.766000+00:00",
+      "description": "Modern AI models, like Transformers, simulate the brain’s core functions by integrating information globally and operating with dynamic sparsity. Unlike biological neuron imitation, these models focus on functional similarity, using backpropagation as a process linked to consciousness and learning. This approach creates efficient, adaptive cognitive engines that surpass traditional biological limits.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k15gkz2fde6k0xyzvry92vft",
+      "title": "placing functions — 2025-07-08",
+      "url": "https://blog.yoshuawuyts.com/placing-functions/#prior-art-in-rust",
+      "savedAt": "2025-07-27T08:40:02.383000+00:00",
+      "description": "Placing functions let Rust construct types directly in their final memory location, avoiding extra copies. They keep function signatures the same, making them easy to add to existing code. This approach also supports nested construction and could improve how Rust handles lifetimes and pinning.",
+      "tags": [
+        "for-later",
+        "cs/programming-languages/rust"
+      ]
+    },
+    {
+      "id": "01k15gjmxs5crv9mza2n84se5a",
+      "title": "Computational Lambda-Calculus And Monads",
+      "url": "https://www.cs.cmu.edu/~crary/819-f09/Moggi89.pdf",
+      "savedAt": "2025-07-27T08:39:19.225000+00:00",
+      "description": "This paper discusses a new approach to understanding program equivalence using computational lambda-calculus based on category theory and monads. It proposes a formal system that accurately captures the behavior of real programs, including aspects like non-termination and side-effects. The authors aim to create a sound and complete framework for reasoning about program semantics, extending traditional methods to handle more complex languages.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k15gjb56n7d9vhzk5asxhtb3",
+      "title": "Program Synthesis: The λ in the Machine",
+      "url": "https://www.stephendiehl.com/posts/program_synthesis/",
+      "savedAt": "2025-07-27T08:39:09.222000+00:00",
+      "description": "Current AI code generation mainly copies patterns from existing code and may lack true reasoning. Program synthesis aims to build correct programs by combining formal logic and types, offering a more precise and reliable approach. Although challenging and costly, future tools might blend learning and formal methods to create self-verifying, optimized software.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k15gj0f838wtkzjdvea5a823",
+      "title": "The Future of Maths May Be Deeply Weird",
+      "url": "https://www.stephendiehl.com/posts/future_math_weird/",
+      "savedAt": "2025-07-27T08:38:58.280000+00:00",
+      "description": "Mathematics is becoming more social and computer-driven, with tools that can check and create proofs automatically. Future math learning might involve digital textbooks and AI tutors that help students understand proofs step-by-step. While machines may solve complex problems beyond human grasp, math will still be about insight and sharing understanding among people.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k15ghn8kpsa395rqnqq6r46j",
+      "title": "My Ultimate Self-hosting Setup",
+      "url": "https://codecaptured.com/blog/my-ultimate-self-hosting-setup/",
+      "savedAt": "2025-07-27T08:38:46.802000+00:00",
+      "description": "The author built a self-hosting setup to keep control of their data and services using tools like Tailscale, Authelia, and NixOS. They focus on security, ease of use for family and friends, and avoiding single points of failure. Their setup includes VPN access, single sign-on, and careful management of physical and virtual servers.",
+      "tags": [
+        "homelab",
+        "for-later",
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "01k15ghfwdq938rn1p73zjs9wr",
+      "title": "To be a better programmer, write little proofs in your head",
+      "url": "https://the-nerve-blog.ghost.io/to-be-a-better-programmer-write-little-proofs-in-your-head/",
+      "savedAt": "2025-07-27T08:38:41.293000+00:00",
+      "description": "To write better code, imagine little proofs in your head that show your code works as intended. Use clear rules like pre-conditions, post-conditions, and invariants to help you think clearly. Writing code that is easy to prove correct leads to higher quality and faster programming.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k15ggfx4p1wa9z610d3vzkyt",
+      "title": "On The Unusual Effectiveness Of Logic In Computer Science",
+      "url": "https://www.cs.rice.edu/~vardi/papers/aaas99.jsl.pdf",
+      "savedAt": "2025-07-27T08:38:08.548000+00:00",
+      "description": null,
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k15gdpje97t1h41vfp4514sn",
+      "title": "Casey Muratori – The Big OOPs: Anatomy of a Thirty-five-year Mistake – BSC 2025",
+      "url": "https://www.youtube.com/watch?v=wo84LFzx5nI",
+      "savedAt": "2025-07-27T08:36:37.069000+00:00",
+      "description": "Casey Muratori explains that object-oriented programming (OOP) was originally meant to mirror real-world models directly in code. Over time, the focus shifted to complex compile-time hierarchies, which often made programming harder. He suggests that simpler, more flexible approaches work better and that history shows OOP ideas evolved through champions and practical use.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k15gcsspd2k0y2barv43c8ex",
+      "title": "Gödel’s Incompleteness Theorems",
+      "url": "https://plato.stanford.edu/entries/goedel-incompleteness/sup1.html",
+      "savedAt": "2025-07-27T08:36:07.606000+00:00",
+      "description": "Gödel numbering assigns unique natural numbers to symbols, formulas, and proofs in a formal system using prime factorization. This method allows complex syntactical properties and operations to be expressed arithmetically and manipulated mechanically. It is a key tool for proving Gödel's incompleteness theorems by encoding and analyzing formal mathematical statements within arithmetic itself.",
+      "tags": [
+        "math",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k15gch8hczh2gd2fb4m9rgr1",
+      "title": "Deeper theories of program design",
+      "url": "https://typesanitizer.com/blog/deeper-theories.html",
+      "savedAt": "2025-07-27T08:35:58.865000+00:00",
+      "description": "Windows prevents deleting files that are open, using lock-like rules to avoid conflicts. Unix lets files be deleted while open, acting more like a weak database transaction but causing confusing behaviors. Future filesystems might combine these ideas with built-in transactions for safer, clearer file handling.",
+      "tags": []
+    },
+    {
+      "id": "01k15gbzdx9pb66wgt59ew5nwt",
+      "title": "Mario is (NP-) Hard",
+      "url": "https://www.youtube.com/watch?v=unLPk4H1hto",
+      "savedAt": "2025-07-27T08:35:40.605000+00:00",
+      "description": "Deciding if Mario can reach the flag in any custom level is very hard, like solving tough math problems. This difficulty connects to a famous question in computer science called P vs NP. If someone finds a quick way to solve Mario's problem, it would change science and technology forever.",
+      "tags": [
+        "for-later",
+        "cs/computation-theory"
+      ]
+    },
+    {
+      "id": "01k15gbeby2qgkxgs102t1r5am",
+      "title": "What is a Transformer?",
+      "url": "https://poloclub.github.io/transformer-explainer/",
+      "savedAt": "2025-07-27T08:35:23.134000+00:00",
+      "description": "Transformers are deep learning models that predict the next word in text by understanding context through attention mechanisms. They convert words into numerical embeddings, capture relationships between tokens using self-attention, and refine these representations with feed-forward layers. Finally, the model outputs probabilities for each possible next word to generate coherent text.",
+      "tags": [
+        "llm",
+        "cs/ai",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k15gb4vs0a4jfxwqnvabf9k0",
+      "title": "LL and LR Parsing Demystified",
+      "url": "https://blog.reverberate.org/2013/07/ll-and-lr-parsing-demystified.html",
+      "savedAt": "2025-07-27T08:35:13.400000+00:00",
+      "description": "The text explains LL and LR parsing as different ways to process input tokens and output parse tree traversals. LL parsers use pre-order traversal, while LR parsers use post-order traversal, each with its own advantages in handling grammars and parsing context. Understanding LL vs LR parsing helps in choosing the right parsing strategy for different grammars and parsing requirements.",
+      "tags": [
+        "for-later",
+        "cs/compilers"
+      ]
+    },
+    {
+      "id": "01k15g789v414e85we0grb3sdn",
+      "title": "Automating Away Claude's Bad Habits with Hooks",
+      "url": "https://writeaheadblogg.ing/posts/claude-hooks-auto-fix-trailing-whitespace/",
+      "savedAt": "2025-07-27T08:33:05.851000+00:00",
+      "description": "Claude Code often leaves unwanted trailing whitespace when writing code. Using Hooks, users can run tools like RuboCop automatically to fix these issues after edits. Hooks help automate code cleanup but need careful security checks since they run with full user permissions.",
+      "tags": [
+        "llm",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k15g6x28hhcxdav7d5nk12c1",
+      "title": "Hardest Problem in Computer Science: Centering Things",
+      "url": "https://tonsky.me/blog/centering/",
+      "savedAt": "2025-07-27T08:32:54.343000+00:00",
+      "description": "The text discusses the challenge of centering elements in web design and the common issues faced by developers and designers. It highlights problems with fonts, line height, icons, and offers solutions for better alignment to improve UI design. The author emphasizes the importance of paying attention to details for creating visually appealing user interfaces.",
+      "tags": [
+        "ui",
+        "web",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k15g4ps88wdrxkkwc2f6qfq0",
+      "title": "A reckless introduction to Hindley-Milner type inference",
+      "url": "https://reasonableapproximation.net/2019/05/05/hindley-milner.html",
+      "savedAt": "2025-07-27T08:31:42.376000+00:00",
+      "description": "Hindley-Milner (HM) is a type system that enables automatic type inference, making programs safer by preventing many runtime errors. Languages like Haskell and Elm build on HM but differ in features like strictness and support for monads. HM improves code legibility and correctness by linking types to program semantics without needing explicit type annotations.",
+      "tags": [
+        "for-later",
+        "type-theory"
+      ]
+    },
+    {
+      "id": "01k15g468b9fm08jnn5tjnn4f8",
+      "title": "Algorithms for Modern Processor Architectures",
+      "url": "https://lemire.github.io/talks/2025/sea/sea2025.html#1",
+      "savedAt": "2025-07-27T08:31:25.451000+00:00",
+      "description": "This talk by Daniel Lemire covers algorithms designed for modern processors. It aims to improve software performance on current computer hardware. All related software is available on GitHub for easy access.",
+      "tags": [
+        "hardware",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k15g3ep7c2p1s9p06dntwx8n",
+      "title": "Cloudflare and the infinite sadness of migrations",
+      "url": "https://surfingcomplexity.blog/2025/07/21/cloudflare-and-the-infinite-sadness-of-migrations/",
+      "savedAt": "2025-07-27T08:31:01.319000+00:00",
+      "description": "Cloudflare had a major outage because they used an old system that made risky global changes. Migrations, or moving from old to new systems, are hard and slow, which can cause reliability problems. Companies need to get better at doing migrations because running old and new systems together is also risky and complex.",
+      "tags": [
+        "for-later",
+        "cs/networking"
+      ]
+    },
+    {
+      "id": "01k15fy1s48nyrpy7vs63js10h",
+      "title": "How to draw lambda diagrams",
+      "url": "https://risingentropy.com/how-to-draw-lambda-diagrams/",
+      "savedAt": "2025-07-27T08:28:04.260000+00:00",
+      "description": "Lambda diagrams are pictures that show how lambda expressions work using lines for variables and connections. You draw horizontal lines for variables and vertical lines to show how inputs connect to functions. These diagrams help visualize complex functions and beta reductions in lambda calculus clearly.",
+      "tags": [
+        "cs",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k15frp1pvee8zb11wverx7gh",
+      "title": "To The Programmer",
+      "url": "https://blog.zdsmith.com/posts/combinatory-programming.html",
+      "savedAt": "2025-07-27T08:25:08.405000+00:00",
+      "description": "Combinators are functions that apply arguments to each other in specific ways. They help simplify code and make programming more efficient. Understanding and using common combinators can benefit programmers in creating concise and elegant programs.",
+      "tags": [
+        "cs",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k15fr1c922gw22a1wve77ksz",
+      "title": "Implementing a Functional Language with Graph Reduction",
+      "url": "https://thma.github.io/posts/2021-12-27-Implementing-a-functional-language-with-Graph-Reduction.html",
+      "savedAt": "2025-07-27T08:24:47.241000+00:00",
+      "description": "This project implements a small functional language using graph reduction of combinators in Haskell. It translates lambda calculus expressions into combinators and represents them as graphs for efficient evaluation. The system supports recursion with the Y-combinator and plans to add parallelism and optimization.",
+      "tags": [
+        "for-later",
+        "cs/pl-theory"
+      ]
+    },
+    {
+      "id": "01k15fqmy8s2cxh8hppyrtm41y",
+      "title": "Monotonic and Wall Clock Time in the Go time package",
+      "url": "https://victoriametrics.com/blog/go-time-monotonic-wall-clock/",
+      "savedAt": "2025-07-27T08:24:34.504000+00:00",
+      "description": "Operating systems expose a wall clock that can leap or slew with NTP and a monotonic clock that never runs backward. In Go, only time.Now (might) carries both readings, while values from time.Parse, time.Date, etc., are wall-clock-only—so naïve equality checks or time.Since on those can mislead when the system clock shifts.",
+      "tags": [
+        "for-later",
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "01k15fp891xpgn63hw0thac9hq",
+      "title": "The Future is NOT Self-Hosted",
+      "url": "https://www.drewlyton.com/story/the-future-is-not-self-hosted/",
+      "savedAt": "2025-07-27T08:23:48.769000+00:00",
+      "description": "Many people try self-hosting to control their digital data, but it is hard and not practical for most. Instead of owning our own small clouds, we should build community-owned, shared internet services. True freedom online comes from working together, not isolating ourselves.",
+      "tags": [
+        "for-later",
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "01k15fnj97ayxx5gx8548tq6yp",
+      "title": "Rust running on every GPU",
+      "url": "https://rust-gpu.github.io/blog/2025/07/25/rust-on-every-gpu/",
+      "savedAt": "2025-07-27T08:23:26.247000+00:00",
+      "description": "A new Rust project lets the same Rust code run on all major GPUs, including NVIDIA, AMD, Apple, and browsers. It compiles Rust directly to GPU languages like SPIR-V and CUDA, simplifying GPU programming and testing. Although still rough, this work shows cross-platform GPU computing with Rust is now possible.",
+      "tags": [
+        "for-later",
+        "cs/programming-languages/rust"
+      ]
+    },
+    {
+      "id": "01k15fn2qj170060t63axdw86h",
+      "title": "It’s time for modern CSS to kill the SPA",
+      "url": "https://www.jonoalderson.com/conjecture/its-time-for-modern-css-to-kill-the-spa/",
+      "savedAt": "2025-07-27T08:23:10.322000+00:00",
+      "description": "Modern CSS features like View Transitions let browsers handle smooth page navigation without heavy JavaScript or SPAs. Building websites as real pages with clean HTML and CSS is faster, simpler, and better for users. SPAs are now outdated solutions causing unnecessary complexity and poor performance.",
+      "tags": [
+        "web"
+      ]
+    },
+    {
+      "id": "01k15fke0j66pfm74kqq4dczba",
+      "title": "Guia para implementar regras de especulação em sites mais complexos bookmark_borderbookmark Mantenha tudo organizado com as coleções Salve e categorize o conteúdo com base nas suas preferências.",
+      "url": "https://developer.chrome.com/docs/web-platform/implementing-speculation-rules?hl=pt-br",
+      "savedAt": "2025-07-27T08:22:16.337000+00:00",
+      "description": "Antes de usar regras de especulação, é importante escolher como implementá-las e avaliar os custos para o usuário. Regras podem ser aplicadas de formas diferentes, como no HTML, JavaScript ou cabeçalhos HTTP, com vantagens e desafios. É fundamental prever quais páginas carregar antecipadamente para melhorar a experiência sem sobrecarregar o sistema.",
+      "tags": [
+        "web"
+      ]
+    },
+    {
+      "id": "01k15ffnxy70fyfdngxmptgeaj",
+      "title": "Formal specs as sets of behaviors",
+      "url": "https://surfingcomplexity.blog/2025/07/26/formal-specs-as-sets-of-behaviors/",
+      "savedAt": "2025-07-27T08:20:13.374000+00:00",
+      "description": "A formal specification defines a system by describing all correct behaviors as a set. Unlike a program, it doesn't list instructions but specifies which behaviors are allowed. This helps check if a behavior is correct by seeing if it belongs to the specification's set.",
+      "tags": [
+        "for-later",
+        "math/formal-methods"
+      ]
+    },
     {
       "id": "01k0tx6wjjtx79wrh34g5pngye",
       "title": "technicalities: \"not rocket science\" (the story of monotone and bors)",
@@ -40,6 +674,7 @@
       "savedAt": "2025-07-21T14:15:49.309000+00:00",
       "description": "The author finds the Hindley-Milner notation confusing and hard to understand. They recognize some symbols but not many, like \"⊢\" or the vinculum. They ask for guidance on where to start learning about these symbols.",
       "tags": [
+        "for-later",
         "type-theory"
       ]
     },
@@ -9182,7 +9817,7 @@
       "id": "01jbep8jd51hxvnrn4znyxz3qa",
       "title": "Writing an IR from Scratch and survive to write a post - Eduardo Blázquez’s Personal Webpage",
       "url": "https://farena.in/compilers/programming/writing-an-ir-from-scratch/",
-      "savedAt": "2024-06-26T00:28:38.716000+00:00",
+      "savedAt": "2025-07-27T08:48:00.801000+00:00",
       "description": "The following post will talk about the design of the first version of the Intermediate Representation of Kunai, the design decisions and how it was implemented.",
       "tags": [
         "for-later",
