@@ -1,6 +1,16 @@
 {
-  "lastUpdate": "2025-07-29T00:10:34.904Z",
+  "lastUpdate": "2025-07-30T00:10:01.842Z",
   "data": [
+    {
+      "id": "01k1bfj9vn6m5y3tczav7j9pb8",
+      "title": "Advanced Rust macros with derive-deftly",
+      "url": "https://diziet.pages.torproject.net/rust-derive-deftly/latest/guide/",
+      "savedAt": "2025-07-29T16:17:05.909000+00:00",
+      "description": "derive-deftly is a Rust package that helps you create custom derive macros easily without writing low-level code. It lets you generate code like accessor functions automatically, saving time and reducing errors. While powerful, it works only on structs, enums, and unions and cannot modify the original type.",
+      "tags": [
+        "cs/programming-languages/rust"
+      ]
+    },
     {
       "id": "01k16x2xhe4e3sv3sf3d5z2dwy",
       "title": "The Intel 4004 Microprocessor and the Silicon Gate Technology",
