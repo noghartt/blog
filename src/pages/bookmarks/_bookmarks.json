@@ -1,6 +1,246 @@
 {
-  "lastUpdate": "2025-07-30T00:10:01.842Z",
+  "lastUpdate": "2025-07-31T00:09:35.269Z",
   "data": [
+    {
+      "id": "01k1epr413d7mk64y1j88j55h5",
+      "title": "„I Am Tired All The Time“ – 13 Reasons Why",
+      "url": "https://desmolysium.com/i-am-tired-all-the-time-13-reasons-why/?utm_source=rss&utm_medium=rss&utm_campaign=i-am-tired-all-the-time-13-reasons-why",
+      "savedAt": "2025-07-30T22:20:19.875000+00:00",
+      "description": "Low energy and fatigue have many causes, including hormone imbalances, poor sleep, nutrient deficiencies, and inflammation. Treating these issues can improve mood and energy, but some people struggle due to genetics. Many common medical tests miss these problems, so understanding the root causes is important.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k1entevnqzrcf59v1599j0bm",
+      "title": "Emacs: The MacOS Bug",
+      "url": "https://xlii.space/eng/emacs-the-macos-bug/",
+      "savedAt": "2025-07-30T22:04:07.925000+00:00",
+      "description": "Emacs on macOS gets slower over time because it repeatedly creates and destroys graphical resources during event handling, causing high memory use. This happens faster on newer, high-DPI Macs and is hard to fix due to deeply rooted code and macOS APIs. The author suggests rewriting parts in Swift to improve performance and memory management in the future.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k1ennakvvphtydg1hcvjc0ha",
+      "title": "Your actions reflect your priorities",
+      "url": "https://tombrady.com/posts/your-actions-reflect-your-priorities",
+      "savedAt": "2025-07-30T22:01:19.739000+00:00",
+      "description": "True satisfaction comes from how you live every day, not just from big achievements. Life has many priorities like health, family, work, and community, and you must balance them wisely. When your actions match your priorities, you live with purpose and inspire others.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k1emyghz8dfw5jfmz2zjkz0e",
+      "title": "polarizing parsers",
+      "url": "https://flak.tedunangst.com/post/polarizing-parsers",
+      "savedAt": "2025-07-30T21:48:52.159000+00:00",
+      "description": "A vulnerability called request smuggling involves sending confusing HTTP headers that cause servers to interpret requests differently. The author’s Go-based proxy avoids this problem by parsing requests consistently, so the backend sees the same data the proxy does. The real issue is proxies like Akamai’s sending invalid requests, not the HTTP protocol itself.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k1emxsqtcn2290v0qsjaydr5",
+      "title": "Behind the Scenes: My \"How Computers Really Work\" Series on Computerphile",
+      "url": "https://xania.org/202507/computerphile-series?utm_source=feed&utm_medium=rss",
+      "savedAt": "2025-07-30T21:48:28.794000+00:00",
+      "description": "The author created a Computerphile video series explaining how CPUs work using simple analogies and real props. They record remotely with a special setup and face some technical challenges, but enjoy making the videos with their editor Sean. The series is popular with viewers who want to learn computer basics, and more episodes are planned.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k1ebnjggxmj6wvf1nn8dwk0f",
+      "title": "How the Brain Increases Blood Flow on Demand",
+      "url": "https://hms.harvard.edu/news/how-brain-increases-blood-flow-demand",
+      "savedAt": "2025-07-30T19:06:42.064000+00:00",
+      "description": "Scientists discovered how the brain quickly sends blood to active areas using special cells lining blood vessels. These cells talk to each other through tiny channels to signal where more blood is needed. This finding may help us understand brain diseases and improve brain scans like fMRI.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k1ebhjy4rcsmh2tmaf10dwsd",
+      "title": "2000 words about arrays and tables",
+      "url": "https://buttondown.com/hillelwayne/archive/2000-words-about-arrays-and-tables/",
+      "savedAt": "2025-07-30T19:04:31.428000+00:00",
+      "description": "Arrays are functions that map number sequences to values, and they can have multiple dimensions like rows and columns. Tables are like arrays but hold mixed types in each row, so they combine struct and array features. This model helps explain why arrays can have many dimensions, but tables usually don't.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k1ebh6wq3vtwpgzcfy3ftxgc",
+      "title": "Why We Need to Know LR and Recursive Descent Parsing Techniques",
+      "url": "https://tratt.net/laurie/blog/2023/why_we_need_to_know_lr_and_recursive_descent_parsing_techniques.html",
+      "savedAt": "2025-07-30T19:04:19.095000+00:00",
+      "description": "Recursive descent parsing is easy and flexible but can hide grammar ambiguities and bugs. LR parsing guarantees unambiguous grammars and automatic parser generation, making language syntax clearer. Learning both helps understand real languages and design better, easier-to-parse ones.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k1ebh23qha4v6q5jrwr0r6tw",
+      "title": "Writing memory efficient C structs",
+      "url": "https://tomscheers.github.io/2025/07/29/writing-memory-efficient-structs-post.html",
+      "savedAt": "2025-07-30T19:04:14.199000+00:00",
+      "description": "C structs can use extra memory due to padding for alignment. Reordering fields and using smaller data types or bitfields can reduce struct size. Optimizing structs is useful for memory-limited programs but may reduce code readability.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k1ebgvvpfq70rx6kk01cfa84",
+      "title": "Writing an OS in Rust",
+      "url": "https://os.phil-opp.com/",
+      "savedAt": "2025-07-30T19:04:07.798000+00:00",
+      "description": "This blog teaches how to build a small operating system using Rust. It covers key topics like kernel creation, memory management, and multitasking with clear tutorials. All code and resources are freely available for readers to follow along.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k1ebcp5nrvvxbtcrwv3styfs",
+      "title": "Typechecking Is Undecidable When 'Type' Is A Type",
+      "url": "https://dspace.mit.edu/bitstream/handle/1721.1/149366/MIT-LCS-TR-458.pdf?sequence=6",
+      "savedAt": "2025-07-30T19:01:50.901000+00:00",
+      "description": null,
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k1ebbh8mnxzyze55qjbpw8vy",
+      "title": "Learning Basic Electronics By Building FireFlies",
+      "url": "https://a64.in/posts/learning-basic-electronics-by-building-fireflies/",
+      "savedAt": "2025-07-30T19:01:13.108000+00:00",
+      "description": "The author learned basic electronics by building blinking LED circuits called \"fireflies\" that mimic real fireflies. They faced many challenges but used AI, trial and error, and creativity to improve their designs. This hands-on journey gave them joy, purpose, and a love for learning through making.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k1ebb7p5grf9yrssa6ggy99b",
+      "title": "Simple and fast Rust deriving using macro_rules",
+      "url": "https://matx.com/research/rules_derive",
+      "savedAt": "2025-07-30T19:01:03.301000+00:00",
+      "description": "rules_derive is a Rust library that lets you create custom derive macros easily using macro_rules! instead of complex procedural macros. It simplifies handling all Rust type forms and generics, making derivers short, fast, and composable. This tool speeds up compile times and improves error messages, enabling more accessible and efficient trait derivation.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k1eb9y45dhr71p4dppjmcawm",
+      "title": "Learning Is Slower Than You Think — And That’s the Point",
+      "url": "https://nisheethvishnoi.substack.com/p/learning-is-slower-than-you-think",
+      "savedAt": "2025-07-30T19:00:20.741000+00:00",
+      "description": "Learning takes time, effort, and human connection to truly transform us. Schools like Alpha focus on speed and efficiency but risk losing the deeper struggle that builds insight and meaning. Real education is about growing with others, facing challenges, and shaping who we become—not just mastering facts quickly.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k1eb9jv0cc96ey4n274r9gyj",
+      "title": "LLM Embeddings Explained: A Visual and Intuitive Guide",
+      "url": "https://huggingface.co/spaces/hesamation/primer-llm-embedding",
+      "savedAt": "2025-07-30T19:00:09.184000+00:00",
+      "description": "This app explains how language models transform text into meaningful representations through embeddings. It provides a visual guide to help you understand traditional and modern language model tech...",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k1eb9e072a76ycqfcn04pseg",
+      "title": "consensus",
+      "url": "https://graydon2.dreamwidth.org/319018.html",
+      "savedAt": "2025-07-30T19:00:04.231000+00:00",
+      "description": "Consensus algorithms help computers agree despite failures, delays, or lies. They use promises, voting majorities, and sharing knowledge about others to ensure decisions are reliable and consistent. These methods catch errors or dishonesty and keep the system safe even if some nodes fail or act badly.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k1eb94482pzfsd3v345ww94a",
+      "title": "You’re probably using the wrong dictionary",
+      "url": "https://jsomers.net/blog/dictionary",
+      "savedAt": "2025-07-30T18:59:54.118000+00:00",
+      "description": "Many modern dictionaries give short, boring definitions that don’t capture the true meaning of words. The old Webster’s dictionary has richer, more vivid explanations that help you understand words better. Using the right dictionary can make learning words more interesting and meaningful.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k1eb90fx3d1qkbacqq12ynd9",
+      "title": "Atomic Habits Summary",
+      "url": "https://jamesclear.com/atomic-habits-summary",
+      "savedAt": "2025-07-30T18:59:50.396000+00:00",
+      "description": "\"Atomic Habits\" by James Clear explains how small daily improvements can lead to significant long-term changes. The book emphasizes the importance of systems over goals and encourages building identity-based habits to create lasting change. It provides a simple four-step framework for developing good habits and breaking bad ones.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k1eb8w7c6akzs3r1dqqq1yhc",
+      "title": "Getting decent error reports in Bash when you're using 'set -e'",
+      "url": "https://utcc.utoronto.ca/~cks/space/blog/programming/BashGoodSetEReports",
+      "savedAt": "2025-07-30T18:59:46.028000+00:00",
+      "description": "Using 'set -e' in Bash scripts stops the script on errors but doesn't give detailed error info. By adding a trap for the ERR signal with special variables, you can print the failing command, its exit status, and the line number. This method works well only in Bash, not in other shells like dash or the default /bin/sh on most systems.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k1eb8pk8dcsde9s727f25vqd",
+      "title": "Paul Dirac and the religion of mathematical beauty",
+      "url": "https://www.youtube.com/watch?v=jPwo1XsKKXg",
+      "savedAt": "2025-07-30T18:59:40.264000+00:00",
+      "description": "Paul Dirac was a brilliant physicist who believed that the laws of physics are deeply connected to mathematical beauty. He made important discoveries, like predicting antimatter, by following elegant mathematical ideas. Later in life, Dirac became critical of some quantum theories but remained convinced that math reveals the true nature of the universe.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k1eb8h696yr2r0reqqp1ykzc",
+      "title": "Heredocs Can Make Your Bash Scripts Self-Documenting",
+      "url": "https://holdtherobot.com/blog/heredocs-can-make-your-bash-scripts-self-documenting/",
+      "savedAt": "2025-07-30T18:59:34.729000+00:00",
+      "description": "Heredocs let you put markdown inside bash scripts to combine documentation and automation in one file. This helps keep information in sync and makes scripts self-explanatory. It is a simple way to write clearer, easier-to-use bash scripts without separate docs.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k1eb89avd38qwn0ha8tk8yyw",
+      "title": "Using fortune to reinforce habits",
+      "url": "https://www.judy.co.uk/blog/using-fortune-to-reinforce-habits/",
+      "savedAt": "2025-07-30T18:59:26.683000+00:00",
+      "description": "The author used the fortune tool to remind themselves of new command-line tools by showing messages when opening a terminal. They created a custom file with helpful tips and set it to display automatically. This quick setup helped them build better habits without coding.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k1eb807mkq4vbv83k52xn8wr",
+      "title": "Trust Deterministic Execution to Scale & Simplify Your Systems • Frank Yu • YOW! 2023",
+      "url": "https://www.youtube.com/watch?v=siEtKc6Sq2Y",
+      "savedAt": "2025-07-30T18:59:17.364000+00:00",
+      "description": "Deterministic execution helps make complex systems simpler and more reliable by processing inputs in a fixed order. This approach is useful for handling large volumes of data, such as in trading exchanges, ensuring correctness and easy replication. It also allows easier debugging and testing by making system behavior predictable.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k1eb7fy7fydgzqywnxber6tf",
+      "title": "Verified Assembly 2: Memory, RISC-V, Cuts for Invariants, and Ghost Code",
+      "url": "https://www.philipzucker.com/asm_verify2/",
+      "savedAt": "2025-07-30T18:59:00.679000+00:00",
+      "description": "This work presents a flexible assembly verification system using symbolic execution with support for invariants called \"cuts\" and ghost code. It works with multiple architectures like x86-64 and RISC-V by leveraging pcode for instruction semantics. The system aims to help both manual assembly developers and compiler writers verify code correctness effectively.",
+      "tags": [
+        "for-later"
+      ]
+    },
     {
       "id": "01k1bfj9vn6m5y3tczav7j9pb8",
       "title": "Advanced Rust macros with derive-deftly",
@@ -8,6 +248,7 @@
       "savedAt": "2025-07-29T16:17:05.909000+00:00",
       "description": "derive-deftly is a Rust package that helps you create custom derive macros easily without writing low-level code. It lets you generate code like accessor functions automatically, saving time and reducing errors. While powerful, it works only on structs, enums, and unions and cannot modify the original type.",
       "tags": [
+        "for-later",
         "cs/programming-languages/rust"
       ]
     },
