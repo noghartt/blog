@@ -1,6 +1,26 @@
 {
-  "lastUpdate": "2025-08-01T00:10:35.804Z",
+  "lastUpdate": "2025-08-02T00:09:48.577Z",
   "data": [
+    {
+      "id": "01k1kw4jay3ab75pxzvhkbfmx4",
+      "title": "Lobsters Interview with Icefox",
+      "url": "https://lobste.rs/s/2vfx6w/lobsters_interview_with_icefox",
+      "savedAt": "2025-08-01T22:30:42.782000+00:00",
+      "description": "The author is creating a new systems programming language called Garnet that focuses on minimalism and practical features like borrow checking and bitwise pattern-matching. They believe no perfect language exists, but better tools help programmers build useful systems. Collaboration between researchers and engineers is key to improving programming languages and tools.",
+      "tags": [
+        "cs"
+      ]
+    },
+    {
+      "id": "01k1kn92ggp1pgh99q6jcdatgx",
+      "title": "What Declarative Languages Are",
+      "url": "https://semantic-domain.blogspot.com/2013/07/what-declarative-languages-are.html",
+      "savedAt": "2025-08-01T20:30:50.384000+00:00",
+      "description": "A declarative language is one whose meaning involves some hidden existential choices, like regular expressions or SQL. These languages have simple, logical meanings but need complex methods to run them efficiently. Features that reveal how they work underneath are usually disliked by programmers.",
+      "tags": [
+        "for-later"
+      ]
+    },
     {
       "id": "01k1epr413d7mk64y1j88j55h5",
       "title": "„I Am Tired All The Time“ – 13 Reasons Why",
