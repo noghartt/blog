@@ -1,6 +1,46 @@
 {
-  "lastUpdate": "2025-08-02T00:09:48.577Z",
+  "lastUpdate": "2025-08-03T00:10:24.498Z",
   "data": [
+    {
+      "id": "01k1ny1gwv48wex9qks3eff96j",
+      "title": "Does the Bitter Lesson Have Limits?",
+      "url": "https://www.dbreunig.com/2025/08/01/does-the-bitter-lesson-have-limits.html",
+      "savedAt": "2025-08-02T17:42:29.019000+00:00",
+      "description": "The bitter lesson says AI works best when it learns from lots of data and computation, not human rules. But real-world problems like business are messy and hard to measure, making this lesson less clear. Sometimes, smart human-designed methods can be faster, cheaper, and just as good as big compute.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k1ny0kcw4c2qj0xfap7vg9kc",
+      "title": "HoareHoare Logic, Part I",
+      "url": "https://www.cs.cornell.edu/courses/cs4160/2020sp/sf/plf/terse/Hoare.html",
+      "savedAt": "2025-08-02T17:41:58.812000+00:00",
+      "description": "Hoare logic uses assertions to reason about program correctness with preconditions and postconditions. It defines rules, like assignment and consequence, to prove that commands meet their specifications. Automation tactics help streamline these proofs in formal verification.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k1nxq58cf1f6nysnmnzdt65j",
+      "title": "The many, many, many JavaScript runtimes of the last decade",
+      "url": "https://buttondown.com/whatever_jamie/archive/the-many-many-many-javascript-runtimes-of-the-last-decade/",
+      "savedAt": "2025-08-02T17:36:49.420000+00:00",
+      "description": "JavaScript runtimes have grown diverse, running on many platforms from tiny devices to desktops and mobile apps. Node.js and browser engines like V8 remain popular, but new engines and frameworks are emerging. Developers want JavaScript everywhere, and its use in native apps continues to expand beyond the web.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k1nxhy619akz6w7p99e9jbpy",
+      "title": "A Bytecode VM for Arithmetic: The Parser",
+      "url": "https://abhinavsarkar.net/posts/arithmetic-bytecode-vm-parser/",
+      "savedAt": "2025-08-02T17:33:58.336000+00:00",
+      "description": "The post explains how to write a parser in Haskell that converts arithmetic expressions into Abstract Syntax Trees (ASTs). It uses the attoparsec library and supports parsing of let expressions and binary operations with correct precedence. The parser is thoroughly tested for both correct inputs and error cases, showing reliable behavior.",
+      "tags": [
+        "for-later"
+      ]
+    },
     {
       "id": "01k1kw4jay3ab75pxzvhkbfmx4",
       "title": "Lobsters Interview with Icefox",
