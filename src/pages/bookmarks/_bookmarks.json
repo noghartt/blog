@@ -1,6 +1,62 @@
 {
-  "lastUpdate": "2025-08-03T00:10:24.498Z",
+  "lastUpdate": "2025-08-04T00:10:20.317Z",
   "data": [
+    {
+      "id": "01k1rc9fzkms0yymr5c5796h94",
+      "title": "How to reverse engineer an analog chip: the TDA7000 FM radio receiver",
+      "url": "https://www.righto.com/2025/08/reverse-engineering-analog-TDA7000.html",
+      "savedAt": "2025-08-03T16:29:59.155000+00:00",
+      "description": "The TDA7000 FM radio chip uses over 100 bipolar transistors, mainly NPN type, for its circuits. The chip design is complex, with careful layout and unique transistor structures to fit all components on one metal layer. Understanding NPN transistors and their simple circuits helps in reverse engineering this analog chip.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k1rbse9xybnvwanykrv7998w",
+      "title": "The Making of D.",
+      "url": "https://fab.cba.mit.edu/classes/863.19/CBA/people/dsculley/index.html",
+      "savedAt": "2025-08-03T16:21:13.148000+00:00",
+      "description": "D. Sculley, a Google machine learning researcher, is taking the MIT course \"How to Make Almost Anything\" to learn about fabrication. The course covers many hands-on skills like 3D printing, electronics, and CNC machining over 14 weeks. He hopes to find connections between fabrication and machine learning for future projects.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k1rbqhy5aj7r4p508y6a1tg4",
+      "title": "How should we learn from bugs?",
+      "url": "https://typesanitizer.com/blog/bug-analysis.html",
+      "savedAt": "2025-08-03T16:20:11.333000+00:00",
+      "description": "Bugs often come from different people writing code in different ways, which can cause unexpected problems. It is hard to fully understand or prevent all bugs because every project and context is different. When dealing with bugs, it helps to stay calm, ask questions, and be kind to yourself and others.",
+      "tags": []
+    },
+    {
+      "id": "01k1rbpjptrh8qkgankhxg0h9d",
+      "title": "The Math Is Haunted",
+      "url": "https://overreacted.io/the-math-is-haunted/",
+      "savedAt": "2025-08-03T16:19:39.354000+00:00",
+      "description": "Lean is a tool that lets mathematicians write proofs like computer code to check math carefully. You can add axioms, but bad ones like \"2 = 3\" break math and let you prove anything. Removing bad axioms keeps math true and helps build reliable, complex proofs step by step.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k1rbp63d8x6qd8apbqcb7jt6",
+      "title": "Linear types for programmers",
+      "url": "https://twey.io/for-programmers/linear-types/",
+      "savedAt": "2025-08-03T16:19:26.445000+00:00",
+      "description": "Linear types ensure that values are used exactly once, helping programmers manage resources like memory and file handles safely. They model protocols and state changes, preventing errors such as using a closed file or misordering network requests. Languages like Rust and Haskell use related systems to improve performance, safety, and concurrency.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k1rb015jk5fg1kre2a5c7qza",
+      "title": "MELHOR JOGO PARA DISTRAÍDOS! -  Donkey Kong BANANZA (Parte 02)",
+      "url": "https://www.youtube.com/watch?v=bg43vZhh1LI",
+      "savedAt": "2025-08-03T16:07:20.498000+00:00",
+      "description": "O vídeo mostra alguém jogando Donkey Kong Bananza e tentando entender o jogo. Ele coleta bananas para ganhar pontos e enfrenta desafios diferentes. O jogador fica confuso, mas continua explorando para avançar na aventura.",
+      "tags": []
+    },
     {
       "id": "01k1ny1gwv48wex9qks3eff96j",
       "title": "Does the Bitter Lesson Have Limits?",
