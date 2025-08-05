@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-08-05T00:09:56.227Z",
+  "lastUpdate": "2025-08-05T21:27:48.795Z",
   "data": [
     {
       "id": "01k1tzqgawse19rzdqwng4zrez",
@@ -7,7 +7,9 @@
       "url": "https://newsletter.rafapaez.com/p/social-capital-the-career-edge-most",
       "savedAt": "2025-08-04T16:48:10.076000+00:00",
       "description": "Social capital is the trust and relationships engineers build to get support and influence decisions. It grows from small, consistent actions like helping others and communicating clearly. Combining social capital with initiative helps engineers make a bigger impact and advance their careers.",
-      "tags": []
+      "tags": [
+        "for-later"
+      ]
     },
     {
       "id": "01k1texa2cr4ce07hxkffn1eh4",
@@ -15,7 +17,11 @@
       "url": "https://www.youtube.com/watch?v=AGnTnbR1sSg",
       "savedAt": "2025-08-04T11:54:14.476000+00:00",
       "description": "Proofs in logic can be seen as computer programs, where each proof corresponds to a function with a specific type. This idea, known as the Curry-Howard correspondence, links logic, computation, and type theory. Using lambda calculus, we can write and understand these proof-programs clearly and precisely.",
-      "tags": []
+      "tags": [
+        "math/logic",
+        "type-theory",
+        "math/formal-proof"
+      ]
     },
     {
       "id": "01k1t6eafvxzrxhtzm30wdpv3f",
@@ -23,7 +29,9 @@
       "url": "https://blog.brownplt.org/2025/08/03/paralegal.html",
       "savedAt": "2025-08-04T09:26:14.779000+00:00",
       "description": "Privacy bugs are hard to find and fix, but they are very important because of laws like the GDPR. Paralegal is a new tool that helps check privacy rules written in simple English and links them to the actual code. It uses Rust’s type system to analyze programs quickly and accurately, making it useful for real-world software.",
-      "tags": []
+      "tags": [
+        "for-later"
+      ]
     },
     {
       "id": "01k1rc9fzkms0yymr5c5796h94",
@@ -51,7 +59,9 @@
       "url": "https://typesanitizer.com/blog/bug-analysis.html",
       "savedAt": "2025-08-03T16:20:11.333000+00:00",
       "description": "Bugs often come from different people writing code in different ways, which can cause unexpected problems. It is hard to fully understand or prevent all bugs because every project and context is different. When dealing with bugs, it helps to stay calm, ask questions, and be kind to yourself and others.",
-      "tags": []
+      "tags": [
+        "for-later"
+      ]
     },
     {
       "id": "01k1rbpjptrh8qkgankhxg0h9d",
@@ -72,14 +82,6 @@
       "tags": [
         "for-later"
       ]
-    },
-    {
-      "id": "01k1rb015jk5fg1kre2a5c7qza",
-      "title": "MELHOR JOGO PARA DISTRAÍDOS! -  Donkey Kong BANANZA (Parte 02)",
-      "url": "https://www.youtube.com/watch?v=bg43vZhh1LI",
-      "savedAt": "2025-08-03T16:07:20.498000+00:00",
-      "description": "O vídeo mostra alguém jogando Donkey Kong Bananza e tentando entender o jogo. Ele coleta bananas para ganhar pontos e enfrenta desafios diferentes. O jogador fica confuso, mas continua explorando para avançar na aventura.",
-      "tags": []
     },
     {
       "id": "01k1ny1gwv48wex9qks3eff96j",
