@@ -1,6 +1,30 @@
 {
-  "lastUpdate": "2025-08-04T00:10:20.317Z",
+  "lastUpdate": "2025-08-05T00:09:56.227Z",
   "data": [
+    {
+      "id": "01k1tzqgawse19rzdqwng4zrez",
+      "title": "Social Capital: The Compound Interest of Your Engineering Career",
+      "url": "https://newsletter.rafapaez.com/p/social-capital-the-career-edge-most",
+      "savedAt": "2025-08-04T16:48:10.076000+00:00",
+      "description": "Social capital is the trust and relationships engineers build to get support and influence decisions. It grows from small, consistent actions like helping others and communicating clearly. Combining social capital with initiative helps engineers make a bigger impact and advance their careers.",
+      "tags": []
+    },
+    {
+      "id": "01k1texa2cr4ce07hxkffn1eh4",
+      "title": "Proofs are Programs",
+      "url": "https://www.youtube.com/watch?v=AGnTnbR1sSg",
+      "savedAt": "2025-08-04T11:54:14.476000+00:00",
+      "description": "Proofs in logic can be seen as computer programs, where each proof corresponds to a function with a specific type. This idea, known as the Curry-Howard correspondence, links logic, computation, and type theory. Using lambda calculus, we can write and understand these proof-programs clearly and precisely.",
+      "tags": []
+    },
+    {
+      "id": "01k1t6eafvxzrxhtzm30wdpv3f",
+      "title": "Practical Static Analysis for Privacy Bugs",
+      "url": "https://blog.brownplt.org/2025/08/03/paralegal.html",
+      "savedAt": "2025-08-04T09:26:14.779000+00:00",
+      "description": "Privacy bugs are hard to find and fix, but they are very important because of laws like the GDPR. Paralegal is a new tool that helps check privacy rules written in simple English and links them to the actual code. It uses Rust’s type system to analyze programs quickly and accurately, making it useful for real-world software.",
+      "tags": []
+    },
     {
       "id": "01k1rc9fzkms0yymr5c5796h94",
       "title": "How to reverse engineer an analog chip: the TDA7000 FM radio receiver",
