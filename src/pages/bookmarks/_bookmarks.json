@@ -1,6 +1,16 @@
 {
-  "lastUpdate": "2025-08-05T21:27:48.795Z",
+  "lastUpdate": "2025-08-06T00:09:45.112Z",
   "data": [
+    {
+      "id": "01k1y6h94ssyrzm7k7e8gf2419",
+      "title": "Gate-level emulation of an Intel 4004 in 4004 bytes of C",
+      "url": "https://nicholas.carlini.com/writing/2025/ioccc-intel-4004-in-4004-bytes-c.html",
+      "savedAt": "2025-08-05T22:44:49.433000+00:00",
+      "description": "This program emulates the Intel 4004 CPU by decompressing a large circuit description and then simulating its logic gates in C. It uses a compressed, gate-level representation to accurately mimic the processor’s instructions and registers. The emulator runs instructions by recalculating gate outputs, allowing it to execute the 4004’s operations in software efficiently.",
+      "tags": [
+        "for-later"
+      ]
+    },
     {
       "id": "01k1tzqgawse19rzdqwng4zrez",
       "title": "Social Capital: The Compound Interest of Your Engineering Career",
