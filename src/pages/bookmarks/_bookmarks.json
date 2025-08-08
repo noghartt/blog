@@ -1,6 +1,57 @@
 {
-  "lastUpdate": "2025-08-06T00:09:45.112Z",
+  "lastUpdate": "2025-08-08T00:09:44.800Z",
   "data": [
+    {
+      "id": "01k20hwt4vyygcq4mq2vnaqbeq",
+      "title": "Cognitive Decline Can Be Slowed Down With Lifestyle Changes, From Diet to Exercise and Social Time, New Study Suggests",
+      "url": "https://www.smithsonianmag.com/smart-news/cognitive-decline-can-be-slowed-down-with-lifestyle-changes-from-diet-to-exercise-and-social-time-new-study-suggests-180987077/",
+      "savedAt": "2025-08-06T20:41:50.491000+00:00",
+      "description": "A study shows that regular exercise, healthy diet, and social engagement can slow cognitive decline in older adults. People who followed a structured lifestyle program had better thinking skills than those who chose their own plan. Researchers believe support and guidance help people stick to healthy habits and improve brain health.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k20h5qqxce4bqk17wnate51t",
+      "title": "Implementing Viewstamped Replication protocol",
+      "url": "https://distributed-computing-musings.com/2023/10/implementing-viewstamped-replication-protocol/",
+      "savedAt": "2025-08-06T20:29:14.364000+00:00",
+      "description": "Viewstamped Replication (VR) is a protocol that keeps data safe by making sure all nodes in a cluster apply operations in the same order, even if some nodes fail. It chooses a new leader quickly using a simple round-robin method when the current leader fails, and failed nodes can catch up by getting missed updates. VR is simpler than other consensus protocols and can be improved with optimizations like storing logs on disk and batching requests.",
+      "tags": [
+        "favorites",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k20bfdwajdpavpt10x1vsnwh",
+      "title": "How to Scale Proteomics",
+      "url": "https://www.asimov.press/p/proteomics",
+      "savedAt": "2025-08-06T18:49:40.490000+00:00",
+      "description": "Proteomics studies proteins in cells but is slow and limited to few cells at a time. PTI is creating better barcodes, faster machines, and smart software to study thousands of cells quickly. This could help detect diseases like Alzheimer’s early by analyzing many brain cells’ proteins.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k201xcwz2a0sez5kz43405e9",
+      "title": "Build Your Own Lisp Learn C and build your own programming language in 1000 lines of code!",
+      "url": "https://www.buildyourownlisp.com/",
+      "savedAt": "2025-08-06T16:02:32.479000+00:00",
+      "description": "Learn C and build your own programming language with this book. Discover the wonders of Lisps and solve problems with concise code examples. Available for free online or for purchase in print and e-book formats.",
+      "tags": [
+        "cs/pl-theory"
+      ]
+    },
+    {
+      "id": "01k201hwqk0gacsgpdccfqa06n",
+      "title": "Software books I wish I could read",
+      "url": "https://buttondown.com/hillelwayne/archive/software-books-i-wish-i-could-read/",
+      "savedAt": "2025-08-06T15:56:15.475000+00:00",
+      "description": "The author wishes there were more software books that explain complex topics in simple ways, like configurations, data schemas, and practical computer science. They are writing their own book to help others learn easier than they did. The post lists ideas for useful books that don't exist yet but would help many programmers.",
+      "tags": [
+        "for-later"
+      ]
+    },
     {
       "id": "01k1y6h94ssyrzm7k7e8gf2419",
       "title": "Gate-level emulation of an Intel 4004 in 4004 bytes of C",
