@@ -1,6 +1,16 @@
 {
-  "lastUpdate": "2025-08-08T00:09:44.800Z",
+  "lastUpdate": "2025-08-09T00:09:31.411Z",
   "data": [
+    {
+      "id": "01k25mwm9rvmcc7x030ff5b1qb",
+      "title": "Why You Should Build Durable Workflows With Postgres",
+      "url": "https://www.dbos.dev/blog/why-postgres-durable-execution",
+      "savedAt": "2025-08-08T20:10:22.391000+00:00",
+      "description": "Postgres is a great choice for building durable workflows because it handles concurrency well, supports powerful queries, and ensures tasks run exactly once. Its locking features reduce bottlenecks when multiple workers process tasks at the same time. Postgres also helps monitor workflows easily and makes sure database steps complete fully or not at all.",
+      "tags": [
+        "cs/distsys"
+      ]
+    },
     {
       "id": "01k20hwt4vyygcq4mq2vnaqbeq",
       "title": "Cognitive Decline Can Be Slowed Down With Lifestyle Changes, From Diet to Exercise and Social Time, New Study Suggests",
