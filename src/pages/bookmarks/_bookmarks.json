@@ -1,6 +1,34 @@
 {
-  "lastUpdate": "2025-08-09T00:09:31.411Z",
+  "lastUpdate": "2025-08-10T00:10:04.599Z",
   "data": [
+    {
+      "id": "01k28jm6w620sa4vdnjeb45yw0",
+      "title": "A CT scanner reveals surprises inside the 386 processor's ceramic package",
+      "url": "https://www.righto.com/2025/08/intel-386-package-ct-scan.html",
+      "savedAt": "2025-08-09T23:28:32.646000+00:00",
+      "description": "A 3-D CT scan revealed the Intel 386 processor has a complex six-layer ceramic package with 132 gold-plated pins. The chip uses separate power and ground networks for I/O and CPU logic to improve performance and noise reduction. The scan helped map the hidden connections between the die's pads and the external pins, clarifying the chip's internal wiring.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k27bmjaym1vgg4nvxhq4s6pp",
+      "title": "Lobsters Interview with Hwayne",
+      "url": "https://lobste.rs/s/bc53lh",
+      "savedAt": "2025-08-09T12:07:09.917000+00:00",
+      "description": "Hwayne discovered programming as a career pivot and focuses on making Formal Methods (FM) accessible and practical for developers. He values writing and teaching to clarify complex topics like logic and believes FM helps improve engineering work when engineers are motivated. He also emphasizes that software engineering involves creating mental models beyond just writing code.",
+      "tags": []
+    },
+    {
+      "id": "01k278bqheh7r8761vp7n6e2bp",
+      "title": "Over engineering my homelab so I don't pay cloud providers",
+      "url": "https://ergaster.org/posts/2025/08/04-overegineering-homelab/",
+      "savedAt": "2025-08-09T11:09:54.606000+00:00",
+      "description": "The author set up a Proxmox hypervisor on a home server to avoid paying cloud providers. They automated the installation and configuration using Ansible, OpenTofu, and cloud-init. This setup includes disk encryption and easy VM deployment for flexible and secure home lab management.",
+      "tags": [
+        "for-later"
+      ]
+    },
     {
       "id": "01k25mwm9rvmcc7x030ff5b1qb",
       "title": "Why You Should Build Durable Workflows With Postgres",
@@ -29,7 +57,7 @@
       "description": "Viewstamped Replication (VR) is a protocol that keeps data safe by making sure all nodes in a cluster apply operations in the same order, even if some nodes fail. It chooses a new leader quickly using a simple round-robin method when the current leader fails, and failed nodes can catch up by getting missed updates. VR is simpler than other consensus protocols and can be improved with optimizations like storing logs on disk and batching requests.",
       "tags": [
         "favorites",
-        "for-later"
+        "cs/distsys"
       ]
     },
     {
@@ -59,7 +87,8 @@
       "savedAt": "2025-08-06T15:56:15.475000+00:00",
       "description": "The author wishes there were more software books that explain complex topics in simple ways, like configurations, data schemas, and practical computer science. They are writing their own book to help others learn easier than they did. The post lists ideas for useful books that don't exist yet but would help many programmers.",
       "tags": [
-        "for-later"
+        "cs",
+        "books"
       ]
     },
     {
