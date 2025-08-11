@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-08-10T00:10:04.599Z",
+  "lastUpdate": "2025-08-11T00:10:00.477Z",
   "data": [
     {
       "id": "01k28jm6w620sa4vdnjeb45yw0",
@@ -240,7 +240,7 @@
       "savedAt": "2025-08-01T20:30:50.384000+00:00",
       "description": "A declarative language is one whose meaning involves some hidden existential choices, like regular expressions or SQL. These languages have simple, logical meanings but need complex methods to run them efficiently. Features that reveal how they work underneath are usually disliked by programmers.",
       "tags": [
-        "for-later"
+        "cs/pl-theory"
       ]
     },
     {
@@ -250,7 +250,8 @@
       "savedAt": "2025-07-30T22:20:19.875000+00:00",
       "description": "Low energy and fatigue have many causes, including hormone imbalances, poor sleep, nutrient deficiencies, and inflammation. Treating these issues can improve mood and energy, but some people struggle due to genetics. Many common medical tests miss these problems, so understanding the root causes is important.",
       "tags": [
-        "for-later"
+        "biohack",
+        "self-improvement"
       ]
     },
     {
@@ -270,7 +271,7 @@
       "savedAt": "2025-07-30T22:01:19.739000+00:00",
       "description": "True satisfaction comes from how you live every day, not just from big achievements. Life has many priorities like health, family, work, and community, and you must balance them wisely. When your actions match your priorities, you live with purpose and inspire others.",
       "tags": [
-        "for-later"
+        "self-improvement"
       ]
     },
     {
