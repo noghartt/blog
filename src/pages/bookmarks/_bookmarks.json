@@ -1,6 +1,16 @@
 {
-  "lastUpdate": "2025-08-11T00:10:00.477Z",
+  "lastUpdate": "2025-08-12T00:09:15.133Z",
   "data": [
+    {
+      "id": "01k2d4pvbd7demqvm0e92qf78s",
+      "title": "Viewstamped Replication: The Less-Famous Consensus Protocol",
+      "url": "https://brooker.co.za/blog/2014/05/19/vr.html",
+      "savedAt": "2025-08-11T18:01:31.245000+00:00",
+      "description": "Viewstamped Replication is an older, less-known consensus protocol that works differently from the popular Paxos and Raft. It uses passive replication, where only the primary replica executes operations and shares updates with others. Despite its advantages and clear explanations, it remains overlooked compared to Paxos and Raft.",
+      "tags": [
+        "cs/distsys"
+      ]
+    },
     {
       "id": "01k28jm6w620sa4vdnjeb45yw0",
       "title": "A CT scanner reveals surprises inside the 386 processor's ceramic package",
@@ -108,7 +118,7 @@
       "savedAt": "2025-08-04T16:48:10.076000+00:00",
       "description": "Social capital is the trust and relationships engineers build to get support and influence decisions. It grows from small, consistent actions like helping others and communicating clearly. Combining social capital with initiative helps engineers make a bigger impact and advance their careers.",
       "tags": [
-        "for-later"
+        "career"
       ]
     },
     {
@@ -180,7 +190,8 @@
       "savedAt": "2025-08-03T16:19:26.445000+00:00",
       "description": "Linear types ensure that values are used exactly once, helping programmers manage resources like memory and file handles safely. They model protocols and state changes, preventing errors such as using a closed file or misordering network requests. Languages like Rust and Haskell use related systems to improve performance, safety, and concurrency.",
       "tags": [
-        "for-later"
+        "type-theory",
+        "cs/pl-theory"
       ]
     },
     {
