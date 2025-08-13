@@ -1,6 +1,16 @@
 {
-  "lastUpdate": "2025-08-12T00:09:15.133Z",
+  "lastUpdate": "2025-08-13T00:09:20.471Z",
   "data": [
+    {
+      "id": "01k2f4jec6j7a94qee7synmvc9",
+      "title": "What even is distributed systems",
+      "url": "https://notes.eatonphil.com/2025-08-09-what-even-is-distributed-systems.html",
+      "savedAt": "2025-08-12T12:37:35.750000+00:00",
+      "description": "Distributed systems study how processes interact, creating challenges in correctness, reliability, and performance. A great way to learn is by reading \"Designing Data Intensive Applications\" and following the MIT Distributed Systems course. Practice by implementing common protocols and join communities like the Software Internals Discord to discuss and ask questions.",
+      "tags": [
+        "cs/distsys"
+      ]
+    },
     {
       "id": "01k2d4pvbd7demqvm0e92qf78s",
       "title": "Viewstamped Replication: The Less-Famous Consensus Protocol",
