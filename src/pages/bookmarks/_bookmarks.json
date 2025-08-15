@@ -1,6 +1,37 @@
 {
-  "lastUpdate": "2025-08-14T00:10:17.353Z",
+  "lastUpdate": "2025-08-15T00:10:53.499Z",
   "data": [
+    {
+      "id": "01k2n9q6kd6rnn0sgte9wjzqjh",
+      "title": "The Patterns",
+      "url": "https://patternlanguage.cc/",
+      "savedAt": "2025-08-14T22:03:01.101000+00:00",
+      "description": "This text introduces patterns for shaping groups of buildings and individual buildings in three dimensions. It guides individuals or small groups on designing and building layouts, emphasizing the importance of site positioning, building layout, pathways, light, space, and private rooms. The text also highlights the significance of establishing a structural philosophy before detailing structural elements in building construction.",
+      "tags": [
+        "society",
+        "engineering"
+      ]
+    },
+    {
+      "id": "01k2n7aadtd6cpc51kbf1jxe4j",
+      "title": "Type inference for plain data",
+      "url": "https://www.haskellforall.com/2025/08/type-inference-for-plain-data.html",
+      "savedAt": "2025-08-14T21:21:01.882000+00:00",
+      "description": "Type inference is simpler for plain data types using monoid laws and unification rules with mempty as the Never type. The unification operator (<>) combines types by making fields optional or merging matching fields, ensuring supertype relationships. Associativity and other laws hold for basic types like String, Number, Bool, Array, and Object, supporting consistent type unification.",
+      "tags": [
+        "type-theory"
+      ]
+    },
+    {
+      "id": "01k2m53tz01380hsctevax36wk",
+      "title": "iPhone DevOps - ultimate edition",
+      "url": "https://clearsky.dev/blog/iphone-devops-ssh/",
+      "savedAt": "2025-08-14T11:23:17.856000+00:00",
+      "description": "The author enjoys coding on an iPhone using apps like Pythonista, Secure ShellFish, Textastic, and Working Copy. They run code on a remote Linux server and sync files between their phone and server smoothly. This setup costs some money but works well as a portable, single-handed development environment.",
+      "tags": [
+        "cs/devops"
+      ]
+    },
     {
       "id": "01k2jv6xtjr5edrrgk0ymtq15d",
       "title": "OOMProf - Profiling on the Brink",
@@ -13703,7 +13734,8 @@
       "tags": [
         "favorites",
         "math/statistics",
-        "math/probability"
+        "math/probability",
+        "philosophy/rationalism"
       ]
     },
     {
