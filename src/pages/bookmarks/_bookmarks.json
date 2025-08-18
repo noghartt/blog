@@ -1,6 +1,25 @@
 {
-  "lastUpdate": "2025-08-16T00:10:19.451Z",
+  "lastUpdate": "2025-08-18T00:11:08.475Z",
   "data": [
+    {
+      "id": "01k2wrqj96vdamksyyvq79z9fg",
+      "title": "Consensus algorithms at scale: Part 1 - Introduction",
+      "url": "https://planetscale.com/blog/consensus-algorithms-at-scale-part-1",
+      "savedAt": "2025-08-17T19:40:02.726000+00:00",
+      "description": "The introduction to the article \"Consensus algorithms at scale: Part 1\" highlights the complexity of consensus algorithms in theory and practice, emphasizing the evolving nature of the problems they address. It discusses key requirements like distributed durability, availability, and automation in consensus systems, posing questions about whether existing solutions like Paxos or Raft would emerge if starting from these requirements. The text points out the need for systems to adapt to changing cloud provider topologies and pricing structures, suggesting a more flexible approach like Vitess, which allows for customization without compromising essential aspects. The article promises to delve into dissecting consensus algorithms, building new principles using flexible algorithms, and ultimately achieving objectives in Vitess, all from an engineering perspective based on experience rather than formal proof.",
+      "tags": []
+    },
+    {
+      "id": "01k2vxky6pm44cqyx7mrf8f4zj",
+      "title": "Typechecker Zoo",
+      "url": "https://sdiehl.github.io/typechecker-zoo/foundations/type-systems.html",
+      "savedAt": "2025-08-17T11:46:12.310000+00:00",
+      "description": "Type systems are rules that assign types to program parts and check that a program is well-typed.  \nType checking builds derivation trees from inference rules and contexts to prove programs follow those rules.  \nModern type systems blur types and terms so types can express logic, letting programs serve as machine-checked proofs.",
+      "tags": [
+        "type-theory",
+        "cs/pl-theory"
+      ]
+    },
     {
       "id": "01k2n9q6kd6rnn0sgte9wjzqjh",
       "title": "The Patterns",
