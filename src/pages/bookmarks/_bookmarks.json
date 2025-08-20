@@ -1,6 +1,16 @@
 {
-  "lastUpdate": "2025-08-18T00:11:08.475Z",
+  "lastUpdate": "2025-08-20T00:10:23.211Z",
   "data": [
+    {
+      "id": "01k2yhapxz5hyf98cv59gmcdmr",
+      "title": "NixOS & Flakes Book",
+      "url": "https://nixos-and-flakes.thiscute.world/introduction/installation",
+      "savedAt": "2025-08-18T12:09:10.334000+00:00",
+      "description": "This book focuses on using NixOS and Flakes. It skips installation details for Nix on macOS, Linux, or WSL. For installs visit https://nixos.org/download.html; macOS users can try ryan4yin/nix-darwin-kickstarter.",
+      "tags": [
+        "tools/nix"
+      ]
+    },
     {
       "id": "01k2wrqj96vdamksyyvq79z9fg",
       "title": "Consensus algorithms at scale: Part 1 - Introduction",
@@ -7262,10 +7272,10 @@
     },
     {
       "id": "01jbepae5c3qn3qk43g3c3tkht",
-      "title": "How to (seriously) read a scientific paper | Science | AAAS",
+      "title": "How do you approach reading a paper?",
       "url": "https://www.science.org/content/article/how-seriously-read-scientific-paper",
       "savedAt": "2024-02-11T21:48:43.149000+00:00",
-      "description": "Reading becomes easier with experience, but it is up to each scientist to identify the techniques that work best for them.",
+      "description": "Adam Ruben's tongue-in-cheek column about the common difficulties and frustrations of reading a scientific paper broadly resonated among Science Careers readers.",
       "tags": [
         "academy",
         "learning"
@@ -8657,10 +8667,10 @@
     },
     {
       "id": "01jbep9p9570fmx99bz313wa77",
-      "title": "Addiction Pathways in the Brain | Science | AAAS",
+      "title": "About the author",
       "url": "https://www.science.org/content/blog-post/addiction-pathway-brain",
       "savedAt": "2024-04-20T13:18:01.689000+00:00",
-      "description": "Addiction Pathways in the Brain",
+      "description": "There is clearly a terrible need for more effective therapies for drug addictions, but one of the problems is that biochemically, we don't understand it well enough.",
       "tags": [
         "health"
       ]
