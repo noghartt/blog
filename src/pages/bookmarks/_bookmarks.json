@@ -1,6 +1,16 @@
 {
-  "lastUpdate": "2025-08-20T00:10:23.211Z",
+  "lastUpdate": "2025-08-21T00:09:30.663Z",
   "data": [
+    {
+      "id": "01k32mn2nwfybyfeag8txyft0h",
+      "title": "How to Think About GPUs",
+      "url": "https://jax-ml.github.io/scaling-book/gpus/",
+      "savedAt": "2025-08-20T02:24:13.499000+00:00",
+      "description": "GPU nodes are typically 8 GPUs, with an H100 GPU egress ≈450 GB/s (B200/GB200 can reach ≈900 GB/s).  \nInside a node communication is fast, but beyond the node effective node egress falls to ≈400 GB/s, so collectives cost roughly B / W_node_egress.  \nThis drives LLM scaling: you need large local batch sizes and multiple nodes, and in‑network reductions can halve collective costs.",
+      "tags": [
+        "for-later"
+      ]
+    },
     {
       "id": "01k2yhapxz5hyf98cv59gmcdmr",
       "title": "NixOS & Flakes Book",
