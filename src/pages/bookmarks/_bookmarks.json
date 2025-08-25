@@ -1,6 +1,17 @@
 {
-  "lastUpdate": "2025-08-23T00:09:13.404Z",
+  "lastUpdate": "2025-08-25T00:09:25.508Z",
   "data": [
+    {
+      "id": "01k3br3z9cey3zes54hff1690d",
+      "title": "Consistency Models",
+      "url": "https://jepsen.io/consistency/models",
+      "savedAt": "2025-08-23T15:17:57.164000+00:00",
+      "description": "Consistency models describe which sequences of operations are allowed in concurrent and distributed systems. They form a hierarchy: strong models (like strict serializability and linearizability) imply weaker ones (like sequential or causal consistency). Network asynchrony and availability trade-offs mean stronger models are often impossible or less available in real systems.",
+      "tags": [
+        "cs/distsys",
+        "cs/database"
+      ]
+    },
     {
       "id": "01k32mn2nwfybyfeag8txyft0h",
       "title": "How to Think About GPUs",
