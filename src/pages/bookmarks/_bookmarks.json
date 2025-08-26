@@ -1,6 +1,26 @@
 {
-  "lastUpdate": "2025-08-25T00:09:25.508Z",
+  "lastUpdate": "2025-08-26T00:09:17.698Z",
   "data": [
+    {
+      "id": "01k3ghrsfa4arskjv24s05cbhh",
+      "title": "Optimizing our way through Metroid",
+      "url": "https://antithesis.com/blog/2025/metroid/",
+      "savedAt": "2025-08-25T12:03:11.466000+00:00",
+      "description": "The Antithesis platform learned to solve the challenge of needing missiles to open a door in Metroid by tracking missile counts while exploring the game. They improved their testing by optimizing state exploration, making the process faster and smarter. This new approach helped them beat the game and discover bugs more effectively.",
+      "tags": [
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "01k3ggdbh37csv806wz7ataa4t",
+      "title": "\"| > \"",
+      "url": "https://gwern.net/everything",
+      "savedAt": "2025-08-25T11:39:28.162000+00:00",
+      "description": "Many null hypotheses in psychology are implausible and practically never true.  \nWith enough data they will be rejected, so simple significance tests are uninformative.  \nResearchers should build and test substantive models instead.",
+      "tags": [
+        "math/statistics"
+      ]
+    },
     {
       "id": "01k3br3z9cey3zes54hff1690d",
       "title": "Consistency Models",
