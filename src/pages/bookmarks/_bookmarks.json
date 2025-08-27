@@ -1,6 +1,36 @@
 {
-  "lastUpdate": "2025-08-26T00:09:17.698Z",
+  "lastUpdate": "2025-08-27T00:10:04.598Z",
   "data": [
+    {
+      "id": "01k3j0hhk43q11cwema97dmgk2",
+      "title": "BUGGIFY",
+      "url": "https://transactional.blog/simulation/buggify",
+      "savedAt": "2025-08-26T01:40:37.092000+00:00",
+      "description": "FoundationDB uses a deterministic simulator plus an in-code fault injector called BUGGIFY to find rare, high-level bugs. BUGGIFY is compiled into the production binary but only runs in simulation; each use is enabled per run and usually fires with about 25% probability. Engineers sprinkle BUGGIFY to force error paths, add delays, randomize knobs, and then reduce destructive faults later so the system can recover.",
+      "tags": [
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "01k3j0en7t3ggqfh6v51arm8ek",
+      "title": "Secret Management on NixOS with sops-nix",
+      "url": "https://michael.stapelberg.ch/posts/2025-08-24-secret-management-with-sops-nix/",
+      "savedAt": "2025-08-26T01:39:02.522000+00:00",
+      "description": "The article explains how to securely manage secrets in NixOS using sops-nix by encrypting secrets in git and decrypting them at runtime. It shows how to integrate sops with NixOS, use existing SSH keys for encryption, and configure secrets for system services. This approach keeps secrets safe while allowing easy sharing and deployment of system configurations.",
+      "tags": [
+        "tools/nix"
+      ]
+    },
+    {
+      "id": "01k3j0c70nec8k800p6nv7mrga",
+      "title": "Circuit Simulator Applet",
+      "url": "https://www.falstad.com/circuit/",
+      "savedAt": "2025-08-26T01:37:42.421000+00:00",
+      "description": "This is an interactive electronic circuit simulator from falstad.com. The animated view shows voltages and currents and lets you click switches or edit components. It includes many example circuits and multiple versions (Java, JavaScript, standalone).",
+      "tags": [
+        "hardware"
+      ]
+    },
     {
       "id": "01k3ghrsfa4arskjv24s05cbhh",
       "title": "Optimizing our way through Metroid",
