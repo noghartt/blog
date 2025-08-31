@@ -1,6 +1,16 @@
 {
-  "lastUpdate": "2025-08-29T00:09:31.688Z",
+  "lastUpdate": "2025-08-31T00:10:04.448Z",
   "data": [
+    {
+      "id": "01k3sp9hntysvb1gfqvdgeq1b3",
+      "title": "You no longer need JavaScript",
+      "url": "https://lyra.horse/blog/2025/08/you-dont-need-js/",
+      "savedAt": "2025-08-29T01:15:24.730000+00:00",
+      "description": "Modern HTML and CSS can replace JavaScript for many tasks.  \nDevelopers often underestimate CSS because they skip learning its new powerful features.  \nCSS is faster, more accessible, and expressive, though JavaScript is still sometimes necessary.",
+      "tags": [
+        "web"
+      ]
+    },
     {
       "id": "01k3j0hhk43q11cwema97dmgk2",
       "title": "BUGGIFY",
