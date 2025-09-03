@@ -1,6 +1,27 @@
 {
-  "lastUpdate": "2025-09-01T00:10:06.313Z",
+  "lastUpdate": "2025-09-03T00:09:02.458Z",
   "data": [
+    {
+      "id": "01k41ac9m5sw6882355nt9dgr8",
+      "title": "Big O",
+      "url": "https://samwho.dev/big-o/",
+      "savedAt": "2025-09-01T00:21:07.333000+00:00",
+      "description": "Big O shows how running time grows as input size increases.  \nCommon classes are O(1) constant, O(log n) logarithmic, O(n) linear, and O(n^2) quadratic.  \nChoosing better algorithms or data structures (formulas, binary search, maps) makes code faster.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k41abnz9kz3vgsxc4e9p13xk",
+      "title": "Bits and pieces",
+      "url": "https://blog.brunobonacci.com/2018/07/15/viewstamped-replication-explained/",
+      "savedAt": "2025-09-01T00:20:47.209000+00:00",
+      "description": "The primary assigns an op-num, logs the request, and sends PREPARE to all replicas. Replicas send PREPARE-OK and after a quorum the primary sends COMMIT so all apply operations up to the commit-num. If the primary fails, replicas deterministically pick a new primary, bring it up to date, and resume.",
+      "tags": [
+        "for-later",
+        "cs/distsys"
+      ]
+    },
     {
       "id": "01k3sp9hntysvb1gfqvdgeq1b3",
       "title": "You no longer need JavaScript",
@@ -68,6 +89,7 @@
       "savedAt": "2025-08-23T15:17:57.164000+00:00",
       "description": "Consistency models describe which sequences of operations are allowed in concurrent and distributed systems. They form a hierarchy: strong models (like strict serializability and linearizability) imply weaker ones (like sequential or causal consistency). Network asynchrony and availability trade-offs mean stronger models are often impossible or less available in real systems.",
       "tags": [
+        "for-later",
         "cs/distsys",
         "cs/database"
       ]
