@@ -1,6 +1,14 @@
 {
-  "lastUpdate": "2025-09-03T00:09:02.458Z",
+  "lastUpdate": "2025-09-05T00:09:09.237Z",
   "data": [
+    {
+      "id": "01k47vj2jfsrp41pk918t35cyg",
+      "title": "GitHub - the-litte-book-of/linear-algebra: There is hardly any theory which is more elementary than linear algebra, in spite of the fact that generations of professors and textbook writers have obscured its simplicity by preposterous calculations with matrices. —Jean Dieudonne",
+      "url": "https://github.com/the-litte-book-of/linear-algebra",
+      "savedAt": "2025-09-03T13:16:49.103000+00:00",
+      "description": "Linear algebra starts with scalars and vectors and builds vector spaces and bases.  \nMatrices encode linear operations and help solve systems of equations.  \nLinear transformations link algebra and geometry and power graphics, computation, and data.",
+      "tags": []
+    },
     {
       "id": "01k41ac9m5sw6882355nt9dgr8",
       "title": "Big O",
