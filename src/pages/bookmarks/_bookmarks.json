@@ -1,6 +1,24 @@
 {
-  "lastUpdate": "2025-09-08T00:09:20.362Z",
+  "lastUpdate": "2025-09-10T00:09:24.507Z",
   "data": [
+    {
+      "id": "01k4qjdgqhfq9sqs8hw99dnhxj",
+      "title": "jantimon/react-hydration-rules: Comprehensive guide documenting React hydration and Suspense fallback behaviors during SSR",
+      "url": "https://github.com/jantimon/react-hydration-rules",
+      "savedAt": "2025-09-09T15:44:53.488000+00:00",
+      "description": "This guide shows when React hydration makes server-rendered content flash to Suspense fallbacks. Normal state updates during hydration trigger fallbacks, but startTransition prevents most of them. Exceptions: rendering isPending can still trigger fallbacks, and useSyncExternalStore updates always do.",
+      "tags": []
+    },
+    {
+      "id": "01k4pcfsj81e0qgt5veg3cw72d",
+      "title": "Elements of Rust - Core Types and Traits",
+      "url": "https://rustcurious.com/elements/",
+      "savedAt": "2025-09-09T04:42:02.184000+00:00",
+      "description": "This is a clickable visual guide to the Rust type system. It focuses on lang_items, the built-in types and traits that support language syntax rather than library types like Vec, String, or HashMap. The platform-independent core enables no_std and embedded code that runs without a heap.",
+      "tags": [
+        "cs/programming-languages/rust"
+      ]
+    },
     {
       "id": "01k47vj2jfsrp41pk918t35cyg",
       "title": "GitHub - the-litte-book-of/linear-algebra: There is hardly any theory which is more elementary than linear algebra, in spite of the fact that generations of professors and textbook writers have obscured its simplicity by preposterous calculations with matrices. —Jean Dieudonne",
