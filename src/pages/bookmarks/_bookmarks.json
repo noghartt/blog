@@ -1,6 +1,24 @@
 {
-  "lastUpdate": "2025-09-10T00:09:24.507Z",
+  "lastUpdate": "2025-09-11T00:09:32.112Z",
   "data": [
+    {
+      "id": "01k4twdh3h5ad0515w2jvtgem1",
+      "title": "How To Automate Anything. A Guide to Parts Every Maker Should Know How To Use.",
+      "url": "https://www.youtube.com/watch?v=S6GpV431nww",
+      "savedAt": "2025-09-10T22:37:22.929000+00:00",
+      "description": "A relay or contactor lets a low‑power signal switch high‑power circuits to automate devices. Use proper power supplies and parts rated for the current, and add sensors or limit switches to control it. Put relays near the load and wire them correctly for safe, reliable operation.",
+      "tags": []
+    },
+    {
+      "id": "01k4sr70kqnvmewy1pah5xm811",
+      "title": "Knowledge and Common Knowledge in a Distributed Environment, Part 1",
+      "url": "https://emptysqua.re/blog/review-common-knowledge-part-1/",
+      "savedAt": "2025-09-10T12:04:40.694000+00:00",
+      "description": "A public announcement can create common knowledge and change what agents can prove. Repeated questions in the muddy-children puzzle raise knowledge levels until the muddy children know they are muddy on the kth round. The same hierarchy matters in distributed systems like Raft: without acknowledgments facts never become common knowledge and so cannot be safely committed.",
+      "tags": [
+        "cs/distsys"
+      ]
+    },
     {
       "id": "01k4qjdgqhfq9sqs8hw99dnhxj",
       "title": "jantimon/react-hydration-rules: Comprehensive guide documenting React hydration and Suspense fallback behaviors during SSR",
