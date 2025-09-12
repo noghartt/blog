@@ -1,6 +1,16 @@
 {
-  "lastUpdate": "2025-09-11T00:09:32.112Z",
+  "lastUpdate": "2025-09-12T00:09:23.275Z",
   "data": [
+    {
+      "id": "01k4vhvsx67e68j8kpvh3pdgby",
+      "title": "My Quarterly System Health Check-in: Beyond The Dashboard",
+      "url": "https://blog.nilenso.com/blog/2025/09/05/my-quarterly-system-health-check-in-beyond-the-dashboard/",
+      "savedAt": "2025-09-11T04:52:10.789000+00:00",
+      "description": "Hold a 2–4 hour monthly or quarterly system health review to check progress against strategy. Ask simple, informal questions across simplicity, delivery, reliability, performance and organisation to go beyond dashboards. Listen to engineers, diagnose root problems, and prioritise real fixes over raw metrics.",
+      "tags": [
+        "engineering"
+      ]
+    },
     {
       "id": "01k4twdh3h5ad0515w2jvtgem1",
       "title": "How To Automate Anything. A Guide to Parts Every Maker Should Know How To Use.",
