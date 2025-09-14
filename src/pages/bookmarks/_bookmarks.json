@@ -1,6 +1,865 @@
 {
-  "lastUpdate": "2025-09-12T00:09:23.275Z",
+  "lastUpdate": "2025-09-14T00:09:27.883Z",
   "data": [
+    {
+      "id": "01k522sk0mfdy8j9r4pjeh026w",
+      "title": "Magical systems thinking",
+      "url": "https://worksinprogress.co/issue/magical-systems-thinking/",
+      "savedAt": "2025-09-13T17:43:30.580000+00:00",
+      "description": "Working complex systems almost always evolve from simple systems that already work. Big designed fixes often fail because the system kicks back and creates new problems. Start small: build simple working alternatives and let them grow instead of hoping analysis will solve everything.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k51my9mf7ytgz1breg1pgb1s",
+      "title": "How Container Filesystem Works: Building a Docker-like Container From Scratch",
+      "url": "https://labs.iximiuz.com/tutorials/container-filesystem-from-scratch",
+      "savedAt": "2025-09-13T13:41:24.751000+00:00",
+      "description": "Containers isolate filesystems mainly with the mount namespace and mount propagation settings, while PID, cgroup, UTS, and network namespaces add extra isolation.  \nUsing unshare plus bind mounts, pivot_root, and mounting /proc lets you create a Docker-like container with standard Linux commands.  \nReal runtimes also set up cgroups, harden and mask pseudofilesystems, and use bind mounts to share host files.",
+      "tags": [
+        "cs/devops"
+      ]
+    },
+    {
+      "id": "01k50tztyh6sz67vbmqjq62m50",
+      "title": "Becoming the person who does the thing",
+      "url": "https://www.fredrivett.com/2025/09/10/becoming-the-person-who-does-the-thing/",
+      "savedAt": "2025-09-13T06:07:52.273000+00:00",
+      "description": "Your beliefs shape who you are.  \nSmall daily actions are votes for the person you want to become.  \nThe author began with tiny workouts and now goes to the gym every weekday.",
+      "tags": [
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "01k4xsdh8yaq9vvb6fnx0hw0zg",
+      "title": "Getting Started with Randomised Testing",
+      "url": "https://lewiscampbell.tech/blog/250805.html",
+      "savedAt": "2025-09-12T01:42:40.669000+00:00",
+      "description": "Randomised testing, especially Property-Based Testing (PBT), helps find bugs that example-based tests miss by checking code against many random inputs. The author shows how PBT revealed flaws in a simple shopping cart, leading to better validation and safer code. Using PBT makes developers more confident and helps catch problems before users do.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xsd0wrhe8tn0wwnyb72jjw",
+      "title": "Pragmatism in Programming Proverbs",
+      "url": "https://www.gingerbill.org/article/2020/05/31/progamming-pragmatist-proverbs/",
+      "savedAt": "2025-09-12T01:42:23.896000+00:00",
+      "description": "The text discusses the importance of pragmatism in programming and provides key principles to follow. It emphasizes focusing on solving specific problems effectively and efficiently. The author also highlights the significance of understanding the purpose and function of a program, rather than getting caught up in unnecessary complexity.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xscb3gyrxtrf1tx569shfn",
+      "title": "Ramblings",
+      "url": "https://stephango.com/ramblings",
+      "savedAt": "2025-09-12T01:42:01.584000+00:00",
+      "description": "Remote teams of 2-10 people can use personal “ramblings” channels to share thoughts without cluttering group chats. These channels help team members stay connected with short, informal updates and encourage creativity. Ramblings reduce interruptions and support social bonding, especially when no meetings are scheduled.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xs983r4rwxh6yqtx1d9pn2",
+      "title": "LLM Inflation",
+      "url": "https://tratt.net/laurie/blog/2025/llm_inflation.html",
+      "savedAt": "2025-09-12T01:40:20.216000+00:00",
+      "description": "Data compression used to save space and time, but now people use large language models (LLMs) to make short texts longer and long texts shorter. This back-and-forth, called \"LLM inflation,\" can hide unclear thinking and waste time. The author suggests we should notice this and try to be clearer in our communication.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xs8wed0ggwd79cqyz66ef2",
+      "title": "We shouldn’t have needed lockfiles",
+      "url": "https://tonsky.me/blog/lockfiles/",
+      "savedAt": "2025-09-12T01:40:08.269000+00:00",
+      "description": "The version 0. 7.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xs51xwzwj1xp5z3849xaps",
+      "title": "GPT-4.1 Prompting Guide",
+      "url": "https://cookbook.openai.com/examples/gpt4-1_prompting_guide",
+      "savedAt": "2025-09-12T01:38:02.812000+00:00",
+      "description": "The GPT-4.1 family of models represents a significant step forward from GPT-4o in capabilities across coding, instruction following, and...",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xs4b1k6w5vkv6q9xshs019",
+      "title": "GPT-4",
+      "url": "https://www.promptingguide.ai/models/gpt-4",
+      "savedAt": "2025-09-12T01:37:39.379000+00:00",
+      "description": "A Comprehensive Overview of Prompt Engineering",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xrzb95ft5bhzw289ec2tgz",
+      "title": "Architecture by Fashion, Not Fundamentals - kellabyte",
+      "url": "https://substack.com/inbox/post/173391778",
+      "savedAt": "2025-09-12T01:34:55.781000+00:00",
+      "description": "Backend development focuses too much on trendy architectures and ignores fundamental computer science like algorithms and data structures. This causes slow, inefficient systems that waste resources and frustrate users. The best approach combines solid fundamentals with good design patterns to build fast, maintainable software.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xrwea5jc0a10rkhz008s1z",
+      "title": "How Tool Complexity Impacts AI Agents Selection Accuracy",
+      "url": "https://achan2013.medium.com/how-tool-complexity-impacts-ai-agents-selection-accuracy-a3b6280ddce5",
+      "savedAt": "2025-09-12T01:33:20.581000+00:00",
+      "description": "Co-author: Sebastian Carbajales",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xrvhc6agmj53r0ezecghnd",
+      "title": "Evaluating Tool Selection",
+      "url": "https://docs.langwatch.ai/cookbooks/tool-selection",
+      "savedAt": "2025-09-12T01:32:50.950000+00:00",
+      "description": "Understand how to evaluate tools and components in your RAG pipeline—covering retrievers, embedding models, chunking strategies, and vector stores.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xrtvnbqfsy81cj8j7krgz6",
+      "title": "ToolACE: Winning the Points of LLM Function Calling",
+      "url": "https://arxiv.org/html/2409.00920v1",
+      "savedAt": "2025-09-12T01:32:28.715000+00:00",
+      "description": "Weiwen Liu† Huawei Noah’s Ark Lab Xu Huang† University of Science and Technology of China Xingshan Zeng† Xinlong Hao Shuai Yu Dexun Li Shuai Wang Weinan Gan Zhengying Liu Yuanqing Yu Tsinghua University Zezhong Wang The Chinese University of Hong Kong {liuweiwen8, zeng.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xrrzbrtk74vmdrcy49t7tc",
+      "title": "Optimizing Tool Calling",
+      "url": "https://www.useparagon.com/learn/rag-best-practices-optimizing-tool-calling/",
+      "savedAt": "2025-09-12T01:31:26.968000+00:00",
+      "description": "Learn what you can do to optimize tool calling for your AI agent",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xrrqe9cgs95dqa0q2519jh",
+      "title": "LLM Evaluation Metrics: The Ultimate LLM Evaluation Guide",
+      "url": "https://www.confident-ai.com/blog/llm-evaluation-metrics-everything-you-need-for-llm-evaluation",
+      "savedAt": "2025-09-12T01:31:18.857000+00:00",
+      "description": "It is no secret that evaluating the outputs of Large Language Models (LLMs) is essential for anyone building robust LLM applications.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xrqrty72sbfq082h9mvhd7",
+      "title": "Fine-tuning With Tool Calling",
+      "url": "https://www.stephendiehl.com/posts/fine_tuning_tools/",
+      "savedAt": "2025-09-12T01:30:47.518000+00:00",
+      "description": "Personal Blog",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xqf1nxt9z9rhja32evjxhq",
+      "title": "IEEE Xplore Full-Text PDF:",
+      "url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11119124",
+      "savedAt": "2025-09-12T01:08:33.085000+00:00",
+      "description": null,
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xqe700rjjyjqfp10gdrqkr",
+      "title": "How My Blog Handles Math and Images in HTML, Atom, and Email in 2025",
+      "url": "https://emptysqua.re/blog/math-images-rss-hugo/",
+      "savedAt": "2025-09-12T01:08:05.760000+00:00",
+      "description": "A stack of kludges that seems to work.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xqe1ct36j4hn5nrxkcswb6",
+      "title": "Sometimes Software is Done, or Why Hugo Why",
+      "url": "https://commaok.xyz/post/on_hugo/",
+      "savedAt": "2025-09-12T01:08:00.026000+00:00",
+      "description": "The author initially loved using the software Hugo for its speed and simplicity in solving a real problem. However, ongoing updates have made Hugo bigger, more complicated, and prone to breaking backwards compatibility, leading to frustration and wasted time for the author. Ultimately, the author is considering alternatives and values the importance of backwards compatibility in software development.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xqdtdr98ny7mbsj3gv6bz5",
+      "title": "Unexpected sudo hang under VPN kill-switch",
+      "url": "https://anagogistis.com/posts/sudo-hang/",
+      "savedAt": "2025-09-12T01:07:52.888000+00:00",
+      "description": "My personal blog",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xqdgp0y3jx434yztc7c75c",
+      "title": "Thinking about coding",
+      "url": "https://www.robinsloan.com/lab/thinking-about-coding/",
+      "savedAt": "2025-09-12T01:07:42.912000+00:00",
+      "description": "Daydreaming, the great engine.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xqda2w07k40952qqvzdbch",
+      "title": "Vibe Coding Terminal Editor",
+      "url": "https://matklad.github.io/2025/08/31/vibe-coding-terminal-editor.html",
+      "savedAt": "2025-09-12T01:07:36.156000+00:00",
+      "description": "The author built a VS Code terminal-editor that makes shell output a normal, editable text buffer. He learned to plan with plan.md/spec.md, let the LLM iterate on small tasks, and use fast end-to-end tests to close the loop. LLMs speed tool-building but don’t solve hard system problems or long-term maintenance.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xqd5dxnawnjkv85me82am0",
+      "title": "Ads Are a Positional Good",
+      "url": "https://matklad.github.io/2025/08/30/ads-are-a-positional-good.html",
+      "savedAt": "2025-09-12T01:07:31.389000+00:00",
+      "description": "Non-technical armchair economics post, where I explain my pet theory for why everything on and outside\nof the internet is absolutely infested with ads.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xqctb0rqsckbk44f2m77qe",
+      "title": "Knowledge and Common Knowledge in a Distributed Environment, Part 2",
+      "url": "https://emptysqua.re/blog/review-common-knowledge-part-2/",
+      "savedAt": "2025-09-12T01:07:20.032000+00:00",
+      "description": "Two generals cannot reliably coordinate an attack in an asynchronous system because messages can be lost or delayed.  \nKnowledge is defined by which global states an agent cannot distinguish from its local history.  \nThis explains why Raft nodes may not achieve common knowledge and why extra assumptions (like reliable clocks) are needed for guaranteed coordination.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xqcmdasyerpdvjavk6bbkb",
+      "title": "The Loudness Wars",
+      "url": "https://fasterthanli.me/articles/the-science-of-loudness",
+      "savedAt": "2025-09-12T01:07:13.962000+00:00",
+      "description": "My watch has a “Noise” app: it shows , for decibels.\nMy amp has a volume knob, which also shows decibels, although.. negative ones, this time.\nAnd finally, my video editing software has a ton of me...",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xqce33859txye8mmdh5qmg",
+      "title": "More casual-posting",
+      "url": "https://fasterthanli.me/articles/summer-fasterthanlime-update",
+      "savedAt": "2025-09-12T01:07:07.491000+00:00",
+      "description": "There are news!\nTL;DR: If you’re a patron or sponsor, check your Profile page to get detailed explainers of every perk. You’ll need to log in. Duh.\nHere are all the changes I’m implementing, summar...",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xqc5js32ja0z182bcevabm",
+      "title": "LLMs as Parts of Systems",
+      "url": "https://brooker.co.za/blog/2025/08/12/llms-as-components",
+      "savedAt": "2025-09-12T01:06:58.776000+00:00",
+      "description": "Large language models (LLMs) work best when combined with other tools in a system. Such systems can solve problems more efficiently and reliably than LLMs alone. This approach leverages the strengths of both LLMs and traditional computing methods.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xqam8sryackb0p2z5c2fha",
+      "title": "6 surprising things about life in SF",
+      "url": "https://wilhelm.substack.com/p/6-surprising-things-about-life-in?utm_medium=web",
+      "savedAt": "2025-09-12T01:06:08.281000+00:00",
+      "description": "SF is tiny, tap water, peak design, initiating convos, the great outdoors",
+      "tags": [
+        "urbanism",
+        "interesting"
+      ]
+    },
+    {
+      "id": "01k4xqadpaqgkywyeavwbxacrv",
+      "title": "Rust Atomics and Locks",
+      "url": "https://marabos.nl/atomics/",
+      "savedAt": "2025-09-12T01:06:01.546000+00:00",
+      "description": "This book by Mara Bos explores Rust programming language's concurrency features, including atomics, locks, and memory ordering. Readers will gain a practical understanding of low-level concurrency in Rust, covering topics like mutexes and condition variables. The book provides insights on implementing correct concurrency code and building custom locking and synchronization mechanisms.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xqa23j9gg0fqdsk3a05ssb",
+      "title": "Thoughts on (Amazonian) Leadership",
+      "url": "https://www.daemonology.net/blog/2025-09-01-Thoughts-on-Amazonian-Leadership.html",
+      "savedAt": "2025-09-12T01:05:49.681000+00:00",
+      "description": "Amazon's Leadership Principles are sensible but often applied poorly.  \n\"Customer obsession\" has pushed AWS to build what customers ask for instead of the core building blocks they need.  \nAmazon should break silos, act for the broader ecosystem, and enforce higher standards to protect customer trust.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xq9ssc2abmggbn2r2xj8s4",
+      "title": "Don’t Build Multi-Agents",
+      "url": "https://cognition.ai/blog/dont-build-multi-agents",
+      "savedAt": "2025-09-12T01:05:41.164000+00:00",
+      "description": "Walden Yan argues against using multi-agent architectures for building AI agents, emphasizing the importance of context engineering for reliability. He suggests that sharing context and avoiding conflicting decisions are crucial to prevent errors in task execution. As AI technology evolves, he believes that focusing on single-threaded agents may yield better results until collaboration between agents can be improved.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xq9k34dryqftcvpzhf77p8",
+      "title": "Of Rats and Ratchets",
+      "url": "https://matklad.github.io/2024/01/03/of-rats-and-ratchets.html",
+      "savedAt": "2025-09-12T01:05:34.308000+00:00",
+      "description": "This is going to be related to software engineering, pinky promise!",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xq9cb94wg5c941232qbtw8",
+      "title": "You can try to like stuff",
+      "url": "https://dynomight.net/liking/",
+      "savedAt": "2025-09-12T01:05:27.401000+00:00",
+      "description": "it offers lessons on your nature",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xnwsfwwm78p8808pcc7qhj",
+      "title": "A CPU is a compiler",
+      "url": "https://outerproduct.net/boring/2023-03-22_cpu-compiler-gc-ohmy.html",
+      "savedAt": "2025-09-12T00:41:06.300000+00:00",
+      "description": "Strictly speaking, a CPU is an interpreter; it is certainly not a compiler and, unless you can come up with a second implementation of physics, the standard tricks to turn it into one won’t work either.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xnw4b7pwppdh150t7v7dwe",
+      "title": "A Random Walk in 10 Dimensions",
+      "url": "https://galileo-unbound.blog/2021/06/28/a-random-walk-in-10-dimensions/",
+      "savedAt": "2025-09-12T00:40:44.646000+00:00",
+      "description": "The geometry of random walks in high dimensions provides the power behind deep learning and may be the secret to intelligence.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xnvxa3gwj4ecwe9zyv2np5",
+      "title": "How many dimensions is this?",
+      "url": "https://lcamtuf.substack.com/p/how-many-dimensions-is-this",
+      "savedAt": "2025-09-12T00:40:37.442000+00:00",
+      "description": "A degree in mathematics might not save you from stacking boxes for a living.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xnvkrfxfdytc24b3tskfqq",
+      "title": "Your Biggest Customer Might Be Your Biggest Bottleneck",
+      "url": "https://densumesh.dev/blog/fair-queue/",
+      "savedAt": "2025-09-12T00:40:27.663000+00:00",
+      "description": "A large customer overloaded the system, causing delays for others. Traditional queues serve jobs in order, which lets big jobs block smaller ones. The solution is fair queueing, which shares processing time evenly among all customers.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xnvdqghkbgzx1hp4wp2gya",
+      "title": "How we made Kagi Assistant load twice as fast",
+      "url": "https://jacobwinters.com/kagi-assistant-optimization/",
+      "savedAt": "2025-09-12T00:40:21.488000+00:00",
+      "description": "Kagi Assistant loaded slowly because the client waited for multiple AJAX requests after the page HTML arrived.  \nThey embedded some data in the markup, streamed the first HTML chunk early, and enlarged the DB connection pool so parallel queries didn’t block.  \nThose changes cut round trips and TTFB and made the app load about twice as fast.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xnv43enrg5sb5daaz4m1zn",
+      "title": "Debugging nixpkgs Package Build",
+      "url": "https://entropicthoughts.com/debugging-nixpkgs-package-build",
+      "savedAt": "2025-09-12T00:40:11.630000+00:00",
+      "description": "The author is teaching their five-year-old to use computers and wants to find a simple text editor. They learned how to debug building a new editor package in nixpkgs using the nix develop command step-by-step. They still face challenges with environment differences but can now test editors like LE more easily.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xnsdk1crss79x58rgg1ff2",
+      "title": "wal3: A Write-Ahead Log for Chroma, Built on Object Storage",
+      "url": "https://trychroma.com/engineering/wal3",
+      "savedAt": "2025-09-12T00:39:15.808000+00:00",
+      "description": "wal3 is a write-ahead log built on object storage that stores data durably and proves it is correct. It uses S3 conditional writes, a lock-free algorithm, and an O(1) setsum checksum for appends and trims. Dual implementations cross-check data and checksum so garbage collection is safe and per-collection scaling is simple.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xnry6pan201hazvzgfqz1g",
+      "title": "What Is the Fourier Transform?",
+      "url": "https://www.quantamagazine.org/what-is-the-fourier-transform-20250903/",
+      "savedAt": "2025-09-12T00:39:00.054000+00:00",
+      "description": "The Fourier transform is a math tool that breaks down complex waves into simple frequencies. It helps us understand sounds, images, and signals by showing their basic parts. This discovery changed math and science and is used in many technologies today.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xnrmbxjwqj2t6ee400q7e6",
+      "title": "Evolving The OCaml Programming Language",
+      "url": "https://kcsrk.info/slides/Evolution_Ashoka_2025.pdf",
+      "savedAt": "2025-09-12T00:38:49.981000+00:00",
+      "description": null,
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xnr4ywzw4a2fnvfwwra0vg",
+      "title": "Bartosz Milewski's Programming Cafe",
+      "url": "https://bartoszmilewski.com/2025/09/05/models-of-dependent-type-theory/",
+      "savedAt": "2025-09-12T00:38:34.204000+00:00",
+      "description": "Previously: (Weak) Factorization Systems. It's been known since Lambek that typed lambda calculus can be modeled in a cartesian closed category, CCC. Cartesian means that you can form products, and closed means that you can form function types. Loosely speaking, types are modeled as objects and functions as arrows. More precisely, objects correspond to contexts--…",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xnqxe115az907t6sfszgka",
+      "title": "Pratt Parsers: Expression Parsing Made Easy",
+      "url": "https://journal.stuffwithstuff.com/2011/03/19/pratt-parsers-expression-parsing-made-easy/",
+      "savedAt": "2025-09-12T00:38:26.497000+00:00",
+      "description": "Every now and then, I stumble onto some algorithm or idea that’s so clever and such a perfect solution to a problem that I feel like I got smarter or gained a new superpower just by learning it.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xnqp2wh0rqvc563cp0zcxk",
+      "title": "Demystifying Pratt Parsers",
+      "url": "https://martin.janiczek.cz/2023/07/03/demystifying-pratt-parsers.html",
+      "savedAt": "2025-09-12T00:38:18.971000+00:00",
+      "description": "Pratt parsers are an algorithm for solving the operator precedence problem in parsing expressions. They handle the ambiguity of operators by assigning precedence values to each operator and using a recursive algorithm to parse the expression tree. The Pratt parser first parses the prefix expression, then loops through the tokens, combining them into an expression based on their precedence. The algorithm is implemented in Elm in a concise and minimal way, allowing for easy understanding and porting to other languages.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xnq862pm9kf9ynxajfjvhx",
+      "title": "The day Return became Enter",
+      "url": "https://aresluna.org/the-day-return-became-enter/",
+      "savedAt": "2025-09-12T00:38:04.738000+00:00",
+      "description": "The carriage return began as a mechanical lever on old typewriters and became a Return key as machines grew electric. Teletypes and word processors split Return from Line Feed, and early computers sometimes merged or renamed them as Enter. Today’s keyboards keep QWERTY shapes but the old mechanical functions are mostly handled by software.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xnnzqt1besqp5m47sz545w",
+      "title": "Logical Duals in Software Engineering",
+      "url": "https://buttondown.com/hillelwayne/archive/logical-duals-in-software-engineering/",
+      "savedAt": "2025-09-12T00:37:23.322000+00:00",
+      "description": "Logical duals are operators where F(x) = not G(not x).  \nThat makes exists vs. for-all interchangeable: to prove all x satisfy P, search for an x that violates P.  \nThis trick powers SMT solvers, model checkers, planners, database triggers, and appears in reversals and inverted maps.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xnnp998edpjhdd8sywk7g5",
+      "title": "Unintended consequences",
+      "url": "https://www.sicpers.info/2025/08/unintended-consequences/",
+      "savedAt": "2025-09-12T00:37:13.641000+00:00",
+      "description": "I did a PhD while working full time and it drained my spare time and stamina. My fitness tracker warned my VO2 max was very low and linked it to serious health risks. Short HIIT sessions and lunchtime walks raised my score and reminded me to put my health first.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xnne4tj3padqnsatbxqks7",
+      "title": "Sometimes CPU cores are odd",
+      "url": "https://anubis.techaro.lol/blog/2025/cpu-core-odd/",
+      "savedAt": "2025-09-12T00:37:05.306000+00:00",
+      "description": "Anubis sometimes returned \"invalid response\" because it computed a fractional worker count on odd‑core devices. That produced non‑integer nonces which the server rejected. The fix was to truncate the thread count (Math.trunc) and stop assuming core counts are even.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xnn39a6cf3en8wgx6espd9",
+      "title": "Burrito Monads, Arrow Kitchens, and Freyd Category Recipes",
+      "url": "https://golem.ph.utexas.edu/category/2025/08/burrito_monads_arrow_kitchens.html",
+      "savedAt": "2025-09-12T00:36:54.186000+00:00",
+      "description": "Monads wrap single values in computational contexts, like burritos in tortillas, while Arrows generalize this to coordinate multiple inputs and complex processes, like managing a whole kitchen. Although Arrows were thought to be the same as Freyd categories, research shows they are more general and correspond to closed indexed Freyd categories. This understanding helps improve programming language design, especially in areas like quantum computing where managing multiple inputs is important.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xnmsvhe8gbh0588c5v0me4",
+      "title": "Anything can be a message queue if you use it wrongly enough",
+      "url": "https://xeiaso.net/blog/anything-message-queue/",
+      "savedAt": "2025-09-12T00:36:44.529000+00:00",
+      "description": "The piece explores using S3 as a message queue to tunnel IPv6 packets and dodge AWS Managed NAT Gateway egress charges. The author built Hoshino to create a TUN device that writes packets to S3 and reads them back. Per-packet S3 request costs and TCP overhead make the idea far more expensive and impractical.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xnmj8xjpxyaxsqxfjxxk5k",
+      "title": "Do the simplest thing that could possibly work",
+      "url": "https://www.seangoedecke.com/the-simplest-thing-that-could-possibly-work/",
+      "savedAt": "2025-09-12T00:36:36.765000+00:00",
+      "description": "When designing software, do the simplest thing that could possibly work.  \nSimple solutions often beat over-engineered ones because they have fewer moving parts and are easier to maintain.  \nAdd complexity only when real requirements force it, and watch for inflexibility or scaling limits.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xnkg270me7emmq55wes0c7",
+      "title": "Game Theory at Work: When to Talk and When to Shut Up",
+      "url": "https://swaits.com/game-theory-at-work-and-when-to-shutup/",
+      "savedAt": "2025-09-12T00:36:01.735000+00:00",
+      "description": "Game theory helps you decide when to speak and when to stay quiet at work. Speak up when the benefit outweighs the risk, like fixing a project, and stay quiet on politics or gossip. Every choice shapes your reputation, so pause and make your words count.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xnjt24exwdj9pphcyjy08y",
+      "title": "SQLite commits are not durable under default settings",
+      "url": "https://avi.im/blag/2025/sqlite-fsync/",
+      "savedAt": "2025-09-12T00:35:39.204000+00:00",
+      "description": "SQLite’s default rollback journal mode with synchronous=FULL does not guarantee the last committed transaction survives an OS or power crash.  \nTrue durability requires EXTRA in delete mode or using WAL with synchronous=FULL (and fullfsync on macOS).  \nCheck your SQLite build and PRAGMA settings because many builds (and macOS defaults) use settings that can lose recent commits.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xnjmgdbjm8k44afhq9053f",
+      "title": "Mike Mai’s Typography Manual",
+      "url": "https://mikemai.net/typography-manual/",
+      "savedAt": "2025-09-12T00:35:33.517000+00:00",
+      "description": "Mike Mai's Typography Manual emphasizes the importance of using one font effectively, especially exploring all its weights for design consistency. The manual also suggests using traditional point sizes for typography scale and redefining sizes for CJK characters. Lastly, it highlights the use of serif fonts for italics, proper dash types, and the importance of spacing and alignment for clear and professional typography.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xnj9qdge6ewx3g8fpf4xy8",
+      "title": "Materialized views are obviously useful",
+      "url": "https://sophiebits.com/2025/08/22/materialized-views-are-obviously-useful",
+      "savedAt": "2025-09-12T00:35:22.476000+00:00",
+      "description": "Keeping derived counts in sync is tedious and error-prone. Materialized views (incremental view maintenance) let you declare a query and have the database keep results up-to-date automatically. This removes fragile application code and should become a standard database feature.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xnhyk3fhssc26h13x9zyqe",
+      "title": "A Guide to Gen AI / LLM Vibecoding for Expert Programmers",
+      "url": "https://www.stochasticlifestyle.com/a-guide-to-gen-ai-llm-vibecoding-for-expert-programmers/",
+      "savedAt": "2025-09-12T00:35:11.075000+00:00",
+      "description": "Vibe coding uses LLMs as junior coders to handle easy, boring work.  \nIt only helps when an expert who knows the code well assigns tasks and rigorously reviews or discards results.  \nIf you hate managing or must solve deep problems yourself, don’t bother.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xnh9menpfttgfb6t4f2vvk",
+      "title": "Language Models as Thespians",
+      "url": "https://jstrieb.github.io/posts/llm-thespians/",
+      "savedAt": "2025-09-12T00:34:49.614000+00:00",
+      "description": "Large Language Models (LLMs) act like actors who perform roles by mimicking human language, aiming to sound believable rather than always true. Giving LLMs a clear persona helps guide their responses and improves their output quality. This actor analogy helps people understand LLM behavior and encourages better use and communication about AI capabilities.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xnh3h81fnkswvt6tvhbfgh",
+      "title": "Without the futex, it's futile",
+      "url": "https://h4x0r.org/futex/",
+      "savedAt": "2025-09-12T00:34:43.367000+00:00",
+      "description": "A futex helps manage locks by separating locking from waiting, reducing costly system calls. Mutexes often use spinning first and only wait with a futex if contention is high. Recursive mutexes track ownership and nesting to avoid errors when locking and unlocking multiple times.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xnfrzb748h12er7y9p1g0d",
+      "title": "Discrete Distributions",
+      "url": "https://buttondown.com/jaffray/archive/discrete-distributions/",
+      "savedAt": "2025-09-12T00:33:59.787000+00:00",
+      "description": "Represent the distribution as cumulative probabilities and sample by binary-searching a tree.  \nWhen outcomes have different probabilities, an unbalanced tree minimizes average steps.  \nA Huffman-style greedy algorithm builds such an optimal tree in O(n log n) time instead of O(n^2).",
+      "tags": []
+    },
+    {
+      "id": "01k4xnfjkhtrc7pf54me2df9ap",
+      "title": "Bypassing no-go theorems",
+      "url": "https://fexpr.blogspot.com/2013/07/bypassing-no-go-theorems.html",
+      "savedAt": "2025-09-12T00:33:53.265000+00:00",
+      "description": "A no-go theorem is a formal proof that a certain kind of theory cannot work, but people often give such theorems broader informal meanings than their technical results. The author examines famous examples (Gödel, Russell, Church, Curry, Wand) and shows you can sometimes bypass a no-go result by changing how axioms are used or by embedding logic in computation so paradoxes cause nontermination instead of inconsistency. Some bypasses are simple once seen, though others (notably Gödel’s) remain hard and worth exploring.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xnevn5k6axre18bndq1wq8",
+      "title": "Raft does not Guarantee Liveness in the face of Network Faults",
+      "url": "https://decentralizedthoughts.github.io/2020-12-12-raft-liveness-full-omission/",
+      "savedAt": "2025-09-12T00:33:29.765000+00:00",
+      "description": "Raft consensus algorithm's liveness guarantees in network failures are being questioned after a Cloudflare outage. Raft, as originally described, does not ensure stable leadership in all network failure scenarios. Implementing PreVote and CheckQuorum can address liveness issues, ensuring a stable leader is elected and maintained.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xnep1ky1vptygdvs3pr5s9",
+      "title": "Beyond Booleans",
+      "url": "https://overreacted.io/beyond-booleans/",
+      "savedAt": "2025-09-12T00:33:24.019000+00:00",
+      "description": "In Lean, propositions are types (Props) and proofs are values of those types.  \nTypechecking is how Lean verifies proofs, so proving 2+2=4 means producing a value of the 2+2=4 type.  \nUnlike simple booleans, Lean records which facts are proved and makes impossible-to-prove statements (like 2+2=5) unconstructible unless you cheat.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xneg50cncwv85b8b7e7952",
+      "title": "Faster Index I/O with NVMe SSDs",
+      "url": "https://www.marginalia.nu/log/a_123_index_io/",
+      "savedAt": "2025-09-12T00:33:17.984000+00:00",
+      "description": "Rewriting the B‑trees to use direct (unbuffered) reads sped up and stabilized index I/O on NVMe SSDs. Reading larger aligned blocks (up to about 128 KB) gives much higher throughput than many tiny random reads. Async tools like io_uring can boost throughput but cause jitter at high queue depths, so careful benchmarking and tuning are needed.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xncrawwkf4ww3cydb9xf4v",
+      "title": "View Change Protocols And Reconfiguration",
+      "url": "https://www.cs.princeton.edu/courses/archive/fall17/cos418/docs/L11-reconfig.pdf",
+      "savedAt": "2025-09-12T00:32:20.828000+00:00",
+      "description": null,
+      "tags": []
+    },
+    {
+      "id": "01k4xnc0ccnx40x4chx484hj1h",
+      "title": "Designing Software in the Large",
+      "url": "https://dafoster.net/articles/2025/07/22/designing-software-in-the-large/",
+      "savedAt": "2025-09-12T00:31:56.300000+00:00",
+      "description": "Complexity in software makes it hard to understand and change code. To reduce complexity, keep modules focused and interfaces small, and write clear, consistent code. Always aim to prevent complexity from growing by designing carefully, not just rushing to add features.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xnaj0ej64gdavn3rvq8gkh",
+      "title": "Jepsen 18: Serializable Mom by Kyle Kingsbury",
+      "url": "https://www.youtube.com/watch?v=dpTxWePmW5Y",
+      "savedAt": "2025-09-12T00:31:08.814000+00:00",
+      "description": "Distributed systems are fundamentally concurrent and need clear semantics for operations. Bugs in transactions, replication, or write-ahead logs can cause crashes or data loss. Thorough testing, clear documentation, and careful error handling are required to build reliable systems.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xn9ybmpjrr6e2t1fkd0jx2",
+      "title": "Patterns vs. \"Patterns\"",
+      "url": "https://perl.plover.com/classes/design/samples/slide012a.html",
+      "savedAt": "2025-09-12T00:30:48.692000+00:00",
+      "description": null,
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xn8qy4zc4z6sde62fjbsf3",
+      "title": "Don't write bugs",
+      "url": "https://www.teamten.com/lawrence/programming/dont-write-bugs.html",
+      "savedAt": "2025-09-12T00:30:09.348000+00:00",
+      "description": "Bugs don't happen by themselves; programmers put them there and can choose not to. Practice and learn from common mistakes to avoid them. Re-read small blocks of code often (about every 3–6 lines).",
+      "tags": [
+        "cs",
+        "favorites"
+      ]
+    },
+    {
+      "id": "01k4xn8j1hhs202fmq5kzx3k9g",
+      "title": "Look Out For Bugs",
+      "url": "https://matklad.github.io/2025/09/04/look-for-bugs.html",
+      "savedAt": "2025-09-12T00:30:03.312000+00:00",
+      "description": "You can find many real bugs just by carefully reading code. Build a mental model by following control flow and tracking key state. Make time for slow, system-wide reading to prevent subtle errors.",
+      "tags": [
+        "cs",
+        "favorites"
+      ]
+    },
+    {
+      "id": "01k4xn892cnvwf7p18gkhpyc03",
+      "title": "Formality on demand",
+      "url": "https://www.inkandswitch.com/ink/notes/formality-on-demand/",
+      "savedAt": "2025-09-12T00:29:54.124000+00:00",
+      "description": "Premature formality can cause problems when using computers. It is better to start with loose ideas and add structure later. This approach is called Formality on demand or Gradual enrichment.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xn82sezenq8m00gcfg2az6",
+      "title": "Oldest recorded transaction",
+      "url": "https://avi.im/blag/2025/oldest-txn/",
+      "savedAt": "2025-09-12T00:29:47.694000+00:00",
+      "description": "The oldest recorded transaction dates back to 3100 BC on a Sumer tablet. Modern databases like Postgres and SQLite can store dates only as far back as 4713 BC, but MySQL supports dates from 1000 AD. This raises challenges for storing very old dates in digital systems.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xn7ppy6nrdkmvadwrp10v1",
+      "title": "The Angels and Demons of Nondeterminism",
+      "url": "https://buttondown.com/hillelwayne/archive/the-angels-and-demons-of-nondeterminism/",
+      "savedAt": "2025-09-12T00:29:35.325000+00:00",
+      "description": "Nondeterminism means many possible paths; demonic picks the worst and angelic picks the best. Angelic nondeterminism models existence queries and underpins NP, so it’s a useful abstraction for regexes, SQL, and SAT. Real machines are deterministic, so we must care about implementations and optimizations when we need worst-case guarantees, counts, or probabilities.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xn7dvah8866061xvq25yz2",
+      "title": "Normalization of deviance",
+      "url": "https://danluu.com/wat/",
+      "savedAt": "2025-09-12T00:29:26.249000+00:00",
+      "description": "Normalization of deviance happens when bad work habits become normal and accepted over time. This can cause big problems because people stop questioning risky or inefficient practices. To fix it, companies need strong leadership, clear rules, and a culture where employees feel safe to speak up.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xn6z2cg28y23cg13sppfc8",
+      "title": "Stop writing CLI validation. Parse it right the first time.",
+      "url": "https://hackers.pub/@hongminhee/2025/stop-writing-cli-validation-parse-it-right-the-first-time",
+      "savedAt": "2025-09-12T00:29:11.116000+00:00",
+      "description": "The author built Optique to stop writing repetitive CLI validation code by parsing arguments correctly from the start. Optique uses parser combinators and TypeScript to ensure options are valid and related rules are enforced automatically. This approach saves time, reduces bugs, and makes CLI code easier to change and trust.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xn6j5fbq6s0qyf7g2y65kd",
+      "title": "2 thoughts on “The problems that accountability can’t fix”",
+      "url": "https://surfingcomplexity.blog/2025/08/23/the-problems-that-accountability-cant-fix/",
+      "savedAt": "2025-09-12T00:28:57.903000+00:00",
+      "description": "Accountability helps but fails for coordination problems and flawed risk models.  \nThe OceanGate Titan disaster shows a CEO with \"skin in the game\" still took lethal risks because he lacked expertise and misjudged risk.  \nFixes include cross-checks and independent safety authorities so people can say \"this is unsafe\" without double binds.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xn69gq1vcngg5vzyz6qgqc",
+      "title": "Strong Eventual Consistency - The Big Idea behind CRDTs",
+      "url": "https://lewiscampbell.tech/blog/250908.html",
+      "savedAt": "2025-09-12T00:28:49.047000+00:00",
+      "description": "CRDTs are data structures that let replicas be edited independently and merged automatically. Strong Eventual Consistency means replicas match as soon as updates are processed, not sometime later. This gives low latency, extreme fault tolerance, and offline-friendly geo-replicated databases.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xn63gh6n8kr73c71hrt81m",
+      "title": "Deliberate Abstraction",
+      "url": "https://entropicthoughts.com/deliberate-abstraction",
+      "savedAt": "2025-09-12T00:28:42.897000+00:00",
+      "description": "Modules help hide changing design choices so programs can adapt without big rewrites. Inside-out design builds from a simple core and adds features later, making software flexible and modular. Good abstraction controls complexity but must be planned to avoid hard-to-change code.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xn5x54q2axzh37r68h8jdn",
+      "title": "How I solved a distributed queue problem after 15 years",
+      "url": "https://www.dbos.dev/blog/durable-queues",
+      "savedAt": "2025-09-12T00:28:36.388000+00:00",
+      "description": "Reddit ran almost everything through task queues, but crashes and broker outages could lose work. Durable queues checkpoint workflows in a database (like Postgres) so jobs can resume from the last completed step. They add reliability and observability but reduce throughput, so use them for lower-volume, business-critical tasks.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xn5p8kd5f468dtcfew23py",
+      "title": "The story of how RSS beat Microsoft",
+      "url": "https://buttondown.com/blog/rss-vs-ice",
+      "savedAt": "2025-09-12T00:28:29.331000+00:00",
+      "description": "Big companies like Microsoft pushed ICE, a complex commercial syndication standard.  \nRSS stayed simple, open, and grassroots, so anyone could make feeds and aggregators.  \nThat simplicity let RSS win while ICE faded away.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xn4cbesnac0abnjc7rdxez",
+      "title": "Building A Database On S3",
+      "url": "https://people.csail.mit.edu/kraska/pub/sigmod08-s3.pdf",
+      "savedAt": "2025-09-12T00:27:46.414000+00:00",
+      "description": "Building a Database on S3: The paper explores the opportunities and limitations of using S3 as a storage system for general-purpose database applications that involve small objects and frequent updates. The paper presents read, write, and commit protocols, as well as cost, performance, and consistency properties of such a storage system. The authors demonstrate how small objects can be implemented using S3, and how a B-tree can be implemented on top of it. They also present protocols to implement different levels of consistency using S3.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xn465x0pm5rxe0v4sj7wwn",
+      "title": "Hypervisor in 1,000 Lines ​",
+      "url": "https://1000hv.seiya.me/en/",
+      "savedAt": "2025-09-12T00:27:40.093000+00:00",
+      "description": "This book teaches you to build a minimal type-1 RISC‑V hypervisor in about 1,000 lines of Rust. It can boot Linux-based operating systems and uses Rust crates to skip unneeded low-level work. All code is on GitHub and the book and examples are freely licensed (CC BY 4.0, MIT).",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xn3we5t969c04fgwj8p8mx",
+      "title": "From Unit Tests to Whole Universe Tests (with Will Wilson)",
+      "url": "https://www.youtube.com/watch?v=_xJ4maWhSNU",
+      "savedAt": "2025-09-12T00:27:30.117000+00:00",
+      "description": "Complex systems fail from interactions unit tests miss.  \nA deterministic hypervisor runs a fake production, records everything, and replays it to search for bugs.  \nThat makes reproducing and fixing timing and concurrency bugs fast.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xn3n0qr4wt31mrma135tq2",
+      "title": "A break from programming languages",
+      "url": "https://lexi-lambda.github.io/blog/2025/05/29/a-break-from-programming-languages/",
+      "savedAt": "2025-09-12T00:27:22.519000+00:00",
+      "description": "I have loved programming languages for years, but they are very hard and progress is slow.  \nProgrammers' conservatism and social factors block many good ideas.  \nMy work felt niche (mostly Haskell) and unrewarding, so I am closing this chapter.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k4xn3ev3r9q6xym8pnw10te0",
+      "title": "Defeating Nondeterminism in LLM Inference",
+      "url": "https://thinkingmachines.ai/blog/defeating-nondeterminism-in-llm-inference/",
+      "savedAt": "2025-09-12T00:27:16.194000+00:00",
+      "description": "People often blame concurrency and floating-point math for nondeterminism.  \nThe real problem is when reduction strategies change with batch size, breaking \"batch invariance.\"  \nEnsuring batch-invariant kernels (keep each reduction per batch element or use fixed split sizes) makes inference deterministic, though it can reduce peak performance.",
+      "tags": [
+        "for-later"
+      ]
+    },
     {
       "id": "01k4vhvsx67e68j8kpvh3pdgby",
       "title": "My Quarterly System Health Check-in: Beyond The Dashboard",
@@ -26,6 +885,7 @@
       "savedAt": "2025-09-10T12:04:40.694000+00:00",
       "description": "A public announcement can create common knowledge and change what agents can prove. Repeated questions in the muddy-children puzzle raise knowledge levels until the muddy children know they are muddy on the kth round. The same hierarchy matters in distributed systems like Raft: without acknowledgments facts never become common knowledge and so cannot be safely committed.",
       "tags": [
+        "for-later",
         "cs/distsys"
       ]
     },
@@ -205,6 +1065,7 @@
       "savedAt": "2025-08-14T21:21:01.882000+00:00",
       "description": "Type inference is simpler for plain data types using monoid laws and unification rules with mempty as the Never type. The unification operator (<>) combines types by making fields optional or merging matching fields, ensuring supertype relationships. Associativity and other laws hold for basic types like String, Number, Bool, Array, and Object, supporting consistent type unification.",
       "tags": [
+        "for-later",
         "type-theory"
       ]
     },
@@ -271,6 +1132,7 @@
       "savedAt": "2025-08-09T11:09:54.606000+00:00",
       "description": "The author set up a Proxmox hypervisor on a home server to avoid paying cloud providers. They automated the installation and configuration using Ansible, OpenTofu, and cloud-init. This setup includes disk encryption and easy VM deployment for flexible and secure home lab management.",
       "tags": [
+        "homelab",
         "for-later"
       ]
     },
@@ -281,6 +1143,7 @@
       "savedAt": "2025-08-08T20:10:22.391000+00:00",
       "description": "Postgres is a great choice for building durable workflows because it handles concurrency well, supports powerful queries, and ensures tasks run exactly once. Its locking features reduce bottlenecks when multiple workers process tasks at the same time. Postgres also helps monitor workflows easily and makes sure database steps complete fully or not at all.",
       "tags": [
+        "for-later",
         "cs/distsys"
       ]
     },
@@ -322,6 +1185,7 @@
       "savedAt": "2025-08-06T16:02:32.479000+00:00",
       "description": "Learn C and build your own programming language with this book. Discover the wonders of Lisps and solve problems with concise code examples. Available for free online or for purchase in print and e-book formats.",
       "tags": [
+        "for-later",
         "cs/pl-theory"
       ]
     },
@@ -402,7 +1266,7 @@
       "id": "01k1rbqhy5aj7r4p508y6a1tg4",
       "title": "How should we learn from bugs?",
       "url": "https://typesanitizer.com/blog/bug-analysis.html",
-      "savedAt": "2025-08-03T16:20:11.333000+00:00",
+      "savedAt": "2025-09-12T00:31:33.797000+00:00",
       "description": "Bugs often come from different people writing code in different ways, which can cause unexpected problems. It is hard to fully understand or prevent all bugs because every project and context is different. When dealing with bugs, it helps to stay calm, ask questions, and be kind to yourself and others.",
       "tags": [
         "for-later"
@@ -1573,6 +2437,7 @@
       "description": "Distributed systems use different consistency models to manage how data is read and written across multiple processes. Some models prioritize availability and allow more anomalies, while others enforce strict order and correctness but require more coordination. Understanding these models helps design systems that balance reliability, performance, and consistency.",
       "tags": [
         "favorites",
+        "for-later",
         "cs/distsys"
       ]
     },
@@ -2087,6 +2952,7 @@
       "savedAt": "2025-06-09T13:23:12.049000+00:00",
       "description": "The paper \"Impossibility of Distributed Consensus with One Faulty Process\" shows that achieving consensus in an asynchronous system is impossible, even with reliable communication links. It proves that there will always be an initial configuration where no processor can decide on a value due to message delays or failures. This result highlights the limitations of consensus algorithms in distributed computing environments.",
       "tags": [
+        "for-later",
         "cs/distsys"
       ]
     },
@@ -8953,6 +9819,7 @@
       "savedAt": "2024-04-22T03:31:16.401000+00:00",
       "description": "Algorithms are a fascinating use case for visualization. To visualize an algorithm, we don’t merely fit data to a chart; there is no primary dataset. Instead there are logical rules that describe behavior. This may be why algorithm visualizations are so unusual, as designers experiment with novel forms to better communicate. This is reason enough to study them.",
       "tags": [
+        "for-later",
         "cs/algorithms"
       ]
     },
