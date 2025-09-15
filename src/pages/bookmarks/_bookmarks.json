@@ -1,6 +1,17 @@
 {
-  "lastUpdate": "2025-09-14T00:09:27.883Z",
+  "lastUpdate": "2025-09-15T00:09:33.429Z",
   "data": [
+    {
+      "id": "01k54z4an5vh3487azbfv8zfjw",
+      "title": "Writing an operating system kernel from scratch",
+      "url": "https://popovicu.com/posts/writing-an-operating-system-kernel-from-scratch/",
+      "savedAt": "2025-09-14T20:37:11.461000+00:00",
+      "description": "This project builds a tiny RISC-V unikernel that bundles kernel and user code into one binary.  \nIt runs statically defined, never-ending user threads, each with its own registers and stack.  \nThe supervisor kernel uses timer interrupts and syscalls to save/restore state, time-share threads, and seed initial arguments on each thread's stack.",
+      "tags": [
+        "for-later",
+        "cs/operating-system"
+      ]
+    },
     {
       "id": "01k522sk0mfdy8j9r4pjeh026w",
       "title": "Magical systems thinking",
@@ -8,7 +19,8 @@
       "savedAt": "2025-09-13T17:43:30.580000+00:00",
       "description": "Working complex systems almost always evolve from simple systems that already work. Big designed fixes often fail because the system kicks back and creates new problems. Start small: build simple working alternatives and let them grow instead of hoping analysis will solve everything.",
       "tags": [
-        "for-later"
+        "favorites",
+        "systems-theory"
       ]
     },
     {
@@ -18,7 +30,8 @@
       "savedAt": "2025-09-13T13:41:24.751000+00:00",
       "description": "Containers isolate filesystems mainly with the mount namespace and mount propagation settings, while PID, cgroup, UTS, and network namespaces add extra isolation.  \nUsing unshare plus bind mounts, pivot_root, and mounting /proc lets you create a Docker-like container with standard Linux commands.  \nReal runtimes also set up cgroups, harden and mask pseudofilesystems, and use bind mounts to share host files.",
       "tags": [
-        "cs/devops"
+        "cs/devops",
+        "for-later"
       ]
     },
     {
