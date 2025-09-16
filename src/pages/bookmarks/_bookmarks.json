@@ -1,6 +1,16 @@
 {
-  "lastUpdate": "2025-09-15T00:09:33.429Z",
+  "lastUpdate": "2025-09-16T00:09:17.772Z",
   "data": [
+    {
+      "id": "01k55m9f9z29gthvgw2z30ckhx",
+      "title": "My Thoughts on Renting Versus Buying",
+      "url": "https://milesbarr.me/posts/my-thoughts-on-renting-versus-buying/",
+      "savedAt": "2025-09-15T02:47:00.159000+00:00",
+      "description": "The choice to rent or buy is driven more by behavior, emotion, and lifestyle than by math.  \nRenting gives flexibility, mobility, and often better financial upside for people who save and invest.  \nBuying can force savings and makes sense for those who value stability or need mortgage discipline.",
+      "tags": [
+        "investments"
+      ]
+    },
     {
       "id": "01k54z4an5vh3487azbfv8zfjw",
       "title": "Writing an operating system kernel from scratch",
