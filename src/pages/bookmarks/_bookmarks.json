@@ -1,6 +1,17 @@
 {
-  "lastUpdate": "2025-09-17T00:09:30.700Z",
+  "lastUpdate": "2025-09-19T00:10:35.098Z",
   "data": [
+    {
+      "id": "01k5d96qr67e0rkm28tqnks3p0",
+      "title": "Hypervisor 101 in Rust",
+      "url": "https://tandasat.github.io/Hypervisor-101-in-Rust/introduction/the-goals-of-this-course.html",
+      "savedAt": "2025-09-18T02:07:11.622000+00:00",
+      "description": null,
+      "tags": [
+        "cs/vm",
+        "cs/programming-languages/rust"
+      ]
+    },
     {
       "id": "01k55m9f9z29gthvgw2z30ckhx",
       "title": "My Thoughts on Renting Versus Buying",
@@ -99,7 +110,7 @@
       "title": "We shouldn’t have needed lockfiles",
       "url": "https://tonsky.me/blog/lockfiles/",
       "savedAt": "2025-09-12T01:40:08.269000+00:00",
-      "description": "The version 0. 7.",
+      "description": "Pin top-level versions and the transitive tree is fixed. Version ranges make builds depend on time, so people invented lockfiles that add complexity. Maven shows deterministic conflict resolution (root wins) works without lockfiles.",
       "tags": [
         "for-later"
       ]
@@ -109,7 +120,7 @@
       "title": "GPT-4.1 Prompting Guide",
       "url": "https://cookbook.openai.com/examples/gpt4-1_prompting_guide",
       "savedAt": "2025-09-12T01:38:02.812000+00:00",
-      "description": "The GPT-4.1 family of models represents a significant step forward from GPT-4o in capabilities across coding, instruction following, and...",
+      "description": "GPT-4.1 is more capable and follows instructions more literally, making it highly steerable. Give clear, specific prompts with examples, use the tools field for tool definitions, and optionally ask the model to plan between tool calls. Organize context and instructions carefully, audit failures, and iterate prompts to reduce errors and hallucinations.",
       "tags": [
         "for-later"
       ]
@@ -119,7 +130,7 @@
       "title": "GPT-4",
       "url": "https://www.promptingguide.ai/models/gpt-4",
       "savedAt": "2025-09-12T01:37:39.379000+00:00",
-      "description": "A Comprehensive Overview of Prompt Engineering",
+      "description": "GPT-4 is a powerful multimodal model that achieves near-human performance on many benchmarks. GPT-4 Turbo adds a 128K context window, better instruction following, JSON mode, function calling, and preview vision. It enables many applications but can still hallucinate and has a data cutoff, so use it cautiously.",
       "tags": [
         "for-later"
       ]
@@ -139,7 +150,7 @@
       "title": "How Tool Complexity Impacts AI Agents Selection Accuracy",
       "url": "https://achan2013.medium.com/how-tool-complexity-impacts-ai-agents-selection-accuracy-a3b6280ddce5",
       "savedAt": "2025-09-12T01:33:20.581000+00:00",
-      "description": "Co-author: Sebastian Carbajales",
+      "description": "More tools and complex interfaces make AI tool selection less accurate.  \nClear descriptions and simpler, structured parameters help agents choose correctly.  \nHierarchical routing with sub-agents and dynamic activation further improves accuracy.",
       "tags": [
         "for-later"
       ]
@@ -149,7 +160,7 @@
       "title": "Evaluating Tool Selection",
       "url": "https://docs.langwatch.ai/cookbooks/tool-selection",
       "savedAt": "2025-09-12T01:32:50.950000+00:00",
-      "description": "Understand how to evaluate tools and components in your RAG pipeline—covering retrievers, embedding models, chunking strategies, and vector stores.",
+      "description": "This guide shows how to evaluate LLM tool selection using precision and recall. Models often choose the right tool (high precision) but miss needed tools (low recall) in multi-tool tasks. Tracking these metrics by query and tool reveals weaknesses and guides improvements.",
       "tags": [
         "for-later"
       ]
@@ -159,17 +170,17 @@
       "title": "ToolACE: Winning the Points of LLM Function Calling",
       "url": "https://arxiv.org/html/2409.00920v1",
       "savedAt": "2025-09-12T01:32:28.715000+00:00",
-      "description": "Weiwen Liu† Huawei Noah’s Ark Lab Xu Huang† University of Science and Technology of China Xingshan Zeng† Xinlong Hao Shuai Yu Dexun Li Shuai Wang Weinan Gan Zhengying Liu Yuanqing Yu Tsinghua University Zezhong Wang The Chinese University of Hong Kong {liuweiwen8, zeng.",
+      "description": "ToolACE is an automated pipeline and dataset for teaching LLMs to call functions across thousands of real-world APIs.  \nIt synthesizes diverse, complex dialogs and API formats (nested, parallel, dependent calls) with multi-agent generation and strict quality checks.  \nModels trained on ToolACE outperform others on function-calling tasks while keeping normal general abilities.",
       "tags": [
         "for-later"
       ]
     },
     {
       "id": "01k4xrrzbrtk74vmdrcy49t7tc",
-      "title": "Optimizing Tool Calling",
+      "title": "LangChain’s best practices for tool calling",
       "url": "https://www.useparagon.com/learn/rag-best-practices-optimizing-tool-calling/",
       "savedAt": "2025-09-12T01:31:26.968000+00:00",
-      "description": "Learn what you can do to optimize tool calling for your AI agent",
+      "description": "Tool calling is powerful but often inaccurate and hard to debug.  \nThey tested LLMs, prompts, routing, tool counts, and descriptions and found o3-2025-04-16 performed best.  \nPrompts and descriptions had small overall impact but helped complex multi-tool chains, and more exhaustive testing is needed.",
       "tags": [
         "for-later"
       ]
@@ -209,7 +220,7 @@
       "title": "How My Blog Handles Math and Images in HTML, Atom, and Email in 2025",
       "url": "https://emptysqua.re/blog/math-images-rss-hugo/",
       "savedAt": "2025-09-12T01:08:05.760000+00:00",
-      "description": "A stack of kludges that seems to work.",
+      "description": "I use Hugo to publish technical posts with math and SVG diagrams and want them to look great on the web, Atom feeds, and email. Because feeds and email clients lack SVG and math support, my publish script renders math to SVG and makes PNG fallbacks with hashed filenames. The result is a fast but fragile stack of Hugo templates and Python scripts that kludge around feed and email limitations.",
       "tags": [
         "for-later"
       ]
@@ -239,7 +250,7 @@
       "title": "Thinking about coding",
       "url": "https://www.robinsloan.com/lab/thinking-about-coding/",
       "savedAt": "2025-09-12T01:07:42.912000+00:00",
-      "description": "Daydreaming, the great engine.",
+      "description": "I now spend as much time thinking about code as actually coding. After thinking on walks and in a notebook, I finally coded the idea and it worked in one session. Thinking away from the computer is a powerful alternative to the \"dive in\" approach.",
       "tags": [
         "for-later"
       ]
@@ -259,7 +270,7 @@
       "title": "Ads Are a Positional Good",
       "url": "https://matklad.github.io/2025/08/30/ads-are-a-positional-good.html",
       "savedAt": "2025-09-12T01:07:31.389000+00:00",
-      "description": "Non-technical armchair economics post, where I explain my pet theory for why everything on and outside\nof the internet is absolutely infested with ads.",
+      "description": "Ads are positional goods: their value comes from beating rivals, not from creating new demand.  \nCompanies spend as much as they can to stay a bit ahead, turning ads into an arms race.  \nThat wastes attention and redirects money to ad platforms instead of better products or customers.",
       "tags": [
         "for-later"
       ]
@@ -279,7 +290,7 @@
       "title": "The Loudness Wars",
       "url": "https://fasterthanli.me/articles/the-science-of-loudness",
       "savedAt": "2025-09-12T01:07:13.962000+00:00",
-      "description": "My watch has a “Noise” app: it shows , for decibels.\nMy amp has a volume knob, which also shows decibels, although.. negative ones, this time.\nAnd finally, my video editing software has a ton of me...",
+      "description": "Decibels are a logarithmic ratio used to report sound pressure (dB SPL) and digital levels (dBFS).  \nVU/RMS meters miss short peaks, so engineers used heavy compression to make music sound louder.  \nThe industry now uses LUFS/LKFS and platform targets (e.g. YouTube −14 LUFS) to measure perceived loudness and normalize playback.",
       "tags": [
         "for-later"
       ]
@@ -289,7 +300,7 @@
       "title": "More casual-posting",
       "url": "https://fasterthanli.me/articles/summer-fasterthanlime-update",
       "savedAt": "2025-09-12T01:07:07.491000+00:00",
-      "description": "There are news!\nTL;DR: If you’re a patron or sponsor, check your Profile page to get detailed explainers of every perk. You’ll need to log in. Duh.\nHere are all the changes I’m implementing, summar...",
+      "description": "Amos is changing his publishing model to stop long paywalls and locked article/video releases. Early-access versions will go to supporters when ready, with a private RSS feed and a Discord for them. The public RSS will only show articles you can read, and previously exclusive content is now unlocked.",
       "tags": [
         "for-later"
       ]
@@ -309,7 +320,7 @@
       "title": "6 surprising things about life in SF",
       "url": "https://wilhelm.substack.com/p/6-surprising-things-about-life-in?utm_medium=web",
       "savedAt": "2025-09-12T01:06:08.281000+00:00",
-      "description": "SF is tiny, tap water, peak design, initiating convos, the great outdoors",
+      "description": "San Francisco feels small and calm, and you often run into people.  \nThe tap water is great and the outdoors — parks, rides and swims — are epic and cheap or free.  \nEveryday life is nerdy and chatty: tech culture, friendly strangers, and quirky service norms.",
       "tags": [
         "urbanism",
         "interesting"
@@ -350,7 +361,7 @@
       "title": "Of Rats and Ratchets",
       "url": "https://matklad.github.io/2024/01/03/of-rats-and-ratchets.html",
       "savedAt": "2025-09-12T01:05:34.308000+00:00",
-      "description": "This is going to be related to software engineering, pinky promise!",
+      "description": "The essay compares short-term software fixes to chasing rats in an abandoned house. True fixes seal the holes: add simple, incremental checks (ratchets) that prevent regressions. For things you can’t automate, write down small, truthful team rules in the repository.",
       "tags": [
         "for-later"
       ]
@@ -457,10 +468,10 @@
     },
     {
       "id": "01k4xnr4ywzw4a2fnvfwwra0vg",
-      "title": "Bartosz Milewski's Programming Cafe",
+      "title": "Models of (Dependent) Type Theory",
       "url": "https://bartoszmilewski.com/2025/09/05/models-of-dependent-type-theory/",
       "savedAt": "2025-09-12T00:38:34.204000+00:00",
-      "description": "Previously: (Weak) Factorization Systems. It's been known since Lambek that typed lambda calculus can be modeled in a cartesian closed category, CCC. Cartesian means that you can form products, and closed means that you can form function types. Loosely speaking, types are modeled as objects and functions as arrows. More precisely, objects correspond to contexts--…",
+      "description": "Previously: (Weak) Factorization Systems. It’s been known since Lambek that typed lambda calculus can be modeled in a cartesian closed category, CCC. Cartesian means that you can form product…",
       "tags": [
         "for-later"
       ]
