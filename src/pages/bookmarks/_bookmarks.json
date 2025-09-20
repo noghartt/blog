@@ -1,14 +1,6 @@
 {
-  "lastUpdate": "2025-09-20T00:10:19.320Z",
+  "lastUpdate": "2025-09-20T02:30:00.976Z",
   "data": [
-    {
-      "id": "01k5h7fnnjxz89kf7ch5hx98yd",
-      "title": "Confirm access",
-      "url": "https://github.com/noghartt/go-test/settings/access",
-      "savedAt": "2025-09-19T14:54:06.521000+00:00",
-      "description": "GitHub asks @noghartt to confirm access to enter sudo mode.  \nA verification request was sent to the GitHub Mobile app; approve it or enter the shown digits.  \nIf it failed or the page errored, reload or retry.",
-      "tags": []
-    },
     {
       "id": "01k5g9n64zvv60ap7bxzzw5331",
       "title": "Functors, Applicatives, And Monads In Pictures",
