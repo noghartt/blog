@@ -1,6 +1,24 @@
 {
-  "lastUpdate": "2025-09-19T00:10:35.098Z",
+  "lastUpdate": "2025-09-20T00:10:19.320Z",
   "data": [
+    {
+      "id": "01k5h7fnnjxz89kf7ch5hx98yd",
+      "title": "Confirm access",
+      "url": "https://github.com/noghartt/go-test/settings/access",
+      "savedAt": "2025-09-19T14:54:06.521000+00:00",
+      "description": "GitHub asks @noghartt to confirm access to enter sudo mode.  \nA verification request was sent to the GitHub Mobile app; approve it or enter the shown digits.  \nIf it failed or the page errored, reload or retry.",
+      "tags": []
+    },
+    {
+      "id": "01k5g9n64zvv60ap7bxzzw5331",
+      "title": "Functors, Applicatives, And Monads In Pictures",
+      "url": "https://www.adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html",
+      "savedAt": "2025-09-19T06:12:48.415000+00:00",
+      "description": "This text explains the concepts of Functors, Applicatives, and Monads in programming, particularly in Haskell. Functors allow you to apply functions to values wrapped in contexts, Applicatives extend this to applying wrapped functions to wrapped values, and Monads introduce a way to apply functions that return wrapped values. The Maybe type is used as an example, demonstrating how it acts as a Functor, Applicative, and Monad.",
+      "tags": [
+        "cs/functional-programming"
+      ]
+    },
     {
       "id": "01k5d96qr67e0rkm28tqnks3p0",
       "title": "Hypervisor 101 in Rust",
