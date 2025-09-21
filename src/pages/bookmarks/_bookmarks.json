@@ -1,6 +1,17 @@
 {
-  "lastUpdate": "2025-09-20T02:30:00.976Z",
+  "lastUpdate": "2025-09-21T00:10:45.870Z",
   "data": [
+    {
+      "id": "01k5kyxdkh579bhw3swppq0ecq",
+      "title": "Ongoing Tradeoffs, and Incidents as Landmarks",
+      "url": "https://ferd.ca/ongoing-tradeoffs-and-incidents-as-landmarks.html",
+      "savedAt": "2025-09-20T16:22:01.585000+00:00",
+      "description": "Incidents help us see how work really happens and reveal ongoing tradeoffs in organizations. They act as landmarks that show if our current path and priorities are working or need change. Using incidents this way means learning from them beyond just fixing problems, involving all levels of the organization in understanding and improving decisions.",
+      "tags": [
+        "engineering",
+        "systems-theory"
+      ]
+    },
     {
       "id": "01k5g9n64zvv60ap7bxzzw5331",
       "title": "Functors, Applicatives, And Monads In Pictures",
