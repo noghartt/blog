@@ -1,6 +1,38 @@
 {
-  "lastUpdate": "2025-09-21T00:10:45.870Z",
+  "lastUpdate": "2025-09-22T00:10:41.121Z",
   "data": [
+    {
+      "id": "01k5p6x25c50mqs01fst44hmyg",
+      "title": "• Napkin (v1.6)",
+      "url": "https://web.evanchen.cc/napkin.html",
+      "savedAt": "2025-09-21T13:20:07.340000+00:00",
+      "description": "Napkin v1.6 by Evan Chen is a concise, mostly self-contained introduction to higher mathematics for advanced undergraduates and beginning grad students.  \nIt gives bird’s-eye views with precise definitions and theorem statements but fewer full proofs, and many chapters still need problems or solutions.  \nThe draft and per-part PDFs are on the website and GitHub, and readers can contribute or view community human-readable and Lean4 solutions via issues or pull requests.",
+      "tags": [
+        "math",
+        "books"
+      ]
+    },
+    {
+      "id": "01k5naxw0wwy3s1wmvg4tc3pt6",
+      "title": "Advanced Testing and Determinism",
+      "url": "https://lewiscampbell.tech/blog/250604.html",
+      "savedAt": "2025-09-21T05:11:13.692000+00:00",
+      "description": "Separate deterministic code from non-deterministic code.  \nUse property-based tests and deterministic simulations with seeded inputs to test deterministic parts.  \nKeep end-to-end tests as sanity checks because they are fragile and miss rare, environment-driven bugs.",
+      "tags": [
+        "cs/distsys",
+        "cs/testing"
+      ]
+    },
+    {
+      "id": "01k5n3cd59kqsg5py7ggr1st4v",
+      "title": "Basic Type System Terminology",
+      "url": "https://lewiscampbell.tech/blog/250817.html",
+      "savedAt": "2025-09-21T02:59:21.385000+00:00",
+      "description": "Type systems use precise terms, but many people confuse them. Static typing checks types from source code before running, while dynamic typing checks types at runtime. Strong vs weak is about implicit conversions; dynamic ≠ untyped and strong ≠ static.",
+      "tags": [
+        "cs/type-system"
+      ]
+    },
     {
       "id": "01k5kyxdkh579bhw3swppq0ecq",
       "title": "Ongoing Tradeoffs, and Incidents as Landmarks",
@@ -303,7 +335,7 @@
       "savedAt": "2025-09-12T01:07:20.032000+00:00",
       "description": "Two generals cannot reliably coordinate an attack in an asynchronous system because messages can be lost or delayed.  \nKnowledge is defined by which global states an agent cannot distinguish from its local history.  \nThis explains why Raft nodes may not achieve common knowledge and why extra assumptions (like reliable clocks) are needed for guaranteed coordination.",
       "tags": [
-        "for-later"
+        "cs/distsys"
       ]
     },
     {
@@ -832,7 +864,7 @@
       "savedAt": "2025-09-12T00:28:49.047000+00:00",
       "description": "CRDTs are data structures that let replicas be edited independently and merged automatically. Strong Eventual Consistency means replicas match as soon as updates are processed, not sometime later. This gives low latency, extreme fault tolerance, and offline-friendly geo-replicated databases.",
       "tags": [
-        "for-later"
+        "cs/distsys"
       ]
     },
     {
