@@ -1,6 +1,14 @@
 {
-  "lastUpdate": "2025-09-22T00:10:41.121Z",
+  "lastUpdate": "2025-09-23T00:10:22.842Z",
   "data": [
+    {
+      "id": "01k5sxyh1snmn6tdf714qnvxzd",
+      "title": "STYLE.md at main · tigerbeetle/tigerbeetle",
+      "url": "https://github.com/tigerbeetle/tigerbeetle/blob/main/docs/TIGER_STYLE.md",
+      "savedAt": "2025-09-23T00:00:35.897000+00:00",
+      "description": "Write simple, clear code with minimal abstractions and small functions so behavior is easy to understand.  \nAssert assumptions early and often, handle all errors, and keep variables and scope minimal to catch bugs fast.  \nName things well, document why decisions were made, and prefer explicit control flow and predictable performance.",
+      "tags": []
+    },
     {
       "id": "01k5p6x25c50mqs01fst44hmyg",
       "title": "• Napkin (v1.6)",
