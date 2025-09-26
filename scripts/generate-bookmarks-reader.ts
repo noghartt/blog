@@ -63,7 +63,7 @@ const fetchBookmarks = async ({ nextPage: nextPageArg } = { nextPage: null }) =>
 
 const writeJsonFile = async (data: any) => {
   const cwd = process.cwd();
-  const filepath = path.join(cwd, 'src', 'pages', 'bookmarks', '_bookmarks.json');
+  const filepath = path.join(cwd, 'src', 'content', 'bookmarks', 'bookmarks.json');
   await fs.writeFile(filepath, JSON.stringify({ lastUpdate: new Date().toISOString(), data }, null, 2));
 }
 

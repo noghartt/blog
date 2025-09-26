@@ -39,9 +39,25 @@ const changelogCollection = defineCollection({
   })),
 });
 
+const bookmarksCollection = defineCollection({
+  type: 'data',
+  schema: z.object({
+    lastUpdate: z.string().datetime(),
+    data: z.array(z.object({
+      id: z.string(),
+      title: z.string(),
+      url: z.string(),
+      savedAt: z.coerce.date(),
+      description: z.string().nullable(),
+      tags: z.array(z.string()),
+    })),
+  }),
+});
+
 export const collections = {
   blog: blogCollection,
   lists: listsCollection,
   til: tilCollection,
   changelog: changelogCollection,
+  bookmarks: bookmarksCollection,
 }
