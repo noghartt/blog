@@ -7,7 +7,7 @@ import GoBackButton from '../../components/GoBackButton.astro';
 import Link from "../../components/Link.astro";
 
 const [bookmarksJson] = await getCollection('bookmarks');
-const bookmarksData = bookmarksJson.data;
+const bookmarksData = bookmarksJson.data.data;
 
 const groupByMonth = (bookmarks) => {
   const grouped = bookmarks.reduce((acc, bookmark) => {

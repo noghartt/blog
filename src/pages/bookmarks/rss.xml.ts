@@ -5,7 +5,7 @@ import { SITE } from "../../config";
 
 const [bookmarksJson] = await getCollection('bookmarks');
 
-const bookmarksData = bookmarksJson.data;
+const bookmarksData = bookmarksJson.data.data;
 const bookmarksSorted = bookmarksData.sort((a, b) =>
   Math.floor(Number(b.savedAt) / 1000) -
   Math.floor(Number(a.savedAt) / 1000)
