@@ -1,13 +1,12 @@
 ---
 import dayjs from 'dayjs';
-import dayjsTimezone from 'dayjs/plugin/timezone';
+import { getCollection } from 'astro:content';
 
 import Layout from "../../layout/Layout.astro";
 import GoBackButton from '../../components/GoBackButton.astro';
 import Link from "../../components/Link.astro";
 
-import bookmarksJson from './_bookmarks.json';
-
+const [bookmarksJson] = await getCollection('bookmarks');
 const bookmarksData = bookmarksJson.data;
 
 const groupByMonth = (bookmarks) => {

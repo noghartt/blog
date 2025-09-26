@@ -1,7 +1,9 @@
 import rss from "@astrojs/rss";
+import { getCollection } from 'astro:content';
 
 import { SITE } from "../../config";
-import bookmarksJson from './_bookmarks.json';
+
+const [bookmarksJson] = await getCollection('bookmarks');
 
 const bookmarksData = bookmarksJson.data;
 const bookmarksSorted = bookmarksData.sort((a, b) =>

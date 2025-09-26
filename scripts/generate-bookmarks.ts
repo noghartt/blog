@@ -75,7 +75,7 @@ const mapBookmark = (edge) => {
 
 const writeJsonFile = async (data: any) => {
   const cwd = process.cwd();
-  const filepath = path.join(cwd, 'src', 'pages', 'bookmarks', '_bookmarks.json');
+  const filepath = path.join(cwd, 'src', 'pages', 'bookmarks', 'bookmarks.json');
   await fs.writeFile(filepath, JSON.stringify({ lastUpdate: new Date().toISOString(), data }, null, 2));
 }
 

@@ -1,14 +1,15 @@
 ---
 import dayjs from 'dayjs';
+import { getCollection } from 'astro:content';
 
 import Layout from "../../../layout/Layout.astro";
 import GoBackButton from '../../../components/GoBackButton.astro';
 
-import bookmarksJson from '../_bookmarks.json';
 import TreeNode from './_TreeNode.astro';
 import Link from '../../../components/Link.astro';
 
-const bookmarksData = bookmarksJson.data;
+const [bookmarksJson] = await getCollection('bookmarks');
+const bookmarksData = bookmarksJson.data.data;
 
 const groupByTag = (bookmarks: typeof bookmarksData): Record<string, typeof bookmarksData[]> => {
   const grouped = bookmarks.reduce((acc, bookmark) => {
