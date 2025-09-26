@@ -1,6 +1,16 @@
 {
-  "lastUpdate": "2025-09-24T00:10:31.045Z",
+  "lastUpdate": "2025-09-26T00:10:26.943Z",
   "data": [
+    {
+      "id": "01k5x0k42sx28tqxrvnchznt4x",
+      "title": "The FLP theorem",
+      "url": "https://shachaf.net/w/flp",
+      "savedAt": "2025-09-24T04:44:31.193000+00:00",
+      "description": "The FLP theorem shows that in an asynchronous system with one faulty process, consensus can never be guaranteed to finish in a set time. This happens because message delays and delivery order can always prevent the system from deciding. Real systems use clocks and other tricks to work well despite this theoretical limit.",
+      "tags": [
+        "for-later"
+      ]
+    },
     {
       "id": "01k5sxyh1snmn6tdf714qnvxzd",
       "title": "STYLE.md at main · tigerbeetle/tigerbeetle",
