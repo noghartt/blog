@@ -1,6 +1,47 @@
 {
-  "lastUpdate": "2025-09-27T00:10:24.284Z",
+  "lastUpdate": "2025-09-28T00:10:43.011Z",
   "data": [
+    {
+      "id": "01k652pncwy6pg04fkyjdjpbww",
+      "title": "Gödel’s Incompleteness Theorems",
+      "url": "https://plato.stanford.edu/entries/goedel-incompleteness/",
+      "savedAt": "2025-09-27T07:55:19.836000+00:00",
+      "description": "Gödel’s incompleteness theorems show that in any consistent formal system that includes basic arithmetic, there are statements that cannot be proven true or false. The first theorem proves that such undecidable statements exist, while the second theorem addresses the limits of proving the system's own consistency. These theorems have significant implications in logic, mathematics, and philosophy.",
+      "tags": [
+        "math"
+      ]
+    },
+    {
+      "id": "01k64zw0x3gs98w8tytxp4nqyc",
+      "title": "Context Engineering for AI Agents: Lessons from Building Manus",
+      "url": "https://manus.im/blog/Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus",
+      "savedAt": "2025-09-27T07:05:49.731000+00:00",
+      "description": "Manus built agents by engineering context instead of retraining models.  \nThey maximize speed and cost savings by boosting KV-cache hit rate with stable, append-only prompts and by masking tool choices rather than changing them.  \nThey use the filesystem as restorable memory, keep errors in the trace to learn, and add small variation to avoid decision drift.",
+      "tags": [
+        "llm",
+        "cs/ai"
+      ]
+    },
+    {
+      "id": "01k64tgvx9yep3gwc4qwewz5an",
+      "title": "How to Lead in a Room Full of Experts",
+      "url": "https://idiallo.com/blog/how-to-lead-in-a-room-full-of-experts",
+      "savedAt": "2025-09-27T05:32:21.289000+00:00",
+      "description": "You don't have to be the smartest person in the room.  \nYour job is to translate between teams, keep the goal clear, and make space for experts to do their best work.  \nAdmit what you don't know, explain decisions, and shield the team from needless complexity.",
+      "tags": [
+        "career"
+      ]
+    },
+    {
+      "id": "01k64fa89skmfjtmx7qwfhjxj3",
+      "title": "A Very Early History of Algebraic Data Types",
+      "url": "https://www.hillelwayne.com/post/algdt-history/",
+      "savedAt": "2025-09-27T02:16:30.264000+00:00",
+      "description": "McCarthy and Hoare framed types as Cartesian products and discriminated unions (tagged sums).  \nFunctional languages like HOPE and ML added +/# notation, pattern matching, and exhaustiveness checks.  \nThe phrase \"algebraic data type\" came later (e.g., Miranda), but the core ideas were known early.",
+      "tags": [
+        "for-later"
+      ]
+    },
     {
       "id": "01k5x0k42sx28tqxrvnchznt4x",
       "title": "The FLP theorem",
