@@ -1,6 +1,59 @@
 {
-  "lastUpdate": "2025-09-28T00:10:43.011Z",
+  "lastUpdate": "2025-09-30T00:10:52.810Z",
   "data": [
+    {
+      "id": "01k6bas3vwv5pdx209gt1wnma7",
+      "title": "Distributed consensus",
+      "url": "https://shachaf.net/w/consensus",
+      "savedAt": "2025-09-29T18:11:55.386000+00:00",
+      "description": "Distributed consensus requires interacting with at least two computers to ensure that a value is written safely, even if one computer is down. To avoid conflicts when multiple clients try to write different values, a locking mechanism is proposed, where clients must \"lock\" the system before writing. This system allows for consistent reads and writes by using lock IDs to manage and resolve potential conflicts.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k6b9s1kk71kfn6d3e17msmxb",
+      "title": "Everything you know is wrong",
+      "url": "https://lawrencecpaulson.github.io//2025/09/20/Wrong.html",
+      "savedAt": "2025-09-29T17:54:24.499000+00:00",
+      "description": "Over fifty years many confident beliefs about AI and computing turned out to be wrong. Symbolic ideas like expert systems, Prolog, and program synthesis often failed, though DPLL/SMT and tools like Isabelle later proved useful. The lesson is that trends shift and practical, persistent work often wins.",
+      "tags": [
+        "type-theory",
+        "computer-history"
+      ]
+    },
+    {
+      "id": "01k6b47x3dfa91wz4yf3j49rzf",
+      "title": "GPT-2 Neural Network Poetry",
+      "url": "https://gwern.net/gpt-2#transformer-tutorial",
+      "savedAt": "2025-09-29T16:17:39.949000+00:00",
+      "description": "The author fine-tuned GPT-2-117M on two poetry datasets, first PG and then a smaller PF.  \nPF gave a much lower loss, suggesting modern poetry is easier for GPT-2 to model.  \nThe prefix-finetuned model often makes better poem completions than base GPT-2-117M, though some older works (e.g., Howl) fare worse.",
+      "tags": [
+        "llm",
+        "cs/ai"
+      ]
+    },
+    {
+      "id": "01k6b3jf1zyhqhd26g2szerg19",
+      "title": "How to Beat Procrastination",
+      "url": "https://www.lesswrong.com/posts/RWo4LwFzpHNQCTcYt/how-to-beat-procrastination",
+      "savedAt": "2025-09-29T16:05:57.439000+00:00",
+      "description": "Procrastination is often linked to impulsiveness and is influenced by how we perceive the rewards of tasks. To overcome procrastination, focus on increasing your optimism about success, making tasks more enjoyable, and setting clear goals. Understanding the procrastination equation can help you manage your motivation and reduce delays.",
+      "tags": [
+        "productivity"
+      ]
+    },
+    {
+      "id": "01k6b0q6hrbtvkmg0br3vbabwe",
+      "title": "Prompt Engineering Guide",
+      "url": "https://www.promptingguide.ai/",
+      "savedAt": "2025-09-29T15:16:06.839000+00:00",
+      "description": "Prompt engineering is a new field for creating and improving prompts for large language models.  \nIt helps researchers and developers boost model performance, safety, and tool integration.  \nThis guide collects current papers, techniques, tutorials, and courses to teach those skills.",
+      "tags": [
+        "llm",
+        "cs/ai"
+      ]
+    },
     {
       "id": "01k652pncwy6pg04fkyjdjpbww",
       "title": "Gödel’s Incompleteness Theorems",
@@ -49,7 +102,7 @@
       "savedAt": "2025-09-24T04:44:31.193000+00:00",
       "description": "The FLP theorem shows that in an asynchronous system with one faulty process, consensus can never be guaranteed to finish in a set time. This happens because message delays and delivery order can always prevent the system from deciding. Real systems use clocks and other tricks to work well despite this theoretical limit.",
       "tags": [
-        "for-later"
+        "cs/distsys"
       ]
     },
     {
