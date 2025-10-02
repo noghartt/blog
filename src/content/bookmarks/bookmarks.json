@@ -1,6 +1,28 @@
 {
-  "lastUpdate": "2025-10-01T00:11:00.503Z",
+  "lastUpdate": "2025-10-02T00:10:22.064Z",
   "data": [
+    {
+      "id": "01k6fycdfbk8k8zsqrbv3wv5r6",
+      "title": "Type Theory & Functional Programming",
+      "url": "https://www.cs.cornell.edu/courses/cs6110/2015sp/textbook/Simon%20Thompson%20textbook.pdf",
+      "savedAt": "2025-10-01T13:11:28.491000+00:00",
+      "description": "I'm sorry, there is no content provided for me to summarize. Please provide me with the necessary information.",
+      "tags": [
+        "books",
+        "for-later",
+        "cs/functional-programming"
+      ]
+    },
+    {
+      "id": "01k6ep8mb0cjjxhev0khb10bhg",
+      "title": "Inside vLLM: Anatomy of a High-Throughput LLM Inference System",
+      "url": "https://www.aleksagordic.com/blog/vllm",
+      "savedAt": "2025-10-01T01:30:21.408000+00:00",
+      "description": "vLLM is a high-throughput LLM inference system built around an engine that schedules requests, manages a paged KV-cache, and runs efficient GPU execution. It adds features like prefix caching, speculative decoding, guided decoding, and structured output to speed up serving and reduce memory use. The system scales from single-GPU to multi-GPU and distributed serving with async I/O and multiprocessing for high throughput.",
+      "tags": [
+        "for-later"
+      ]
+    },
     {
       "id": "01k6bas3vwv5pdx209gt1wnma7",
       "title": "Distributed consensus",
