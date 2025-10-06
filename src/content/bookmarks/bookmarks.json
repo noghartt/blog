@@ -1,6 +1,802 @@
 {
-  "lastUpdate": "2025-10-05T00:10:46.512Z",
+  "lastUpdate": "2025-10-06T13:38:46.264Z",
   "data": [
+    {
+      "id": "01k6wrvekz8bf6cz9s5xhe65sd",
+      "title": "VPS Setup and Security Checklist: Complete Self-Hosting Guide for 2025",
+      "url": "https://bhargav.dev/blog/VPS_Setup_and_Security_Checklist_A_Complete_Self_Hosting_Guide",
+      "savedAt": "2025-10-06T12:44:57.343000+00:00",
+      "description": "This guide shows how to set up a secure VPS using Hetzner and Coolify with clear steps and tips. Hetzner is chosen for its low cost, good performance, and European servers. Self-hosting helps you learn devops skills and gain control over your apps.",
+      "tags": [
+        "homelab",
+        "cs/devops"
+      ]
+    },
+    {
+      "id": "01k6v0bn0dwjqzbz870fkp2v4p",
+      "title": "fi-le.net,",
+      "url": "https://fi-le.net/oss/",
+      "savedAt": "2025-10-05T20:17:39.341000+00:00",
+      "description": "fi-le.net, the Fiefdom of Files",
+      "tags": [
+        "cs/ai"
+      ]
+    },
+    {
+      "id": "01k6ttdkr2xps4ttesy781fkyj",
+      "title": "Getting silly with C, part ~(~1<<1)",
+      "url": "https://lcamtuf.substack.com/p/getting-silly-with-c-part-11",
+      "savedAt": "2025-10-05T18:33:52.130000+00:00",
+      "description": "It's vibe coding. Relax, everyone is doing it.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k6ttd4g1tvrjmesk4wqtrmdx",
+      "title": "The Syndrome of the Ultra-fit",
+      "url": "https://desmolysium.com/the-syndrome-of-the-ultra-fit/?utm_source=rss&utm_medium=rss&utm_campaign=the-syndrome-of-the-ultra-fit",
+      "savedAt": "2025-10-05T18:33:36.513000+00:00",
+      "description": "I recently coached a client. From the outside, he appeared to be very fit. He had chiseled six-pack abs, exercised every day, and was very health-conscious. However, for the past couple of years, he had issues with energy levels and recovery. He also felt quite weak most of the time and his blood pressure (around […]",
+      "tags": [
+        "biohack",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k6ttbs76npjtzv0mwtr3q6wk",
+      "title": "Weird CPU architectures, the MOV only CPU",
+      "url": "https://justanotherelectronicsblog.com/?p=771",
+      "savedAt": "2025-10-05T18:32:52.198000+00:00",
+      "description": "A CPU can be built using only a Move instruction by memory-mapping all components like the ALU and program counter. This design, called Transport Triggered Architecture (TTA), moves data to perform calculations instead of using traditional arithmetic operations. Although simple and quirky, such a CPU can run programs like calculating Fibonacci numbers but is not very fast or popular.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k6ttbbahphjyxq428ry93vey",
+      "title": "UTF-8 is a Brilliant Design",
+      "url": "https://iamvishnu.com/posts/utf8-is-brilliant-design",
+      "savedAt": "2025-10-05T18:32:37.968000+00:00",
+      "description": "UTF-8 is a smart, variable-width encoding that represents every Unicode character using one to four bytes. The first 128 codes match ASCII, and multi-byte characters use specific leading-bit patterns with 10-prefixed continuation bytes to form code points. This makes UTF-8 both backward compatible with ASCII and scalable for millions of characters.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k6ttaahftbg759yngphjxc59",
+      "title": "Fail Fast",
+      "url": "https://martinfowler.com/ieeeSoftware/failFast.pdf",
+      "savedAt": "2025-10-05T18:32:04.398000+00:00",
+      "description": "The article discusses the concept of \"failing fast\" in software development, which involves building software to immediately and visibly fail when a problem occurs, rather than continuing to operate and failing slowly in strange ways later on. The technique involves using assertions, which are tiny pieces of code that check a condition and fail if the condition isn't met. Assertions are useful in flushing out problems in the seams of the system, but they should not be used for every single variable assignment. The article also recommends creating a global exception handler to gracefully handle unexpected exceptions and bring them to the developers' attention.",
+      "tags": [
+        "cs",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k6tt9wmwm3rvgbp847t37dmj",
+      "title": "It Takes Two to Contract",
+      "url": "https://tigerbeetle.com/blog/2023-12-27-it-takes-two-to-contract/",
+      "savedAt": "2025-10-05T18:31:50.172000+00:00",
+      "description": "Design by contract (DbC) involves using types and assertions to catch bugs and limit their consequences. While syntactic mechanisms are not necessary for effective use of DbC, writing more assertions can be beneficial. In object-oriented languages with inheritance, DbC provides first-class support for weakening preconditions and strengthening postconditions. Having assertions in both the call site and definition site improves readability and helps ensure assumptions are met. Pairing assertions provides robustness, defense in depth, and the ability to reason about the correctness of function calls. Assertions can also be used to check invariants in consensus protocols and ensure the equivalence of different code paths.",
+      "tags": [
+        "for-later",
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "01k6tt9fr87897afsf8m3vndkw",
+      "title": "« A Beginner's Guide to Extending Emacs",
+      "url": "https://blog.tjll.net/a-beginners-guide-to-extending-emacs/",
+      "savedAt": "2025-10-05T18:31:36.968000+00:00",
+      "description": "The blog post by Tyler Langlois is a beginner's guide to extending Emacs, focusing on how to create custom completion functions in Emacs Lisp (elisp). It explains using regular expressions to gather completion candidates and integrating them with Emacs' completion system. The guide emphasizes experimenting with functions within Emacs to learn and develop effective completion backends.",
+      "tags": [
+        "for-later",
+        "tools/emacs"
+      ]
+    },
+    {
+      "id": "01k6tt8svz34rzne0pffy3whf1",
+      "title": "Type Branding in Typescript",
+      "url": "https://azraelsec.sh/2025/09/06/Typescript-Branding/",
+      "savedAt": "2025-10-05T18:31:14.559000+00:00",
+      "description": "TypeScript is structurally typed, so types with the same shape are interchangeable. Branded types add a phantom unique property to make a type nominal. This gives stronger type safety and prevents mixing incompatible values at compile time.",
+      "tags": [
+        "for-later",
+        "type-theory",
+        "cs/programming-languages/javascript"
+      ]
+    },
+    {
+      "id": "01k6tt7xp2xbxaxt6a8qhaswde",
+      "title": "Why We're Building Stategraph: Terraform State as a Distributed Systems Problem",
+      "url": "https://stategraph.dev/blog/why-stategraph",
+      "savedAt": "2025-10-05T18:30:45.697000+00:00",
+      "description": "Terraform state is a distributed systems problem masquerading as file storage. Graph state fixes the bottlenecks.",
+      "tags": [
+        "cs/devops",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k6tt76sb6mhsahz69ej181vn",
+      "title": "Many Hard Leetcode Problems are Easy Constraint Problems",
+      "url": "https://buttondown.com/hillelwayne/archive/many-hard-leetcode-problems-are-easy-constraint/",
+      "savedAt": "2025-10-05T18:30:22.251000+00:00",
+      "description": "Use the right tool for the job.",
+      "tags": [
+        "for-later",
+        "cs/algorithms"
+      ]
+    },
+    {
+      "id": "01k6tt5rd6jqt8mdjm0xkcr2vk",
+      "title": "Is GitHub Actions suitable for running benchmarks?",
+      "url": "https://labs.quansight.org/blog/2021/08/github-actions-benchmarks",
+      "savedAt": "2025-10-05T18:29:34.757000+00:00",
+      "description": "GitHub Actions can be used for reliable relative benchmarking by comparing two commits in the same CI job, which helps reduce measurement noise. The benchmarking process may take time, but it can effectively track performance changes over time, showing sensitivity to significant regressions. While some optimizations can speed up the process, maintaining accuracy is crucial, so the default settings that run multiple passes are recommended.",
+      "tags": [
+        "for-later",
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "01k6tt57zabrjj5wtd95hny2np",
+      "title": "We have outgrown the Process model",
+      "url": "https://sidhion.com/blog/process_model_outgrown/",
+      "savedAt": "2025-10-05T18:29:17.930000+00:00",
+      "description": "The Process model runs programs in isolated environments, which limits how they use system resources and share work. This model struggles with modern needs like continuous running, state persistence, and networking. Changing it is hard because current processors and operating systems are built around these old ideas.",
+      "tags": [
+        "for-later",
+        "computer-history"
+      ]
+    },
+    {
+      "id": "01k6tt4dxdsjypry4qa2dagcsh",
+      "title": "Folks, we have the best π",
+      "url": "https://lcamtuf.substack.com/p/folks-we-have-the-best",
+      "savedAt": "2025-10-05T18:28:51.245000+00:00",
+      "description": "And some novel ideas for bicycle wheel design.",
+      "tags": [
+        "math",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k6tt44fk7sg80gczq5kcfj8z",
+      "title": "Algebraic Types are not Scary, Actually",
+      "url": "https://blog.aiono.dev/posts/algebraic-types-are-not-scary,-actually.html",
+      "savedAt": "2025-10-05T18:28:41.587000+00:00",
+      "description": "Algebraic types are simple concepts that combine types like sets using addition and multiplication. Sum types let a value be from one type or another, helping handle cases like errors or nulls safely. Using algebraic types makes programming clearer and can reduce bugs compared to traditional methods.",
+      "tags": [
+        "for-later",
+        "type-theory"
+      ]
+    },
+    {
+      "id": "01k6tt3reewamqgq3cabhr7nax",
+      "title": "Beyond Orthogonality: How Language Models Pack Billions of Concepts into 12,000 Dimensions",
+      "url": "https://nickyoder.com/johnson-lindenstrauss/",
+      "savedAt": "2025-10-05T18:28:29.262000+00:00",
+      "description": "High-dimensional spaces can pack enormous numbers of nearly-orthogonal vectors, so 12,288 dimensions can represent billions of concepts. The Johnson-Lindenstrauss lemma explains why low-dimensional projections can still preserve distances between points. GPU experiments found optimizer pitfalls but show practical embedding capacity far exceeds real-world needs.",
+      "tags": [
+        "cs/ai",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k6tt2zme409kn185t42crmyc",
+      "title": "Claude Can (Sometimes) Prove It",
+      "url": "https://www.galois.com/articles/claude-can-sometimes-prove-it",
+      "savedAt": "2025-10-05T18:28:03.854000+00:00",
+      "description": "Claude Code can often write complex Lean proofs.  \nIt still needs a human guide and makes costly mistakes.  \nThis suggests AI could make theorem proving widely accessible, but agents aren’t yet autonomous.",
+      "tags": [
+        "math",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k6tszg61qh4794sn6qghzpyr",
+      "title": "Mathematical induction",
+      "url": "https://www.lesswrong.com/w/mathematical-induction",
+      "savedAt": "2025-10-05T18:26:09.728000+00:00",
+      "description": "The principle of mathematical induction is a proof technique in which a statement, P(n), is proven about a set of natural numbers n. It may be best understood as treating the statements like dominoes: a statement P(n) is true if the n-th domino is knocked down. We must knock down a first domino, or prove that a base case P(m) is true. Next we must make sure the dominoes are close enough together to fall, or that the inductive step holds; in other words, we prove that if k≥m and P(k) is true, P(k+1) is true. Then since P(m) is true, P(m+1) is true; and since P(m+1) is true, P(m+2) is true, and so on.\n\n\nAn example\nWe'll do an example to build our intuition before giving the proper definition of the principle. We'll provide yet another proof that 1+2+⋯+n=n(n+1)2 for all integers n≥1. First, let's check the base case, where n=1: 1=1(1+1)2=22=1. This is (fairly obviously) true, so we can move forward with the inductive step. The inductive step includes an assumption, namely that the statement is true for some integer k that is larger than the base integer. For our example, if k≥1, we assume that 1+2+⋯+k=k(k+1)2 and try to prove that 1+2+⋯+k+(k+1)=(k+1)([k+1]+1)2. Take our assumption and add k+1 to both sides: 1+2+⋯+k+(k+1)=k(k+1)2+k+1. Now the left-hand sides of what we know and what we want are the same. Hopefully the right-hand side will shake out to be the same. Get common denominators so that the right-hand side of the above equation is k(k+1)2+2(k+1)2=(k+2)(k+1)2=(k+1)([k+1]+1)2. Therefore, 1+2+⋯+k+(k+1)=(k+1)([k+1]+1)2 as desired.\n\nLet P(n) be the statement for n≥1 that the sum of all integers between 1 and n is n(n+1)/2. At the beginning we showed that the base case, P(1), is true. Next we showed the inductive step, that if k≥1 and P(k) is true, then P(k+1) is true. This means that since P(1) is true, P(2) is true; and since P(2) is true, P(3) is true; etc., so that P(n) is true for all integers n≥1.\n\n\nDefinition for the natural numbers\nWe are ready to properly de",
+      "tags": [
+        "math",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k6tsyvfpvk5dpwj1rre04gcr",
+      "title": "Why argument structure is important",
+      "url": "https://www.lesswrong.com/w/why-argument-structure-is-important",
+      "savedAt": "2025-10-05T18:25:48.534000+00:00",
+      "description": "Tldr;\n\nArbital should put design and engineering effort into better ways to structure discussions, such as defining terms, adding evidence for or against a claim, declaring cruxes, proposing tests, and posting challenges (e.g. “how might we…”). These structures will improve the quality of discussion and can plug together for collaborative truth-seeking.\n\n----------------------------------------\n\nProblem\n\nI see three structures of community-created content out on the Interwebs today:\n\n * Blogs and articles (long-ish form usually written by one author, permanent but sinks out of awareness quickly.)\n * Discussions that flow quickly (threaded discussions like reddit or Q&A sites like StackExchange), and\n * Wikis (permanent but appearing static and the evolution is hidden).\n\nWhat’s missing is multi-user collaboration about a permanent topic, seeking to arrive at a high-quality, trusted, and agreed upon statement of truth.\n\nReasoned disagreements driven by data, insights, and rationale help the group to test and refine the accuracy of arguments and decisions. Hashing out a complex problem like this demands diverse viewpoints and sources of knowledge.\n\nBut coming to that agreement is hard because you have to keep track of a complex and nested web of points and counterpoints, some that really matter and some that are nit-picks.\n\nWhich leaves people within a group feeling either that their point was missed and ignored and a bad decision was made, or that the group takes too long to come to agreement.\n\nProposal\n\nA truth-seeking platform can help groups:\n\n * focus on specific claims or questions,\n * track how they want to decide (decomposing cases and flagging crux arguments)\n * track evidence for and against different claims,\n * support nested evidence about whether each piece of evidence is true or not.\n\nSome claims will not be decided absolutely but will have evidence weighted more on one side or another.\n\nSoftware can integrate the quality of the evidence (perhaps measured",
+      "tags": [
+        "for-later",
+        "philosophy"
+      ]
+    },
+    {
+      "id": "01k6tswa0ddxfdr783t2w5dv3s",
+      "title": "Five Ways To Prioritize Better",
+      "url": "https://www.lesswrong.com/posts/RaxaXBNmStYe289gC/five-ways-to-prioritize-better",
+      "savedAt": "2025-10-05T18:24:25.100000+00:00",
+      "description": "Prioritization is about choosing the most important actions to achieve your goals effectively. By identifying high-value tasks and addressing uncertainties first, you can save time and increase your impact. Focus on what actions will best lead you to your goals and adjust your approach based on feedback.",
+      "tags": [
+        "for-later",
+        "productivity",
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "01k6tsvcvx9f42zhnz1wfmr2xk",
+      "title": "Laziness death spirals — LessWrong",
+      "url": "https://www.lesswrong.com/posts/JBR6AF9Gusv4u6Fwo/laziness-death-spirals",
+      "savedAt": "2025-10-05T18:23:55.261000+00:00",
+      "description": "I’ve claimed that Willpower compounds and that small wins in the present make it easier to get bigger wins in the future. Unfortunately, procrastinat…",
+      "tags": [
+        "for-later",
+        "productivity",
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "01k6tssg9qp86zsqvjk8v8d8cj",
+      "title": "My Algorithm for Beating Procrastination",
+      "url": "https://www.lesswrong.com/posts/Ty2tjPwv8uyPK9vrz/my-algorithm-for-beating-procrastination",
+      "savedAt": "2025-10-05T18:22:55.014000+00:00",
+      "description": "Part of the sequence: The Science of Winning at Life …",
+      "tags": [
+        "for-later",
+        "productivity",
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "01k6tsnp1vq6nhe27ay82b4wks",
+      "title": "Full list of what made people more hard-working",
+      "url": "https://www.lesswrong.com/posts/yX7Lfjbfyj2CwMGyH/list-of-how-people-have-become-more-hard-working",
+      "savedAt": "2025-10-05T18:20:48.059000+00:00",
+      "description": "I've recently asked how people have become more hard-working. I compiled the answers across the EA Forum and LessWrong (and some private messages) in…",
+      "tags": [
+        "for-later",
+        "productivity",
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "01k6tsmxhxay5mbehyxypvh98y",
+      "title": "Akrasia is confusion about what you want",
+      "url": "https://www.lesswrong.com/posts/XmqqkfY8XAJ6LkwdP/akrasia-is-confusion-about-what-you-want",
+      "savedAt": "2025-10-05T18:20:22.973000+00:00",
+      "description": "Akrasia happens when you feel confused about what you truly want, causing you to act against your own intentions. This confusion comes from identifying too much with certain desires instead of accepting all your preferences equally. To overcome akrasia, try to stop clinging to a fixed idea of yourself and accept your mixed feelings without judgment.",
+      "tags": [
+        "for-later",
+        "productivity",
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "01k6tsh6848jbftf4r7tt216h9",
+      "title": "Subagents, akrasia, and coherence in humans",
+      "url": "https://www.lesswrong.com/posts/oJwJzeZ6ar2Hr7KAX/subagents-akrasia-and-coherence-in-humans",
+      "savedAt": "2025-10-05T18:18:20.804000+00:00",
+      "description": "In the document \"Subagents, akrasia, and coherence in humans,\" the author discusses the concept of subagents within the mind and how they can lead to incoherent behavior. The presence of protector subagents is highlighted as a method for maintaining coherence within the mind. The document delves into the role of habits and conditioned responses in behavior, exploring the mechanisms behind behavioral change and the conflict between goal-directed and habitual modes of control. The author also touches on the complexity of human self-control and the factors influencing goal-directed versus habitual decision-making.",
+      "tags": [
+        "for-later",
+        "productivity",
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "01k6tsgnke4kxwqdh81pxtczgy",
+      "title": "#08 - B+Tree Data Structure (CMU Intro to Database Systems)",
+      "url": "https://www.youtube.com/watch?v=u7ii_Lvm9rM",
+      "savedAt": "2025-10-05T18:18:03.758000+00:00",
+      "description": "Andy Pavlo (https://www.cs.cmu.edu/~pavlo/)\nSlides: https://15445.courses.cs.cmu.edu/fall2025/slides/08-indexes1.pdf\nNotes: https://15445.courses.cs.cmu.edu/fall2025/notes/08-indexes1.pdf\n\n15-445/645 Intro to Database Systems (Fall 2025)\nCarnegie Mellon University\nhttps://15445.courses.cs.cmu.edu/fall2025/",
+      "tags": [
+        "for-later",
+        "cs/database"
+      ]
+    },
+    {
+      "id": "01k6tsg9184a7aktejsmpw3x5y",
+      "title": "Building and operating a pretty big storage system called S3",
+      "url": "https://www.allthingsdistributed.com/2023/07/building-and-operating-a-pretty-big-storage-system.html",
+      "savedAt": "2025-10-05T18:17:50.888000+00:00",
+      "description": "S3 is a living system that spans hardware, software, teams, and customers.  \nIts massive scale forces choices like spreading data across millions of hard drives and using erasure coding.  \nRunning S3 also needed organizational changes—team ownership, fail-fast practices, and stronger checks—to keep the service reliable.",
+      "tags": [
+        "for-later",
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "01k6tsfyx1v8kqx0ead7917330",
+      "title": "Adventures in CPU contention",
+      "url": "https://andre.arko.net/2025/09/23/adventures-in-cpu-contention/",
+      "savedAt": "2025-10-05T18:17:40.513000+00:00",
+      "description": "A change to use fdatasync made the jj test suite far slower on SSDs but much faster on a ramdisk.  \nOn macOS adding CPU cores helped only up to a point and then sometimes made things worse.  \nThe author thinks this is livelock or contention for some shared resource (cache, memory, or IO), not just RAM vs disk.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k6tsfj0v7xct851ha2xa1baa",
+      "title": "How to Be a Leader When the Vibes Are Off",
+      "url": "https://chaoticgood.management/how-to-be-a-leader-when-the-vibes-are-off/",
+      "savedAt": "2025-10-05T18:17:27.323000+00:00",
+      "description": "...and the vibes are definitely off\n\n\n\nIt feels different in tech right now. We’re coming off a long era where optimism carried the industry. Something has curdled. AI hype, return-to-office mandates, and continued layoffs have shifted the mood. Managers are quicker to fire, existential dread has replaced the confidence",
+      "tags": [
+        "career",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k6tsf60e1j2bjjc4axs062hz",
+      "title": "Fundamental of Virtual Memory",
+      "url": "https://nghiant3223.github.io/2025/05/29/fundamental_of_virtual_memory.html",
+      "savedAt": "2025-10-05T18:17:15.022000+00:00",
+      "description": "Fundamental of Virtual Memory",
+      "tags": [
+        "hardware",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k6tsez7y1bpavsx6hegt18mm",
+      "title": "How has mathematics gotten so abstract?",
+      "url": "https://lcamtuf.substack.com/p/how-has-mathematics-gotten-so-abstract",
+      "savedAt": "2025-10-05T18:17:08.094000+00:00",
+      "description": "What's the meaning of \"numbers\" and \"arithmetic operations\"? We consult Georg Cantor's turtles and look at Giuseppe Peano's code.",
+      "tags": [
+        "math",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k6tseq56evyn3ftwtkbk92p5",
+      "title": "Priorities",
+      "url": "https://archaeologist.dev/artifacts/priorities",
+      "savedAt": "2025-10-05T18:16:59.813000+00:00",
+      "description": "Story time. I used to live in a rented townhouse across the street from a mansion.",
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "id": "01k6tsb051n5q5ds69myehm2cw",
+      "title": "Property-Based Testing of OCaml 5's Runtime System - Midtgaard:OLIVIERFEST25.pdf",
+      "url": "https://janmidtgaard.dk/papers/Midtgaard%3AOLIVIERFEST25.pdf",
+      "savedAt": "2025-10-05T18:14:57.953000+00:00",
+      "description": null,
+      "tags": [
+        "for-later",
+        "cs/functional-programming"
+      ]
+    },
+    {
+      "id": "01k6tsasdn7c0a3z81m01fm1kz",
+      "title": "Identity Types",
+      "url": "https://bartoszmilewski.com/2025/09/22/identity-types/",
+      "savedAt": "2025-10-05T18:14:51.061000+00:00",
+      "description": "Previously: Models of (Dependent) Type Theory. There is a deep connection between mathematics and programming. Computer programs deal with such mathematical objects as numbers, vectors, monoids, fu…",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k6ts9p5gqjkgx4vh604jc9kd",
+      "title": "RNA structure prediction is hard. How much does that matter?",
+      "url": "https://www.owlposting.com/p/rna-structure-prediction-is-hard",
+      "savedAt": "2025-10-05T18:14:14.960000+00:00",
+      "description": "4.8k words, 22 minute reading time",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k6ts86a0a7d9vbqrrz1qcwk9",
+      "title": "Does One Have to be a Genius to Do Maths?",
+      "url": "https://terrytao.wordpress.com/career-advice/does-one-have-to-be-a-genius-to-do-maths/",
+      "savedAt": "2025-10-05T18:13:25.952000+00:00",
+      "description": "Better beware of notions like genius and inspiration; they are a sort of magic wand and should be used sparingly by anybody who wants to see things clearly. (José Ortega y Gasset, “Notes on t…",
+      "tags": [
+        "math",
+        "favorites"
+      ]
+    },
+    {
+      "id": "01k6ts7m5vnd3875dpk3rbkf28",
+      "title": "I built ChatGPT with Minecraft redstone!",
+      "url": "https://www.youtube.com/watch?v=VaeI9YgE1o8",
+      "savedAt": "2025-10-05T18:13:09.238000+00:00",
+      "description": "I built a small language model in Minecraft using no command blocks or datapacks!\n\nThe model has 5,087,280 parameters, trained in Python on the TinyChat dataset of basic English conversations. It has an embedding dimension of 240, vocabulary of 1920 tokens, and consists of 6 layers. The context window size is 64 tokens, which is enough for (very) short conversations. Most weights were quantized to 8 bits, although the embedding and LayerNorm weights are stored at 18 and 24 bits respectively. The quantized weights are linked below; they are split into hundreds of files corresponding to the separate sections of ROM in the build.\n\nThe build occupies a volume of 1020x260x1656 blocks. Due to its immense size, the Distant Horizons mod was used to capture footage of the whole build; this results in distant redstone components looking strange as they are being rendered at a lower level of detail.\n\nIt can produce a response in about 2 hours when the tick rate is increased using MCHPRS (Minecraft High Performance Redstone Server) to about 40,000x speed.\n\n--------------------------------------------------\n\nWorld download (Vanilla, 1.20.4): https://drive.google.com/file/d/1pf1PtSqCLkHPj-vGpdOxRhDcug8rLIl0/view?usp=sharing\nWorld download (MCHPRS): https://drive.google.com/file/d/1GToQikx1VpJSOg5unnnFhJl8onq0DRhY/view?usp=sharing\nEmulator, weights and guide to running the model: https://github.com/sammyuri/craftgpt\nMCHPRS: https://github.com/MCHPR/MCHPRS\n\n--------------------------------------------------\n\nMusic: TheFatRat - Fire\nWatch the official music video: https://tinyurl.com/tfrfire\nListen here: https://thefatrat.ffm.to/fire\nFollow TheFatRat: https://ffm.bio/thefatrat\n\nThank you to my sisters, debbieuri and sofiuri, who were there through thick and thin (but mostly thin).",
+      "tags": [
+        "cs/ai"
+      ]
+    },
+    {
+      "id": "01k6ts74swh6wt96377k79h9wn",
+      "title": "Notes on Self-Control",
+      "url": "https://www.lesswrong.com/posts/53b9woahSTPQFtB2i/notes-on-self-control",
+      "savedAt": "2025-10-05T18:12:51.643000+00:00",
+      "description": "This post examines the virtue of self-control. I mostly summarize what others have learned about this virtue, rather than expressing my own opinions…",
+      "tags": [
+        "for-later",
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "01k6ts5tgqmaqqk28a36ff3rsh",
+      "title": "how AWS S3 serves 1 petabyte per second on top of slow HDDs",
+      "url": "https://bigdata.2minutestreaming.com/p/how-aws-s3-scales-with-tens-of-millions-of-hard-drives",
+      "savedAt": "2025-10-05T18:12:08.343000+00:00",
+      "description": "Learn how Amazon built the backbone of the modern web that scales to 1 PB/s and 150M QPS on commodity hard drives",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k6ts5jp1vwswwma1q201y0e5",
+      "title": "Walking around the compiler",
+      "url": "https://bernsteinbear.com/blog/walking-around/",
+      "savedAt": "2025-10-05T18:12:00.321000+00:00",
+      "description": "Walking around outside is good for you.[citation needed] A nice amble through the trees can quiet inner turbulence and make complex engineering problems disappear.",
+      "tags": [
+        "for-later",
+        "cs/compilers"
+      ]
+    },
+    {
+      "id": "01k6ts5dwztmeymrrkb655ntrh",
+      "title": "Is Life a Form of Computation?",
+      "url": "https://thereader.mitpress.mit.edu/is-life-a-form-of-computation/",
+      "savedAt": "2025-10-05T18:11:55.423000+00:00",
+      "description": "Turing and von Neumann argued that life is a form of computation.  \nBiological systems run distributed, noisy, massively parallel programs—DNA and cells act like computers.  \nWork on cellular automata and neural nets shows computation can produce lifelike growth, repair, and self-replication.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k6ts4vkgbrctxm7cw16medky",
+      "title": "Transformers KV Caching Explained",
+      "url": "https://medium.com/@joaolages/kv-caching-explained-276520203249",
+      "savedAt": "2025-10-05T18:11:36.688000+00:00",
+      "description": "KV caching stores past Keys and Values during autoregressive decoding so the model only computes attention for new tokens. This makes attention matrices much smaller and speeds up generation a lot. The trade-off is slightly higher memory use, and most libraries enable KV caching by default.",
+      "tags": [
+        "cs/ai",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k6ts4nfsnb8m61wxagkrnp8s",
+      "title": "Testing is better than DSA",
+      "url": "https://nedbatchelder.com/blog/202509/testing_is_better_than_dsa.html",
+      "savedAt": "2025-10-05T18:11:30.425000+00:00",
+      "description": "DSA topics are useful but often over-emphasized for everyday software work. Learning testing and how to write testable code is more valuable for most jobs. Tests improve code quality, design, and make you stand out in hiring.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k6ts495vrvrhkatxz0vcq7th",
+      "title": "Tips for Working with Legacy Code",
+      "url": "https://www.esveo.com/en/blog/tips-for-working-with-legacy-code/",
+      "savedAt": "2025-10-05T18:11:17.819000+00:00",
+      "description": "Legacy code is hard to change but important to work with. Using tools like version control and writing tests helps manage it better. Taking breaks and documenting issues makes dealing with legacy code easier over time.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k6ts2zzjq47wa3bbxsf129f1",
+      "title": "How to waste CPU like a Professional",
+      "url": "https://mostlynerdless.de/blog/2025/09/19/how-to-waste-cpu-like-a-professional/",
+      "savedAt": "2025-10-05T18:10:41.097000+00:00",
+      "description": "He needed a way to keep a thread busy on the CPU for a fixed time to test a profiler.  \nHe compares seven approaches—time checks, unoptimized loops, compiler attributes, volatile, inline asm, monotonic clock, and alarm signals—and measures kernel vs user time.  \nHe recommends the volatile-variable method because it works across compilers and keeps most work in user space.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k6ts2samrm91g3v1kema35tb",
+      "title": "Time Spent on Hardening",
+      "url": "https://third-bit.com/2025/09/18/time-spent-on-hardening/",
+      "savedAt": "2025-10-05T18:10:28.820000+00:00",
+      "description": "We don’t know how much time or code developers spend on error detection and handling versus the happy path. The only clear number found is from 1995, saying it can exceed two-thirds of production code. That lack of direct measurement is surprising given how useful and easy such data would be to collect.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k6ts29fqbb99dce8e9r7wjxd",
+      "title": "What is \"good taste\" in software engineering?",
+      "url": "https://www.seangoedecke.com/taste/",
+      "savedAt": "2025-10-05T18:10:12.598000+00:00",
+      "description": "Technical taste is different from skill: it’s what values you prefer in engineering, not how well you code. Good taste means choosing the right tradeoffs for the project; bad taste is being inflexible and forcing your preferences everywhere. You develop taste by working on varied projects and learning which values actually help each situation.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k6ts183byqxzxce78tg9dgn5",
+      "title": "The golden ratio as a number base",
+      "url": "https://apieceofthepi.substack.com/p/the-golden-ratio-as-a-number-base",
+      "savedAt": "2025-10-05T18:09:38.411000+00:00",
+      "description": "Fibonacci numbers can uniquely represent every positive integer if you forbid using consecutive Fibonacci terms (Zeckendorf’s theorem). The golden ratio φ gives another base where every real number can be written as a sum of distinct powers of φ, with a similar nonconsecutive uniqueness rule. Recent work links special φ-representations (φ-anti-palindromic numbers) to Lucas numbers and proves a conjecture about doubling exponents producing other integers.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k6ts0b8b3g2h2m95ch9138y6",
+      "title": "Bayesian Data Analysis",
+      "url": "https://sites.stat.columbia.edu/gelman/book/BDA3.pdf",
+      "savedAt": "2025-10-05T18:09:08.874000+00:00",
+      "description": "Bayesian data analysis uses prior distributions to improve inference, especially with small samples or many parameters. The posterior distribution often becomes normal as more data are collected, centering around the true parameter values. Hierarchical models and simulations help apply these ideas to complex problems.",
+      "tags": [
+        "for-later",
+        "math/statistics"
+      ]
+    },
+    {
+      "id": "01k6trz8he1a407kv9j5megy8j",
+      "title": "RISC-V Conditional Moves",
+      "url": "https://www.corsix.org/content/riscv-conditional-moves",
+      "savedAt": "2025-10-05T18:08:33.326000+00:00",
+      "description": "RISC-V does not have a direct conditional move instruction like aarch64's csel, and attempts to add similar instructions face design and complexity challenges. Some RISC-V cores fuse short forward branches into conditional moves to improve performance, but this can break the memory consistency model. Therefore, any fusion must keep branch-like behavior to maintain correct program execution.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k6trmtbdk7bvcc5mp34nvfdw",
+      "title": "\"Testing Distributed Systems w/ Deterministic Simulation\" by Will Wilson",
+      "url": "https://www.youtube.com/watch?v=4fFDFbi3toc",
+      "savedAt": "2025-10-05T18:02:51.117000+00:00",
+      "description": "Will Wilson describes using deterministic simulation to test distributed systems. By running many replayable, controlled failures and timing scenarios, teams find bugs faster. Simulations are limited by their models and must be complemented with real-world testing.",
+      "tags": [
+        "for-later",
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "01k6trmgadvgfj8xedxwhew3js",
+      "title": "Inside NVIDIA GPUs: Anatomy of high performance matmul kernels",
+      "url": "https://www.aleksagordic.com/blog/matmul",
+      "savedAt": "2025-10-05T18:02:40.845000+00:00",
+      "description": "Matrix multiply is highly parallel and maps neatly to GPUs using tiled work across SMs, warps, and threads.  \nHopper-era features—tensor cores, async TMA copies, warp-group matmul, and SMEM barriers—move complexity into hardware and simplify kernels.  \nStacking these optimizations boosts throughput massively, from tens of TFLOP/s to hundreds.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k6trjtzdbvey4kzmtgjpx5vt",
+      "title": "50 Things I Know",
+      "url": "https://rebeccadai.substack.com/p/50-things-i-know",
+      "savedAt": "2025-10-05T18:01:46.220000+00:00",
+      "description": "Discipline feels unnatural; life works best when effort feels easy and natural. True growth comes from showing up daily, being curious, and focusing on what truly matters. Wisdom is timeless but must be lived, not just learned.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k6trj29xe2y8j0srzddxzm9n",
+      "title": "dynamically typed languages exist?",
+      "url": "https://www.tumblr.com/alwinfy/770727347496370177/why-do-dynamically-typed-languages-exist",
+      "savedAt": "2025-10-05T18:01:20.956000+00:00",
+      "description": "This is a Tumblr dashboard full of random reblogs and short posts. It jumps between jokes, fandom photos, and weird micro-stories. The tone is casual, chaotic, and playful.",
+      "tags": []
+    },
+    {
+      "id": "01k6trhj17d195bddbmn59kke3",
+      "title": "Dan Slimmon",
+      "url": "https://blog.danslimmon.com/",
+      "savedAt": "2025-10-05T18:01:04.295000+00:00",
+      "description": "David Graeber calls some paid work \"bullshit jobs\" when it feels pointless even to the worker. The author wonders if ops roles are just duct-tape work fixing messy, unfinished software. He argues ops is often necessary to manage real-world complexity, though some ops jobs can still be pointless.",
+      "tags": []
+    },
+    {
+      "id": "01k6trhdk4mqydgr2jctrh23cd",
+      "title": "Lecture: Queueing theory on a cocktail napkin",
+      "url": "https://blog.danslimmon.com/2025/06/25/lecture-queueing-theory-on-a-cocktail-napkin/",
+      "savedAt": "2025-10-05T18:00:59.748000+00:00",
+      "description": "Dan Slimmon gave a short lecture called \"Queueing Theory on a Cocktail Napkin.\"  \nHe says applying a bit of queueing theory transformed how he manages software services.  \nHe recommends the talk to anyone responsible for service health.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k6trfy533b0ea6br90xkryyq",
+      "title": "Why TigerBeetle is the most interesting database in the world",
+      "url": "https://www.amplifypartners.com/blog-posts/why-tigerbeetle-is-the-most-interesting-database-in-the-world",
+      "savedAt": "2025-10-05T18:00:11.170000+00:00",
+      "description": "TigerBeetle is a new database built from scratch for fast and reliable financial transactions. It uses modern techniques like deterministic testing, static memory, and fault-tolerant storage to ensure safety and speed. The team also created unique tools and a clear engineering style to make their system strong and easy to understand.",
+      "tags": []
+    },
+    {
+      "id": "01k6trfkd76r5r6hxszkvaj58j",
+      "title": "Register allocation in the Go compiler",
+      "url": "https://vnmakarov.github.io/2024/09/24/register-allocation-in-the-go-compiler.html",
+      "savedAt": "2025-10-05T18:00:00.167000+00:00",
+      "description": "Go's register allocator runs on SSA and processes basic blocks in CFG preorder.  \nIt resolves Phis by shuffling or copying values so Phis and their operands share the same register or stack slot, spilling or moving values when needed.  \nStack slots are assigned in the same pass and the allocator outputs modified SSA plus a value-location map; it is linear-scan-like, fast, and assumes calls clobber all registers for GC.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k6trf6ds4jssccd1ypntqj0m",
+      "title": "Natural transformations",
+      "url": "https://abuseofnotation.github.io/category-theory-illustrated/11_natural_transformations/",
+      "savedAt": "2025-10-05T17:59:46.872000+00:00",
+      "description": "Natural transformations are mappings between functors that connect categories in a structured way. They help define when two categories are equivalent by preserving the relationships between objects and morphisms. Composing natural transformations involves special rules, leading to advanced concepts like 2-morphisms and 2-categories.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k6trez3c8jaa5h8y6zq6kfvp",
+      "title": "The Business of Sportsbooks is Built on Losers",
+      "url": "https://www.dopaminemarkets.com/p/the-business-of-sports-betting-is",
+      "savedAt": "2025-10-05T17:59:39.372000+00:00",
+      "description": "Sportsbooks like DraftKings and FanDuel make money by attracting casual fans and pushing high-margin bets like parlays. They run on thin margins after heavy taxes, promotions, and advertising, so winning professional bettors (\"sharps\") threaten profitability. To protect profits, sportsbooks quickly identify and limit or ban those skilled bettors.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k6trethngaqr037jd96n7hpy",
+      "title": "How Did Sports Betting Become Legal in the US?",
+      "url": "https://www.dopaminemarkets.com/p/how-did-sports-betting-become-legal",
+      "savedAt": "2025-10-05T17:59:34.709000+00:00",
+      "description": "In 1992 Congress passed PASPA to stop states from legalizing sports betting.  \nNew Jersey fought the law and in 2018 the Supreme Court struck it down, letting states legalize gambling.  \nLobbyists and companies pushed legalization and now most states allow betting — but most users lose money.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k6trczwmprvqvyj01vs373jf",
+      "title": "Development gets better with Age",
+      "url": "https://www.allthingsdistributed.com/2025/10/better-with-age.html",
+      "savedAt": "2025-10-05T17:58:34.643000+00:00",
+      "description": "Getting older makes you a better developer because experience teaches you what works, what fails, and what to watch for. Generative AI is exciting but full of hype, so seasoned builders pause, learn, and apply it where it truly fits. Listen to customers, think deeply, and then build.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k6trcrj5r818ew48b8cn4kq8",
+      "title": "Building the heap: racking 30 petabytes of hard drives for pretraining",
+      "url": "https://si.inc/posts/the-heap/",
+      "savedAt": "2025-10-05T17:58:27.141000+00:00",
+      "description": "A five-person team built a 30 PB storage cluster in downtown San Francisco for under $500k to store 90 million hours of video. They chose local racks, 100Gbps networking, and simple Rust/nginx software to cut costs and control performance. The project saved about 40x versus cloud, but required hands-on work, careful cabling, and tradeoffs in density and tooling.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k6trccjme1ba90dfszn5kay4",
+      "title": "Type Theory for All: The Goal of Science is to Communicate Ideas",
+      "url": "https://wadler.blogspot.com/2025/10/type-theory-for-all-goal-of-science-is.html",
+      "savedAt": "2025-10-05T17:58:14.867000+00:00",
+      "description": "  Thank you to the crew at Type Theory for All  for their thoughtful and well-prepared interview .",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k6tr73p1stpqx2nhr2ckzf78",
+      "title": "What Every Programmer Should Know About Memory",
+      "url": "https://people.freebsd.org/~lstewart/articles/cpumemory.pdf",
+      "savedAt": "2025-10-05T17:55:21.921000+00:00",
+      "description": "Processors use prefetching to speed up access to memory by loading the next cache line before it is needed. When multiple threads access the same memory, performance can suffer due to limited bandwidth and cache coherency issues. Understanding cache behavior is crucial for optimizing programs, especially in multi-threaded environments.",
+      "tags": [
+        "hardware",
+        "favorites",
+        "type/paper"
+      ]
+    },
+    {
+      "id": "01k6tr6xb3wqbf2xze14n2x5q2",
+      "title": "Talent is Alignment",
+      "url": "https://xlii.space/thoughts/talent-is-alignment/",
+      "savedAt": "2025-10-05T17:55:15.427000+00:00",
+      "description": "Talent comes from spending time doing something you enjoy and feel connected to. Passion and alignment with your craft matter more than natural ability. Anyone can become talented by practicing regularly and loving what they do.",
+      "tags": [
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "01k6tr5g17bwffwdxcqfxpjfsx",
+      "title": "Hacker Laws",
+      "url": "https://hacker-laws.com/",
+      "savedAt": "2025-10-05T17:54:29.030000+00:00",
+      "description": "Hacker Laws are short rules about inevitable realities in software and organizations. They say structure, complexity, human limits, and leaky abstractions shape how systems behave. The advice is simple: design small, keep things simple, avoid premature work, and use clear abstractions.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k6tr4wbsbfwafvxsk773akcn",
+      "title": "Game Development: History, Industry, and Engine Design",
+      "url": "https://spiiin.github.io/blog/490626496/",
+      "savedAt": "2025-10-05T17:54:08.888000+00:00",
+      "description": "Video game development began as a way to test computer abilities and has grown into a large industry with many new creators and players. Making games involves funding, design, and production, with teams constantly finding new methods and tools. Game engines evolved to help non-programmers create content easily, shaped by hardware, team needs, and game goals.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k6tr4mzk23kewpg71zq1jrwb",
+      "title": "How Functional Programming Shaped (and Twisted) Frontend Development",
+      "url": "https://alfy.blog/2025/10/04/how-functional-programming-shaped-modern-frontend.html",
+      "savedAt": "2025-10-05T17:54:01.331000+00:00",
+      "description": "Frontend development adopted functional programming and rebuilt the web inside JavaScript. This added layers (CSS-in-JS, synthetic events, hydration) that duplicated and slowed native browser features. Some newer tools push back, favoring HTML, CSS, and progressive enhancement.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k6tr34yyx8amm34vwgv2nq0f",
+      "title": "You can't parse XML with regex. Let's do it anyways.",
+      "url": "https://sdomi.pl/weblog/26-nobody-here-is-free-of-sin/",
+      "savedAt": "2025-10-05T17:53:12.157000+00:00",
+      "description": "Parsing XML with regular expressions is very difficult and usually a bad idea because XML is complex. HTML is even harder to parse with regex because it allows broken and unclosed tags. Using a real parser is the best way to handle XML and HTML properly.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k6tr2j27paht2b0z5ya8edeh",
+      "title": "The Software Essays that Shaped Me",
+      "url": "https://refactoringenglish.com/blog/software-essays-that-shaped-me/",
+      "savedAt": "2025-10-05T17:52:52.807000+00:00",
+      "description": "A few essays and blog posts changed how the author thinks about software. They taught that good tools, clear choices, and respect for developers matter more than trendy tech. Plain, boring solutions and understanding essential complexity win in the long run.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k6tp9fgk40sxvccwenbbm3xq",
+      "title": "GitHub - ivanyu/awesome-deterministic-simulation-testing: A curated list of awesome deterministic simulation testing resources 😎",
+      "url": "https://github.com/ivanyu/awesome-deterministic-simulation-testing",
+      "savedAt": "2025-10-05T17:21:42.419000+00:00",
+      "description": "This GitHub page lists helpful resources for deterministic simulation testing, a method to improve software reliability. It includes case studies, blogs, and tools like Antithesis and MadSim. These resources focus on testing distributed systems to find and fix problems more easily.",
+      "tags": []
+    },
+    {
+      "id": "01k6tp7qgdwwjjqxszrb0ctd9e",
+      "title": "So, You Want to Learn More About Deterministic Simulation Testing?",
+      "url": "https://pierrezemb.fr/posts/learn-about-dst/",
+      "savedAt": "2025-10-05T17:20:45.069000+00:00",
+      "description": "I attended BugBash 2025 where experts discussed deterministic simulation testing (DST) for building reliable software. DST runs many repeatable, failure-heavy simulations to find bugs before production, which helped FoundationDB achieve strong robustness. The author uses and recommends DST resources and invites more references and feedback.",
+      "tags": [
+        "cs/distsys",
+        "cs/testing"
+      ]
+    },
+    {
+      "id": "01k6tn24dknwhk4snpf9drszf9",
+      "title": "Go Data Structures: Interfaces",
+      "url": "https://research.swtch.com/interfaces",
+      "savedAt": "2025-10-05T17:00:13.107000+00:00",
+      "description": "Go's interfaces allow for flexible programming by combining static type checking with dynamic method calls, enabling features like duck typing. This means that the compiler can catch errors while still allowing methods to be called on types that implement them without explicit declarations. The implementation uses method tables that are created at runtime, improving performance while maintaining type safety.",
+      "tags": [
+        "cs/programming-languages/go"
+      ]
+    },
+    {
+      "id": "01k6tmfptc219efzmq0v35r6an",
+      "title": "Work is Not School: Surviving Institutional Stupidity",
+      "url": "https://www.leadingsapiens.com/surviving-institutional-stupidity/",
+      "savedAt": "2025-10-05T16:50:09.356000+00:00",
+      "description": "Work is not school: organizations run on messy human judgment, not pure merit. Assume stupidity over malice, learn the informal rules, and shape how others see your work. Build influence, diversify your sources of meaning, and play the long game.",
+      "tags": [
+        "career"
+      ]
+    },
     {
       "id": "01k6fycdfbk8k8zsqrbv3wv5r6",
       "title": "Type Theory & Functional Programming",
