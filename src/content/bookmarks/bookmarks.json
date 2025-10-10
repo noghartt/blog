@@ -1,6 +1,46 @@
 {
-  "lastUpdate": "2025-10-08T00:10:21.726Z",
+  "lastUpdate": "2025-10-10T00:10:49.198Z",
   "data": [
+    {
+      "id": "01k74fdqtdhsrfttz73zknkrz2",
+      "title": "Designing a Low Latency 10G Ethernet Core - Part 1 (Introduction)",
+      "url": "https://ttchisholm.github.io/ethernet/2023/05/01/designing-10g-eth-1.html",
+      "savedAt": "2025-10-09T12:34:06.285000+00:00",
+      "description": "The author developed a low latency 10G Ethernet core for FPGA as a personal project. The design achieves less than 60ns loopback latency, similar to commercial products. The blog series explains unique design techniques, verification methods, and latency results.",
+      "tags": [
+        "hardware",
+        "cs/networking"
+      ]
+    },
+    {
+      "id": "01k74exevtj4egxtec6ajpyafc",
+      "title": "12 thoughts on “How to *actually* test your readme”",
+      "url": "https://shkspr.mobi/blog/2025/10/how-to-actually-test-your-readme/",
+      "savedAt": "2025-10-09T12:25:12.826000+00:00",
+      "description": "Users struggle when READMEs omit steps or assume environment tweaks. Test your README by installing from a fresh VM and record the exact commands. Update the README with those commands so installs work for others.",
+      "tags": [
+        "cs"
+      ]
+    },
+    {
+      "id": "01k73e5f6x51kxtdy1t51hry29",
+      "title": "When Money Is Abundant, Knowledge Is The Real Wealth",
+      "url": "https://www.lesswrong.com/posts/wEebEiPpEwjYvnyqq/when-money-is-abundant-knowledge-is-the-real-wealth",
+      "savedAt": "2025-10-09T02:52:52.317000+00:00",
+      "description": "When money and power are abundant, the real limit becomes knowledge and expertise. Throwing more money at a problem often fails if you don't know the right actions. Investing in deep, generalizable understanding (gears-level models) is the most valuable kind of wealth.",
+      "tags": []
+    },
+    {
+      "id": "01k70r3xzvjp0ajbqf262y8sb4",
+      "title": "2145 The Importance Of Understanding Systems",
+      "url": "https://www.youtube.com/watch?v=aVpG_MlHWCY",
+      "savedAt": "2025-10-08T01:49:04.379000+00:00",
+      "description": "Understanding a system means knowing its job, parts, and how they fit together. Information becomes knowledge when it is placed in a clear structure. With that understanding, you can make better decisions and changes.",
+      "tags": [
+        "engineering",
+        "systems-theory"
+      ]
+    },
     {
       "id": "01k6y3n4qyazs2km6h32b4j6fz",
       "title": "Second-Order Thinking: What Smart People Use to Outperform",
@@ -404,7 +444,9 @@
       "savedAt": "2025-10-05T18:14:14.960000+00:00",
       "description": "4.8k words, 22 minute reading time",
       "tags": [
-        "for-later"
+        "biology",
+        "chemistry",
+        "interesting"
       ]
     },
     {
