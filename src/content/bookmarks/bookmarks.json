@@ -1,6 +1,37 @@
 {
-  "lastUpdate": "2025-10-10T00:10:49.198Z",
+  "lastUpdate": "2025-10-12T00:10:23.923Z",
   "data": [
+    {
+      "id": "01k79rnd90qb0wtkj0ahng363c",
+      "title": "Automated Lean Proofs for Every Type",
+      "url": "https://www.galois.com/articles/automated-lean-proofs-for-every-type",
+      "savedAt": "2025-10-11T13:51:46.975000+00:00",
+      "description": "During a Galois internship I built a Lean tactic that uses SMT solvers to automate proofs and saved over 6,800 lines of manual Lean code. The tactic translates types (like ZMod to bitvectors), combines Lean range lemmas with SMT bitvector decision procedures, and solved Jolt lookup-table queries much faster than finite-field solvers. This shows promise for a general type-translation framework but also reveals hard problems like dependent ranges and the need for more research.",
+      "tags": [
+        "for-later",
+        "math/formal-proof"
+      ]
+    },
+    {
+      "id": "01k79rm5hke1a5hg4x1f0etenh",
+      "title": "Examples are the best documentation",
+      "url": "https://rakhim.exotext.com/examples-are-the-best-documentation",
+      "savedAt": "2025-10-11T13:51:06.291000+00:00",
+      "description": "A single example often answers a developer's documentation question. Official docs are usually terse, full of jargon, and hard to use when switching projects. Community example sites like clojuredocs are far more practical and useful.",
+      "tags": [
+        "software-engineering"
+      ]
+    },
+    {
+      "id": "01k79qn0aykmzhk5z68s91tg8m",
+      "title": "My Approach to Building Large Technical Projects",
+      "url": "https://mitchellh.com/writing/building-large-technical-projects",
+      "savedAt": "2025-10-11T13:34:05.150000+00:00",
+      "description": "Break big technical projects into small, testable pieces that show real progress. Build each piece just enough to create frequent demos. Use those demos and personal use to stay motivated and guide further work.",
+      "tags": [
+        "interesting"
+      ]
+    },
     {
       "id": "01k74fdqtdhsrfttz73zknkrz2",
       "title": "Designing a Low Latency 10G Ethernet Core - Part 1 (Introduction)",
@@ -3007,7 +3038,7 @@
       "savedAt": "2025-07-27T08:40:50.021000+00:00",
       "description": "Cells detect DNA damage quickly through a molecular alarm triggered by mutated RNA and ribosome collisions. This alarm involves a protein called ZAK, which signals when ribosomes stall on damaged RNA, prompting the cell to repair or self-destruct. This rapid response helps prevent harmful effects like cancer or tissue damage.",
       "tags": [
-        "for-later"
+        "biology/molecular"
       ]
     },
     {
