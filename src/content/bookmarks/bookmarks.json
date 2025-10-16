@@ -1,6 +1,213 @@
 {
-  "lastUpdate": "2025-10-12T00:10:23.923Z",
+  "lastUpdate": "2025-10-16T00:10:36.106Z",
   "data": [
+    {
+      "id": "01k7mk8s36w1989xcnf3t4ex17",
+      "title": "Pwning the Entire Nix Ecosystem",
+      "url": "https://ptrpa.ws/nixpkgs-actions-abuse",
+      "savedAt": "2025-10-15T18:49:08.966000+00:00",
+      "description": "A security flaw in nixpkgs’ GitHub Actions allowed attackers to run malicious code by exploiting pull_request_target workflows. The issue was quickly found and fixed after reporting it to maintainers. This shows how careful you must be with GitHub Actions and secrets to protect software ecosystems.",
+      "tags": [
+        "tools/nix"
+      ]
+    },
+    {
+      "id": "01k7jff8a7rq1v7dwwxvj0h4n0",
+      "title": "Self-Extracting F3",
+      "url": "https://buttondown.com/jaffray/archive/self-extracting-f3/",
+      "savedAt": "2025-10-14T23:04:17.991000+00:00",
+      "description": "F3 is a new file format that embeds WebAssembly decoders inside each data file so future readers can decode new encodings. This makes files forward-compatible and lets different tools share data without breaking. The tradeoff is occasional slower Wasm decoding unless native decoders are installed.",
+      "tags": [
+        "cs/database"
+      ]
+    },
+    {
+      "id": "01k7hvn08eej9q4xj25b99zhc7",
+      "title": "The Write Stuff: Concurrent Write Transactions in SQLite",
+      "url": "https://oldmoe.blog/2024/07/08/the-write-stuff-concurrent-write-transactions-in-sqlite/",
+      "savedAt": "2025-10-14T17:17:54.830000+00:00",
+      "description": "SQLite's default journaling limits writers by requiring an exclusive lock at commit, which slows concurrent write-heavy workloads.  \nNew concurrency modes like BEGIN CONCURRENT delay locks until commit and use optimistic, fine-grained conflict detection to allow many transactions in flight.  \nThis improves write throughput but complicates durability and can risk data loss unless fsync/checkpoint policies are managed carefully.",
+      "tags": [
+        "cs/database"
+      ]
+    },
+    {
+      "id": "01k7hta5hz5skxr3d2qf77r771",
+      "title": "The least painful way to set up a Windows VM on NixOS",
+      "url": "https://crescentro.se/posts/windows-vm-nixos/",
+      "savedAt": "2025-10-14T16:54:31.231000+00:00",
+      "description": "The author explains how to set up a Windows VM on NixOS using GNOME Boxes to simplify USB passthrough and avoid low-level qemu/libvirt work. They give practical steps for NixOS config, getting a Windows ISO, avoiding a Microsoft account during setup, resizing the Windows partition, and installing SPICE guest tools. They also show fixes for NixOS quirks (broken EFI paths after garbage collection) and how to stop the VM auto-starting.",
+      "tags": [
+        "tools/nix"
+      ]
+    },
+    {
+      "id": "01k7fva9hv5qvxykx9mse8sbb2",
+      "title": "The Fourth Quadrant of Knowledge",
+      "url": "https://lyonhe.art/the-fourth-quadrant-of-knowledge/",
+      "savedAt": "2025-10-13T22:33:35.035000+00:00",
+      "description": "There are things you know and things you don’t, and each can be split into what you’re aware of and what you aren’t. Experts often aren’t aware of what they know, which makes teaching beginners hard. Cultivating beginner’s mind helps reveal hidden assumptions and leads to clearer, more humane design.",
+      "tags": []
+    },
+    {
+      "id": "01k7fjftdt4mtmvmz8wxdex5hx",
+      "title": "Zippers: Making Functional \"Updates\" Efficient",
+      "url": "http://www.goodmath.org/blog/2010/01/13/zippers-making-functional-updates-efficient/",
+      "savedAt": "2025-10-13T19:59:18.970000+00:00",
+      "description": "A zipper is a way to efficiently update parts of data structures in functional programming by focusing on a specific element. It works by \"unzipping\" the structure around that focus, allowing quick local changes without copying everything. Though simple in concept, zippers get complicated when used with balanced trees because re-balancing requires more work.",
+      "tags": [
+        "for-later",
+        "cs/functional-programming"
+      ]
+    },
+    {
+      "id": "01k7fjefwcrc6zsqvr1mx0fjs4",
+      "title": "A visual explanation of the PGM Index",
+      "url": "https://agniva.me/papers/2021/05/29/visual-explanation-pgm.html",
+      "savedAt": "2025-10-13T19:58:35.404000+00:00",
+      "description": "The PGM index uses piecewise linear models to map sorted keys to their positions with a bounded error, replacing stored keys with slopes and intercepts. For a query it predicts a position then does a small binary search within the error range, giving fast lookups and much smaller space than B-trees for many datasets. Updates use special strategies (append-optimized or multi-set rebuilds) and variants add compression or query-awareness.",
+      "tags": [
+        "for-later",
+        "cs/database"
+      ]
+    },
+    {
+      "id": "01k7faw6p3kwzmtt3cvxk7freg",
+      "title": "Three ways formally verified code can go wrong in practice",
+      "url": "https://buttondown.com/hillelwayne/archive/three-ways-formally-verified-code-can-go-wrong-in/",
+      "savedAt": "2025-10-13T17:46:16.131000+00:00",
+      "description": "Formal verification only shows code matches a given specification, not that it has no bugs. Bugs still happen when proofs are invalid, the spec is wrong or incomplete, or assumptions (about data, environment, or unverified code) fail. Know exactly what was proven and what was assumed before trusting verified code.",
+      "tags": [
+        "math/formal-proof"
+      ]
+    },
+    {
+      "id": "01k7f8kf0q54mmj0vhpva6w5wh",
+      "title": "List is a monad (part 1)",
+      "url": "https://alexyorke.github.io/2025/06/29/list-is-a-monad/",
+      "savedAt": "2025-10-13T17:06:32.599000+00:00",
+      "description": "Monads are a programming pattern that provide a context for computations, not just containers.  \nThey require two operations (Unit and flatMap) and three laws so you can chain and compose work safely.  \nThe List and Maybe examples show how monads run your functions and stop or flatten computation without pulling values out.",
+      "tags": [
+        "cs/functional-programming"
+      ]
+    },
+    {
+      "id": "01k7f3wqnaswbkkhjbr4p38vd4",
+      "title": "How to Avoid Fighting Rust Borrow Checker",
+      "url": "https://qouteall.fun/qouteall-blog/2025/How%20to%20Avoid%20Fighting%20Rust%20Borrow%20Checker",
+      "savedAt": "2025-10-13T15:44:13.482000+00:00",
+      "description": "Rust forbids other borrows while a mutable borrow exists, which prevents many bugs but causes ergonomic issues in single-threaded code. This exclusivity protects interior pointers and enables optimizations, but leads to problems like contagious borrows, iterator invalidation, and lifetime propagation. You can work around limits with split borrows, RefCell/unsafe/Arc patterns, or by redesigning data ownership.",
+      "tags": [
+        "cs/programming-languages/rust"
+      ]
+    },
+    {
+      "id": "01k7f3vxpmjxnvz6jrhxkvyg40",
+      "title": "Computer Vision: Algorithms and Applications, 2nd ed.",
+      "url": "https://szeliski.org/Book/",
+      "savedAt": "2025-10-13T15:43:46.900000+00:00",
+      "description": "The second edition of \"Computer Vision: Algorithms and Applications\" by Richard Szeliski is available for purchase and download. The book is based on computer vision courses taught at the University of Washington and includes links for additional resources. Readers can download a PDF version for personal use, but it must not be reposted on other websites.",
+      "tags": [
+        "books",
+        "cs/ai"
+      ]
+    },
+    {
+      "id": "01k7ck9nsy0dm9hk7ephz0wt99",
+      "title": "Evidence that Recent AI Gains are Mostly from Inference-Scaling",
+      "url": "https://www.tobyord.com/writing/mostly-inference-scaling",
+      "savedAt": "2025-10-12T16:15:42.910000+00:00",
+      "description": "Recent AI gains from RL-trained reasoning models mostly come from using many more tokens when the model answers questions (inference-scaling), not from cheap improvements during training. This makes models much more expensive to run each time they are used. That shift affects company costs, AI risk, and policy choices.",
+      "tags": [
+        "llm",
+        "cs/ai"
+      ]
+    },
+    {
+      "id": "01k7chw0j61fdrgt3b7d4vf0wh",
+      "title": "What's new in CPUs since the 80s?",
+      "url": "https://danluu.com/new-cpu-features/",
+      "savedAt": "2025-10-12T15:50:46.598000+00:00",
+      "description": "CPUs have evolved significantly since the 1980s, introducing features like virtual memory, pipelining, and out-of-order execution. Modern processors can prefetch data and process information at impressive speeds, but they still face challenges with memory access and concurrency. As CPUs become more complex, they are also more prone to bugs, and innovations like hardware acceleration are being developed to enhance performance.",
+      "tags": [
+        "hardware",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k7chksjbshgzg3hsf9km8ab0",
+      "title": "What is Algebraic about Algebraic Effects?",
+      "url": "https://interjectedfuture.com/what-is-algebraic-about-algebraic-effects/",
+      "savedAt": "2025-10-12T15:46:17.291000+00:00",
+      "description": "\"Algebraic\" means giving effects a clear structure of operations plus laws so they compose predictably.  \nThose laws (like idempotence, commutativity, read-after-write) make effects behave like algebraic objects and guarantee useful properties.  \nOnly dependently typed languages can fully encode and prove these equational laws today.",
+      "tags": [
+        "cs/pl-theory",
+        "cs/functional-programming"
+      ]
+    },
+    {
+      "id": "01k7ch0ksrwrjm85bn2gcjhm7n",
+      "title": "Cache-Friendly B+Tree Nodes With Dynamic Fanout",
+      "url": "https://jacobsherin.com/posts/2025-08-18-bplustree-struct-hack/",
+      "savedAt": "2025-10-12T15:35:48.792000+00:00",
+      "description": "High-performance B+Tree nodes must store header and entries in one contiguous heap block for cache locality.  \nIn C++ this requires flexible array members and placement new instead of std::vector, with manual allocation and destruction.  \nThat gives runtime-configurable fanout but forces manual memory management and reimplements vector-like behavior.",
+      "tags": [
+        "cs/database",
+        "cs/data-structures"
+      ]
+    },
+    {
+      "id": "01k7cftm5761dz1rqrbq702gd0",
+      "title": "How to store ordered information in a Relational Database",
+      "url": "https://softwareengineering.stackexchange.com/questions/304593/how-to-store-ordered-information-in-a-relational-database",
+      "savedAt": "2025-10-12T15:15:03.975000+00:00",
+      "description": "Store the order explicitly (an integer position) or implicitly (a linked list or fractional/decimal keys). Integers need many updates when reordering but are simple and common; decimals reduce updates but require periodic rebalancing; linked lists make inserts cheap but slow random access. In practice integer positions or fractional keys with occasional renumbering are the usual fast, practical choices.",
+      "tags": [
+        "cs/database"
+      ]
+    },
+    {
+      "id": "01k7cffh64btw16z2r74gf4wwf",
+      "title": "The World’s Most Expensive Eating Disorder",
+      "url": "https://desmolysium.com/bryan-johnson-the-worlds-most-expensive-eating-disorder/",
+      "savedAt": "2025-10-12T15:09:00.484000+00:00",
+      "description": "The author argues Bryan shows signs of starvation—low blood pressure, slow heart rate, cold body temperature, extreme thinness, and pale skin—likely from severe calorie restriction and low body fat. They warn his strict diet, heavy drugs, and exercise may harm his heart, bones, brain, and overall vitality despite some top metrics. The author says Bryan overstated his health and longevity benefits while hiding weaknesses and suggests he should eat more or use leptin to restore normal physiology.",
+      "tags": [
+        "biohack"
+      ]
+    },
+    {
+      "id": "01k7cd4pcbkw63wexg0de5kk0d",
+      "title": "“Needs to be verified in production”",
+      "url": "https://olano.dev/blog/verified-in-production/",
+      "savedAt": "2025-10-12T14:28:08.203000+00:00",
+      "description": "Some developers focus on closing tickets (mode 1) while others focus on solving business problems (mode 2). Adding \"Awaiting deployment\" and \"Needs to be verified in production\" to the workflow forces deployment and simple production checks before closing a ticket. This encourages ownership, better observability, and can nudge process-driven devs toward problem-oriented thinking.",
+      "tags": [
+        "software-engineering"
+      ]
+    },
+    {
+      "id": "01k7cbzwkr957wfjr1f6h08b0n",
+      "title": "A Guide For Wireguard VPN Setup With Pi-Hole Adblock and Unbound DNS",
+      "url": "https://psyonik.tech/posts/a-guide-for-wireguard-vpn-setup-with-pi-hole-adblock-and-unbound-dns/",
+      "savedAt": "2025-10-12T14:08:02.168000+00:00",
+      "description": "This guide shows how to set up WireGuard on a VPS with Pi‑Hole adblocking and Unbound DNS. It covers generating keys, configuring wg0, adjusting UFW rules, and adding peers. After setup you can route device traffic, access home resources, and test speeds with iperf3.",
+      "tags": [
+        "homelab",
+        "cs/devops",
+        "cs/networking"
+      ]
+    },
+    {
+      "id": "01k7cbwde29hthj6wr6t0var9q",
+      "title": "Testing two 18 TB white label SATA hard drives from datablocks.dev",
+      "url": "https://ounapuu.ee/posts/2025/10/06/datablocks-white-label-drives/",
+      "savedAt": "2025-10-12T14:06:08.322000+00:00",
+      "description": "The author bought two 18 TB white-label SATA drives from datablocks.dev and found them cheaper than branded recertified drives. The drives arrived with minor scratches, performed as expected (275–123 MB/s), and are noisy but cool and stable. They now use the drives for bulk storage and backups while keeping SSDs for speed-critical tasks.",
+      "tags": [
+        "hardware"
+      ]
+    },
     {
       "id": "01k79rnd90qb0wtkj0ahng363c",
       "title": "Automated Lean Proofs for Every Type",
@@ -121,8 +328,7 @@
       "savedAt": "2025-10-05T18:33:36.513000+00:00",
       "description": "I recently coached a client. From the outside, he appeared to be very fit. He had chiseled six-pack abs, exercised every day, and was very health-conscious. However, for the past couple of years, he had issues with energy levels and recovery. He also felt quite weak most of the time and his blood pressure (around […]",
       "tags": [
-        "biohack",
-        "for-later"
+        "biohack"
       ]
     },
     {
@@ -663,7 +869,7 @@
       "savedAt": "2025-10-05T18:01:46.220000+00:00",
       "description": "Discipline feels unnatural; life works best when effort feels easy and natural. True growth comes from showing up daily, being curious, and focusing on what truly matters. Wisdom is timeless but must be lived, not just learned.",
       "tags": [
-        "for-later"
+        "self-improvement"
       ]
     },
     {
@@ -1510,7 +1716,8 @@
       "savedAt": "2025-09-12T00:39:15.808000+00:00",
       "description": "wal3 is a write-ahead log built on object storage that stores data durably and proves it is correct. It uses S3 conditional writes, a lock-free algorithm, and an O(1) setsum checksum for appends and trims. Dual implementations cross-check data and checksum so garbage collection is safe and per-collection scaling is simple.",
       "tags": [
-        "for-later"
+        "cs/distsys",
+        "cs/database"
       ]
     },
     {
