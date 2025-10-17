@@ -1,6 +1,172 @@
 {
-  "lastUpdate": "2025-10-16T00:10:36.106Z",
+  "lastUpdate": "2025-10-17T00:10:38.288Z",
   "data": [
+    {
+      "id": "01k7qjrc0zgh89tk49pyspdxzb",
+      "title": "A Conspiracy To Kill IE6",
+      "url": "https://blog.chriszacharias.com/a-conspiracy-to-kill-ie6",
+      "savedAt": "2025-10-16T22:37:54.590000+00:00",
+      "description": "A small YouTube web team secretly added a banner urging IE6 users to upgrade. Other Google products copied the idea and IE6 usage dropped sharply. The stunt greatly reduced IE6 support pain and went unpunished.",
+      "tags": [
+        "computer-history"
+      ]
+    },
+    {
+      "id": "01k7qhdctvb6h3zmp7w70dcxck",
+      "title": "Part I: how does gradient descent work?",
+      "url": "https://centralflows.github.io/part1/",
+      "savedAt": "2025-10-16T22:14:26.394000+00:00",
+      "description": "Gradient descent often leaves the stable region (sharpness > 2/η) and then oscillates, which would diverge on a quadratic but actually reduces sharpness via third-order effects. The authors propose a smooth \"central flow\" — a sharpness-penalized gradient flow — that models the time-averaged path of gradient descent at the edge of stability. Empirically the central flow matches gradient descent long-term, staying near the valley floor while the actual iterates oscillate around it.",
+      "tags": [
+        "cs/ai"
+      ]
+    },
+    {
+      "id": "01k7qhd12nm41egpp5vz2vdrgd",
+      "title": "How I got promoted to staff engineer twice",
+      "url": "https://www.seangoedecke.com/staff-engineer-promotions/",
+      "savedAt": "2025-10-16T22:14:14.357000+00:00",
+      "description": "In 2021, Sean Goedecke was promoted to staff software engineer at Zendesk and again at GitHub in 2023. To get promoted, engineers need to deliver valuable projects that align with company goals and have supportive managers. It’s often easier to be hired as a staff engineer than to be promoted within a company, so focusing on high-impact work is essential.",
+      "tags": [
+        "career"
+      ]
+    },
+    {
+      "id": "01k7qgyp0n6sbnfhp071e6hk38",
+      "title": "Senior engineers should make side bets",
+      "url": "https://www.seangoedecke.com/side-bets/",
+      "savedAt": "2025-10-16T22:06:24.277000+00:00",
+      "description": "Junior engineers should focus on assigned tasks, while senior engineers should spend 10-20% of their time on \"side bets\"—projects they believe will benefit the company. Successful side bets can greatly enhance a senior engineer's reputation, but failed ones should be quietly left behind. It's important to communicate successes, as they showcase individual contributions that wouldn't have happened otherwise.",
+      "tags": [
+        "career"
+      ]
+    },
+    {
+      "id": "01k7qfsz638w2je54rtmvmxjbf",
+      "title": "Protecting your time from predators in large tech companies",
+      "url": "https://www.seangoedecke.com/predators/",
+      "savedAt": "2025-10-16T21:46:21.251000+00:00",
+      "description": "Strong software engineers at big tech companies must protect their time from people who ask for free work. Predators often make low-effort requests through private messages, expecting a lot of effort in return. Always prioritize your main projects and be careful to avoid one-sided demands.",
+      "tags": [
+        "career"
+      ]
+    },
+    {
+      "id": "01k7pttd0ad1yv1q7cyazkpt1a",
+      "title": "Seeing like a software company",
+      "url": "https://www.seangoedecke.com/seeing-like-a-software-company/",
+      "savedAt": "2025-10-16T15:39:35.306000+00:00",
+      "description": "Large tech companies make work legible so they can measure, plan, and coordinate at scale. That legibility slows engineering and hides essential informal (illegible) work. Good companies support both legible processes and illegible, flexible problem-solving.",
+      "tags": [
+        "career"
+      ]
+    },
+    {
+      "id": "01k7pt4ak2asn9jqdc607ghb9q",
+      "title": "Extra, Extra - Read All About It: Nearly All Binary Searches and Mergesorts are Broken",
+      "url": "https://research.google/blog/extra-extra-read-all-about-it-nearly-all-binary-searches-and-mergesorts-are-broken/",
+      "savedAt": "2025-10-16T15:27:31.938000+00:00",
+      "description": "A common binary search (and some mergesorts) use mid = (low + high) / 2, which can overflow for very large arrays and produce wrong indices. Simple fixes (e.g., mid = low + (high - low) / 2) avoid overflow and make the search correct. The lesson: even small, long-lived algorithms can hide subtle bugs, so use careful design, testing, and reviews.",
+      "tags": [
+        "cs/data-structures"
+      ]
+    },
+    {
+      "id": "01k7pqtbe7cdezgrrx1dex30kt",
+      "title": "Breaking “provably correct” Leftpad",
+      "url": "https://lukeplant.me.uk/blog/posts/breaking-provably-correct-leftpad/",
+      "savedAt": "2025-10-16T14:47:07.975000+00:00",
+      "description": "The leftpad function is tricky because different programming languages handle strings and Unicode in different ways. Some languages count string length by code points, others by encoded units like UTF-16, causing inconsistent behavior. This makes writing \"provably correct\" string functions hard, especially with complex Unicode characters.",
+      "tags": [
+        "cs",
+        "math/formal-methods"
+      ]
+    },
+    {
+      "id": "01k7pjyyhc6f0yee292dry8t44",
+      "title": "Arrows to Arrows, Categories to Queries",
+      "url": "https://reasonablypolymorphic.com/blog/arrows-to-arrows/index.html",
+      "savedAt": "2025-10-16T13:22:15.724000+00:00",
+      "description": "The author built a small programming language (catlang) that compiles into a single SQL SELECT by treating programs as arrows in a category. Instead of function application, catlang uses composition, forks, and coproducts to combine and manipulate data flow. A key trick is desugaring loops via a cochoice primitive so categorical programs can target SQL and other backends.",
+      "tags": [
+        "cs/pl-theory"
+      ]
+    },
+    {
+      "id": "01k7pck906191rzbcdqz4p7wfm",
+      "title": "A modern approach to preventing CSRF in Go",
+      "url": "https://www.alexedwards.net/blog/preventing-csrf-in-go",
+      "savedAt": "2025-10-16T11:31:01.765000+00:00",
+      "description": "Go's http.CrossOriginProtection middleware helps prevent CSRF by checking browser headers to ensure requests come from the same origin. It works best with modern browsers supporting Sec-Fetch-Site or Origin headers and requires HTTPS with TLS 1.3 for full effectiveness. For strong protection, it should be combined with SameSite cookies and other security measures.",
+      "tags": [
+        "cs/programming-languages/go"
+      ]
+    },
+    {
+      "id": "01k7pcg40tqv5wdxzqjfzywmqv",
+      "title": "Think OS",
+      "url": "https://greenteapress.com/thinkos/",
+      "savedAt": "2025-10-16T11:29:18.362000+00:00",
+      "description": "Think OS is an introductory book that teaches operating systems basics for programmers. It focuses on practical topics programmers need, using C and simple explanations without assuming prior computer architecture knowledge. The book is freely available under a Creative Commons license.",
+      "tags": [
+        "books",
+        "cs/operating-system"
+      ]
+    },
+    {
+      "id": "01k7pbawkn2jajne37926590yp",
+      "title": "Processes and Threads",
+      "url": "https://planetscale.com/blog/processes-and-threads",
+      "savedAt": "2025-10-16T11:08:58.357000+00:00",
+      "description": "A process is an instance of a program that the operating system runs and manages.  \nThe CPU switches quickly between processes (context switching) to give the illusion of multitasking.  \nThreads are lighter-weight paths of execution inside a process that share the same memory.",
+      "tags": []
+    },
+    {
+      "id": "01k7naxqm5ttp8bmc6ajfg0xn5",
+      "title": "Let’s Prove Leftpad",
+      "url": "https://www.hillelwayne.com/post/lpl/",
+      "savedAt": "2025-10-16T01:42:32.837000+00:00",
+      "description": "The article delves into the process of proving the correctness of the \"leftpad\" function in various formal methods tools. It compares the approaches of tools like Dafny and Lean in verifying the leftpad function, showcasing different methods of formal proof. The author initiated a challenge to prove the leftpad function's correctness, resulting in a collection of proofs from various systems. The document highlights the diversity in proof languages and tools, encouraging submissions in languages like ATS, Event-B, and more, aiming to create a comprehensive resource for comparing formal methods tools and their approaches to proving correctness.",
+      "tags": [
+        "cs",
+        "math/formal-methods"
+      ]
+    },
+    {
+      "id": "01k7naxf63ssb2be3v7ywdh06f",
+      "title": "Copatterns",
+      "url": "https://www2.tcs.ifi.lmu.de/~abel/popl13.pdf",
+      "savedAt": "2025-10-16T01:42:24.196000+00:00",
+      "description": null,
+      "tags": [
+        "for-later",
+        "type/paper",
+        "cs/functional-programming"
+      ]
+    },
+    {
+      "id": "01k7nax6hh10adc2f6fvpgymms",
+      "title": "Controlling Copatterns: There And Back Again",
+      "url": "https://pauldownen.com/publications/derive-copat.pdf",
+      "savedAt": "2025-10-16T01:42:15.345000+00:00",
+      "description": null,
+      "tags": [
+        "for-later",
+        "type/paper",
+        "cs/functional-programming"
+      ]
+    },
+    {
+      "id": "01k7n7vxdg62ycz5cfzqj7smhb",
+      "title": "Writing an LLM from scratch, part 22 -- finally training our LLM!",
+      "url": "https://www.gilesthomas.com/2025/10/llm-from-scratch-22-finally-training-our-llm",
+      "savedAt": "2025-10-16T00:49:07.504000+00:00",
+      "description": "The author trains a small language model using a short text and then loads larger GPT-2 weights from OpenAI. They explain key concepts like loss, optimizers, and training costs in simple terms. The post encourages hands-on coding to better understand how the pieces fit together.",
+      "tags": [
+        "llm",
+        "cs/ai"
+      ]
+    },
     {
       "id": "01k7mk8s36w1989xcnf3t4ex17",
       "title": "Pwning the Entire Nix Ecosystem",
