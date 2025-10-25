@@ -43,7 +43,7 @@ const fetchBookmarks = async ({ nextPage: nextPageArg } = { nextPage: null }) =>
         return false;
       }
 
-      if (bookmark.tags.newsletter) {
+      if (bookmark.tags?.newsletter) {
         return false;
       }
 
@@ -94,7 +94,7 @@ const writeJsonFile = async (data: any) => {
     url: bookmark.source_url,
     savedAt: bookmark.saved_at,
     description: bookmark.summary || null,
-    tags: Object.values(bookmark.tags).map(tags => tags.name),
+    tags: Object.values(bookmark.tags || {}).map(tags => tags.name),
   }));
 
   await writeJsonFile(mappedBookmarks);
