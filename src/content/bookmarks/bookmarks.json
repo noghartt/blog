@@ -1,6 +1,135 @@
 {
-  "lastUpdate": "2025-10-19T00:10:42.630Z",
+  "lastUpdate": "2025-10-25T00:34:58.627Z",
   "data": [
+    {
+      "id": "01k8b907jxpvvv1mpxw61yy9td",
+      "title": "Nixifying Kubernetes with nix-csi, easykubenix and dinix",
+      "url": "https://discourse.nixos.org/t/nixifying-kubernetes-with-nix-csi-easykubenix-and-dinix/70899",
+      "savedAt": "2025-10-24T14:12:15.069000+00:00",
+      "description": "The author built three Nix-based projects to manage Kubernetes: easykubenix (renders manifests and deploys with kluctl), nix-csi (provides Nix store volumes via CSI), and dinix (renders dinit service configs). Together they let you run minimal container images and manage full container lifecycles with Nix. The projects work but need more docs and community feedback.",
+      "tags": [
+        "tools/nix"
+      ]
+    },
+    {
+      "id": "01k88h519bmeyg9n24cd15qbmh",
+      "title": "Contents",
+      "url": "https://404wolf.com/posts/whirlwindtourofnix/",
+      "savedAt": "2025-10-23T12:36:57.771000+00:00",
+      "description": "Nix is a flexible toolset for reproducible builds, package management, and declarative system configuration.  \nIt uses pure, sandboxed builds, derivations, and a central nixpkgs library to make consistent developer environments.  \nFlakes and utilities like flake-utils simplify multi-system outputs and packaging workflows.",
+      "tags": [
+        "tools/nix"
+      ]
+    },
+    {
+      "id": "01k88dr0f6ngmxd02v8mekjee6",
+      "title": "A window into modern loan origination",
+      "url": "https://www.bitsaboutmoney.com/archive/window-modern-loan-origination/",
+      "savedAt": "2025-10-23T11:37:25.222000+00:00",
+      "description": "Window sellers prefer financeable purchases because on-the-spot loans boost sales and simplify operations. Specialized facilitators, banks, and private capital quickly create short-term loans that fund installations while shifting most risk off bank balance sheets. This setup lets installers sell windows at scale with predictable, fast financing that investors package and buy.",
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "id": "01k8765nm1fsfce4d47fz3w5nc",
+      "title": "nLab computational trilogy",
+      "url": "https://ncatlab.org/nlab/show/computational+trilogy",
+      "savedAt": "2025-10-23T00:05:49.825000+00:00",
+      "description": "Three branches of mathematics—logic, type theory (languages), and category theory—are three perspectives on the same underlying notion of computation. This \"computational trinitarianism\" shows concepts in one area correspond to concepts in the others. Recent work extends these equivalences to quantum computation and homotopy/topological (twisted cohomology) settings.",
+      "tags": [
+        "cs",
+        "math"
+      ]
+    },
+    {
+      "id": "01k81wengt1awychfjaejk0aaw",
+      "title": "Modeling Identity Types",
+      "url": "https://bartoszmilewski.com/2025/10/18/modeling-identity-types/",
+      "savedAt": "2025-10-20T22:39:46.713000+00:00",
+      "description": "Naive categorical models make every arrow a fibration, which collapses identity types to only reflexive paths. Using homotopy theory and model categories, identity types are modeled as path objects in a factorization system where fibrations and cofibrations (and weak equivalences) control path behavior. This produces nontrivial paths and higher identity types, giving a weak infinity-groupoid structure.",
+      "tags": []
+    },
+    {
+      "id": "01k81wdwykqxbv1xp66k271r92",
+      "title": "Scaling Postgres to the next level at OpenAI (PGConf.dev 2025)",
+      "url": "https://www.youtube.com/watch?v=Ni1SGhNu-Q4",
+      "savedAt": "2025-10-20T22:39:21.555000+00:00",
+      "description": "OpenAI scaled Postgres to handle new and heavier workloads by optimizing queries and adding features. They routed and limited expensive queries to avoid spikes and protect the primary database. They also scaled instances and used replicas to improve capacity and reliability.",
+      "tags": [
+        "for-later",
+        "cs/database"
+      ]
+    },
+    {
+      "id": "01k81syhpdt1e0dtsb2fayjdhx",
+      "title": "The AI water issue is fake",
+      "url": "https://andymasley.substack.com/p/the-ai-water-issue-is-fake",
+      "savedAt": "2025-10-20T21:56:01.357000+00:00",
+      "description": "AI data centers use water, but their total use is a tiny fraction of U.S. freshwater and not a national or widespread local crisis. Media reports often mislead by comparing data-center use to household use or hiding context about offsite power-plant water. Overall, AI’s water footprint is small, and its efficiencies and trade-offs with energy make the scare stories exaggerated.",
+      "tags": [
+        "cs/ai",
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "01k81ss3t7dqc9gzm138wdb1x2",
+      "title": "Microsoft Word - Convergence _Angela Zhang_Oct. 14 25 - 5620270.pdf",
+      "url": "https://download.ssrn.com/2025/10/18/5620270.pdf?response-content-disposition=inline&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBsaCXVzLWVhc3QtMSJIMEYCIQDdAZcczS9Y1LcGC%2FKushpEtByz8W3euIl3RzUM7ob%2F6QIhAI0nk2EkcftU8oJGNJmyIlse71trHG67z7hosJbW1%2FPEKsYFCMP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQBBoMMzA4NDc1MzAxMjU3IgyymlAqV3ZQFVSVVowqmgW3NufI2GPv3rmp5jZYjwzxxR%2FfjWaccrWeWnSyHbvq1UTJdx7H8Btc7B%2B4EcWYuSx%2F1LdAlLJyItBCgxKkM0ncEa1qCGleNBYxEi3zAxVFSLbIvqCKI%2FQAhj%2F9q%2FnPkAljXGEd89oJ1xKhYSHrbADXIGCKccldszCxrPjd2EXMRfwhER7KHVR0b3NGEnECvYCOAJ%2BaSX5adbmdcj9etcLmLx7PzI5%2BQmyexW7hyAbM3RhHcKBS%2BDxEGSlUGXG8hFDH6dpRm3qPK5cVzPVoZmgkDAENfiAZydL3FRCpgolGJrT5DMy0%2B%2Bk8QEdTYYCkwieH45k0hzWkwrsDs5gh0zKp4bwN0C4dMoRsSkmVQIyk4TbCgpbyd36Ga4d64gIWffRWsHU9IORdroDY%2FRBMIUhkjr0l%2BhdYR7tJg2vP%2F4h4dmFbHXj7Rf19Ay51fXEPxnPg3cgCuU%2BFlSsJwh5RKKLcW4JmlfLGCwWO3dQAWXZK%2BcU90Jv6%2Bo%2FkdYJLdsluqFGeoZ%2FEIys6z2HmZSNyLDaTivbRQAOaEYK9XskSkB4K9sGFK554JkSQR7ApBsdjTRweLCiLJ1GOohu8xJ9R9%2BckVN2XCEpwvzL91e40H3qWl%2BoPPIqQFej...",
+      "savedAt": "2025-10-20T21:53:03.297000+00:00",
+      "description": null,
+      "tags": []
+    },
+    {
+      "id": "01k81srx0t7gcv59mb3s9grmk2",
+      "title": "What I self host",
+      "url": "https://fredrikmeyer.net/2025/10/18/what-i-self-host.html",
+      "savedAt": "2025-10-20T21:52:56.346000+00:00",
+      "description": "The author hosts several apps like an RSS reader, Grafana dashboard, and a bookmark manager on a cheap server using Docker and Nginx. They manage most settings with Ansible for easier updates and hope to improve automation. In the future, they want to build smart tools using AI and explore new projects.",
+      "tags": [
+        "homelab"
+      ]
+    },
+    {
+      "id": "01k7yp6sczvjvw01awpmscwtcc",
+      "title": "Picturing Mathematics",
+      "url": "https://mathenchant.wordpress.com/2025/10/18/picturing-mathematics/",
+      "savedAt": "2025-10-19T16:52:53.790000+00:00",
+      "description": "The author loves low-tech math but uses computers to reveal visuals he cannot easily imagine. He describes Ford spheres, a 3D fractal related to Ford circles, and shows how slicing them produces striking evolving cross-sections. He hopes better illustrations will help both mathematicians and the public see and study these beautiful structures.",
+      "tags": [
+        "math"
+      ]
+    },
+    {
+      "id": "01k7ymxw6qhdcweqnbp29yfdvw",
+      "title": "k8s-1m Overview",
+      "url": "https://bchess.github.io/k8s-1m/",
+      "savedAt": "2025-10-19T16:30:33.175000+00:00",
+      "description": "This project explores building a real Kubernetes cluster with 1 million nodes and the challenges that brings. The biggest bottlenecks are kube-apiserver watch/cache load, etcd network throughput, and scheduler throughput. Careful horizontal scaling, tuning, and alternative backends are needed to make such a cluster feasible.",
+      "tags": [
+        "cs/devops"
+      ]
+    },
+    {
+      "id": "01k7x1x7p7f7max39za4txfg6q",
+      "title": "Riehl’s Category Theory In Context",
+      "url": "https://rkirov.github.io/posts/why_lean/",
+      "savedAt": "2025-10-19T01:38:54.791000+00:00",
+      "description": "Formalizing math with tools like Lean helps catch errors and makes math easier to explore and understand. It also allows better organization, version control, and new ways to study how theorems connect. Although it takes extra work, these benefits can improve how math is done in the future.",
+      "tags": [
+        "math/formal-methods"
+      ]
+    },
+    {
+      "id": "01k7x14agfnzkyp1g7edv18eyf",
+      "title": "Optimizing Mental Health",
+      "url": "https://desmolysium.com/mentalhealth/",
+      "savedAt": "2025-10-19T01:25:18.479000+00:00",
+      "description": "Good physical habits—sleep, exercise, and nutrition—build baseline vitality that supports mood and energy.  \nMental practices like gratitude, purpose, and meditation change brain chemistry and boost well‑being.  \nBoth “bottom‑up” (biological) and “top‑down” (psychological) actions interact to optimize mental health.",
+      "tags": [
+        "biohack"
+      ]
+    },
     {
       "id": "01k7wbrczq4rt22mg56fgw6t7v",
       "title": "Attention is a luxury good",
