@@ -1,6 +1,37 @@
 {
-  "lastUpdate": "2025-10-26T00:10:46.275Z",
+  "lastUpdate": "2025-10-29T00:10:39.668Z",
   "data": [
+    {
+      "id": "01k8hh93gz76g583wsm3dq0276",
+      "title": "Don’t sacrifice the wrong thing",
+      "url": "https://www.henrikkarlsson.xyz/p/sacrifice",
+      "savedAt": "2025-10-27T00:32:21.023000+00:00",
+      "description": "Henrik started a blog to explore ideas and meet people who broadened his world. He and his wife chose their priorities—relationship, curiosity, and their children—and make tradeoffs to protect them. He turned down high pay because money would cost him the time to write and live those priorities.",
+      "tags": [
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "01k8hg82a24rsvdbsesbryz7xp",
+      "title": "On agency",
+      "url": "https://www.henrikkarlsson.xyz/p/agency",
+      "savedAt": "2025-10-27T00:14:18.434000+00:00",
+      "description": "Agency means believing problems can be solved by learning and acting. People with agency look for simple solutions and keep trying even when things are hard. Caring deeply about what you want helps you become more agentic and face challenges with strength.",
+      "tags": [
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "01k8g9ann0mjnrqazayn1afd5q",
+      "title": "Writing a RISC-V Emulator in Rust",
+      "url": "https://book.rvemu.app/",
+      "savedAt": "2025-10-26T12:54:09.312000+00:00",
+      "description": "This book teaches how to build a 64-bit RISC-V emulator in Rust. It covers ISA, privileged architecture, exceptions, interrupts, devices (PLIC, CLINT, UART, virtio), and virtual memory. By following it you can run xv6 and the source is on d0iasm/rvemu-for-book.",
+      "tags": [
+        "cs/emulator",
+        "cs/programming-languages/rust"
+      ]
+    },
     {
       "id": "01k8b907jxpvvv1mpxw61yy9td",
       "title": "Nixifying Kubernetes with nix-csi, easykubenix and dinix",
