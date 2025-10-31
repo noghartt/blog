@@ -1,6 +1,28 @@
 {
-  "lastUpdate": "2025-10-29T00:10:39.668Z",
+  "lastUpdate": "2025-10-31T00:10:29.608Z",
   "data": [
+    {
+      "id": "01k8tnbdmgq0qa9byc3phpjaf7",
+      "title": "More Than DNS: The 14 hour AWS us-east-1 outage",
+      "url": "https://thundergolfer.com/blog/aws-us-east-1-outage-oct20",
+      "savedAt": "2025-10-30T13:36:41.104000+00:00",
+      "description": "AWS us-east-1 suffered a 16+ hour outage that started with a DynamoDB DNS race condition and cascaded to about 140 services including EC2. EC2 then entered a long congestive collapse due to broken leases and backlog, requiring manual restarts to recover. The event shows even top cloud providers have complex, layered failures beyond a single root cause.",
+      "tags": [
+        "rca",
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "01k8tmn59cbj9csp3rn3w6v6ym",
+      "title": "What is Linux From Scratch?",
+      "url": "https://www.linuxfromscratch.org/lfs/",
+      "savedAt": "2025-10-30T13:24:31.660000+00:00",
+      "description": "Linux From Scratch (LFS) is a project that gives step-by-step instructions to build a custom Linux system entirely from source.  \nBuilding LFS teaches how Linux works, creates a compact system, and lets you customize features.  \nCompiling everything yourself also lets you audit and apply security patches directly.",
+      "tags": [
+        "books",
+        "os/linux"
+      ]
+    },
     {
       "id": "01k8hh93gz76g583wsm3dq0276",
       "title": "Don’t sacrifice the wrong thing",
