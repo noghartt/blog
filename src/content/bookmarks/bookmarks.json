@@ -1,6 +1,597 @@
 {
-  "lastUpdate": "2025-11-01T00:10:42.853Z",
+  "lastUpdate": "2025-11-02T00:10:39.851Z",
   "data": [
+    {
+      "id": "01k90v2gqjhwdmp3wmnp53eh31",
+      "title": "Metastability and Distributed Systems",
+      "url": "https://brooker.co.za/blog/2021/05/24/metastable.html",
+      "savedAt": "2025-11-01T23:12:07.410000+00:00",
+      "description": "My name is Marc Brooker. I've been writing code, reading code, and living vicariously through computers for as long as I can remember.",
+      "tags": [
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "01k901mykax95d962ayvepa11k",
+      "title": "Fast Inverse Square Root — A Quake III Algorithm",
+      "url": "https://www.youtube.com/watch?v=p8u_k2LIZyo",
+      "savedAt": "2025-11-01T15:47:48.457000+00:00",
+      "description": "In this video we will take an in depth look at the fast inverse square root and see where the mysterious number 0x5f3759df comes from. This algorithm became famous after id Software open sourced the engine for Quake III. On the way we will also learn about floating point numbers and newton's method.\n\n0:00 Introduction\n1:23 Why Care?\n3:21 The Code\n4:18 IEEE 754\n9:38 Bits and Numbers\n12:09 1st Step: Evil Bit Hack\n14:46 2nd Step: WTF\n17:34 3rd Step: Newton\n19:46 Summary\n\nPicture of John Carmack is licensed under CC BY 2.0 from author Drew \"Prognar\" Campbell.\nSource: http://flic.kr/p/6YxWYp",
+      "tags": []
+    },
+    {
+      "id": "01k901mfqas6k42jdn535j9h1h",
+      "title": "Corrosion",
+      "url": "https://fly.io/blog/corrosion/",
+      "savedAt": "2025-11-01T15:47:33.226000+00:00",
+      "description": "Fly.io built Corrosion, a gossip-based Rust service that syncs SQLite databases across thousands of servers without distributed consensus. It scales by making each worker the authority for its own state, which lets updates converge quickly but can spread bugs widely. After outages, the team simplified recovery, limited what data is gossiped, and split global state into regional clusters.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k901m5kvhqje9x1qyddyz7fj",
+      "title": "The ear does not do a Fourier transform",
+      "url": "https://www.dissonances.blog/p/the-ear-does-not-do-a-fourier-transform",
+      "savedAt": "2025-11-01T15:47:22.875000+00:00",
+      "description": "The ear separates sounds by frequency using the basilar membrane, not by doing a Fourier transform. Hair cells respond to specific frequencies based on their location, creating a mix of time and frequency information. This system helps the brain efficiently process natural sounds like speech and animal calls.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k901kwx35t5gxeymrbvgjwjr",
+      "title": "Lessons Learnt From Reversing Rust In CTF",
+      "url": "https://brightprogrammer.in/posts/lessons-learnt-from-rust-reversing/",
+      "savedAt": "2025-11-01T15:47:13.955000+00:00",
+      "description": "didn't solve the challenge but learnt something new",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k901kdapxqg2zd45zwprr0js",
+      "title": "Encoding x86 Instructions",
+      "url": "https://www-user.tu-chemnitz.de/~heha/hs/chm/x86.chm/x86.htm",
+      "savedAt": "2025-11-01T15:46:58.005000+00:00",
+      "description": "x86 instructions are up to 15 bytes long and use one- or two-byte opcodes with optional prefix bytes to modify behavior. The MOD-REG-R/M byte encodes operand types and addressing modes for instructions. Operand size can be 8, 16, or 32 bits, with prefixes used to select 16-bit operands in 32-bit mode.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k901jybp7jb5fky2rfeq5fq6",
+      "title": "B+Tree index structures in InnoDB",
+      "url": "https://blog.jcole.us/2013/01/10/btree-index-structures-in-innodb/",
+      "savedAt": "2025-11-01T15:46:42.677000+00:00",
+      "description": "InnoDB uses a B+Tree structure for its indexes, starting from a fixed root page and branching out to leaf and non-leaf pages. Each page is linked to others at the same level, forming a doubly-linked list, while leaf pages contain actual data and non-leaf pages contain pointers to child pages. This structure allows efficient storage and retrieval of records, with the potential to support millions of pages in a multi-level tree.",
+      "tags": [
+        "for-later",
+        "cs/database"
+      ]
+    },
+    {
+      "id": "01k901jtb66t1r6ra8b5ez4tmx",
+      "title": "Rethinking my backups",
+      "url": "https://strugglers.net/posts/2025/rethinking-my-backups/",
+      "savedAt": "2025-11-01T15:46:38.566000+00:00",
+      "description": "Rethinking how I do my backups\n",
+      "tags": []
+    },
+    {
+      "id": "01k901jgktec7sdq2bj63wxwd4",
+      "title": "Understanding Docker Internals: Building a Container Runtime in Python",
+      "url": "https://muhammadraza.me/2024/building-container-runtime-python/",
+      "savedAt": "2025-11-01T15:46:28.602000+00:00",
+      "description": "This article explains how to build a simple container runtime in Python using Linux features like namespaces and cgroups. It shows how to isolate processes, filesystems, hostnames, and limit resources inside containers. The project reveals the core ideas behind Docker, but real Docker has many extra features and security measures.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k901a87nvmq4xwcww7rfk20p",
+      "title": "Fluid Storage: Forkable, Ephemeral, and Durable Infrastructure for the Age of Agents",
+      "url": "https://www.tigerdata.com/blog/fluid-storage-forkable-ephemeral-durable-infrastructure-age-of-agents",
+      "savedAt": "2025-11-01T15:41:57.876000+00:00",
+      "description": "Fluid Storage reimagines block storage like EBS with zero-copy forks, true elasticity, and sync replication. Built for the age of agents. Now in Tiger Cloud free tier.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k901a15ydag2sp470k6mxym8",
+      "title": "Ghosts in the Compilation",
+      "url": "https://predr.ag/blog/ghosts-in-the-compilation/",
+      "savedAt": "2025-11-01T15:41:50.654000+00:00",
+      "description": "cargo-semver-checks had a problem where it failed to build a crate even though cargo check worked fine. The issue was due to missing configuration flags for cargo doc, which uses different settings than cargo check. The new release fixes this by correctly handling these flags and improving error messages for users.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k9019v0c22hbecawkh24en43",
+      "title": "How We Found 7 TiB of Memory Just Sitting Around",
+      "url": "https://render.com/blog/how-we-found-7-tib-of-memory-just-sitting-around",
+      "savedAt": "2025-11-01T15:41:44.332000+00:00",
+      "description": "How we saved 7 TiB of memory across our Kubernetes clusters by disabling namespace listwatching in Vector, reducing daemonset overhead and API server load at scale.",
+      "tags": []
+    },
+    {
+      "id": "01k9019mq2xbp9wrqc1fwqn1a5",
+      "title": "We do our billing with Prometheus",
+      "url": "https://www.tigrisdata.com/blog/billing-prometheus/",
+      "savedAt": "2025-11-01T15:41:37.890000+00:00",
+      "description": "We use the same Prometheus metrics we collect for monitoring to do billing.  \nThat is simple and transparent but scraping is asynchronous and high cardinality can miss or undercount usage.  \nOverall it makes adding usage charges easy and tends to err in the customer's favor.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k9019d2a1xf48tm974bh6bpr",
+      "title": "How to build silos and decrease collaboration (on purpose)",
+      "url": "https://www.rubick.com/how-to-build-silos-and-decrease-collaboration/",
+      "savedAt": "2025-11-01T15:41:30.058000+00:00",
+      "description": "Although counter-intuitive, it can be beneficial to build silos and decrease collaboration between teams. Balance the need for collaboration, coordionation, and communication with these tips.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k9011e8drzg4knkatr4fwkrg",
+      "title": "Global Replication Made Easy",
+      "url": "https://www.tigrisdata.com/blog/talks/2025/global-replication/",
+      "savedAt": "2025-11-01T15:37:09.132000+00:00",
+      "description": "Tigris makes data global, durable, and low-latency by pushing metadata and pulling data on demand.  \nMetadata is eagerly replicated to all regions, and data is fetched and cached only when needed.  \nThis hybrid, multi-tier cache lets regions serve data fast and survive datacenter loss.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k90114t3wtpqdts3zpxgv5mk",
+      "title": "HuggingFaceTB",
+      "url": "https://huggingface.co/spaces/HuggingFaceTB/smol-training-playbook#introduction",
+      "savedAt": "2025-11-01T15:36:59.458000+00:00",
+      "description": "Discover amazing ML apps made by the community",
+      "tags": [
+        "cs/ai",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k9010tmqx2djws1s8fqyb6q6",
+      "title": "Your URL Is Your State",
+      "url": "https://alfy.blog/2025/10/31/your-url-is-your-state.html",
+      "savedAt": "2025-11-01T15:36:49.047000+00:00",
+      "description": "URLs can and should hold app state so pages are shareable, bookmarkable, and restorable.  \nGood URL design makes intent, context, and caching explicit.  \nPut public, meaningful state in the URL and keep sensitive or transient state out.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k900w83s0hsz95pce12btxmx",
+      "title": "On the purported benefits of effect systems",
+      "url": "https://typesanitizer.com/blog/effects-convo.html",
+      "savedAt": "2025-11-01T15:34:19.001000+00:00",
+      "description": "The conversation questions whether effect systems themselves give practical benefits like better testing or if those come from banning globals and good API design. Effect systems can enable user-defined control flow and capability-style dependency injection, but they add annotation boilerplate and interoperability risks. The authors conclude similar benefits can be achieved without full effect systems while noting effects are useful in some cases.",
+      "tags": []
+    },
+    {
+      "id": "01k900w2xw2t0apjhbs7w8xsky",
+      "title": "49 thoughts on “Myths Programmers Believe about CPU Caches”",
+      "url": "https://software.rajivprab.com/2018/04/29/myths-programmers-believe-about-cpu-caches/",
+      "savedAt": "2025-11-01T15:34:13.692000+00:00",
+      "description": "Modern CPU caches use hardware protocols (like MESI) to keep copies coherent across cores so threads never see conflicting values. Misconceptions about caches (e.g., volatiles force main-memory access) can lead to bad designs and unnecessary fear. Synchronization and language-level constructs (atomics, volatiles) still matter because registers, compiler optimizations, and reordering can break thread visibility.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k900vx5h1fnfa89gkg41xfja",
+      "title": "SQLite concurrency and why you should care about it",
+      "url": "https://jellyfin.org/posts/SQLite-locking/",
+      "savedAt": "2025-11-01T15:34:07.793000+00:00",
+      "description": "SQLite is fast and simple but can suffer from unpredictable locking when multiple writes occur.  \nJellyfin fixed this by adding EF Core interceptors with three locking strategies: no-lock, optimistic retry, and pessimistic single-write.  \nThis approach reduces crashes and can be reused by other EF Core apps.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k900vhaae2e760fbzjw7zr83",
+      "title": "The Evolution of SRE at Google",
+      "url": "https://www.usenix.org/publications/loginonline/evolution-sre-google",
+      "savedAt": "2025-11-01T15:33:55.658000+00:00",
+      "description": "Google's SRE team is using systems and control theory to improve the reliability and safety of their complex systems. They adopted the STAMP framework to focus on managing system interactions rather than just preventing individual failures. This proactive approach helps them anticipate potential issues and design safer systems, ultimately reducing outages and improving user experience.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k900vbfe7vxdhbgzafpac6j2",
+      "title": "How to Get to The End of a Pile of Unread Books",
+      "url": "https://candost.blog/how-to-get-to-the-end-of-a-pile-of-unread-books/",
+      "savedAt": "2025-11-01T15:33:49.678000+00:00",
+      "description": "The author struggled with guilt over unfinished books and tried reading many at once. They learned Mortimer Adler’s inspectional reading—systematic skimming then superficial reading—to decide which books deserve full attention. This method reduced their to-read pile and eased the pressure to finish every book.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k900v47y3n6kbjbfkb9qb6jn",
+      "title": "How Nubank Built an In-house Logging Platform for 1 Trillion Log Entries",
+      "url": "https://blog.bytebytego.com/p/how-nubank-built-an-in-house-logging",
+      "savedAt": "2025-11-01T15:33:42.269000+00:00",
+      "description": "Nubank built its own logging platform to handle 1 trillion log entries daily because their old system was costly and limited. The new platform is reliable, scalable, and cheaper by 50%, using in-house services for ingestion, processing, storage, and fast querying. This change helps engineers monitor systems better and prepares Nubank for future growth.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k900r5z675ym18tzpfp23ra6",
+      "title": "The Impossible Optimization, and the Metaprogramming To Achieve It",
+      "url": "https://verdagon.dev/blog/impossible-optimization",
+      "savedAt": "2025-11-01T15:32:05.733000+00:00",
+      "description": "This text explains how moving regex parsing and matching to compile-time can greatly speed up code by creating many specialized functions instead of one recursive one. It uses metaprogramming to inline and optimize the code, making it run faster than traditional regex engines. Although this increases compile time and code size, it results in much better performance during execution.",
+      "tags": [
+        "cs/pl-theory"
+      ]
+    },
+    {
+      "id": "01k900qja968phwb549q854q4k",
+      "title": "On Programming Languages as Languages",
+      "url": "https://programmingzen.com/programming-languages-as-languages/",
+      "savedAt": "2025-11-01T15:31:45.608000+00:00",
+      "description": "Programming languages are like human languages used by communities to communicate clearly and solve problems together. Writing good code means following the community’s style and conventions to avoid confusion. Learning a programming language is like learning a human language—it requires practice, reading others’ code, and engaging with the community.",
+      "tags": [
+        "cs/pl-theory"
+      ]
+    },
+    {
+      "id": "01k900n5xrhnkxc6t01ey6p2ym",
+      "title": "CPU Cache-Friendly Data Structures in Go: 10x Speed with Same Algorithm",
+      "url": "https://skoredin.pro/blog/golang/cpu-cache-friendly-go",
+      "savedAt": "2025-11-01T15:30:27.383000+00:00",
+      "description": "Cache misses are much slower than L1 cache hits, so organizing data for cache locality can speed real programs 5–10x. Padding and avoiding false sharing across cores greatly help concurrent counters. Prefer data-oriented layouts (SoA, hot/cold split) and always benchmark on target hardware.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k900gbp5ccgt488jves8hms2",
+      "title": "Formal Reasoning",
+      "url": "https://cs.ru.nl/~freek/courses/fr-2025/public/fr.pdf",
+      "savedAt": "2025-11-01T15:27:49.446000+00:00",
+      "description": "The text explains how formal logic uses parse trees and grammars to build well-formed formulas. It shows how models, interpretations, and algorithms determine truth and how automata and regular expressions define languages. It contrasts syntax (form) with semantics (meaning) and introduces possible-worlds semantics for modal logic.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k900g3gat4krh4dnrt4f1te8",
+      "title": "Formal or not formal? That is the question in AI for theorem proving.",
+      "url": "https://xenaproject.wordpress.com/2025/10/22/formal-or-not-formal-that-is-the-question-in-ai-for-theorem-proving/",
+      "savedAt": "2025-11-01T15:27:41.066000+00:00",
+      "description": "The author is cautious about LLMs autonomously proving new research math and prefers AI as a helpful assistant.  \nInformal LLM proofs are unreliable and can hallucinate, while formal systems like Lean are trustworthy but lack many modern definitions.  \nFixing this requires major work to formalize advanced math definitions, a task the author and teams plan to pursue.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k900fmedwr6p4jannzfcrjpq",
+      "title": "Deep Learning for Biology: Predicting Protein Functions from Sequences",
+      "url": "https://www.iamtk.co/deep-learning-for-biology-predicting-protein-functions-from-sequences",
+      "savedAt": "2025-11-01T15:27:25.645000+00:00",
+      "description": "Researchers use deep learning to predict protein functions from amino acid sequences. These models find patterns in sequences that link to biological roles. Accurate predictions speed up biological research and discovery.",
+      "tags": [
+        "cs/ai",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k9007w4xy6x5as9kecm5j46q",
+      "title": "Context Switches",
+      "url": "https://matklad.github.io/2025/09/19/context-switches.html",
+      "savedAt": "2025-11-01T15:23:11.388000+00:00",
+      "description": "A CPU runs many short, multi-step instructions in a pipelined state machine, so instructions do not equal clock cycles.  \nWhen an interrupt or syscall occurs, the CPU stops at a safe point, saves the instruction pointer, and the OS saves the rest of the registers to switch contexts.  \nContext switches also involve changing address space, stacks, and caches so the next process can run correctly.",
+      "tags": [
+        "cs/operating-system"
+      ]
+    },
+    {
+      "id": "01k9003ng1bkgx715zrpet1a0j",
+      "title": "Quick thoughts on the recent AWS outage",
+      "url": "https://surfingcomplexity.blog/2025/10/25/quick-thoughts-on-the-recent-aws-outage/",
+      "savedAt": "2025-11-01T15:20:53.504000+00:00",
+      "description": "Adding automation to improve reliability increases system complexity and creates new, rarer but harsher failure modes. AWS’s outage showed how health-check automation and delayed network state caused cascading DNS failovers and long recovery. Teams must invest both in robust automation and in resilience — human-run controls, capacity, and expertise to handle surprises.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k9003akszgyqaba0fjechbts",
+      "title": "The Linux Boot Process: From Power Button to Kernel",
+      "url": "https://www.0xkato.xyz/linux-boot/",
+      "savedAt": "2025-11-01T15:20:42.361000+00:00",
+      "description": "The Linux boot process starts when the CPU resets and runs tiny programs that load and prepare the kernel. The kernel sets up memory, paging, and security features like address randomization to keep the system safe. Finally, the kernel decompresses itself and takes control to start running the operating system.",
+      "tags": [
+        "os/linux",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k8zzzk1dt29bzk1f8fj4hgh8",
+      "title": "How programs get run: ELF binaries",
+      "url": "https://lwn.net/Articles/631631/",
+      "savedAt": "2025-11-01T15:18:39.916000+00:00",
+      "description": "ELF binaries are a format used for executable files in many operating systems. They contain the necessary information for the system to run programs. Understanding ELF helps in grasping how applications are executed on computers.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k8zzyvpzj10jwb6fapb6nzrd",
+      "title": "> The Journey Before main()_",
+      "url": "https://amit.prasad.me/blog/before-main",
+      "savedAt": "2025-11-01T15:18:16.030000+00:00",
+      "description": "The Linux kernel runs a program using the execve system call, which loads an ELF executable file into memory. The ELF file contains the program's code, data, and instructions for setting up the stack and loading shared libraries. After preparing the environment, the kernel jumps to the program's entry point, where the runtime starts and eventually calls the main function.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k8zzynr6z6a1shwd3czt54zf",
+      "title": "Programming Modern Systems Like It Was 1984",
+      "url": "https://prog21.dadgum.com/201.html",
+      "savedAt": "2025-11-01T15:18:09.926000+00:00",
+      "description": "Imagine a 1984 programmer waking in 2014 and choosing simplicity over hyper-optimization. Build small, self-contained programs that talk to each other and avoid heavy, fragile toolchains. Use high-level languages and keep things fast by design, not by micro-tuning.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k8zzygdqa91qh8bntjhq217g",
+      "title": "Barebones RISC-V OS written in Zig",
+      "url": "https://timmy.moe/blog/barebones-os-zig/",
+      "savedAt": "2025-11-01T15:18:04.471000+00:00",
+      "description": "The author built a simple RISC-V operating system using Zig without relying on an existing OS. They created a custom linker script and assembly startup code to run the OS on QEMU's virt machine. They also used cross-compilation tools to build and debug the OS for RISC-V architecture.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k8zzy6sf55vypaffz9mkex90",
+      "title": "Mistakes I see engineers making in their code reviews",
+      "url": "https://www.seangoedecke.com/good-code-reviews/",
+      "savedAt": "2025-11-01T15:17:54.607000+00:00",
+      "description": "Good code reviews look beyond the diff to how a change fits the whole codebase. Leave a few high-impact comments, approve most reasonable changes, and only block when you truly won’t accept the change. Don’t impose personal style or drown authors in tiny line comments.",
+      "tags": [
+        "career",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k8zzxz2hd13r7gfd8x9kb1ah",
+      "title": "Making a micro Linux distro",
+      "url": "https://popovicu.com/posts/making-a-micro-linux-distro/",
+      "savedAt": "2025-11-01T15:17:46.703000+00:00",
+      "description": "The text discusses building a micro Linux distro by creating a simple kernel and packaging software. It emphasizes the role of the kernel in managing hardware and providing infrastructure for user applications. The article highlights the importance of the init process in starting user space processes on a Linux system.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k8zzk6jtt0fykwj592pjaths",
+      "title": "That Time Ken Thompson Wrote a Backdoor into the C Compiler",
+      "url": "https://micahkepe.com/blog/thompson-trojan-horse/",
+      "savedAt": "2025-11-01T15:11:53.945000+00:00",
+      "description": "Ken Thompson showed how to hide a self-reproducing backdoor inside the C compiler so compiled programs (like login) would accept a secret password. The trick was the compiler recognizing its own source and inserting hidden code while leaving source files unchanged. Once installed, each new compiler it built would perpetuate the backdoor without showing in the original source.",
+      "tags": []
+    },
+    {
+      "id": "01k8zzjykry09148qrygva70ma",
+      "title": "The Continual Learning Problem",
+      "url": "https://jessylin.com/2025/10/20/continual-learning/",
+      "savedAt": "2025-11-01T15:11:45.783000+00:00",
+      "description": "Continual learning asks how to keep updating model weights over time without breaking prior knowledge. Memory layers — high-capacity but sparse — let the model make targeted updates that learn new information with much less forgetting. Sparse memory finetuning shows strong learning on new tasks while preserving performance on held-out tasks.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k8zzjh0p3s2wbmbmh390nztm",
+      "title": "Learn x86-64 assembly by writing a GUI from scratch",
+      "url": "https://gaultier.github.io/blog/x11_x64.html",
+      "savedAt": "2025-11-01T15:11:31.860000+00:00",
+      "description": "The article teaches x86-64 assembly by building an X11 GUI from scratch using Linux syscalls and the System V ABI. It shows stack alignment, syscall parameter passing, and building X11 requests on the stack. The example creates a window, maps it, polls events, and draws \"Hello, world.\"",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k8zzjb0aatrtq42hfp0vtqw6",
+      "title": "Indefinite Backpack Travel",
+      "url": "https://jeremymaluf.com/onebag/",
+      "savedAt": "2025-11-01T15:11:25.706000+00:00",
+      "description": "Jeremy Maluf lives out of a laptop backpack and favors onebag, minimalist travel over gear-brand consumerism.  \nHe carries only durable, versatile items (tech, a few clothing pieces, ultralight hiking gear) and keeps things small, secure, and practical.  \nLong-term goal: travel with as little as possible, sometimes literally just his pockets.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k8zzj66wegrwww4e1t5vwz11",
+      "title": "Advice for New Principal Tech ICs (i.e., Notes to Myself)",
+      "url": "https://eugeneyan.com/writing/principal/",
+      "savedAt": "2025-11-01T15:11:20.796000+00:00",
+      "description": "A principal tech IC shifts from coding to setting technical vision, mentoring others, and connecting people and ideas. Focus your time on high-impact work, delegate routine tasks, and protect thinking time. Build others to take over so the organization succeeds without you.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k8zzhz6ka04j498xttj3m0a8",
+      "title": "Code like a surgeon",
+      "url": "https://www.geoffreylitt.com/2025/10/24/code-like-a-surgeon",
+      "savedAt": "2025-11-01T15:11:13.618000+00:00",
+      "description": "The author compares coding with AI to being a surgeon who focuses on important work while AI handles secondary tasks. This approach lets them spend more time on creative design and less on grunt work. AI tools make coding more efficient and support a better balance of tasks without losing control.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k8zzhs21mnndvbq74548e4ve",
+      "title": "smoothbrains.net: A three-year retrospective",
+      "url": "https://smoothbrains.net/posts/2025-10-18-three-year-retrospective.html",
+      "savedAt": "2025-11-01T15:11:07.329000+00:00",
+      "description": "The author began a blog in 2022 to explore consciousness using a phenomenology-first approach. They joined research retreats, studied many scientific papers, and planned creative projects like coding and meditation. The blog aims to grow the field and invite others to contribute fresh ideas.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k8zzhm7734ags9yrenp8kcme",
+      "title": "The three marks of existence and the Fourier uncertainty principle",
+      "url": "https://smoothbrains.net/posts/2025-10-10-the-three-marks.html",
+      "savedAt": "2025-11-01T15:11:02.373000+00:00",
+      "description": "The three marks of existence describe how experience is shaped by impermanence, inessence (no fixed self), and dissatisfactoriness. These are mental motions that try to reify permanence, self, and bliss, which leads to suffering when they fail. Understanding these dynamics like signal traits can help explain and potentially measure how the mind constructs experience.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k8zzgzn6r2n27kbb4zzbtpg8",
+      "title": "Augmenting Long-term Memory",
+      "url": "https://augmentingcognition.com/ltm.html",
+      "savedAt": "2025-11-01T15:10:41.317000+00:00",
+      "description": "Anki is a tool that lets you choose to remember almost anything and keeps knowledge for the long term.  \nUsed well, it helps you deeply understand papers, books, and new fields by breaking ideas into small, memorable questions.  \nBe selective: focus on useful, reusable facts and avoid Ankifying everything.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k8zzgc8pgqw7rarsssmayjvg",
+      "title": "Proofs And Refutations The Logic Of Mathematical Discovery",
+      "url": "https://dl1.cuni.cz/pluginfile.php/730446/mod_resource/content/2/Imre%20Lakatos%3B%20Proofs%20and%20Refutations.pdf",
+      "savedAt": "2025-11-01T15:10:21.462000+00:00",
+      "description": "The text discusses the process of proving and refuting mathematical theorems through testing and analyzing different scenarios. It emphasizes the importance of testing conjectures to arrive at valid proofs and highlights the iterative nature of refining mathematical ideas through counterexamples and proofs.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k8zzfxdrk4y578w1xyg8nqv0",
+      "title": "Radios, how do they work?",
+      "url": "https://lcamtuf.substack.com/p/radios-how-do-they-work",
+      "savedAt": "2025-11-01T15:10:06.264000+00:00",
+      "description": "Antennas capture and reradiate radio waves by resonating at specific lengths, which boosts received signal strength. Modulation changes a carrier wave so it carries information, but fast changes spread the signal across frequencies. Superheterodyne receivers mix the antenna signal with a local sine to shift and isolate the desired frequency for easier filtering.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k8zzfr0nm3qq146jc87abgvk",
+      "title": "The Logarithmic Time Perception Hypothesis",
+      "url": "https://www.kafalas.com/Logtime.html",
+      "savedAt": "2025-11-01T15:10:00.725000+00:00",
+      "description": "As we age, we judge time intervals by comparing them to our current age, so each year feels like a smaller fraction of life. This makes subjective time follow a logarithmic scale: equal perceived spans require exponentially larger clock ages. The result is that years seem to pass faster as we get older.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k8zzfcht25gfnh40b4kt464c",
+      "title": "Our journey to affordable logging",
+      "url": "https://techblog.cloudkitchens.com/p/our-journey-to-affordable-logging",
+      "savedAt": "2025-11-01T15:09:48.986000+00:00",
+      "description": "CK Engineering built LogProc to store logs cheaply by using blob storage, aggressive batching, and minimal indexing.  \nA stateless query engine plus sticky ingesters and chunked blocks lets them scale easily and cut costs 4.4× versus OpenSearch.  \nThe trade-offs are slower blob reads and potential gaps for the last ~15 minutes of logs if an ingester is down.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k8zzf360b23hcg65dwjqt7zf",
+      "title": "The explosion of choice",
+      "url": "https://aeon.co/essays/why-an-abundance-of-choice-is-not-the-same-as-freedom",
+      "savedAt": "2025-11-01T15:09:39.392000+00:00",
+      "description": "Modern life treats having many personal choices as the same thing as freedom.  \nThis rise of choice grew mainly in the 19th and 20th centuries and spread into love, work and politics.  \nBut too much choice can confuse people, hide moral questions, and sometimes fail to deliver real freedom.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k8zzewp1b3qed8ckkaqmmmp6",
+      "title": "[tl;dr] Balancing Coupling in Software Design",
+      "url": "https://olano.dev/blog/balancing-coupling/",
+      "savedAt": "2025-11-01T15:09:32.737000+00:00",
+      "description": "Coupling is inevitable and should be managed, not eliminated. Balance coupling’s strength, distance, and volatility to minimize total complexity. Good modularity hides decisions so only the parts that change must be changed.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k8zy47wgrys639x9jgnrwzkr",
+      "title": "Why SSA?",
+      "url": "https://mcyoung.xyz/2025/10/21/ssa-1/",
+      "savedAt": "2025-11-01T14:46:15.184000+00:00",
+      "description": "Basic blocks are straight-line code sequences ending with a control transfer, and dominators describe which blocks lie on every path from entry to a block. Using dominance and dominance frontiers lets compilers place and trace values (via phi-like block parameters) so loads and stores can be eliminated or moved safely. With non-escaping pointers and this analysis, many stores and even whole blocks can be removed to optimize code.",
+      "tags": [
+        "for-later",
+        "cs/compilers"
+      ]
+    },
+    {
+      "id": "01k8zy308qcqhayac7hw0wzebk",
+      "title": "How to sequence your DNA for <$2k",
+      "url": "https://maxlangenkamp.substack.com/p/how-to-sequence-your-dna-for-2k",
+      "savedAt": "2025-11-01T14:45:34.615000+00:00",
+      "description": "The author and friends bought a $1,100 Oxford Nanopore setup and sequenced their own DNA at home. The process involved drawing blood, extracting DNA, and running it through a USB-sized nanopore device. Results were partial and noisy (about 13% coverage, contamination, and hardware issues), but showed inexpensive sequencing is possible.",
+      "tags": [
+        "biology",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k8zy1je5mf68tqv5swwa2bc2",
+      "title": "Your data model is your destiny",
+      "url": "https://notes.mtb.xyz/p/your-data-model-is-your-destiny",
+      "savedAt": "2025-11-01T14:44:47.685000+00:00",
+      "description": "Your product’s core data model decides whether features compound into a lasting advantage or just add noise. Pick the right atomic unit of work (menu item, canvas, employee) and all future features gain power from shared context. When code is cheap, a distinctive data model becomes the true moat.",
+      "tags": [
+        "cs",
+        "interesting"
+      ]
+    },
+    {
+      "id": "01k8zxxq28dqfggcgcg33wcq4k",
+      "title": "A Fast Bytecode VM for Arithmetic: The Virtual Machine",
+      "url": "https://abhinavsarkar.net/posts/arithmetic-bytecode-vm/",
+      "savedAt": "2025-11-01T14:42:41.352000+00:00",
+      "description": "The post builds a fast bytecode virtual machine in Haskell for an arithmetic language. Benchmarks show the bytecode VM is over three times faster than the AST interpreter and compiles quickly. The project demonstrates practical performance gains and testing practices when moving from an AST interpreter to a bytecode VM.",
+      "tags": [
+        "cs/vm",
+        "for-later",
+        "cs/pl-theory"
+      ]
+    },
+    {
+      "id": "01k8zxx80nxqj8r6cjgxz6j2t0",
+      "title": "Tracking Time Without Clock",
+      "url": "https://tigerbeetle.com/blog/2025-10-21-clockless-time/",
+      "savedAt": "2025-11-01T14:42:25.940000+00:00",
+      "description": "Time is deceptively tricky, so avoid using the system clock everywhere.  \nFor simple cases pass a single now timestamp into functions instead of a Clock object.  \nFor scheduled work call a tick method regularly to advance time inside components.",
+      "tags": [
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "01k8z2zdywvgjkbx6wcse5w6dv",
+      "title": "Easy RISC-V",
+      "url": "https://dramforever.github.io/easyriscv/",
+      "savedAt": "2025-11-01T06:51:46.012000+00:00",
+      "description": "This article introduces basic RISC-V assembly instructions and how they control a processor using registers and memory. It explains key commands like addi, ebreak, and jump instructions, plus how to handle immediate values and pseudoinstructions. The tutorial also shows simple system calls and code examples to help understand RISC-V programming.",
+      "tags": [
+        "cs",
+        "hardware"
+      ]
+    },
     {
       "id": "01k8tnbdmgq0qa9byc3phpjaf7",
       "title": "More Than DNS: The 14 hour AWS us-east-1 outage",
@@ -50,6 +641,7 @@
       "savedAt": "2025-10-26T12:54:09.312000+00:00",
       "description": "This book teaches how to build a 64-bit RISC-V emulator in Rust. It covers ISA, privileged architecture, exceptions, interrupts, devices (PLIC, CLINT, UART, virtio), and virtual memory. By following it you can run xv6 and the source is on d0iasm/rvemu-for-book.",
       "tags": [
+        "for-later",
         "cs/emulator",
         "cs/programming-languages/rust"
       ]
@@ -101,7 +693,10 @@
       "url": "https://bartoszmilewski.com/2025/10/18/modeling-identity-types/",
       "savedAt": "2025-10-20T22:39:46.713000+00:00",
       "description": "Naive categorical models make every arrow a fibration, which collapses identity types to only reflexive paths. Using homotopy theory and model categories, identity types are modeled as path objects in a factorization system where fibrations and cofibrations (and weak equivalences) control path behavior. This produces nontrivial paths and higher identity types, giving a weak infinity-groupoid structure.",
-      "tags": []
+      "tags": [
+        "type-theory",
+        "math/category-theory"
+      ]
     },
     {
       "id": "01k81wdwykqxbv1xp66k271r92",
