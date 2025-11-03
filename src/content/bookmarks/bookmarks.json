@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-11-02T00:10:39.851Z",
+  "lastUpdate": "2025-11-03T00:10:35.874Z",
   "data": [
     {
       "id": "01k90v2gqjhwdmp3wmnp53eh31",
@@ -334,7 +334,9 @@
       "savedAt": "2025-11-01T15:18:16.030000+00:00",
       "description": "The Linux kernel runs a program using the execve system call, which loads an ELF executable file into memory. The ELF file contains the program's code, data, and instructions for setting up the stack and loading shared libraries. After preparing the environment, the kernel jumps to the program's entry point, where the runtime starts and eventually calls the main function.",
       "tags": [
-        "for-later"
+        "os/linux",
+        "cs/operating-system",
+        "cs/programming-languages"
       ]
     },
     {
