@@ -82,8 +82,8 @@ const readingTime = remarkPluginFrontmatter.readingTime;
           {date}
           -
           <span>
-            {dayjs(lastCommit.date).format('YYYY-MM-DD HH:mm')}
-            (<Link href={`${GITHUB_REPO_URL}/commit/${lastCommit.hash.slice(0, 7)}`} isExternal>{lastCommit.hash.slice(0, 7)}</Link>),
+            {dayjs(lastCommit?.date).format('YYYY-MM-DD HH:mm')}
+            (<Link href={`${GITHUB_REPO_URL}/commit/${lastCommit?.hash?.slice(0, 7)}`} isExternal>{lastCommit?.hash?.slice(0, 7)}</Link>),
           </span>
           {readingTime ? (
             <span>
@@ -182,15 +182,14 @@ const readingTime = remarkPluginFrontmatter.readingTime;
   }
 
   article {
-    display: flex;
-    flex-direction: column;
-    gap: var(--spacing);
+    /* Use normal block flow instead of flex to prevent sidenote height from affecting paragraph spacing */
+  }
+
+  article > * + * {
+    margin-top: var(--spacing);
   }
 
   article ul {
-    display: flex;
-    flex-direction: column;
-    gap: var(--spacing);
     margin-left: var(--spacing-4x);
   }
 
@@ -303,4 +302,301 @@ const readingTime = remarkPluginFrontmatter.readingTime;
   table td {
     padding: var(--spacing) var(--spacing-2x);
   }
+
+  /* Sidenotes - Tufte CSS inspired */
+  .sidenote,
+  .marginnote {
+    float: right;
+    clear: right;
+    margin-right: -60%;
+    width: 50%;
+    margin-top: 0.3rem;
+    margin-bottom: 0;
+    font-size: 0.9rem;
+    line-height: 1.3;
+    vertical-align: baseline;
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: var(--spacing);
+    transition: border-color 0.2s ease-in-out;
+  }
+
+  /* Ensure list items with sidenotes have enough space to prevent overlap */
+  article li {
+    position: relative;
+  }
+
+  article ul,
+  article ol {
+    margin-top: var(--spacing);
+    margin-bottom: var(--spacing);
+  }
+
+  article ul > li + li {
+  }
+
+  .sidenote:hover,
+  .marginnote:hover {
+    border-color: #000;
+  }
+
+  .sidenote-number {
+    counter-increment: sidenote-counter;
+  }
+
+  .sidenote-number:after,
+  .sidenote:before {
+    position: relative;
+    vertical-align: baseline;
+  }
+
+  .sidenote-number:after {
+    content: counter(sidenote-counter);
+    font-size: 0.8rem;
+    top: -0.5rem;
+    left: 0.1rem;
+    padding: 2px 4px;
+    border: 1px solid transparent;
+    transition: border-color 0.2s ease-in-out;
+  }
+
+  .sidenote-number:hover:after {
+    border-color: var(--color-primary);
+  }
+
+  /* Highlight sidenote when hovering its number - use + for adjacent sibling only */
+  .sidenote-number:hover + .sidenote {
+    border-color: var(--color-primary);
+    background-color: rgba(0, 0, 0, 0.02);
+  }
+
+  /* Highlight both when sidenote is hovered (via JS class) or number is hovered */
+  .sidenote.hover-linked,
+  .sidenote-number.hover-linked:after {
+    border-color: var(--color-primary);
+  }
+
+  .sidenote.hover-linked {
+    background-color: rgba(0, 0, 0, 0.02);
+  }
+
+  /* Active/targeted state - same styling as hover for consistency */
+  .sidenote.active-highlight,
+  .sidenote-number.active-highlight:after {
+    border-color: var(--color-primary);
+  }
+
+  .sidenote.active-highlight {
+    background-color: rgba(0, 0, 0, 0.02);
+  }
+
+  /* When sidenote number has active-highlight class */
+  .sidenote-number.active-highlight:after {
+    border-color: var(--color-primary);
+  }
+
+  .sidenote:before {
+    content: counter(sidenote-counter) " ";
+    font-size: 0.8rem;
+  }
+
+  label.sidenote-number {
+    display: inline;
+    cursor: pointer;
+  }
+
+  label.margin-toggle:not(.sidenote-number) {
+    display: none;
+  }
+
+  .margin-toggle {
+    display: none;
+  }
+
+  @media (max-width: 768px) {
+    label.margin-toggle:not(.sidenote-number) {
+      display: inline;
+      cursor: pointer;
+    }
+
+    .sidenote,
+    .marginnote {
+      display: none;
+    }
+
+    /* Use adjacent sibling selectors to target the correct sidenote */
+    .margin-toggle:checked + .sidenote-number + .sidenote,
+    .margin-toggle:checked + .sidenote-number + .marginnote {
+      display: block;
+      float: left;
+      left: 1rem;
+      clear: both;
+      width: 95%;
+      margin: 1rem 2.5%;
+      vertical-align: baseline;
+      position: relative;
+    }
+
+    label.sidenote-number {
+      cursor: pointer;
+    }
+  }
+
+  article {
+    counter-reset: sidenote-counter;
+  }
+
+  /* Highlight targeted sidenotes using same style as hover */
+  .sidenote:target,
+  .sidenote-number:target + .sidenote {
+    border-color: var(--color-primary);
+    background-color: rgba(0, 0, 0, 0.02);
+  }
+
+  .sidenote-number:target:after {
+    border-color: var(--color-primary);
+  }
 </style>
+
+<script>
+  document.addEventListener('astro:page-load', () => {
+    // Add bidirectional hover highlighting between sidenote numbers and sidenotes
+    const sidenoteNumbers = document.querySelectorAll('.sidenote-number');
+    const sidenotes = document.querySelectorAll('.sidenote');
+
+    // Create a map of sidenote IDs to their corresponding numbers
+    const sidenoteMap = new Map();
+    sidenoteNumbers.forEach((label) => {
+      const labelId = label.getAttribute('id');
+      if (!labelId) return;
+      const sidenoteId = labelId.replace('-ref', '');
+      sidenoteMap.set(sidenoteId, label);
+    });
+
+    // Add hover listeners to sidenotes to highlight their numbers
+    sidenotes.forEach((sidenote) => {
+      const sidenoteId = sidenote.getAttribute('id');
+      if (!sidenoteId) return;
+
+      const correspondingNumber = sidenoteMap.get(sidenoteId);
+      if (!correspondingNumber) return;
+
+      sidenote.addEventListener('mouseenter', () => {
+        correspondingNumber.classList.add('hover-linked');
+        sidenote.classList.add('hover-linked');
+      });
+
+      sidenote.addEventListener('mouseleave', () => {
+        correspondingNumber.classList.remove('hover-linked');
+        sidenote.classList.remove('hover-linked');
+      });
+    });
+
+    // Make sidenote numbers clickable - they link to the sidenote
+    sidenoteNumbers.forEach((label) => {
+      const labelId = label.getAttribute('id');
+      if (!labelId) return;
+
+      // Extract the sidenote ID from the label ID (e.g., "sn-1-ref" -> "sn-1")
+      const sidenoteId = labelId.replace('-ref', '');
+
+      (label as HTMLElement).style.cursor = 'pointer';
+      label.addEventListener('click', (e) => {
+        // On mobile (viewport width <= 768px), let the checkbox toggle naturally
+        // Don't prevent default or navigate
+        const isMobile = window.innerWidth <= 768;
+        if (isMobile) {
+          // Let the default checkbox toggle behavior happen
+          return;
+        }
+
+        e.preventDefault();
+
+        // Update hash to point to the sidenote, but scroll to show the label (reference point)
+        // since the sidenote floats next to it
+        window.location.hash = sidenoteId;
+
+        // Scroll to the label (reference point) so the sidenote is visible in the margin
+        setTimeout(() => {
+          label.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }, 50);
+      });
+    });
+
+    // Make sidenotes clickable - they link back to the reference
+    sidenotes.forEach((sidenote) => {
+      const sidenoteId = sidenote.getAttribute('id');
+      if (!sidenoteId) return;
+
+      const refId = `${sidenoteId}-ref`;
+
+      (sidenote as HTMLElement).style.cursor = 'pointer';
+      sidenote.addEventListener('click', (e) => {
+        // Don't trigger if clicking on a link inside the sidenote
+        if ((e.target as HTMLElement).tagName === 'A') return;
+
+        e.preventDefault();
+
+        // Update hash and scroll to reference
+        const targetRef = document.getElementById(refId);
+        if (targetRef) {
+          window.location.hash = refId;
+          // Use setTimeout to ensure hash is set before scrolling
+          setTimeout(() => {
+            targetRef.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          }, 50);
+        }
+      });
+    });
+
+    // Handle hash on page load - scroll to the target element
+    if (window.location.hash) {
+      const hash = window.location.hash.slice(1); // Remove the '#'
+      const targetElement = document.getElementById(hash);
+      if (targetElement) {
+        // Use setTimeout to ensure the page is fully rendered
+        setTimeout(() => {
+          targetElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }, 100);
+      }
+    }
+
+    // Add active highlighting based on URL hash
+    const handleHashChange = () => {
+      // Remove all previous active highlights
+      document.querySelectorAll('.active-highlight').forEach(el => {
+        el.classList.remove('active-highlight');
+      });
+
+      const hash = window.location.hash.slice(1);
+      if (!hash) return;
+
+      // Try to find the sidenote span first (since that's what we navigate to)
+      let sidenoteElement = document.querySelector(`.sidenote[id="${hash}"]`);
+      let numberElement = document.getElementById(`${hash}-ref`);
+
+      // If sidenote found, highlight both
+      if (sidenoteElement && numberElement) {
+        sidenoteElement.classList.add('active-highlight');
+        numberElement.classList.add('active-highlight');
+        return;
+      }
+
+      // Otherwise, check if hash is a reference (ends with -ref)
+      if (hash.endsWith('-ref')) {
+        const sidenoteId = hash.replace('-ref', '');
+        sidenoteElement = document.querySelector(`.sidenote[id="${sidenoteId}"]`);
+        numberElement = document.getElementById(hash);
+
+        if (sidenoteElement && numberElement) {
+          sidenoteElement.classList.add('active-highlight');
+          numberElement.classList.add('active-highlight');
+        }
+      }
+    };
+
+    // Run on load and when hash changes
+    handleHashChange();
+    window.addEventListener('hashchange', handleHashChange);
+  });
+</script>
