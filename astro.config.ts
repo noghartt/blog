@@ -11,6 +11,7 @@ import path from 'path';
 import { rehypePluginLinkHeading } from './plugins/rehypePluginLinkHeading';
 import { rehypePluginTableWrapper } from './plugins/rehypePluginTableWrapper';
 import { remarkPluginReadingTime } from './plugins/remarkPluginReadingTime';
+import { remarkPluginSidenotes } from './plugins/remarkPluginSidenotes';
 
 const BLOG_DIR = './src/content/blog';
 
@@ -59,6 +60,7 @@ export default defineConfig({
     remarkPlugins: [
       remarkMath,
       remarkPluginReadingTime,
+      remarkPluginSidenotes,
     ],
     rehypePlugins: [
       rehypeKatex,
