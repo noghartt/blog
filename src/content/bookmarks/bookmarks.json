@@ -1,6 +1,34 @@
 {
-  "lastUpdate": "2025-11-03T00:10:35.874Z",
+  "lastUpdate": "2025-11-06T00:10:36.005Z",
   "data": [
+    {
+      "id": "01k98y4ka34scqgswknj0xzyfe",
+      "title": "How to Get Meaningful Feedback on Your Design Document",
+      "url": "https://refactoringenglish.com/chapters/useful-feedback-on-design-docs/",
+      "savedAt": "2025-11-05T02:39:36.770000+00:00",
+      "description": "Write your design doc so early sections are clear to every reader.  \nGive reviewers time to read and comment, fix wording with one reviewer first, and use good diagrams and commenting tools.  \nResolve remaining issues in a focused meeting and update the doc with final decisions.",
+      "tags": []
+    },
+    {
+      "id": "01k950axqb8gbb7xdnf9sxqfq5",
+      "title": "Is Systems Research Really Just About Making Numbers Bigger?",
+      "url": "https://brooker.co.za/blog/2025/10/12/barbarians.html",
+      "savedAt": "2025-11-03T14:01:03.467000+00:00",
+      "description": "Systems research is more than just improving performance numbers; it requires choosing important problems to solve. AI can help automate optimizations but can't replace the need for insight and vision. The future of systems research depends on focusing on meaningful challenges, not just chasing bigger numbers.",
+      "tags": [
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "01k94zmhd1yt507prb88xfz72t",
+      "title": "If you don't tinker, you don't have taste",
+      "url": "https://seated.ro/blog/tinkering-a-lost-art",
+      "savedAt": "2025-11-03T13:48:49.953000+00:00",
+      "description": "Tinkering—trying things for fun, not just utility—builds skill and understanding.  \nDoing small experiments and discarding what you don't like develops personal taste.  \nTaste helps you spot mediocre from excellent, so keep exploring and breaking things.",
+      "tags": [
+        "interesting"
+      ]
+    },
     {
       "id": "01k90v2gqjhwdmp3wmnp53eh31",
       "title": "Metastability and Distributed Systems",
@@ -303,7 +331,8 @@
       "savedAt": "2025-11-01T15:20:53.504000+00:00",
       "description": "Adding automation to improve reliability increases system complexity and creates new, rarer but harsher failure modes. AWS’s outage showed how health-check automation and delayed network state caused cascading DNS failovers and long recovery. Teams must invest both in robust automation and in resilience — human-run controls, capacity, and expertise to handle surprises.",
       "tags": [
-        "for-later"
+        "cs/distsys",
+        "systems-theory"
       ]
     },
     {
