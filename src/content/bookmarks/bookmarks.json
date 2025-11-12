@@ -1,13 +1,551 @@
 {
-  "lastUpdate": "2025-11-06T00:10:36.005Z",
+  "lastUpdate": "2025-11-12T00:11:36.893Z",
   "data": [
+    {
+      "id": "01k9nn5q44sdkw61qn3se69wp3",
+      "title": "Your computer is a distributed system",
+      "url": "https://catern.com/compdist.html",
+      "savedAt": "2025-11-10T01:13:03.876000+00:00",
+      "description": "Most computers are essentially a distributed system internally, and provide their more familiar programming interface as an abstraction on top of that.",
+      "tags": [
+        "hardware",
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "01k9ncgd7drs05wyrhyn1jj8h8",
+      "title": "Reproducing the AWS Outage Race Condition with a Model Checker",
+      "url": "https://wyounas.github.io/aws/concurrency/2025/10/30/reproducing-the-aws-outage-race-condition-with-model-checker/",
+      "savedAt": "2025-11-09T22:41:37.005000+00:00",
+      "description": "Welcome to Waqas' blog",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k9ncg3g8932kmz3j2km8ba8m",
+      "title": "\"You Don't Need Kafka, Just Use Postgres\" Considered Harmful",
+      "url": "https://www.morling.dev/blog/you-dont-need-kafka-just-use-postgres-considered-harmful/",
+      "savedAt": "2025-11-09T22:41:27.048000+00:00",
+      "description": "\nLooking to make it to the front page of HackerNews? Then writing a post arguing that \"Postgres is enough\", or why \"you don’t need Kafka at your scale\" is a pretty failsafe way of achieving exactly that. No matter how often it has been discussed before, this topic is always doing well. And sure, what’s not to love about that? I mean, it has it all: Postgres, everybody’s most favorite RDBMS—​check! Keeping things lean and easy—​sure, count me in! A somewhat spicy take—​bring it on!\n",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k9ncfkmmcb71t8tretkkbp27",
+      "title": "Why 'Functor' Doesn't Matter",
+      "url": "https://www.parsonsmatt.org/2019/08/30/why_functor_doesnt_matter.html",
+      "savedAt": "2025-11-09T22:41:10.804000+00:00",
+      "description": "Names in programming are pointers, not explanations. Calling Functor something else wouldn’t make the idea simpler because concepts must be learned, not renamed. Good names help find and remember ideas, but they can’t transmit meaning by themselves.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k9ncf6jp1160kfp3sfbym7pd",
+      "title": "Things you can do with diodes",
+      "url": "https://lcamtuf.substack.com/p/things-you-can-do-with-diodes",
+      "savedAt": "2025-11-09T22:40:57.430000+00:00",
+      "description": "Paying homage to the component we usually don't think about.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k9nceqm4zh5aer9zav6vyrdx",
+      "title": "\"Systems that run forever self-heal and scale\" by Joe Armstrong (2013)",
+      "url": "https://www.youtube.com/watch?v=cNICGEwmXLU",
+      "savedAt": "2025-11-09T22:40:42.116000+00:00",
+      "description": "How can we build large self-healing scalable systems?\n\nIn this talk I will outline the architectural principles needed for building scalable fault-tolerant systems. I'll talk about building systems from small isolated parallel components which communicate though well-defined protocols.\n\nPrograms will have errors in them and will fail so I'll talk about detecting and correcting errors at run-time. Programs will evolve with time, so I'll talk about how they be changed while they are running. I'll talk about Erlang and how it relates to these architectural principles.\n\nJoe Armstrong (https://twitter.com/joeerl)\n\nJoe Armstrong is one of the inventors of Erlang. When at the Ericsson computer science lab in 1986, he was part of the team who designed and implemented the first version of Erlang. He has written several Erlang books including Programming Erlang Software for a Concurrent World. Joe held the first ever Erlang course and has taught Erlang to hundreds of programmers and held many lectures and keynotes describing the technology.\n\nJoe has a PhD in computer science from the Royal Institute of Technology in Stockholm, Sweden and is an expert in the construction of fault tolerant systems. Joe was the chief software architect of the project which produced the Erlang OTP system. He has worked as an entrepreneur in one of the first Erlang startups (Bluetail) and has worked for 30 years in industry and research.",
+      "tags": [
+        "for-later",
+        "type/video"
+      ]
+    },
+    {
+      "id": "01k9ncegd5ncke009np70b7m8h",
+      "title": "Locality, and Temporal-Spatial Hypothesis",
+      "url": "https://brooker.co.za/blog/2025/10/05/locality.html",
+      "savedAt": "2025-11-09T22:40:34.725000+00:00",
+      "description": "My name is Marc Brooker. I've been writing code, reading code, and living vicariously through computers for as long as I can remember.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k9ncd03mjs8mh76r012gjbpt",
+      "title": "SuperMemo Guru",
+      "url": "https://supermemo.guru/wiki/SuperMemo_Guru",
+      "savedAt": "2025-11-09T22:39:45.268000+00:00",
+      "description": "The content on this site covers a wide range of topics including memory, learning, sleep, creativity, problem solving, brain science, health, and education. It includes information on various subjects such as the problem with schooling, the importance of pleasure in learning, the impact of sleep on learning and creativity, the misconceptions about intelligence, and the benefits of spaced repetition. The site also debunks myths and provides information on SuperMemo, a learning method.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k9nc842yck519mhsygy27fh2",
+      "title": "Fast LLM Inference From Scratch",
+      "url": "https://andrewkchan.dev/posts/yalm.html",
+      "savedAt": "2025-11-09T22:37:05.501000+00:00",
+      "description": "The text discusses optimizing large language model (LLM) inference on both CPU and GPU. It highlights improvements through multithreading, weight quantization, and better matrix multiplication techniques, achieving significant increases in throughput. The author emphasizes that further optimizations are needed to reach even higher performance levels.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k9nc7v5jyy7bvc0w4ccgjbd6",
+      "title": "Platonism in the Philosophy of Mathematics",
+      "url": "https://plato.stanford.edu/entries/platonism-mathematics/#WhatMathPlat",
+      "savedAt": "2025-11-09T22:36:56.370000+00:00",
+      "description": "Platonism about mathematics (or mathematical platonism) is the metaphysical view that there are abstract mathematical objects whose existence is independent of us and our language, thought, and practices.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k9nc7hhjnc2hpw3y11jtp8hc",
+      "title": "Proof Theory",
+      "url": "https://plato.stanford.edu/entries/proof-theory/",
+      "savedAt": "2025-11-09T22:36:46.514000+00:00",
+      "description": "Proof theory is not an esoteric technical subject that was invented to support a formalist doctrine in the philosophy of mathematics; rather, it has been developed as an attempt to analyze aspects of mathematical experience and to isolate, possibly overcome, methodological problems in the foundations of mathematics.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k9nbxrc51bkqnwafykdc3v8n",
+      "title": "On becoming competitive when joining a new company",
+      "url": "https://ludwigabap.com/posts/on-becoming-competitive-when-joining-a-new-company/",
+      "savedAt": "2025-11-09T22:31:25.829000+00:00",
+      "description": "When joining a new company, work fast, do good work, and pour extra time into learning the code, systems, and people. Build real relationships with key contributors and allies so they trust and vouch for you. With knowledge, trust, and consistent delivery you earn the agency to work on the things you care about.",
+      "tags": [
+        "career"
+      ]
+    },
+    {
+      "id": "01k9nbpyr53kwtdy8sem21fzv2",
+      "title": "sled theoretical performance guide",
+      "url": "https://sled.rs/perf",
+      "savedAt": "2025-11-09T22:27:42.980000+00:00",
+      "description": "This document is a theoretical performance guide for Sled, a database system. It emphasizes the importance of aligning latency and throughput considerations, as they often conflict with each other. The guide highlights the need for meaningful metrics, such as latency, throughput, utilization, and saturation, and the importance of using low-latency dependencies for low-latency workloads and high-throughput dependencies for high-throughput workloads. The document also discusses the significance of experimental design in measuring performance and the impact of parallelism on system efficiency. It concludes with a reference to Amdahl's law, which states that only part of a program can be sped up through parallelization.",
+      "tags": [
+        "cs",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k9nbfyr2fbc2v8c9fpeb7hcp",
+      "title": "Jana's cozy corner",
+      "url": "https://jsteuernagel.de/posts/a-prison-of-my-own-making/",
+      "savedAt": "2025-11-09T22:23:53.602000+00:00",
+      "description": "The author feels overwhelmed by complex tech setups that kill the joy of homelabbing. They decide to simplify by avoiding strict tools and focusing on easy, practical solutions. Their new rule is to accept compromise and keep things simple for personal use.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k9nbfn0rjw5qeb72nzeytc5h",
+      "title": "Taurus Database: How to be Fast, Available, and Frugal in the Cloud",
+      "url": "https://muratbuffalo.blogspot.com/2025/11/taurus-database-how-to-be-fast.html",
+      "savedAt": "2025-11-09T22:23:43.639000+00:00",
+      "description": "TaurusDB is a cloud database that separates compute and storage to save resources and improve scaling. It uses different replication methods for logs and pages to balance durability and performance. This design makes the system faster, more available, and cost-effective in the cloud.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k9nbff89q1xxmpn5fw8wcp11",
+      "title": "How many options fit into a boolean?",
+      "url": "https://herecomesthemoon.net/2025/11/how-many-options-fit-into-a-boolean/",
+      "savedAt": "2025-11-09T22:23:37.737000+00:00",
+      "description": "Funny notes on niche optimizations in Rust, and a few updates.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k9nbf9mhmv33718y5hqhjf7p",
+      "title": "What is my fuzzer doing?",
+      "url": "https://tweedegolf.nl/en/blog/154/what-is-my-fuzzer-doing",
+      "savedAt": "2025-11-09T22:23:31.985000+00:00",
+      "description": "Fuzz testing is incredibly useful: it has caught many a bug during the development of NTP packet parsing and gzip/bzip2 (de)compression.\n\nBut I've always been unsatisfied with the fuzzer being a b ...",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k9nbey8es7zc2vx95wbtkc72",
+      "title": "The Tinkerings of Robert Noyce",
+      "url": "https://web.stanford.edu/class/e145/2007_fall/materials/noyce.html",
+      "savedAt": "2025-11-09T22:23:20.333000+00:00",
+      "description": "Robert Noyce co-invented the integrated circuit, which helped create Silicon Valley and the modern computer industry. He believed in giving employees stock options so everyone could succeed based on talent. Noyce’s background as a small-town engineer shaped his confident, hands-on leadership style.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k9nbc7njyvvyz1w7xnfndsb4",
+      "title": "From web developer to database developer in 10 years",
+      "url": "https://notes.eatonphil.com/2025-02-15-from-web-developer-to-database-developer-in-10-years.html",
+      "savedAt": "2025-11-09T22:21:51.666000+00:00",
+      "description": "From web developer to database developer in 10 years",
+      "tags": [
+        "for-later",
+        "cs/database"
+      ]
+    },
+    {
+      "id": "01k9nb9zc28zfspbk965zkh445",
+      "title": "becoming a compiler engineer",
+      "url": "https://rona.substack.com/p/becoming-a-compiler-engineer",
+      "savedAt": "2025-11-09T22:20:37.634000+00:00",
+      "description": "Rona Wang landed a compiler engineer job after months of targeted study and interviews. Compiler engineering is niche, focused on implementing and optimizing programming languages, and has few junior openings. She shares tips from her coursework, prep, and persistence to help others break into the field.",
+      "tags": [
+        "for-later",
+        "cs/compilers"
+      ]
+    },
+    {
+      "id": "01k9nb9rew9pa9evcafh48j65d",
+      "title": "\"Good engineering management\" is a fad",
+      "url": "https://lethain.com/good-eng-mgmt-is-a-fad/",
+      "savedAt": "2025-11-09T22:20:30.555000+00:00",
+      "description": "The author argues that ideas of “good engineering management” change with business fads, not moral progress. Core skills like execution and growth skills like taste and long-term thinking matter across eras. Managers should build a broad skill base and choose roles that fit their energy and life priorities.",
+      "tags": [
+        "for-later",
+        "management"
+      ]
+    },
+    {
+      "id": "01k9nb9bbh2mam98h483h7a5j2",
+      "title": "Game design is simple, actually",
+      "url": "https://www.raphkoster.com/2025/11/03/game-design-is-simple-actually/",
+      "savedAt": "2025-11-09T22:20:17.137000+00:00",
+      "description": "Games are about posing problems that players can learn to solve. Good games give feedback, variation, and just enough uncertainty for deep mastery. Designing them is simple in concept but hard to get right for new players.",
+      "tags": [
+        "for-later",
+        "cs/gamedev"
+      ]
+    },
+    {
+      "id": "01k9nb938dtpy14baygjgr329e",
+      "title": "Query Compilation Isn't as Hard as You Think",
+      "url": "https://databasearchitects.blogspot.com/2025/11/query-compilation-isnt-as-hard-as-you.html",
+      "savedAt": "2025-11-09T22:20:08.845000+00:00",
+      "description": "Query compilation is simpler and more flexible than often claimed and can be easier to implement than vectorized engines. A small teaching framework called p2c generates readable C++ from operator trees and achieves near DuckDB single-threaded speed. p2c is compact, good for learning and prototyping, and its code is on GitHub.",
+      "tags": [
+        "for-later",
+        "cs/database"
+      ]
+    },
+    {
+      "id": "01k9nb8wn4qa0p3e0mqhc3kb3y",
+      "title": "When did people favor composition over inheritance?",
+      "url": "https://www.sicpers.info/2025/11/when-did-people-favor-composition-over-inheritance/",
+      "savedAt": "2025-11-09T22:20:02.084000+00:00",
+      "description": "\"Favor composition over inheritance\" comes from the Gang of Four design patterns and argues using objects at runtime (black-box reuse) is more flexible than static class inheritance (white-box reuse). Its value depends on language features and design discipline, since visibility, runtime introspection, and static checking change the trade-offs. Also, composition is not the only alternative—polymorphism, grouping, or passing procedures (lambdas/blocks) can be better depending on when relationships are known.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k9nb7n1s8b0jyygm2mws85tv",
+      "title": "Metastable failures in the wild",
+      "url": "https://muratbuffalo.blogspot.com/2023/09/metastable-failures-in-wild.html",
+      "savedAt": "2025-11-09T22:19:21.528000+00:00",
+      "description": "The paper explores metastable failures in systems, where temporary overload can become permanent even after the triggering event is resolved, leading to bad performance and unavailability. It categorizes metastable failures based on load and capacity interactions, showing how interventions like load shedding can help recover from such states. Real-world incident reports highlight common triggers like load spikes and sustaining effects like retries, emphasizing the importance of monitoring and proactive intervention to prevent and mitigate metastable failures.",
+      "tags": [
+        "for-later",
+        "cs/distsys",
+        "systems-theory"
+      ]
+    },
+    {
+      "id": "01k9nb75teay4hzr4j247bcbpj",
+      "title": "Recursive macros in C, demystified (once the ugly crying stops 😭)",
+      "url": "https://h4x0r.org/big-mac-ro-attack/",
+      "savedAt": "2025-11-09T22:19:05.934000+00:00",
+      "description": "C macros are powerful but their expansion rules block straightforward recursion and iteration, making them hard to use. The author shows tricks (EMPTY, POSTPONE, EVAL) to defer expansion and implement recursive behaviors like counting or mapping over arguments. These techniques work around the preprocessor’s limits but are tricky and nonintuitive.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k9nb6xx2st74054cstsv0ajj",
+      "title": "How Your Brain Creates ‘Aha’ Moments and Why They Stick | Quanta Magazine",
+      "url": "https://www.quantamagazine.org/how-your-brain-creates-aha-moments-and-why-they-stick-20251105/",
+      "savedAt": "2025-11-09T22:18:57.826000+00:00",
+      "description": "Scientists found that sudden “aha” moments happen when brain areas for vision, emotion, and memory (VOTC, amygdala, hippocampus) shift how they represent information.  \nThese insight events feel sudden, are often emotional and certain, and make memories stronger.  \nResearchers hope to use this knowledge to study creativity and improve learning.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k9nb6azfd2y1m4b30d5apsaj",
+      "title": "Beauty as Residue: What Math Taught Me About Code",
+      "url": "https://vaibhawvipul.github.io/2025/11/04/Beauty-as-residue.html",
+      "savedAt": "2025-11-09T22:18:38.447000+00:00",
+      "description": "Beauty in math and code comes from simplicity and clarity, not decoration.  \nFirst define the right problem, then make the solution minimal and understandable.  \nTrue beauty is a residue: what remains after removing everything unnecessary.",
+      "tags": [
+        "cs",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k9nb60xvx48hr1tq1e2cscks",
+      "title": "Immutable by Design: The Deep Tech Behind Tigris Bucket Forking",
+      "url": "https://www.tigrisdata.com/blog/bucket-forking-deep-dive/",
+      "savedAt": "2025-11-09T22:18:28.155000+00:00",
+      "description": "Tigris represents time as a single 64-bit number and stores each object as an append-only write-ahead log. This lets the system take instant, copy-on-write snapshots of buckets and fork new bucket timelines without copying data. Forks and snapshots make deletions recoverable and let you safely share or modify data without affecting the source.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k9nb5r1ybxxadenbm0fqncda",
+      "title": "Inverted Index of Bloom Filters",
+      "url": "https://notpeerreviewed.com/blog/bloom-filters/",
+      "savedAt": "2025-11-09T22:18:19.070000+00:00",
+      "description": "Bloom-filter indexes pack words compactly per document, making small-site search tiny and fast. But they store each document's words separately, so space grows with documents and soon exceeds an inverted index. Thus bloom-filter indexing only wins for few documents; for large corpora an inverted index is better.",
+      "tags": [
+        "for-later",
+        "cs/database"
+      ]
+    },
+    {
+      "id": "01k9nb5042aj70mpb0jjktnefr",
+      "title": "An individual can change an organization",
+      "url": "https://notes.eatonphil.com/2025-11-03-an-individual-can-change-an-organization.html",
+      "savedAt": "2025-11-09T22:17:54.562000+00:00",
+      "description": "A single determined person can change an organization. You do not need seniority to make the right decision. Be prepared, persistent, and pick your battles.",
+      "tags": [
+        "career",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k9nb1xehefpdx5dpfrrgyphe",
+      "title": "HoTT for Dummies",
+      "url": "http://www.chriswarbo.net/blog/2015-09-11-hott_for_dummies.html",
+      "savedAt": "2025-11-09T22:16:13.521000+00:00",
+      "description": "Homotopy Type Theory (HoTT) sees types as spaces and equalities as paths between points, allowing a new way to understand equality beyond traditional set theory. It uses a hierarchy of type levels to avoid inconsistencies and supports advanced concepts like function equality and univalence, which helps reason about isomorphic structures. Although some features like univalence are not fully implemented yet, HoTT offers powerful tools for programming and proving mathematical theorems.",
+      "tags": [
+        "for-later",
+        "type-theory"
+      ]
+    },
+    {
+      "id": "01k9nb0g5pfxfnxqagztyfs32y",
+      "title": "Evolution as Backstop for Reinforcement Learning",
+      "url": "https://gwern.net/backstop",
+      "savedAt": "2025-11-09T22:15:27.158000+00:00",
+      "description": "Pain exists as a hardwired signal because purely reward‑based learning would let organisms unknowingly harm themselves. Without painful qualia, people would ignore injuries and make lethal mistakes despite curiosity or planning. Evolution keeps pain as a reliable backstop because individual intelligence and learning are too limited to safely replace it.",
+      "tags": [
+        "decision-theory",
+        "philosophy/rationalism"
+      ]
+    },
+    {
+      "id": "01k9nazqdb47wbn8tjhaq72g43",
+      "title": "Ticker: Don’t Die of Heart Disease",
+      "url": "https://myticker.com/",
+      "savedAt": "2025-11-09T22:15:01.803000+00:00",
+      "description": "Heart disease is a silent killer, but it can be prevented with simple steps that everyone can access. Many people don't realize the importance of asking for specific heart health tests from their doctors. By becoming informed and proactive about heart health, you can take control and avoid dying from heart disease.",
+      "tags": [
+        "health",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k9naxawhnnhkwy0jp4m4qhxp",
+      "title": "Are We Really Engineers?",
+      "url": "https://hillelwayne.com/post/are-we-really-engineers/",
+      "savedAt": "2025-11-09T22:13:43.441000+00:00",
+      "description": "The article explores whether software engineering qualifies as \"real\" engineering. Many argue that software engineers lack the standards and formal training of traditional engineers, but the author finds that perceptions of engineering are subjective. Ultimately, the gap between software development and software engineering is smaller than between other trades and their engineering counterparts.",
+      "tags": [
+        "cs",
+        "for-later",
+        "software-engineering"
+      ]
+    },
+    {
+      "id": "01k9natx3jy5s8kr2vfgd9nvd8",
+      "title": "We built a vector search engine that lets you choose precision at query time",
+      "url": "https://clickhouse.com/blog/qbit-vector-search",
+      "savedAt": "2025-11-09T22:12:23.794000+00:00",
+      "description": "ClickHouse created QBit, a column type that stores floats as bit planes.  \nAt query time you choose how many top bits to read, trading precision for much faster vector search without redoing data.  \nThis cuts I/O and CPU cost while keeping high accuracy, even with very few bits.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k9natft3fcr9x0zs0j7e5r02",
+      "title": "What's the deal with Euler's identity?",
+      "url": "https://lcamtuf.substack.com/p/whats-the-deal-with-eulers-identity",
+      "savedAt": "2025-11-09T22:12:10.179000+00:00",
+      "description": "Euler’s identity eiπ+1=0 links five important constants by showing e^(iπ) = −1. It follows from Euler’s formula eiα = cosα + i·sinα, which describes rotation in the plane. The note gives an intuitive geometric view of complex numbers and why e and π appear together.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k9n9c4mraaxk4aar5ksk28hx",
+      "title": "How Airbus took off",
+      "url": "https://worksinprogress.co/issue/how-airbus-took-off/",
+      "savedAt": "2025-11-09T21:46:51.416000+00:00",
+      "description": "Airbus succeeded by combining strong central leadership, customer-focused design, and state support.  \nThey built versatile, fuel-efficient aircraft like the A300 and A320 that airlines wanted.  \nTheir disciplined industrial strategy and engineering culture let them overtake Boeing.",
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "id": "01k9n8j0zpdxxhnbwsby3abest",
+      "title": "The Learning Loop and LLMs",
+      "url": "https://martinfowler.com/articles/llm-learning-loop.html",
+      "savedAt": "2025-11-09T21:32:35.702000+00:00",
+      "description": "Software development is a learning loop: you must try, fail, and iterate to discover the right design. LLMs and starter kits speed setup and translation between languages but can hide crucial context and stunt learning. True long-term velocity comes from developers internalizing how systems work, not from shortcuts that bypass the learning loop.",
+      "tags": [
+        "learning",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k9mzwt2wmrth7vt6m12xbs69",
+      "title": "Building a CI/CD Pipeline Runner from Scratch in Python",
+      "url": "https://muhammadraza.me/2025/building-cicd-pipeline-runner-python/",
+      "savedAt": "2025-11-09T19:01:11.900000+00:00",
+      "description": "The article shows how to build a CI/CD pipeline runner in Python, evolving from a single-job executor to a production-ready tool. It adds stages, parallel execution, job dependencies, artifact passing, branch filtering, timeouts, and better error handling. The project demonstrates core runner concepts that full platforms extend with distributed execution, caching, UI, secrets, and more.",
+      "tags": [
+        "cs/devops",
+        "cs/programming-languages/python"
+      ]
+    },
+    {
+      "id": "01k9mzq82dxwyzgncfkvjmjte4",
+      "title": "Angel Investors, A Field Guide",
+      "url": "https://www.jeanyang.com/posts/angel-investors-a-field-guide/",
+      "savedAt": "2025-11-09T18:58:09.613000+00:00",
+      "description": "Angel investors can offer more than money; they provide valuable advice, connections, and support to founders. Choosing strategic angels who understand your business is better than relying on friends or celebrity investors. Building strong relationships with angels helps founders grow and succeed, especially during fundraising.",
+      "tags": [
+        "startup",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k9mxxwm3xwsv9wrggvwj0e06",
+      "title": "Yes you should understand backprop",
+      "url": "https://karpathy.medium.com/yes-you-should-understand-backprop-e2f06eab496b",
+      "savedAt": "2025-11-09T18:26:50.115000+00:00",
+      "description": "Backprop is a leaky abstraction: frameworks hide important failure modes. If you don’t understand the backward pass you’ll miss problems like vanishing gradients, dead ReLUs, exploding RNN gradients, and incorrect gradient clipping. Learn and practice backprop to build and debug networks effectively.",
+      "tags": [
+        "cs/ai",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01k9msmybjdm2apm8qgxbwjv95",
+      "title": "E. W. Dijkstra Archive",
+      "url": "https://www.cs.utexas.edu/~EWD/welcome.html",
+      "savedAt": "2025-11-09T17:12:02.674000+00:00",
+      "description": "The University of Texas hosts the E. W. Dijkstra Archive, a large online collection of Dijkstra’s manuscripts, notes, correspondence, and recordings. Many informal EWD papers, once privately circulated, are now available as PDFs, some transcribed or translated, with indexes and summaries. The archive preserves his work, links related materials, and invites contributions and corrections.",
+      "tags": [
+        "cs",
+        "computer-history"
+      ]
+    },
+    {
+      "id": "01k9kah3x21e6r98hwy6wfz837",
+      "title": "Trait-Constrained Enums in Rust",
+      "url": "https://blog.csongor.co.uk/gadts-in-rust/",
+      "savedAt": "2025-11-09T03:28:34.210000+00:00",
+      "description": "The post shows how to encode GADT-like constructor-local type equalities and trait constraints from Haskell in Rust. It uses zero-sized equality witnesses (Is<A,B>) and trait witnesses (CanAdd<T>) stored in enum variants to refine types per constructor. This lets a Rust eval function safely handle refined types and constrained operations via witness-driven dispatch.",
+      "tags": [
+        "cs/pl-theory",
+        "cs/programming-languages/rust"
+      ]
+    },
+    {
+      "id": "01k9gpkdm0r0zm9w6dwnwq6kvh",
+      "title": "TLA+ Modeling of AWS outage DNS race condition",
+      "url": "https://muratbuffalo.blogspot.com/2025/11/tla-modeling-of-aws-outage-dns-race.html",
+      "savedAt": "2025-11-08T03:01:49.312000+00:00",
+      "description": "An AWS DynamoDB outage was triggered by a DNS automation bug that exposed deeper systemic fragilities. The author models a race condition in the enactor logic using TLA+, showing that splitting the enactor into three substeps reveals a time-of-check-to-time-of-update bug. An interactive Spectacle trace reproduces the violation where a still-active plan gets deleted due to concurrent enactor interleaving.",
+      "tags": [
+        "cs/distsys",
+        "math/formal-methods"
+      ]
+    },
+    {
+      "id": "01k9gp5fz6r4r52hss4tdy31yc",
+      "title": "Absurd Workflows: Durable Execution With Just Postgres",
+      "url": "https://lucumr.pocoo.org/2025/11/3/absurd-workflows/",
+      "savedAt": "2025-11-08T02:54:12.966000+00:00",
+      "description": "Armin Ronacher built Absurd, a tiny SQL-only library that implements durable workflows using just Postgres. It stores task state as checkpoints and uses Postgres queues so tasks survive crashes, suspends, and retries. The point: durable execution is simple and doesn’t need extra services or complex systems.",
+      "tags": [
+        "cs/distsys",
+        "cs/database"
+      ]
+    },
+    {
+      "id": "01k9gp1dn1134qfqgdgndzdgyh",
+      "title": "An Illustrated Introduction to Linear Algebra, Chapter 2",
+      "url": "https://www.ducktyped.org/p/linear-algebra-chapter-2-the-dot",
+      "savedAt": "2025-11-08T02:51:59.521000+00:00",
+      "description": "A dot product multiplies corresponding entries of two vectors and then adds the results. It is a weighted sum used to combine scores or compute expected value. This operation is simple but important for matrix multiplication.",
+      "tags": [
+        "math"
+      ]
+    },
+    {
+      "id": "01k9gnt4ywveb2tpn282bz4y1w",
+      "title": "In What Sense Is Life Suffering?",
+      "url": "https://www.astralcodexten.com/p/in-what-sense-is-life-suffering",
+      "savedAt": "2025-11-08T02:48:01.244000+00:00",
+      "description": "Scott Alexander explains a Buddhist idea that all mental states are degrees of suffering, not separate joy and pain. Nirvana is like absolute zero suffering, deeper than ordinary happiness. Meditative training can reduce mental \"heat\" toward that blissful baseline.",
+      "tags": [
+        "philosophy/rationalism"
+      ]
+    },
+    {
+      "id": "01k9gj3y3pz0bbrzqcf76vf18w",
+      "title": "I don't want to do front-end anymore",
+      "url": "https://lobste.rs/s/vxasiq/i_don_t_want_do_front_end_anymore#c_02zjbc",
+      "savedAt": "2025-11-08T01:43:27.606000+00:00",
+      "description": "The author argues that complaints about modern front-end tooling and JavaScript are often exaggerated or misleading. They say TypeScript, bundlers, and package managers exist to solve real problems, not because of community stupidity. The real issue is burnout from constant tool churn, but leaving should be done without denigrating others.",
+      "tags": []
+    },
+    {
+      "id": "01k9dvt056t1vmqn26cxs8h7x0",
+      "title": "Why Your Best Engineers Are Interviewing Elsewhere",
+      "url": "https://codegood.co/writing/why-your-best-engineers-are-interviewing-elsewhere",
+      "savedAt": "2025-11-07T00:35:04.486000+00:00",
+      "description": "Executives lose great engineers because bad news is filtered out before it reaches them. Middle managers and hierarchy suppress or scrub problems, so leaders only learn of issues after staff have already left. Regular skip-level conversations and fixing raised problems early are cheaper than replacing talent.",
+      "tags": [
+        "career",
+        "startup"
+      ]
+    },
+    {
+      "id": "01k9bf9d361qb6dzwtn745zsbn",
+      "title": "A list of books and essays that I love",
+      "url": "https://www.henrikkarlsson.xyz/p/good-books",
+      "savedAt": "2025-11-06T02:17:48.902000+00:00",
+      "description": "Henrik Karlsson describes how certain writers became like close friends and shaped his life and work. Reading Knausgård taught him to write honestly about everyday reality without artifice. Dostoevsky (via Bakhtin) taught him to respect others' inner voices and embrace complexity and freedom.",
+      "tags": [
+        "books",
+        "favorites"
+      ]
+    },
     {
       "id": "01k98y4ka34scqgswknj0xzyfe",
       "title": "How to Get Meaningful Feedback on Your Design Document",
       "url": "https://refactoringenglish.com/chapters/useful-feedback-on-design-docs/",
       "savedAt": "2025-11-05T02:39:36.770000+00:00",
       "description": "Write your design doc so early sections are clear to every reader.  \nGive reviewers time to read and comment, fix wording with one reviewer first, and use good diagrams and commenting tools.  \nResolve remaining issues in a focused meeting and update the doc with final decisions.",
-      "tags": []
+      "tags": [
+        "for-later"
+      ]
     },
     {
       "id": "01k950axqb8gbb7xdnf9sxqfq5",
@@ -240,7 +778,8 @@
       "savedAt": "2025-11-01T15:33:49.678000+00:00",
       "description": "The author struggled with guilt over unfinished books and tried reading many at once. They learned Mortimer Adler’s inspectional reading—systematic skimming then superficial reading—to decide which books deserve full attention. This method reduced their to-read pile and eased the pressure to finish every book.",
       "tags": [
-        "for-later"
+        "books",
+        "reading"
       ]
     },
     {
@@ -9564,7 +10103,7 @@
       "id": "01je0493b69b6ca4br8423e1hd",
       "title": "How to do distributed locking",
       "url": "https://martin.kleppmann.com/2016/02/08/how-to-do-distributed-locking.html",
-      "savedAt": "2024-12-01T03:29:56.582000+00:00",
+      "savedAt": "2025-11-10T21:39:48.224000+00:00",
       "description": "The Redlock algorithm aims to provide fault-tolerant distributed locks using Redis, but it has significant limitations. For efficiency, simpler single-node locking is often sufficient, while for correctness, a more reliable system like ZooKeeper is recommended. Overall, Redlock is seen as overly complex and not safe enough for critical locking needs.",
       "tags": [
         "cs/distsys"
@@ -15540,6 +16079,7 @@
       "savedAt": "2024-07-28T01:57:42.188000+00:00",
       "description": "Bookmarking this so I can stop writing it over and over.",
       "tags": [
+        "for-later",
         "cs/distsys"
       ]
     },
