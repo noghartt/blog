@@ -1,6 +1,44 @@
 {
-  "lastUpdate": "2025-11-12T00:11:36.893Z",
+  "lastUpdate": "2025-11-19T00:11:39.862Z",
   "data": [
+    {
+      "id": "01kabd14kn0147kdnv3gg51ws5",
+      "title": "A 'small' vanilla Kubernetes install on NixOS",
+      "url": "https://stephank.nl/p/2025-11-17-a-small-vanilla-kubernetes-install-on-nixos.html",
+      "savedAt": "2025-11-18T11:54:02.741000+00:00",
+      "description": "This text explains how to set up a small Kubernetes cluster on NixOS using custom configurations and modules. It covers assigning node indexes, configuring networking, API server setup, and adding essential components like CoreDNS and kube-proxy. The guide also details how to manage credentials and automate services for smooth cluster operation.",
+      "tags": []
+    },
+    {
+      "id": "01kaah0953hkb52sqxmkgfcsbw",
+      "title": "Foundations for hacking on OCaml",
+      "url": "https://kcsrk.info/ocaml/2025/11/10/hacking/",
+      "savedAt": "2025-11-18T03:44:14.499000+00:00",
+      "description": "Many students lack practical systems skills needed to work on complex projects like the OCaml compiler. These skills come from hands-on experience with tools (build systems, debuggers, version control), which typical CS courses often don’t teach. The author lists courses and books to help bridge this gap and invites more suggestions.",
+      "tags": [
+        "cs/programming-languages/ocaml"
+      ]
+    },
+    {
+      "id": "01kaagqx0a07xydg0myg05904q",
+      "title": "You misunderstand what it means to be poor",
+      "url": "https://blog.ctms.me/posts/2025-11-14-being-poor-or-being-broke/",
+      "savedAt": "2025-11-18T03:39:39.914000+00:00",
+      "description": "Being broke is temporary and means you have just enough money to get by.  \nBeing poor is permanent scarcity where no small savings or extra work can close the gap.  \nAdvice for the broke (cancel subscriptions, DIY) misunderstands and doesn't help people who already live with no safety net.",
+      "tags": [
+        "life"
+      ]
+    },
+    {
+      "id": "01kaag4g19x6qhd53kwhwckkn3",
+      "title": "No Shorts Please! Hidden YouTube RSS Feed URLs",
+      "url": "https://blog.amen6.com/blog/2025/01/no-shorts-please-hidden-youtube-rss-feed-urls/",
+      "savedAt": "2025-11-18T03:29:04.041000+00:00",
+      "description": "YouTube Shorts started appearing in RSS feeds and filtering by duration broke when Shorts were allowed up to 3 minutes.  \nUse the playlist_id RSS URL: replace channel_id=UCabcdefgh with playlist_id=UULFabcdefgh to get a feed without Shorts.  \nThis and other handy playlist prefixes (e.g., UUSH for shorts) are undocumented by Google.",
+      "tags": [
+        "interesting"
+      ]
+    },
     {
       "id": "01k9nn5q44sdkw61qn3se69wp3",
       "title": "Your computer is a distributed system",
@@ -1033,7 +1071,8 @@
       "savedAt": "2025-11-01T15:10:41.317000+00:00",
       "description": "Anki is a tool that lets you choose to remember almost anything and keeps knowledge for the long term.  \nUsed well, it helps you deeply understand papers, books, and new fields by breaking ideas into small, memorable questions.  \nBe selective: focus on useful, reusable facts and avoid Ankifying everything.",
       "tags": [
-        "for-later"
+        "learning",
+        "favorites"
       ]
     },
     {
