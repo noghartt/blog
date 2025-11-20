@@ -1,6 +1,16 @@
 {
-  "lastUpdate": "2025-11-19T00:11:39.862Z",
+  "lastUpdate": "2025-11-20T00:11:23.482Z",
   "data": [
+    {
+      "id": "01kacs7wqrkeb1z1tj973sw7wn",
+      "title": "Britney Spears' Guide to Semiconductor Physics",
+      "url": "https://britneyspears.ac/lasers.htm",
+      "savedAt": "2025-11-19T00:46:41.400000+00:00",
+      "description": "Britney Spears is an expert in semiconductor physics and will explain important components that allow her music to be heard digitally. The website Splung.com Physics offers resources on various physics topics and aims to enhance its interactive features. They are looking for passionate collaborators to help write content for the site.",
+      "tags": [
+        "physics"
+      ]
+    },
     {
       "id": "01kabd14kn0147kdnv3gg51ws5",
       "title": "A 'small' vanilla Kubernetes install on NixOS",
