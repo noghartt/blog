@@ -1,6 +1,622 @@
 {
-  "lastUpdate": "2025-11-20T00:11:23.482Z",
+  "lastUpdate": "2025-11-23T00:11:51.516Z",
   "data": [
+    {
+      "id": "01kapz0eppmrvexhbv2st6agw6",
+      "title": "Maybe you’re not Actually Trying",
+      "url": "https://usefulfictions.substack.com/p/maybe-youre-not-actually-trying",
+      "savedAt": "2025-11-22T23:39:53.430000+00:00",
+      "description": "On selective agency in capable people",
+      "tags": [
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "01kapcn5skastphww57f774mqt",
+      "title": "Unusual circuits in the Intel 386's standard cell logic",
+      "url": "https://www.righto.com/2025/11/unusual-386-standard-cell-circuits.html",
+      "savedAt": "2025-11-22T18:19:09.491000+00:00",
+      "description": "The Intel 386 uses standard cell logic with computer-aided layout for its circuits. It includes unusual features like large multiplexers made from CMOS switches and a single transistor placed outside the standard cell columns. This design shows early use of automated methods that were advanced for its time.",
+      "tags": [
+        "hardware",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kap5gm57y8y3ben5hw87m6pq",
+      "title": "It's hard to build an oscillator",
+      "url": "https://lcamtuf.substack.com/p/its-hard-to-build-an-oscillator",
+      "savedAt": "2025-11-22T16:14:20.327000+00:00",
+      "description": "Especially if you want it to work.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kap5gc00mkbrvcbk5847y1ye",
+      "title": "The Art of Stupid",
+      "url": "https://thepalindrome.org/p/there-are-no-stupid-questions",
+      "savedAt": "2025-11-22T16:14:11.968000+00:00",
+      "description": "Why \"good students\" will never make great minds",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kap5g3zzf0atbh71nrwfgxa0",
+      "title": "Data Retention Policy Implementation – How and Why",
+      "url": "https://www.percona.com/blog/data-retention-policy-implementation-how-and-why/",
+      "savedAt": "2025-11-22T16:14:03.775000+00:00",
+      "description": "As applications run for a long time, their databases get huge, and this growth becomes a serious problem. It's time to implement a data retention policy.",
+      "tags": [
+        "for-later",
+        "cs/database"
+      ]
+    },
+    {
+      "id": "01kap5femsrzw6b918a07d7wpg",
+      "title": "Enforcing Causal Ordering in Distributed Systems: The Importance of Permissions Checking",
+      "url": "https://authzed.com/blog/new-enemies",
+      "savedAt": "2025-11-22T16:13:41.913000+00:00",
+      "description": "Learn how Authzed's Zookie token guarantees causal ordering for data mutations and permissions, preventing permission checking problems in distributed systems.",
+      "tags": [
+        "for-later",
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "01kap5e12yn0pr0kmhcvsbktem",
+      "title": "Running the “Reflections on Trusting Trust” Compiler Posted on Wednesday, October 25, 2023.",
+      "url": "https://research.swtch.com/nih",
+      "savedAt": "2025-11-22T16:12:55.262000+00:00",
+      "description": "Supply chain security is a hot topic today, but it is a very old problem.",
+      "tags": [
+        "cs/compilers"
+      ]
+    },
+    {
+      "id": "01kap5d0pqs99yxw85sye10x3j",
+      "title": "Decoding Leibniz notation",
+      "url": "https://www.spakhm.com/leibniz",
+      "savedAt": "2025-11-22T16:12:22.102000+00:00",
+      "description": "The author explains Leibniz notation, which is used in calculus to express derivatives, but can be confusing due to its flexibility and multiple interpretations. Historically, Leibniz viewed derivatives as ratios involving infinitesimally small quantities, but modern mathematics treats them as symbols rather than real numbers. The notation can be cumbersome, leading people to simplify it in practice, which sometimes creates ambiguities that learners need to navigate.",
+      "tags": [
+        "math",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kap5cqvr57q41xgwn35j1nhw",
+      "title": "de Bruijn Numerals",
+      "url": "https://text.marvinborner.de/2023-08-22-22.html",
+      "savedAt": "2025-11-22T16:12:13.048000+00:00",
+      "description": "De Bruijn numerals are a new way to encode numbers using nested de Bruijn indices in lambda calculus. They allow simple operations like successor and addition but lack a zero? function, limiting their conversion and use. Despite this, they help work with Church n-tuples more easily and inspire hybrid numeral systems.",
+      "tags": [
+        "math",
+        "cs/pl-theory"
+      ]
+    },
+    {
+      "id": "01kap5c9ayrfvy3ajwgrq3be01",
+      "title": "Godbolt's Rule",
+      "url": "https://corecursive.com/godbolt-rule-matt-godbolt/",
+      "savedAt": "2025-11-22T16:11:58.174000+00:00",
+      "description": "Matt learned deep hardware and software details while building game engines for consoles like Dreamcast and Xbox. He discovered that sometimes hardware doesn’t behave as expected, requiring clever tricks and close debugging. This experience showed how game design and engine design often blend together.",
+      "tags": [
+        "for-later",
+        "type/podcast"
+      ]
+    },
+    {
+      "id": "01kap5bhxac9qpwzmeejhb6fs6",
+      "title": "devlog: garbage collection is useful",
+      "url": "https://dubroy.com/blog/garbage-collection-is-useful/",
+      "savedAt": "2025-11-22T16:11:34.185000+00:00",
+      "description": "A long time ago, I spent a few years working on garbage collection in the J9 Java VM.",
+      "tags": [
+        "for-later",
+        "cs/compilers"
+      ]
+    },
+    {
+      "id": "01kap576d4w1zx7a2xahgt4j9b",
+      "title": "←HomeAbout→ Bypassing the branch predictor",
+      "url": "https://nicula.xyz/2025/03/10/bypassing-the-branch-predictor.html",
+      "savedAt": "2025-11-22T16:09:11.331000+00:00",
+      "description": "Let’s work with something relatively simple & concrete: consider that we want to write some kind of financial system (maybe a trading system) and all of our transaction requests arrive at a certain function before being either (a) sent out to some authoritative server, or (b) abandoned.",
+      "tags": [
+        "os",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kap56r9a8zzcfa648byfvcee",
+      "title": "Finding a CPU Design Bug in the Xbox 360",
+      "url": "https://randomascii.wordpress.com/2018/01/07/finding-a-cpu-design-bug-in-the-xbox-360/",
+      "savedAt": "2025-11-22T16:08:56.874000+00:00",
+      "description": "The recent reveal of Meltdown and Spectre reminded me of the time I found a related design bug in the Xbox 360 CPU – a newly added instruction whose mere existence was dangerous. Back in 2005 I was…",
+      "tags": [
+        "hardware",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kap56hm4zbkm8tpdp3vh5zwn",
+      "title": "AI/ML for Biology & Healthcare: A Learning Path",
+      "url": "https://www.iamtk.co/ai-ml-for-biology-and-healthcare-a-learning-path",
+      "savedAt": "2025-11-22T16:08:50.051000+00:00",
+      "description": "Sharing my ML/AI & Biomedicine learning path",
+      "tags": [
+        "cs/ai",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kap55gh7t20qv7kgvqysr3dw",
+      "title": "The Inconceivable Types of Rust: How to Make Self-Borrows Safe",
+      "url": "https://blog.polybdenum.com/2024/06/07/the-inconceivable-types-of-rust-how-to-make-self-borrows-safe.html",
+      "savedAt": "2025-11-22T16:08:16.166000+00:00",
+      "description": "The text discusses the challenges of supporting async functions in Rust due to the need for non-movable types and inconceivable types. Rust's type system requires additional support for naming and handling these types to ensure safe coding practices. Proposed solutions include introducing concepts like bound lifetimes and formalizing inconceivable types to enable safe transmutations and interactions with non-movable types.",
+      "tags": [
+        "cs/programming-languages/rust"
+      ]
+    },
+    {
+      "id": "01kap52srxfqt0rpkj4w3dsw6m",
+      "title": "Linear Algebra Explains Why Some Words Are Effectively Untranslatable",
+      "url": "https://aethermug.com/posts/linear-algebra-explains-why-some-words-are-effectively-untranslatable",
+      "savedAt": "2025-11-22T16:06:47.325000+00:00",
+      "description": "The author compares words to vectors in linear algebra and translation to a change of basis. Some languages pack a concept into one compact word while others must spread it over many words. Because words are limited and costly to use, some meanings are practically untranslatable.",
+      "tags": [
+        "for-later",
+        "math/linear-algebra"
+      ]
+    },
+    {
+      "id": "01kap4q9v10wj9d1peshfr9q2f",
+      "title": "Interpreting Crafting Crafting Interpreters",
+      "url": "https://www.petemillspaugh.com/interpreting-crafting-crafting-interpreters",
+      "savedAt": "2025-11-22T16:00:30.561000+00:00",
+      "description": "Pete Millspaugh's digital garden",
+      "tags": [
+        "for-later",
+        "cs/compilers"
+      ]
+    },
+    {
+      "id": "01kap4kswpygd0hbvnaa0fa589",
+      "title": "The Internet is Cool. Thank you, TCP",
+      "url": "https://cefboud.com/posts/tcp-deep-dive-internals/",
+      "savedAt": "2025-11-22T15:58:35.926000+00:00",
+      "description": "TCP makes the Internet reliable by hiding packet loss, corruption, duplication, and reordering.  \nIt uses sequence and acknowledgment numbers, flow control (window/receive buffer), and congestion control to keep data correct and the network stable.  \nA simple C server shows how applications rely on TCP’s guarantees while bytes and headers travel inside IP packets.",
+      "tags": [
+        "for-later",
+        "cs/networking"
+      ]
+    },
+    {
+      "id": "01kap4ketd6xtmsphmbkfkhsvm",
+      "title": "Version Control External Content Referenced in Your Blog",
+      "url": "https://lgug2z.com/articles/version-control-external-content-referenced-in-your-blog/",
+      "savedAt": "2025-11-22T15:58:24.589000+00:00",
+      "description": "The author created a tool that saves external content from URLs into a file for version control, avoiding broken links in blogs. This tool updates only new content and uses a shortcode to show saved data without online requests during site builds. Building custom tools like this helps the author solve small problems and work better.",
+      "tags": [
+        "blog"
+      ]
+    },
+    {
+      "id": "01kap4capj7fpv9y49w18vq3fg",
+      "title": "AMD GPUs go brrr",
+      "url": "https://hazyresearch.stanford.edu/blog/2025-11-09-amd-brr",
+      "savedAt": "2025-11-22T15:54:30.993000+00:00",
+      "description": "AMD GPUs deliver high performance using unique wave scheduling and chiplet-aware memory patterns. HipKittens helps developers optimize kernels by matching AMD’s small matrix cores and register layouts. These techniques improve speed and cache use, competing well with other top GPUs.",
+      "tags": [
+        "for-later",
+        "hardware/gpu"
+      ]
+    },
+    {
+      "id": "01kap4byh41c4a77t917pe9rh7",
+      "title": "Behind the scenes on how Windows 95 application compatibility patched broken programs",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20251111-00/?p=111781",
+      "savedAt": "2025-11-22T15:54:18.531000+00:00",
+      "description": "Windows 95 used compatibility flags to alter system behavior for problematic programs so one fix could help many apps. For deeply broken programs the team got vendor permission and stored binary patches in the registry to detect and modify specific files or headers. A common patch skipped unsafe debug code in a sound driver to stop register corruption during hardware interrupts.",
+      "tags": [
+        "for-later",
+        "os/windows",
+        "cs/operating-system"
+      ]
+    },
+    {
+      "id": "01kap49t15nhnnjt50jjy0e2fw",
+      "title": "RegreSQL: Regression Testing for PostgreSQL Queries",
+      "url": "https://boringsql.com/posts/regresql-testing-queries/",
+      "savedAt": "2025-11-22T15:53:08.389000+00:00",
+      "description": "RegreSQL brings PostgreSQL-style regression testing to application SQL, checking correctness and performance before production. It records baselines, detects plan regressions, and manages fixtures for repeatable test data. The project is new, open-source, and aims to make SQL queries easier to test.",
+      "tags": [
+        "for-later",
+        "cs/database"
+      ]
+    },
+    {
+      "id": "01kap496p6pqn6kyj2cn41vb8k",
+      "title": "the last couple years in v8's garbage collector",
+      "url": "https://wingolog.org/archives/2025/11/13/the-last-couple-years-in-v8s-garbage-collector",
+      "savedAt": "2025-11-22T15:52:48.582000+00:00",
+      "description": "V8's garbage collector has focused on improving memory safety, advancing Oilpan integration, and preparing for multi-threaded JavaScript and WebAssembly. The sandbox now uses hardware memory protection to prevent unsafe writes, and Oilpan added support for generational collection with pinned pages. Developers also worked on complex heuristics and locking improvements to optimize performance across many platforms.",
+      "tags": [
+        "for-later",
+        "cs/programming-languages/javascript"
+      ]
+    },
+    {
+      "id": "01kap48zm8j5v9tt6pv7b8rg58",
+      "title": "Language Design",
+      "url": "https://cs.lmu.edu/~ray/notes/languagedesignnotes/",
+      "savedAt": "2025-11-22T15:52:41.352000+00:00",
+      "description": "This guide explains the steps and ideas needed to design a programming language. It covers syntax, semantics, prototyping, examples, and common pitfalls like operator precedence and semicolon insertion. Exercises and references help you practice and deepen your understanding.",
+      "tags": [
+        "for-later",
+        "cs/pl-theory"
+      ]
+    },
+    {
+      "id": "01kap48r4ptg3942rv035haawa",
+      "title": "Heartbeats in Distributed Systems",
+      "url": "https://arpitbhayani.me/blogs/heartbeats-in-distributed-systems/",
+      "savedAt": "2025-11-22T15:52:33.685000+00:00",
+      "description": "Heartbeats are periodic messages nodes send so monitors can tell if they are alive.  \nMonitors compare the last received heartbeat time to a timeout to mark nodes failed, balancing fast detection against extra network load.  \nFor large systems, gossip and adaptive detectors (like phi) help scale and reduce false failures.",
+      "tags": [
+        "diss",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kap48g41ca0t078g47msgcxf",
+      "title": "Patterns for Defensive Programming in Rust",
+      "url": "https://corrode.dev/blog/defensive-programming/",
+      "savedAt": "2025-11-22T15:52:25.473000+00:00",
+      "description": "Defensive Rust uses the compiler and type system to enforce invariants so bugs are caught early. Use patterns like private fields, nested modules, and exhaustive matching to force valid construction and updates. Add attributes and lints (#[must_use], clippy rules) to make mistakes visible.",
+      "tags": [
+        "for-later",
+        "cs/programming-languages/rust"
+      ]
+    },
+    {
+      "id": "01kap482xmyf9rmpk8k39skjpn",
+      "title": "Distributing Data in a Redis/Valkey Cluster: Slots, Hash Tags, and Hot Spots",
+      "url": "https://www.percona.com/blog/distributing-data-in-a-redis-valkey-cluster-slots-hash-tags-and-hot-spots/",
+      "savedAt": "2025-11-22T15:52:11.956000+00:00",
+      "description": "Redis/Valkey clusters shard keys into 16,384 hash slots using CRC16 to spread data across nodes. Hash tags ({...}) force related keys into the same slot so multi-key operations can be atomic. But overusing low-cardinality tags creates \"hot slots\" that overload a single node, so choose tags to balance locality and distribution.",
+      "tags": [
+        "for-later",
+        "cs/database"
+      ]
+    },
+    {
+      "id": "01kap47j46929r664rz5kz6vjb",
+      "title": "Metaphors for Biology: Sizes",
+      "url": "https://press.asimov.com/articles/metaphors-size",
+      "savedAt": "2025-11-22T15:51:54.758000+00:00",
+      "description": "Biology works across enormous size ranges, from atoms to ecosystems.  \nIf you scale a water molecule up to a grain of sand, molecules, proteins, chromosomes, cells, and animals become unimaginably large but stay tiny relative to rooms and landscapes.  \nThese metaphors help show how different biological structures compare and why scale matters for understanding life.",
+      "tags": [
+        "biology",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kap47321h1vh5589t8vjt1vp",
+      "title": "Linux process priorities demystified",
+      "url": "https://www.sigma-star.at/blog/2022/02/linux-proc-prios/",
+      "savedAt": "2025-11-22T15:51:39.328000+00:00",
+      "description": "Linux schedules tasks (threads), not whole processes, and each task has its own priority based on its scheduling policy. The main policies with priorities are SCHED_OTHER (nice values from -20 to 19) and real-time policies SCHED_FIFO and SCHED_RR (priorities 1 to 99). Kernel tools use a unified priority scale that differs from user-space values, which can cause confusion when interpreting priorities.",
+      "tags": []
+    },
+    {
+      "id": "01kap46rqaf2ysej0j4jynjayz",
+      "title": "The Tyranny of the Marginal User",
+      "url": "https://nothinghuman.substack.com/p/the-tyranny-of-the-marginal-user",
+      "savedAt": "2025-11-22T15:51:28.746000+00:00",
+      "description": "The author, Ivan Vendrov, argues that consumer software is getting worse because companies prioritize attracting \"marginal users\" who have low engagement and bad preferences. This focus leads to designs that cater to users with short attention spans, sacrificing quality and user agency. As a result, valuable tools that genuinely enhance creativity are often overshadowed or eliminated by profit-driven companies.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kap46egj35ekb1zf9246vhzb",
+      "title": "Async and Finaliser Deadlocks",
+      "url": "https://tratt.net/laurie/blog/2025/async_and_finaliser_deadlocks.html",
+      "savedAt": "2025-11-22T15:51:18.290000+00:00",
+      "description": "Deadlocks can happen when finalisers try to acquire locks while running on the same thread as the main program. A good solution is to run finalisers on a separate thread to avoid blocking. Async code has similar deadlock risks, but they are harder to manage because futures run only at specific points.",
+      "tags": [
+        "for-later",
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "01kap45vtzn9wdwqdpa6a5sff0",
+      "title": "A catalog of side effects",
+      "url": "https://bernsteinbear.com/blog/compiler-effects/",
+      "savedAt": "2025-11-22T15:50:59.167000+00:00",
+      "description": "Optimizing compilers track what IR instructions read and write so they can safely reorder or remove code. Two common representations are bitset lattices (distinct heap bits) and abstract heap/range lists used by other JITs. Both approaches work and are used in practice for DCE, CSE, refcounting, and other optimizations.",
+      "tags": [
+        "for-later",
+        "cs/compilers"
+      ]
+    },
+    {
+      "id": "01kap45994p10jy5qpj5x71p40",
+      "title": "On Trying Two Dozen Different Psychedelics (10/30)",
+      "url": "https://psychotechnology.substack.com/p/on-trying-two-dozen-different-psychedelics",
+      "savedAt": "2025-11-22T15:50:40.164000+00:00",
+      "description": "The author tried about two dozen psychedelics in his youth, mostly bought as legal \"research chemicals.\" He learned by low-dose self-testing and reading trip reports, noting patterns but no grand theory. Now companies use that crowd-sourced knowledge and AI to design safer, precise psychedelic medicines.",
+      "tags": [
+        "psychedelics"
+      ]
+    },
+    {
+      "id": "01kap4452tzqekzf1webv0bhfz",
+      "title": "The Uselessness of \"Fast\" and \"Slow\" in Programming",
+      "url": "https://jerf.org/iri/post/2025/the_uselessness_of_fast/",
+      "savedAt": "2025-11-22T15:50:03.097000+00:00",
+      "description": "Software timing spans huge scales, so calling code \"fast\" or \"slow\" without context is useless. Developers often waste time optimizing tiny nanosecond details while ignoring bigger millisecond bottlenecks. Always specify the metric, workload, and order of magnitude when discussing performance.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kap43aknb7n7fe79pqmfjpgg",
+      "title": "Query Plan Caching",
+      "url": "https://buttondown.com/jaffray/archive/query-plan-caching/",
+      "savedAt": "2025-11-22T15:49:35.989000+00:00",
+      "description": "Query plan caching helps databases reuse query plans for similar queries to save time. A plan diagram shows how different query parameters affect the chosen plan, but it is complex to use directly. Instead, databases approximate these plans with simpler shapes to decide when to reuse cached plans efficiently.",
+      "tags": [
+        "for-later",
+        "cs/database"
+      ]
+    },
+    {
+      "id": "01kap42wvpxhdqyzv0qd799j56",
+      "title": "a tale of vulkan/nouveau/nvk/zink/mutter + deadlocks",
+      "url": "https://airlied.blogspot.com/2025/11/a-tale-of-vulkannouveaunvkzinkmutter.html",
+      "savedAt": "2025-11-22T15:49:21.910000+00:00",
+      "description": "A bug causes the GNOME desktop to freeze when hotplugging an HDMI port on newer Intel/NVIDIA laptops using Vulkan and the zink OpenGL driver. The issue comes from a deadlock in Vulkan's device selection layer when it tries to query the Wayland compositor, which is also the running process. The author fixed it by adding a Vulkan layer setting to disable device selection in this case, avoiding the deadlock without risky hacks.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kap42gdy9k2yeyhvaxdde1q3",
+      "title": "Voxel Engine in a Weekend",
+      "url": "https://daymare.net/blogs/voxel-engine-in-a-weekend/",
+      "savedAt": "2025-11-22T15:49:09.181000+00:00",
+      "description": "This text explains how to build a voxel engine by organizing voxels into chunks for better performance. It shows how to add, remove, and render voxels efficiently using data structures like 3D arrays. The guide also highlights optimizing mesh creation by only drawing visible voxel faces.",
+      "tags": [
+        "for-later",
+        "cs/gamedev"
+      ]
+    },
+    {
+      "id": "01kap423t946ggcsayb0wa3g95",
+      "title": "The Error Model",
+      "url": "https://joeduffyblog.com/2016/02/07/the-error-model/",
+      "savedAt": "2025-11-22T15:48:56.264000+00:00",
+      "description": "Defining what an error really is remains a big challenge in programming. Many systems use either return codes or exceptions, but both have problems with reliability and code quality. A good error model should make handling errors easy and clear for developers to avoid bugs and brittle code.",
+      "tags": [
+        "for-later",
+        "cs/compilers"
+      ]
+    },
+    {
+      "id": "01kap3z4rz9q3e6nxxw3rmd15x",
+      "title": "What Now? Handling Errors in Large Systems",
+      "url": "https://brooker.co.za/blog/2025/11/20/what-now.html",
+      "savedAt": "2025-11-22T15:47:18.942000+00:00",
+      "description": "Marc Brooker argues that whether to crash on errors is a system-wide decision, not just a local code choice. Crashing can simplify recovery when failures are uncorrelated, but can cause widespread harm if failures are correlated. Design choices like blast-radius reduction, careful replication, and higher-layer handling must be built in from the start.",
+      "tags": [
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "01kap3yys7dbw4fbf2scw3v9tt",
+      "title": "How/Why to Sweep Async Tasks Under a Postgres Table",
+      "url": "https://taylor.town/pg-task",
+      "savedAt": "2025-11-22T15:47:12.807000+00:00",
+      "description": "Keep your app simple by queuing async work in a Postgres task table instead of calling external services directly.  \nUse transactions to insert tasks and process them later so work is retried safely and state stays consistent.  \nRun simple workers that delete and handle tasks inside transactions, allowing parallelism, retries, and easier debugging.",
+      "tags": [
+        "for-later",
+        "cs/database"
+      ]
+    },
+    {
+      "id": "01kap3ygv4qcnb34xdpn97daty",
+      "title": "Everything You Know About Latency Is Wrong",
+      "url": "https://bravenewgeek.com/everything-you-know-about-latency-is-wrong/",
+      "savedAt": "2025-11-22T15:46:58.532000+00:00",
+      "description": "Latency is the time an operation takes, and its full distribution must be studied because averages and medians hide important details. Most tools measure latency poorly, missing slow or stalled operations and giving misleading results. To understand latency well, focus on tail percentiles and measure fairly under real load conditions.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kap3y70640859f3nxa9j7r78",
+      "title": "When high availability brings downtime",
+      "url": "https://medium.com/learnings-from-the-paas/when-high-availability-brings-downtime-7a6261b0ef1c",
+      "savedAt": "2025-11-22T15:46:48.454000+00:00",
+      "description": "The team tried to improve system reliability by running two identical Kubernetes clusters to avoid downtime during maintenance. However, this approach caused many problems, including higher costs, complex scaling issues, and service failures. They decided to stop using multi-cluster high availability and now focus on controlling failures by smartly moving applications between clusters.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kap3jgry5ez985p2p9heccca",
+      "title": "Small Functions considered Harmful",
+      "url": "https://copyconstruct.medium.com/small-functions-considered-harmful-91035d316c29",
+      "savedAt": "2025-11-22T15:40:25.246000+00:00",
+      "description": "The author argues that blindly making every function tiny often backfires. Too many small, one-line functions hurt readability, naming, and searchability. It’s better to design flexible, practical abstractions that ease future changes.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kap3hrzndnv3h82s386a8m7v",
+      "title": "Think in Math. Write in Code.",
+      "url": "https://www.jmeiners.com/think-in-math/",
+      "savedAt": "2025-11-22T15:40:00.885000+00:00",
+      "description": "Programming languages are tools for instructing machines, not for expressing ideas. Math provides logical models to understand and solve real-world problems. When solving problems and designing solutions, mathematical thinking leads to better outcomes than relying solely on programming languages.",
+      "tags": [
+        "cs",
+        "math",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kap3h3v6gdxprv549qbz4rv1",
+      "title": "So long, and thanks for all the fish: how to escape the Linux networking stack",
+      "url": "https://blog.cloudflare.com/so-long-and-thanks-for-all-the-fish-how-to-escape-the-linux-networking-stack/",
+      "savedAt": "2025-11-22T15:39:39.237000+00:00",
+      "description": "Cloudflare built a small service to proxy IP packets using soft-unicast addresses instead of relying on Linux packet rewriting. Linux conntrack and sockets interact poorly: rewritten packets can get unexpected ports and hidden source changes, breaking assumptions. They solved it by terminating and proxying TCP connections locally (or using TCP_REPAIR/conntrack via Netlink) to keep addresses and routing correct.",
+      "tags": [
+        "for-later",
+        "cs/networking"
+      ]
+    },
+    {
+      "id": "01kap3g9f0qkn4bmcjjdzkhytw",
+      "title": "Building a Database From Scratch 💾",
+      "url": "https://stym06.github.io/posts/build-a-db-from-scratch/",
+      "savedAt": "2025-11-22T15:39:12.224000+00:00",
+      "description": "The author will teach how to build a database from scratch. He studies storage, indexing, WALs, and reads SQLite and other internals. The next post will dive into a write-ahead log implementation.",
+      "tags": [
+        "cs/database"
+      ]
+    },
+    {
+      "id": "01kap3a88rczdrtyh8pxpmag36",
+      "title": "My First Fifteen Compilers",
+      "url": "https://blog.sigplan.org/2019/07/09/my-first-fifteen-compilers/",
+      "savedAt": "2025-11-22T15:35:54.391000+00:00",
+      "description": "The author learned to build compilers by writing many tiny passes, each doing one clear job. This \"nanopass\" and back-to-front approach made compiler work approachable and gave quick, runnable results. That experience led the author to contribute to Rust and shaped their career.",
+      "tags": [
+        "for-later",
+        "cs/compilers"
+      ]
+    },
+    {
+      "id": "01kap39h5wwcqrnpnw0mayd5nq",
+      "title": "Ditch your (mut)ex, you deserve better",
+      "url": "https://chrispenner.ca/posts/mutexes",
+      "savedAt": "2025-11-22T15:35:30.748000+00:00",
+      "description": "Mutexes and shared mutable state are hard to get right in complex systems and lead to bugs, deadlocks, and fragile code. Higher-level patterns like Software Transactional Memory let you compose atomic operations without exposing locks or breaking encapsulation. STM makes concurrent code safer, simpler, and easier to reason about.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kap395y1dxh2r1skp89np7fa",
+      "title": "This Senior Staff Engineer Vibe-Coded for the First Time, What Happened Next Will Shock You",
+      "url": "https://emptysqua.re/blog/first-time-vibecoding/",
+      "savedAt": "2025-11-22T15:35:19.232000+00:00",
+      "description": "A veteran engineer tried AI-assisted coding and learned it’s a skill. At first he micromanaged the model and got frustrated. When he embraced “vibe-coding” and let agents plan and implement, the AI built useful tools quickly.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kap38d7b45cf5zprs46cyrh1",
+      "title": "What Makes the Intro to Crafting Interpreters so Good?",
+      "url": "https://refactoringenglish.com/blog/crafting-interpreters-intro/",
+      "savedAt": "2025-11-22T15:34:53.930000+00:00",
+      "description": "Crafting Interpreters teaches how to build a programming language and practical developer skills. Its introduction is clear, friendly, and quickly explains who the book is for and why it matters. The tone and simple opening lines make the topic feel approachable and worth reading.",
+      "tags": [
+        "for-later",
+        "cs/compilers"
+      ]
+    },
+    {
+      "id": "01kap33yjx66937rb42xn0p17c",
+      "title": "How ASML Got EUV",
+      "url": "https://www.construction-physics.com/p/how-asml-got-euv",
+      "savedAt": "2025-11-22T15:32:27.869000+00:00",
+      "description": "EUV lithography uses 13.5 nm light and became the next-generation way to print chips. Many labs and companies (DARPA, Bell Labs, Intel, national labs) developed key parts, but US firms left the tools market. ASML, with Carl Zeiss, alone commercialized EUV and now controls the technology.",
+      "tags": [
+        "for-later",
+        "computer-history"
+      ]
+    },
+    {
+      "id": "01kap31vr61v7h0eyp1wvrnrqw",
+      "title": "Building a Durable Execution Engine With SQLite",
+      "url": "https://www.morling.dev/blog/building-durable-execution-engine-with-sqlite/",
+      "savedAt": "2025-11-22T15:31:19.430000+00:00",
+      "description": "A Durable Execution (DE) engine breaks workflows into annotated step methods and records each step’s inputs and results in a persistent execution log. If a flow is interrupted, the engine resumes from the last completed step and avoids re-running successful or costly operations. It also supports delayed steps, retries, and long-running workflows while requiring strategies for state evolution and tooling for monitoring.",
+      "tags": [
+        "for-later",
+        "cs/distsys",
+        "cs/database"
+      ]
+    },
+    {
+      "id": "01kap31k3j5nawdydydwjjz6tv",
+      "title": "Building a Minimal Viable Armv7 Emulator from Scratch",
+      "url": "https://xnacly.me/posts/2025/building-a-minimal-viable-armv7-emulator/",
+      "savedAt": "2025-11-22T15:31:10.578000+00:00",
+      "description": "The author built a simple emulator to run 32-bit armv7 Linux binaries on an x86-64 system. It parses ELF files, maps memory, decodes arm instructions, and translates syscalls to x86-64. The hardest part was understanding armv7 instruction decoding and syscall differences.",
+      "tags": [
+        "for-later",
+        "cs/emulator"
+      ]
+    },
+    {
+      "id": "01kap31arscr67pcfwe0adgv34",
+      "title": "How I learned Vulkan and wrote a small game engine with it",
+      "url": "https://edw.is/learning-vulkan/",
+      "savedAt": "2025-11-22T15:31:02.041000+00:00",
+      "description": "The author learned Vulkan in three months and wrote a small game engine with two demo games. He found Vulkan easier than expected thanks to good resources and clear, explicit APIs. Switching from OpenGL gave him less global state and better validation, making debugging and abstractions simpler.",
+      "tags": [
+        "for-later",
+        "cs/gamedev"
+      ]
+    },
+    {
+      "id": "01kafvx2fnq02ff3npxrmf2dm8",
+      "title": "Collaboration sucks",
+      "url": "https://newsletter.posthog.com/p/collaboration-sucks",
+      "savedAt": "2025-11-20T05:30:55.861000+00:00",
+      "description": "Too much collaboration slows teams and stops work from shipping. Hire skilled drivers, tag the right people, and default to shipping. Speak up when too many people get involved so the owner can decide.",
+      "tags": [
+        "career",
+        "management"
+      ]
+    },
+    {
+      "id": "01kafv2phahmkb3rqkwevr2n60",
+      "title": "web.archive.org/web/*/https://dspace.mit.edu/bitstream/handle/1721.1/149366/MIT-LCS-TR-458.pdf",
+      "url": "https://web.archive.org/web/*/https://dspace.mit.edu/bitstream/handle/1721.1/149366/MIT-LCS-TR-458.pdf",
+      "savedAt": "2025-11-20T05:16:31.658000+00:00",
+      "description": null,
+      "tags": []
+    },
+    {
+      "id": "01kafv0tw7ncmnd4n3eb2cq8sr",
+      "title": "Better DOM Morphing with Morphlex",
+      "url": "https://joel.drapper.me/p/morphlex/",
+      "savedAt": "2025-11-20T05:15:30.567000+00:00",
+      "description": "Morphlex is a DOM-morphing library that updates the page by matching and moving existing nodes instead of replacing them. It uses ids, id-sets, tag/attribute heuristics, and longest increasing subsequence to insert, remove, and sort elements efficiently. The result preserves state (inputs, focus, scroll) and is fast in real-world use.",
+      "tags": [
+        "web"
+      ]
+    },
+    {
+      "id": "01kafs6tms1f6w841y2j2ae9a8",
+      "title": "Compiler Options Hardening Guide for C and C++",
+      "url": "https://best.openssf.org/Compiler-Hardening-Guides/Compiler-Options-Hardening-Guide-for-C-and-C++.html",
+      "savedAt": "2025-11-20T04:43:49.785000+00:00",
+      "description": "Attackers exploit memory bugs in C and C++ programs, so compilers offer options to detect and mitigate vulnerabilities. Enabling modern compiler hardening and runtime protections reduces risk but may need tuning and testing and is not foolproof. Developers should choose and test hardening options deliberately, since defaults vary by toolchain and cannot be added after distribution.",
+      "tags": [
+        "cs/programming-languages/cpp"
+      ]
+    },
     {
       "id": "01kacs7wqrkeb1z1tj973sw7wn",
       "title": "Britney Spears' Guide to Semiconductor Physics",
@@ -26,6 +642,7 @@
       "savedAt": "2025-11-18T03:44:14.499000+00:00",
       "description": "Many students lack practical systems skills needed to work on complex projects like the OCaml compiler. These skills come from hands-on experience with tools (build systems, debuggers, version control), which typical CS courses often don’t teach. The author lists courses and books to help bridge this gap and invites more suggestions.",
       "tags": [
+        "for-later",
         "cs/programming-languages/ocaml"
       ]
     },
@@ -326,7 +943,7 @@
       "savedAt": "2025-11-09T22:18:57.826000+00:00",
       "description": "Scientists found that sudden “aha” moments happen when brain areas for vision, emotion, and memory (VOTC, amygdala, hippocampus) shift how they represent information.  \nThese insight events feel sudden, are often emotional and certain, and make memories stronger.  \nResearchers hope to use this knowledge to study creativity and improve learning.",
       "tags": [
-        "for-later"
+        "neuroscience"
       ]
     },
     {
