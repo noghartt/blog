@@ -1,6 +1,35 @@
 {
-  "lastUpdate": "2025-11-23T00:11:51.516Z",
+  "lastUpdate": "2025-11-24T00:11:48.201Z",
   "data": [
+    {
+      "id": "01karyww5as0r6xygsgp35tqsv",
+      "title": "Calculus For Mathematicians, Computer Scientists, And Physicists",
+      "url": "https://mathcs.holycross.edu/~ahwang/print/calc.pdf",
+      "savedAt": "2025-11-23T18:16:25.002000+00:00",
+      "description": "The text explains using deleted δ-intervals to study how functions behave near a point without considering the point itself. It defines limits with o(1) and the ε-δ criterion, showing limits give new information beyond individual values. It also mentions limits at ±∞ and that some functions (like identity) have no finite limit at +∞.",
+      "tags": []
+    },
+    {
+      "id": "01karg7atpytvm5gcv9tprh96t",
+      "title": "Enough With All The Raft",
+      "url": "https://transactional.blog/talk/enough-with-all-the-raft",
+      "savedAt": "2025-11-23T13:59:59.062000+00:00",
+      "description": "The author argues against using the Raft consensus algorithm, claiming it offers no significant advantages over other replication methods. Instead, they suggest exploring quorum-based and reconfiguration-based algorithms, which can be more efficient and suitable for certain situations. The overall message is to choose the best replication algorithm for your needs, rather than defaulting to Raft.",
+      "tags": [
+        "for-later",
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "01kaqdc6x43qr36a3qh2qkjg1m",
+      "title": "The Write Last, Read First Rule",
+      "url": "https://tigerbeetle.com/blog/2025-11-06-the-write-last-read-first-rule/",
+      "savedAt": "2025-11-23T03:50:58.724000+00:00",
+      "description": "TigerBeetle is a ledger built for correctness and scales separately from Postgres, which stores master data.  \nWithout transactions spanning both systems, you must pick a system of record (TigerBeetle) and follow the Write Last, Read First rule to keep money traceable.  \nUsing durable executions, idempotent operations, and strict ordering lets the application coordinate both systems and recover from partial failures.",
+      "tags": [
+        "cs/distsys"
+      ]
+    },
     {
       "id": "01kapz0eppmrvexhbv2st6agw6",
       "title": "Maybe you’re not Actually Trying",
@@ -498,7 +527,6 @@
       "savedAt": "2025-11-22T15:35:54.391000+00:00",
       "description": "The author learned to build compilers by writing many tiny passes, each doing one clear job. This \"nanopass\" and back-to-front approach made compiler work approachable and gave quick, runnable results. That experience led the author to contribute to Rust and shaped their career.",
       "tags": [
-        "for-later",
         "cs/compilers"
       ]
     },
@@ -1007,6 +1035,7 @@
       "savedAt": "2025-11-09T22:15:27.158000+00:00",
       "description": "Pain exists as a hardwired signal because purely reward‑based learning would let organisms unknowingly harm themselves. Without painful qualia, people would ignore injuries and make lethal mistakes despite curiosity or planning. Evolution keeps pain as a reliable backstop because individual intelligence and learning are too limited to safely replace it.",
       "tags": [
+        "for-later",
         "decision-theory",
         "philosophy/rationalism"
       ]
@@ -14470,7 +14499,8 @@
       "savedAt": "2024-06-15T16:35:26.322000+00:00",
       "description": "There's a key piece of magic in the engineering of the Internet which you rely on every single day. It happens in the TCP protocol, one of the fundamental building blocks of the Internet. TCP is a way to transmit data that is reliable. By this I mean: if you send a message over a…",
       "tags": [
-        "cs"
+        "cs",
+        "favorites"
       ]
     },
     {
