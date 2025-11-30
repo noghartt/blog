@@ -1,6 +1,14 @@
 {
-  "lastUpdate": "2025-11-24T00:11:48.201Z",
+  "lastUpdate": "2025-11-30T00:11:54.169Z",
   "data": [
+    {
+      "id": "01kb6j8qqvawr3y7h16nbtc1d9",
+      "title": "On Idempotency Keys",
+      "url": "https://www.morling.dev/blog/on-idempotency-keys/",
+      "savedAt": "2025-11-29T01:05:04.251000+00:00",
+      "description": "Exactly-once processing can be achieved by adding a unique idempotency key to each message so consumers can ignore duplicates. UUIDs work but require storing many keys; monotonically increasing keys let consumers store only the latest value and are more space-efficient. A practical way to get monotonic keys without slowing producers is to derive them from the database transaction log using CDC.",
+      "tags": []
+    },
     {
       "id": "01karyww5as0r6xygsgp35tqsv",
       "title": "Calculus For Mathematicians, Computer Scientists, And Physicists",
