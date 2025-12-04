@@ -1,6 +1,33 @@
 {
-  "lastUpdate": "2025-11-24T00:11:48.201Z",
+  "lastUpdate": "2025-12-04T00:11:42.345Z",
   "data": [
+    {
+      "id": "01kbjxe67phppw9mavpd52eqrz",
+      "title": "Building a 64-bit OS from Scratch with Claude Code",
+      "url": "https://isene.org/2025/11/SimplicityOS.html",
+      "savedAt": "2025-12-03T20:11:10.454000+00:00",
+      "description": "The author built a simple 64-bit operating system called Simplicity OS using AI help from Claude Code in about two hours. The OS runs a Forth interpreter and can control hardware with small, composable commands. All development was open and shared to show what AI can do for programming.",
+      "tags": [
+        "for-later",
+        "cs/operating-system"
+      ]
+    },
+    {
+      "id": "01kbjhr0h4efqb87ak9s0av05r",
+      "title": "Being a founding engineer at an AI startup",
+      "url": "https://newsletter.pragmaticengineer.com/p/being-a-founding-engineer-at-an-ai",
+      "savedAt": "2025-12-03T16:46:46.380000+00:00",
+      "description": "Michelle Lim shares how to evaluate early-stage startup roles, negotiate equity, and grow into a high-impact founding engineer.",
+      "tags": []
+    },
+    {
+      "id": "01kb6j8qqvawr3y7h16nbtc1d9",
+      "title": "On Idempotency Keys",
+      "url": "https://www.morling.dev/blog/on-idempotency-keys/",
+      "savedAt": "2025-11-29T01:05:04.251000+00:00",
+      "description": "Exactly-once processing can be achieved by adding a unique idempotency key to each message so consumers can ignore duplicates. UUIDs work but require storing many keys; monotonically increasing keys let consumers store only the latest value and are more space-efficient. A practical way to get monotonic keys without slowing producers is to derive them from the database transaction log using CDC.",
+      "tags": []
+    },
     {
       "id": "01karyww5as0r6xygsgp35tqsv",
       "title": "Calculus For Mathematicians, Computer Scientists, And Physicists",
