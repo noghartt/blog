@@ -1,6 +1,35 @@
 {
-  "lastUpdate": "2025-12-04T00:11:42.345Z",
+  "lastUpdate": "2025-12-06T00:11:31.904Z",
   "data": [
+    {
+      "id": "01kbram2phgjpa2sknsp9j5dec",
+      "title": "The Easiest Way to Build a Type Checker",
+      "url": "https://jimmyhmiller.com/easiest-way-to-build-type-checker",
+      "savedAt": "2025-12-05T22:37:47.089000+00:00",
+      "description": "Bidirectional type checking splits work into inferring types and checking types, which makes type checking simple and clear. The author shows a small, ~100-line implementation that handles literals, variables, functions (with annotations), calls, lets, and blocks. This approach is easy to extend and helps demystify building practical type checkers.",
+      "tags": [
+        "for-later",
+        "type-theory"
+      ]
+    },
+    {
+      "id": "01kbr8mttqntkfp8a8bepx98ba",
+      "title": "Transparent Leadership Beats Servant Leadership",
+      "url": "https://entropicthoughts.com/transparent-leadership-beats-servant-leadership",
+      "savedAt": "2025-12-05T22:03:14.647000+00:00",
+      "description": "The author believes servant leadership can make teams dependent and weak when the leader leaves. Instead, transparent leadership teaches and empowers people to solve problems and grow. Good leaders make themselves unnecessary and stay skilled by working alongside their team.",
+      "tags": [
+        "career"
+      ]
+    },
+    {
+      "id": "01kbm9nzakdgq7q9jha59phjqr",
+      "title": "Essentials: The Science of Making & Breaking Habits",
+      "url": "https://www.hubermanlab.com/episode/essentials-science-of-making-breaking-habits",
+      "savedAt": "2025-12-04T09:04:19.868000+00:00",
+      "description": "In this Huberman Lab Essentials episode, I explain how to create lasting habits and break unwanted ones.\n\nI explain two habit-building systems: one aligned with daily rhythms and another based on a 21-day cycle of forming and reinforcing habits. I also discuss why habit formation differs between individuals and how certain \"linchpin\" habits can make other behaviors easier to adopt. Finally, I share practical tools—including visualization, task bracketing, and methods for rewiring bad habits—to support lasting behavioral change.\n\nRead the episode show notes at hubermanlab.com. \n\nThank you to our sponsors\n\nAGZ by AG1: https://drinkagz.com/huberman\n\nEight Sleep: https://eightsleep.com/huberman\n\nLMNT: https://drinklmnt.com/huberman\n\nTimestamps\n\n(00:00) Habits\n\n(00:43) What are Habits?, Neuroplasticity\n\n(01:15) Goal-Based vs Identity-Based Habits\n\n(02:33) How Long Does It Take to Form a Habit?; Limbic Friction\n\n(05:31) Sponsor: Eight Sleep\n\n(06:59) Tool: Linchpin Habits\n\n(08:51) Habit Strength, Context Dependence & Limbic Friction\n\n(10:41) How We Form Habits, Tool: Review Procedural Steps\n\n(12:49) Tool: Task Bracketing\n\n(16:30) Sponsor: LMNT\n\n(18:02) Should You Schedule Habits?; Phase-Based Habit Plan\n\n(20:00) Phase 1 (Morning) & Challenging Habits\n\n(21:23) Phase 2 (Afternoon), Relaxation; Mellow Habits\n\n(24:46) Phase 3 (Evening), Enhancing Sleep & Habit Consolidation\n\n(28:00) Habit Flexibility & Daily Timing\n\n(30:33) Sponsor: AGZ by AG1\n\n(32:02) Tool: 21-Day Habit Program; Habit Missteps\n\n(37:16) Tool: How to Break Habits & Replacement Behaviors\n\n(39:59) Recap\n\nDisclaimer & Disclosures\nLearn more about your ad choices. Visit megaphone.fm/adchoices",
+      "tags": []
+    },
     {
       "id": "01kbjxe67phppw9mavpd52eqrz",
       "title": "Building a 64-bit OS from Scratch with Claude Code",
