@@ -1,6 +1,95 @@
 {
-  "lastUpdate": "2025-12-04T00:11:42.345Z",
+  "lastUpdate": "2025-12-10T00:11:37.287Z",
   "data": [
+    {
+      "id": "01kc24n9z1p949nf488q1afxy2",
+      "title": "Join the on-call roster, it’ll change your life",
+      "url": "https://serce.me/posts/2025-12-09-join-oncall-it-will-change-your-life",
+      "savedAt": "2025-12-09T18:06:00.161000+00:00",
+      "description": "Joining an on-call rotation helps you learn to handle stress, lead teams, and deeply understand systems. It can be tough, causing sleep loss and limiting your freedom. Still, trying it can change your skills and outlook for the better.",
+      "tags": [
+        "career"
+      ]
+    },
+    {
+      "id": "01kc0katc220xbye1pf43qbhjn",
+      "title": "A Smart Bear » Ruthless prioritization while the dog pees on the floor",
+      "url": "https://longform.asmartbear.com/prioritization/",
+      "savedAt": "2025-12-09T03:43:56.290000+00:00",
+      "description": "Time is a fixed resource, so we must choose what to do with every minute.  \nFocus on the few 10x tasks that give outsized impact and cut or ignore the many low-value 0.1x tasks.  \nMake ruthless, clear choices and repeatedly communicate what you will do and what you will not.",
+      "tags": [
+        "favorites",
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "01kc0jz24kx2he3s5c6r673hgj",
+      "title": "Optimize for momentum",
+      "url": "https://muratbuffalo.blogspot.com/2025/12/optimize-for-momentum.html",
+      "savedAt": "2025-12-09T03:37:31.027000+00:00",
+      "description": "Progress comes from small, regular actions that build momentum. Do tiny, easy tasks—ten minutes, one paragraph, or a simple experiment—to keep the project moving. Keep working in short bursts and interest-driven steps so the flywheel gains speed.",
+      "tags": [
+        "favorites",
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "01kc0jhg0j51sxv9fqbbxc1qd2",
+      "title": "Second IC :)",
+      "url": "https://sam.zeloof.xyz/second-ic/",
+      "savedAt": "2025-12-09T03:30:06.482000+00:00",
+      "description": "A hobbyist fabricated a 10×10 array chip with about 1,200 transistors using a homemade polysilicon-gate process. The new FETs have low threshold voltage, low leakage, and run at common logic voltages (2.5–3.3V). This DIY method avoids many expensive steps and shows promise for more complex homebuilt silicon circuits.",
+      "tags": [
+        "hardware"
+      ]
+    },
+    {
+      "id": "01kbyk8n35xmsp7wbcrrh4vd7z",
+      "title": "Master the Creative Process | Twyla Tharp",
+      "url": "https://www.hubermanlab.com/episode/master-the-creative-process-twyla-tharp",
+      "savedAt": "2025-12-08T09:04:13.486000+00:00",
+      "description": "Twyla Tharp shares how discipline and routine help bring creative ideas to life. She teaches how to focus on a clear message, handle criticism, and raise your standards daily. The talk offers practical tips to build your mind and body for creative success.",
+      "tags": []
+    },
+    {
+      "id": "01kbvewe308erf4khbf7dpy2t4",
+      "title": "Struggling Towards an Algebraic Theory of Music",
+      "url": "https://reasonablypolymorphic.com/blog/algebraic-music/index.html",
+      "savedAt": "2025-12-07T03:49:58.496000+00:00",
+      "description": "The author tries to define music using math but finds simple models like waves or timed notes don’t capture all musical ideas. They explore structures like monads and comonads but face problems with rhythm and context. In the end, music may need a complex global view that respects local details, which is still unclear.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kbram2phgjpa2sknsp9j5dec",
+      "title": "The Easiest Way to Build a Type Checker",
+      "url": "https://jimmyhmiller.com/easiest-way-to-build-type-checker",
+      "savedAt": "2025-12-05T22:37:47.089000+00:00",
+      "description": "Bidirectional type checking splits work into inferring types and checking types, which makes type checking simple and clear. The author shows a small, ~100-line implementation that handles literals, variables, functions (with annotations), calls, lets, and blocks. This approach is easy to extend and helps demystify building practical type checkers.",
+      "tags": [
+        "for-later",
+        "type-theory"
+      ]
+    },
+    {
+      "id": "01kbr8mttqntkfp8a8bepx98ba",
+      "title": "Transparent Leadership Beats Servant Leadership",
+      "url": "https://entropicthoughts.com/transparent-leadership-beats-servant-leadership",
+      "savedAt": "2025-12-05T22:03:14.647000+00:00",
+      "description": "The author believes servant leadership can make teams dependent and weak when the leader leaves. Instead, transparent leadership teaches and empowers people to solve problems and grow. Good leaders make themselves unnecessary and stay skilled by working alongside their team.",
+      "tags": [
+        "career"
+      ]
+    },
+    {
+      "id": "01kbm9nzakdgq7q9jha59phjqr",
+      "title": "Essentials: The Science of Making & Breaking Habits",
+      "url": "https://www.hubermanlab.com/episode/essentials-science-of-making-breaking-habits",
+      "savedAt": "2025-12-04T09:04:19.868000+00:00",
+      "description": "In this Huberman Lab Essentials episode, I explain how to create lasting habits and break unwanted ones.\n\nI explain two habit-building systems: one aligned with daily rhythms and another based on a 21-day cycle of forming and reinforcing habits. I also discuss why habit formation differs between individuals and how certain \"linchpin\" habits can make other behaviors easier to adopt. Finally, I share practical tools—including visualization, task bracketing, and methods for rewiring bad habits—to support lasting behavioral change.\n\nRead the episode show notes at hubermanlab.com. \n\nThank you to our sponsors\n\nAGZ by AG1: https://drinkagz.com/huberman\n\nEight Sleep: https://eightsleep.com/huberman\n\nLMNT: https://drinklmnt.com/huberman\n\nTimestamps\n\n(00:00) Habits\n\n(00:43) What are Habits?, Neuroplasticity\n\n(01:15) Goal-Based vs Identity-Based Habits\n\n(02:33) How Long Does It Take to Form a Habit?; Limbic Friction\n\n(05:31) Sponsor: Eight Sleep\n\n(06:59) Tool: Linchpin Habits\n\n(08:51) Habit Strength, Context Dependence & Limbic Friction\n\n(10:41) How We Form Habits, Tool: Review Procedural Steps\n\n(12:49) Tool: Task Bracketing\n\n(16:30) Sponsor: LMNT\n\n(18:02) Should You Schedule Habits?; Phase-Based Habit Plan\n\n(20:00) Phase 1 (Morning) & Challenging Habits\n\n(21:23) Phase 2 (Afternoon), Relaxation; Mellow Habits\n\n(24:46) Phase 3 (Evening), Enhancing Sleep & Habit Consolidation\n\n(28:00) Habit Flexibility & Daily Timing\n\n(30:33) Sponsor: AGZ by AG1\n\n(32:02) Tool: 21-Day Habit Program; Habit Missteps\n\n(37:16) Tool: How to Break Habits & Replacement Behaviors\n\n(39:59) Recap\n\nDisclaimer & Disclosures\nLearn more about your ad choices. Visit megaphone.fm/adchoices",
+      "tags": []
+    },
     {
       "id": "01kbjxe67phppw9mavpd52eqrz",
       "title": "Building a 64-bit OS from Scratch with Claude Code",
@@ -574,7 +663,7 @@
       "savedAt": "2025-11-22T15:35:19.232000+00:00",
       "description": "A veteran engineer tried AI-assisted coding and learned it’s a skill. At first he micromanaged the model and got frustrated. When he embraced “vibe-coding” and let agents plan and implement, the AI built useful tools quickly.",
       "tags": [
-        "for-later"
+        "vibecoding"
       ]
     },
     {
