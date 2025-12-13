@@ -1,6 +1,78 @@
 {
-  "lastUpdate": "2025-12-10T00:11:37.287Z",
+  "lastUpdate": "2025-12-13T00:11:32.342Z",
   "data": [
+    {
+      "id": "01kc6aht2k2e8rw4r1vvs4h2wd",
+      "title": "Essentials: How to Build, Maintain & Repair Gut Health | Dr. Justin Sonnenburg",
+      "url": "https://www.hubermanlab.com/episode/essentials-build-maintain-repair-gut-health-justin-sonnenburg",
+      "savedAt": "2025-12-11T09:05:51.772000+00:00",
+      "description": "Dr. Justin Sonnenburg explains how gut microbes affect our health and how diet and lifestyle shape them. Western diets and antibiotics can harm gut diversity, while fiber and fermented foods help improve it. Prebiotics and probiotics may support gut health, but evidence-based choices matter most.",
+      "tags": []
+    },
+    {
+      "id": "01kc5em7gkqs4sq9be9vbewmgx",
+      "title": "The Insane Engineering of MRI Machines",
+      "url": "https://www.youtube.com/watch?v=NlYXqRG7lus",
+      "savedAt": "2025-12-11T00:57:53.939000+00:00",
+      "description": "MRI machines use powerful magnets to align hydrogen atoms in the body and radiofrequency pulses to nudge them.  \nThe spinning hydrogen atoms emit signals as they relax, and coils detect these signals to build detailed images.  \nStronger magnets and precise gradient control improve image quality, making MRI a vital tool in modern medicine.",
+      "tags": []
+    },
+    {
+      "id": "01kc5em1brm6c8t4nk1ypceg28",
+      "title": "I Grew Real Penicillin from MOLD",
+      "url": "https://www.youtube.com/watch?v=YOrRQtA8BsY",
+      "savedAt": "2025-12-11T00:57:47.639000+00:00",
+      "description": "A YouTuber grew Penicillium mold and extracted penicillin from it. They purified the chemical and tested it against E. coli. The video shows how simple microbes and basic lab steps can make a real antibiotic.",
+      "tags": []
+    },
+    {
+      "id": "01kc5ehn5rdfjmheafq9b02wtz",
+      "title": "The stack circuitry of the Intel 8087 floating point chip, reverse-engineered",
+      "url": "https://www.righto.com/2025/12/8087-stack-circuitry.html",
+      "savedAt": "2025-12-11T00:56:29.624000+00:00",
+      "description": "The Intel 8087 coprocessor used an eight-entry stack of 80-bit registers to speed floating-point math.  \nRighto reverse-engineered the die and shows the register cells, decoder, and stack control that manage pushes, pops, and addressing.  \nThe stack design simplified instruction encoding but added complexity and has mostly been replaced by flat register designs, though modern floating point still traces back to the 8087.",
+      "tags": []
+    },
+    {
+      "id": "01kc5ehb3r6qdtzgbght9k7pk5",
+      "title": "SWIM: Outsourced Heartbeats",
+      "url": "https://benjamincongdon.me/blog/2025/12/09/SWIM-Outsourced-Heartbeats/",
+      "savedAt": "2025-12-11T00:56:19.320000+00:00",
+      "description": "SWIM is a simple, scalable protocol for detecting failed nodes in large distributed systems.  \nEach node pings one random peer and, if that ping fails, asks a few others to check the peer (outsourced heartbeats).  \nThis keeps per-node load constant and detects failures quickly while tolerating unreliable networks.",
+      "tags": []
+    },
+    {
+      "id": "01kc5egk17kb6f4pkbzbkgt5nn",
+      "title": "Build a working game of Tetris in Conway's Game of Life",
+      "url": "https://codegolf.stackexchange.com/questions/11880/build-a-working-game-of-tetris-in-conways-game-of-life",
+      "savedAt": "2025-12-11T00:55:54.663000+00:00",
+      "description": "The author builds a complete computer inside Conway's Game of Life to run Tetris. They design wires, logic gates, memory (ROM, RAM), an ALU, and control circuits like latches and counters. The project pieces are combined and scripts are provided to generate the ROM and finished machine.",
+      "tags": []
+    },
+    {
+      "id": "01kc5eggnjy4ab35s2n7jej168",
+      "title": "Vim is Turing-Complete",
+      "url": "https://buttondown.com/hillelwayne/archive/vim-is-turing-complete/",
+      "savedAt": "2025-12-11T00:55:52.242000+00:00",
+      "description": "Vim keystrokes can be Turing-complete, meaning they can perform any computation that a Turing machine can. The author explains how a specific set of keystrokes can simulate a 2-tag system, which is a type of automaton that can solve decision problems. This demonstration shows that Vim, a text editor, has powerful computational capabilities beyond simple text editing.",
+      "tags": []
+    },
+    {
+      "id": "01kc5eg8pe0wfn86ka46vm7k8y",
+      "title": "When would you ever want bubblesort?",
+      "url": "https://buttondown.com/hillelwayne/archive/when-would-you-ever-want-bubblesort/",
+      "savedAt": "2025-12-11T00:55:44.078000+00:00",
+      "description": "Bubblesort is usually not recommended for sorting, but it can be useful in specific situations, like when sorting small arrays within larger algorithms. In game development, its quick and simple steps allow for efficient rendering of objects on screen. Additionally, it can create smooth animations for sorting particles by color, though better algorithms are often preferred for final sorting tasks.",
+      "tags": []
+    },
+    {
+      "id": "01kc3tzrv9a3j2jpeaar503xmv",
+      "title": "The Fascinating Story of the Exponential Function",
+      "url": "https://thepalindrome.org/p/the-fascinating-story-of-the-exponential",
+      "savedAt": "2025-12-10T09:55:23.185000+00:00",
+      "description": "Watch now | Video version",
+      "tags": []
+    },
     {
       "id": "01kc24n9z1p949nf488q1afxy2",
       "title": "Join the on-call roster, it’ll change your life",
