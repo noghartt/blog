@@ -1,6 +1,242 @@
 {
-  "lastUpdate": "2025-12-10T00:11:37.287Z",
+  "lastUpdate": "2025-12-14T00:12:08.961Z",
   "data": [
+    {
+      "id": "01kcceg5van5v9m8vd2gz8shsx",
+      "title": "My productivity app is a never-ending .txt file",
+      "url": "https://jeffhuang.com/productivity_text_file/",
+      "savedAt": "2025-12-13T18:10:22.186000+00:00",
+      "description": "Jeff Huang uses a single text file combined with a calendar to track all his tasks and notes for over 14 years. Every night, he makes a daily to-do list from his calendar and updates it with completed work and new tasks. This simple system helps him stay organized, control his workload, and keep a detailed record of his work.",
+      "tags": [
+        "productivity",
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "01kcccacedn0r7vxy9b738pf0f",
+      "title": "mmap may slow down your Go app",
+      "url": "https://valyala.medium.com/mmap-in-go-considered-harmful-d92a25cb161d",
+      "savedAt": "2025-12-13T17:32:15.181000+00:00",
+      "description": "Mmap maps files into memory and can be fast for data already in page cache. But when data is cold, major page faults stall goroutines without freeing their OS threads, causing CPU under‑utilization and high latency. In Go, avoid mmap or use workarounds (raise GOMAXPROCS or access via cgo) to prevent these stalls.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kccb56c8vpdnvctbkwvbw1tg",
+      "title": "Revisiting \"Let's Build a Compiler\"",
+      "url": "https://eli.thegreenplace.net/2025/revisiting-lets-build-a-compiler/",
+      "savedAt": "2025-12-13T17:11:56.552000+00:00",
+      "description": "The \"Let's Build a Compiler\" tutorial by Jack Crenshaw is still popular because it teaches compiler building in a simple, step-by-step way using a recursive-descent parser. The author translated the original Pascal code into Python and WebAssembly to make it easier for modern readers to follow. The tutorial shows how to quickly generate working code but also reveals limits of its approach when handling complex features like types.",
+      "tags": [
+        "for-later",
+        "cs/compilers"
+      ]
+    },
+    {
+      "id": "01kccb03dg2xk20vf2wd5tvvsa",
+      "title": "Memory leak regression testing with V8/Node.js, part 1 - memory usage-based testing",
+      "url": "https://joyeecheung.github.io/blog/2024/03/17/memory-leak-testing-v8-node-js-1/",
+      "savedAt": "2025-12-13T17:09:09.680000+00:00",
+      "description": "Node.js tests memory leaks by measuring heap usage and forcing garbage collection, but this can be unreliable due to how the V8 engine delays memory cleanup. To improve tests, Node.js runs multiple garbage collections asynchronously and uses small heap sizes with pauses to allow memory to be freed properly. Despite these methods, memory leak testing remains tricky, and new strategies are still being developed.",
+      "tags": [
+        "cs/programming-languages/javascript"
+      ]
+    },
+    {
+      "id": "01kcc9ypwj8w5ns04w6zq7j5xw",
+      "title": "Testing and Benchmarking of AI Compilers",
+      "url": "https://www.broune.com/blog/testing-and-benchmarking-of-ai-compilers",
+      "savedAt": "2025-12-13T16:50:55.506000+00:00",
+      "description": "Testing AI compilers is hard but important to find bugs early and keep software fast. Writing good tests and profiling them helps improve speed and hardware use. Automated and frequent testing with strong unit tests makes AI software more reliable and easier to fix.",
+      "tags": [
+        "cs/ai",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kcc7b6vz90j5kyvf97hwhs8e",
+      "title": "Deep Learning for Healthcare: Chest X-Ray Medical Diagnosis",
+      "url": "https://www.iamtk.co/deep-learning-for-healthcare-chest-x-ray-medical-diagnosis",
+      "savedAt": "2025-12-13T16:05:19.359000+00:00",
+      "description": "The article shows how deep learning can help diagnose chest X-rays. It explains training models on medical image data. It discusses challenges and practical results for healthcare use.",
+      "tags": [
+        "cs/ai",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kcc69katkva50gvvayxz13hq",
+      "title": "Unexpected Things that are People",
+      "url": "https://bengoldhaber.substack.com/p/unexpected-things-that-are-people",
+      "savedAt": "2025-12-13T15:46:58.010000+00:00",
+      "description": "Some non-human things have been given legal personhood so they can own rights and be sued. Examples include ships (so they can be arrested and salvors rewarded), New Zealand’s Whanganui River (given guardians and funds), and Hindu deities (able to hold property via trustees). These legal statuses solve practical disputes but do not grant full human constitutional rights.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kcc68f7mva2zk0y0gm9e4gpc",
+      "title": "Compiler Engineering in Practice - Part 1: What is a Compiler?",
+      "url": "https://chisophugis.github.io/2025/12/08/compiler-engineering-in-practice-part-1-what-is-a-compiler.html",
+      "savedAt": "2025-12-13T15:46:21.044000+00:00",
+      "description": "A compiler is a program that translates code from one language to another while preserving its behavior. Ensuring a compiler never produces incorrect output (a miscompile) is critical because mistakes can cause serious problems and are hard to debug. Compilers use complex data structures called intermediate representations (IR) to carefully transform code step-by-step without changing its meaning.",
+      "tags": [
+        "for-later",
+        "cs/compilers"
+      ]
+    },
+    {
+      "id": "01kcc63x9txae92avsccap4gy8",
+      "title": "A Lisp Interpreter Implemented in Conway's Game of Life",
+      "url": "https://woodrush.github.io/blog/posts/2022-01-12-lisp-in-life.html",
+      "savedAt": "2025-12-13T15:43:51.610000+00:00",
+      "description": "The project \"Lisp in Life\" implements a Lisp interpreter using Conway's Game of Life, marking the first instance of a high-level programming language being interpreted this way. Users can input Lisp programs by editing specific cells in the Game of Life pattern, and the interpreter is written in C, allowing for compilation and execution in this unique environment. The system features advanced memory management and supports various Lisp programs, demonstrating a novel achievement in computational design.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kcc5e0ma7pmz5fxg2ep0qcq7",
+      "title": "A Taxonomy Of Data Change Events",
+      "url": "https://www.morling.dev/blog/taxonomy-of-data-change-events/",
+      "savedAt": "2025-12-13T15:31:54.122000+00:00",
+      "description": "Change data capture events describe how a database record changed so consumers can react in real time. Morling classifies events as full (complete record), delta (only changed fields), or id-only (just the primary key). Metadata like operation type and timestamp helps ordering, routing, and rebuilding full state when needed.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kcc5dmyb2m2b8hwb7kgd3sg5",
+      "title": "Revisiting the Outbox Pattern",
+      "url": "https://www.morling.dev/blog/revisiting-the-outbox-pattern/",
+      "savedAt": "2025-12-13T15:31:42.155000+00:00",
+      "description": "The outbox pattern ensures a service can update its database and reliably publish events without distributed transactions.  \nIt gives eventual consistency and is best implemented with log-based CDC to avoid polling and ordering issues.  \nIt has trade-offs (extra storage, latency) but remains a practical choice for reliable microservice communication.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kcc5dbkgwwf067e0sr1mdpbd",
+      "title": "Moving Faster by Not Breaking Things —Or How Not to Blow Up the Internet",
+      "url": "https://queue.acm.org/detail.cfm?ref=rss&id=3762988",
+      "savedAt": "2025-12-13T15:31:32.592000+00:00",
+      "description": "Complex systems need frequent updates to keep working. Document processes and rollouts, define health metrics, and prequalify changes with tests. A small upfront investment in safety lets teams move faster with fewer incidents.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kcc5d6rap9y5xbvhv5e8se8e",
+      "title": "Unsolved Problems in MLOps",
+      "url": "https://queue.acm.org/detail.cfm?ref=rss&id=3762989",
+      "savedAt": "2025-12-13T15:31:27.626000+00:00",
+      "description": "MLOps faces unique challenges because ML systems are nondeterministic and data drives behavior as much as code. Key unsolved problems include measuring and monitoring real-world model quality, versioning models and data, and managing cost and infrastructure efficiency. These gaps make reliable, safe ML deployment hard and increase risk for providers and users.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kcc53xh3r561jhzed8dgz1xd",
+      "title": "\"Change Data Capture Breaks Encapsulation\". Does it, though?",
+      "url": "https://www.morling.dev/blog/change-data-capture-breaks-encapsulation-does-it-though/",
+      "savedAt": "2025-12-13T15:26:23.267000+00:00",
+      "description": "Change Data Capture can expose database details, which may break consumers when schemas change. Well-defined, forward-compatible data contracts (or using the Outbox Pattern) prevent that by insulating consumers. Stream processing can transform and publish stable public streams so teams can evolve schemas without breaking users.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kcc41m2hh2cgfze39kknt15a",
+      "title": "VACUUM Is a Lie (About Your Indexes)",
+      "url": "https://boringsql.com/posts/vacuum-is-lie/",
+      "savedAt": "2025-12-13T15:07:39.473000+00:00",
+      "description": "VACUUM cleans up dead rows in tables but does not fix bloated indexes. Index bloat happens when many deleted entries remain, making indexes large and inefficient. To shrink bloated indexes, you must use REINDEX or tools like pg_squeeze.",
+      "tags": [
+        "for-later",
+        "cs/database"
+      ]
+    },
+    {
+      "id": "01kc6aht2k2e8rw4r1vvs4h2wd",
+      "title": "Essentials: How to Build, Maintain & Repair Gut Health | Dr. Justin Sonnenburg",
+      "url": "https://www.hubermanlab.com/episode/essentials-build-maintain-repair-gut-health-justin-sonnenburg",
+      "savedAt": "2025-12-11T09:05:51.772000+00:00",
+      "description": "Dr. Justin Sonnenburg explains how gut microbes affect our health and how diet and lifestyle shape them. Western diets and antibiotics can harm gut diversity, while fiber and fermented foods help improve it. Prebiotics and probiotics may support gut health, but evidence-based choices matter most.",
+      "tags": []
+    },
+    {
+      "id": "01kc5em7gkqs4sq9be9vbewmgx",
+      "title": "The Insane Engineering of MRI Machines",
+      "url": "https://www.youtube.com/watch?v=NlYXqRG7lus",
+      "savedAt": "2025-12-11T00:57:53.939000+00:00",
+      "description": "MRI machines use powerful magnets to align hydrogen atoms in the body and radiofrequency pulses to nudge them.  \nThe spinning hydrogen atoms emit signals as they relax, and coils detect these signals to build detailed images.  \nStronger magnets and precise gradient control improve image quality, making MRI a vital tool in modern medicine.",
+      "tags": []
+    },
+    {
+      "id": "01kc5em1brm6c8t4nk1ypceg28",
+      "title": "I Grew Real Penicillin from MOLD",
+      "url": "https://www.youtube.com/watch?v=YOrRQtA8BsY",
+      "savedAt": "2025-12-11T00:57:47.639000+00:00",
+      "description": "A YouTuber grew Penicillium mold and extracted penicillin from it. They purified the chemical and tested it against E. coli. The video shows how simple microbes and basic lab steps can make a real antibiotic.",
+      "tags": []
+    },
+    {
+      "id": "01kc5ehn5rdfjmheafq9b02wtz",
+      "title": "The stack circuitry of the Intel 8087 floating point chip, reverse-engineered",
+      "url": "https://www.righto.com/2025/12/8087-stack-circuitry.html",
+      "savedAt": "2025-12-11T00:56:29.624000+00:00",
+      "description": "The Intel 8087 coprocessor used an eight-entry stack of 80-bit registers to speed floating-point math.  \nRighto reverse-engineered the die and shows the register cells, decoder, and stack control that manage pushes, pops, and addressing.  \nThe stack design simplified instruction encoding but added complexity and has mostly been replaced by flat register designs, though modern floating point still traces back to the 8087.",
+      "tags": [
+        "hardware",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kc5ehb3r6qdtzgbght9k7pk5",
+      "title": "SWIM: Outsourced Heartbeats",
+      "url": "https://benjamincongdon.me/blog/2025/12/09/SWIM-Outsourced-Heartbeats/",
+      "savedAt": "2025-12-11T00:56:19.320000+00:00",
+      "description": "SWIM is a simple, scalable protocol for detecting failed nodes in large distributed systems.  \nEach node pings one random peer and, if that ping fails, asks a few others to check the peer (outsourced heartbeats).  \nThis keeps per-node load constant and detects failures quickly while tolerating unreliable networks.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kc5egk17kb6f4pkbzbkgt5nn",
+      "title": "Build a working game of Tetris in Conway's Game of Life",
+      "url": "https://codegolf.stackexchange.com/questions/11880/build-a-working-game-of-tetris-in-conways-game-of-life",
+      "savedAt": "2025-12-11T00:55:54.663000+00:00",
+      "description": "The author builds a complete computer inside Conway's Game of Life to run Tetris. They design wires, logic gates, memory (ROM, RAM), an ALU, and control circuits like latches and counters. The project pieces are combined and scripts are provided to generate the ROM and finished machine.",
+      "tags": [
+        "cs",
+        "interesting"
+      ]
+    },
+    {
+      "id": "01kc5eggnjy4ab35s2n7jej168",
+      "title": "Vim is Turing-Complete",
+      "url": "https://buttondown.com/hillelwayne/archive/vim-is-turing-complete/",
+      "savedAt": "2025-12-13T17:32:03.271000+00:00",
+      "description": "Vim keystrokes can be Turing-complete, meaning they can perform any computation that a Turing machine can. The author explains how a specific set of keystrokes can simulate a 2-tag system, which is a type of automaton that can solve decision problems. This demonstration shows that Vim, a text editor, has powerful computational capabilities beyond simple text editing.",
+      "tags": []
+    },
+    {
+      "id": "01kc5eg8pe0wfn86ka46vm7k8y",
+      "title": "When would you ever want bubblesort?",
+      "url": "https://buttondown.com/hillelwayne/archive/when-would-you-ever-want-bubblesort/",
+      "savedAt": "2025-12-11T00:55:44.078000+00:00",
+      "description": "Bubblesort is usually not recommended for sorting, but it can be useful in specific situations, like when sorting small arrays within larger algorithms. In game development, its quick and simple steps allow for efficient rendering of objects on screen. Additionally, it can create smooth animations for sorting particles by color, though better algorithms are often preferred for final sorting tasks.",
+      "tags": []
+    },
+    {
+      "id": "01kc3tzrv9a3j2jpeaar503xmv",
+      "title": "The Fascinating Story of the Exponential Function",
+      "url": "https://thepalindrome.org/p/the-fascinating-story-of-the-exponential",
+      "savedAt": "2025-12-10T09:55:23.185000+00:00",
+      "description": "Watch now | Video version",
+      "tags": []
+    },
     {
       "id": "01kc24n9z1p949nf488q1afxy2",
       "title": "Join the on-call roster, it’ll change your life",
@@ -6883,7 +7119,8 @@
       "savedAt": "2025-05-23T05:15:32.049000+00:00",
       "description": "The Annotated Transformer explains the architecture and training of the Transformer model, which uses stacked self-attention layers in both the encoder and decoder. It describes how embeddings, positional encoding, and feed-forward networks are integrated into the model. The document also includes examples of model predictions and training procedures.",
       "tags": [
-        "cs/ai"
+        "cs/ai",
+        "for-later"
       ]
     },
     {
