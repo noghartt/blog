@@ -1,6 +1,49 @@
 {
-  "lastUpdate": "2025-12-14T00:12:08.961Z",
+  "lastUpdate": "2025-12-15T00:11:55.546Z",
   "data": [
+    {
+      "id": "01kcfjnvnb8ejnhbd138f7jh4f",
+      "title": "Supplements I Take and Why I Take Them",
+      "url": "https://desmolysium.com/supplements-i-take/",
+      "savedAt": "2025-12-14T23:21:05.963000+00:00",
+      "description": "The author shares their supplement routine, emphasizing low doses of nutrients naturally found in the body, like sodium and omega-3. They take various vitamins and supplements for health benefits but acknowledge that diet, exercise, and sleep are more important for well-being. The author also avoids herbal supplements and suggests consulting a physician before using any supplements.",
+      "tags": [
+        "biohack"
+      ]
+    },
+    {
+      "id": "01kceng5d1r9y7tmq42f84xe0t",
+      "title": "Using LLMs at Oxide",
+      "url": "https://rfd.shared.oxide.computer/rfd/0576",
+      "savedAt": "2025-12-14T14:51:10.625000+00:00",
+      "description": "LLMs are powerful tools that can help with reading, editing, research, code review, and debugging, but they have real risks. Human judgment, responsibility, and empathy must stay central when using them. Use LLMs when they add value, not because you are forced to.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kcemmbwrgmvan1wb2xwbeczd",
+      "title": "Indexed Reverse Polish Notation, an Alternative to AST",
+      "url": "https://burakemir.ch/post/indexed-rpn/",
+      "savedAt": "2025-12-14T14:35:59.768000+00:00",
+      "description": "The post describes Indexed Reverse Polish Notation (Indexed RPN) as an alternative to ASTs. It stores program nodes in a single linear array and uses indices as stable names for subexpressions. This makes name resolution, control flow, and codegen simple and cache-friendly.",
+      "tags": [
+        "for-later",
+        "cs/compilers",
+        "cs/pl-theory"
+      ]
+    },
+    {
+      "id": "01kcem01grze3yvqa1m23wwrrf",
+      "title": "Build Systems À La Carte",
+      "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2018/03/build-systems.pdf",
+      "savedAt": "2025-12-14T14:24:53.784000+00:00",
+      "description": "This paper presents a framework for understanding and comparing complex build systems, abstracting their key properties while implementing them in Haskell code. It identifies two main design choices in build systems: task order and whether tasks are rebuilt. The authors illustrate their framework by describing various real-life build systems, including Make and Bazel, and discussing their differences.",
+      "tags": [
+        "cs",
+        "for-later"
+      ]
+    },
     {
       "id": "01kcceg5van5v9m8vd2gz8shsx",
       "title": "My productivity app is a never-ending .txt file",
