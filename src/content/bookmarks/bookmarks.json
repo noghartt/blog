@@ -1,6 +1,532 @@
 {
-  "lastUpdate": "2025-12-16T00:12:14.090Z",
+  "lastUpdate": "2025-12-19T00:12:05.212Z",
   "data": [
+    {
+      "id": "01kcrbcg6j2x87p87ehb2cvs5y",
+      "title": "Essentials: How to Set & Achieve Goals",
+      "url": "https://www.hubermanlab.com/episode/essentials-how-to-set-and-achieve-goals",
+      "savedAt": "2025-12-18T09:06:46.170000+00:00",
+      "description": "This episode explains how the brain and dopamine affect motivation to reach goals. It shares simple tools like visualizing failure and tracking progress to help you stay focused. Using these science-based methods can make it easier to set and achieve your goals.",
+      "tags": []
+    },
+    {
+      "id": "01kcr1brp12eqekbw3s5j2akmd",
+      "title": "How SQLite Is Tested",
+      "url": "https://sqlite.org/testing.html",
+      "savedAt": "2025-12-18T06:11:39.329000+00:00",
+      "description": "As of version 3. 42.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kcr1bgayqg7fzzbx4bm841bv",
+      "title": "Some of Us Actually Like Coding",
+      "url": "https://v5.chriskrycho.com/notes/some-of-us-actually-like-coding/",
+      "savedAt": "2025-12-18T06:11:30.782000+00:00",
+      "description": "Yes, even amongst the “senior engineer” cohort. Shocking, I know!",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kcr1b81rafa7s6bstd3mckd5",
+      "title": "The Wrong Question About Type Systems",
+      "url": "https://furkan3ayraktar.github.io/blog/the-wrong-question-about-type-systems.html",
+      "savedAt": "2025-12-18T06:11:22.296000+00:00",
+      "description": "The author argues that static types are not always better than dynamic languages like Clojure, which rely on discipline, testing, and schemas to ensure correctness. Types can add coordination costs and coupling that make change harder, while Clojure's design favors simplicity, immutability, and fast feedback. Ultimately, the choice is about tradeoffs between strict guarantees and flexible, interactive development.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kcr196af9py37hvt80g6cne1",
+      "title": "The Illusion of Shared Understanding",
+      "url": "https://highimpactengineering.substack.com/p/the-illusion-of-shared-understanding",
+      "savedAt": "2025-12-18T06:10:14.991000+00:00",
+      "description": "And how to fix it with RFCs",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kcr18zzvfn6vpkat66xe6w77",
+      "title": "Put a ring on it: a lock-free MPMC ring buffer",
+      "url": "https://h4x0r.org/ring/",
+      "savedAt": "2025-12-18T06:10:08.507000+00:00",
+      "description": "This text explains a lock-free multiple-producer, multiple-consumer (MPMC) ring buffer that uses atomic operations to manage concurrency safely. It ensures that enqueue and dequeue operations happen in order without data races or inconsistencies. The design relies on epochs and compare-and-swap (CAS) to coordinate parallel threads efficiently.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kcr18m3sb2qskxft5hvt4j9e",
+      "title": "Own Your Observability: Supabase Metrics API",
+      "url": "https://supabase.com/blog/metrics-api-observability",
+      "savedAt": "2025-12-18T06:09:56.345000+00:00",
+      "description": "Stream your Supabase database telemetry into any Prometheus-compatible observability stack with the Metrics API. Full control over monitoring, visualization, and alerting.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kcr18fepmmsa0afdyngangk4",
+      "title": "On the success of ‘natural language programming’",
+      "url": "https://brooker.co.za/blog/2025/12/16/natural-language.html",
+      "savedAt": "2025-12-18T06:09:51.574000+00:00",
+      "description": "Most programming starts as fuzzy natural language and is refined by conversation and feedback. Large language models let computers join that loop, turning informal specs into working code. For critical cases we still use formal tools or combine neural and symbolic methods.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kcr184z2qe1bzsg0dzcbv2er",
+      "title": "Statistics made simple",
+      "url": "https://tonsky.me/blog/clj-simple-stats/",
+      "savedAt": "2025-12-18T06:09:40.834000+00:00",
+      "description": "Announcing a simple statistics library for Clojure web servers",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kcr17zh90fst2kam37b8bvtg",
+      "title": "A little bit uncomfortable",
+      "url": "https://www.allthingsdistributed.com/2025/12/a-little-bit-uncomfortable.html",
+      "savedAt": "2025-12-18T06:09:35.273000+00:00",
+      "description": "Fear and discomfort often signal where real growth happens.  \nLean into small scary moments and support others when they do the same.  \nAsk yourself what makes you uneasy this week and try doing it.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kcr17sb8ex5dqm966sez2aj8",
+      "title": "Optimization Countermeasures",
+      "url": "https://mcyoung.xyz/2025/12/15/value-barriers/",
+      "savedAt": "2025-12-18T06:09:28.935000+00:00",
+      "description": "Low-level crypto must avoid timing leaks by using constant-time code. Compilers can undo constant-time fixes, so programmers use a \"value barrier\" (an empty asm no-op) to stop dangerous optimizations. The value barrier preserves security while compiling to no runtime cost.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kcr17hj42x02ffcmp87nt0bs",
+      "title": "How to do everything",
+      "url": "https://drmaciver.substack.com/p/how-to-do-everything",
+      "savedAt": "2025-12-18T06:09:20.964000+00:00",
+      "description": "Many things that seem hard you actually just lack an easy insight into, and it's worth spending some time investigating what those insights might be.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kcr17c8t0mmdymar8n5v0qe4",
+      "title": "theory building without a mentor",
+      "url": "https://jyn.dev/theory-building-without-a-mentor/",
+      "savedAt": "2025-12-18T06:09:15.546000+00:00",
+      "description": "learning how a program is intended to work is hard. here's how to do it.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kcr173kwq0k7qynkdtt939bb",
+      "title": "the gen z resilience drought",
+      "url": "https://jordanstacey.substack.com/p/the-gen-z-resilience-drought",
+      "savedAt": "2025-12-18T06:09:06.684000+00:00",
+      "description": "the \"omg you people can't do anything\" of it all",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kcr16ytfxsmbn399fj8mskd1",
+      "title": "how I think when I think about programming",
+      "url": "https://www.alicemaz.com/writing/program.html",
+      "savedAt": "2025-12-18T06:09:01.775000+00:00",
+      "description": "Alice Maz shares her thoughts on how to think about programming, aiming to provide newer programmers with a clearer understanding of the fundamental concepts. She emphasizes that programming is not just about memorizing syntax but understanding the underlying abstractions that make different languages similar. By grasping these basic elements, programmers can transition easily between languages and improve their skills without getting bogged down in unnecessary complexity.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kcr16m7tqfv2at87vx98d3kw",
+      "title": "How AWS deals with a major outage",
+      "url": "https://newsletter.pragmaticengineer.com/p/how-aws-deals-with-a-major-outage",
+      "savedAt": "2025-12-18T06:08:50.938000+00:00",
+      "description": "AWS suffered a 15-hour us-east-1 outage that hit many major sites after DynamoDB DNS failed and problems spread to EC2 and the Network Load Balancer.  \nAWS’s Incident Response team ran parallel investigations, found a DNS Enactor race condition, and applied temporary DNS overrides before fixing public records.  \nPost-incident reviews and long-tenured engineers’ involvement are helping AWS improve tooling and resilience.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kcr16drzqg4g7vz03fmcq7bk",
+      "title": "Bored People Quit",
+      "url": "https://randsinrepose.com/archives/bored-people-quit/",
+      "savedAt": "2025-12-18T06:08:44.319000+00:00",
+      "description": "Much has been written about employee motivation and retention. It's written by folks who actively use words like motivation and retention and generally don't have a clue about the daily necessity of keeping your team professionally content because they've either never done the work or have forgotten",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kcr16784pm023pqd83gwjxxw",
+      "title": "Growth Without Goals",
+      "url": "https://joincolossus.com/blog/posts/growth-without-goals?ref=candosts-space",
+      "savedAt": "2025-12-18T06:08:37.635000+00:00",
+      "description": "Success is not hitting big goals but building simple daily practices. Growth comes from steady, curious habits and exploration, not chasing accomplishments. Do the right small things every day and the rest follows.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kcr1616c0tp7a7pwaqwqzez6",
+      "title": "You Are Not Late",
+      "url": "https://kk.org/thetechnium/you-are-not-late/",
+      "savedAt": "2025-12-18T06:08:31.436000+00:00",
+      "description": "The internet still has huge untapped opportunities. Now is one of the best times ever to start something new online. You are not late.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kcr15vkbgmabfc19gkrebjxp",
+      "title": "How the World Works",
+      "url": "https://www.theatlantic.com/magazine/archive/1993/12/how-the-world-works/305854/",
+      "savedAt": "2025-12-18T06:08:25.707000+00:00",
+      "description": "Many successful countries built industry by breaking free-market rules and using government power to steer resources. Anglo-American economics often treats free markets as natural, but history shows protection, subsidies, and planning helped nations catch up. Today’s fast-growing economies follow these pragmatic, non‑laissez-faire strategies.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kcr15p2ba27spgc04bz28e35",
+      "title": "Cargo Cult Science",
+      "url": "https://calteches.library.caltech.edu/51/2/CargoCult.htm",
+      "savedAt": "2025-12-18T06:08:20.043000+00:00",
+      "description": "Science works best when people are honest and careful not to fool themselves or others. Many studies look scientific but miss this honesty, so Feynman calls them \"Cargo Cult Science.\" True science tests ideas openly, reports all results, and tries hard to find the truth, even if it means being wrong.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kcr15g97vvbptzxkye1bv1df",
+      "title": "The Ladder of Abstraction",
+      "url": "https://worrydream.com/LadderOfAbstraction/",
+      "savedAt": "2025-12-18T06:08:14.119000+00:00",
+      "description": "Good designers move up and down levels of abstraction to understand systems.  \nVisual and symbolic abstractions reveal high-level patterns and let us focus on causes by stepping down.  \nInteractive control of parameters and lightweight prototypes help build intuition and guide design.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kcr155hb1fsjsgpjgmj8b06g",
+      "title": "100 Tips for a Better Life",
+      "url": "https://www.lesswrong.com/posts/7hFeMWC6Y5eaSixbD/100-tips-for-a-better-life",
+      "savedAt": "2025-12-18T06:08:03.115000+00:00",
+      "description": "The list gives short, practical tips to improve life in areas like productivity, health, success, and relationships. It emphasizes making tasks easy, being dependable, knowing yourself, and avoiding traps like procrastination and status-seeking. It also urges patience, compassion, and learning from plans and experience.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kcr14y3pg2b7075zvjmpaw36",
+      "title": "Cells are very fast and crowded places",
+      "url": "https://www.righto.com/2011/07/cells-are-very-fast-and-crowded-places.html",
+      "savedAt": "2025-12-18T06:07:55.509000+00:00",
+      "description": "Cells are incredibly crowded, like Times Square full of proteins and ribosomes. Molecules and motors inside cells move extremely fast, colliding and diffusing constantly. This speed and density let cells work efficiently but make them hard to simulate.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kcr14jwnpr2p64hrb61w8t8d",
+      "title": "The Rise of ``Worse is Better''By Richard Gabriel",
+      "url": "https://www.jwz.org/doc/worse-is-better.html",
+      "savedAt": "2025-12-18T06:07:44.021000+00:00",
+      "description": "Gabriel contrasts the MIT \"right thing\" (complete, consistent, correct) with the New Jersey \"worse-is-better\" (prioritizing implementation simplicity). Unix and C are examples that spread because they are easy to implement and port. Simple, portable systems win users and are later improved, so worse-is-better often wins in practice.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kcr14a9dfa83geyjfgemgndt",
+      "title": "Finance as culture",
+      "url": "https://blog.johnluttig.com/p/finance-as-culture",
+      "savedAt": "2025-12-18T06:07:35.213000+00:00",
+      "description": "Financialization, the process by which financial institutions and markets grow in size and influence, has seeped into our culture. The combination of low interest rates, a tech bull run, and FOMO has led to the financialization of culture, manifesting in lottery culture and equity culture. Lottery culture involves trading assets without understanding their fundamental value, while equity culture revolves around the perception that equity holders are getting rich. The financialization of culture is influenced by factors such as interest rates, tech maturity, inequality, and social media. The future of financialization is uncertain, with possibilities ranging from a bubble burst to a populist reversion of capital over labor.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kcr144m6y9bq5w4vtv6d27w0",
+      "title": "The idea maze",
+      "url": "https://cdixon.org/2013/08/04/the-idea-maze",
+      "savedAt": "2025-12-18T06:07:29.414000+00:00",
+      "description": "Startups succeed when founders navigate a complex, multi-year \"idea maze\" not just from a single spark. Study history, analogies, theories, and direct experience to anticipate how markets, tech, and incumbents will react. Competing startups matter less than avoiding long dead‑end paths.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kcr13yhwb1yqz4fry12b8vpm",
+      "title": "Theses on Sleep",
+      "url": "https://guzey.com/theses-on-sleep/",
+      "savedAt": "2025-12-18T06:07:23.196000+00:00",
+      "description": "The author argues we should be skeptical of mainstream sleep science and weakly held beliefs about sleep. He suggests acute sleep loss can sometimes be harmless or even beneficial, and people may adapt to shorter sleep. He warns not to drastically change your sleep without gradual personal experiments.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kcr13rraff8m8zmsa59f3dfs",
+      "title": "The Longevity FAQ",
+      "url": "https://nintil.com/longevity/",
+      "savedAt": "2025-12-18T06:07:17.258000+00:00",
+      "description": "Longevity research finds many genes and pathways (like sirtuins, mitochondria, telomerase, and mTOR) that can change lifespan, but results vary by species and methods. Key debates remain about whether oxidative damage and mitochondrial ROS drive aging, and some interventions work in some animals but not others. Dietary factors (methionine, cysteine, tryptophan, BCAAs) and drugs like rapamycin show lifespan effects, though benefits and doses differ.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kcr13hwzkbnrg04fyj27qgj9",
+      "title": "100 Little Ideas",
+      "url": "https://collabfund.com/blog/100-little-ideas/",
+      "savedAt": "2025-12-18T06:07:10.239000+00:00",
+      "description": "Many cognitive biases make us misunderstand reality and overestimate ourselves. Social incentives and institutions often protect inefficient or unfair systems. Better choices come from humility: check base rates, admit uncertainty, and question tribal pressure.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kcr13c1kvc26m7xpa644j9dy",
+      "title": "always bet on text",
+      "url": "https://graydon2.dreamwidth.org/193447.html",
+      "savedAt": "2025-12-18T06:07:04.243000+00:00",
+      "description": "Text is the most powerful and reliable way to communicate. It is durable, precise, efficient, and flexible. For most needs, choose text first.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kcr12wv2ay80gbr0zrjsn4j1",
+      "title": "Analogy As The Core Of Cognition",
+      "url": "https://worrydream.com/refs/Hofstadter_2001_-_Analogy_as_the_Core_of_Cognition.pdf",
+      "savedAt": "2025-12-18T06:06:48.674000+00:00",
+      "description": "The author argues that analogy is the central process of thought.  \nConcepts are bundles of analogies that guide perception and memory.  \nThinking flows by leaping between these analogy-based chunks.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kcr12j0d0rewmdthjxyza7vy",
+      "title": "Searching for outliers",
+      "url": "https://www.benkuhn.net/outliers/",
+      "savedAt": "2025-12-18T06:06:37.581000+00:00",
+      "description": "Many important outcomes follow heavy-tailed distributions where a few outliers drive most of the value. To succeed you need lots of samples and filters that spot “maybe amazing” candidates. Expect demoralizing failures but focus on processes that increase your chance of finding outliers.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kcr128b9h3a5h358zvm9440m",
+      "title": "The Four Quadrants of Conformism",
+      "url": "https://paulgraham.com/conformism.html",
+      "savedAt": "2025-12-18T06:06:27.689000+00:00",
+      "description": "Paul Graham divides people into four types based on how much they conform and how aggressive they are: aggressively/passively conventional and aggressively/passively independent. Independent-minded people create new ideas and need protections like free inquiry, while aggressively conventional people push to ban or punish dissenting ideas. He worries those protections are weakening (especially in universities) but believes independent thinkers will find or build new places to thrive.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kcr1185xrrm9hje0kn5gz2zj",
+      "title": "A blog post is a very long and complex search query to find fascinating people and make them route interesting stuff to your inbox",
+      "url": "https://www.henrikkarlsson.xyz/p/search-query",
+      "savedAt": "2025-12-18T06:05:54.749000+00:00",
+      "description": "The author says a blog post is a precise search query that finds people who care about the same niche ideas. Writing detailed, honest work helps those people connect and route interesting things to your inbox. Over time your social graph reshapes you and summons new communities.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kcr112ddtpy5xz6j05pw7wzk",
+      "title": "Pace Layering: How Complex Systems Learn and Keep Learning",
+      "url": "https://jods.mitpress.mit.edu/pub/issue3-brand/release/2",
+      "savedAt": "2025-12-18T06:05:48.845000+00:00",
+      "description": "Complex systems stay resilient by having layers that change at different speeds. Fast layers (fashion, commerce) innovate while slow layers (infrastructure, governance, culture, nature) stabilize and constrain. Healthy societies let each layer operate at its own pace and influence nearby layers.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kcr10v52an5k88kzg8xkjhgd",
+      "title": "A few thoughts on depression",
+      "url": "https://noahpinionblog.blogspot.com/2013/01/a-few-thoughts-on-depression.html",
+      "savedAt": "2025-12-18T06:05:41.410000+00:00",
+      "description": "Depression is not just sadness; it feels numb, different, and hard to describe. People with depression need steady, ordinary companionship and help building a new, positive life story. Recovery is ongoing—keep therapy, routines, and supports to prevent relapse.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kcr10m5e7gskrmyqxq47exr1",
+      "title": "lifehacks",
+      "url": "https://guzey.com/lifehacks/",
+      "savedAt": "2025-12-18T06:05:34.254000+00:00",
+      "description": "Set clear goals and take small, timed steps to make progress without fear. Always question your beliefs, seek truth, and learn by doing, not just thinking. Embrace failure, ask for help, and be kind to yourself and others.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kcr10dd5khwkf70wjma48npw",
+      "title": "Good conversations have lots of doorknobs",
+      "url": "https://www.experimental-history.com/p/good-conversations-have-lots-of-doorknobs",
+      "savedAt": "2025-12-18T06:05:27.333000+00:00",
+      "description": "In this article, the author draws parallels between good conversations and improvised musical comedy shows. They discuss the importance of \"take-and-take\" in conversations, where participants jump in and take the spotlight quickly and often. They also explore the clash between \"givers\" and \"takers\" in conversations, highlighting the need for a balance between the two. The article emphasizes the importance of creating conversational affordances, or opportunities for response and engagement, and suggests that both giving and taking in conversations can contribute to their success.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kcr108nm2bk7jky6zesnb32e",
+      "title": "The days are long but the decades are short",
+      "url": "https://blog.samaltman.com/the-days-are-long-but-the-decades-are-short",
+      "savedAt": "2025-12-18T06:05:22.484000+00:00",
+      "description": "Life is short, so focus on close relationships, health, and meaningful work. Pick what matters, work hard, avoid negativity, and take smart risks. Learn, help others, and don't waste time—the days feel long but the decades fly by.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kcr1038q2b22agy0k2jg64sq",
+      "title": "Reality has a surprising amount of detail",
+      "url": "http://johnsalvatier.org/blog/2017/reality-has-a-surprising-amount-of-detail",
+      "savedAt": "2025-12-18T06:05:16.951000+00:00",
+      "description": "Reality has many small, important details you only notice by doing things closely.  \nThose hidden details make hard problems easy to get stuck on because you miss what matters.  \nTo improve, look for unfamiliar details that actually change how you think.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kcr0zy8afg7ebx61tn0jxhtn",
+      "title": "The tyranny of ideas",
+      "url": "https://nadia.xyz/ideas",
+      "savedAt": "2025-12-18T06:05:11.818000+00:00",
+      "description": "Nadia Asparouhova discusses how creators can become overwhelmed by the ideas they produce, often losing control over them as they gain popularity. She emphasizes that ideas can dominate their creators, turning them into mere vessels for those concepts. To maintain their identity, creators may need to compartmentalize their work or resist being defined by any single idea.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kcr0zjm6h1qxwhgcgwpagdp9",
+      "title": "Willingness to Look Stupid",
+      "url": "https://readsomethingwonderful.com/p/111/willingness-to-look-stupid",
+      "savedAt": "2025-12-18T06:04:59.910000+00:00",
+      "description": "This site collects timeless essays meant to counter our culture of constant newness. It highlights enduring ideas that help you think better and live more deliberately. Readers can submit favorites to expand the collection.",
+      "tags": [
+        "interesting"
+      ]
+    },
+    {
+      "id": "01kcr0h1ycka073ekj7ca23brt",
+      "title": "All my favorite tracing tools: eBPF, QEMU, Perfetto, new ones I built and more",
+      "url": "https://thume.ca/2023/12/02/tracing-methods/",
+      "savedAt": "2025-12-18T05:57:04.076000+00:00",
+      "description": "Trace by collecting timestamped events and viewing them on a timeline.  \nMany tools and methods exist: eBPF, Perfetto, QEMU, instrumentation, magic-trace, bpftime, each with tradeoffs.  \nCombining eBPF and Perfetto helps diagnose tail latency using compact Protobuf traces and low‑overhead tricks.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kcr0gqd633vvxtxmek7yaj34",
+      "title": "System Observability: Metrics, Sampling, and Tracing",
+      "url": "https://entropicthoughts.com/system-observability-metrics-sampling-tracing",
+      "savedAt": "2025-12-18T05:56:53.286000+00:00",
+      "description": "The article explains three observability levels: metrics, system sampling, and process tracing. Metrics are cheap and coarse, sampling shows system-wide time use, and tracing records per-process timelines. Tracing is most detailed and lets you target the best optimizations despite higher cost.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kcqycqx1y1hrwp386jdy4sb0",
+      "title": "Growth Without Goals",
+      "url": "https://readsomethingwonderful.com/p/73/growth-without-goals",
+      "savedAt": "2025-12-18T05:20:16.271000+00:00",
+      "description": "This site collects timeless essays and ideas worth rereading. It fights the web’s obsession with the new over the valuable. Readers can submit recommendations to expand the list.",
+      "tags": [
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "01kcqybry6amkphvba6cw59zsg",
+      "title": "Vaxry's blog",
+      "url": "https://blog.vaxry.net/articles/2025-dbusSucks",
+      "savedAt": "2025-12-18T05:19:13.862000+00:00",
+      "description": "The author criticizes D-Bus as messy, insecure, and full of bad design choices. They are building a new bus called hyprtavern with strict types, built-in permissions, and a secure key-value secrets store. The new protocol aims to be simple, consistent, and safer for sandboxed apps.",
+      "tags": [
+        "os/linux"
+      ]
+    },
+    {
+      "id": "01kcqxm2bksc6kpshm4njqqd5n",
+      "title": "i'm just having fun",
+      "url": "https://jyn.dev/i-m-just-having-fun/",
+      "savedAt": "2025-12-18T05:06:17.075000+00:00",
+      "description": "The author writes about programming for fun, not to show off or compete. They believe anyone can learn hard skills by experimenting and making mistakes. Everyone has different talents, and art is an important way to use computers.",
+      "tags": [
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "01kcqx4q5kkyz1kbw0v535bwc4",
+      "title": "Essential Semiconductor Physics",
+      "url": "https://nanohub.org/resources/43623/download/Essential_Semiconductor_Physics.pdf",
+      "savedAt": "2025-12-18T04:57:54.099000+00:00",
+      "description": null,
+      "tags": []
+    },
+    {
+      "id": "01kcqwadhcz690009bx1yeqxq4",
+      "title": "What Does a Database for SSDs Look Like?",
+      "url": "https://brooker.co.za/blog/2025/12/15/database-for-ssd.html",
+      "savedAt": "2025-12-18T04:43:32.268000+00:00",
+      "description": "Modern SSDs and fast datacenter networks let databases move durability and scaling from a single machine to distributed systems. Cache sizes should hold hot pages for tens of seconds and disk transfers should target ~32KB to match SSD performance. Keep the relational model and strong consistency, but use replication, distributed logs, and modern hardware to rethink local durability and recovery.",
+      "tags": [
+        "hardware",
+        "cs/database"
+      ]
+    },
+    {
+      "id": "01kcqvqk1p921g16keew632d1g",
+      "title": "TLA+ modeling tips",
+      "url": "https://muratbuffalo.blogspot.com/2025/12/tla-modeling-tips.html",
+      "savedAt": "2025-12-18T04:33:15.318000+00:00",
+      "description": "Start with a small, simple model and add only what is necessary to explain the behavior you want to study. Write clear, declarative specifications with precise invariants and check both safety and progress properties. Review your model carefully for errors like illegal knowledge, and test it by trying to break it to ensure it truly captures the system.",
+      "tags": [
+        "for-later",
+        "math/formal-methods"
+      ]
+    },
+    {
+      "id": "01kcpm8grc05g3y748jzs7cev5",
+      "title": "The history of servers, the cloud, and what’s next – with Oxide",
+      "url": "https://newsletter.pragmaticengineer.com/p/the-history-of-servers-the-cloud",
+      "savedAt": "2025-12-17T17:03:23.988000+00:00",
+      "description": "Bryan Cantrill explains how decades of server and cloud evolution shaped modern infrastructure and what today’s engineers should learn from it.",
+      "tags": []
+    },
+    {
+      "id": "01kcpb0gahnvvff9392khfab2v",
+      "title": "Thin Desires Are Eating Your Life",
+      "url": "https://www.joanwestenberg.com/thin-desires-are-eating-your-life/",
+      "savedAt": "2025-12-17T14:21:47.216000+00:00",
+      "description": "We live surrounded by \"thin\" desires: quick, repeatable rewards that don't change who we are. Tech and markets deliver these instead of \"thick\" desires that take time and transform us. Do small, slow practices — bake bread, write a letter, help one person — to recover deeper meaning.",
+      "tags": [
+        "self-improvement"
+      ]
+    },
     {
       "id": "01kcgmcv6yprhm8ev463y6xnfp",
       "title": "Improve Energy & Longevity by Optimizing Mitochondria | Dr. Martin Picard",
@@ -9088,11 +9614,10 @@
       "id": "01jmn1m0fh8g8rg7gkns98p96w",
       "title": "Speed matters: Why working quickly is more important than it seems",
       "url": "http://jsomers.net/blog/speed-matters",
-      "savedAt": "2025-02-21T20:01:42.384000+00:00",
+      "savedAt": "2025-12-18T06:07:50.023000+00:00",
       "description": "Working quickly helps you finish more tasks and makes starting new ones feel less daunting. When tasks are completed faster, you become more inclined to take on more work, leading to greater productivity. In contrast, slowness can create a negative cycle where tasks seem too costly, causing you to avoid them altogether.",
       "tags": [
-        "favorites",
-        "productivity"
+        "for-later"
       ]
     },
     {
@@ -15571,9 +16096,10 @@
       "id": "01jbep8fgphvgbtvw96e8x9svp",
       "title": "Fast · Patrick Collison",
       "url": "https://patrickcollison.com/fast",
-      "savedAt": "2024-06-30T02:48:53.304000+00:00",
+      "savedAt": "2025-12-18T06:06:16.081000+00:00",
       "description": "Some examples of people quickly accomplishing ambitious things together.",
       "tags": [
+        "for-later",
         "self-improvement"
       ]
     },
