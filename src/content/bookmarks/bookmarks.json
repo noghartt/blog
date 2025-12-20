@@ -1,6 +1,26 @@
 {
-  "lastUpdate": "2025-12-19T00:12:05.212Z",
+  "lastUpdate": "2025-12-20T00:11:39.229Z",
   "data": [
+    {
+      "id": "01kcw31a489y5ezpv273gx1c06",
+      "title": "NVME is not a hard disk",
+      "url": "https://blog.koehntopp.info/2021/05/25/nvme-is-not-a-hard-disk.html",
+      "savedAt": "2025-12-19T19:57:51.623000+00:00",
+      "description": "NVME is a fast storage technology that works differently from traditional hard disks. Many database applications handle their own data redundancy, so extra storage copies are often unnecessary. Using NVME over a strong network lets storage be flexible and efficient, but it also adds complexity.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kctbtpkeanffqggsvd5fzhag",
+      "title": "Great Ideas in Theoretical Computer Science",
+      "url": "https://www.cs251.com/",
+      "savedAt": "2025-12-19T03:53:03.342000+00:00",
+      "description": "This course delves into the study of computation's role in various aspects of our world and the importance of having the right tools and language for this study. It covers central results and questions about computation, starting with formalizing concepts like computation and algorithms. The course progresses to introduce models such as deterministic finite automata and Turing machines, exploring computability limitations and undecidable problems. Further topics include computational complexity, graph theory's role in complexity analysis, the P vs NP problem, randomized algorithms, and the significance of cryptography in secure communication.",
+      "tags": [
+        "cs"
+      ]
+    },
     {
       "id": "01kcrbcg6j2x87p87ehb2cvs5y",
       "title": "Essentials: How to Set & Achieve Goals",
@@ -15,16 +35,6 @@
       "url": "https://sqlite.org/testing.html",
       "savedAt": "2025-12-18T06:11:39.329000+00:00",
       "description": "As of version 3. 42.",
-      "tags": [
-        "for-later"
-      ]
-    },
-    {
-      "id": "01kcr1bgayqg7fzzbx4bm841bv",
-      "title": "Some of Us Actually Like Coding",
-      "url": "https://v5.chriskrycho.com/notes/some-of-us-actually-like-coding/",
-      "savedAt": "2025-12-18T06:11:30.782000+00:00",
-      "description": "Yes, even amongst the “senior engineer” cohort. Shocking, I know!",
       "tags": [
         "for-later"
       ]
@@ -376,7 +386,8 @@
       "savedAt": "2025-12-18T06:05:34.254000+00:00",
       "description": "Set clear goals and take small, timed steps to make progress without fear. Always question your beliefs, seek truth, and learn by doing, not just thinking. Embrace failure, ask for help, and be kind to yourself and others.",
       "tags": [
-        "for-later"
+        "favorites",
+        "self-improvement"
       ]
     },
     {
@@ -446,7 +457,7 @@
       "savedAt": "2025-12-18T05:56:53.286000+00:00",
       "description": "The article explains three observability levels: metrics, system sampling, and process tracing. Metrics are cheap and coarse, sampling shows system-wide time use, and tracing records per-process timelines. Tracing is most detailed and lets you target the best optimizations despite higher cost.",
       "tags": [
-        "for-later"
+        "cs/observability"
       ]
     },
     {
@@ -3636,7 +3647,7 @@
       "title": "Mathematical induction",
       "url": "https://www.lesswrong.com/w/mathematical-induction",
       "savedAt": "2025-10-05T18:26:09.728000+00:00",
-      "description": "The principle of mathematical induction is a proof technique in which a statement, P(n), is proven about a set of natural numbers n. It may be best understood as treating the statements like dominoes: a statement P(n) is true if the n-th domino is knocked down. We must knock down a first domino, or prove that a base case P(m) is true. Next we must make sure the dominoes are close enough together to fall, or that the inductive step holds; in other words, we prove that if k≥m and P(k) is true, P(k+1) is true. Then since P(m) is true, P(m+1) is true; and since P(m+1) is true, P(m+2) is true, and so on.\n\n\nAn example\nWe'll do an example to build our intuition before giving the proper definition of the principle. We'll provide yet another proof that 1+2+⋯+n=n(n+1)2 for all integers n≥1. First, let's check the base case, where n=1: 1=1(1+1)2=22=1. This is (fairly obviously) true, so we can move forward with the inductive step. The inductive step includes an assumption, namely that the statement is true for some integer k that is larger than the base integer. For our example, if k≥1, we assume that 1+2+⋯+k=k(k+1)2 and try to prove that 1+2+⋯+k+(k+1)=(k+1)([k+1]+1)2. Take our assumption and add k+1 to both sides: 1+2+⋯+k+(k+1)=k(k+1)2+k+1. Now the left-hand sides of what we know and what we want are the same. Hopefully the right-hand side will shake out to be the same. Get common denominators so that the right-hand side of the above equation is k(k+1)2+2(k+1)2=(k+2)(k+1)2=(k+1)([k+1]+1)2. Therefore, 1+2+⋯+k+(k+1)=(k+1)([k+1]+1)2 as desired.\n\nLet P(n) be the statement for n≥1 that the sum of all integers between 1 and n is n(n+1)/2. At the beginning we showed that the base case, P(1), is true. Next we showed the inductive step, that if k≥1 and P(k) is true, then P(k+1) is true. This means that since P(1) is true, P(2) is true; and since P(2) is true, P(3) is true; etc., so that P(n) is true for all integers n≥1.\n\n\nDefinition for the natural numbers\nWe are ready to properly de",
+      "description": "Mathematical induction proves a statement for all natural numbers by treating cases like dominoes. First prove a base case P(m). Then show P(k) implies P(k+1), so all P(n) for n≥m follow.",
       "tags": [
         "math",
         "for-later"
@@ -3647,7 +3658,7 @@
       "title": "Why argument structure is important",
       "url": "https://www.lesswrong.com/w/why-argument-structure-is-important",
       "savedAt": "2025-10-05T18:25:48.534000+00:00",
-      "description": "Tldr;\n\nArbital should put design and engineering effort into better ways to structure discussions, such as defining terms, adding evidence for or against a claim, declaring cruxes, proposing tests, and posting challenges (e.g. “how might we…”). These structures will improve the quality of discussion and can plug together for collaborative truth-seeking.\n\n----------------------------------------\n\nProblem\n\nI see three structures of community-created content out on the Interwebs today:\n\n * Blogs and articles (long-ish form usually written by one author, permanent but sinks out of awareness quickly.)\n * Discussions that flow quickly (threaded discussions like reddit or Q&A sites like StackExchange), and\n * Wikis (permanent but appearing static and the evolution is hidden).\n\nWhat’s missing is multi-user collaboration about a permanent topic, seeking to arrive at a high-quality, trusted, and agreed upon statement of truth.\n\nReasoned disagreements driven by data, insights, and rationale help the group to test and refine the accuracy of arguments and decisions. Hashing out a complex problem like this demands diverse viewpoints and sources of knowledge.\n\nBut coming to that agreement is hard because you have to keep track of a complex and nested web of points and counterpoints, some that really matter and some that are nit-picks.\n\nWhich leaves people within a group feeling either that their point was missed and ignored and a bad decision was made, or that the group takes too long to come to agreement.\n\nProposal\n\nA truth-seeking platform can help groups:\n\n * focus on specific claims or questions,\n * track how they want to decide (decomposing cases and flagging crux arguments)\n * track evidence for and against different claims,\n * support nested evidence about whether each piece of evidence is true or not.\n\nSome claims will not be decided absolutely but will have evidence weighted more on one side or another.\n\nSoftware can integrate the quality of the evidence (perhaps measured",
+      "description": "The author argues Arbital should add structured tools for discussions, like defining terms, tagging evidence, and marking cruxes. These tools would help groups weigh evidence and reach better, lasting agreements. Simple voting and reputation alone are not enough for serious truth-seeking.",
       "tags": [
         "for-later",
         "philosophy"
@@ -3667,10 +3678,10 @@
     },
     {
       "id": "01k6tsvcvx9f42zhnz1wfmr2xk",
-      "title": "Laziness death spirals — LessWrong",
+      "title": "Laziness death spirals",
       "url": "https://www.lesswrong.com/posts/JBR6AF9Gusv4u6Fwo/laziness-death-spirals",
       "savedAt": "2025-10-05T18:23:55.261000+00:00",
-      "description": "I’ve claimed that Willpower compounds and that small wins in the present make it easier to get bigger wins in the future. Unfortunately, procrastinat…",
+      "description": "Laziness often snowballs: one small slip can make the whole day and then weeks worse.  \nNotice when you’re in a “laziness death spiral” and either use a simple emergency fix or wait for a reset (like tomorrow) to recover.  \nLearn what triggered the spiral so you can avoid or address it on better days.",
       "tags": [
         "for-later",
         "productivity",
@@ -3682,7 +3693,7 @@
       "title": "My Algorithm for Beating Procrastination",
       "url": "https://www.lesswrong.com/posts/Ty2tjPwv8uyPK9vrz/my-algorithm-for-beating-procrastination",
       "savedAt": "2025-10-05T18:22:55.014000+00:00",
-      "description": "Part of the sequence: The Science of Winning at Life …",
+      "description": "The author uses a simple step-by-step algorithm to beat procrastination by identifying which part of motivation is failing: low value, low expectancy, delay, or impulsiveness. For each problem he applies targeted techniques (flow, small wins, shorter delays, precommitment, habits) and practices the needed sub-skills. If one technique fails, he tries another until the task is done or abandoned.",
       "tags": [
         "for-later",
         "productivity",
@@ -3691,10 +3702,10 @@
     },
     {
       "id": "01k6tsnp1vq6nhe27ay82b4wks",
-      "title": "Full list of what made people more hard-working",
+      "title": "List of how people have become more hard-working",
       "url": "https://www.lesswrong.com/posts/yX7Lfjbfyj2CwMGyH/list-of-how-people-have-become-more-hard-working",
       "savedAt": "2025-10-05T18:20:48.059000+00:00",
-      "description": "I've recently asked how people have become more hard-working. I compiled the answers across the EA Forum and LessWrong (and some private messages) in…",
+      "description": "Chi Nguyen collected many people's tips on becoming more hard-working from EA Forum and LessWrong. Top causes were soft accountability, interesting work, and coworking. Other useful things included better self-knowledge, removing distractions, and treating work as enjoyable.",
       "tags": [
         "for-later",
         "productivity",
@@ -3859,7 +3870,7 @@
       "title": "Notes on Self-Control",
       "url": "https://www.lesswrong.com/posts/53b9woahSTPQFtB2i/notes-on-self-control",
       "savedAt": "2025-10-05T18:12:51.643000+00:00",
-      "description": "This post examines the virtue of self-control. I mostly summarize what others have learned about this virtue, rather than expressing my own opinions…",
+      "description": "Self-control is the ability to resist immediate temptations even when you know they are unwise. It differs from temperance, which is truly judging desires as wrong rather than failing to act on that judgment. Self-control can be strengthened by changing your environment, improving self-awareness, and learning cognitive strategies.",
       "tags": [
         "for-later",
         "self-improvement"
@@ -10321,7 +10332,7 @@
       "title": "An Intuitive Explanation of Bayes's Theorem",
       "url": "https://www.lesswrong.com/posts/XTXWPQSEgoMkAupKt/an-intuitive-explanation-of-bayes-s-theorem",
       "savedAt": "2024-12-31T21:34:36.102000+00:00",
-      "description": "(Note: The author now considers this explanation obsoleted by the Bayes' Rule Guide.) …",
+      "description": "Bayes’s theorem shows how to update a prior probability (like the chance a woman has cancer) when you get new evidence (a positive mammogram). Because cancer is rare, many positive tests are false positives, so a positive result often means a much lower chance of cancer than the test’s sensitivity might suggest. You compute the updated (posterior) probability by combining the prior with the test’s true- and false-positive rates.",
       "tags": [
         "thinking",
         "for-later",
@@ -16019,10 +16030,10 @@
     },
     {
       "id": "01jbep8gccyhs0pbcmjmcw2h8j",
-      "title": "Working hurts less than procrastinating, we fear the twinge of starting — LessWrong",
+      "title": "being in the middle of doing the work is usually less painful than being in the middle of procrastinating",
       "url": "https://www.lesswrong.com/posts/9o3QBg2xJXcRCxGjS/working-hurts-less-than-procrastinating-we-fear-the-twinge",
       "savedAt": "2024-06-28T03:25:47.621000+00:00",
-      "description": "When you procrastinate, you're probably not procrastinating because of the pain of working. …",
+      "description": "I think it's flinching away from the pain of the decision to do the work - the momentary, immediate pain of (1) disengaging yourself from the (probably very small) flow of reinforcement that you're getting from reading a random unimportant Internet article, and (2) paying the energy cost for a prefrontal override to exert control of your own behavior and begin working.",
       "tags": [
         "favorites",
         "self-improvement"
@@ -16871,10 +16882,10 @@
     },
     {
       "id": "01jbep82h96sy9cq4n7q0xcyg3",
-      "title": "Superbabies: Putting The Pieces Together — LessWrong",
+      "title": "Massively Multiplexed, Body-Wide Gene Editing? Not So Much, Yet.",
       "url": "https://www.lesswrong.com/posts/2uJsiQqHTjePTRqi4/superbabies-putting-the-pieces-together",
       "savedAt": "2024-07-14T00:19:11.002000+00:00",
-      "description": "This post was inspired by some talks at the recent LessOnline conference including one by LessWrong user “Gene Smith”. …",
+      "description": "It’s already standard to do a very simple version of this two-step process.",
       "tags": [
         "biology"
       ]
@@ -19663,20 +19674,20 @@
     },
     {
       "id": "01jbep6db8007s4xbhd9hzwxqh",
-      "title": "Sequences Highlights — LessWrong",
+      "title": "Highlights from the Sequences",
       "url": "https://www.lesswrong.com/highlights",
       "savedAt": "2024-10-12T01:36:59.224000+00:00",
-      "description": "\"The Sequences\" is a series of essays by Eliezer Yudkowsky. They describe how to avoid the typical failure modes of human reason and instead think in ways that more reliably lead to true and accurate beliefs. These essays are the foundational texts of LessWrong.\n\nTo provide a quick and accessible introduction to The Sequences, we have selected 50 of the best essays that capture some of the seminal ideas. \n\nEstimated read time of 8 hours.\n\nArt by Dall-E 2",
+      "description": "\"The Sequences\" is a series of essays by Eliezer Yudkowsky.",
       "tags": [
         "favorites"
       ]
     },
     {
       "id": "01jbep6d7w3gwennyg1xcy9z7g",
-      "title": "Learning By Writing — LessWrong",
+      "title": "My process for learning by writing",
       "url": "https://www.lesswrong.com/posts/ii4xtogen7AyYmN6B/learning-by-writing",
       "savedAt": "2024-10-12T04:15:14.239000+00:00",
-      "description": "Holden shares his step-by-step process for forming opinions on a topic, developing and refining hypotheses, and ultimately arriving at a nuanced view…",
+      "description": "I have very detailed opinions on lots of topics.",
       "tags": [
         "learning"
       ]
