@@ -1,6 +1,86 @@
 {
-  "lastUpdate": "2025-12-20T00:11:39.229Z",
+  "lastUpdate": "2025-12-21T00:12:57.078Z",
   "data": [
+    {
+      "id": "01kcyve4zqjy6ggwe7cfqsddms",
+      "title": "LeaseGuard: Raft Leases Done Right!",
+      "url": "https://emptysqua.re/blog/leaseguard-raft-leader-leases-done-right/",
+      "savedAt": "2025-12-20T21:42:47.031000+00:00",
+      "description": "LeaseGuard makes Raft leases simple and correct by treating the log as the lease. The leader can serve consistent reads locally while its committed log entry’s lease is valid. Optimizations let a new leader accept writes and serve reads quickly after election, improving recovery and availability.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kcyv8cs9q9wvx8jgwmggva1n",
+      "title": "Exposing game servers over Tailscale",
+      "url": "https://chameth.com/exposing-game-servers-over-tailscale/",
+      "savedAt": "2025-12-20T21:39:38.409000+00:00",
+      "description": "The author used Tailscale to share their game server with a friend, avoiding complicated port forwarding. This made the connection faster and more reliable than using Steam’s relay service. They ensured the setup was secure and limited access only to the game server.",
+      "tags": [
+        "homelab"
+      ]
+    },
+    {
+      "id": "01kcyv23ewg4wq8h7hvqr1bxw1",
+      "title": "4 thoughts on “Mathematicians don’t care about foundations”",
+      "url": "https://matteocapucci.wordpress.com/2022/12/21/mathematicians-dont-care-about-foundations/",
+      "savedAt": "2025-12-20T21:36:12.252000+00:00",
+      "description": "Most working mathematicians don’t worry about deep foundations and work informally. Foundations matter as useful tools, but they are social conventions that frame rather than define math. If taught differently, mathematicians would likely adopt other foundations without fuss.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kcyv1caz264hmtp4jg7wbgjk",
+      "title": "Pure Silicon Demo Coding: No CPU, No Memory, Just 4k Gates",
+      "url": "https://www.a1k0n.net/2025/12/19/tiny-tapeout-demo.html",
+      "savedAt": "2025-12-20T21:35:48.575000+00:00",
+      "description": "The author created a computer demo using only pure silicon with no CPU or memory, relying on 4,000 gates in an FPGA. The demo shows colorful graphics like a starfield and checkerboard, synced with simple music patterns inspired by the nyan.cat song. The project involved clever tricks to save space and generate visuals and sound efficiently within hardware limits.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kcwmedn9bhmzwr4ha4htevpa",
+      "title": "How to annotate JITed code for perf/samply",
+      "url": "https://bernsteinbear.com/blog/jit-perf-map/",
+      "savedAt": "2025-12-20T01:02:07.017000+00:00",
+      "description": "ZJIT and YJIT support Linux perf and also work with samply because both read the perf map format. To annotate JIT code, append lines \"START SIZE symbolname\" (hex START and SIZE without 0x) to /tmp/perf-{PID}.map when you generate a function. This lets perf or samply show JIT frames; ZJIT exposes it behind --zjit-perf to avoid extra file I/O.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kcwme42vd9cscc7sewxb0xzt",
+      "title": "Slowness is a Virtue",
+      "url": "https://blog.jakobschwichtenberg.com/p/slowness-is-a-virtue",
+      "savedAt": "2025-12-20T01:01:57.211000+00:00",
+      "description": "Research often needs slow, aimless exploration rather than fast, well-defined work.  \nModern institutions reward quick, legible results and thus favor “sprinters” over true researchers.  \nSlowness lets you tackle risky, important problems that speed-focused systems ignore.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kcwmbxwxtkm5trt5cntmbrf5",
+      "title": "z8086: Rebuilding the 8086 from Original Microcode",
+      "url": "https://nand2mario.github.io/posts/2025/z8086/",
+      "savedAt": "2025-12-20T01:00:45.341000+00:00",
+      "description": "z8086 is an FPGA‑friendly reimplementation of the Intel 8086 that runs the original 512×21 microcode ROM. It recreates the 8086 microarchitecture (prefetch queue, BIU/EU split, microcode sequencer, ALU, bus handling) and reproduces subtle behaviors and bugs. The core is compact, passes ISA tests, boots small programs, and aims to boot DOS and support wider FPGA testing next.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kcwmbnx19q476wwccxxyg9c6",
+      "title": "It's all about momentum, innit?",
+      "url": "https://combo.cc/posts/its-all-about-momentum-innit/",
+      "savedAt": "2025-12-20T01:00:37.153000+00:00",
+      "description": "Momentum is the key to success in both physics and life. Small, consistent actions build momentum that leads to big results over time. Protect your focus and create routines that help your momentum grow every day.",
+      "tags": [
+        "for-later"
+      ]
+    },
     {
       "id": "01kcw31a489y5ezpv273gx1c06",
       "title": "NVME is not a hard disk",
@@ -286,7 +366,8 @@
       "savedAt": "2025-12-18T06:07:23.196000+00:00",
       "description": "The author argues we should be skeptical of mainstream sleep science and weakly held beliefs about sleep. He suggests acute sleep loss can sometimes be harmless or even beneficial, and people may adapt to shorter sleep. He warns not to drastically change your sleep without gradual personal experiments.",
       "tags": [
-        "for-later"
+        "biohack",
+        "biology"
       ]
     },
     {
@@ -316,7 +397,7 @@
       "savedAt": "2025-12-18T06:07:04.243000+00:00",
       "description": "Text is the most powerful and reliable way to communicate. It is durable, precise, efficient, and flexible. For most needs, choose text first.",
       "tags": [
-        "for-later"
+        "favorites"
       ]
     },
     {
@@ -417,7 +498,7 @@
       "savedAt": "2025-12-18T06:05:16.951000+00:00",
       "description": "Reality has many small, important details you only notice by doing things closely.  \nThose hidden details make hard problems easy to get stuck on because you miss what matters.  \nTo improve, look for unfamiliar details that actually change how you think.",
       "tags": [
-        "for-later"
+        "favorites"
       ]
     },
     {
@@ -11543,7 +11624,6 @@
       "savedAt": "2024-12-08T06:59:41.395000+00:00",
       "description": "American interstate roads are generally high-quality, but urban roads often suffer from poor conditions. While the U.S. ranks well in international comparisons, many non-interstate roads are in worse shape compared to those in Europe. Overall, major cities in the U.S. tend to have significant road quality issues, especially in California.",
       "tags": [
-        "favorites",
         "infrastructure"
       ]
     },
