@@ -1,6 +1,323 @@
 {
-  "lastUpdate": "2025-12-21T00:12:57.078Z",
+  "lastUpdate": "2025-12-22T00:12:46.659Z",
   "data": [
+    {
+      "id": "01kd1gn1c896qbb20mz7f1bzsk",
+      "title": "The Complexity of Simplicity",
+      "url": "https://www.youtube.com/watch?v=Cum5uN2634o",
+      "savedAt": "2025-12-21T22:32:01.672000+00:00",
+      "description": "Complexity grows from the abstractions we create.  \nGood abstractions hide accidental complexity, but leaked or bad ones make systems harder.  \nWe must design simpler, clearer abstractions so only essential complexity remains.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kd1gmm0z51hh575bdarhf6wv",
+      "title": "Galaxy brain resistance",
+      "url": "https://vitalik.eth.limo/general/2025/11/07/galaxybrain.html",
+      "savedAt": "2025-12-21T22:31:47.998000+00:00",
+      "description": "The author warns against arguments that appeal to vague long-term benefits because they often disconnect from reality and justify bad choices. Many tech and finance claims use inevitability or longtermism to dodge accountability and push risky schemes. These arguments have low \"galaxy brain resistance\" — they sound smart but are easy to rationalize and abuse.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kd1gkmz95rx9a5j9c4as2x42",
+      "title": "The Uncertain Origins of Aspirin",
+      "url": "https://press.asimov.com/articles/aspirin",
+      "savedAt": "2025-12-21T22:31:16.200000+00:00",
+      "description": "The true ancient roots of aspirin are unclear and many old claims lack solid evidence. Willow bark contains salicin and may have influenced pain remedies, but it is not clearly the same as modern aspirin. The reliable development of aspirin dates to 18th–19th century work culminating with Hoffmann’s 1897 synthesis and later debates over credit.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kd1gkcddqcgq212b1p9f73dc",
+      "title": "A Reverse Engineer’s Anatomy of the macOS Boot Chain & Security Architecture",
+      "url": "https://stack.int.mov/a-reverse-engineers-anatomy-of-the-macos-boot-chain-security-architecture/",
+      "savedAt": "2025-12-21T22:31:07.437000+00:00",
+      "description": "Apple Silicon secures macOS in hardware, not just the kernel. Independent chips like the Secure Enclave and monitors (SPTM/TXM) enforce cryptographic roots of trust and memory protections. This creates a stronger, different security model than Intel, shifting most attack surfaces to privileged userland daemons.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kd1gjw9jzdqa3wryw3q7rk1a",
+      "title": "Demystifying Determinism in Durable Execution",
+      "url": "https://jack-vanlightly.com/blog/2025/11/24/demystifying-determinism-in-durable-execution",
+      "savedAt": "2025-12-21T22:30:50.929000+00:00",
+      "description": "Durable execution frameworks re-run functions from the top to recover, so the control flow must be deterministic. Side effects can be non-deterministic but must be idempotent or tolerate duplication. Separate control flow (decisions) from side effects (actions) and record any non-deterministic inputs used by control flow.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kd1gjmbhh7crja8gm9smzqq1",
+      "title": "Analyzing the Heartbeat of the MySQL Server: A Look at Repository Statistics",
+      "url": "https://www.percona.com/blog/analyzing-the-heartbeat-of-the-mysql-server-a-look-at-repository-statistics/",
+      "savedAt": "2025-12-21T22:30:42.801000+00:00",
+      "description": "Analysis of MySQL’s git repo shows development activity and contributors peaked in the mid-2000s and have steadily declined since 2011. Core code insertions and commit counts dropped sharply, while some focused work (e.g., HeatWave) continues. Overall, the project is quieter and more targeted than before.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kd1gj98ve0dd5q2fz7gvpvv6",
+      "title": "Keeping a NixOS system up-to-date",
+      "url": "https://zanderotavka.com/blog/2024/07/08/keeping-a-nixos-system-up-to-date/",
+      "savedAt": "2025-12-21T22:30:31.450000+00:00",
+      "description": "This post shows a simple way to keep NixOS updated automatically. Add system.autoUpgrade and nix.gc to schedule daily upgrades and weekly garbage collection. The timer runs nixos-rebuild --upgrade and may reboot if needed, letting you rollback via generations.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kd1ghyfbeekd4cbc4p8byxq5",
+      "title": "A New Bridge Links the Strange Math of Infinity to Computer Science | Quanta Magazine",
+      "url": "https://www.quantamagazine.org/a-new-bridge-links-the-strange-math-of-infinity-to-computer-science-20251121/",
+      "savedAt": "2025-12-21T22:30:20.395000+00:00",
+      "description": "Anton Bernshteyn discovered a surprising link between descriptive set theory (the study of strange infinite sets) and computer science problems about network algorithms. He showed many questions about measurable colorings of infinite graphs correspond to local algorithms on finite networks. This bridge is letting set theorists and computer scientists share tools and rethink the structure of infinity.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kd1gh6z7vjmhgj8d8ngpgar5",
+      "title": "The chip made for the AI inference era – the Google TPU",
+      "url": "https://www.uncoveralpha.com/p/the-chip-made-for-the-ai-inference",
+      "savedAt": "2025-12-21T22:29:58.538000+00:00",
+      "description": "Google’s TPU is a specialized chip designed for AI inference that gives Google big cost and energy advantages over GPUs. It runs faster and more efficiently for many AI workloads because of custom hardware, software, and networking. Wider adoption is limited by ecosystem and availability, but TPUs strengthen Google Cloud’s competitive edge.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kd1ggp49ec34qg08kx118na2",
+      "title": "A Repository with 44 Years of Unix Evolution",
+      "url": "https://www.spinellis.gr/pubs/conf/2015-MSR-Unix-History/html/Spi15c.html",
+      "savedAt": "2025-12-21T22:29:39.081000+00:00",
+      "description": "A new Git repository collects 44 years of Unix history, from 1972 to 2015, in one place. It combines many snapshots and repositories from Bell Labs, Berkeley, and FreeBSD into a single, searchable archive. This project helps study Unix's code evolution and preserves its important legacy.",
+      "tags": [
+        "for-later",
+        "computer-history"
+      ]
+    },
+    {
+      "id": "01kd1ggbkqf142ea5awj03299e",
+      "title": "The CRDT Dictionary: A Field Guide to Conflict-Free Replicated Data Types",
+      "url": "https://www.iankduncan.com/engineering/2025-11-27-crdt-dictionary",
+      "savedAt": "2025-12-21T22:29:28.311000+00:00",
+      "description": "CRDTs are data structures that let multiple computers update data at the same time without conflicts. They work by merging changes in a way that always leads to the same final result, even if updates happen in different orders. This makes them useful for building distributed systems like collaborative apps, but they need extra metadata and careful design to handle conflicts and growth.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kd1gf65fwmc200m1gsha4cq9",
+      "title": "Welcome to Lord of the io_uring",
+      "url": "https://unixism.net/loti/index.html",
+      "savedAt": "2025-12-21T22:28:49.967000+00:00",
+      "description": "io_uring is a new and powerful method for asynchronous I/O programming in Linux. This guide, created by Shuveb Hussain, offers insights into io_uring's features and benefits. Users can contribute to the guide's source code on GitHub and report any bugs they find.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kd1gbzzyvejdwzxvyesqp49f",
+      "title": "My Lobsters Interview",
+      "url": "https://susam.net/my-lobsters-interview.html",
+      "savedAt": "2025-12-21T22:27:05.342000+00:00",
+      "description": "Alex (@veqq) discusses a lifelong love of computing, Lisp/Emacs, and recreational projects that blend programming with mathematics.  \nHe favors layered, well-named design, small composable functions, and learning by building tools and puzzles.  \nMathematics shapes his thinking and fuels curiosity, both for fun and for clearer software reasoning.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kd1gbkv9add12e458a53nksq",
+      "title": "Tiny-TPU: the why and how",
+      "url": "https://www.tinytpu.com/",
+      "savedAt": "2025-12-21T22:26:52.904000+00:00",
+      "description": "A group of beginners rebuilt a toy TPU that supports both inference and training and tested it on the XOR problem. They learned hardware and ML basics by drawing designs, writing Verilog, and using a weight-stationary systolic array with pipelining. The project shows you can learn chip design by trying hacky, hands-on experiments.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kd1gbcmygf2cgtta87b031bf",
+      "title": "Stay inconvenienced",
+      "url": "https://semaphore.substack.com/p/stay-inconvenienced",
+      "savedAt": "2025-12-21T22:26:45.534000+00:00",
+      "description": "At 3 a.m. the author finds comfort talking to an AI that listens without judgment. This calm, indifferent presence highlights how being heard can come from things that don’t need us. But true human connection remains vital because real love requires being changed and inconvenienced by one another.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kd1gb621y2xy8t103j0rp6e4",
+      "title": "How good engineers write bad code at big companies",
+      "url": "https://www.seangoedecke.com/bad-code-at-big-companies/",
+      "savedAt": "2025-12-21T22:26:38.785000+00:00",
+      "description": "Big tech firms often produce bad code because many changes are made by engineers who are new to a codebase or role. Companies prioritize moving people and short-term visibility over keeping long-term expertise. That tradeoff makes low-quality, hacky fixes inevitable even with competent engineers.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kd1gag6p9ka3a5s4nqkvddjy",
+      "title": "A Brief History of NSA Backdoors.",
+      "url": "https://www.ethanheilman.com/x/12/index.html",
+      "savedAt": "2025-12-21T22:26:16.406000+00:00",
+      "description": "The NSA has a long history of inserting backdoors into cryptographic products and chips to enable secret surveillance. These backdoors appeared in systems like Crypto AG devices, DES, the Clipper Chip, and various encryption/TPM chips, and were sometimes installed via intercepted hardware. Experts have found and exploited some of these covert vulnerabilities, showing the practice continues and affects many critical systems.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kd1ga3fahzndcprpc27pdxcd",
+      "title": "Incidents: the exceptional as routine",
+      "url": "https://surfingcomplexity.blog/2025/11/28/incidents-the-exceptional-as-routine/",
+      "savedAt": "2025-12-21T22:26:03.370000+00:00",
+      "description": "Cloudflare reports about two incidents per day (Jan–Nov 2025), mostly minor. AWS reports far fewer, but that likely reflects less transparent reporting, not fewer real problems. Incidents are normal and constant: small, everyday reliability work often goes unseen.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kd1g5nrcp32qmxv1zx6ggbwh",
+      "title": "It's your job to understand",
+      "url": "https://jrhawley.ca/2025/11/25/its-your-job-to-understand",
+      "savedAt": "2025-12-21T22:23:38.252000+00:00",
+      "description": "If you are an academic or researcher, thinking and understanding are your core job. Tools like LLMs can help, but they cannot replace the deep work of reading, writing, and refining ideas. Offloading that thinking to machines is an abdication of responsibility.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kd1g57w7k25f4yekc1khq3w8",
+      "title": "Mastering PyTorch: From Linear Regression to Computer Vision",
+      "url": "https://www.iamtk.co/mastering-pytorch-from-linear-regression-to-computer-vision",
+      "savedAt": "2025-12-21T22:23:24.039000+00:00",
+      "description": "Learning PyTorch: tensors, operations, linear regression, datasets, dataloaders, and computer vision",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kd1g080j7qw5kfmr67pvw797",
+      "title": "Coq: The World’s Best Macro Assembler?",
+      "url": "https://nickbenton.name/coqasm.pdf",
+      "savedAt": "2025-12-21T22:20:40.338000+00:00",
+      "description": null,
+      "tags": []
+    },
+    {
+      "id": "01kd1fntzc159w6yj7v4tycz2f",
+      "title": "Functional Data Structures and Algorithms",
+      "url": "https://fdsa-book.net/",
+      "savedAt": "2025-12-21T22:14:59.308000+00:00",
+      "description": "This book teaches data structures and algorithms for functional programming with an emphasis on formal proofs. It covers both correctness and running-time analysis using inductive proofs. All proofs are machine-checked in the Isabelle proof assistant and linked from the PDF.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kd1fhdh2f79q9btn0xttrbwq",
+      "title": "Build a Compiler in Five Projects",
+      "url": "https://kmicinski.com/functional-programming/2025/11/23/build-a-language/",
+      "savedAt": "2025-12-21T22:12:34.466000+00:00",
+      "description": "The text shows code fragments from a compiler-building project. It defines predicates to recognize R5 expressions and definitions. The patterns cover literals, arithmetic, logic, control, let*, set!, and function forms.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kd1fh3b2jjz68tk3396rv04z",
+      "title": "Feedback doesn't scale",
+      "url": "https://another.rodeo/feedback/",
+      "savedAt": "2025-12-21T22:12:24.034000+00:00",
+      "description": "Listening to everyone stops working as teams grow. At scale, feedback becomes noise without context or trust. Build systems and trusted proxies to collect, filter, and respond to real issues.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kd1fghz6z40fkmrckjhtrrm4",
+      "title": "Fifty Shades of OOP",
+      "url": "https://lesleylai.info/en/fifty_shades_of_oop/",
+      "savedAt": "2025-12-21T22:12:06.246000+00:00",
+      "description": "OOP groups data and behavior into objects using classes, methods, encapsulation, and inheritance. Languages differ on features like dynamic dispatch, interfaces/traits, and whether objects or closures model encapsulation. Critics point to complexity, mutable state, and style problems (bad inheritance, scattered behavior) while alternatives like interfaces, composition, and message-passing address some issues.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kd1fetfn6607vb04hqt0pgpc",
+      "title": "It’s Always the Process, Stupid!",
+      "url": "https://its.promp.td/its-always-the-process-stupid/",
+      "savedAt": "2025-12-21T22:11:09.428000+00:00",
+      "description": "AI cannot fix broken business processes; it only speeds them up. To benefit from AI, companies must first design clear, structured workflows. Real improvement comes from optimizing processes, then using AI to accelerate them.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kd1fec626n8q5m2g028c5bnv",
+      "title": "Bikeshedding, or why I want to build a laptop",
+      "url": "https://geohot.github.io//blog/jekyll/update/2025/11/29/bikeshedding-or-laptop.html",
+      "savedAt": "2025-12-21T22:10:54.786000+00:00",
+      "description": "The author wants a simple, high-quality laptop like a MacBook but running Linux and backed by a user-aligned company. Current options (Apple, Asahi Linux, Framework, HP) all have tradeoffs in compatibility, power management, or design. They daydream about a single polished \"hackbook\" product sold in one configuration as a true MacBook replacement.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kd1fe0bakcsegphjg15gj59b",
+      "title": "Self-hosting my photos with Immich",
+      "url": "https://michael.stapelberg.ch/posts/2025-11-29-self-hosting-photos-with-immich/",
+      "savedAt": "2025-12-21T22:10:42.666000+00:00",
+      "description": "The author set up Immich, a self-hosted photo manager, to back up Google Photos after Google limited access. He runs Immich on a low-power mini PC using NixOS and accesses it securely via Tailscale VPN. Although some features like photo editing and easy iPhone backup need improvement, Immich works well and keeps his photos safe.",
+      "tags": [
+        "homelab",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kd1epktghpp34053f1t00bvr",
+      "title": "The Language Trap, as proven by MRI: people don't get...",
+      "url": "https://x.com/davidbessis/status/1994349935668478399/?rw_tt_thread=True",
+      "savedAt": "2025-12-21T21:57:56.176000+00:00",
+      "description": "MRI shows many people treat math like normal language.  \nExperts use nonverbal brain areas for math.  \nCalling language enough for understanding is the \"language trap.\"",
+      "tags": []
+    },
+    {
+      "id": "01kd1ehzn0krp3xr4cph9z5125",
+      "title": "Origins of the brain networks for advanced mathematics in expert mathematicians",
+      "url": "https://www.pnas.org/doi/10.1073/pnas.1603205113",
+      "savedAt": "2025-12-21T21:55:24.447000+00:00",
+      "description": "Professional mathematicians use a specific brain network for advanced math that is distinct from language areas.  \nThis network overlaps with regions for basic number processing and for seeing numbers and formulas.  \nMath training increases activity in ventral visual areas that recognize numerical symbols.",
+      "tags": [
+        "for-later",
+        "type/paper"
+      ]
+    },
+    {
+      "id": "01kczk6yst7fa7pakvkahhem6d",
+      "title": "Programming as Theory Building - Peter Naur",
+      "url": "https://gist.github.com/onlurking/fc5c81d18cfce9ff81bc968a7f342fb1",
+      "savedAt": "2025-12-21T04:38:17.146000+00:00",
+      "description": "Programming is mainly about building a shared mental theory of how the program handles real-world affairs. That internal theory lets programmers explain, justify, and safely modify the program. Programs live or decay depending on whether people who hold that theory remain responsible for them.",
+      "tags": []
+    },
+    {
+      "id": "01kczjwpcs546jfsyfynnc64em",
+      "title": "The gift card accountability sink",
+      "url": "https://www.bitsaboutmoney.com/archive/gift-card-accountability-sink/",
+      "savedAt": "2025-12-21T04:32:40.857000+00:00",
+      "description": "Gift cards are a huge, legitimate payments system used by many businesses and by unbanked people. Scammers exploit gift cards because regulations and industry practices make fraud hard to trace and victims hard to reimburse. The gift card industry’s outsourcing and light regulation create an “accountability sink” that enables large-scale abuse.",
+      "tags": [
+        "for-later"
+      ]
+    },
     {
       "id": "01kcyve4zqjy6ggwe7cfqsddms",
       "title": "LeaseGuard: Raft Leases Done Right!",
@@ -216,7 +533,9 @@
       "savedAt": "2025-12-18T06:09:15.546000+00:00",
       "description": "learning how a program is intended to work is hard. here's how to do it.",
       "tags": [
-        "for-later"
+        "cs",
+        "favorites",
+        "self-improvement"
       ]
     },
     {
@@ -226,7 +545,7 @@
       "savedAt": "2025-12-18T06:09:06.684000+00:00",
       "description": "the \"omg you people can't do anything\" of it all",
       "tags": [
-        "for-later"
+        "self-improvement"
       ]
     },
     {
@@ -1020,7 +1339,9 @@
       "url": "https://www.morling.dev/blog/on-idempotency-keys/",
       "savedAt": "2025-11-29T01:05:04.251000+00:00",
       "description": "Exactly-once processing can be achieved by adding a unique idempotency key to each message so consumers can ignore duplicates. UUIDs work but require storing many keys; monotonically increasing keys let consumers store only the latest value and are more space-efficient. A practical way to get monotonic keys without slowing producers is to derive them from the database transaction log using CDC.",
-      "tags": []
+      "tags": [
+        "for-later"
+      ]
     },
     {
       "id": "01karyww5as0r6xygsgp35tqsv",
@@ -1791,7 +2112,7 @@
       "id": "01k9ncd03mjs8mh76r012gjbpt",
       "title": "SuperMemo Guru",
       "url": "https://supermemo.guru/wiki/SuperMemo_Guru",
-      "savedAt": "2025-11-09T22:39:45.268000+00:00",
+      "savedAt": "2025-12-21T22:32:19.375000+00:00",
       "description": "The content on this site covers a wide range of topics including memory, learning, sleep, creativity, problem solving, brain science, health, and education. It includes information on various subjects such as the problem with schooling, the importance of pleasure in learning, the impact of sleep on learning and creativity, the misconceptions about intelligence, and the benefits of spaced repetition. The site also debunks myths and provides information on SuperMemo, a learning method.",
       "tags": [
         "for-later"
