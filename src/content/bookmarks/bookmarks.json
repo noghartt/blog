@@ -1,6 +1,24 @@
 {
-  "lastUpdate": "2025-12-22T00:12:46.659Z",
+  "lastUpdate": "2025-12-25T00:12:39.646Z",
   "data": [
+    {
+      "id": "01kd3y1r8gc8qwa8b69cwqkyp0",
+      "title": "The Illustrated Transformer",
+      "url": "https://jalammar.github.io/illustrated-transformer/",
+      "savedAt": "2025-12-22T21:04:38.672000+00:00",
+      "description": "Discussions:\nHacker News (65 points, 4 comments), Reddit r/MachineLearning (29 points, 3 comments)\n\n\nTranslations: Arabic, Chinese (Simplified) 1, Chinese (Simplified) 2, French 1, French 2, Italian, Japanese, Korean, Persian, Russian, Spanish 1, Spanish 2, Vietnamese\n\nWatch: MIT’s Deep Learning State of the Art lecture referencing this post\n\nFeatured in courses at Stanford, Harvard, MIT, Princeton, CMU and others\n\n\n \n  \n\n  \n  Update: This post has now become a book! Check out LLM-book.com which contains (Chapter 3) an updated and expanded version of this post speaking about the latest Transformer models and how they've evolved in the seven years since the original Transformer (like Multi-Query Attention and RoPE Positional embeddings).\n  \n \n\n\nIn the previous post, we looked at Attention – a ubiquitous method in modern deep learning models. Attention is a concept that helped improve the performance of neural machine translation applications. In this post, we will look at The Transformer – a model that uses attention to boost the speed with which these models can be trained. The Transformer outperforms the Google Neural Machine Translation model in specific tasks. The biggest benefit, however, comes from how The Transformer lends itself to parallelization. It is in fact Google Cloud’s recommendation to use The Transformer as a reference model to use their Cloud TPU offering. So let’s try to break the model apart and look at how it functions.\n\nThe Transformer was proposed in the paper Attention is All You Need. A TensorFlow implementation of it is available as a part of the Tensor2Tensor package. Harvard’s NLP group created a guide annotating the paper with PyTorch implementation. In this post, we will attempt to oversimplify things a bit and introduce the concepts one by one to hopefully make it easier to understand to people without in-depth knowledge of the subject matter.\n\n2025 Update: We’ve built a free short course that brings the contents of this post up-to-...",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kd2mx78ytrv0315adases9cv",
+      "title": "Transform Pain & Trauma Into Creative Expression | David Choe",
+      "url": "https://www.hubermanlab.com/episode/transform-pain-and-trauma-into-creative-expression-david-choe",
+      "savedAt": "2025-12-22T09:05:35.590000+00:00",
+      "description": "David Choe is a world-renowned artist, writer, podcaster and TV host. He tells how as a child, he was made to believe he was destined for greatness but also that he was a complete disgrace, leading him to channel his energy—including deep shame—into art that brought him global recognition. He shares about his addictions that put him on a decades-long cycle of extreme highs and lows and that forced him to eventually acknowledge and heal the childhood trauma he was battling inside. David shows up with raw, authentic presence to show us how we can transmute pain and shame into our best creative work and, more importantly, how complete vulnerability, especially about our hardest experiences, is the ultimate tool for forgiveness and self-acceptance. He also tells us the actual story about early Facebook, Pee-wee Herman and Santa Claus.\n\nNote: This conversation includes topics and language that may not be suitable for younger audiences.\n\nRead the episode show notes at hubermanlab.com.\n\nThank you to our sponsors\n\nAG1: https://drinkag1.com/huberman\n\nEight Sleep: https://eightsleep.com/huberman\n\nLMNT: https://drinklmnt.com/huberman\n\nFunction: https://functionhealth.com/huberman\n\nMateina: https://drinkmateina.com/huberman\n\nTimestamps\n\n00:00:00 David Choe\n\n00:03:10 Drawing, Black & Colors, Death\n\n00:12:54 Telepathy, South Bay\n\n00:17:52 Sponsors: Eight Sleep & LMNT\n\n00:20:40 Childhood, Podcasts, Mundane Moments & Artist Life\n\n00:28:45 Mother, Beliefs, Religion, Artistic Ability, Childhood\n\n00:33:27 Gambling, Transformation; Immigrant, Disgrace\n\n00:40:10 Street Art, Graffiti, Creativity; Paintings, Payment; Sports\n\n00:52:08 Sponsor: AG1\n\n00:53:30 Santa, Belief; Journal, Vulnerability; Heart Break, Art\n\n01:00:16 Facebook, Graffiti; Theft, Gambling\n\n01:10:57 Adapting, Creativity\n\n01:17:16 Album Cover, Art & Payment\n\n01:23:40 Sponsor: Function\n\n01:25:28 Immigrant & Belonging, Academics, Learning Art, Marvel Comics, Shame\n\n01:35:11 Shame, Gambling Addiction, Stress\n\n01:43:05 Sexu...",
+      "tags": []
+    },
     {
       "id": "01kd1gn1c896qbb20mz7f1bzsk",
       "title": "The Complexity of Simplicity",
