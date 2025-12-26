@@ -1,6 +1,371 @@
 {
-  "lastUpdate": "2025-12-25T00:12:39.646Z",
+  "lastUpdate": "2025-12-26T00:12:45.241Z",
   "data": [
+    {
+      "id": "01kdb0ss2329bcmwv5z4x2nkmq",
+      "title": "2025 in review.",
+      "url": "https://lethain.com/2025-in-review/",
+      "savedAt": "2025-12-25T15:07:24.099000+00:00",
+      "description": "The author turned forty, started a new job at Imprint, and sent his son to kindergarten. He finished his fourth book, returned to hands-on software work, and used LLMs to help ship features. Long-term goals continue (mentoring leaders, fewer books ahead), and family and health matters were mostly steady.",
+      "tags": [
+        "interesting"
+      ]
+    },
+    {
+      "id": "01kdb0skxrae3tyb61yj0sn1xa",
+      "title": "The Input Stack on Linux",
+      "url": "https://venam.net/blog/unix/2025/11/27/input_devices_linux.html",
+      "savedAt": "2025-12-25T15:07:18.840000+00:00",
+      "description": "Let's explore and deobfuscate the input stack on Linux. Our aim is to understand its components and what each does. Input handling can be divided into two parts, separated by a common layer. We’ll try to make sense of all this, one thing at a time, with a logical and coherent approach.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kdb0q9fhwfectvfqpak6m3mx",
+      "title": "Books I Enjoyed in 2025",
+      "url": "https://borretti.me/article/books-i-enjoyed-in-2025",
+      "savedAt": "2025-12-25T15:06:02.609000+00:00",
+      "description": "The author lists diverse books they enjoyed in 2025, ranging from novels and memoirs to technical and philosophical works. Many selections helped them enter another era or discipline and sparked unexpected connections. Recurring themes are clear prose, intellectual curiosity, and a mix of emotional and technical insight.",
+      "tags": [
+        "books"
+      ]
+    },
+    {
+      "id": "01kdb0q2nm00dfdx1sttmaw255",
+      "title": "I Program on the Subway",
+      "url": "https://www.scd31.com/posts/programming-on-the-subway",
+      "savedAt": "2025-12-25T15:05:55.636000+00:00",
+      "description": "The author uses their hourly subway commute to work on programming side projects. The limited, distraction-free environment forces focused thinking even without full testing. They accept minor risks and inconveniences and sometimes meet fellow programmers.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kdb0pmqcs8jmsh1gpfbsgqxz",
+      "title": "Learning Lean 4 #",
+      "url": "https://leanprover-community.github.io/learn.html",
+      "savedAt": "2025-12-25T15:05:41.356000+00:00",
+      "description": "There are many ways to start learning Lean, depending on your background and taste. They are all fun and rewarding, but also difficult and occasionally frustrating.",
+      "tags": [
+        "math/formal-proof"
+      ]
+    },
+    {
+      "id": "01kdb0pe3m7gs8ne5f6zk5mpqe",
+      "title": "GitHub - PatrickMassot/GlimpseOfLean: An introduction to theorem proving in Lean for the impatient.",
+      "url": "https://github.com/PatrickMassot/GlimpseOfLean",
+      "savedAt": "2025-12-25T15:05:34.580000+00:00",
+      "description": "An introduction to theorem proving in Lean for the impatient. - PatrickMassot/GlimpseOfLean",
+      "tags": []
+    },
+    {
+      "id": "01kdb0p1fprp78s8yg9edjkn2w",
+      "title": "If You Don’t Design Your Career, Someone Else Will",
+      "url": "https://gregmckeown.com/if-you-dont-design-your-career-someone-else-will/",
+      "savedAt": "2025-12-25T15:05:21.654000+00:00",
+      "description": "If you don't intentionally plan your career, others will shape it for you. Spend a couple of hours reviewing the past year, imagining your ideal path, and choosing one clear priority. Then make a short action plan and decide what to say no to.",
+      "tags": [
+        "career",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kdb0n1bprxvfxxcagcat3g7c",
+      "title": "Mathematics in Lean",
+      "url": "https://leanprover-community.github.io/mathematics_in_lean/C01_Introduction.html#",
+      "savedAt": "2025-12-25T15:04:48.758000+00:00",
+      "description": "Mathematics in Lean teaches how to formalize math using the Lean 4 proof assistant and the Mathlib library.  \nIt is meant to be read interactively in VS Code with examples and exercises that show tactics and proof terms.  \nThe book helps you build correct, machine-checked proofs and navigate Lean’s libraries.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kdb0mqsjpmnk94a6qqcbx8xa",
+      "title": "Theorem Proving in Lean 4",
+      "url": "https://lean-lang.org/theorem_proving_in_lean4/Introduction/#Intro",
+      "savedAt": "2025-12-25T15:04:38.962000+00:00",
+      "description": "Lean 4 is a system for writing and checking precise mathematical proofs and programs using dependent type theory. It combines interactive proof development with automated tools to help find and verify proofs. The tutorial teaches Lean's logic, language, and automation so you can build verified proofs and programs.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kdb0mbjtv386q8gjt0xrcced",
+      "title": "Cursed circuits #3: true mathematics",
+      "url": "https://lcamtuf.substack.com/p/cursed-circuits-3-true-mathematics",
+      "savedAt": "2025-12-25T15:04:26.458000+00:00",
+      "description": "An op-amp amplifies the difference between two inputs and can be made into many useful circuits by adding resistors and capacitors.  \nWith simple resistor networks it can create non‑inverting amplifiers, add or subtract signals, and shift outputs around a chosen reference.  \nBy combining feedback and capacitors it can integrate signals over time or form filters, but single‑supply limits require biasing around a midpoint.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kdb0m7218rq61r7f59ttvx0c",
+      "title": "Property-based testing, adversarial developers, and LLMs",
+      "url": "https://protocols-made-fun.com/pbt/2025/12/22/pbt-adversarial-llms.html",
+      "savedAt": "2025-12-25T15:04:21.825000+00:00",
+      "description": "The post shows how property-based testing (PBT) can reveal unexpected behaviors when LLMs generate code. An adversarial developer can implement correct but unintended variants (e.g., 32-bit or 256-bit wrapping addition) that pass limited tests. Good properties and awareness of tool limits are needed to catch such mismatches.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kdb0m2gjhh5w1zj9yem8k8jv",
+      "title": "Understanding your Linux open source drivers",
+      "url": "https://timur.hu/blog/2025/understanding-your-linux-open-source-drivers",
+      "savedAt": "2025-12-25T15:04:17.170000+00:00",
+      "description": "The Linux open source graphics stack combines kernel drivers, firmware, Mesa (userspace drivers and shader compilers), and LLVM. For best results you need recent versions of all these components, and support varies by GPU vendor (AMD/Intel are well supported; Nvidia less so). Running Windows games also needs compatibility layers like Proton/DXVK, and picking a good compositor helps performance.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kdb0ktq61a60t9g8bea1wyjz",
+      "title": "Logging sucks.",
+      "url": "https://loggingsucks.com/",
+      "savedAt": "2025-12-25T15:04:09.190000+00:00",
+      "description": "Logs as usually done are noisy and useless for modern distributed systems. Emit one wide, structured event per request per service with lots of context and high-cardinality fields. Store all errors and slow requests and sample the rest so you can query production like analytics.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kdb0knnk1qkqc4s4q3029x22",
+      "title": "You’re Not Burnt Out. You’re Existentially Starving.",
+      "url": "https://neilthanedar.com/youre-not-burnt-out-youre-existentially-starving/",
+      "savedAt": "2025-12-25T15:04:04.019000+00:00",
+      "description": "You’re not burnt out from too much work — you’re starving for real meaning. Find the highest purpose that lights you up and take a small step toward it now. Build your life around that purpose and burnout will fade.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kdb0kdapbbggd5ramfp2y68a",
+      "title": "ELF Crimes: Program Interpreter Fun",
+      "url": "https://nytpu.com/gemlog/2025-12-21",
+      "savedAt": "2025-12-25T15:03:55.478000+00:00",
+      "description": "The author explored using ELF's PT_INTERP feature to make executables act like data files run by a custom interpreter. After some frustrating debugging, they made a proof-of-concept that embeds data in an ELF and prints it via a statically linked interpreter. They warn this is hacky, nonportable, and not recommended for real use.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kdb0k89a2b423g4a7vbs8whc",
+      "title": "HackerNews Readings",
+      "url": "https://hackernews-readings-613604506318.us-west1.run.app/",
+      "savedAt": "2025-12-25T15:03:50.314000+00:00",
+      "description": "Harry Potter is a very popular book series mentioned many times on Hacker News in 2025. People discuss its cultural impact, authorship, and how it influences reading habits. Some also talk about copyright, fan fiction, and its role in teaching literature.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kdb0jwzngn3tchgr06tpa3xk",
+      "title": "I know you didn't write this",
+      "url": "https://ammil.industries/i-know-you-didnt-write-this/",
+      "savedAt": "2025-12-25T15:03:38.740000+00:00",
+      "description": "A coworker sent a polished project plan that was clearly AI-generated. Verifying AI work takes more time than the original shortcut saved. Undisclosed AI use breaks trust and shifts the real work onto others.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kdb0je89sn4198q7n51565ex",
+      "title": "From Zero to QED",
+      "url": "https://sdiehl.github.io/zero-to-qed/01_introduction.html",
+      "savedAt": "2025-12-25T15:03:23.657000+00:00",
+      "description": "Zero to QED is a beginner-friendly series teaching Lean 4 from first principles. The first part covers Lean as a programming language; the second teaches theorem proving and dependent types. All examples are checked by the Lean compiler and the source is on GitHub.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kdb0hg7h7xm2bnq0cts7h4by",
+      "title": "It’s always TCP_NODELAY. Every damn time.",
+      "url": "https://brooker.co.za/blog/2024/05/09/nagle.html",
+      "savedAt": "2025-12-25T15:02:52.913000+00:00",
+      "description": "Marc Brooker argues that enabling TCP_NODELAY is essential for reducing latency in modern distributed systems. He explains that Nagle's algorithm, designed to optimize network throughput, can actually hinder performance due to its interaction with delayed ACKs. Brooker concludes that TCP_NODELAY should be the default setting in today's applications, as single-byte packets are rarely used anymore.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kdb0hb4f0z9ekexyw8yrd1md",
+      "title": "The Best Things and Stuff of 2025",
+      "url": "https://blog.fogus.me/2025/12/23/the-best-things-and-stuff-of-2025.html",
+      "savedAt": "2025-12-25T15:02:47.694000+00:00",
+      "description": "The author reviews their 2025 reading, writing, and hobby projects, with a heavy focus on fiction, games, and systems thinking. They remain deeply involved in Clojure development while exploring non-technical writing, Zettelkasten note systems, and new tools like LLMs. Plans for 2026 include more non-technical writing, continued fiction and game exploration, and refining their note-taking and project experiments.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kdb0h4tkrcf5waer7e7a533t",
+      "title": "Test, don't (just) verify",
+      "url": "https://alperenkeles.com/posts/test-dont-verify/",
+      "savedAt": "2025-12-25T15:02:41.235000+00:00",
+      "description": "Formal verification can prove absence of bugs but is limited by missing specifications, hard proof engineering, and slow proof assistants. AI and autoformalization can generate specifications and proofs, but remain part of the trusted computing base and can't model everything. Combining verification with practical testing—especially random and differential testing—gives a scalable, realistic path to correct and fast software.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kdb0gd3ergy5z960y4dwk777",
+      "title": "Your favorite pieces of technical writing?",
+      "url": "https://lobste.rs/s/8ugoxw/your_favorite_pieces_technical_writing",
+      "savedAt": "2025-12-25T15:02:16.941000+00:00",
+      "description": "They list three helpful articles: how to ask good questions, a guide to writing better documents, and thinking differently about technical debt. These pieces helped the author beyond coding, especially in social and process areas. They also offer snarkier recommendations but kept the list focused and useful.",
+      "tags": []
+    },
+    {
+      "id": "01kdb0f7sg8hfcyceqg9amq1gm",
+      "title": "Becoming the Machine",
+      "url": "https://armeet.bearblog.dev/becoming-the-machine/",
+      "savedAt": "2025-12-25T15:01:38.736000+00:00",
+      "description": "The text warns against losing our humanity by blindly following machines. It encourages staying thoughtful and creative in a world full of technology. We should use machines wisely, not become like them.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kdb0f2cnjfr0v7gbnz8dmk87",
+      "title": "Attention From First Principles",
+      "url": "https://metaworld.me/blog/public/Attention-From-First-Principles",
+      "savedAt": "2025-12-25T15:01:33.204000+00:00",
+      "description": "Deep learning uses attention to process entire sequences at once, solving RNNs' forgetting and parallelization problems but with high computation cost. New methods like linear attention and Mamba aim to keep attention benefits while reducing this cost by using efficient, learnable linear updates. This work highlights the balance between processing sequences fully and efficiently, linking RNNs, attention, and different sequence generation methods.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kdb0evvtcjqebg9z805bvvc0",
+      "title": "How agents can use filesystems for context engineering",
+      "url": "https://blog.langchain.com/how-agents-can-use-filesystems-for-context-engineering/",
+      "savedAt": "2025-12-25T15:01:26.521000+00:00",
+      "description": "Filesystems let agents store, search, and update large amounts of context outside the conversation so the model only loads what’s needed. This helps avoid token bloat, retrieve niche or line-specific info, and let agents learn or update instructions over time. Using tools like ls, grep, and read_file makes agents more reliable and efficient.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kdb0bneha8xb85h52vkwcm2y",
+      "title": "An initial analysis of the discovered Unix V4 tape",
+      "url": "https://www.spinellis.gr/blog/20251223/?yc261223",
+      "savedAt": "2025-12-25T14:59:41.649000+00:00",
+      "description": "A rare 1970s Unix Fourth Edition tape was found and restored, revealing the full source code. The Fourth Edition was mostly new but shared about 10% of its code with earlier versions, and the Fifth Edition added significant new code on top of it. The analysis shows the Fourth Edition came about eight months before the Fifth Edition, highlighting rapid system development at the time.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kdb0bbzk0k0vzgjj3nkpfn7t",
+      "title": "Meta Is Using The Linux Scheduler Designed For Valve's Steam Deck On Its Servers",
+      "url": "https://www.phoronix.com/news/Meta-SCX-LAVD-Steam-Deck-Server",
+      "savedAt": "2025-12-25T14:59:31.955000+00:00",
+      "description": "Meta is using a Linux scheduler originally made for Valve's Steam Deck on its large servers. This scheduler, called SCX-LAVD, works well for different hardware and helps balance the server load. Meta now calls it their new default scheduler for many server tasks.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kdb0b42b0b2b6fjn8bhh32yd",
+      "title": "Unix \"find\" expressions compiled to bytecode",
+      "url": "https://nullprogram.com/blog/2025/12/23/",
+      "savedAt": "2025-12-25T14:59:23.851000+00:00",
+      "description": "The author created a compiler that turns Unix find expressions into bytecode to make file searches faster and simpler. This bytecode uses a small set of instructions to handle logical operations and actions like printing or testing file types. The compiler converts expressions into postfix form, builds bytecode fragments, and could be improved with optimizations like removing unnecessary instructions.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kdb0apx6ey6yyx9f8aw059hk",
+      "title": "Boring is good",
+      "url": "https://jenson.org/boring/",
+      "savedAt": "2025-12-25T14:59:10.374000+00:00",
+      "description": "The LLM hype is fading because big models often fail in real use. Smaller, local models (SLMs) used for simple language tasks are cheaper, safer, and more useful. Mature AI will be boring infrastructure, not flashy magic.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kdb09km3hk42qd6916f3sf84",
+      "title": "Existential Haskell",
+      "url": "https://blog.sumtypeofway.com/posts/existential-haskell.html",
+      "savedAt": "2025-12-25T14:58:34.243000+00:00",
+      "description": "The post explains how Haskell uses existential types to hide a value’s concrete type while preserving typeclass behavior. It shows patterns (Showable, Typeable, Some) for packing, casting, and dispatching values dynamically. These techniques enable flexible runtime behavior in a language that prefers concrete types.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kdb07hydnnse4m03zzfdnwke",
+      "title": "AMD first entered the CPU market with reverse-engineered Intel 8080 clone 50 years ago — the Am9080 cost 50 cents apiece to make, but sold for $700",
+      "url": "https://www.tomshardware.com/pc-components/cpus/amd-first-entered-the-cpu-market-with-reverse-engineered-intel-8080-clone-50-years-ago-the-am9080-cost-50-cents-apiece-to-make-but-sold-for-usd700",
+      "savedAt": "2025-12-25T14:57:26.989000+00:00",
+      "description": "Fifty years ago AMD entered CPUs by reverse-engineering Intel’s 8080 to make the Am9080. The chip cost about $0.50 to produce but sold for as much as $700 to military buyers. Intel and AMD later signed a licensing deal that let AMD become an official second source and paved the way for future x86 agreements.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kdb07a6nj62z9h0sxv91z3ne",
+      "title": "How Accurate Are Learning Curves?",
+      "url": "https://www.construction-physics.com/p/how-accurate-are-learning-curves",
+      "savedAt": "2025-12-25T14:57:19.061000+00:00",
+      "description": "Learning curves say costs fall by a constant percentage with each doubling of cumulative production. New research shows learning rates often change over time, so simple straight-line forecasts (Wright’s Law) can be unreliable. A piecewise, probabilistic model can predict costs somewhat better, but improvements are modest and vary by technology.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kdb06ybbxq6pb3f0qsa1y6en",
+      "title": "Power Laws Have More Power Than You Think",
+      "url": "https://every.to/p/power-laws-have-more-power-than-you-think",
+      "savedAt": "2025-12-25T14:57:06.923000+00:00",
+      "description": "People copy others online, so a few items become huge hits while most things get little attention. Recommendation systems and high choice amplify this effect, creating persistent power-law distributions across media. That makes hits more random, hollows the middle, and shifts power to platforms and top talent.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kdb02mj6bqqjphcx30x5thp6",
+      "title": "On Metastable Failures and Interactions Between Systems",
+      "url": "https://charap.co/on-metastable-failures-and-interactions-between-systems/",
+      "savedAt": "2025-12-25T14:54:45.830000+00:00",
+      "description": "Metastable failures are self-sustaining performance collapses caused by positive feedback loops, like retry storms.  \nThey happen because systems act on ambiguous signals (e.g., timeouts) that can mean different problems.  \nAvoiding or reducing interactions, preventing reinforcing actions, and clarifying signals mitigate but may not fully eliminate these failures.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kdb01xk2x456fxe2njn2z1wf",
+      "title": "Bachelor Thesis: Extended Abstract",
+      "url": "https://0l.de/blog/2015/01/bachelor-thesis-abstract/",
+      "savedAt": "2025-12-25T14:54:22.306000+00:00",
+      "description": "This article explains a simple method to manage page tables on Intel's x86 processors using self-referencing entries. This technique reduces complexity and memory use by letting the system access all page tables directly through virtual addresses. It works for both 32-bit and 64-bit systems and makes the operating system code easier to maintain.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kdac36d57a0k81c9r0199t3z",
+      "title": "Essentials: How to Optimize Your Hormones for Health & Vitality | Dr. Kyle Gillett",
+      "url": "https://traffic.megaphone.fm/SCIM8309533836.mp3?updated=1766645399",
+      "savedAt": "2025-12-25T09:05:29.582000+00:00",
+      "description": "In this Huberman Lab Essentials episode, my guest is Dr. Kyle Gillett, MD, a dual board-certified physician in family medicine and obesity medicine and an expert in optimizing hormone levels to improve overall health.\n\nWe explain how to improve hormone levels across the lifespan in both men and women using behavioral, nutritional and exercise-based tools. We also discuss common clinical topics, including hormone testing, PCOS, hair loss, testosterone replacement therapy (TRT) and peptides, focusing on potential benefits, tradeoffs and risks.\n\nRead the episode show notes at hubermanlab.com.\n\nThank you to our sponsors\n\nAG1: https://drinkag1.com/huberman\n\nMaui Nui: https://mauinuivenison.com/huberman\n\nFunction: https://functionhealth.com/huberman\n\nTimestamps\n\n(00:00:00) Kyle Gillett\n\n(00:00:36) Hormone Health; Women vs Men, Tool: Hormone Testing\n\n(00:02:35) Tool: Big 6 Lifestyle Pillars to Optimize Hormone Health\n\n(00:04:32) Sponsor: AG1\n\n(00:06:17) Diet, Individualization; Bloodwork & Frequency\n\n(00:07:20) Exercise, Zone 2 Cardio; Caloric Restriction\n\n(00:08:36) Intermittent Fasting, Growth Hormone, IGF-1\n\n(00:11:05) Hormones & Sleep, Growth Hormone, Menopause, Andropause, TRT\n\n(00:13:28) Testosterone & Women, SHGB\n\n(00:15:19) Sponsor: Maui Nui\n\n(00:16:34) Dihydrotestosterone (DHT), Androgens; Turmeric & Black Pepper; Hair Loss\n\n(00:19:47) Polycystic Ovarian Syndrome (PCOS), Symptoms, Metformin, Inositol\n\n(00:23:13) Cannabis, Alcohol, Testosterone\n\n(00:24:48) Males & Testosterone, TRT, Prostate Cancer\n\n(00:26:04) Prolactin, Dopamine \"Wave Pool\", Tool: Casein & Gluten\n\n(00:27:23) Sponsor: Function\n\n(00:29:03) Social Relationships & Hormones, Tool: Planning for Crisis\n\n(00:31:02) Peptides, Growth Hormone & Risk; BPC 157, Sourcing & LPS\n\n(00:36:42) Melanotan, Uses & Risks\n\n(00:38:45) Spiritual Health, Interdisciplinary Health Integration\n\n(00:41:23) Caffeine & Hormones, Sleep; Acknowledgements\n\nDisclaimer & Disclosures\nLearn more about your ad choices. Visit megaphone...",
+      "tags": []
+    },
+    {
+      "id": "01kda7z84ctfezevka99fwwhsm",
+      "title": "Year in books",
+      "url": "https://notes.eatonphil.com/2025-12-23-year-in-books.html",
+      "savedAt": "2025-12-25T07:53:28.972000+00:00",
+      "description": "The author read 50 books in 2025 and highlights 18 favorites (11 non-fiction, 7 fiction). These books cover writing, history, media, biographies, and several imaginative novels. Favorites include On Writing Well, Secret Formula, The Buffalo Hunter Hunter, and The Handmaid’s Tale.",
+      "tags": [
+        "books"
+      ]
+    },
     {
       "id": "01kd3y1r8gc8qwa8b69cwqkyp0",
       "title": "The Illustrated Transformer",
