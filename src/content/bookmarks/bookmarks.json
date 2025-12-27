@@ -1,6 +1,179 @@
 {
-  "lastUpdate": "2025-12-26T00:12:45.241Z",
+  "lastUpdate": "2025-12-27T00:12:42.278Z",
   "data": [
+    {
+      "id": "01kdeafadt8n4q5gctapbrj5nc",
+      "title": "Initial Quick Thoughts on Singular Learning Theory",
+      "url": "https://www.beren.io/2025-12-24-Initial-Quick-Thoughts-on-Singular-Learning-Theory/",
+      "savedAt": "2025-12-26T21:54:10.488000+00:00",
+      "description": "Singular learning theory (SLT) explains how symmetries in neural network parameters create singularities that shrink the model’s effective complexity and change the geometry of optimal solutions. The author suggests similar SLT-style effects arise in practice from limited training (early stopping) and from SGD noise, which make many parameter combinations effectively equivalent. Thus SLT insights may extend to realistic noisy training regimes and help explain generalization.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kdeaf688rayv1w0pbbgj6jv1",
+      "title": "Diátaxis",
+      "url": "https://diataxis.fr/",
+      "savedAt": "2025-12-26T21:54:06.216000+00:00",
+      "description": "Diátaxis is a systematic approach to creating technical documentation, focusing on understanding user needs. It identifies four types of documentation - tutorials, guides, reference, and explanations. Many organizations have found success applying Diátaxis principles to improve their documentation structure and clarity.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kdeaf0khs9kecg6c999z4rm1",
+      "title": "Newtype Index Pattern In Zig",
+      "url": "https://matklad.github.io/2025/12/23/zig-newtype-index-pattern.html",
+      "savedAt": "2025-12-26T21:54:00.433000+00:00",
+      "description": "Using indexes instead of pointers saves memory and improves performance by making data structures more compact and cache-friendly. Indexes also simplify working with cyclic and recursive data, and make serialization easier because they are naturally relocatable. In Zig, a newtype pattern using non-exhaustive enums creates strong, distinct index types that help avoid mix-ups while keeping code efficient.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kdeadybcn2cyxjvcwgk00k5c",
+      "title": "My Christmas gift: telling you about PurpleMind, which brings CS theory to the YouTube masses",
+      "url": "https://scottaaronson.blog/?p=9445",
+      "savedAt": "2025-12-26T21:53:25.356000+00:00",
+      "description": "Scott Aaronson shares his excitement about PurpleMind, a YouTube channel by Aaron Gostein that explains computer science theory with clear animations and code. He praises Aaron's use of AI tools to create high-quality educational videos that engage viewers of all ages. Scott feels inspired to support new educators like Aaron who bring complex ideas to the public in fresh, accessible ways.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kdeadpe1cvy480q532s8j3a5",
+      "title": "Load and store forwarding in the Toy Optimizer",
+      "url": "https://bernsteinbear.com/blog/toy-load-store/",
+      "savedAt": "2025-12-26T21:53:17.248000+00:00",
+      "description": "This text explains how a toy optimizer removes redundant loads by tracking previous loads and stores at compile-time. It carefully invalidates cached loads when stores happen to the same or overlapping memory locations to keep optimizations correct. The approach helps eliminate unnecessary memory operations, improving efficiency in program traces.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kdeadhdpvz7mv71ykr29fbsw",
+      "title": "Grow slowly, stay small",
+      "url": "https://herman.bearblog.dev/grow-slowly-stay-small/",
+      "savedAt": "2025-12-26T21:53:12.118000+00:00",
+      "description": "Herman admires old Japanese craftspeople who grow slowly and perfect their work over generations. He argues that staying small and avoiding rapid expansion makes businesses less fragile and more fulfilling. He runs his project this way: it pays the bills, gives him control, and lets him enjoy life.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kdeadb13wwhyqc4pzwbfhtqn",
+      "title": "2025-12-25 – doubly dual shuffles",
+      "url": "https://dotat.at/@/2025-12-25-shuffle.html",
+      "savedAt": "2025-12-26T21:53:05.570000+00:00",
+      "description": "There are four versions of the shuffle algorithm based on how the array parts are swapped and how the boundary moves. These versions fall into two main types: shuffle by sampling and shuffle by permutation. The article explains these clearly and highlights common mistakes in shuffling methods.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kdead6gw5vp7cp42my0rmspt",
+      "title": "Free Will",
+      "url": "https://ajkprojects.com/free-will",
+      "savedAt": "2025-12-26T21:53:00.956000+00:00",
+      "description": "The author wonders if free will exists and explains the determinist view that genes, environment, and experiences shape all our choices. They offer a practical take: people have some freedom in some situations, but the amount varies by circumstance. Even if behavior is determined, understanding causes can help change people and reduce blame.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kdead1gm9jcqv4kv3afc4w5k",
+      "title": "Microarchitecture: What Happens Beneath",
+      "url": "https://www.youtube.com/watch?v=BVVNtG5dgks",
+      "savedAt": "2025-12-26T21:52:55.828000+00:00",
+      "description": "CPUs fetch many instructions and decode them into smaller micro-operations that can run in parallel. A micro-op cache, decoders, and a reorder/memory-order buffer manage these ops and handle complex x86 quirks. Execution units run micro-ops out of order and retire results in program order for correct behavior.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kdeackstjb11epsrp3wj6e4b",
+      "title": "From 400 Mbps to 1.7 Gbps: A WiFi 7 Debugging Journey",
+      "url": "https://blog.tymscar.com/posts/wifi7speedhunt/",
+      "savedAt": "2025-12-26T21:52:41.786000+00:00",
+      "description": "The author upgraded to WiFi 7 but got slow speeds because the phone connected at 80 MHz, not 160 MHz as expected. Changing the router’s radio settings to force 160 MHz fixed the problem, boosting speeds to about 1.7 Gbps. Testing tips include using a separate device, checking real channel width, and using reverse mode with multiple streams for best results.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kdeabvy6r92bhbywv4wspp7j",
+      "title": "Thoughts & Links 13",
+      "url": "https://blog.separateconcerns.com/2025-12-26-thoughts-13.html",
+      "savedAt": "2025-12-26T21:52:17.350000+00:00",
+      "description": "The author links short notes about AI, design, and engineering practices. They stress small teams with ownership, fast feedback, and making work smaller. AI will reshape thinking and tools, so we should design for benefits while managing new harms.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kdeab64ebeep8ht6r5x4n7b4",
+      "title": "On The Math Books I am using to learn about Pure Mathematics - Part 1",
+      "url": "https://ludwigabap.com/posts/on-the-math-books-i-am-using-to-learn-about-pure-mathematics-part-1/",
+      "savedAt": "2025-12-26T21:51:55.021000+00:00",
+      "description": "The author lists favorite pure math books and lecture notes organized by topic. They favor texts with categorical perspectives and recommend general references like The Princeton Companion and All the Math You Missed. Specific picks include Aluffi for algebra, Munkres for topology, and Bosman’s lectures for algebraic topology.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kdeab21cxvrh62dsby67rjbk",
+      "title": "Complexity Has to Live Somewhere",
+      "url": "https://ferd.ca/complexity-has-to-live-somewhere.html",
+      "savedAt": "2025-12-26T21:51:50.828000+00:00",
+      "description": "Complexity is an unavoidable part of software development that must be managed, not eliminated. When designing tools or systems, it's essential to acknowledge where complexity resides, whether in code, documentation, or user knowledge. Embracing and understanding complexity can lead to better solutions and stronger systems.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kde7xvn81t119j1hvqvajtzr",
+      "title": "Give it five minutes",
+      "url": "https://signalvnoise.com/posts/3124-give-it-five-minutes",
+      "savedAt": "2025-12-26T21:09:41.160000+00:00",
+      "description": "Quick reactions often stop us from truly understanding ideas. Giving an idea five minutes means thinking before judging or arguing. This helps us learn more and respect the fragile nature of new thoughts.",
+      "tags": [
+        "favorites",
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "01kde6fft6wh53smxd200e7ypb",
+      "title": "Idea protectionism",
+      "url": "https://world.hey.com/jason/idea-protectionism-01ef4f59",
+      "savedAt": "2025-12-26T20:44:21.702000+00:00",
+      "description": "Ideas start fragile and need protection, not immediate criticism. Use \"Yes, And\" to build and explore possibilities together. Critique can come later, but first give ideas room to grow.",
+      "tags": [
+        "startup",
+        "favorites"
+      ]
+    },
+    {
+      "id": "01kddddwke6x67jjz1byeqdttr",
+      "title": "The Reverse Interview - Questions Software Engineers Should Ask in Their Next Interview",
+      "url": "https://dollardhingra.substack.com/p/questions-software-engineers-should",
+      "savedAt": "2025-12-26T13:26:34.862000+00:00",
+      "description": "Treat the interview as two-way due diligence, not just a test. Ask focused questions about engineering input, on-call policies, real technical challenges, and promotion paths. Use their answers to spot supportive cultures versus chaotic or punishing workplaces.",
+      "tags": [
+        "career",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kddcedjq3za5mfr1dexd62z7",
+      "title": "Writing an NES emulator in Haskell",
+      "url": "https://arthi-chaud.github.io/posts/funes/",
+      "savedAt": "2025-12-26T21:52:37.261000+00:00",
+      "description": "Can the functional programming paradigm help implementing emulators ?",
+      "tags": [
+        "for-later"
+      ]
+    },
     {
       "id": "01kdb0ss2329bcmwv5z4x2nkmq",
       "title": "2025 in review.",
