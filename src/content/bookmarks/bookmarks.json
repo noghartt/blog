@@ -1,6 +1,147 @@
 {
-  "lastUpdate": "2025-12-28T00:13:40.022Z",
+  "lastUpdate": "2025-12-29T00:13:14.825Z",
   "data": [
+    {
+      "id": "01kdkpejq8c8p0hvaw2bhexe3m",
+      "title": "Have you tried turning it off and on again?",
+      "url": "https://eblog.fly.dev/onoff.html",
+      "savedAt": "2025-12-28T23:59:41.288000+00:00",
+      "description": "Software always has bugs, so restarting often fixes many problems. Make startup and shutdown fast and reliable. Design programs to handle random kills and graceful shutdowns.",
+      "tags": [
+        "cs"
+      ]
+    },
+    {
+      "id": "01kdkm3at6zkb2cry0warmygr9",
+      "title": "On deathbed advice/regret",
+      "url": "https://hazn.com/deathbed-regret",
+      "savedAt": "2025-12-28T23:18:35.590000+00:00",
+      "description": "Many deathbed \"regrets\" shared online are cheap, vague complaints rather than useful advice. Real guidance comes from what people actually did, not what they wish they'd done. So beware of performative regrets and follow living examples instead.",
+      "tags": [
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "01kdk9rhafd0bd9tsjjx67e10c",
+      "title": "Take Scratchapixel to the Beach",
+      "url": "https://www.scratchapixel.com/",
+      "savedAt": "2025-12-28T20:17:56.047000+00:00",
+      "description": "Scratchapixel offers beginner-friendly, hands-on lessons for learning 3D rendering and computer graphics.  \nThey also provide reference material on the math and theory behind graphics, plus special-topic articles.  \nThe site is expanding with a Vulkan course and a book for offline study.",
+      "tags": [
+        "cs/computer-graphics"
+      ]
+    },
+    {
+      "id": "01kdjwxtcyf4dghchd2qavmpv3",
+      "title": "Inside the Proton, the ‘Most Complicated Thing’ Imaginable",
+      "url": "https://www.quantamagazine.org/inside-the-proton-the-most-complicated-thing-imaginable-20221019/",
+      "savedAt": "2025-12-28T16:33:37.694000+00:00",
+      "description": "The proton is far more complex than the simple three-quark picture. It is a shifting quantum mix of many short-lived quarks, antiquarks and gluons that change with how we probe it. New analysis shows protons sometimes contain heavy charm quarks, which can affect particle-collider results.",
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "01kdjwx7rz0gtm84n1t9s1n4fa",
+      "title": "Parsing Advances",
+      "url": "https://matklad.github.io/2025/12/28/parsing-advances.html",
+      "savedAt": "2025-12-28T16:33:18.623000+00:00",
+      "description": "The author discusses issues with infinite loops in resilient parsers when tokens are not consumed. They propose a new method using explicit assertions to ensure the parser advances, making errors easier to catch. This approach simplifies debugging and improves parser reliability.",
+      "tags": [
+        "cs/parsers"
+      ]
+    },
+    {
+      "id": "01kdjw1rd3trnvx2jd1ntrbcjm",
+      "title": "On Mathematics vs Programming, and Syntax and Semantics",
+      "url": "https://ludwigabap.com/posts/on-mathematics-vs-programming-and-syntax-vs-semantics/",
+      "savedAt": "2025-12-28T16:18:18.147000+00:00",
+      "description": "Programming and mathematics both use formal symbols and rules, so they are closely related.  \nBut real programs and applied math run on messy physical systems, so their semantics are never perfectly precise.  \nLearning math helps programming by training clear, decompositional thinking even when exact precision is impossible.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kdjk47v1mykcjbvj29znzdm6",
+      "title": "A Modern Recommender Model Architecture",
+      "url": "https://cprimozic.net/blog/anime-recommender-model-architecture/",
+      "savedAt": "2025-12-28T13:42:22.305000+00:00",
+      "description": "The article describes a modern recommender system architecture that combines user/item representations, interaction modeling, and scalable serving. It emphasizes modular components for training, feature pipelines, and online inference. The goal is accurate, efficient, and maintainable personalized recommendations.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kdhggrwaxd1zmmdznxfqjs6j",
+      "title": "How to do hard things",
+      "url": "https://www.drmaciver.com/2019/05/how-to-do-hard-things/",
+      "savedAt": "2025-12-28T03:37:32.810000+00:00",
+      "description": "The essay argues we should deliberately learn how to do hard things by using clear processes and practice. Interviewing and other social systems often embed hidden biases because we copy familiar patterns instead of designing fair methods. Treating social practices as cheap, adaptable \"social technology\" and improving them deliberately would reduce harm and yield big benefits.",
+      "tags": [
+        "learning",
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "01kdhb1md47g484mq3zhwsg4d1",
+      "title": "Rust's Block Pattern",
+      "url": "https://notgull.net/block-pattern/",
+      "savedAt": "2025-12-28T02:01:53.828000+00:00",
+      "description": "Rust allows blocks to act as expressions, which helps organize code more clearly. Using this \"block pattern,\" you can limit variable scope and keep related code together inside functions. This makes code cleaner, easier to read, and reduces bugs from unintended variable use or mutation.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kdhb19bs6xkd4k4168bqj1w5",
+      "title": "LeaseGuard: Raft Leases Done Right!",
+      "url": "https://muratbuffalo.blogspot.com/2025/12/leaseguard-raft-leases-done-right.html",
+      "savedAt": "2025-12-28T02:01:42.521000+00:00",
+      "description": "LeaseGuard is a simple Raft lease protocol that uses the log itself as the lease, so leaders can serve consistent reads without extra lease messages. It adds two optimizations—deferred-commit writes and inherited-lease reads—to speed recovery and allow safe reads during leader transitions. The design is fully specified, TLA+-checked, implemented, and improves throughput and availability.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kdhax3766fsjt5qkf54zhavt",
+      "title": "More databases should be single-threaded",
+      "url": "https://blog.konsti.xyz/more-databases-should-be-single-threaded/",
+      "savedAt": "2025-12-28T01:59:25.158000+00:00",
+      "description": "The author argues databases should use many single-threaded shards instead of multi-threaded shards. This avoids complex locking, races, and transaction headaches and makes scaling easier. With good tooling, sharded single-writer shards give simpler correctness and horizontal scalability.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kdharrwb78h0s68zg9evn065",
+      "title": "How I think about Kubernetes",
+      "url": "https://garnaudov.com/writings/how-i-think-about-kubernetes/",
+      "savedAt": "2025-12-28T01:57:03.499000+00:00",
+      "description": "Kubernetes is best seen as a runtime that keeps your declared infrastructure state true, not just a tool to run containers. It uses a type system to define resources like Pods and Deployments, making your infrastructure declarative and self-correcting. This continuous reconciliation means you change the desired state, let Kubernetes handle the rest, and use GitOps to manage changes safely.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kdhanh8y42y6a44d00bxfxa0",
+      "title": "Why I Write (And You Should Too!)",
+      "url": "https://www.dbreunig.com/2025/12/27/why-i-write.html",
+      "savedAt": "2025-12-28T01:55:17.406000+00:00",
+      "description": "Writing trains your thinking and makes you a clearer communicator.  \nPublishing lets you get feedback, meet people, and build a useful archive.  \nStart now, accept imperfect drafts, and use simple tools and AI to help.",
+      "tags": [
+        "writing"
+      ]
+    },
+    {
+      "id": "01kdhamtzzrnfz9q13ag8aygxq",
+      "title": "Review: Rethink the Linearizability Constraints of Raft for Distributed Systems",
+      "url": "https://emptysqua.re/blog/review-rethink-linearizability-constraints-raft/",
+      "savedAt": "2025-12-28T01:54:54.591000+00:00",
+      "description": "The paper proposes speeding Raft by replying to blind-write clients as soon as their entry is committed (\"Commit Return\") and by answering reads without waiting for full application (\"Read Acceleration\"). The author argues Commit Return can reduce client write latency without necessarily worsening read latency, contrary to the paper’s benchmark-driven claim. Read optimizations help when there is a large gap between commitIndex and lastApplied.",
+      "tags": [
+        "for-later"
+      ]
+    },
     {
       "id": "01kdeafadt8n4q5gctapbrj5nc",
       "title": "Initial Quick Thoughts on Singular Learning Theory",
@@ -1079,7 +1220,8 @@
       "savedAt": "2025-12-18T06:09:20.964000+00:00",
       "description": "Many things that seem hard you actually just lack an easy insight into, and it's worth spending some time investigating what those insights might be.",
       "tags": [
-        "for-later"
+        "life",
+        "self-improvement"
       ]
     },
     {
