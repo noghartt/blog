@@ -1,6 +1,58 @@
 {
-  "lastUpdate": "2025-12-29T00:13:14.825Z",
+  "lastUpdate": "2025-12-31T00:12:36.147Z",
   "data": [
+    {
+      "id": "01kdmnq2qh52268vjphnfq9j6w",
+      "title": "Defining Healthy Masculinity & How to Build It | Terry Real",
+      "url": "https://www.hubermanlab.com/episode/defining-healthy-masculinity-how-to-build-it-terry-real",
+      "savedAt": "2025-12-29T09:06:02.681000+00:00",
+      "description": "Terry Real is a therapist and best-selling author expert on male emotional health and how men can build the skills for healthy relating to others: in relationships, work, friendships and to themselves. We discuss how mixed and ever-changing messages about what masculinity is are impacting the mental and physical health of men and boys. Terry explains how learning the skill of \"relationality\" leads to improvements in all aspects of boys' and men's lives and shares practical tools for how to do that. We also discuss the essential role of having a close male community to build confidence and self-esteem. This conversation offers actionable guidance for boys, men and women seeking to build healthier relationships with themselves and others.\n\nRead the episode show notes at hubermanlab.com.\n\nThank you to our sponsors\n\nAG1: https://drinkag1.com/huberman\n\nBetterHelp: https://betterhelp.com/huberman\n\nDavid: https://davidprotein.com/huberman\n\nFunction: https://functionhealth.com/huberman\n\nWaking Up: https://wakingup.com/huberman\n\nTimestamps\n\n(00:00:00) Terry Real\n\n(00:02:53) Men & Masculinity, Political vs Psychological Patriarchy, Feminism\n\n(00:07:39) Stoicism, Vulnerability, Traditional Masculinity, Emotions\n\n(00:10:50) Sponsors: BetterHelp & David\n\n(00:13:14) Masculinity Across Decades, Giving; Gratification vs Relational Joy\n\n(00:21:54) Healthy Emotional Expression, Connection & Vulnerability; Self-Esteem\n\n(00:31:17) Feeling Emotions, Tools: Asking For Help; Fights & \"What Do You Need?\"\n\n(00:35:10) Self-Esteem & Relationship Accountability; Criticism, Redefining Strength\n\n(00:40:47) Sponsor: AG1\n\n(00:42:32) Healthy Criticism, Tool: Women & Articulating Needs\n\n(00:50:21) Childlike Behavior, Wise Adult & Trauma, Tool: Relational Mindfulness\n\n(00:58:11) Tool: Responsible Distance Taking; Self-Interest; Relationship \"Biosphere\"\n\n(01:08:14) Alcohol, Men & Friends, Loneliness, Men's Retreat\n\n(01:17:51) Fraternities, Men's Groups, Tool: Relationship vs Individual Support \n\n(0...",
+      "tags": []
+    },
+    {
+      "id": "01kdkz8fqzkkw8pdq468ps3z15",
+      "title": "What an unprocessed photo looks like:",
+      "url": "https://maurycyz.com/misc/raw_photo/",
+      "savedAt": "2025-12-29T02:33:38.815000+00:00",
+      "description": "A camera sensor captures light as numbers, not colors or brightness like we see. To make a photo look right, lots of math adjusts colors, brightness, and contrast. Editing a photo is just another way to show the same data in a way that looks natural to us.",
+      "tags": [
+        "for-later",
+        "cs/computer-graphics"
+      ]
+    },
+    {
+      "id": "01kdkz4gfv0e944h895p1p0kav",
+      "title": "How to complain",
+      "url": "https://outerproduct.net/trivial/2024-03-25_complain.html",
+      "savedAt": "2025-12-29T02:31:28.507000+00:00",
+      "description": "The text advises against making strong and absolute statements when writing complaints or arguments. It suggests using descriptions instead of names, providing context to frame the problem, and offering a more nuanced perspective to make the argument more accessible and convincing. It also emphasizes the importance of having a good reason for complaining and avoiding excessive negativity in order to effectively convey the message and potentially persuade others to agree with your point of view.",
+      "tags": [
+        "writing",
+        "speaking",
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "01kdkw1ccr74exn3dsch1626b7",
+      "title": "Mistakes engineers make in large established codebases",
+      "url": "https://www.seangoedecke.com/large-established-codebases/",
+      "savedAt": "2025-12-29T01:37:20.280000+00:00",
+      "description": "Working in large, long-lived codebases is hard but essential because they hold most product value. The biggest mistake is ignoring existing patterns — always follow prior art for consistency. Test key paths, avoid new dependencies, remove dead code carefully, and make small, reviewable changes.",
+      "tags": [
+        "cs",
+        "software-engineering"
+      ]
+    },
+    {
+      "id": "01kdkpxe7sremng257sz9np4g1",
+      "title": "Software engineers should be a little bit cynical",
+      "url": "https://www.seangoedecke.com/a-little-bit-cynical/",
+      "savedAt": "2025-12-29T00:07:48.217000+00:00",
+      "description": "The author argues that a little cynicism helps engineers understand how big tech organizations really work. Engaging in company politics is often necessary to ship meaningful features and help users. Too much idealism or too much cynicism can both be harmful; a balanced, realistic view is best.",
+      "tags": [
+        "career"
+      ]
+    },
     {
       "id": "01kdkpejq8c8p0hvaw2bhexe3m",
       "title": "Have you tried turning it off and on again?",
@@ -1042,7 +1094,7 @@
       "savedAt": "2025-12-20T21:36:12.252000+00:00",
       "description": "Most working mathematicians don’t worry about deep foundations and work informally. Foundations matter as useful tools, but they are social conventions that frame rather than define math. If taught differently, mathematicians would likely adopt other foundations without fuss.",
       "tags": [
-        "for-later"
+        "math"
       ]
     },
     {
