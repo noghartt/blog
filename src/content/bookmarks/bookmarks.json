@@ -1,6 +1,192 @@
 {
-  "lastUpdate": "2025-12-31T00:12:36.147Z",
+  "lastUpdate": "2026-01-01T00:13:55.399Z",
   "data": [
+    {
+      "id": "01kdsbf9w2daepa7cv690dzzy8",
+      "title": "Simple Bidirectional Type Inference",
+      "url": "https://ettolrach.com/blog/bidirectional_inference.html",
+      "savedAt": "2025-12-31T04:43:17.250000+00:00",
+      "description": "This article explains a simple bidirectional type inference system for a tiny lambda language with Bool and arrow types. It shows how some terms infer types while others check against given types, and how that guides implementation. The Rust implementation follows the bidirectional rules and yields precise error messages.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kdsbeg7xnqc2s23h9rygcyed",
+      "title": "Does the Internet know what time is it?",
+      "url": "https://alexsci.com/blog/clock-skew/",
+      "savedAt": "2025-12-31T04:42:51.005000+00:00",
+      "description": "The author studied git commit timestamps to find errors caused by mis-set clocks and automation mistakes. They found some commits had author times far ahead or behind commit times, showing many timestamp errors. These errors come from time zones, date formats, and software handling issues, affecting about 0.65% of commits in some projects.",
+      "tags": [
+        "for-later",
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "01kdsbe6ebj5bt6m33jbrcd492",
+      "title": "A Practical Introduction to Finger Trees",
+      "url": "https://chrispenner.ca/posts/intro-to-finger-trees",
+      "savedAt": "2025-12-31T04:42:40.971000+00:00",
+      "description": "Finger Trees are a flexible functional data structure that store sequences with a cached monoidal \"measure\" for each subtree. By choosing a suitable monoid (like Sum for lengths) and a predicate, the tree can split and support efficient random access and other operations. This lets you build persistent sequence types with good performance (roughly O(log(min(i,n-i))) for access).",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kdsbdz0n4gx4nzd1ewpd2tk7",
+      "title": "Clock Synchronization Is a Nightmare",
+      "url": "https://arpitbhayani.me/blogs/clock-sync-nightmare/",
+      "savedAt": "2025-12-31T04:42:33.365000+00:00",
+      "description": "There is no single global clock, so machines in different places will always disagree on exact time. This makes ordering events, debugging, and consistency in distributed systems hard unless you invest in better time hardware or use logical clocks. Choosing between accuracy, cost, and complexity is the core tradeoff.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kdsbds83189w1hehk5767v14",
+      "title": "1ML for non-specialists: introduction",
+      "url": "https://pithlessly.github.io/1ml-intro",
+      "savedAt": "2025-12-31T04:42:27.459000+00:00",
+      "description": "1ML is a type system that integrates ML-style modules into languages using System Fω as a core. The author aims to simplify 1ML concepts from technical papers to help compiler writers understand and implement it. This series will explain key rules and practical concerns, focusing on clarity rather than deep theory.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kdsbdjjzdgz4xbbxd268g6kj",
+      "title": "Rethinking the Cost of Distributed Caches for Datacenter Services",
+      "url": "https://muratbuffalo.blogspot.com/2025/12/rethinking-cost-of-distributed-caches.html",
+      "savedAt": "2025-12-31T04:42:20.639000+00:00",
+      "description": "Caching saves money mainly by cutting CPU work, not just latency. Putting fully materialized caches inside applications gives much bigger cost savings than storage-layer caches. However, strong consistency and cache management challenges reduce those gains and require careful trade-offs.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kdsbbvj9gjmt6jabresh2q9x",
+      "title": "Murat and Aleksey Read Papers: “Rethinking the Cost of Distributed Caches for Datacenter Services”",
+      "url": "https://charap.co/murat-and-aleksey-read-papers-rethinking-the-cost-of-distributed-caches-for-datacenter-services/",
+      "savedAt": "2025-12-31T04:41:24.297000+00:00",
+      "description": "The paper shows distributed caches can cut CPU costs and save money despite using more DRAM. It recommends richer cache semantics and collocating caches to reduce serialization and improve efficiency. The reader warns these savings can hide fragility: cache failures can cause huge downstream spikes and deferred operational costs.",
+      "tags": [
+        "for-later",
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "01kdsbbaj7h55yt1aa8qt6wsx7",
+      "title": "2025 in Review: Jagged Intelligence Becomes a Fault Line",
+      "url": "https://www.dbreunig.com/2025/12/29/2025-in-review.html",
+      "savedAt": "2025-12-31T04:41:06.887000+00:00",
+      "description": "2025 showed AI improving fast but unevenly, driven largely by synthetic data that favors quantitative tasks. This jagged intelligence creates reliability and trust problems that block wider adoption and cause real harms when people overestimate capabilities. AI leaders are failing to explain these limits, widening a perception gap between technical and nontechnical users.",
+      "tags": [
+        "cs/ai",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kdsbanpz238xxjzkjyxde6hv",
+      "title": "Five years of tinygrad",
+      "url": "https://geohot.github.io//blog/jekyll/update/2025/12/29/five-years-of-tinygrad.html",
+      "savedAt": "2025-12-31T04:40:45.535000+00:00",
+      "description": "Tinygrad is a small software project started in 2020 that now outperforms bigger tools like PyTorch on some tasks. The team of six works openly and focuses on simple, clear code to compete with big companies like NVIDIA. Their goal is to make powerful AI tools affordable and easy to use for everyone.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kdsb9hrfcj4w25cngknm2ksg",
+      "title": "The Efficiency Paradox: Why Making Software Easier to Write Means We'll Write Exponentially More",
+      "url": "https://addyosmani.com/blog/the-efficiency-paradox/",
+      "savedAt": "2025-12-31T04:40:08.719000+00:00",
+      "description": "Making software easier to write leads to creating much more software, not less. Lowering costs lets us solve problems that were too expensive before, expanding what’s possible. This pattern means we’ll soon see a huge jump in knowledge work, shifting the focus from “can we build it?” to “should we build it?”",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kdsb9bq1v1ctnxhzyv06t94j",
+      "title": "Everything as Code: How We Manage Our Company In One Monorepo",
+      "url": "https://www.kasava.dev/blog/everything-as-code-monorepo",
+      "savedAt": "2025-12-31T04:40:02.529000+00:00",
+      "description": "Kasava keeps its entire platform—code, docs, marketing, and tools—in one monorepo so everything is a single source of truth. This lets AI and engineers make atomic, cross-cutting changes (code, site, docs, marketing) in one commit and one deployment. The result: faster updates, fewer mismatches, and simpler reviews and rollbacks.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kdsb943dr5pv9t0f7x8zjayd",
+      "title": "retweet from Josh Comeau",
+      "url": "https://samwho.dev/2025/",
+      "savedAt": "2025-12-31T04:39:54.733000+00:00",
+      "description": "In 2023 a viral post changed my career and made me fall in love with teaching through writing. I tried freelancing, faced health limits, then joined ngrok as a Developer Educator and rebuilt their blog. A December post about LLMs found wide attention and confirmed this new path might be my future.",
+      "tags": [
+        "writing"
+      ]
+    },
+    {
+      "id": "01kdsb8t1vrf6rnrpqm6z90fvt",
+      "title": "Memory Safety Is …",
+      "url": "https://matklad.github.io/2025/12/30/memory-safety-is.html",
+      "savedAt": "2025-12-31T04:39:44.443000+00:00",
+      "description": "The author argues memory safety must be a property of an implementation, not just a language. A memory-safe implementation cannot introduce new behaviors compared to the source semantics, except it may crash. Definitions that only name bad errors or label behaviors as “trapped” vs “undefined” are misleading.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kdsb8jv77rcxt2m9hkdffx4d",
+      "title": "loss32: let's build a Win32/Linux",
+      "url": "https://loss32.org/",
+      "savedAt": "2025-12-31T04:39:37.063000+00:00",
+      "description": "loss32 is a Linux project that runs the entire desktop using Win32 software through WINE. It aims to create a stable, user-friendly OS where you can run Windows programs easily. The project wants to improve WINE and keep the classic PC desktop experience alive.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kdsb89kynj4fapg1cmbszg8r",
+      "title": "Igniting the GPU: From Kernel Plumbing to 3D Rendering on RISC-V",
+      "url": "https://mwilczynski.dev/posts/riscv-gpu-zink/",
+      "savedAt": "2025-12-31T04:39:27.614000+00:00",
+      "description": "The author enabled mainline, hardware-accelerated PowerVR 3D on the RISC-V TH1520 SoC by implementing platform drivers for power, clocks, and resets. They integrated a power sequencer that safely controls GPU resources and adapted the drm/imagination driver to select that strategy. With a Vulkan-first Mesa stack and display driver work, the board now runs accelerated 3D via Zink.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kdsb79nsqyca2my65ythe32s",
+      "title": "no strcpy either",
+      "url": "https://daniel.haxx.se/blog/2025/12/29/no-strcpy-either/",
+      "savedAt": "2025-12-31T04:38:54.905000+00:00",
+      "description": "The curl project removed strncpy and now also bans strcpy to avoid copying mistakes. They added a safer copy function that checks sizes and uses memcpy, ensuring null termination. This reduces long-term bugs and cuts down on bogus AI vulnerability reports.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kdsb6pccjzzf7bxjssfehxwf",
+      "title": "Building a React App with Formally Verified State",
+      "url": "https://midspiral.com/blog/building-a-react-app-with-formally-verified-state/",
+      "savedAt": "2025-12-31T04:38:35.148000+00:00",
+      "description": "The author built a React colorwheel app whose state transitions are formally verified with dafny-replay. Writing and verifying a clear spec caught design gaps early and made proofs reliable. The verified logic prevented state corruption, leaving only UI and design issues to fix.",
+      "tags": [
+        "for-later",
+        "framework/react",
+        "math/formal-methods"
+      ]
+    },
+    {
+      "id": "01kdsb1pfg393y4pqnr1q6vg4k",
+      "title": "Readings in Database Systems",
+      "url": "http://www.redbook.io/",
+      "savedAt": "2025-12-31T04:35:51.408000+00:00",
+      "description": "\"Readings in Database Systems\" (the Red Book) is a long-running, opinionated collection of important research in data management. This is the Fifth Edition, the first new edition in over ten years. It highlights both classic and recent work for readers and researchers.",
+      "tags": [
+        "for-later",
+        "cs/database"
+      ]
+    },
     {
       "id": "01kdmnq2qh52268vjphnfq9j6w",
       "title": "Defining Healthy Masculinity & How to Build It | Terry Real",
@@ -171,7 +357,7 @@
       "savedAt": "2025-12-28T01:57:03.499000+00:00",
       "description": "Kubernetes is best seen as a runtime that keeps your declared infrastructure state true, not just a tool to run containers. It uses a type system to define resources like Pods and Deployments, making your infrastructure declarative and self-correcting. This continuous reconciliation means you change the desired state, let Kubernetes handle the rest, and use GitOps to manage changes safely.",
       "tags": [
-        "for-later"
+        "cs/devops"
       ]
     },
     {
@@ -701,7 +887,8 @@
       "savedAt": "2025-12-25T14:54:45.830000+00:00",
       "description": "Metastable failures are self-sustaining performance collapses caused by positive feedback loops, like retry storms.  \nThey happen because systems act on ambiguous signals (e.g., timeouts) that can mean different problems.  \nAvoiding or reducing interactions, preventing reinforcing actions, and clarifying signals mitigate but may not fully eliminate these failures.",
       "tags": [
-        "for-later"
+        "cs/distsys",
+        "systems-theory"
       ]
     },
     {
