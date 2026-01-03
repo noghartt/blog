@@ -1,6 +1,24 @@
 {
-  "lastUpdate": "2026-01-01T00:13:55.399Z",
+  "lastUpdate": "2026-01-03T00:12:44.165Z",
   "data": [
+    {
+      "id": "01kdy1b4cez4qnzsg02cfaxjfa",
+      "title": "Reasons to Love the Field of Programming Languages",
+      "url": "https://danilafe.com/blog/i_love_programming_languages/",
+      "savedAt": "2026-01-02T00:22:26.958000+00:00",
+      "description": "Programming languages blend human creativity with mathematical precision to help us express ideas and solve problems. They build complex software by providing tools to manage difficulty and enable collaboration. Language design and implementation involve both theory and practical engineering to create powerful, reliable tools.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kdwcvdkqyprp6fmnej55004c",
+      "title": "Essentials: Micronutrients for Health & Longevity | Dr. Rhonda Patrick",
+      "url": "https://www.hubermanlab.com/episode/essentials-micronutrients-for-health-and-longevity-rhonda-patrick",
+      "savedAt": "2026-01-01T09:05:03.168000+00:00",
+      "description": "In this Huberman Lab Essentials episode, my guest is Dr. Rhonda Patrick, PhD, a biomedical scientist and a leading health educator focused on nutrition, aging and general health.\n\nWe discuss four key micronutrients that influence cellular stress responses, inflammation, detoxification and longevity, and how to increase your intake of each through diet or supplementation. We also cover deliberate cold and heat exposure, along with exercise, and how these tools support metabolic, cardiovascular and cognitive health as we age.\n\nRead the episode show notes at hubermanlab.com.\n\nThank you to our sponsors\n\nAGZ by AG1: https://drinkagz.com/huberman\n\nLMNT: https://drinklmnt.com/huberman\n\nFunction: https://functionhealth.com/huberman\n\nTimestamps\n\n(00:00:00) Rhonda Patrick\n\n(00:00:20) Physical Challenges, Stress Response Pathways, Hormesis, Temperature\n\n(00:03:43) Tool: Sulforaphane & Detoxification, Cruciferous Vegetables, Moringa\n\n(00:06:19) Sponsor: LMNT\n\n(00:07:51) Tool: Marine Omega-3s Fatty Acids, Fish Oil Supplements\n\n(00:09:48) Benefits of Fish Oil Supplementation, Longevity, Tool: Omega-3 Index\n\n(00:12:06) Omega-3s & Inflammation\n\n(00:14:46) Sponsor: AGZ by AG1\n\n(00:16:16) Vitamin D; Health Benefits\n\n(00:18:46) Tool: Vitamin D Supplementation, Bloodwork\n\n(00:22:11) Tool: Magnesium, Dark Leafy Greens, Supplementation\n\n(00:24:25) Sponsor: Function\n\n(00:26:05) Deliberate Cold Exposure, Mood & Dopamine\n\n(00:26:58) Cold Exposure to Enhance Mitochondria, Shivering, Browning Effect\n\n(00:31:22) Tool: High-Intensity Interval Training, Tabata Workout, Sauna, Memory \n\n(00:33:18) Sauna, Cardiovascular & Cognitive Heath; Tool: Sauna Duration & Frequency\n\n(00:38:52) Tool: Hot Bath; Acknowledgements\n\nDisclaimer & Disclosures\nLearn more about your ad choices. Visit megaphone.fm/adchoices",
+      "tags": []
+    },
     {
       "id": "01kdsbf9w2daepa7cv690dzzy8",
       "title": "Simple Bidirectional Type Inference",
@@ -377,7 +395,7 @@
       "savedAt": "2025-12-28T01:54:54.591000+00:00",
       "description": "The paper proposes speeding Raft by replying to blind-write clients as soon as their entry is committed (\"Commit Return\") and by answering reads without waiting for full application (\"Read Acceleration\"). The author argues Commit Return can reduce client write latency without necessarily worsening read latency, contrary to the paper’s benchmark-driven claim. Read optimizations help when there is a large gap between commitIndex and lastApplied.",
       "tags": [
-        "for-later"
+        "cs/distsys"
       ]
     },
     {
