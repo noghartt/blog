@@ -1,6 +1,395 @@
 {
-  "lastUpdate": "2026-01-03T00:12:44.165Z",
+  "lastUpdate": "2026-01-12T00:12:47.230Z",
   "data": [
+    {
+      "id": "01kenr69b0t2ept39f4ewjp5kf",
+      "title": "Compiler Engineering In Practice - Part 2: Why is a compiler?",
+      "url": "https://chisophugis.github.io/2026/01/04/compiler-engineering-in-practice-part-2-why-is-a-compiler.html",
+      "savedAt": "2026-01-11T05:24:17.376000+00:00",
+      "description": "A compiler's main purpose is to help developers build software faster and with fewer bugs, not just to make code run quickly. It provides useful abstractions and tools that save time and enable better programming practices. Good-enough performance combined with ways to optimize critical parts leads to practical and powerful software development.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kenr5kr6vwrdcjqc1jq608x7",
+      "title": "Meditation as Wakeful Relaxation: Unclenching Smooth Muscle (26/30)",
+      "url": "https://psychotechnology.substack.com/p/meditation-as-wakeful-relaxation",
+      "savedAt": "2026-01-11T05:23:55.270000+00:00",
+      "description": "Meditation can help relax both mind and body, but true relaxation is hard because muscles hold tension in complex ways. Smooth muscles, which control blood vessels, can stay tense for a long time without us noticing or controlling them directly. Using methods like sauna, cold plunges, and focused attention may help release this hidden tension and improve meditation.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kenr57hms9swvmwfst626w8c",
+      "title": "What is index overhead on writes?",
+      "url": "https://www.depesz.com/2026/01/06/what-is-index-overhead-on-writes/",
+      "savedAt": "2026-01-11T05:23:42.772000+00:00",
+      "description": "Adding indexes slows down write operations because the database must update them. The slowdown is not linear and can be significant with many indexes, but partial or multicolumn indexes reduce overhead. It's best to test indexes on your data, especially btree types, to balance read speed benefits against write performance costs.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kenr5020ktb1174eb5es0dfs",
+      "title": "Time Travelling and Fixing Bugs with Property-Based Testing",
+      "url": "https://wickstrom.tech/2019-11-17-time-travelling-and-fixing-bugs-with-property-based-testing.html",
+      "savedAt": "2026-01-11T05:23:35.104000+00:00",
+      "description": "The article shows how property-based testing can find hidden bugs in form validation, like incorrect age checks. It explains improving tests by generating dates, including tricky leap days, to cover all edge cases. This method helps catch errors early and reliably without changing the validation code.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kenr0b2zgec0g7t6g5emsxtm",
+      "title": "Being creative requires taking risks",
+      "url": "https://www.henrikkarlsson.xyz/p/being-creative-requires-taking-risks",
+      "savedAt": "2026-01-11T05:21:02.559000+00:00",
+      "description": "Being creative means taking risks and trying new things, even if it means losing success. Many people get stuck doing what feels safe and stop growing. To stay interesting, you must keep learning, experimenting, and sometimes say no to easy rewards.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kenqx69wpj8k3fytf2xfvkq4",
+      "title": "Formalizing 100 Theorems",
+      "url": "https://www.cs.ru.nl/~freek/100/",
+      "savedAt": "2026-01-11T05:19:19.355000+00:00",
+      "description": "There is a list of 100 important mathematical theorems, some of which have been formalized in computer systems. The page tracks which theorems are formalized but only in major systems with many formalizations. Some theorems are missing from the list, and the page notes these omissions.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kenqwx2d2vy5ar3jvab6c67e",
+      "title": "Fun with Algebraic Effects - from Toy Examples to Hardcaml Simulations",
+      "url": "https://blog.janestreet.com/fun-with-algebraic-effects-hardcaml/",
+      "savedAt": "2026-01-11T05:19:09.901000+00:00",
+      "description": "Algebraic effects let you write cleaner and more elegant code than monads by pausing and resuming computations. The Handled_effect library in OCaml helps manage these effects with simple operation handlers and continuations. This approach makes concurrent and simulation code easier to write and understand.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kem51mdtgpbea4wmntbkmsz0",
+      "title": "See it with your lying ears",
+      "url": "https://lcamtuf.substack.com/p/see-it-with-your-lying-ears",
+      "savedAt": "2026-01-10T14:30:27.513000+00:00",
+      "description": "This article explores how image and audio data can be transformed using similar techniques, revealing surprising differences in their effects. It explains how simple filters create pixelated images but cause harsh sounds in audio, and how frequency analysis helps improve audio editing. The author also shares coding examples and tricks like overlapping windows to reduce artifacts in audio processing.",
+      "tags": [
+        "math",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kem4csk3e4294h81px82pfe1",
+      "title": "The Transformer Family Version 2.0",
+      "url": "https://lilianweng.github.io/posts/2023-01-27-the-transformer-family-v2/",
+      "savedAt": "2026-01-10T14:19:04.675000+00:00",
+      "description": "Transformers compute outputs with scaled dot-product self-attention and use multi-head attention to attend to different subspaces in parallel. Later work adds relative/rotary position encodings, memory and kNN stores, and adaptive attention spans so models can use much longer context. Other variants use sparse patterns, LSH, or low-rank approximations to cut quadratic cost and make Transformers faster and more scalable.",
+      "tags": [
+        "cs/ai",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kem4348jnazvrcqee838ng3w",
+      "title": "The Q, K, V Matrices",
+      "url": "https://arpitbhayani.me/blogs/qkv-matrices/",
+      "savedAt": "2026-01-10T14:13:47.922000+00:00",
+      "description": "Q, K, and V are three matrices that let a transformer decide which words matter to each other.  \nQueries ask what to look for, keys show what each word offers, and values hold the information passed forward.  \nTogether they compute attention scores so the model focuses on useful words in parallel.",
+      "tags": [
+        "cs/ai",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kem42c6zx2mrza41ww47nh5p",
+      "title": "One Regulation E, Two Very Different Regimes",
+      "url": "https://www.bitsaboutmoney.com/archive/regulation-e/",
+      "savedAt": "2026-01-10T14:13:23.295000+00:00",
+      "description": "Regulation E requires banks to protect consumers from unauthorized electronic payments and to investigate and provisionally credit disputed transactions. Banks built fast-payment tools like Zelle but find Reg E’s strict, bank‑funded anti‑fraud rules costly and have tried to limit their liability. If a payment product acts like a bank account, regulators will likely treat it as covered by Reg E regardless of the technology.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01kef2fs4rz0cq48vdg044tez4",
+      "title": "Artificial Analysis: The Independent Ratings Agency of AI — with George Cameron and Micah-Hill Smith",
+      "url": "https://www.latent.space/p/artificialanalysis",
+      "savedAt": "2026-01-08T15:09:30.208000+00:00",
+      "description": "In our first episode of 2026, swyx sits down with the cofounders of Artificial Analysis to discuss the state of LLM Evals and Benchmarks, and the key trends and drivers of LLM progress for the year.",
+      "tags": []
+    },
+    {
+      "id": "01keedn4y8g6jbtgp1vwk0rhw7",
+      "title": "Essentials: Optimizing Workspace for Productivity, Focus & Creativity",
+      "url": "https://www.hubermanlab.com/episode/essentials-optimizing-workspace-for-productivity-focus-and-creativity",
+      "savedAt": "2026-01-08T09:05:26.033000+00:00",
+      "description": "This episode explains how to set up your workspace to boost focus, creativity, and productivity. It covers lighting, desk arrangement, sounds, and breaks to help you work better. These tips work well at home, the office, or anywhere you work.",
+      "tags": []
+    },
+    {
+      "id": "01kecy7mfdx31ak0arxer3awpx",
+      "title": "Try to Take My Position: The Best Promotion Advice I Ever Got",
+      "url": "https://andrew.grahamyooll.com/blog/Try-to-Take-My-Position/",
+      "savedAt": "2026-01-07T19:16:43.117000+00:00",
+      "description": "To get promoted, start doing the job you want before you have the title. Show you can handle the responsibility consistently for at least six months. Think about team problems and bring solutions, not just complaints.",
+      "tags": [
+        "career"
+      ]
+    },
+    {
+      "id": "01keaa938w9fww5cnng01aapw8",
+      "title": "Are Database System Researchers Making Correct Assumptions about Transaction Workloads?",
+      "url": "https://muratbuffalo.blogspot.com/2026/01/are-database-system-researchers-making.html",
+      "savedAt": "2026-01-06T18:49:30.652000+00:00",
+      "description": "This study analyzed many web applications and found most transactions are simple and predictable, supporting some assumptions made by deterministic database researchers. However, the research mainly looked at open-source apps and ignored complex, interactive transactions common in enterprise systems. While converting interactive transactions to simpler forms seems promising, the actual effort needed may be higher than the paper suggests.",
+      "tags": [
+        "cs/database"
+      ]
+    },
+    {
+      "id": "01ke89499k7vzn4er41xy3a824",
+      "title": "Cursed circuits #4: PLL frequency multiplier",
+      "url": "https://lcamtuf.substack.com/p/cursed-circuits-4-pll-frequency-multiplier",
+      "savedAt": "2026-01-05T23:50:55.539000+00:00",
+      "description": "A phase-locked loop (PLL) uses a phase detector and a voltage-controlled oscillator (VCO) to make an output clock match a reference clock. Adding a frequency divider in the feedback path forces the VCO to run at an integer multiple of the reference, creating a clock multiplier. The article explains this with simple latch and flip-flop building blocks.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01ke893rvn3gtpptr7mgp6t57j",
+      "title": "struggling towards an algebraic theory of music.",
+      "url": "https://reasonablypolymorphic.com/blog/more-algebraic-music/index.html",
+      "savedAt": "2026-01-05T23:50:38.709000+00:00",
+      "description": "The author models a single musical voice as a step function and builds rich applicative and monoidal operations on it. They lift voices into multi-voice Music by assigning a Voice to each part, gaining parallel, pointwise, and sequential composition for free. They extend this with a hierarchical T algebra for smooth harmonic transformations, key/chord changes, and contouring to generate structured musical material.",
+      "tags": [
+        "cs",
+        "music",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01ke893b6nj0hqx51ewe7qrqv6",
+      "title": "which programming resource changed your career?",
+      "url": "https://lobste.rs/s/eulydi/which_programming_resource_changed_your",
+      "savedAt": "2026-01-05T23:50:24.725000+00:00",
+      "description": "Haskell Programming from First Principles taught me Haskell and launched my career. The Art of Unix Programming shaped my taste for small, composable tools and open standards. Refactoring and Crafting Interpreters taught practical code transformation and craftsmanship.",
+      "tags": []
+    },
+    {
+      "id": "01ke891501z7s3wsdhaf9ajn0n",
+      "title": "Dot Com Press",
+      "url": "https://www.dotcom.press/history-of-domains",
+      "savedAt": "2026-01-05T23:49:12.833000+00:00",
+      "description": "There were six original top-level domains: .com, .org, .net, .edu, .gov, and .mil.  \nThey were defined in RFC 920 in October 1984 and went live in 1985.  \nJon Postel helped create these domains, which existed before the World Wide Web.",
+      "tags": [
+        "for-later",
+        "computer-history"
+      ]
+    },
+    {
+      "id": "01ke890xbwhv5b5fg5e4cx96jc",
+      "title": "Proving liveness with TLA",
+      "url": "https://roscidus.com/blog/blog/2026/01/01/tla-liveness/",
+      "savedAt": "2026-01-05T23:49:05.020000+00:00",
+      "description": "The author revisits a liveness proof in TLA+ because newer TLAPS supports temporal logic. They show practical proof patterns and work-arounds for TLAPS limitations and bugs. The examples prove invariants and liveness properties while explaining gotchas and fixes.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01ke890ksyw795jrg6qhb04rn5",
+      "title": "Accounting for Computer Scientists",
+      "url": "https://martin.kleppmann.com/2011/03/07/accounting-for-computer-scientists.html",
+      "savedAt": "2026-01-05T23:48:55.230000+00:00",
+      "description": "Accounting is a graph: accounts are nodes and transactions are edges.  \nEach account’s balance is the sum of its incoming and outgoing transactions, so all balances sum to zero.  \nProfit & loss lists revenue and expenses; the balance sheet groups assets, liabilities, and equity derived from the graph.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01ke88ydwa3dsy6x2ghenrhted",
+      "title": "Functors, Applicatives, and Monads: The Scary Words You Already Understand",
+      "url": "https://cekrem.github.io/posts/functors-applicatives-monads-elm/",
+      "savedAt": "2026-01-05T23:47:43.626000+00:00",
+      "description": "Functors, Applicatives, and Monads are just practical patterns for working with wrapped values (like Maybe or Promise).  \nFunctor = map a function over a wrapped value; Applicative = apply a wrapped function to wrapped values; Monad = chain functions that return wrapped values.  \nElm hides the scary names and gives simple functions (map, map2/map3, andThen) so you can use these ideas without the jargon.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01ke889k6whw3f76nykptwva0n",
+      "title": "Notes on the expression problem and type design",
+      "url": "https://www.tedinski.com/2018/03/06/more-on-the-expression-problem.html",
+      "savedAt": "2026-01-05T23:36:20.955000+00:00",
+      "description": "The expression problem explores making types open for new variants and operations without causing issues for existing users. It's a fundamental design choice when modeling objects and data types in programming. Type classes and languages like Haskell offer solutions for open extensibility in type design.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01ke888q856e4g8twdg0rhzev3",
+      "title": "The Saddest Moment",
+      "url": "https://www.usenix.org/system/files/login-logout_1305_mickens.pdf",
+      "savedAt": "2026-01-05T23:35:52.323000+00:00",
+      "description": null,
+      "tags": []
+    },
+    {
+      "id": "01ke888dnejc2d8zb8nc7zv1qp",
+      "title": "Chad Nauseam Home",
+      "url": "https://chadnauseam.com/coding/random/calculator-app",
+      "savedAt": "2026-01-05T23:35:42.510000+00:00",
+      "description": "A calculator must give correct answers, but floating point fails and whole-number bignums and rationals are not enough.  \nBoehm built layers: bignums, rationals, algebraic numbers, then recursive real arithmetic (RRA) to get arbitrary precision.  \nTo stay fast and give exact results when possible, they combine symbolic forms with RRA only when needed.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01ke88868xkq8kp3drer35y727",
+      "title": "Cardiovascular disease is a solved problem",
+      "url": "https://totalhealthoptimization.com/2025/09/27/cardiovascular-disease-is-a-solved-problem/",
+      "savedAt": "2026-01-05T23:35:34.941000+00:00",
+      "description": "Cardiovascular disease is driven by lifetime exposure to circulating LDL cholesterol.  \nLowering LDL with safe drugs can reduce that lifetime exposure enough to essentially prevent cardiovascular disease.  \nStarting early preventive LDL-lowering therapy could eliminate most future heart and blood vessel disease.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01ke887vsrxqj8nfwnnfm19qmw",
+      "title": "A Practical guide to building a parser in Go",
+      "url": "https://gagor.pro/2026/01/a-practical-guide-to-building-a-parser-in-go/",
+      "savedAt": "2026-01-05T23:35:24.216000+00:00",
+      "description": "Tom built a parser in Go by splitting the work into three parts: Lexer, Parser, and AST Builder. He solved left recursion and performance issues using a Packrat-style memoized approach. The result is a robust parser that handles complex grammars and produces ASTs.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01ke886jn4fqr2jffmghszccbs",
+      "title": "Databases in 2025: A Year in Review",
+      "url": "https://www.cs.cmu.edu/~pavlo/blog/2026/01/2025-databases-retrospective.html",
+      "savedAt": "2026-01-05T23:34:42.084000+00:00",
+      "description": "In 2025 PostgreSQL dominated the database world, driving most major product releases, startups, and acquisitions. Big tech and cloud providers launched or expanded PostgreSQL DBaaS offerings, fueling a wave of purchases and competition. The industry saw large M&A moves and growing interest in specialized systems, with more PostgreSQL-led innovation expected.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01ke886ddtc8se4648k70c3g8r",
+      "title": "A Basic Just-In-Time Compiler",
+      "url": "https://nullprogram.com/blog/2015/03/19/",
+      "savedAt": "2026-01-05T23:34:36.729000+00:00",
+      "description": "Chris Wellons created a simple Just-In-Time (JIT) compiler to evaluate recurrence relations, allowing the program to compute terms efficiently. The JIT compiler generates native machine code from operations like addition and multiplication, rather than interpreting them one by one. This approach enhances performance and leverages direct hardware capabilities to execute the generated code.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01ke8866pxryrz764hsmkemf1b",
+      "title": "Software Acceleration and Desynchronization",
+      "url": "https://ferd.ca/software-acceleration-and-desynchronization.html",
+      "savedAt": "2026-01-05T23:34:29.853000+00:00",
+      "description": "Speeding up software work means tightening feedback loops so problems are fixed as they are created.  \nBut when teams speed some loops and not others, desynchronization happens and important feedback is lost.  \nTo avoid drift and incidents, align the pace of short cycles (coding) with long cycles (platform, norms).",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01ke876cktns8c5a2sjdemh7py",
+      "title": "Understanding the bin, sbin, usr/bin , usr/sbin split",
+      "url": "https://lists.busybox.net/pipermail/busybox/2010-December/074114.html",
+      "savedAt": "2026-01-05T23:17:07.322000+00:00",
+      "description": "Unix originally split directories like /bin and /usr/bin because early systems ran out of space and mounted a second disk as /usr.  \nThat historical disk-layout rule became obsolete with modern boot systems, shared libraries, and large disks.  \nBusyBox and distributions still follow the old layout for historical reasons, not technical necessity.",
+      "tags": [
+        "computer-history"
+      ]
+    },
+    {
+      "id": "01ke85s3mgw41resv85zsvfgz8",
+      "title": "Maybe Comments SHOULD Explain 'What'",
+      "url": "https://www.hillelwayne.com/post/what-comments/",
+      "savedAt": "2026-01-05T22:52:23.568000+00:00",
+      "description": "Comments can explain both \"why\" and \"what\" to help avoid confusion and reduce context switching when reading code. Clear code is best, but sometimes short \"what\" comments make understanding easier without jumping between methods. Keeping explanations close to the code is better than hiding them in commits or spreading them out.",
+      "tags": [
+        "cs"
+      ]
+    },
+    {
+      "id": "01ke85f4rdz9fdepfrs4p0ssd6",
+      "title": "A field guide to sandboxes for AI",
+      "url": "https://www.luiscardoso.dev/blog/sandboxes-for-ai",
+      "savedAt": "2026-01-05T22:46:57.037000+00:00",
+      "description": "AI sandboxes use different layers to isolate code, from containers sharing the host kernel to microVMs with guest kernels and runtime sandboxes like Wasm with no syscall ABI. Containers rely on the host kernel, which can be risky if kernel bugs exist, so stronger boundaries like gVisor or microVMs improve security by limiting direct kernel access. Choosing the right sandbox depends on trust level, compatibility needs, and workload type to balance safety and functionality.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01ke7cf088t8xws668qy00rjsa",
+      "title": "21 Lessons From 14 Years at Google",
+      "url": "https://addyosmani.com/blog/21-lessons/",
+      "savedAt": "2026-01-05T15:29:58.024000+00:00",
+      "description": "Great engineers solve real user problems and focus on understanding those problems deeply.  \nClarity, alignment, and making work legible matter more than clever code.  \nLearn by doing, write to explain, and trade short-term pride for long-term collaboration.",
+      "tags": [
+        "career"
+      ]
+    },
+    {
+      "id": "01ke6pghqfk3fcyfbr0m9r4qzq",
+      "title": "Best Ways to Build Better Habits & Break Bad Ones | James Clear",
+      "url": "https://www.hubermanlab.com/episode/best-ways-to-build-better-habits-and-break-bad-ones-james-clear",
+      "savedAt": "2026-01-05T09:06:17.016000+00:00",
+      "description": "James Clear explains how building habits tied to your identity and environment helps change stick without relying on willpower. He shares simple, no-cost tools to create good habits and break bad ones. These methods improve health, productivity, and mental well-being.",
+      "tags": []
+    },
+    {
+      "id": "01ke53nmtwx05cwyqates2wjte",
+      "title": "Quick And Easy GPU Random Numbers In D3D11",
+      "url": "https://www.reedbeta.com/blog/quick-and-easy-gpu-random-numbers-in-d3d11/",
+      "savedAt": "2026-01-04T18:17:49.660000+00:00",
+      "description": "Generating random numbers on GPUs for games can use simple methods like LCG or Xorshift, which are fast but have limits. To improve randomness across many threads, seeding with a hash like the Wang hash helps reduce patterns. For best results today, newer methods like PCG are recommended over older ones like Xorshift.",
+      "tags": [
+        "hardware",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01ke53m4e7g6rvxxeycq7d7kp7",
+      "title": "Neural Networks: Zero to Hero",
+      "url": "https://karpathy.ai/zero-to-hero.html",
+      "savedAt": "2026-01-04T18:17:00.103000+00:00",
+      "description": "A hands-on course by Andrej Karpathy teaches neural networks from backprop to modern Transformers like GPT. It builds models in code, explains training, diagnostics, and practical tools like tokenizers. Prior Python and basic calculus help, and the course focuses on language models as a clear path to learn deep learning.",
+      "tags": [
+        "cs/ai",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01ke4we5x7fqjmfr8kj6qmzt7f",
+      "title": "Who Owns the Memory? Part 1: What is an Object?",
+      "url": "https://lukefleed.xyz/posts/who-owns-the-memory-pt1/",
+      "savedAt": "2026-01-04T16:11:24.967000+00:00",
+      "description": "Compilers use rules about object lifetimes and memory to optimize code safely. Different languages like C, C++, and Rust handle memory and object ownership with varying constraints to prevent errors like dangling pointers. These rules help the compiler assume what can or cannot happen, enabling better performance and safety.",
+      "tags": [
+        "cs",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01ke3adgg9k6gfddk7arv8083b",
+      "title": "Take One Small Step",
+      "url": "https://thinkhuman.com/take-one-small-step/",
+      "savedAt": "2026-01-04T01:37:14.249000+00:00",
+      "description": "Pick the tiniest possible first step toward your goal.  \nTiny steps avoid stress and make action easier.  \nRepeat them often and you will make real progress.",
+      "tags": [
+        "self-improvement"
+      ]
+    },
     {
       "id": "01kdy1b4cez4qnzsg02cfaxjfa",
       "title": "Reasons to Love the Field of Programming Languages",
