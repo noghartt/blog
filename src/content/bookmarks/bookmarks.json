@@ -1,6 +1,22 @@
 {
-  "lastUpdate": "2026-01-12T00:12:47.230Z",
+  "lastUpdate": "2026-01-17T00:12:46.607Z",
   "data": [
+    {
+      "id": "01kf0ejkjfwa51w3h9wtajm09j",
+      "title": "Essentials: Tools to Boost Attention & Memory | Dr. Wendy Suzuki",
+      "url": "https://www.hubermanlab.com/episode/essentials-tools-to-boost-attention-and-memory-wendy-suzuki",
+      "savedAt": "2026-01-15T09:07:51.063000+00:00",
+      "description": "Dr. Wendy Suzuki explains how exercise improves focus, memory, and brain health both immediately and over time. She also highlights benefits of meditation, sleep, and affirmations for mood and stress. Simple daily habits can boost cognitive performance and well-being.",
+      "tags": []
+    },
+    {
+      "id": "01kerq9vvsfjgg9memaqrx4mw0",
+      "title": "How to Overcome Addiction to Substances or Behaviors | Dr. Keith Humphreys",
+      "url": "https://www.hubermanlab.com/episode/how-to-overcome-addiction-to-substances-or-behaviors-keith-humphreys",
+      "savedAt": "2026-01-12T09:06:26.370000+00:00",
+      "description": "Dr. Keith Humphreys is a professor of psychiatry and behavioral sciences at Stanford School of Medicine and a leading expert on treating addictions, drug laws and policy. We discuss all the major addictive substances and behaviors, including alcohol, opioids, gambling, stimulants, nicotine, cannabis and more, focusing on how genetics and certain use patterns shape addiction susceptibility. We discuss the best evidence-based tools for recovery, from 12-step programs to emerging treatments such as psychedelics and ibogaine. Anyone interested in making better choices for their health and/or seeking to avoid or overcome addictions ought to benefit from this episode.\n\nRead the episode show notes at hubermanlab.com.\n\nThank you to our sponsors\n\nAG1: https://drinkag1.com/huberman\n\nDavid: https://davidprotein.com/huberman\n\nBetterHelp: https://betterhelp.com/huberman\n\nHelix Sleep: https://helixsleep.com/huberman\n\nLMNT: https://drinklmnt.com/huberman\n\nTimestamps\n\n(00:00:58) Keith Humphreys\n\n(00:03:22) Addiction; Genetic Risk\n\n(00:09:14) Alcohol Use Disorder & Alcoholism; Genetic Predisposition & Addiction Risk\n\n(00:18:03) Sponsors: David & BetterHelp\n\n(00:20:37) Women & Alcohol Use; Young Adults; Cannabis Use\n\n(00:23:36) Health Benefit to Alcohol?, Red Wine, Cancer Risk; Social Pressure\n\n(00:31:47) Alcohol in Social Gatherings, Social Anxiety, Vulnerability, Work & Dates\n\n(00:37:41) Old vs New Cannabis & THC Levels; Smoked vs Edible Forms\n\n(00:44:38) Cannabis & Psychosis Risk; Cardiac Health; Youth Cannabis Use & Transition to Adulthood \n\n(00:52:29) Sponsor: AG1\n\n(00:54:13) Industries of Addiction, Regulation; Gambling, Slot Machines, Novelty; Casinos\n\n(01:05:28) Decriminalization vs Legalization; Cannabis, Gateway Drug?\n\n(01:08:50) Psylocibin or LSD, Addiction Treatment; Microdosing, Clinical Trial Challenges\n\n(01:18:58) Sponsor: Helix Sleep\n\n(01:20:32) Brain Plasticity & Age; Ketamine, Depression, Transcranial Magnetic Stimulation (TMS)\n\n(01:28:10) SSRIs, Mass Shootings, ...",
+      "tags": []
+    },
     {
       "id": "01kenr69b0t2ept39f4ewjp5kf",
       "title": "Compiler Engineering In Practice - Part 2: Why is a compiler?",
@@ -296,7 +312,9 @@
       "savedAt": "2026-01-05T23:34:29.853000+00:00",
       "description": "Speeding up software work means tightening feedback loops so problems are fixed as they are created.  \nBut when teams speed some loops and not others, desynchronization happens and important feedback is lost.  \nTo avoid drift and incidents, align the pace of short cycles (coding) with long cycles (platform, norms).",
       "tags": [
-        "for-later"
+        "career",
+        "business",
+        "engineering"
       ]
     },
     {
