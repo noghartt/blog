@@ -1,6 +1,67 @@
 {
-  "lastUpdate": "2026-01-17T00:12:46.607Z",
+  "lastUpdate": "2026-01-29T00:14:01.514Z",
   "data": [
+    {
+      "id": "01kg2y1zr8e6qwqqvr6xvxqy63",
+      "title": "The creator of Clawd: \"I ship code I don't read\"",
+      "url": "https://newsletter.pragmaticengineer.com/p/the-creator-of-clawd-i-ship-code",
+      "savedAt": "2026-01-28T18:32:34.385000+00:00",
+      "description": "Peter Steinberger builds software using AI agents that write and verify code themselves, enabling him to work like a full team alone. He focuses on planning, architecture, and letting AI handle implementation details, which speeds up development. His project Moltbot (formerly Clawdbot) became popular by embracing rapid, experimental workflows powered by AI.",
+      "tags": []
+    },
+    {
+      "id": "01kfwrj5434f3y0wcrm7146hk1",
+      "title": "Science & Tools of Learning & Memory | Dr. David Eagleman",
+      "url": "https://www.hubermanlab.com/episode/science-and-tools-of-learning-and-memory-david-eagleman",
+      "savedAt": "2026-01-26T09:01:06.124000+00:00",
+      "description": "Dr. David Eagleman explains how the brain changes to help us learn and remember better. He talks about how time feels different depending on age and emotions. The episode also covers dreams, memory errors, and how to reduce social and political divides.",
+      "tags": []
+    },
+    {
+      "id": "01kfjzcxsg3ddnv6c290nr7vms",
+      "title": "Linux From Scratch",
+      "url": "https://www.linuxfromscratch.org/lfs/view/stable/",
+      "savedAt": "2026-01-22T13:48:13.488000+00:00",
+      "description": null,
+      "tags": [
+        "os/linux"
+      ]
+    },
+    {
+      "id": "01kfjf1nxd8wtxbwbn5nwxktda",
+      "title": "Essentials: Therapy, Treating Trauma & Other Life Challenges | Dr. Paul Conti",
+      "url": "https://www.hubermanlab.com/episode/essentials-therapy-treating-trauma-and-other-life-challenges-paul-conti",
+      "savedAt": "2026-01-22T09:02:24.757000+00:00",
+      "description": "Dr. Paul Conti explains how trauma affects the mind and body and why healing it is important. He shares tips on finding a good therapist and how therapy helps recovery. The episode also talks about using psychedelics like MDMA to support trauma treatment.",
+      "tags": []
+    },
+    {
+      "id": "01kfgwfr7gxc06fgxf96fz60tj",
+      "title": "How AWS S3 is built",
+      "url": "https://newsletter.pragmaticengineer.com/p/how-aws-s3-is-built",
+      "savedAt": "2026-01-21T18:18:48.505000+00:00",
+      "description": "Amazon S3 is a massive storage system built for extreme scale, durability, and correctness. It uses advanced techniques like formal methods and strong consistency to ensure reliability despite constant failures. The system manages complexity through many focused microservices and designs scale to improve performance and availability.",
+      "tags": []
+    },
+    {
+      "id": "01kfaqy65ctc51t9yhrnher3nq",
+      "title": "Build Muscle & Strength & Forge Your Life Path | Dorian Yates",
+      "url": "https://www.hubermanlab.com/episode/build-muscle-and-strength-and-forge-your-life-path-dorian-yates",
+      "savedAt": "2026-01-19T09:03:52.052000+00:00",
+      "description": "Dorian Yates shares how training with weights just two or three times a week can build muscle and improve fitness. He talks about finding your strengths and choosing the right life path. He also discusses his journey, health, psychedelics, and tips for all ages.",
+      "tags": []
+    },
+    {
+      "id": "01kf9g7rt95qyaz8mhq97hm4me",
+      "title": "The Surprisingly Long Life of the Vacuum Tube",
+      "url": "https://www.construction-physics.com/p/the-surprisingly-long-life-of-the",
+      "savedAt": "2026-01-18T21:30:06.025000+00:00",
+      "description": "Vacuum tubes were important electron devices used in early radios, TVs, and computers before transistors existed. They helped create many technologies like X-rays, microwaves, and electronic displays. Even today, vacuum tubes influence science and technology in many ways.",
+      "tags": [
+        "science",
+        "engineering"
+      ]
+    },
     {
       "id": "01kf0ejkjfwa51w3h9wtajm09j",
       "title": "Essentials: Tools to Boost Attention & Memory | Dr. Wendy Suzuki",
