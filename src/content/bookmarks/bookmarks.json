@@ -1,6 +1,488 @@
 {
-  "lastUpdate": "2026-01-17T00:12:46.607Z",
+  "lastUpdate": "2026-03-23T00:18:02.243Z",
   "data": [
+    {
+      "id": "01kmbj9ptdygf06m7jwsdhkfbr",
+      "title": "My heuristics are wrong. What now?",
+      "url": "https://brooker.co.za/blog/2026/03/20/ic-leadership.html?__readwiseLocation=",
+      "savedAt": "2026-03-22T20:03:04.652000+00:00",
+      "description": "Many old software rules no longer work because technology has changed a lot. Good tech leaders must accept this, stay curious, and keep learning by building and experimenting. This way, they stay valuable and help their teams succeed.",
+      "tags": [
+        "career"
+      ]
+    },
+    {
+      "id": "01kmb988s9c7vxs3r9yj8j8a1w",
+      "title": "Why Some People Have Endless Energy (And Others Never Will)",
+      "url": "https://desmolysium.com/why-some-people-have-endless-energy-and-others-never-will/?utm_source=rss&utm_medium=rss&utm_campaign=why-some-people-have-endless-energy-and-others-never-will&__readwiseLocation=",
+      "savedAt": "2026-03-22T17:25:00.329000+00:00",
+      "description": "Genetics play a major role in determining a person's energy, mood, and motivation. Even with perfect lifestyle choices, some people have limits set by their genes. Lifestyle and treatments help, but they cannot fully overcome genetic differences in vitality.",
+      "tags": []
+    },
+    {
+      "id": "01km6h5p1db9c6r9fr240g8ab2",
+      "title": "Dreamer: the Personal Agent OS — David Singleton",
+      "url": "https://www.latent.space/p/dreamer",
+      "savedAt": "2026-03-20T21:07:09.045000+00:00",
+      "description": "/dev/agents is out of stealth as Dreamer, and the vision is staggeringly ambitious. $10,000 prizes for new tools and Special access for Latent Space subscribers!",
+      "tags": []
+    },
+    {
+      "id": "01km2jmaq5bwnbdtch6x9bsttv",
+      "title": "Essentials: Tools for Setting & Achieving Goals | Dr. Emily Balcetis",
+      "url": "https://www.hubermanlab.com/episode/essentials-tools-for-setting-and-achieving-goals-emily-balcetis",
+      "savedAt": "2026-03-19T08:15:39.821000+00:00",
+      "description": "In this Huberman Lab Essentials episode, my guest is Dr. Emily Balcetis, PhD, a professor of psychology at New York University who studies how visual perception influences motivation and goal pursuit. She explains how to better visualize and overcome challenges to achieve physical or cognitive goals. We also explore the science of setting goals, measuring progress effectively and research showing how fitness level and energy state can shape how difficult the world appears.\n\nRead the episode show notes at hubermanlab.com.\n\nThank you to our sponsors\n\nAG1: https://drinkag1.com/huberman\n\nEight Sleep: https://eightsleep.com/huberman\n\nBetterHelp: https://betterhelp.com/huberman\n\nTimestamps\n\n(00:00:00) Emily Balcetis\n\n(00:00:21) Adjusting Vision to Meet Goals, Exercise, Tool: Narrow Visual Target\n\n(00:07:39) Sponsor: Eight Sleep\n\n(00:08:57) Goal Setting, Do Vision Boards Work?\n\n(00:12:34) Tool: Effectively Plan Goals, Plan for Obstacles\n\n(00:17:58) Sponsor: AG1\n\n(00:19:23) How Fitness Shapes the Way People See the World\n\n(00:24:46) Visual Spotlight, Exercise & Physical Fitness Level\n\n(00:25:45) Stimulants & Motivation\n\n(00:27:06) Sponsor: BetterHelp\n\n(00:28:20) Cognitive Goals, Tools: Overcoming Bad Memories; Deadlines\n\n(00:35:31) Acknowledgements\n\nDisclaimer & Disclosures\nLearn more about your ad choices. Visit megaphone.fm/adchoices",
+      "tags": []
+    },
+    {
+      "id": "01km0zjbdyqag5kf0fhz3wjpzd",
+      "title": "Building WhatsApp with Jean Lee",
+      "url": "https://newsletter.pragmaticengineer.com/p/building-whatsapp-with-jean-lee",
+      "savedAt": "2026-03-18T17:23:17.638000+00:00",
+      "description": "Jean Lee, engineer #19 at WhatsApp, on scaling the app with a tiny team, the Facebook acquisition, and what it reveals about the future of engineering.",
+      "tags": []
+    },
+    {
+      "id": "01kkywhj0jse9cbvtx7yypkg33",
+      "title": "Why Anthropic Thinks AI Should Have Its Own Computer — Felix Rieseberg of Claude Cowork & Claude Code Desktop",
+      "url": "https://www.latent.space/p/felix-anthropic",
+      "savedAt": "2026-03-17T21:51:57.018000+00:00",
+      "description": "Anthropic thinks AI should have its own computer to better manage knowledge work and coding tasks safely. They focus on cloud integration and seamless tools like Claude Cowork and Claude Code to help users work efficiently. Trust and security are key for people to adopt AI-powered workflows in everyday apps.",
+      "tags": []
+    },
+    {
+      "id": "01kkyh7h38134x6wn0wm9yb2cb",
+      "title": "Felix is currently in Vienna, AT",
+      "url": "https://howisfelix.today/?",
+      "savedAt": "2026-03-17T18:34:17.064000+00:00",
+      "description": "For three years I recorded 100+ daily life metrics in one self‑hosted database and made public visualizations.  \nI built the system myself, open source, to keep control and protect my privacy.  \nIt gave some insights but cost hundreds of hours, so I’ll keep only a few key metrics and cut back.",
+      "tags": [
+        "life"
+      ]
+    },
+    {
+      "id": "01kkttqk2fd54ykrjjn7x1h4bn",
+      "title": "Science-Based Meditation Tools to Improve Your Brain & Health | Dr. Richard Davidson",
+      "url": "https://www.hubermanlab.com/episode/science-based-meditation-tools-to-improve-your-brain-and-health-richard-davidson",
+      "savedAt": "2026-03-16T08:03:19.831000+00:00",
+      "description": "Dr. Richard Davidson, PhD, is a professor of psychology and psychiatry at the University of Wisconsin–Madison and a pioneer in the scientific study of meditation. We discuss how meditation changes your brain and body, how just 5 minutes daily can improve focus, stress resilience and your overall health, and we cover different types of meditation. We also address common myths such as the idea that meditation is to \"clear your mind.\" And we discuss common challenges with meditation and how to overcome them. This episode offers both the science and the practical tools to build a consistent meditation practice to improve your mental and physical health and help you flourish.\n\nThe episode show notes are available at hubermanlab.com.\n\nThank you to our sponsors\n\nAG1: https://drinkag1.com/huberman\n\nDavid: https://davidprotein.com/huberman\n\nEight Sleep: https://eightsleep.com/huberman\n\nJoovv: https://joovv.com/huberman\n\nWaking Up: https://wakingup.com/huberman\n\nTimestamps\n\n(00:00:00) Richard \"Richie\" Davidson\n\n(00:03:33) States of Mind vs Traits\n\n(00:09:06) Wakeful Brain Activity vs Deep Sleep\n\n(00:11:55) Sponsors: David & Eight Sleep\n\n(00:14:31) Brain Activity Across Sleep, Wakefulness, Meditation & Insight\n\n(00:19:27) Mediation & Sleep Compensation?; Meditation Timing & Liminal States\n\n(00:23:05) Types of Mediation, Shifting from Thinking to Being\n\n(00:28:32) Self-Monitoring, Undistracted Non-Mediation, \"Stickiness\"\n\n(00:35:30) Tool: Beginning Daily Meditation, \"Richie's 5 Meditation\"; Health Benefits\n\n(00:39:39) Meditation Practice History, Kindness & Nurturing Goodness\n\n(00:45:07) Sponsor: AG1\n\n(00:46:31) Beginners, Expect Chaos in Mind, Exercise & Lactate Analogy\n\n(00:52:47) Tool: Beginning Mediation, Embrace Anxiety; Meta-Awareness, Flow\n\n(00:57:51) Creativity; Capturing Thoughts, Unconscious Mind\n\n(01:03:03) Meditation for Kids; Flourishing, Tool: Parent & Teacher Meditation\n\n(01:10:12) Sponsor: Joovv\n\n(01:11:34) Beyond Stimulus & Response\n\n(01:14:22) Meditation Ne...",
+      "tags": []
+    },
+    {
+      "id": "01kkry4b58m6fvdpemmhg27a76",
+      "title": "Will the Training of Junior Engineers Be a Tragedy of the Commons?",
+      "url": "https://emptysqua.re/blog/junior-engineers-tragedy-of-the-commons/",
+      "savedAt": "2026-03-15T14:24:17.576000+00:00",
+      "description": "Junior engineers have traditionally learned on the job by working closely with seniors, but remote work and AI are threatening this training process. Companies may stop hiring juniors and rely on AI, risking a future shortage of skilled senior engineers. Possible solutions include longer training contracts or government taxes to encourage junior engineer development.",
+      "tags": [
+        "career"
+      ]
+    },
+    {
+      "id": "01kkrs58bd2yyevjr8c2e8hn07",
+      "title": "Simulating Queueing",
+      "url": "https://buttondown.com/jaffray/archive/simulating-queueing/",
+      "savedAt": "2026-03-15T12:57:24.589000+00:00",
+      "description": "The author explores different ways to balance client requests in a queue to prevent one noisy client from dominating. They show that choosing two queues and reshuffling assignments over time improves fairness. Simulating these methods helps build intuition about how queueing algorithms work.",
+      "tags": []
+    },
+    {
+      "id": "01kkrrkfabf7te5f9x6s9x967p",
+      "title": "There was a comment on Hacker News that took this seriously, but of course, it’s a joke. To be clear, I have no intention of having any commercial ties to this. Regardless, you can imagine the kind of requests I get on a daily basis.",
+      "url": "https://www.interdb.jp/pg/",
+      "savedAt": "2026-03-15T12:47:41.899000+00:00",
+      "description": "The author shares their content freely for educational and noncommercial use with credit. They have no plans for commercial ties and ask for permission or revenue sharing for business use. The author prefers to keep control over their work and does not use common formats like PDF or RSS.",
+      "tags": [
+        "cs/database"
+      ]
+    },
+    {
+      "id": "01kkj4d19k12xm0e0wqjdgxzz2",
+      "title": "Retrieval After RAG: Hybrid Search, Agents, and Database Design — Simon Hørup Eskildsen of Turbopuffer",
+      "url": "https://www.latent.space/p/turbopuffer",
+      "savedAt": "2026-03-12T22:59:09.820000+00:00",
+      "description": "Turbopuffer came out of a reading app.",
+      "tags": []
+    },
+    {
+      "id": "01kkght7k8n88hydrb7cvjdksd",
+      "title": "Essentials: Benefits of Sauna & Deliberate Heat Exposure",
+      "url": "https://www.hubermanlab.com/episode/essentials-benefits-of-sauna-and-deliberate-heat-exposure",
+      "savedAt": "2026-03-12T08:15:04.880000+00:00",
+      "description": "In this Huberman Lab Essentials episode, I discuss the mechanisms through which deliberate heat exposure enhances both physical and mental health.\n\nI outline specific protocols for deliberate heat exposure, including recommended temperature ranges, frequency, timing, duration and sauna alternatives. In addition, I explain how to tailor your heat protocols to support your specific goals, such as increasing growth hormone, reducing cortisol or supporting cognitive health.\n\nRead the show notes at hubermanlab.com.\n\nThank you to our sponsors\n\nAG1: https://drinkag1.com/huberman\n\nLMNT: https://drinklmnt.com/huberman\n\nEight Sleep: https://eightsleep.com/huberman\n\nTimestamps\n\n(00:00:00) Heat Exposure\n\n(00:00:47) Shell vs Core Temperature; Heat Caution & Hyperthermia\n\n(00:02:24) Body & Brain Circuit to Heat Up & Cool Down\n\n(00:05:31) Sponsor: AG1\n\n(00:06:55) Deliberate Heat Exposure & Health Benefits; Tool: Sauna Temperature Range, Duration, Frequency\n\n(00:112:09) Sauna Types, Alternatives to Sauna\n\n(00:13:50) Sauna Mechanism; Reduced Cortisol; Tool: Hot/Cold Contrast\n\n(00:17:38) Sponsor: LMNT\n\n(00:19:10) Heat Shock Protein Activation & Sauna\n\n(00:20:50) DNA Repair, FOXO3 & Sauna, Cognition & Health Benefits\n\n(00:24:21) Sauna & Increase Growth Hormone\n\n(00:30:18) Sponsor: Eight Sleep\n\n(00:31:36) Sauna Timing, Sleep & Growth Hormone, Tools: Fasting; Hydration\n\n(00:34:56) Improve Mood, Endorphins & Sauna; Dynorphins\n\n(00:40:04) Recap Sauna Protocols: Benefits, Frequency, Duration & Timing\n\nDisclaimer & Disclosures\nLearn more about your ad choices. Visit megaphone.fm/adchoices",
+      "tags": []
+    },
+    {
+      "id": "01kkfk5991g6ttc2251cwhepq1",
+      "title": "SFQ: Simple, Stateless, Stochastic Fairness",
+      "url": "https://brooker.co.za/blog/2026/02/25/sfq.html?utm_source=jaffray&utm_medium=email&utm_campaign=simulating-queueing",
+      "savedAt": "2026-03-11T23:19:24.193000+00:00",
+      "description": "Stochastic Fairness Queuing (SFQ) uses a fixed number of queues and assigns customers to them by hashing to prevent long-term unfairness. It periodically changes the assignment to stop noisy neighbors from hurting others for too long. Combining SFQ with shuffle sharding and best-of-two methods improves fairness and efficiency even more.",
+      "tags": [
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "01kkexqe4qm2x4bw8yxratajq8",
+      "title": "From IDEs to AI Agents with Steve Yegge",
+      "url": "https://newsletter.pragmaticengineer.com/p/from-ides-to-ai-agents-with-steve",
+      "savedAt": "2026-03-11T17:04:47.327000+00:00",
+      "description": "Steve Yegge explains how AI is changing software engineering by making coding more about working with AI agents than writing code by hand. He believes developers must adapt quickly to new tools and ways of working to stay relevant. AI will amplify engineers' abilities but also bring new challenges for teams and productivity.",
+      "tags": []
+    },
+    {
+      "id": "01kkb7re9jmzjtttrsfrj9484k",
+      "title": "NVIDIA's AI Engineers: Agent Inference at Planetary Scale and Speed of Light — Nader Khalil (Brev), Kyle Kranen (Dynamo)",
+      "url": "https://www.latent.space/p/nvidia-brev-dynamo",
+      "savedAt": "2026-03-10T06:43:08.282000+00:00",
+      "description": "NVIDIA is improving how AI runs on GPUs, making it easier and faster for developers to use. They focus on creating better tools and experiences for AI developers to experiment and build with. Their work includes managing complex AI models and speeding up real-world AI applications at a large scale.",
+      "tags": []
+    },
+    {
+      "id": "01kk8tjsw4wg7n5yzedgg8e1v3",
+      "title": "Avoiding, Treating & Curing Cancer With the Immune System | Dr. Alex Marson",
+      "url": "https://www.hubermanlab.com/episode/avoiding-treating-and-curing-cancer-with-the-immune-system-alex-marson",
+      "savedAt": "2026-03-09T08:14:23.181000+00:00",
+      "description": "Dr. Alex Marson, MD, PhD, is a professor of medicine at the University of California, San Francisco. We discuss the biology of the immune system and cancer, and everyday choices that can increase or decrease your cancer risk, several of which are surprising but all of which are actionable. We also discuss immunotherapy, including how engineered T-cells can be used to defeat childhood and adult cancers. Dr. Marson explains CRISPR and gene editing to cure diseases, and we address the ethical questions surrounding gene editing in embryos, children and adults. This discussion is for anyone interested in avoiding cancer and/or seeking to understand the science and practical applications of immune- or gene-therapy.\n\nRead the show notes at hubermanlab.com.\n\nThank you to our sponsors\n\nAG1: https://drinkag1.com/huberman\n\nBetterHelp: https://betterhelp.com/huberman\n\nHelix Sleep: https://helixsleep.com/huberman\n\nLMNT: https://drinklmnt.com/huberman\n\nFunction: https://functionhealth.com/huberman\n\nTimestamps\n\n(00:00:00) Alex Marson\n\n(00:02:21) Diseases & Current Biological Landscape; AI & Computational Tools\n\n(00:05:56) Immune System, Innate vs Adaptive Immune System\n\n(00:10:55) Thymus, T Cell Selection; B Cells & Antibodies\n\n(00:13:23) Sponsors: BetterHelp & Helix Sleep\n\n(00:16:11) Immune System Health, Sleep, Diet; Genes\n\n(00:20:56) Childhood Exposure & Allergy Prevention; Autoimmune Reactions\n\n(00:25:27) Whole Body Immune Response, Cytokines & Fever; Antibiotics\n\n(00:30:51) Cancer; Mutations & Cell Regulation; Smoking, BRCA Mutations, Sunlight\n\n(00:38:27) BRAC Mutations, Mutagens, Pesticides\n\n(00:42:33) Sponsor: AG1\n\n(00:43:57) X-Rays & Airport Scanners, Carcinogen vs Mutagen, Charred Meat, Food Dye\n\n(00:49:34) Immune-Based Cancer Treatment, Checkpoint Inhibitors, CAR T-Cell Therapy\n\n(00:59:04) CRISPR, Immunotherapies\n\n(01:02:52) Age & Cancer Risk; CAR T-Cells, Targets & Side Effects; Ketogenic Diet\n\n(01:08:27) CRISPR Discovery & Mechanism\n\n(01:17:06) CRISPR Precision, Ris...",
+      "tags": []
+    },
+    {
+      "id": "01kk4evn10hpcc74wwfasqfd0s",
+      "title": "The Self-Help Trap: What 20+ Years of “Optimizing” Has Taught Me",
+      "url": "https://tim.blog/2026/03/04/the-self-help-trap/",
+      "savedAt": "2026-03-07T15:32:35.488000+00:00",
+      "description": "Self-help can trap you in endless self-fixing without real happiness. True growth comes from focusing on relationships and serving others, not just improving yourself. Acceptance and connection bring peace, not constant self-optimization.",
+      "tags": [
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "01kk0gjmnca6ggq4g0tb4h3q46",
+      "title": "Cursor's Third Era: Cloud Agents",
+      "url": "https://www.latent.space/p/cursor-third-era",
+      "savedAt": "2026-03-06T02:45:36.629000+00:00",
+      "description": "The $50B Agent Lab has acquired Graphite and Autotab and now announcing that Cloud Agents has overtaken its historical \"VSCode fork\" IDE usecase, ushering in the \"Third Era of Software Development\"",
+      "tags": []
+    },
+    {
+      "id": "01kjymfq04y3gzy3p3facf0g2h",
+      "title": "Essentials: The Biology of Taste Perception & Sugar Craving | Dr. Charles Zuker",
+      "url": "https://www.hubermanlab.com/episode/essentials-the-biology-of-taste-perception-and-sugar-craving-charles-zuker",
+      "savedAt": "2026-03-05T09:15:26.156000+00:00",
+      "description": "In this Huberman Lab Essentials episode, my guest is Dr. Charles Zuker, PhD, a professor of biochemistry, molecular biophysics and neuroscience at Columbia University and an Investigator with the Howard Hughes Medical Institute (HHMI).\n\nWe explore taste perception and how the brain transforms chemical signals from food into distinct taste experiences. We discuss how these taste signals shape both conscious choices and unconscious behavior, as well as how food preferences can change over time. Additionally, we discuss gut–brain signaling and explain why sugar is especially powerful at driving cravings. \n\nRead the episode show notes at hubermanlab.com.\n\nThank you to our sponsors\n\nAG1: https://drinkag1.com/huberman\n\nLMNT: https://drinklmnt.com/huberman\n\nFunction: https://functionhealth.com/huberman\n\nTimestamps\n\n(00:00:00) Charles Zuker\n\n(00:00:20) Senses & Perception\n\n(00:02:29) Taste, 5 Taste Qualities & Dietary Needs\n\n(00:05:49) Taste vs Flavor\n\n(00:07:05) Sponsor: AG1\n\n(00:07:56) Taste Buds; Bitter\n\n(00:09:45) Sweet vs Bitter, Sensory Perception from Tongue to Brain\n\n(00:12:47) Taste Plasticity & Changing Food Preferences\n\n(00:14:13) Taste Modulation; Salt\n\n(00:17:08) Sponsor: LMNT\n\n(00:18:41) Gut-Brain Signaling\n\n(00:23:14) Sugar Appetite & Gut-Brain Axis\n\n(00:27:42) Sponsor: Function\n\n(00:29:21) Artificial Sweeteners, Sugar Cravings\n\n(00:30:37) Taste & Essential Nutrients; Highly Processed Foods; Brain & Food Choices\n\n(00:34:11) Acknowledgements\n\nDisclaimer & Disclosures\nLearn more about your ad choices. Visit megaphone.fm/adchoices",
+      "tags": []
+    },
+    {
+      "id": "01kjxrebh8ep3s4t6mz5cws9e6",
+      "title": "Every Agent Needs a Box — Aaron Levie, Box",
+      "url": "https://www.latent.space/p/box",
+      "savedAt": "2026-03-05T01:05:21.520000+00:00",
+      "description": "Aaron Levie explains that Box helps companies manage and share important files securely. He says every AI agent needs a \"box\" to organize messy and complex data well. He believes strong software and good evaluation are key to building useful AI tools for businesses.",
+      "tags": []
+    },
+    {
+      "id": "01kjx1hbjatx0j8vqz6pz77ezz",
+      "title": "Building Claude Code with Boris Cherny",
+      "url": "https://newsletter.pragmaticengineer.com/p/building-claude-code-with-boris-cherny",
+      "savedAt": "2026-03-04T18:25:02.611000+00:00",
+      "description": "Boris Cherny built Claude Code to help engineers write code faster using AI agents working in parallel. He believes AI will change the software engineer’s role, making skills like managing many tasks more important. At Anthropic, engineers focus on building prototypes quickly and sharing work across product, design, and engineering.",
+      "tags": []
+    },
+    {
+      "id": "01kjpww28ay61t71w7ckv263da",
+      "title": "Unlearn Negative Thoughts & Behaviors Patterns | Dr. Alok Kanojia",
+      "url": "https://www.hubermanlab.com/episode/unlearn-negative-thoughts-and-behaviors-patterns-alok-kanojia",
+      "savedAt": "2026-03-02T09:08:04.050000+00:00",
+      "description": "Dr. Alok Kanojia, MD, MPH (\"Dr. K\"), is a Harvard-trained psychiatrist and expert in both Eastern and Western medicine to improve mental health. He explains tools for unlearning maladaptive thoughts and behavior patterns and for making behaviors that better mental and physical well-being more reflexive in work, relationships and daily life. We also discuss ways to resolve trauma, build stress tolerance, increase intrinsic motivation and even change temperament. We also discuss how social media, gaming and online dating shape our identity and perceptions and how to navigate them healthily.\n\nThank you to our sponsors\n\nAG1: https://drinkag1.com/huberman\n\nLingo: https://hellolingo.com/huberman\n\nJoovv: https://joovv.com/huberman\n\nFunction: https://functionhealth.com/huberman\n\nEight Sleep: https://eightsleep.com/huberman\n\nTimestamps\n\n(00:00:00) Alok Kanojia (Dr. K)\n\n(00:03:09) Internet, Computer Games; Academic Pressure\n\n(00:07:11) Millennials & Self-Awareness, Hijacking Mental Health Language\n\n(00:13:24) Sponsors: Lingo & Joovv\n\n(00:16:06) Personality & Individual Road Maps, Misdiagnosis\n\n(00:22:02) Ambiguity, Flirting, Social Skills Decline, Uncertainty Tolerance\n\n(00:26:06) Dating in the Internet Age, Cognitive Bias\n\n(00:30:39) Healthy Distress Tolerance, Tool: How to Feel Your Feelings\n\n(00:39:58) Sponsor: AG1\n\n(00:40:49) Expectations vs Internal Desire Roadmap, Western vs Eastern Theory of Mind, Ego\n\n(00:50:35) Sense Organs, Comparison & Proving Oneself, Internal Drive\n\n(00:59:22) Internet, Ego, \"Teflon Buddha\", Tool: Dealing with Criticism\n\n(01:10:36) Observing One's Mind, Meditation, Psychedelics\n\n(01:11:59) Sponsor: Function\n\n(01:13:46) Tool: Shunya \"Void\" Meditation & Resilience\n\n(01:24:02) External Reminders, Environment; Men & Emotional Regulation\n\n(01:30:04) Samskara, Yoga Nidra, Trauma & Learning, Shunya & Personal Compass\n\n(01:39:15) Yoga Nidra, Channeling Divinity, Genius\n\n(01:42:30) Sponsor: Eight Sleep\n\n(01:43:48) Breathwork Practices; Meditation Scien...",
+      "tags": []
+    },
+    {
+      "id": "01kjnh0wnagqa8bqgjp66ra4h8",
+      "title": "How I built Timeframe, our family e-paper dashboard",
+      "url": "https://hawksley.org/2026/02/17/timeframe.html",
+      "savedAt": "2026-03-01T20:21:47.817000+00:00",
+      "description": "Joel built Timeframe, a family dashboard using e-paper displays, to show calendars, weather, and smart home info. Over time, he improved the system with better hardware and integrated it with Home Assistant for real-time updates. The project helps his family stay informed with simple, relevant information and he hopes to make it easier for others to use.",
+      "tags": [
+        "cool",
+        "hardware"
+      ]
+    },
+    {
+      "id": "01kjnggfyyr069f9r6c3p6vre7",
+      "title": "Things UNIX can do atomically",
+      "url": "https://rcrowley.org/2010/01/06/things-unix-can-do-atomically.html",
+      "savedAt": "2026-03-01T20:12:50.526000+00:00",
+      "description": "UNIX-like systems can perform many operations atomically, which helps build safe multi-process programs without extra locking. Key atomic actions include renaming files, creating links, and using file locks that avoid race conditions. These features let the kernel handle synchronization efficiently, making programs simpler and faster.",
+      "tags": [
+        "os/linux"
+      ]
+    },
+    {
+      "id": "01kjm3jfsmzgsy5jfdy5q0jxnn",
+      "title": "Tracking NixOS option values and dependencies",
+      "url": "https://oddlama.org/blog/tracking-options-in-nixos/",
+      "savedAt": "2026-03-01T07:07:29.971000+00:00",
+      "description": "A patched Nix evaluator now tracks dependencies between NixOS options during configuration evaluation without changing existing modules. This tracking helps understand how option values relate and what changes affect the system by producing detailed JSON data and a TUI for exploring and diffing configurations. The tool offers new insight into complex NixOS setups and makes configuration changes easier to analyze.",
+      "tags": [
+        "tools/nix"
+      ]
+    },
+    {
+      "id": "01kjg8sbhqmssjnbeak68sk1d4",
+      "title": "METR’s Joel Becker on exponential Time Horizon Evals, Threat Models, and the Limits of AI Productivity",
+      "url": "https://www.latent.space/p/metr",
+      "savedAt": "2026-02-27T19:21:37.151000+00:00",
+      "description": "METR studies long-term AI evaluation and shows that simple charts can be misleading. They also research AI threat models and how AI affects developer productivity. Joel Becker shares insights on these topics and the limits of AI progress.",
+      "tags": []
+    },
+    {
+      "id": "01kjckpqd9q7vac5vztvx96r87",
+      "title": "Essentials: Using Light to Optimize Health",
+      "url": "https://www.hubermanlab.com/episode/essentials-using-light-to-optimize-health",
+      "savedAt": "2026-02-26T09:15:27.601000+00:00",
+      "description": "In this Huberman Lab Essentials episode, I explore how different wavelengths of light affect the human body and how light exposure can improve sleep quality, mood and daytime alertness while supporting healthy hormone regulation. I also discuss the therapeutic use of ultraviolet and infrared/red light for a wide variety of benefits, including improved skin health and offsetting age-related vision loss. I explain the biological mechanisms behind these light-based therapies and offer practical tools that listeners can use to improve both their mental and physical well-being.\n\nRead the episode show notes at hubermanlab.com.\n\nThank you to our sponsors\n\nAG1: https://drinkag1.com/huberman\n\nROKA: https://roka.com/huberman\n\nFunction: https://functionhealth.com/huberman\n\nTimestamps\n\n(00:00:00) Light\n\n(00:00:47) Physics of Light\n\n(00:01:57) Light & Body, Rods & Cones, Skin, Seasons & Melatonin\n\n(00:05:01) Melatonin Supplements?, Tool: Seasonal Sun Exposure\n\n(00:08:32) Sponsor: ROKA\n\n(00:09:47) Tool: Melatonin Levels & Reduce Night Light\n\n(00:10:31) Light, UVB, Skin Exposure, Testosterone & Estrogen, Fertility\n\n(00:13:54) UVB Light & Improved Pain Tolerance\n\n(00:16:10) Tool: Daily Sunlight Exposure Protocol; Blue Blockers\n\n(00:18:25) Sponsor: AG1\n\n(00:19:16) Seasonal Affective Disorder (SAD), Year-Round Sunlight Exposure\n\n(00:21:24) Enhanced Immune Function & UVB Light, Tool: Winter Light Exposure\n\n(00:23:45) Light, Wound Healing, Hair & Nail Growth\n\n(00:25:11) Tool: Mood, Dopamine & Avoid Nighttime UVB Light\n\n(00:27:46) Sponsor: Function\n\n(00:29:25) Red Light Therapy, Infrared Light, Acne, Wound Healing & Scars; Mitochondria\n\n(00:33:06) Offset Age-Related Eyesight Decline, Red Light\n\n(00:37:22) Tool: Red Light Protocol, Frequency & Timing\n\n(00:40:02) Red Light for Shift Workers\n\n(00:41:42) Recap\n\nDisclaimer & Disclosures\nLearn more about your ad choices. Visit megaphone.fm/adchoices",
+      "tags": []
+    },
+    {
+      "id": "01kjb0k2f0ssbw0729b6m4e2c8",
+      "title": "🔬Nature as a Computer: Prof. Max Welling, CuspAI on AI x Materials Science",
+      "url": "https://www.latent.space/p/cuspai",
+      "savedAt": "2026-02-25T18:22:10.472000+00:00",
+      "description": "Max Welling envisions nature as a computer that works with AI to speed up scientific discovery, especially in materials for climate solutions. His approach combines physics, machine learning, and experiments to build tools that help scientists make better decisions, not replace them. This new field, AI for science, is rapidly growing and focuses on automating parts of research while keeping humans involved.",
+      "tags": []
+    },
+    {
+      "id": "01kjav6krtkeakqd7kmgka9p3g",
+      "title": "Mitchell Hashimoto’s new way of writing code",
+      "url": "https://newsletter.pragmaticengineer.com/p/mitchell-hashimoto",
+      "savedAt": "2026-02-25T16:47:59.331000+00:00",
+      "description": "Mitchell Hashimoto, co-founder of HashiCorp, shares how AI agents have changed his coding workflow by running tasks in the background. He explains that Terraform succeeded through community and developer focus, not timing. He also advises engineers to use AI for research help, not just code writing.",
+      "tags": []
+    },
+    {
+      "id": "01kj61r54aram70pn56med8py6",
+      "title": "⚡️SWE-Bench-Dead: The End of SWE-Bench Verified — Mia Glaese & Olivia Watkins, OpenAI Frontier Evals & Human Data",
+      "url": "https://www.latent.space/p/swe-bench-dead",
+      "savedAt": "2026-02-23T20:06:13.458000+00:00",
+      "description": "It's time to take the next step up in frontier agent evals.",
+      "tags": []
+    },
+    {
+      "id": "01kj4wbm4pe8gffqj0eq6b1nv5",
+      "title": "Restore Youthfulness & Vitality to the Aging Brain & Body | Dr. Tony Wyss-Coray",
+      "url": "https://www.hubermanlab.com/episode/restore-youthfulness-and-vitality-to-the-aging-brain-and-body-tony-wyss-coray",
+      "savedAt": "2026-02-23T09:12:45.534000+00:00",
+      "description": "Dr. Tony Wyss-Coray studies how factors in young and exercised blood can improve brain and body health. Certain proteins and lifestyle habits like exercise, sunlight, and fasting help restore youthfulness and may extend life. Different organs age at different rates, and measuring biological aging can guide better health decisions.",
+      "tags": []
+    },
+    {
+      "id": "01khvfsney1rfvdnxtpjdr7a6q",
+      "title": "Inside AI’s $10B+ Capital Flywheel — Martin Casado & Sarah Wang of a16z",
+      "url": "https://www.latent.space/p/a16z",
+      "savedAt": "2026-02-19T17:40:04.263000+00:00",
+      "description": "From pioneering software-defined networking to backing many of the most aggressive AI model companies of this cycle, Martin Casado and Sarah Wang sit at the center of the capital, compute, and talent arms race reshaping the tech industry.",
+      "tags": []
+    },
+    {
+      "id": "01khtjqpevw901vvv4660n593n",
+      "title": "Essentials: Optimize Your Exercise Program with Science-Based Tools | Jeff Cavaliere",
+      "url": "https://www.hubermanlab.com/episode/essentials-optimize-your-exercise-program-with-science-based-tools-jeff-cavaliere",
+      "savedAt": "2026-02-19T09:12:11.044000+00:00",
+      "description": "Jeff Cavaliere shares science-based tips to create effective workout plans and improve recovery. He explains how to warm up, stretch, and eat well without strict dieting. His advice helps people get stronger, avoid injuries, and stay healthy.",
+      "tags": []
+    },
+    {
+      "id": "01khpq3qpv2syq1m30pw81cgv3",
+      "title": "Fraud Investigation is Believing Your Lying Eyes",
+      "url": "https://www.bitsaboutmoney.com/archive/fraud-investigation/",
+      "savedAt": "2026-02-17T21:11:45.115000+00:00",
+      "description": "Fraud in the U.S. is complex and often politicized, involving repeat offenders and organized schemes. Most fraud grows like a business with trusted partners and targets weak points in systems. Detecting fraud requires close tracking and understanding that it is usually a repeated, professional activity, not isolated crimes.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01khjtywk9q4fxh2rv8kb4qrcg",
+      "title": "The Most Effective Weight Training, Cardio & Nutrition for Women | Dr. Lauren Colenso-Semple",
+      "url": "https://www.hubermanlab.com/episode/the-most-effective-weight-training-cardio-and-nutrition-for-women-lauren-colenso-semple",
+      "savedAt": "2026-02-16T09:01:59.858000+00:00",
+      "description": "Dr. Lauren Colenso-Semple, PhD, is an expert in the science of strength and muscle building and nutrition. She explains the most effective resistance and cardiovascular training programs for women and if and how those programs should differ from those followed by men. She explains program design options, exercise selection, sets, repetition ranges, rest periods, if you need to train to failure and much more. We discuss the relevance of menstrual cycles, (peri)menopause, birth control, body frame differences, as well as best practices for nutrition, hormone replacement and supplementation. Throughout the episode Dr. Lauren Colenso-Semple dispels common myths about women's fitness and nutrition such as the impact of fasting, cortisol, weight vests and more. This episode provides a masterclass in the best science-supported fitness and nutrition programs for women and for men.\n\nThank you to our sponsors\n\nAG1: https://drinkag1.com/huberman\n\nJoovv: https://joovv.com/huberman\n\nEight Sleep: https://eightsleep.com/huberman\n\nRorra: https://rorra.com/huberman\n\nFunction: https://functionhealth.com/huberman\n\nTimestamps\n\n(00:00:00) Lauren Colenso-Semple\n\n(00:02:43) Muscle in Men vs Women; Testosterone; Individual Variation\n\n(00:08:07) Sponsors: Joovv & Eight Sleep\n\n(00:10:45) Testosterone & Women; Resistance Training; Young Girls\n\n(00:17:46) Tool: Beginner Resistance Training for Women; Frequency & Goals\n\n(00:20:58) Tools: Weekly Full-Body Workouts, Work Sets, Rest Intervals; Time Efficiency\n\n(00:28:43) Forced Reps, Drop Sets; Rate of Movement; Partial Reps\n\n(00:33:19) Tool: Repetition Ranges; Technique; Vary Rep Ranges?\n\n(00:39:37) Sponsor: AG1\n\n(00:40:28) High Reps & Injury, Technique & Warm-Ups\n\n(00:44:25) Cardiovascular Exercise, Interference Effect?; Walking, High Intensity\n\n(00:52:43) Menstrual Cycle, Hormones & Training; Overcoming Internal Resistance\n\n(00:56:54) Training & Body Composition; Tool: Slow Progression; Menstrual Cycle\n\n(01:02:45) Sponsor: Rorra\n\n(01:03:59) ...",
+      "tags": []
+    },
+    {
+      "id": "01kh9y4p4zxaey21jbjjbg4n18",
+      "title": "Owning the AI Pareto Frontier — Jeff Dean",
+      "url": "https://www.latent.space/p/jeffdean",
+      "savedAt": "2026-02-12T22:04:25.704000+00:00",
+      "description": "From rewriting Google’s search stack in the early 2000s to reviving sparse trillion-parameter models and co-designing TPUs with frontier ML research, Jeff Dean has quietly shaped nearly every layer of the modern AI stack.",
+      "tags": []
+    },
+    {
+      "id": "01kh9qs40ebtbq3v2tgng21023",
+      "title": "The programming language after Kotlin – with the creator of Kotlin",
+      "url": "https://newsletter.pragmaticengineer.com/p/the-programming-language-after-kotlin",
+      "savedAt": "2026-02-12T20:13:15.222000+00:00",
+      "description": "Andrey Breslav, creator of Kotlin, discusses how he designed Kotlin to improve Java and why he is now building a new language called CodeSpeak to simplify programming with AI. Kotlin became popular by focusing on Java interoperability and reducing boilerplate code. Breslav encourages engineers to learn AI coding tools and stay in control as software development evolves.",
+      "tags": []
+    },
+    {
+      "id": "01kh8hcgf8g3a9sh5y342d0r1m",
+      "title": "Essentials: The Science of Love, Desire & Attachment",
+      "url": "https://www.hubermanlab.com/episode/essentials-the-science-of-love-desire-and-attachment",
+      "savedAt": "2026-02-12T09:02:16.112000+00:00",
+      "description": "In this Huberman Lab Essentials episode, I explore the psychology and biology of desire, love and attachment. I explain how childhood attachment styles can shape adult romantic relationships and how the brain and body systems influence emotional bonds. I also discuss supplements that may support a healthy libido and practical, science-based tools for understanding your relationship patterns and building stronger relationships.\n\nRead the episode show notes at hubermanlab.com.\n\nThank you to our sponsors\n\nAG1: https://drinkag1.com/huberman\n\nEight Sleep: https://eightsleep.com/huberman\n\nFunction: https://functionhealth.com/huberman\n\nTimestamps\n\n(00:00:00) Desire, Love & Attachment\n\n(00:00:23) 4 Attachment Styles, Child & Parent\n\n(00:04:11) Attachment & Autonomic Arousal, Seesaw Analogy\n\n(00:07:26) Sponsor: Eight Sleep\n\n(00:08:44) Tool: Self-Awareness of Attachment Style, Autonomic State & Relationship\n\n(00:09:51) Brain & Neural Circuits for Desire, Love & Attachment\n\n(00:11:19) Empathy, Autonomic Matching\n\n(00:13:09) Positive Delusions, Relationship Breakdown & Failure\n\n(00:16:00) Sponsor: Function\n\n(00:17:39) Universality of Love, Autonomic Coordination\n\n(00:21:38) Self-Expansion & Relationships, Shaping Self-Perception\n\n(00:27:54) Sponsor: AG1\n\n(00:28:44) Testosterone, Estrogen, Dopamine & Libido\n\n(00:31:52) Supplements to Increase Libido: Maca Root, Tongkat Ali (Longjack), Tribulus\n\n(00:38:55) Recap\n\nDisclaimer & Disclosures\nLearn more about your ad choices. Visit megaphone.fm/adchoices",
+      "tags": []
+    },
+    {
+      "id": "01kh7t6a1wntg9r2vyk3eabw28",
+      "title": "🔬Science at the speed of inference — Gabriele Corso & Jeremy Wohlwend, Boltz",
+      "url": "https://www.latent.space/p/boltz",
+      "savedAt": "2026-02-12T02:16:55.685000+00:00",
+      "description": "Boltz uses advanced AI models to design proteins and small molecules faster and more accurately than before. Their platform helps scientists test new drug targets and improve molecule binding. They focus on making tools that support many companies, not just developing drugs themselves.",
+      "tags": []
+    },
+    {
+      "id": "01kh0trsrwnp3gsy7jdhwvrzwg",
+      "title": "How Genes Shape Your Risk Taking & Morals | Dr. Kathryn Paige Harden",
+      "url": "https://www.hubermanlab.com/episode/how-genes-shape-your-risk-taking-and-morals-kathryn-paige-harden",
+      "savedAt": "2026-02-09T09:12:20.580000+00:00",
+      "description": "Dr. Kathryn Paige Harden, PhD, is a psychologist, behavioral geneticist and professor of psychology at the University of Texas at Austin. We discuss how genes interact with your upbringing to shape your level of risk-taking and morality. We also discuss how genes shape propensity for addiction and impulsivity in males versus females. Finally, we discuss how biology impacts societal views of sinning, punishment and forgiveness.\n\nRead the episode show notes at hubermanlab.com.\n\nPre-order Protocols: https://go.hubermanlab.com/protocols\n\nThank you to our sponsors\n\nAG1: https://drinkag1.com/huberman\n\nBetterHelp: https://betterhelp.com/huberman\n\nLingo: https://hellolingo.com/huberman\n\nOur Place: https://fromourplace.com/huberman\n\nHelix Sleep: https://helixsleep.com/huberman\n\nTimestamps\n\n(00:00:00) Kathryn Paige Harden\n\n(00:03:10) Adolescents, Genes & Life Trajectory; Adolescence Ages\n\n(00:06:44) Puberty, Aging & Differences; Epigenome; Cognition\n\n(00:14:05) Sponsors: BetterHelp & Lingo\n\n(00:16:45) Puberty Onset & Family; Communication & Empathy\n\n(00:22:26) 7 Deadly Sins, Substance Use & Conduct Disorders, Genes\n\n(00:27:33) Family History; Genes & Brain Development\n\n(00:33:05) Personality & Temperament, Motivation, Addiction; Trauma\n\n(00:37:59) Knowing Genetic Risk & Outcomes; Understanding Family History\n\n(00:46:06) Sponsor: AG1\n\n(00:46:57) Genetic Information & Decision Making; Personal Identity & Uncovering Family\n\n(00:52:12) Nature vs Nurture, Bad Genes?; Aggression, Childhood & Males\n\n(01:00:17) The Original Sin; Whitman Case & Brain Tumor; Genetic Predisposition\n\n(01:10:31) Free Will; Genes & Moral Judgement; Skillful Care for Kids; Social Cooperation\n\n(01:21:03) Breaking the Cycle; Genetic Recombination & Differences; Identity\n\n(01:25:21) Sponsor: Our Place\n\n(01:27:01) Status, Dominance, Science; Positive Attributes of Negative Traits\n\n(01:36:15) Relational Aggression & Girls; Male-Female Differences & Conflict\n\n(01:40:36) Genes, Boys vs Girls, Impulse Control\n\n(...",
+      "tags": []
+    },
+    {
+      "id": "01kh07a9q2q0d3ncpdp0vqvq1j",
+      "title": "As Rocks May Think",
+      "url": "https://evjang.com/2026/02/04/rocks.html",
+      "savedAt": "2026-02-09T03:32:25.442000+00:00",
+      "description": "Machines can now think and solve problems well by combining coding and reasoning. Training language models to reason step-by-step has improved their abilities a lot. This progress will lead to more powerful AI and huge demand for computing power in the future.",
+      "tags": []
+    },
+    {
+      "id": "01kgqry2w0fngyf732sqwj44z0",
+      "title": "Steering a Trillion-Param Model, Token-Level PII in Production, Beyond SAEs — Myra Deng & Mark Bissell of Goodfire AI",
+      "url": "https://www.latent.space/p/goodfire",
+      "savedAt": "2026-02-05T20:47:06.696000+00:00",
+      "description": "Goodfire AI focuses on understanding and designing large AI models using interpretability techniques. They work on steering trillion-parameter models to improve safety and control beyond current methods. Their goal is to make AI models more reliable, understandable, and adaptable with human feedback.",
+      "tags": []
+    },
+    {
+      "id": "01kgph2mx0h4hr5gnnbxhcb152",
+      "title": "Essentials: The Science & Practice of Movement | Ido Portal",
+      "url": "https://traffic.megaphone.fm/SCIM7334257872.mp3",
+      "savedAt": "2026-02-05T09:10:33.192000+00:00",
+      "description": "In this Huberman Lab Essentials episode, my guest is Ido Portal, a movement coach and world expert on human movement. \n\nWe explore the science and practice of movement, including how the nervous system shapes our actions, the distinction between reflexive and deliberate movement patterns and how emotion and awareness influence our movement. Ido shares how to build a holistic movement practice into everyday life through an exploration-based approach grounded in playfulness and self-inquiry.   \n\nThank you to our sponsors\n\nAG1: https://drinkag1.com/huberman\n\nLMNT: https://drinklmnt.com/huberman\n\nTimestamps\n\n(00:00:00) Ido Portal\n\n(00:00:20) Movement Practice, Self-Inquiry\n\n(00:02:08) Wordlessness, 3 Core Elements of the Body; Focus & Movement\n\n(00:06:35) Sponsor: LMNT\n\n(00:08:09) Mental & Physical Postures; Virtuosity\n\n(00:12:36) Vision & Eyes; Focus vs Relaxed Vision; Tool: Panoramic View\n\n(00:17:53) Hearing; Different Opinions\n\n(00:20:59) Body Shape; Developing Many Walks\n\n(00:23:53) Sponsor: AG1\n\n(00:24:45) Playful Exploration, Openness\n\n(00:27:25) Peripersonal Space & Movement, Proximity, Reactivity, Discomfort\n\n(00:32:18) Exercise, Traditional Movements; Examination of Movement\n\n(00:37:43) Exploration; Acknowledgements\n\nDisclaimer & Disclosures\nLearn more about your ad choices. Visit megaphone.fm/adchoices",
+      "tags": []
+    },
+    {
+      "id": "01kgmzh1qybe58c41qvcdj7t90",
+      "title": "The third golden age of software engineering – thanks to AI, with Grady Booch",
+      "url": "https://newsletter.pragmaticengineer.com/p/the-third-golden-age-of-software",
+      "savedAt": "2026-02-04T18:44:36.295000+00:00",
+      "description": "Software engineering is entering its third golden age, driven by new system-level abstractions and supported by AI tools. AI helps automate routine tasks but cannot replace human judgment and creativity. This era offers engineers a chance to focus on imagination and solve complex problems, not fear job loss.",
+      "tags": []
+    },
+    {
+      "id": "01kgfeyr8f733ywsvmtab2z497",
+      "title": "Anthropic, Glean & OpenRouter: How AI Moats Are Built with Deedy Das of Menlo Ventures",
+      "url": "https://www.latent.space/p/anthropic-glean-and-openrouter-how",
+      "savedAt": "2026-02-02T15:18:47.384000+00:00",
+      "description": "Deedy Das, Partner at Menlo Ventures, returns to Latent Space to discuss his journey from Glean to venture capital, the explosive rise of Anthropic, and how AI is reshaping enterprise software and coding.",
+      "tags": []
+    },
+    {
+      "id": "01kgfd3rjy66ckz2aszyrn83qk",
+      "title": "One Year of MCP — with David Soria Parra and AAIF leads from OpenAI, Goose, Linux Foundation",
+      "url": "https://www.latent.space/p/one-year-of-mcp-with-david-soria",
+      "savedAt": "2026-02-02T14:46:34.407000+00:00",
+      "description": "One year ago, Anthropic launched the Model Context Protocol (MCP)—a simple, open standard to connect AI applications to the data and tools they need.",
+      "tags": []
+    },
+    {
+      "id": "01kgfbxtzb6dkq7fkz8r48gerg",
+      "title": "Brex’s AI Hail Mary — With CTO James Reggio",
+      "url": "https://www.latent.space/p/brexs-ai-hail-mary-with-cto-james",
+      "savedAt": "2026-02-02T14:25:51.668000+00:00",
+      "description": "From building internal AI labs to becoming CTO of Brex, James Reggio has helped lead one of the most disciplined AI transformations inside a real financial institution where compliance, auditability, and customer trust actually matter.",
+      "tags": []
+    },
+    {
+      "id": "01kgesth9rb7pmbh665a8b218y",
+      "title": "How Dopamine & Serotonin Shape Decisions, Motivation & Learning | Dr. Read Montague",
+      "url": "https://www.hubermanlab.com/episode/how-dopamine-serotonin-shape-decisions-motivation-and-learning-read-montague",
+      "savedAt": "2026-02-02T09:09:29.088000+00:00",
+      "description": "Dopamine and serotonin play key roles in how we learn, stay motivated, and make decisions. They affect how we focus on goals and respond to rewards or challenges. Understanding these brain chemicals helps improve mental health and behavior through medicine and technology.",
+      "tags": []
+    },
+    {
+      "id": "01kg4g7k12y3brm2yq3bnkpx9h",
+      "title": "Essentials: Using Play to Rewire & Improve Your Brain",
+      "url": "https://www.hubermanlab.com/episode/essentials-using-play-to-rewire-and-improve-your-brain",
+      "savedAt": "2026-01-29T09:09:26.762000+00:00",
+      "description": "Play helps shape the brain by engaging special circuits and chemicals. It is useful not just for kids but also for adults to boost creativity and thinking skills. Using play regularly can improve brain flexibility and learning throughout life.",
+      "tags": []
+    },
+    {
+      "id": "01kg2y1zr8e6qwqqvr6xvxqy63",
+      "title": "The creator of Clawd: \"I ship code I don't read\"",
+      "url": "https://newsletter.pragmaticengineer.com/p/the-creator-of-clawd-i-ship-code",
+      "savedAt": "2026-01-28T18:32:34.385000+00:00",
+      "description": "Peter Steinberger builds software using AI agents that write and verify code themselves, enabling him to work like a full team alone. He focuses on planning, architecture, and letting AI handle implementation details, which speeds up development. His project Moltbot (formerly Clawdbot) became popular by embracing rapid, experimental workflows powered by AI.",
+      "tags": []
+    },
+    {
+      "id": "01kfwrj5434f3y0wcrm7146hk1",
+      "title": "Science & Tools of Learning & Memory | Dr. David Eagleman",
+      "url": "https://www.hubermanlab.com/episode/science-and-tools-of-learning-and-memory-david-eagleman",
+      "savedAt": "2026-01-26T09:01:06.124000+00:00",
+      "description": "Dr. David Eagleman explains how the brain changes to help us learn and remember better. He talks about how time feels different depending on age and emotions. The episode also covers dreams, memory errors, and how to reduce social and political divides.",
+      "tags": []
+    },
+    {
+      "id": "01kfjzcxsg3ddnv6c290nr7vms",
+      "title": "Linux From Scratch",
+      "url": "https://www.linuxfromscratch.org/lfs/view/stable/",
+      "savedAt": "2026-01-22T13:48:13.488000+00:00",
+      "description": null,
+      "tags": [
+        "os/linux"
+      ]
+    },
+    {
+      "id": "01kfjf1nxd8wtxbwbn5nwxktda",
+      "title": "Essentials: Therapy, Treating Trauma & Other Life Challenges | Dr. Paul Conti",
+      "url": "https://www.hubermanlab.com/episode/essentials-therapy-treating-trauma-and-other-life-challenges-paul-conti",
+      "savedAt": "2026-01-22T09:02:24.757000+00:00",
+      "description": "Dr. Paul Conti explains how trauma affects the mind and body and why healing it is important. He shares tips on finding a good therapist and how therapy helps recovery. The episode also talks about using psychedelics like MDMA to support trauma treatment.",
+      "tags": []
+    },
+    {
+      "id": "01kfgwfr7gxc06fgxf96fz60tj",
+      "title": "How AWS S3 is built",
+      "url": "https://newsletter.pragmaticengineer.com/p/how-aws-s3-is-built",
+      "savedAt": "2026-01-21T18:18:48.505000+00:00",
+      "description": "Amazon S3 is a massive storage system built for extreme scale, durability, and correctness. It uses advanced techniques like formal methods and strong consistency to ensure reliability despite constant failures. The system manages complexity through many focused microservices and designs scale to improve performance and availability.",
+      "tags": []
+    },
+    {
+      "id": "01kfaqy65ctc51t9yhrnher3nq",
+      "title": "Build Muscle & Strength & Forge Your Life Path | Dorian Yates",
+      "url": "https://www.hubermanlab.com/episode/build-muscle-and-strength-and-forge-your-life-path-dorian-yates",
+      "savedAt": "2026-01-19T09:03:52.052000+00:00",
+      "description": "Dorian Yates shares how training with weights just two or three times a week can build muscle and improve fitness. He talks about finding your strengths and choosing the right life path. He also discusses his journey, health, psychedelics, and tips for all ages.",
+      "tags": []
+    },
+    {
+      "id": "01kf9g7rt95qyaz8mhq97hm4me",
+      "title": "The Surprisingly Long Life of the Vacuum Tube",
+      "url": "https://www.construction-physics.com/p/the-surprisingly-long-life-of-the",
+      "savedAt": "2026-01-18T21:30:06.025000+00:00",
+      "description": "Vacuum tubes were important electron devices used in early radios, TVs, and computers before transistors existed. They helped create many technologies like X-rays, microwaves, and electronic displays. Even today, vacuum tubes influence science and technology in many ways.",
+      "tags": [
+        "science",
+        "engineering"
+      ]
+    },
     {
       "id": "01kf0ejkjfwa51w3h9wtajm09j",
       "title": "Essentials: Tools to Boost Attention & Memory | Dr. Wendy Suzuki",
@@ -1864,7 +2346,7 @@
       "savedAt": "2025-12-18T06:09:35.273000+00:00",
       "description": "Fear and discomfort often signal where real growth happens.  \nLean into small scary moments and support others when they do the same.  \nAsk yourself what makes you uneasy this week and try doing it.",
       "tags": [
-        "for-later"
+        "self-improvement"
       ]
     },
     {
@@ -7954,7 +8436,7 @@
       "savedAt": "2025-07-27T08:47:09.153000+00:00",
       "description": "Shiri created a program called Scissor to find controversial statements, but it caused big fights among her team. The program revealed hidden conflicts and led to two people being fired for causing trouble. The author warns that such statements can manipulate people and cause serious problems if not handled carefully.",
       "tags": [
-        "for-later"
+        "philosophy"
       ]
     },
     {
