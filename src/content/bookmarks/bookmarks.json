@@ -1,6 +1,104 @@
 {
-  "lastUpdate": "2026-03-23T00:18:02.243Z",
+  "lastUpdate": "2026-04-01T00:20:57.557Z",
   "data": [
+    {
+      "id": "01kn0vz58et5c5d6n4fx2tjj90",
+      "title": "A Tale of Two Bridges",
+      "url": "http://hintjens.com/blog:16?",
+      "savedAt": "2026-03-31T02:36:07.822000+00:00",
+      "description": "Two engineers talked about their biggest bridge projects. The first built a huge, complex bridge in the wrong place that no one used. The second started with a simple rope and, over time, created a bridge that grew a whole town around it.",
+      "tags": [
+        "interesting"
+      ]
+    },
+    {
+      "id": "01kn0bpcva1229fqxgyrwqam9b",
+      "title": "Hypothesis, Antithesis, synthesis",
+      "url": "https://antithesis.com/blog/2026/hegel/",
+      "savedAt": "2026-03-30T21:51:43.466000+00:00",
+      "description": "Hegel is a new family of property-based testing libraries that bring Hypothesis-quality testing to many programming languages. It integrates with Antithesis to find more bugs and improve software quality. Although still early, Hegel aims to make testing easier and more powerful, especially for AI-driven and complex systems.",
+      "tags": [
+        "cs"
+      ]
+    },
+    {
+      "id": "01kn03n3t3fhmr6a6vxcvrj82s",
+      "title": "Mistral: Voxtral TTS, Forge, Leanstral, & what's next for Mistral 4 — w/ Pavan Kumar Reddy & Guillaume Lample",
+      "url": "https://www.latent.space/p/voxtral",
+      "savedAt": "2026-03-30T19:31:09.836000+00:00",
+      "description": "Mistral is one of the world's leading frontier model labs, and has just launched Voxtral TTS, their latest step in their strategy to offer open frontier intelligence for every modality.",
+      "tags": []
+    },
+    {
+      "id": "01kmyx28fxcse4z54dtrr52tz5",
+      "title": "How Hormones Shape Sexual Orientation & Behavior | Dr. Marc Breedlove",
+      "url": "https://www.hubermanlab.com/episode/how-hormones-shape-sexual-orientation-and-behavior-marc-breedlove",
+      "savedAt": "2026-03-30T08:16:46.149000+00:00",
+      "description": "Dr. Marc Breedlove, PhD, is a professor of neuroscience at Michigan State University and an expert on how hormones shape brain development and sexual orientation. We discuss how prenatal testosterone impacts whether someone is romantically attracted to men or women later in life, and what correlates of sexual orientation — such as finger-length ratios — tell us about the role of hormones in brain and psychological development. We also discuss why the number of older brothers a male has biases sexual orientation. Throughout, we explain how nature and nurture interact to shape male-female differences, behavior, and romantic partner choice.\n\nThank you to our sponsors\n\nAG1: https://drinkag1.com/huberman\n\nDavid: https://davidprotein.com/huberman\n\nRorra: https://rorra.com/huberman\n\nFunction: https://functionhealth.com/huberman\n\nTimestamps\n\n(00:00:00) Marc Breedlove\n\n(00:03:24) Hormones & Sexual Orientation\n\n(00:07:37) Prenatal Testosterone, Finger Ratio, Men & Women Differences\n\n(00:14:08) Sponsors: David & Rorra\n\n(00:16:46) Finger Ratios, Prenatal Testosterone, Gay & Straight Men/Women\n\n(00:23:57) Mice & Sex Differences, Androgens\n\n(00:26:54) Brain Differences & Sexual Orientation\n\n(00:33:52) Group vs Individual Differences, Height Analogy; Bisexuality\n\n(00:36:57) Brain Development, Hormones & Behavior; Brain Plasticity\n\n(00:42:52) Sponsor: AG1\n\n(00:44:16) Sexual Behavior, Libido\n\n(00:51:37) Gay Rams, Brain Differences\n\n(00:58:00) Aversion Pathway, Men vs Women, Same-Sex Partner\n\n(01:06:58) Congenital Adrenal Hyperplasia (CAH), Intersex Phenotypes\n\n(01:13:55) Androgen Insensitivity Syndrome (AIS)\n\n(01:18:14) Sponsor: Function\n\n(01:19:25) Gay Men & Older Brothers, Maternal Immunization Hypothesis\n\n(01:32:55) CAH Carriers, Advantage, Stress Tolerance\n\n(01:35:41) Birds & Sexual Differentiation, Gynandromorphs\n\n(01:41:32) Anabolic Steroids, Hypersexuality; Adult Brain Plasticity\n\n(01:45:31) Age & Testosterone Decline; Sexual Orientation & Activities\n\n(01:53:14) Marc's Aca...",
+      "tags": []
+    },
+    {
+      "id": "01kmycc2m31h846bsyn49xa9wn",
+      "title": "Systems Thinking is Brain Rot for Analysts",
+      "url": "https://blundercheck.timberschroff.com/p/systems-thinking-is-brain-rot-for",
+      "savedAt": "2026-03-30T03:25:05.027000+00:00",
+      "description": "Systems thinking can make young analysts overconfident and lead them to misunderstand complex problems. It often narrows their thinking and ignores important details like culture and risks. Instead, analysts should focus on practical skills and clear communication to be truly effective.",
+      "tags": [
+        "systems-theory"
+      ]
+    },
+    {
+      "id": "01kmx1vfhqw6z0gtpjxebc5rza",
+      "title": "The Paxos algorithm, when presented in plain English, is very simple",
+      "url": "https://www.mydistributed.systems/2021/04/paxos.html",
+      "savedAt": "2026-03-29T15:02:01.015000+00:00",
+      "description": "Consensus is a key problem in distributed systems, and Paxos is a popular algorithm to solve it by agreeing on a single value. Paxos works in two phases where proposers gain temporary leadership to get acceptors to agree on a value, ensuring safety even if some nodes fail. Though consensus is impossible under total asynchrony (FLP result), Paxos assumes partial synchrony and uses random delays to avoid conflicts and reach agreement in practice.",
+      "tags": [
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "01kmmjpcaajbc2nn7zxwegv1h5",
+      "title": "Essentials: Using Salt to Optimize Mental & Physical Performance",
+      "url": "https://www.hubermanlab.com/episode/essentials-using-salt-to-optimize-mental-and-physical-performance",
+      "savedAt": "2026-03-26T08:03:06.770000+00:00",
+      "description": "In this Huberman Lab Essentials episode, I explain how salt (sodium) affects mental and physical performance, as well as cellular health. I describe how the brain monitors sodium levels to regulate thirst and fluid balance, and why salt needs can vary depending on activity level, stress, blood pressure, and diet. I also explain how to determine the right sodium intake for your individual needs and discuss why some people may benefit from increasing salt and other electrolytes.\n\nRead the episode show notes at hubermanlab.com.\n\nThank you to our sponsors\n\nAG1: https://drinkag1.com/huberman\n\nFunction: https://functionhealth.com/huberman\n\nLMNT: https://drinklmnt.com/huberman\n\nTimestamps\n\n(00:00:00) Salt\n\n(00:00:37) Brain & Monitoring Salt\n\n(00:02:33) Thirst, Osmotic Thirst & Salt\n\n(00:05:35) Hypovolemic Thirst & Blood Pressure\n\n(00:06:59) Sponsor: Function\n\n(00:08:39) Fluid Balance, Kidney & Urine Regulation\n\n(00:11:53) How Much Salt Do You Need?, Blood Pressure, Dizziness & Postural Syndromes\n\n(00:17:29) Replenish Salt for Performance, Tool: Galpin Equation & Exercise\n\n(00:19:15) Sponsor: LMNT\n\n(00:20:46) Stress & Craving Salt\n\n(00:22:29) Electrolytes: Magnesium & Potassium; Low Carbohydrate Diet\n\n(00:25:19) Salt & Sweet Taste, Sugar Cravings, Processed Foods\n\n(00:29:37) Finding Your Ideal Salt Intake, Tool: Unprocessed Food Diet\n\n(00:31:25) Sponsor: AG1\n\n(00:32:50) Neurons, Salt & Action Potentials; Ingesting Too Much Water\n\n(00:34:51) Recap & Key Takeaways\n\nDisclaimer & Disclosures\nLearn more about your ad choices. Visit megaphone.fm/adchoices",
+      "tags": []
+    },
+    {
+      "id": "01kmgf249kgxt33bv7r6stx5na",
+      "title": "🔬Why There Is No \"AlphaFold for Materials\" — AI for Materials Discovery with Heather Kulik",
+      "url": "https://www.latent.space/p/material",
+      "savedAt": "2026-03-24T17:42:36.739000+00:00",
+      "description": "Materials science uses AI to discover new materials, but it is harder than biology because data is limited and complex. Professor Heather Kulik shows that success needs deep expertise and careful lab work, not just hype. The field needs more high-quality data and curious researchers to solve big challenges.",
+      "tags": []
+    },
+    {
+      "id": "01kmgf2448v5pwgnvrkb4rbgwb",
+      "title": "🔬Why There Is No \"AlphaFold for Materials\" — AI for Materials Discovery with Heather Kulik",
+      "url": "https://www.latent.space/p/materials",
+      "savedAt": "2026-03-24T17:42:39.569000+00:00",
+      "description": "Materials science is complex and lacks large, high-quality datasets like biology, making AI breakthroughs harder. Heather Kulik shows that combining deep domain knowledge with AI can create surprising new materials. Success needs careful experiments, curiosity, and teamwork beyond just hype and models.",
+      "tags": []
+    },
+    {
+      "id": "01kmcvm20086dnhjgtp86z60pd",
+      "title": "The Best Vitality & Health Protocols | Dr. Rhonda Patrick",
+      "url": "https://www.hubermanlab.com/episode/the-best-vitality-and-health-protocols-rhonda-patrick",
+      "savedAt": "2026-03-23T08:05:12.392000+00:00",
+      "description": "Dr. Rhonda Patrick, PhD, is a biomedical scientist and public science educator. She shares the exercise, nutrition, supplementation and lifestyle practices linked to better health and lower disease risk including specific cardio and resistance training routines, when and why to do intermittent fasting, ways to lower visceral fat, omega-3 sourcing, creatine for brain and muscle and peptides such as BPC-157. It’s broad and thorough coverage of how to build a total health program tailored to your goals and individual biology.\n\nRead the show notes at hubermanlab.com.\n\nThank you to our sponsors\n\nAG1: https://drinkag1.com/huberman\n\nOur Place: https://fromourplace.com/huberman\n\nLingo: https://hellolingo.com/huberman\n\nLMNT: https://drinklmnt.com/huberman\n\nFunction: https://functionhealth.com/huberman\n\nMateina: https://drinkmateina.com/huberman\n\nTimestamps\n\n00:00:00 Rhonda Patrick\n\n(00:02:40) Competition, Jumping Rope, Rope Flow\n\n(00:06:49) Rhonda's Exercise Routine, Cardiovascular & Resistance Training\n\n(00:12:30) Cognitive & Physical Benefits of Exercise, Serotonin & Impulse Control\n\n(00:14:40) Sponsors: Our Place & Lingo\n\n(00:17:03) Phones While Training?\n\n(00:18:45) Rhonda's Strength Training, Low-Reps, Modifications, Mental Resilience\n\n(00:27:00) Daily Protein Intake, Intermittent Fasting, Processed Carbohydrates\n\n(00:33:32) Lipopolysaccharide (LPS); Gut Permeability, Gluten; Cardiovascular Health\n\n(00:42:58) Sponsor: AG1\n\n(00:44:21) Tight Junctions, Gut, Neuroinflammation\n\n(00:47:26) L-glutamine, Immune System, Cancer Risk\n\n(00:54:55) N-acetylcysteine (NAC), Vitamin E; Antioxidant Balance, Reductive Stress\n\n(01:00:08) Starch, Tool: Bedtime Fast & Cardiovascular Health\n\n(01:03:36) Cortisol, Intermittent Fasting Benefits\n\n(01:08:09) Cortisol, Train Fasted?; Hormones, Visceral Fat\n\n(01:13:35) Visceral Fat, Perimenopause/Menopause, Insulin Resistance in Brain & Body\n\n(01:21:13) Sponsor: LMNT\n\n(01:22:33) Cortisol & Sleep\n\n(01:25:42) Intermittent Fasting, Metabolic Switch...",
+      "tags": []
+    },
+    {
+      "id": "01kmcj4g0kj36f6ggdb91x3m0e",
+      "title": "You want to do everything?",
+      "url": "https://www.karanjanthe.me/posts/optionality-curse/",
+      "savedAt": "2026-03-23T05:19:28.275000+00:00",
+      "description": "Wanting to do everything leads to starting many things but finishing none. True progress comes from committing and staying with something through the hard, boring parts. Commitment helps you discover what you really enjoy and grow real skills.",
+      "tags": [
+        "self-improvement"
+      ]
+    },
     {
       "id": "01kmbj9ptdygf06m7jwsdhkfbr",
       "title": "My heuristics are wrong. What now?",
@@ -17,7 +115,9 @@
       "url": "https://desmolysium.com/why-some-people-have-endless-energy-and-others-never-will/?utm_source=rss&utm_medium=rss&utm_campaign=why-some-people-have-endless-energy-and-others-never-will&__readwiseLocation=",
       "savedAt": "2026-03-22T17:25:00.329000+00:00",
       "description": "Genetics play a major role in determining a person's energy, mood, and motivation. Even with perfect lifestyle choices, some people have limits set by their genes. Lifestyle and treatments help, but they cannot fully overcome genetic differences in vitality.",
-      "tags": []
+      "tags": [
+        "biohack"
+      ]
     },
     {
       "id": "01km6h5p1db9c6r9fr240g8ab2",
