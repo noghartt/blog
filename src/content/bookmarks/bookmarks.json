@@ -1,6 +1,90 @@
 {
-  "lastUpdate": "2026-04-01T00:20:57.557Z",
+  "lastUpdate": "2026-04-05T00:18:29.018Z",
   "data": [
+    {
+      "id": "01knde409ctpaam0e6bwvvva6p",
+      "title": "Operating Systems: Three Easy Pieces",
+      "url": "https://pages.cs.wisc.edu/~remzi/OSTEP/",
+      "savedAt": "2026-04-04T23:44:14.124000+00:00",
+      "description": "\"Operating Systems: Three Easy Pieces\" is a free online book that covers the basics of operating systems, focusing on virtualization, concurrency, and persistence. It provides practical insights on how operating systems manage tasks like CPU scheduling and memory management. While the book is available for free as a PDF, there are also print and digital versions for purchase.",
+      "tags": [
+        "cs/operating-system"
+      ]
+    },
+    {
+      "id": "01knde3kgb102knv127bckpjsr",
+      "title": "OSTEP Chapter 13: The Abstraction of Address Spaces",
+      "url": "https://muratbuffalo.blogspot.com/2026/03/ostep-chapter-13-abstraction-of-address.html?__readwiseLocation=",
+      "savedAt": "2026-04-04T23:44:01.034000+00:00",
+      "description": "Modern operating systems use virtual memory to give each program its own protected address space, improving efficiency and security. Early computers ran one program at a time, but multiprogramming and time sharing let many programs run quickly by switching between them. Today, GPUs and AI systems face new memory challenges, using advanced techniques to handle huge data fast without running out of memory.",
+      "tags": [
+        "hardware",
+        "cs/operating-system"
+      ]
+    },
+    {
+      "id": "01knaby7rh9tgpevdq811pzwd7",
+      "title": "Legacy PC design misery",
+      "url": "https://mjg59.livejournal.com/118098.html?__readwiseLocation",
+      "savedAt": "2026-04-03T19:08:24.721000+00:00",
+      "description": "I've spent chunks of the last couple of days fighting a problem that's existed for about 25 years. The 8086 was a 16-bit processor with a 20-bit address space, limiting the maximum physical address that could be accessed to 1MB. However, quirks of the segmented memory system meant that addresses…",
+      "tags": [
+        "hardware",
+        "computer-history"
+      ]
+    },
+    {
+      "id": "01kna4smec7850vdxa02tt0mp0",
+      "title": "Marc Andreessen introspects on The Death of the Browser, Pi + OpenClaw, and Why \"This Time Is Different\"",
+      "url": "https://www.latent.space/p/pmarca",
+      "savedAt": "2026-04-03T17:03:30.836000+00:00",
+      "description": "The legend needs no intro... if you pardon our pun",
+      "tags": []
+    },
+    {
+      "id": "01kna3q2jccjn7cbkyw2w8sdcj",
+      "title": "Nobody Is Coming to Save Your Career",
+      "url": "https://alifeengineered.substack.com/p/nobody-is-coming-to-save-your-career?__readwiseLocation=",
+      "savedAt": "2026-04-03T16:44:41.420000+00:00",
+      "description": "Your career growth is your responsibility, not your manager's. You must speak up, set clear goals, and seek challenges beyond your comfort zone. Waiting for opportunities to come to you leads to stagnation, so take charge and act now.",
+      "tags": [
+        "career"
+      ]
+    },
+    {
+      "id": "01kn7pkaq8yvbgafr0aw2870yr",
+      "title": "Moonlake: Causal World Models should be Multimodal, Interactive, and Efficient — with Chris Manning and Fan-yun Sun",
+      "url": "https://www.latent.space/p/moonlake",
+      "savedAt": "2026-04-02T18:16:55.345000+00:00",
+      "description": "We cap out our World Models coverage with one of the most exciting new approaches - long running, multiplayer, interactive world models built with agents bootstrapped from game engines!",
+      "tags": []
+    },
+    {
+      "id": "01kn6m9xthkbpn534rakgz2tfc",
+      "title": "Essentials: How to Build Strength, Muscle Size & Endurance | Dr. Andy Galpin",
+      "url": "https://www.hubermanlab.com/episode/essentials-how-to-build-strength-muscle-size-and-endurance-andy-galpin",
+      "savedAt": "2026-04-02T08:17:35.642000+00:00",
+      "description": "In this Huberman Lab Essentials episode, my guest is Dr. Andy Galpin, PhD, Executive Director of the Human Performance Center at Parker University and an expert in building strength and muscle size (hypertrophy). We cover the core principles and protocols for building strength and muscle, including science-based guidance on reps, sets, frequency and rest intervals. We also discuss how breathing and mental focus can enhance training and how post-workout downregulation can speed recovery.\n\nRead the show notes at hubermanlab.com.\n\nSubscribe to Perform with Dr. Andy Galpin at performpodcast.com.\n\nThank you to our sponsors\n\nAG1: https://drinkag1.com/huberman\n\nLMNT: https://drinklmnt.com/huberman\n\nEight Sleep: https://eightsleep.com/huberman\n\nTimestamps\n\n(00:00:00) Andy Galpin\n\n(00:00:39) 9 Exercise Adaptations; Progressive Overload\n\n(00:03:53) Progressive Overload, One-Rep Max, Soreness, Tool: Modifiable Variables\n\n(00:08:39) Sponsor: LMNT\n\n(00:10:12) Full-Body Workout, Exercise Selection\n\n(00:12:44) Training Intensity, Repetitions, Sets, Rest Intervals, Supersets\n\n(00:16:24) Sponsor: AG1\n\n(00:17:48) Hypertrophy vs Strength Training Recovery\n\n(00:20:03) Training Volume & Frequency for Hypertrophy\n\n(00:21:56) Hypertrophy Rep Ranges, Frequency & Recovery; Cell Mechanisms\n\n(00:25:28) Sponsor: Eight Sleep\n\n(00:26:46) Tool: 3 x 5 Protocol; Power vs Strength\n\n(00:28:23) Mental Awareness in Training; Mind-Muscle Connection\n\n(00:31:25) Activating Muscle Groups, Awareness, Tool: Eccentric Overload\n\n(00:33:40) Perform Podcast: Season 3\n\n(00:34:04) Tool: Resistance Training Breathing & Post-Training\n\n(00:38:20) Acknowledgments\n\nDisclaimer & Disclosures\nLearn more about your ad choices. Visit megaphone.fm/adchoices",
+      "tags": []
+    },
+    {
+      "id": "01kn4zbvqnbvbzrj489gwdyjgh",
+      "title": "Scaling Uber with Thuan Pham (Uber’s first CTO)",
+      "url": "https://newsletter.pragmaticengineer.com/p/scaling-uber-with-thuan-pham-ubers",
+      "savedAt": "2026-04-01T16:52:24.509000+00:00",
+      "description": "Thuan Pham, Uber’s first CTO, helped scale the company by moving from a fragile monolith to microservices and reorganizing teams for faster work. He emphasized building skilled teams and planning for the future to handle rapid growth. Today, he leads Faire and explores how AI can boost software engineering productivity.",
+      "tags": []
+    },
+    {
+      "id": "01kn3r6h676ka3zz3mw2cknnza",
+      "title": "What Genetic Tests Told Me About My Health & Longevity",
+      "url": "https://desmolysium.com/genetictests/",
+      "savedAt": "2026-04-01T05:27:58.407000+00:00",
+      "description": "The author tested their genes and found many good ones linked to long life and low risk of diseases like dementia, heart problems, and cancer. They also discovered some risks, like a gene increasing blood clot chances, and adjusted their diet and supplements accordingly. Overall, genetics play a big role in health, but lifestyle and medical advice remain important.",
+      "tags": [
+        "biohack"
+      ]
+    },
     {
       "id": "01kn0vz58et5c5d6n4fx2tjj90",
       "title": "A Tale of Two Bridges",
@@ -19120,7 +19204,7 @@
       "id": "01jbep8496wsgzggwnsbn779g0",
       "title": "time-clocks",
       "url": "https://lamport.azurewebsites.net/pubs/time-clocks.pdf",
-      "savedAt": "2024-07-10T22:07:33.662000+00:00",
+      "savedAt": "2026-04-04T01:25:50.824000+00:00",
       "description": null,
       "tags": [
         "for-later",
