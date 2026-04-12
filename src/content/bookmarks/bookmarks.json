@@ -1,6 +1,642 @@
 {
-  "lastUpdate": "2026-04-01T00:20:57.557Z",
+  "lastUpdate": "2026-04-12T00:21:00.092Z",
   "data": [
+    {
+      "id": "01knrm7fwxkc0nbrvzkm198han",
+      "title": "Essentials: The Biology of Aggression, Mating & Arousal | Dr. David Anderson",
+      "url": "https://www.hubermanlab.com/episode/essentials-the-biology-of-aggression-mating-and-arousal-david-anderson",
+      "savedAt": "2026-04-09T08:02:35.622000+00:00",
+      "description": "Dr. David Anderson explains how brain circuits control emotions like fear and aggression. Hormones also affect these feelings and behaviors. Understanding this can help improve mental health treatments.",
+      "tags": []
+    },
+    {
+      "id": "01knq1n9s9zj3pe6qzpwt7zfbt",
+      "title": "DHH’s new way of writing code",
+      "url": "https://newsletter.pragmaticengineer.com/p/dhhs-new-way-of-writing-code",
+      "savedAt": "2026-04-08T17:18:50.737000+00:00",
+      "description": "David Heinemeier Hansson now uses AI agents first to build software faster and explore new ideas. He finds AI helps senior engineers most, while designers play a big role in product creation. This new AI approach changes how software is made and who makes it.",
+      "tags": []
+    },
+    {
+      "id": "01knmf4qxbxn0xa3fnf3dqt4yj",
+      "title": "Extreme Harness Engineering: 1M LOC, 1B toks/day, 0% human code, 0% human review — Ryan Lopopolo, OpenAI Frontier & Symphony",
+      "url": "https://www.latent.space/p/harness-eng",
+      "savedAt": "2026-04-07T17:16:44.915000+00:00",
+      "description": "We shed light on OpenAI's first Dark Factory for the first time.",
+      "tags": []
+    },
+    {
+      "id": "01knksy0nezbdpn74p45xkv55h",
+      "title": "Best Paper Awards in Computer Science",
+      "url": "https://jeffhuang.com/best_paper_awards/?__readwiseLocation=",
+      "savedAt": "2026-04-07T11:06:07.406000+00:00",
+      "description": "This is a collection of best paper awards from conferences in each computer science subfield, starting from 1996.",
+      "tags": []
+    },
+    {
+      "id": "01knksxepg4brc35y55qccw06b",
+      "title": "Building a Dry-Run Mode for the OpenTelemetry Collector",
+      "url": "https://simme.dev/posts/building-a-dry-run-mode-for-the-opentelemetry-collector/",
+      "savedAt": "2026-04-07T11:05:49.008000+00:00",
+      "description": "Signal Studio is a tool that helps teams safely test changes to OpenTelemetry Collector pipelines without risking live data. It analyzes configurations, uses live metrics, and samples telemetry to predict filter effects before applying them. This approach reduces costs and noise while keeping production systems safe.",
+      "tags": []
+    },
+    {
+      "id": "01knksx8fcx33n3n1m3ejb0dhy",
+      "title": "AI agents keep failing. The fix is 40 years old.",
+      "url": "https://cyrusradfar.com/thoughts/functional-programming-is-the-only-way-to-scale-with-ai",
+      "savedAt": "2026-04-07T11:05:42.636000+00:00",
+      "description": "AI agents fail because most code is complex and full of hidden state that agents cannot see. Writing simple, pure functions with clear inputs and outputs, a method called SUPER, helps agents work reliably. Combining this with a structured process called SPIRALS prevents mistakes and makes AI coding safer and faster.",
+      "tags": []
+    },
+    {
+      "id": "01knksx5kptyk7tbc0e5z2m779",
+      "title": "A tail-call interpreter in (nightly) Rust",
+      "url": "https://www.mattkeeter.com/blog/2026-04-05-tailcall/",
+      "savedAt": "2026-04-07T11:05:39.702000+00:00",
+      "description": "The author created a tail-call interpreter in Rust using the new nightly feature \"become\" to optimize function calls without adding to the stack. This approach lets the CPU state stay in registers and makes opcode dispatch faster, similar to hand-written assembly but easier to maintain. Benchmarks show this Rust implementation outperforms even the author's hand-coded assembly on an M1 MacBook.",
+      "tags": []
+    },
+    {
+      "id": "01knksx2s5w4chb43tz2vpjsk0",
+      "title": "If you thought the speed of writing code was your problem - you have bigger problems",
+      "url": "https://andrewmurphy.io/blog/if-you-thought-the-speed-of-writing-code-was-your-problem-you-have-bigger-problems",
+      "savedAt": "2026-04-07T11:05:36.805000+00:00",
+      "description": "Writing code faster does not make software delivery faster if other steps are slow. The real problem is delays in review, testing, and deployment, plus unclear requirements. To improve, fix the slowest step and focus on getting features into users' hands quickly.",
+      "tags": []
+    },
+    {
+      "id": "01knkswxwzmy262dhhhe43y6vx",
+      "title": "Shooting Down Ideas Is Not a Skill",
+      "url": "https://scottlawsonbc.com/post/shooting-down-ideas?__readwiseLocation=",
+      "savedAt": "2026-04-07T11:05:31.807000+00:00",
+      "description": "Ideas need time and care to grow, not quick judgments that stop them early. Finding problems is easy, but offering solutions is what truly helps. Focus first on the potential good, then carefully check risks before deciding.",
+      "tags": [
+        "career",
+        "engineering"
+      ]
+    },
+    {
+      "id": "01knkswm15zvs1bgfhfgrq9e6z",
+      "title": "Many Great Inventions Weren’t Made by “Serendipity”",
+      "url": "https://nikomc.com/2026/04/01/optogenetics-serendipity/",
+      "savedAt": "2026-04-07T11:05:21.701000+00:00",
+      "description": "Many great inventions, like optogenetics, were not accidents but results of careful planning and exploration. Inventors made lists of possible solutions and tested ideas systematically to find the best one. This approach, called \"engineered serendipity,\" can help us create new technologies and should be taught more widely.",
+      "tags": []
+    },
+    {
+      "id": "01knkswfx0ep6f71y18853j52s",
+      "title": "Thoughts on slowing the fuck down",
+      "url": "https://mariozechner.at/posts/2026-03-25-thoughts-on-slowing-the-fuck-down/",
+      "savedAt": "2026-04-07T11:05:17.472000+00:00",
+      "description": "Using AI agents to write lots of code fast often creates messy, buggy software that's hard to maintain. These agents work best on small, well-defined tasks where humans check their work carefully. To build good software, we should slow down, stay involved, and focus on quality over quantity.",
+      "tags": []
+    },
+    {
+      "id": "01knkswdfbtr8g68437265kaav",
+      "title": "Neural network training makes beautiful fractals",
+      "url": "https://sohl-dickstein.github.io/2024/02/12/fractal.html",
+      "savedAt": "2026-04-07T11:05:14.987000+00:00",
+      "description": "This blog is intended to be a place to share ideas and results that are too weird, incomplete, or off-topic to turn into an academic paper, but that I think may be important. Let me know what you think! Contact links to the left.",
+      "tags": []
+    },
+    {
+      "id": "01knkswb0jayt9pz9bj8jn5vqy",
+      "title": "The Second-System Pit of Failure",
+      "url": "https://queue.acm.org/detail.cfm?ref=rss&id=3799736&__readwiseLocation=",
+      "savedAt": "2026-04-07T11:05:12.466000+00:00",
+      "description": "The old LMS was a limited, single-customer system built on outdated technology that was hard to update. The new LMS was designed as a simple, flexible system using abstractions to support old and new features without added complexity. This approach helped create a stable, scalable product while avoiding the common problems of second-system overreach.",
+      "tags": []
+    },
+    {
+      "id": "01knksvvapt3ff2gh751bfehzx",
+      "title": "Absurd In Production",
+      "url": "https://lucumr.pocoo.org/2026/4/4/absurd-in-production/?__readwiseLocation=",
+      "savedAt": "2026-04-07T11:04:56.406000+00:00",
+      "description": "Absurd is a durable task execution system built entirely inside Postgres that simplifies workflow management without extra services. It has proven reliable and easy to use in production, with features like task checkpoints, retries, and a helpful CLI tool. While minimal and effective, it still lacks built-in scheduling, push support, and partitioning, which are areas for future improvement.",
+      "tags": []
+    },
+    {
+      "id": "01knksteefhy73ppdt15zw2t9f",
+      "title": "Understanding LLMs from Scratch Using Middle School Math",
+      "url": "https://medium.com/data-science/understanding-llms-from-scratch-using-middle-school-math-e602d27ec876",
+      "savedAt": "2026-04-07T11:04:10.447000+00:00",
+      "description": "In this article, we talk about how LLMs work, from scratch — assuming only that you know how to add and multiply two numbers. The article…",
+      "tags": []
+    },
+    {
+      "id": "01knkstbnse3zw1tn8k96ab2vy",
+      "title": "Escape Routes",
+      "url": "https://queue.acm.org/detail.cfm?ref=rss&id=3799735&__readwiseLocation=",
+      "savedAt": "2026-04-07T11:04:07.608000+00:00",
+      "description": "Good API design is important and needs careful thought to make code safe and clear. Using a single, open escape function like ioctl() without type checking is risky and lazy. Always create specific, well-defined APIs to avoid problems and protect your software.",
+      "tags": []
+    },
+    {
+      "id": "01knkst9edfa4z92s0ebywfthr",
+      "title": "Why Lean?",
+      "url": "https://leodemoura.github.io/blog/2026-4-2-why-lean/?__readwiseLocation=",
+      "savedAt": "2026-04-07T11:04:05.325000+00:00",
+      "description": "Lean is a powerful tool that combines programming, proving, and automation in one system. It grows quickly, stays reliable with a small trusted core, and adapts based on user needs. However, it breaks old code to improve and focuses on usefulness over simplicity.",
+      "tags": []
+    },
+    {
+      "id": "01knkst7319hv1ndj7bxr4kfhk",
+      "title": "Reactivity reading",
+      "url": "https://milomg.dev/2023-09-01/links?__readwiseLocation=",
+      "savedAt": "2026-04-07T11:04:02.913000+00:00",
+      "description": "Self-adjusting computation is a framework for incremental computation, where the goal is to efficiently recompute a program's output across changes to its input by reusing unchanged intermediate results.",
+      "tags": []
+    },
+    {
+      "id": "01knkssyfwh73xd5fn0r8eyrhk",
+      "title": "Why Nobody Can Verify What Booted Your Server",
+      "url": "https://unmitigatedrisk.com/?p=1231&__readwiseLocation=",
+      "savedAt": "2026-04-07T11:03:54.108000+00:00",
+      "description": "Trusted Platform Modules (TPMs) measure what boots your server, but no public database exists to verify these measurements at scale. Companies rely on event logs and build their own reference data because firmware details are often proprietary or missing. To fix this, vendors need to publish signed reference values and create shared tools so attestation can work reliably for everyone.",
+      "tags": []
+    },
+    {
+      "id": "01knksstwf73sydeyg488m2yym",
+      "title": "Making a Type Checker/LSP for Nix",
+      "url": "https://johns.codes/blog/making-a-type-checker-lsp-for-nix?__readwiseLocation=",
+      "savedAt": "2026-04-07T11:03:50.414000+00:00",
+      "description": "Tix is a fast type checker and language server for Nix that provides type errors, autocomplete, and jump-to-definition features. It uses advanced type inference with union and negation types and supports stub files to type large Nixpkgs and modules. Tix aims to improve Nix coding by combining strong typing with good performance and usability.",
+      "tags": []
+    },
+    {
+      "id": "01knkssnna58nb3rp9yqex2qpy",
+      "title": "Ideas for math tools",
+      "url": "https://buttondown.com/j2kun/archive/ideas-for-math-tools/?__readwiseLocation=",
+      "savedAt": "2026-04-07T11:03:45.066000+00:00",
+      "description": "Ideas for math tools Mathematicians have some great software available. Even domain-specific systems like Macaulay2, a programming language for commutative...",
+      "tags": []
+    },
+    {
+      "id": "01knksskg5vk0n4xxeqpgb4amq",
+      "title": "Information and Technological Evolution",
+      "url": "https://www.construction-physics.com/p/information-and-technological-evolution?__readwiseLocation=",
+      "savedAt": "2026-04-07T11:03:42.852000+00:00",
+      "description": "I spend a lot of time reading about the nature of technological progress, and I’ve found that the literature on technology is somewhat uneven.",
+      "tags": []
+    },
+    {
+      "id": "01knksshezcqr8d7mp7yrgrah4",
+      "title": "Marc Andreessen is wrong about introspection",
+      "url": "https://www.joanwestenberg.com/marc-andreessen-is-wrong-about-introspection/?__readwiseLocation=",
+      "savedAt": "2026-04-07T11:03:40.767000+00:00",
+      "description": "Marc Andreessen wrongly claims introspection is a modern invention by Freud, ignoring centuries of philosophical tradition. Introspection helps us understand what makes life meaningful, which cannot be measured by external success alone. Rejecting self-examination limits our understanding of human flourishing and oversimplifies how we live well.",
+      "tags": []
+    },
+    {
+      "id": "01knkssex658x72bh3zy2a52wh",
+      "title": "When Did Poor People Get Fat?",
+      "url": "https://www.cremieux.xyz/p/when-did-poor-people-get-fat?utm_source=%2Finbox&utm_medium=reader2",
+      "savedAt": "2026-04-07T11:03:38.150000+00:00",
+      "description": "Are poor people fat because of the welfare state? Probably not",
+      "tags": []
+    },
+    {
+      "id": "01knkssbxvx5n9g47j1k0jhfb6",
+      "title": "Salarymen, specialists, and small businesses",
+      "url": "https://www.noahpinion.blog/p/salarymen-specialists-and-small-businesses?utm_source=%2Finbox&utm_medium=reader2",
+      "savedAt": "2026-04-07T11:03:35.099000+00:00",
+      "description": "Some brief thoughts on the (near) future of work.",
+      "tags": []
+    },
+    {
+      "id": "01knkss87zwr227dd6e20w1hg6",
+      "title": "How citations ruined science",
+      "url": "https://davidoks.blog/p/how-citations-ruined-science?r=2b6tn3&utm_medium=ios&triedRedirect=true",
+      "savedAt": "2026-04-07T11:03:31.327000+00:00",
+      "description": "The making and breaking of scientific life",
+      "tags": []
+    },
+    {
+      "id": "01knkss4jd4hhdqr5cr81hmbtv",
+      "title": "Attention is all we have",
+      "url": "https://davidbessis.substack.com/p/attention-is-all-we-have",
+      "savedAt": "2026-04-07T11:03:27.565000+00:00",
+      "description": "A conjectural theory of cognitive inequality",
+      "tags": []
+    },
+    {
+      "id": "01knksryg8008cpjkhvn92xf2m",
+      "title": "Analyzing round trip query latency",
+      "url": "https://www.datadoghq.com/blog/analyzing-roundtrip-query-latency/?__readwiseLocation=",
+      "savedAt": "2026-04-07T11:03:21.352000+00:00",
+      "description": "Round trip query latency includes time spent both inside and outside the database, like in connection pools and proxies. Datadog helps break down this latency to find if delays come from the database or other parts of the system. This helps engineers fix the real cause without wasting time on wrong solutions.",
+      "tags": []
+    },
+    {
+      "id": "01knksrtzkdhad92vh4sbptrq8",
+      "title": "What Category Theory Teaches Us About DataFrames",
+      "url": "https://mchav.github.io/what-category-theory-teaches-us-about-dataframes/?__readwiseLocation=",
+      "savedAt": "2026-04-07T11:03:17.747000+00:00",
+      "description": "Every dataframe library ships with hundreds of operations. pandas alone has over 200 methods on a DataFrame. Is pivot different from melt? Is apply different from map? What about transform, agg, applymap, pipe? Some of these seem like the same operation wearing different hats. Others seem genuinely distinct. Without a framework for telling them apart, you end up memorizing APIs instead of understanding structure.\n\n",
+      "tags": []
+    },
+    {
+      "id": "01knksrq9xer806c13yzwjz0n0",
+      "title": "A sea of sparks: Seeing radioactivity",
+      "url": "https://maurycyz.com/projects/spinthariscope/?__readwiseLocation=",
+      "savedAt": "2026-04-07T11:03:13.981000+00:00",
+      "description": "To see scintillation, I put an alpha source within a few millimeters of the screen, and turned off the lights.",
+      "tags": []
+    },
+    {
+      "id": "01knksrhymwjej8khhktk6xnkq",
+      "title": "Introducing PostTrainBench",
+      "url": "https://posttrainbench.thoughtfullab.com/",
+      "savedAt": "2026-04-07T11:03:08.500000+00:00",
+      "description": "PostTrainBench is a benchmark that tests how well AI agents can post-train language models on their own. It measures if agents can build training pipelines, find data, and improve models without human help, using limited time and resources. Results show agents are improving fast but still lag behind expert humans in general post-training tasks.",
+      "tags": []
+    },
+    {
+      "id": "01knksqt49w451w8wt3kj2dcec",
+      "title": "We Built It With Slide Rules. Then We Forgot How.",
+      "url": "https://unmitigatedrisk.com/?p=1227&__readwiseLocation=",
+      "savedAt": "2026-04-07T11:02:44.105000+00:00",
+      "description": "The article warns that we have lost the hands-on knowledge and simple problem-solving mindset that helped early space engineers succeed. It shows how complexity and forgotten lessons make current space efforts fragile and hard to understand. The key message is to keep things simple, build in backups, and never stop asking basic questions to truly understand what we build.",
+      "tags": []
+    },
+    {
+      "id": "01knksqp3vfva682ptrmmvwqtz",
+      "title": "When AI Writes the World's Software, Who Verifies It?",
+      "url": "https://leodemoura.github.io/blog/2026-2-28-when-ai-writes-the-worlds-software-who-verifies-it/",
+      "savedAt": "2026-04-07T11:02:39.994000+00:00",
+      "description": "AI will create most software soon, but much of it is not secure or verified. Verification through formal proofs is the key to making AI-generated code trustworthy and safe. Building strong verification platforms will help ensure AI-written software is reliable and widely accepted.",
+      "tags": []
+    },
+    {
+      "id": "01knksqkqy1g4rev74sd03mf59",
+      "title": "Every layer of review makes you 10x slower",
+      "url": "https://apenwarr.ca/log/20260316",
+      "savedAt": "2026-04-07T11:02:37.566000+00:00",
+      "description": "Every extra layer of review slows down work by ten times, making projects take much longer. To go faster, teams must reduce reviews but also build quality into the whole process from the start. AI speeds up coding, but without changing how we ensure quality, slow reviews will still hold progress back.",
+      "tags": []
+    },
+    {
+      "id": "01knksqgx98kqzm7kmfgvcgnbf",
+      "title": "Working on products people hate",
+      "url": "https://www.seangoedecke.com/working-on-products-people-hate/",
+      "savedAt": "2026-04-07T11:02:34.665000+00:00",
+      "description": "Many engineers work on products that users dislike, but this is often due to company decisions, not individual skill. It can be hard emotionally, but such products usually still provide value and impact many users. Good engineers find a balance between company needs and user wishes, even when the product is unpopular.",
+      "tags": []
+    },
+    {
+      "id": "01knksqe9s5yfsxx5ve59cyft2",
+      "title": "The Org Chart Math Behind AI-Native Speed",
+      "url": "https://tomtunguz.com/communication-tax-small-orgs/",
+      "savedAt": "2026-04-07T11:02:31.993000+00:00",
+      "description": "AI-native teams are much faster because they have fewer people and far less communication overhead. Using AI, one engineer can be 30 times more productive than traditional engineers. This lets small AI-driven teams move quickly and outpace larger traditional companies.",
+      "tags": []
+    },
+    {
+      "id": "01knksqbv0k495tc0dg3t0z9s9",
+      "title": "A fighting retreat",
+      "url": "https://antithesis.com/blog/2026/carcinization/",
+      "savedAt": "2026-04-07T11:02:29.472000+00:00",
+      "description": "Growing a company from small to large often changes its culture and makes it more like other big companies. To keep our special, high-trust culture, we must focus on our mission and avoid adding too many rules or copying others blindly. While some change is inevitable, we want to stay true to our values as long as we can during growth.",
+      "tags": []
+    },
+    {
+      "id": "01knksq8jftk0fh9fg1d5kwkv4",
+      "title": "Redis Patterns for Coding Agents",
+      "url": "https://redis.antirez.com/",
+      "savedAt": "2026-04-07T11:02:26.127000+00:00",
+      "description": "This document explains key design and usage patterns for Redis, a fast in-memory database. It covers fundamental techniques like caching, locking, and message queues, plus community and production best practices. The guide helps developers and AI agents build reliable, efficient Redis-based systems.",
+      "tags": []
+    },
+    {
+      "id": "01knksq6dbcd3kw73879g56agq",
+      "title": "Measuring AI Ability to Complete Long Software Tasks",
+      "url": "https://muratbuffalo.blogspot.com/2026/03/measuring-ai-ability-to-complete-long.html?__readwiseLocation=",
+      "savedAt": "2026-04-07T11:02:23.915000+00:00",
+      "description": "Researchers measured AI's ability to complete software tasks by how long humans take to do them, finding AI can now handle tasks taking humans up to 110 minutes and may reach month-long tasks by 2029. However, AI is less reliable on complex or messy projects and works best on well-structured coding challenges. This progress could greatly speed up software development but also create new challenges in managing faster, more complex systems and change how engineering teams are organized.",
+      "tags": []
+    },
+    {
+      "id": "01knksq4fb4yvhc99wyxba3wdy",
+      "title": "Learn Something Old Every Day, Part XVIII: How Does FPU Detection Work?",
+      "url": "https://www.os2museum.com/wp/learn-something-old-every-day-part-xviii-how-does-fpu-detection-work/?__readwiseLocation=",
+      "savedAt": "2026-04-07T11:02:21.931000+00:00",
+      "description": "While investigating a bug related to a program using floating-point math on a 386SX system with no FPU, I started pondering how exactly FPU detection works on 286 and newer CPUs.",
+      "tags": []
+    },
+    {
+      "id": "01knksq2a50cvk7pr8b0x5jevk",
+      "title": "Linux is an interpreter",
+      "url": "https://astrid.tech/2026/03/28/0/linux-is-an-interpreter/?__readwiseLocation=",
+      "savedAt": "2026-04-07T11:02:19.717000+00:00",
+      "description": "Linux runs programs by interpreting them through layers, like shell scripts, ELF binaries, and the kernel itself. This malware uses a loop where the Linux kernel repeatedly loads and runs itself via kexec, creating a recursive interpreter. Ultimately, Linux acts like an interpreter for its own initrd files, showing how programs can interpret other programs endlessly.",
+      "tags": []
+    },
+    {
+      "id": "01knkspsy9cnsawrdmp3cs4y4k",
+      "title": "Building a guitar trainer with embedded Rust",
+      "url": "https://blog.orhun.dev/introducing-tuitar/?__readwiseLocation=",
+      "savedAt": "2026-04-07T11:02:11.144000+00:00",
+      "description": "The author started playing guitar again and built a simple guitar tuner using Rust on an ESP32 device. They faced challenges like limited memory and firmware crashes during development. Despite difficulties, the project lets users see played notes in real-time and aids guitar practice.",
+      "tags": []
+    },
+    {
+      "id": "01knkspqk7qtfqppp5n19twqtj",
+      "title": "What about juniors?",
+      "url": "https://brooker.co.za/blog/2026/03/25/ic-junior.html?__readwiseLocation=",
+      "savedAt": "2026-04-07T11:02:08.743000+00:00",
+      "description": "Junior software engineers should learn to solve real problems by understanding customers, economics, and technology early in their careers. They need to take ownership of projects and engage deeply with both theory and practice. Those willing to expand their skills will find strong career opportunities in software engineering’s growing impact.",
+      "tags": []
+    },
+    {
+      "id": "01knkspm9nghfeg0a3qxnye6pm",
+      "title": "Hold on to Your Hardware",
+      "url": "https://xn--gckvb8fzb.com/hold-on-to-your-hardware/?__readwiseLocation=",
+      "savedAt": "2026-04-07T11:02:05.364000+00:00",
+      "description": "Computer parts like RAM and storage are getting more expensive and harder to find because companies focus on data centers and AI, not everyday users. This means owning a powerful, affordable computer is becoming rare, and new devices may be costly or limited. In the future, people might only rent computing power from the cloud instead of owning their own machines.",
+      "tags": []
+    },
+    {
+      "id": "01knksph4sgkemr1363vq5sk98",
+      "title": "The Age of the Amplifier",
+      "url": "https://www.construction-physics.com/p/the-age-of-the-amplifier?__readwiseLocation=",
+      "savedAt": "2026-04-07T11:02:02.137000+00:00",
+      "description": "AT&T developed many important technologies like the vacuum tube, transistor, and laser by trying to build better amplifiers for signals. These amplifiers helped improve how information is processed and transmitted over long distances. Amplifiers are valuable because they boost signals and enable new ways to handle information in many fields.",
+      "tags": []
+    },
+    {
+      "id": "01knkspe8130rhpnpavczndam5",
+      "title": "From zero to a RAG system: successes and failures",
+      "url": "https://en.andros.dev/blog/aa31d744/from-zero-to-a-rag-system-successes-and-failures/",
+      "savedAt": "2026-04-07T11:01:59.169000+00:00",
+      "description": "The author built a RAG system to index and query large document collections but faced issues with huge, unhelpful files and machine crashes. They improved the process by batching files, adding checkpoints, and using ChromaDB to handle 451GB of data without losing progress. Despite this, indexing was slow due to GPU limits, and managing storage remained a challenge.",
+      "tags": []
+    },
+    {
+      "id": "01knkspc0bz60f99g23fvvm3nm",
+      "title": "TurboQuant: Redefining AI efficiency with extreme compression",
+      "url": "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/",
+      "savedAt": "2026-04-07T11:01:56.875000+00:00",
+      "description": "TurboQuant is a new compression method that shrinks large AI models without losing accuracy. It uses smart math tricks called PolarQuant and QJL to save memory and speed up data processing. This makes AI tasks like search and language understanding much faster and more efficient.",
+      "tags": []
+    },
+    {
+      "id": "01knksp6sxx5d8a1nv9rj70aft",
+      "title": "How Writing Changes Mathematical Thought | Quanta Magazine",
+      "url": "https://www.quantamagazine.org/how-writing-changes-mathematical-thought-20260325/?__readwiseLocation=",
+      "savedAt": "2026-04-07T11:01:51.549000+00:00",
+      "description": "Mathematical notation shapes how people do and understand math in everyday life. Different symbols, like Roman numerals or calculus signs, change what math can express and how easily it can be used. Writing math down is a key tool that helps ideas grow and spread in the real world.",
+      "tags": []
+    },
+    {
+      "id": "01knksp0g4r9bc4kgmp98rq3hg",
+      "title": "In Math, Rigor Is Vital. But Are Digitized Proofs Taking It Too Far? | Quanta Magazine",
+      "url": "https://www.quantamagazine.org/in-math-rigor-is-vital-but-are-digitized-proofs-taking-it-too-far-20260325/?__readwiseLocation=",
+      "savedAt": "2026-04-07T11:01:45.092000+00:00",
+      "description": "Mathematicians are using a computer program called Lean to make all proofs very precise and rigorous. Some worry this focus on formalization might limit creativity and change how math is done. Still, Lean could help find new math and ensure future proofs are correct with the help of AI.",
+      "tags": []
+    },
+    {
+      "id": "01knksnw6ybpaa034r38dkp7mt",
+      "title": "On Typing and Keyboards",
+      "url": "https://lzon.ca/posts/series/grateful/typing-and-keyboards/?__readwiseLocation=",
+      "savedAt": "2026-04-07T11:01:40.701000+00:00",
+      "description": "The author learned to type in elementary school and grew to love it over time. They enjoy using mechanical keyboards and recently upgraded to a new one with custom keycaps. Typing is a valuable skill that helps the author work quickly and effectively.",
+      "tags": []
+    },
+    {
+      "id": "01knksnsnpg1tx9fhrpq7mr0fx",
+      "title": "Navigating AI: Critical Thinking in the Age of LLMs",
+      "url": "https://mcuoneclipse.com/2025/12/31/navigating-ai-critical-thinking-in-the-age-of-llms/?__readwiseLocation=",
+      "savedAt": "2026-04-07T11:01:38.102000+00:00",
+      "description": "AI tools like large language models help with coding but need careful human review and critical thinking. Education must adapt by teaching students how to learn and think deeply, not just rely on AI. Using AI well means engineers stay responsible and do not blindly trust machine-generated work.",
+      "tags": []
+    },
+    {
+      "id": "01knksnm9fjyd8jbyp0aerqfpq",
+      "title": "Zero-Degree-of-Freedom LLM Coding using Executable Oracles",
+      "url": "https://john.regehr.org/writing/zero_dof_programming.html",
+      "savedAt": "2026-04-07T11:01:32.591000+00:00",
+      "description": "Large language models (LLMs) can write code quickly but often make mistakes without strict automated checks called executable oracles. Using strong oracles for correctness, performance, and security helps guide LLMs to produce better, more reliable code. However, current LLM-generated code still struggles with complex quality aspects like maintainability and security.",
+      "tags": []
+    },
+    {
+      "id": "01knksnc4escesnb6tg15w0rw1",
+      "title": "Which Future?",
+      "url": "https://michaelnotebook.com/whichfuture/",
+      "savedAt": "2026-04-07T11:01:24.238000+00:00",
+      "description": "Transformative technologies like artificial superintelligence bring great benefits but also serious risks, including new and unexpected threats. To avoid disasters, we need strong ideas and institutions that guide safe development and use of powerful tools. Market forces alone won't solve these problems, so coordinated efforts and new safety measures are essential.",
+      "tags": []
+    },
+    {
+      "id": "01knksn8sseyz0wdb7bv1ber5y",
+      "title": "Let's see Paul Allen's SIMD CSV parser",
+      "url": "https://chunkofcoal.com/posts/simd-csv/",
+      "savedAt": "2026-04-07T11:01:20.824000+00:00",
+      "description": "Paul Allen's SIMD CSV parser processes many bytes at once using SIMD and bitwise operations to quickly find real delimiters in CSV data. It filters out commas and newlines inside quotes by using bitmasks and prefix XOR to detect quoted fields. This method speeds up parsing by handling large chunks of data in parallel and accurately identifying field and row boundaries.",
+      "tags": []
+    },
+    {
+      "id": "01knksmk8x049sqn5ca8r668xv",
+      "title": "Endian wars and anti-portability: this again?",
+      "url": "https://dalmatian.life/2026/04/03/endian-wars-and-anti-portability-this-again/?__readwiseLocation=",
+      "savedAt": "2026-04-07T11:06:09.949000+00:00",
+      "description": "The author argues that supporting software on many computer architectures, old or new, is important and benefits the community. Big and little endian systems both have value and help catch different kinds of bugs. Software maintainers should welcome ports to new or old architectures because it improves software quality and helps users.",
+      "tags": []
+    },
+    {
+      "id": "01knksm9cfhk6xp5hstp0wdadz",
+      "title": "A real-world case of property-based verification",
+      "url": "https://ochagavia.nl/blog/a-real-world-case-of-property-based-verification/?__readwiseLocation=",
+      "savedAt": "2026-04-07T11:00:48.654000+00:00",
+      "description": "The workbench simulates QUIC network traffic and needs strong guarantees that it works correctly. To ensure this, the team used property-based verification by logging network events and checking them with a simple verifier. This method caught bugs early and made testing easier and more reliable.",
+      "tags": []
+    },
+    {
+      "id": "01knksm73kwy3mkcemyvts6h3g",
+      "title": "Multi-agentic Software Development is a Distributed Systems Problem (AGI can't save you from it)",
+      "url": "https://kirancodes.me/posts/log-distributed-llms.html?__readwiseLocation=",
+      "savedAt": "2026-04-07T11:00:46.323000+00:00",
+      "description": "Multi-agent software development is a hard coordination problem like those studied in distributed systems. Even very smart agents cannot guarantee perfect teamwork or avoid conflicts without careful protocols. To scale well, we need new tools and methods designed to manage these coordination challenges explicitly.",
+      "tags": []
+    },
+    {
+      "id": "01knksm4rbqp6v2sb372n6htw1",
+      "title": "Actually, people love to work hard",
+      "url": "https://www.anildash.com/2026/04/06/people-love-to-work-hard/?__readwiseLocation=",
+      "savedAt": "2026-04-07T11:00:43.915000+00:00",
+      "description": "People love to work hard when they share clear goals, trust, and meaning in their work. Many bosses wrongly say workers don’t want to work, but often they just create bad environments and fail to support their teams. When leaders inspire and empower people, workers become motivated and do great work together.",
+      "tags": []
+    },
+    {
+      "id": "01knksk16d1ek6egz8bekt2cqr",
+      "title": "Every GPU That Mattered",
+      "url": "https://sheets.works/data-viz/every-gpu?__readwiseLocation=",
+      "savedAt": "2026-04-07T11:00:07.501000+00:00",
+      "description": "This text lists 49 important graphics cards from the past 30 years. It shows how GPUs evolved from early models like 3dfx Voodoo to modern ones like the RTX 3060. Prices and popularity vary, with some costing nearly $2,000 and others much less.",
+      "tags": []
+    },
+    {
+      "id": "01knksjyvtx9516tx1sh1drcp8",
+      "title": "Git's Magic Files",
+      "url": "https://nesbitt.io/2026/02/05/git-magic-files.html?__readwiseLocation=",
+      "savedAt": "2026-04-07T11:00:05.114000+00:00",
+      "description": "Git uses special committed files like .gitignore, .gitattributes, and .gitmodules to control how it tracks and handles files in a repository. These files travel with the code and affect behavior like ignoring files, handling binary data, and managing submodules. If you build tools for git repos, you should read and respect these files to work correctly.",
+      "tags": []
+    },
+    {
+      "id": "01knksjwze528s4wvzdj18jp0b",
+      "title": "MongoDB Query Planner",
+      "url": "https://dev.to/franckpachot/mongodb-query-planner-io2?__readwiseLocation=",
+      "savedAt": "2026-04-07T11:00:03.182000+00:00",
+      "description": "MongoDB has a query planner that helps decide the best way to get data. Unlike some NoSQL systems, it tests different plans and picks the fastest one. It keeps using the best plan until a better option appears.",
+      "tags": []
+    },
+    {
+      "id": "01knksjv07s4fnngfbashntj3t",
+      "title": "Floating point from scratch: Hard Mode",
+      "url": "https://essenceia.github.io/projects/floating_dragon/?__readwiseLocation=",
+      "savedAt": "2026-04-07T11:00:01.159000+00:00",
+      "description": "The author explores building floating point arithmetic from scratch, focusing on common programming floats and IEEE 754 rules. They discuss formats like float16 and bfloat16, rounding modes, and implementation challenges. Testing and hardware design for floating point math require careful handling of edge cases and precision.",
+      "tags": []
+    },
+    {
+      "id": "01knksgecty0v04jwb4k9hfzr6",
+      "title": "Signals, the push-pull based algorithm",
+      "url": "https://willybrauner.com/journal/signal-the-push-pull-based-algorithm",
+      "savedAt": "2026-04-07T10:58:42.714000+00:00",
+      "description": "Signals are reactive values that automatically update parts of an application when changed. They use a push-pull algorithm: push sends updates eagerly, pull re-evaluates lazily only when needed. This system tracks dependencies automatically and is becoming a standard in JavaScript.",
+      "tags": []
+    },
+    {
+      "id": "01knksgbc20hgskg784mdqw8ta",
+      "title": "We Found a Ticking Time Bomb in macOS TCP Networking — It Detonates After Exactly 49 Days",
+      "url": "https://photon.codes/blog/we-found-a-ticking-time-bomb-in-macos-tcp-networking",
+      "savedAt": "2026-04-07T10:58:39.618000+00:00",
+      "description": "A bug in macOS causes the internal TCP clock to freeze after about 49.7 days of uptime. When this happens, closed TCP connections never clear, causing network ports to fill up and new connections to fail. The only current fix is to reboot the system, but a better solution is being developed.",
+      "tags": []
+    },
+    {
+      "id": "01knksg7gp1kmnr7k4j8aj620j",
+      "title": "Ah, Peptides. Where to Begin?",
+      "url": "https://www.science.org/content/blog-post/ah-peptides-where-begin",
+      "savedAt": "2026-04-07T10:58:35.670000+00:00",
+      "description": "Peptides are short chains of amino acids that can have many effects in the body, but their use as mail-order injectable drugs is risky. We know little about how these peptides work or their side effects, and buying them from unregulated sources can be dangerous. Regulatory agencies exist to ensure drugs are safe and effective, but many people ignore this for the promise of quick health benefits.",
+      "tags": []
+    },
+    {
+      "id": "01knjhekgbpnw6zxfvatbb13ng",
+      "title": "Google Has a Secret Reference Desk. Here's How to Use It.",
+      "url": "https://cardcatalogforlife.substack.com/p/google-has-a-secret-reference-desk",
+      "savedAt": "2026-04-06T23:18:39.371000+00:00",
+      "description": "Google often answers questions directly, hiding original sources and shaping results by ads and history. Using special search tricks like site: and quotes helps find better, more precise information. When Google isn't enough, other search engines offer more privacy or access to unique sources.",
+      "tags": [
+        "interesting"
+      ]
+    },
+    {
+      "id": "01knjh1c2g9jzb1xcwjjn3c8yg",
+      "title": "Loading... [13 kB]",
+      "url": "https://maurycyz.com/misc/13kb/?__readwiseLocation=",
+      "savedAt": "2026-04-06T23:11:25.776000+00:00",
+      "description": "Data on the internet is sent in small pieces called packets, which can arrive out of order or get lost. To fix this, packets are numbered and the receiver asks for any missing ones to be resent. Because of network limits and congestion, data transfer starts slow and speeds up gradually, so websites should keep their first-load content small to load quickly.",
+      "tags": [
+        "cs/browsers",
+        "cs/networking"
+      ]
+    },
+    {
+      "id": "01kngx1k3v1agngef7m0ezaj33",
+      "title": "Cultivating Awe & Emotional Connection in Daily Life | Dr. Dacher Keltner",
+      "url": "https://www.hubermanlab.com/episode/cultivating-awe-and-emotional-connection-dr-dacher-keltner",
+      "savedAt": "2026-04-06T08:02:44.035000+00:00",
+      "description": "Dr. Dacher Keltner, PhD, is a professor of psychology at the University of California, Berkeley, and a leading expert on the science of emotions and human connection. We discuss the science of awe—what evokes it and how to access it. Dr. Keltner explains how awe helps us frame our experience of life and who we are both as individuals and collectively. We also discuss the role of humor in social bonding, dispel common myths about the biology of emotions and review the lesser-known factors that strengthen or inhibit relationships and communities.\n\nRead the episode show notes at hubermanlab.com.\n\nThank you to our sponsors\n\nAG1: https://drinkag1.com/huberman\n\nJoovv: https://joovv.com/huberman\n\nHelix Sleep: https://helixsleep.com/huberman\n\nFunction: https://functionhealth.com/huberman\n\nOur Place: https://fromourplace.com/huberman\n\nTimestamps\n\n(00:00:00) Dr Dachner Keltner\n\n(00:01:55) Emotions, Awe; Facial Expressions & Culture\n\n(00:08:11) Sponsors: Joovv & Helix Sleep\n\n(00:11:05) Emotion, Motor Movement & Language\n\n(00:15:36) Measuring Emotion; Studying Awe\n\n(00:24:10) Horizons, Small to Vast, Shifting Perspective\n\n(00:29:27) Tool: Awe Walk\n\n(00:33:53) Time Perception, Tool: Space-Time Bridging Meditation; Chimps, Vastness\n\n(00:42:13) Sponsor: AG1\n\n(00:43:37) Consciousness, Collective Experiences & Brain Synchronization\n\n(00:50:04) Music, Concerts & Awe; Sparring, Transcendence\n\n(01:01:28) Joe Strummer\n\n(01:06:04) Inhibitors of Awe, Self-Focus & Narcissism\n\n(01:12:41) Sponsor: Function\n\n(01:13:52) Sports, Collective Effervescence\n\n(01:19:03) Social Media & Online Life, Social Community\n\n(01:29:51) Designing Cities & Places for Awe\n\n(01:34:29) Sponsor: Our Place\n\n(01:35:44) Embarrassment, Teasing; Collective Values\n\n(01:43:05) Male Friendship, Teasing\n\n(01:47:50) Isolation, Loneliness, Reemergence of Community\n\n(01:54:33) Psychedelics, Awe, Treating Trauma; Microdosing\n\n(02:01:18) Looking Forward, Awe Design\n\n(02:08:36) Campfires, Connection, Red Light\n\n(02:13:34) Life...",
+      "tags": []
+    },
+    {
+      "id": "01knde409ctpaam0e6bwvvva6p",
+      "title": "Operating Systems: Three Easy Pieces",
+      "url": "https://pages.cs.wisc.edu/~remzi/OSTEP/",
+      "savedAt": "2026-04-04T23:44:14.124000+00:00",
+      "description": "\"Operating Systems: Three Easy Pieces\" is a free online book that covers the basics of operating systems, focusing on virtualization, concurrency, and persistence. It provides practical insights on how operating systems manage tasks like CPU scheduling and memory management. While the book is available for free as a PDF, there are also print and digital versions for purchase.",
+      "tags": [
+        "cs/operating-system"
+      ]
+    },
+    {
+      "id": "01knde3kgb102knv127bckpjsr",
+      "title": "OSTEP Chapter 13: The Abstraction of Address Spaces",
+      "url": "https://muratbuffalo.blogspot.com/2026/03/ostep-chapter-13-abstraction-of-address.html?__readwiseLocation=",
+      "savedAt": "2026-04-04T23:44:01.034000+00:00",
+      "description": "Modern operating systems use virtual memory to give each program its own protected address space, improving efficiency and security. Early computers ran one program at a time, but multiprogramming and time sharing let many programs run quickly by switching between them. Today, GPUs and AI systems face new memory challenges, using advanced techniques to handle huge data fast without running out of memory.",
+      "tags": [
+        "hardware",
+        "cs/operating-system"
+      ]
+    },
+    {
+      "id": "01knaby7rh9tgpevdq811pzwd7",
+      "title": "Legacy PC design misery",
+      "url": "https://mjg59.livejournal.com/118098.html?__readwiseLocation",
+      "savedAt": "2026-04-03T19:08:24.721000+00:00",
+      "description": "I've spent chunks of the last couple of days fighting a problem that's existed for about 25 years. The 8086 was a 16-bit processor with a 20-bit address space, limiting the maximum physical address that could be accessed to 1MB. However, quirks of the segmented memory system meant that addresses…",
+      "tags": [
+        "hardware",
+        "computer-history"
+      ]
+    },
+    {
+      "id": "01kna4smec7850vdxa02tt0mp0",
+      "title": "Marc Andreessen introspects on The Death of the Browser, Pi + OpenClaw, and Why \"This Time Is Different\"",
+      "url": "https://www.latent.space/p/pmarca",
+      "savedAt": "2026-04-03T17:03:30.836000+00:00",
+      "description": "The legend needs no intro... if you pardon our pun",
+      "tags": []
+    },
+    {
+      "id": "01kna3q2jccjn7cbkyw2w8sdcj",
+      "title": "Nobody Is Coming to Save Your Career",
+      "url": "https://alifeengineered.substack.com/p/nobody-is-coming-to-save-your-career?__readwiseLocation=",
+      "savedAt": "2026-04-03T16:44:41.420000+00:00",
+      "description": "Your career growth is your responsibility, not your manager's. You must speak up, set clear goals, and seek challenges beyond your comfort zone. Waiting for opportunities to come to you leads to stagnation, so take charge and act now.",
+      "tags": [
+        "career"
+      ]
+    },
+    {
+      "id": "01kn7pkaq8yvbgafr0aw2870yr",
+      "title": "Moonlake: Causal World Models should be Multimodal, Interactive, and Efficient — with Chris Manning and Fan-yun Sun",
+      "url": "https://www.latent.space/p/moonlake",
+      "savedAt": "2026-04-02T18:16:55.345000+00:00",
+      "description": "We cap out our World Models coverage with one of the most exciting new approaches - long running, multiplayer, interactive world models built with agents bootstrapped from game engines!",
+      "tags": []
+    },
+    {
+      "id": "01kn6m9xthkbpn534rakgz2tfc",
+      "title": "Essentials: How to Build Strength, Muscle Size & Endurance | Dr. Andy Galpin",
+      "url": "https://www.hubermanlab.com/episode/essentials-how-to-build-strength-muscle-size-and-endurance-andy-galpin",
+      "savedAt": "2026-04-02T08:17:35.642000+00:00",
+      "description": "In this Huberman Lab Essentials episode, my guest is Dr. Andy Galpin, PhD, Executive Director of the Human Performance Center at Parker University and an expert in building strength and muscle size (hypertrophy). We cover the core principles and protocols for building strength and muscle, including science-based guidance on reps, sets, frequency and rest intervals. We also discuss how breathing and mental focus can enhance training and how post-workout downregulation can speed recovery.\n\nRead the show notes at hubermanlab.com.\n\nSubscribe to Perform with Dr. Andy Galpin at performpodcast.com.\n\nThank you to our sponsors\n\nAG1: https://drinkag1.com/huberman\n\nLMNT: https://drinklmnt.com/huberman\n\nEight Sleep: https://eightsleep.com/huberman\n\nTimestamps\n\n(00:00:00) Andy Galpin\n\n(00:00:39) 9 Exercise Adaptations; Progressive Overload\n\n(00:03:53) Progressive Overload, One-Rep Max, Soreness, Tool: Modifiable Variables\n\n(00:08:39) Sponsor: LMNT\n\n(00:10:12) Full-Body Workout, Exercise Selection\n\n(00:12:44) Training Intensity, Repetitions, Sets, Rest Intervals, Supersets\n\n(00:16:24) Sponsor: AG1\n\n(00:17:48) Hypertrophy vs Strength Training Recovery\n\n(00:20:03) Training Volume & Frequency for Hypertrophy\n\n(00:21:56) Hypertrophy Rep Ranges, Frequency & Recovery; Cell Mechanisms\n\n(00:25:28) Sponsor: Eight Sleep\n\n(00:26:46) Tool: 3 x 5 Protocol; Power vs Strength\n\n(00:28:23) Mental Awareness in Training; Mind-Muscle Connection\n\n(00:31:25) Activating Muscle Groups, Awareness, Tool: Eccentric Overload\n\n(00:33:40) Perform Podcast: Season 3\n\n(00:34:04) Tool: Resistance Training Breathing & Post-Training\n\n(00:38:20) Acknowledgments\n\nDisclaimer & Disclosures\nLearn more about your ad choices. Visit megaphone.fm/adchoices",
+      "tags": []
+    },
+    {
+      "id": "01kn4zbvqnbvbzrj489gwdyjgh",
+      "title": "Scaling Uber with Thuan Pham (Uber’s first CTO)",
+      "url": "https://newsletter.pragmaticengineer.com/p/scaling-uber-with-thuan-pham-ubers",
+      "savedAt": "2026-04-01T16:52:24.509000+00:00",
+      "description": "Thuan Pham, Uber’s first CTO, helped scale the company by moving from a fragile monolith to microservices and reorganizing teams for faster work. He emphasized building skilled teams and planning for the future to handle rapid growth. Today, he leads Faire and explores how AI can boost software engineering productivity.",
+      "tags": []
+    },
+    {
+      "id": "01kn3r6h676ka3zz3mw2cknnza",
+      "title": "What Genetic Tests Told Me About My Health & Longevity",
+      "url": "https://desmolysium.com/genetictests/",
+      "savedAt": "2026-04-01T05:27:58.407000+00:00",
+      "description": "The author tested their genes and found many good ones linked to long life and low risk of diseases like dementia, heart problems, and cancer. They also discovered some risks, like a gene increasing blood clot chances, and adjusted their diet and supplements accordingly. Overall, genetics play a big role in health, but lifestyle and medical advice remain important.",
+      "tags": [
+        "biohack"
+      ]
+    },
     {
       "id": "01kn0vz58et5c5d6n4fx2tjj90",
       "title": "A Tale of Two Bridges",
@@ -19120,7 +19756,7 @@
       "id": "01jbep8496wsgzggwnsbn779g0",
       "title": "time-clocks",
       "url": "https://lamport.azurewebsites.net/pubs/time-clocks.pdf",
-      "savedAt": "2024-07-10T22:07:33.662000+00:00",
+      "savedAt": "2026-04-04T01:25:50.824000+00:00",
       "description": null,
       "tags": [
         "for-later",
