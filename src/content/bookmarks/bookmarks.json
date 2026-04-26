@@ -1,6 +1,241 @@
 {
-  "lastUpdate": "2026-04-17T00:24:35.474Z",
+  "lastUpdate": "2026-04-26T00:24:44.830Z",
   "data": [
+    {
+      "id": "01kq2dzqkqjhvjg9cr8zgkzckz",
+      "title": "Collision attack - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Collision_attack",
+      "savedAt": "2026-04-25T13:41:39.063000+00:00",
+      "description": "A collision attack finds two different inputs that produce the same cryptographic hash value. This attack can break hash functions like MD5 and SHA-1, making digital signatures vulnerable. Some attacks allow forging certificates or causing denial of service by exploiting these collisions.",
+      "tags": []
+    },
+    {
+      "id": "01kq2dzn731qkrfzp8tqj5pdat",
+      "title": "CPT symmetry",
+      "url": "https://en.wikipedia.org/wiki/CPT_symmetry",
+      "savedAt": "2026-04-25T13:41:36.611000+00:00",
+      "description": "CPT symmetry combines charge, parity, and time reversal symmetry in physics. It is a fundamental property where the universe remains unchanged when reflected through a mirror image. Violations of CPT symmetry could imply the breaking of Lorentz symmetry.",
+      "tags": []
+    },
+    {
+      "id": "01kq2dzk7f0ajwva94cns2jdmz",
+      "title": "Lorentz covariance - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lorentz_covariance",
+      "savedAt": "2026-04-25T13:41:34.575000+00:00",
+      "description": "Lorentz covariance is a key principle in physics that ensures laws stay the same for all observers moving at constant speeds. Scientists test this principle to check if it holds true or if tiny violations exist. These tests help us understand the universe and the behavior of particles at very high energies.",
+      "tags": []
+    },
+    {
+      "id": "01kq2dz8pav4tamxwbxfvw1cjn",
+      "title": "Your CPU Has More Registers Than You'd Think",
+      "url": "https://fp32.org/register_renaming.html",
+      "savedAt": "2026-04-25T13:41:23.786000+00:00",
+      "description": "Modern CPUs have many more physical registers than the visible architectural registers, enabling complex instruction scheduling. The rename unit maps architectural registers to physical ones to remove false dependencies and allow out-of-order execution. This process helps improve CPU performance by enabling parallelism and reducing execution delays.",
+      "tags": []
+    },
+    {
+      "id": "01kq2dz0b6as67fjk7n1z68tpx",
+      "title": "Developing a minimally HashDoS resistant, yet quickly reversible integer hash for V8",
+      "url": "https://nodejs.org/en/blog/vulnerability/march-2026-hashdos",
+      "savedAt": "2026-04-25T13:41:15.238000+00:00",
+      "description": "V8 developed a new integer hash that prevents attackers from causing slowdowns by making hash values unpredictable. This hash is quickly reversible, allowing V8 to keep important performance optimizations. The design balances security and speed by using secret keys to seed the hash and hide its output from attackers.",
+      "tags": []
+    },
+    {
+      "id": "01kq2b3yd80myt8af5jzfrkrax",
+      "title": "Why you should refuse to let your doctor record you",
+      "url": "https://buttondown.com/maiht3k/archive/why-you-should-refuse-to-let-your-doctor-record/",
+      "savedAt": "2026-04-25T12:51:31.368000+00:00",
+      "description": "Doctors are starting to use AI tools that record and transcribe patient visits to save time. But these tools can hurt privacy, reduce care quality, and may not work well for everyone. It’s safer for patients to refuse being recorded and for doctors to avoid relying on these systems.",
+      "tags": []
+    },
+    {
+      "id": "01kq05tjvq419rwe4jkmm5hz18",
+      "title": "Composition Shouldn't be this Hard",
+      "url": "https://www.cambra.dev/blog/announcement/",
+      "savedAt": "2026-04-24T16:40:32.887000+00:00",
+      "description": "Modern software struggles because tools force a choice between powerful but narrow models and general but fragmented ones. Using a single, domain-aligned model helps build coherent systems that are easier to develop, maintain, and optimize. Advances in programming and databases may soon enable better models that combine generality with domain focus, improving both human and AI programming.",
+      "tags": []
+    },
+    {
+      "id": "01kq05sctaqxmrd7ddt2ery1rb",
+      "title": "Aspartame: Once more unto the breach",
+      "url": "https://dynomight.net/aspartame/",
+      "savedAt": "2026-04-24T16:39:53.930000+00:00",
+      "description": "Aspartame breaks down quickly into normal chemicals in the body and is much sweeter than sugar. Many studies and health agencies say aspartame is safe and does not cause cancer or other serious problems. Despite this, some people still worry about it, but current science shows little reason to fear aspartame.",
+      "tags": []
+    },
+    {
+      "id": "01kq05s25e2hf4d0v7w87gbbgw",
+      "title": "On sabotaging projects by overthinking",
+      "url": "https://kevinlynagh.com/newsletter/2026_04_overthinking/",
+      "savedAt": "2026-04-24T16:39:43.022000+00:00",
+      "description": "The author explains how overthinking can stop projects from being finished by causing endless research and revisions. They describe their struggle with building a structural diff tool and the tools they explored. Finally, they plan to make a simple version first, then improve it step-by-step to avoid getting stuck again.",
+      "tags": []
+    },
+    {
+      "id": "01kq05rvvvhjyfwqvm1nb2p0kp",
+      "title": "Stigma is a tax on every operational decision",
+      "url": "https://orchidfiles.com/stigma-is-a-tax-on-every-operational-decision/",
+      "savedAt": "2026-04-24T16:39:36.571000+00:00",
+      "description": "Starting an adult or gambling online business is risky and full of stigma that affects hiring, advertising, payments, and reputation. Such projects face legal issues, unreliable payment providers, and struggle to get investments or stable teams. Success in this field often harms personal reputation and makes it hard to leave or grow beyond the niche.",
+      "tags": []
+    },
+    {
+      "id": "01kq0424fejxhgpcg6jamse9am",
+      "title": "how to be anti-social",
+      "url": "https://nate.leaflet.pub/3mk4xkaxobc2p",
+      "savedAt": "2026-04-24T16:09:43.150000+00:00",
+      "description": "Assume others have bad intentions and trust your feelings without question. Avoid learning or admitting when you are wrong. Surround yourself with like-minded people and ignore opposing views.",
+      "tags": [
+        "society",
+        "philosophy"
+      ]
+    },
+    {
+      "id": "01kq0422b5sz6tc9bvsrb6ky6y",
+      "title": "A Visual Deep Dive",
+      "url": "https://ynarwal.github.io/how-llms-work/",
+      "savedAt": "2026-04-24T16:09:40.965000+00:00",
+      "description": "Large language models like ChatGPT learn by predicting the next word from huge amounts of internet text. They improve through training on human-labeled conversations and reinforcement learning to become helpful assistants. These models generate text by guessing likely words, not by thinking or remembering past chats.",
+      "tags": []
+    },
+    {
+      "id": "01kpy8a4215dd84r9zv9nq04zj",
+      "title": "Sam Vimes ‘Boots’ Theory of Socio-Economic Unfairness",
+      "url": "https://terrypratchett.com/explore-discworld/sam-vimes-boots-theory-of-socio-economic-unfairness/?__readwiseLocation=",
+      "savedAt": "2026-04-23T22:45:30.304000+00:00",
+      "description": "Poor people often pay more over time because they can only afford cheap, short-lived items like boots. Rich people can buy expensive, durable things that save money and effort in the long run. This shows how poverty traps people in a cycle of spending more and having less comfort.",
+      "tags": []
+    },
+    {
+      "id": "01kpy78prxhdsv0m0znnp1m9sy",
+      "title": "Rewriting Every Syscall in a Linux Binary at Load Time",
+      "url": "https://substack.com/home/post/p-194037971?__readwiseLocation=",
+      "savedAt": "2026-04-23T22:27:15.357000+00:00",
+      "description": "This project replaces every syscall instruction in a Linux binary with a trap that redirects to a custom handler, giving full control over syscalls. It works by rewriting the binary’s instructions to use INT3 traps and running the process inside a lightweight VM with a shim that intercepts syscalls. This method offers low overhead and strong security by limiting syscalls to only those a process actually uses.",
+      "tags": []
+    },
+    {
+      "id": "01kpy5k18gzr7yr6g3z5wpnrwp",
+      "title": "Temporal Networks, Where Page Rank meets Lord of the Rings - Computerphile",
+      "url": "https://www.youtube.com/watch?v=ZP6Bh3iWklQ",
+      "savedAt": "2026-04-23T21:57:56.623000+00:00",
+      "description": "PageRank helps find important nodes in networks by simulating random clicks on links. This idea is used to analyze characters' importance over time in the Lord of the Rings story. The method works well for studying networks that change with time.",
+      "tags": []
+    },
+    {
+      "id": "01kpxxkb9ydfgh7fxn88f9pzgf",
+      "title": "AIE Europe Debrief + Agent Labs Thesis: Unsupervised Learning x Latent Space Crossover Special (2026)",
+      "url": "https://www.latent.space/p/unsupervised-learning-2026",
+      "savedAt": "2026-04-23T19:38:15.302000+00:00",
+      "description": "The AI coding market in 2026 is rapidly evolving with strong competition among foundation models and application companies. Open models and specialized AI agents are playing a growing role in shaping new product experiences. Despite challenges, innovation and infrastructure investment continue to drive the AI industry forward.",
+      "tags": []
+    },
+    {
+      "id": "01kpxn2x535napjf2vc2tgskm5",
+      "title": "The invisible engineering behind Lambda’s network",
+      "url": "https://www.allthingsdistributed.com/2026/04/the-invisible-engineering-behind-lambdas-network.html",
+      "savedAt": "2026-04-23T17:09:30.915000+00:00",
+      "description": "AWS Lambda’s networking team improved how millions of virtual machines connect by redesigning network topology and cutting latency from 150ms to 200μs. They pre-created thousands of network devices to avoid delays during function starts, boosting capacity 20 times and lowering CPU use. These invisible upgrades made Lambda faster, more efficient, and ready for future demands without users noticing the complex work behind it.",
+      "tags": []
+    },
+    {
+      "id": "01kpx9nygszb40va56r2prz2p8",
+      "title": "Things you didn't know about indexes",
+      "url": "https://jon.chrt.dev/2026/04/15/things-you-didnt-know-about-indexes.html",
+      "savedAt": "2026-04-23T13:50:11.993000+00:00",
+      "description": "Indexes help databases find data quickly by sorting and pointing to rows. However, indexes slow down writing and take extra space, so use them wisely. Special types like functional, partial, and covering indexes can make queries faster and more efficient.",
+      "tags": []
+    },
+    {
+      "id": "01kpx9axn9v50pbgr2wnbx7gbq",
+      "title": "What Physical ‘Life Force’ Turns Biology’s Wheels? | Quanta Magazine",
+      "url": "https://www.quantamagazine.org/what-physical-life-force-turns-biologys-wheels-20260420/",
+      "savedAt": "2026-04-23T13:44:10.665000+00:00",
+      "description": "Bacteria move using a tiny motor that spins a tail called a flagellum to swim toward food. This motor is powered by protons flowing into the cell, creating a force called the proton motive force. Scientists have recently understood how this motor works and how it switches direction to help bacteria navigate their environment.",
+      "tags": []
+    },
+    {
+      "id": "01kpwntng09sz0gtb73zh05ej5",
+      "title": "Essentials: The Neuroscience of Speech, Language & Music | Dr. Erich Jarvis",
+      "url": "https://www.hubermanlab.com/episode/essentials-the-neuroscience-of-speech-language-and-music-erich-jarvis",
+      "savedAt": "2026-04-23T08:03:12.072000+00:00",
+      "description": "In this Huberman Lab Essentials episode, my guest is Dr. Erich Jarvis, PhD, a professor and Head of the Laboratory of Neurogenetics of Language at Rockefeller University and an investigator at the Howard Hughes Medical Institute (HHMI). We discuss the brain circuits and genes underlying spoken language and why the ability to learn and produce vocalizations is extraordinarily rare in the animal kingdom. We also explore why song likely evolved before language, how gesture and movement share deep neural roots with speech, the neurobiology of stuttering, why childhood is the optimal window for language acquisition, and how physical movement — including dance — may help preserve speech and cognitive function across a lifetime.\n\nRead the show notes at hubermanlab.com.\n\nThank you to our sponsors\n\nAG1: https://drinkag1.com/huberman\n\nFunction: https://functionhealth.com/huberman\n\nEight Sleep: https://eightsleep.com/huberman\n\nTimestamps\n\n(00:00:00) Speech & Language\n\n(00:00:23) Speech vs. Language; Brain Pathways for Communication\n\n(00:01:57) Gesture, Hand Movement & Speech Evolution\n\n(00:04:31) Sponsor: Function\n\n(00:05:59) Innate Vocalizations vs. Learned Speech\n\n(00:08:01) Evolution of Spoken Language; Neanderthals & Vocal Learning\n\n(00:09:29) Birdsong & Human Speech; Brain Circuit Parallels\n\n(00:13:22) Hummingbirds; Vocal Learning Species & Complex Traits\n\n(00:14:32) Critical Periods & Learning Your Native Song\n\n(00:16:50) Pidgin Language & Cultural-Genetic Convergence\n\n(00:18:36) Sponsor: AG1\n\n(00:20:01) Genes Specialized in Speech Circuits\n\n(00:23:05) Critical Period for Language Learning; Multilingualism\n\n(00:25:17) Music, Emotion & Semantic vs. Affective Communication\n\n(00:28:14) Sponsor: Eight Sleep\n\n(00:29:49) Facial Expression & Speech Circuitry\n\n(00:31:07) Written Language & Neural Pathways\n\n(00:32:47) Stuttering; Basal Ganglia & Neurobiological Basis\n\n(00:35:03) Texting & Language Evolution\n\n(00:36:36) Tool: Movement, Dancing & Singing to Maintain Cognitive He...",
+      "tags": []
+    },
+    {
+      "id": "01kpw4pk3xbgasjv1y73ydp2ht",
+      "title": "Answers and Reasons and Knowing and Thinking",
+      "url": "https://www.science.org/content/blog-post/answers-and-reasons-and-knowing-and-thinking?__readwiseLocation=",
+      "savedAt": "2026-04-23T03:03:55.773000+00:00",
+      "description": "AlphaFold uses machine learning and existing protein data to quickly predict protein structures without fully understanding the underlying science. This shortcut helps researchers but challenges educators because it encourages getting answers fast instead of learning deeply. The big question is whether we want quick answers or true understanding in science and education.",
+      "tags": []
+    },
+    {
+      "id": "01kpw4nwv374qf7eq8d3abcvsx",
+      "title": "What’s the deal with Alzheimer’s disease and amyloid?",
+      "url": "https://arstechnica.com/science/2026/04/whats-the-deal-with-alzheimers-disease-and-amyloid/?__readwiseLocation=",
+      "savedAt": "2026-04-23T03:03:32.963000+00:00",
+      "description": "Scientists once believed amyloid-β protein caused Alzheimer’s disease, but many studies and drug trials targeting it have failed. New research suggests other factors like viruses and genetics may also play a role. Despite problems and controversy, most treatments still focus on amyloid-β.",
+      "tags": []
+    },
+    {
+      "id": "01kpw3j7f4kag7rv7qbh18wsq2",
+      "title": "Running a Minecraft Server and more on a 1960s UNIVAC Computer",
+      "url": "https://farlow.dev/2026/04/17/running-a-minecraft-server-and-more-on-a-1960s-univac-computer",
+      "savedAt": "2026-04-23T02:44:04.196000+00:00",
+      "description": "A team built an emulator and C compiler to run modern code on a 1960s UNIVAC computer. They overcame many challenges by creating tools, writing assembly, and using RISC-V emulation. After months of work, they successfully ran real programs like \"hello world\" and computed pi on the vintage machine.",
+      "tags": []
+    },
+    {
+      "id": "01kpw3j1ans3rds5j0xhckn89f",
+      "title": "Let's create a Tree-sitter grammar ★",
+      "url": "https://www.jonashietala.se/blog/2024/03/19/lets_create_a_tree-sitter_grammar/",
+      "savedAt": "2026-04-23T02:43:57.908000+00:00",
+      "description": "Neovim's Tree-sitter integration improves syntax highlighting and code navigation across many languages. The author tried creating a Tree-sitter grammar for the Djot markup language and learned a lot. He shared his findings and code to help others build their own grammars.",
+      "tags": []
+    },
+    {
+      "id": "01kpvbf9394h3xn0b4e8j2nej4",
+      "title": "Shopify’s AI Phase Transition: 2026 Usage Explosion, Unlimited Opus-4.6 Token Budget, Tangle, Tangent, SimGym — with Mikhail Parakhin, Shopify CTO",
+      "url": "https://www.latent.space/p/shopify",
+      "savedAt": "2026-04-22T19:42:58.738000+00:00",
+      "description": "Shopify is rapidly growing its use of AI tools internally to improve work and innovation. They provide unlimited access to AI resources and focus on automated research to boost results. Their AI efforts help make better decisions and improve e-commerce experiences for many users.",
+      "tags": []
+    },
+    {
+      "id": "01kptzztjh4emyswmsf3m2mz5a",
+      "title": "Designing Data-intensive Applications with Martin Kleppmann",
+      "url": "https://newsletter.pragmaticengineer.com/p/designing-data-intensive-applications",
+      "savedAt": "2026-04-22T16:22:18.010000+00:00",
+      "description": "Martin Kleppmann’s updated book, Designing Data-Intensive Applications, helps developers understand key tradeoffs in building scalable, reliable systems. He discusses how cloud technologies have changed scaling and why formal verification may grow with AI tools. Martin also explores challenges in local-first software and stresses better collaboration between industry and academia.",
+      "tags": []
+    },
+    {
+      "id": "01kpnv2hsa44x4sjegct4gxz7s",
+      "title": "🔬 Training Transformers to solve 95% failure rate of Cancer Trials — Ron Alfa & Daniel Bear, Noetik",
+      "url": "https://www.latent.space/p/noetik",
+      "savedAt": "2026-04-20T16:20:12.275000+00:00",
+      "description": "Most cancer treatments fail because we don’t match the right patient to the right therapy. Noetik uses AI to study tumors deeply and predict who will respond to existing treatments. This approach could save many lives and help drug companies like GSK improve clinical trial success.",
+      "tags": []
+    },
+    {
+      "id": "01kpnaqeqgqrnzwatjw0p0bfsy",
+      "title": "80386 Memory Pipeline",
+      "url": "https://nand2mario.github.io/posts/2026/80386_memory_pipeline/",
+      "savedAt": "2026-04-20T11:34:34.480000+00:00",
+      "description": "The 80386 uses a smart memory pipeline that overlaps tasks to make virtual memory fast. It caches segment info and starts address work early to save time. This design helps the processor run memory operations quickly, even with complex protections.",
+      "tags": []
+    },
+    {
+      "id": "01kpmzb5drtvz332jy7g7c425j",
+      "title": "How to Better Regulate Your Emotions | Dr. Marc Brackett",
+      "url": "https://www.hubermanlab.com/episode/how-to-better-regulate-your-emotions-marc-brackett",
+      "savedAt": "2026-04-20T08:15:34.401000+00:00",
+      "description": "Dr. Marc Brackett, PhD, is a professor of psychology at Yale University and director of the Yale Center for Emotional Intelligence. We discuss the science of emotion regulation and practical tools to increase your emotional intelligence. Dr. Brackett clarifies exactly how to do that both in the context of relationships, but also things that you can do on your own to become more emotionally intelligent to later serve you in the context of relationships, work, school, etc. We also discuss how your childhood experiences influence your relationship with emotions, with particular emphasis on how boys and men are socialized around emotional processing and expression.\n\nRead the show notes at hubermanlab.com.\n\nThank you to our sponsors\n\nAG1: https://drinkag1.com/huberman\n\nJoovv: https://joovv.com/huberman\n\nLingo: https://hellolingo.com/huberman\n\nLMNT: https://drinklmnt.com/huberman\n\nRorra: https://rorra.com/huberman\n\nTimestamps\n\n(00:00:00) Marc Brackett\n\n(00:02:55) Emotion Regulation\n\n(00:05:53) Emotion Mindset, Anxiety; Good or Bad Emotions?\n\n(00:11:25) Sponsors: Joovv & Lingo\n\n(00:13:54) Permission for Happiness; Gender, Emotion Suppression\n\n(00:22:13) Young Men, Vulnerability, Incapable; Gay Men\n\n(00:31:00) Boys & Men, Crying; Emotion Socialization\n\n(00:37:34) Sponsor: AG1\n\n(00:38:58) Physical Interaction; Rough/Tumble Play, Teaching Emotion Regulation\n\n(00:46:47) Emotion Calibration, Tools: Leaders & Being a Role Model; Meta-Moment\n\n(00:56:15) Meditation & Stress Tolerance, Tool: Label Emotions; Childhood\n\n(01:03:12) Sponsor: LMNT\n\n(01:04:32) Understand Your Assumptions, Tool: Intentional Co-Regulation\n\n(01:12:09) Vocabulary & Rethinking Emotion, Tool: Reframing\n\n(01:15:49) Emotional Intelligence Training, Self-Evaluation\n\n(01:22:15) Living with Discomfort & Emotional Intelligence\n\n(01:27:01) Marc's Work & Criticism; Emotion \"Leakage\" & Switching Mindset\n\n(01:34:19) Sponsor: Rorra\n\n(01:35:32) Excitement, Positive Emotion; Modern Concerns, AI & Disconnection\n\n(01:45:1...",
+      "tags": []
+    },
     {
       "id": "01kpantgmm2f1pyn3ac2d77b3n",
       "title": "Essentials: Understand & Improve Memory Using Science-Based Tools",
@@ -15,7 +250,10 @@
       "url": "https://ztoz.blog/posts/plaintext-accounting-reporting/?__readwiseLocation=",
       "savedAt": "2026-04-16T00:17:45.726000+00:00",
       "description": "The author switched from spreadsheets to a plain text ledger using Beancount for better accounting and reporting. They track accounts for assets, liabilities, income, expenses, and equity, with automated scripts to import data and generate reports. This system helps create accurate monthly financial statements and keeps the books balanced.",
-      "tags": []
+      "tags": [
+        "economy",
+        "interesting"
+      ]
     },
     {
       "id": "01kp8rsc5vect3nxyh5bhddgcv",
@@ -436,7 +674,9 @@
       "url": "https://www.joanwestenberg.com/marc-andreessen-is-wrong-about-introspection/?__readwiseLocation=",
       "savedAt": "2026-04-07T11:03:40.767000+00:00",
       "description": "Marc Andreessen wrongly claims introspection is a modern invention by Freud, ignoring centuries of philosophical tradition. Introspection helps us understand what makes life meaningful, which cannot be measured by external success alone. Rejecting self-examination limits our understanding of human flourishing and oversimplifies how we live well.",
-      "tags": []
+      "tags": [
+        "philosophy"
+      ]
     },
     {
       "id": "01knkssex658x72bh3zy2a52wh",
