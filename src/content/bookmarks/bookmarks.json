@@ -1,6 +1,531 @@
 {
-  "lastUpdate": "2026-04-17T00:24:35.474Z",
+  "lastUpdate": "2026-05-11T00:30:25.305Z",
   "data": [
+    {
+      "id": "01kr9y1ghqddh4xx5cdsft3m2e",
+      "title": "Let Me Convince You to Be Prolific",
+      "url": "https://3quarksdaily.com/3quarksdaily/2026/05/let-me-convince-you-to-be-prolific.html",
+      "savedAt": "2026-05-10T21:52:37.431000+00:00",
+      "description": "Being prolific means creating and sharing a lot of work without waiting for perfection. This helps you improve, experiment, and increase your chances of success over time. Producing many pieces builds momentum and attracts support, making creativity a steady, rewarding process.",
+      "tags": []
+    },
+    {
+      "id": "01kr937jd8ha5wee03z07c8j9p",
+      "title": "Think Linear Algebra",
+      "url": "https://allendowney.github.io/ThinkLinearAlgebra/index.html",
+      "savedAt": "2026-05-10T14:04:04.389000+00:00",
+      "description": "Think Linear Algebra teaches practical linear algebra through code and real-world problems. It uses Python notebooks and libraries like NumPy to build and visualize solutions. The book emphasizes intuition and applications for fields such as machine learning, graphics, and engineering.",
+      "tags": []
+    },
+    {
+      "id": "01kr8vtywjt07as3yjb53pz8v9",
+      "title": "Diskless Linux boot using ZFS, iSCSI & PXE",
+      "url": "https://aniket.foo/posts/20260505-netboot/",
+      "savedAt": "2026-05-10T11:54:51.652000+00:00",
+      "description": "This guide explains how to boot a diskless Debian 13 system using PXE, iSCSI, and ZFS on a single Debian server. It covers setting up Netboot.xyz, configuring TFTP and iSCSI targets, and creating ZFS ZVols for storage. The process includes installing the OS over the network and booting from the iSCSI disk.",
+      "tags": []
+    },
+    {
+      "id": "01kr6mb2fj074revrkrgx55khr",
+      "title": "How to write good prompts: using spaced repetition to create understanding",
+      "url": "https://andymatuschak.org/prompts/",
+      "savedAt": "2026-05-09T15:05:21.650000+00:00",
+      "description": "Good prompts help you remember important details by asking clear, focused questions. Writing prompts can reveal gaps in your knowledge and deepen your understanding. Practice makes prompt-writing easier and more effective over time.",
+      "tags": []
+    },
+    {
+      "id": "01kr0qqe19dvw4w1krb062gvkb",
+      "title": "Essentials: Compulsive Behaviors & Deep Brain Stimulation | Dr. Casey Halpern",
+      "url": "https://www.hubermanlab.com/episode/essentials-compulsive-behaviors-deep-brain-stimulation-casey-halpern",
+      "savedAt": "2026-05-07T08:09:02.834000+00:00",
+      "description": "In this Huberman Lab Essentials episode, my guest is Dr. Casey Halpern, MD, a professor of neurosurgery at the Perelman School of Medicine at the University of Pennsylvania. We discuss how deep brain stimulation and other neuromodulation approaches are being used to treat Parkinson's disease, obsessive-compulsive disorder (OCD), binge eating disorder and depression-related symptoms. We also explore the brain circuits that drive compulsions, cravings and impulsivity, as well as emerging non-invasive tools for predicting and treating harmful behaviors.\n\nRead the episode show notes at hubermanlab.com.\n\nThank you to our sponsors\n\nAG1: https://drinkag1.com/huberman\n\nFunction: https://functionhealth.com/huberman\n\nRorra: https://rorra.com.huberman\n\nTimestamps\n\n(00:00:00) Casey Halpern\n\n(00:00:20) Neurosurgery, Deep Brain Stimulation\n\n(00:04:19) Obsessive-Compulsive Disorder (OCD) & Treatments\n\n(00:10:11) Sponsor: Function\n\n(00:11:49) OCD Brain Areas, Addiction\n\n(00:14:12) Nucleus Accumbens, Risk & Rewards; Binge Eating Disorder\n\n(00:18:28) Sponsor: AG1\n\n(00:19:46) Non-Invasive Brain Stimulation, Transcranial Magnetic Stimulation\n\n(00:27:31) Sponsor: Rorra\n\n(00:28:46) Awareness of Cravings, Severe Binge Eating Disorder\n\n(00:32:51) Artificial Intelligence/Machine Learning & Predicting Impulsive Behavior\n\n(00:36:57) Acknowledgements\n\nDisclaimer & Disclosures\nLearn more about your ad choices. Visit megaphone.fm/adchoices",
+      "tags": []
+    },
+    {
+      "id": "01kqwxqmn1sj7h3akrkrbft5gb",
+      "title": "🔬Doing Vibe Physics — Alex Lupsasca, OpenAI",
+      "url": "https://www.latent.space/p/lupsasca",
+      "savedAt": "2026-05-05T20:37:03.337000+00:00",
+      "description": "The full story of how GPT‑5.x derived new results in theoretical physics and quantum gravity.",
+      "tags": []
+    },
+    {
+      "id": "01kqth5svxbae22jb3qka9wgde",
+      "title": "An extremely non-comprehensive list of how to increase your surface area for luck and magic (and instantly sprinkle fairy dust on your life)",
+      "url": "https://thetwelfthhouse.substack.com/p/an-extremely-non-comprehensive-list",
+      "savedAt": "2026-05-04T22:19:10.077000+00:00",
+      "description": "Pay close attention to your surroundings and use curiosity to notice signs and synchronicities. Try small habits like journaling, introducing novelty, and acting on intuition right away. Clean your space, connect with nature, and imagine your day going well to invite more magic and luck into your life.",
+      "tags": [
+        "culture",
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "01kqth21jytgfxnjj1jdt0mvrp",
+      "title": "You can judge a book by its cover",
+      "url": "https://sashachapin.substack.com/p/you-can-judge-a-book-by-its-cover",
+      "savedAt": "2026-05-04T22:17:06.910000+00:00",
+      "description": "Within minutes of meeting someone, you can learn a lot by quietly noticing their behavior and words without judging. Over time, this skill helps you understand deeper qualities like honesty and joy, shaping richer relationships. Seeing people this way brings peace and wonder, showing how communities reward true character.",
+      "tags": [
+        "society"
+      ]
+    },
+    {
+      "id": "01kqth1w34x3r3n74hv880agn3",
+      "title": "It is the end of the world and I am here to take you home",
+      "url": "https://nataliercargill.substack.com/p/it-is-the-end-of-the-world-and-i",
+      "savedAt": "2026-05-04T22:17:01.284000+00:00",
+      "description": "The story shows the pain of lives trapped and lost, like animals and birds caught or confined. It speaks about giving comfort by remembering home, love, and freedom. The author reveals how human actions have caused suffering and broken connections to nature.",
+      "tags": []
+    },
+    {
+      "id": "01kqth15nzwr8dh53dtz1rtjsv",
+      "title": "The Worst Version of You Is Getting All the Practice",
+      "url": "https://pointingatthings.substack.com/p/the-worst-version-of-you-is-getting",
+      "savedAt": "2026-05-04T22:16:38.335000+00:00",
+      "description": "The version of you that shows up when you are tired is the one you practice most. This \"Tired Self\" controls your actions in hard moments, not your rested self. To improve, you must train yourself to be better specifically when tired.",
+      "tags": []
+    },
+    {
+      "id": "01kqsyedjtmpdm7xsgn1gxsy54",
+      "title": "Reverse Engineering SimTower",
+      "url": "https://phulin.me/blog/simtower",
+      "savedAt": "2026-05-04T16:51:49.466000+00:00",
+      "description": "The author used AI tools to reverse engineer and recreate a classic elevator simulator game called SimTower. They found static analysis alone was not enough, so they combined emulation and dynamic testing to match the original game’s behavior. This approach allowed them to build a perfect clone that supports modern play and collaboration.",
+      "tags": []
+    },
+    {
+      "id": "01kqs1cdz3ntfgd68wyajq49g6",
+      "title": "Tools to Bolster Your Mental Health & Confidence | Dr. Paul Conti",
+      "url": "https://traffic.megaphone.fm/SCIM9301011958.mp3?updated=1777872876",
+      "savedAt": "2026-05-04T08:23:52.619000+00:00",
+      "description": "Dr. Paul Conti, MD, is a board-certified psychiatrist and an expert in how to improve mental health and increase your sense of agency and wellbeing. He is also an expert in trauma treatment. We discuss practical tools you can use to gain insight into your natural strengths and to make better life choices on your own behalf. We explore how these tools can help overcome low motivation, intrusive thoughts and self-destructive bad habits. We also discuss how to balance internal reflection and external action to ensure you move your life forward in the right directions.\n\nThank you to our sponsors\n\nAG1: https://drinkag1.com/huberman\n\nHelix Sleep: https://helixsleep.com/huberman\n\nBetterHelp: https://betterhelp.com/huberman\n\nFunction: https://functionhealth.com/huberman\n\nRorra: https://rorra.com/huberman\n\nTimestamps\n\n(00:00:00) Paul Conti\n\n(00:02:51) Self View; Tool: What's Going Right?; State Dependence\n\n(00:10:03) Sponsors: Helix Sleep & BetterHelp\n\n(00:12:44) Tool: Compassionate Curiosity; Falseness; Social Media\n\n(00:21:00) Doing vs Thinking; Self-Reflection\n\n(00:29:55) External vs Internal Processing, Balance\n\n(00:40:42) Sponsor: AG1\n\n(00:42:26) Quiet vs Verbal; Questions to Learn About Self\n\n(00:53:17) Examined Life & Reflection; Changing Unwanted Behavior\n\n(01:02:54) Making Positive Changes, Problem Solving\n\n(01:07:26) Sponsor: Function\n\n(01:09:03) Behavior Pattern Insight & Reclaiming Agency\n\n(01:17:06) Agency & Control; Getting in Your Own Way\n\n(01:22:49) Trauma, Living Intentionally; Internal Turmoil\n\n(01:29:08) Intrusive Thoughts, Tool: Self Talk Awareness; Dreams\n\n(01:34:10) Sponsor: Rorra\n\n(01:35:23) Trauma & Emotions; Healing Childhood Trauma\n\n(01:43:32) Photographs, Positive Climate for the Mind; Spirituality, Good & Evil\n\n(01:52:53) Happiness & Expectations; Death, Living a Good Life\n\n(02:03:10) Book Writing; Acknowledgements\n\n(02:07:25) Zero-Cost Support, YouTube, Spotify & Apple Follow, Reviews & Feedback, Sponsors, Protocols Book, Social Media, Neural ...",
+      "tags": []
+    },
+    {
+      "id": "01kqqk4pn1v3fs756v8q35tf7p",
+      "title": "Effective learning: Twenty rules of formulating knowledge",
+      "url": "https://www.supermemo.com/en/blog/twenty-rules-of-formulating-knowledge",
+      "savedAt": "2026-05-03T18:55:47.873000+00:00",
+      "description": "Effective learning depends on clear and simple knowledge. Using rules helps organize and remember information better. Following these twenty rules improves how we learn and retain new facts.",
+      "tags": [
+        "learning",
+        "favorites",
+        "learning/srs"
+      ]
+    },
+    {
+      "id": "01kqmaay5z4tgy2s1n7cnh86t1",
+      "title": "I built a Game Boy emulator in F#",
+      "url": "https://nickkossolapov.github.io/fame-boy/building-a-game-boy-emulator-in-fsharp/",
+      "savedAt": "2026-05-02T12:24:11.711000+00:00",
+      "description": "The author built a Game Boy emulator in F# to learn about hardware and found CPU emulation easier than graphics and sound. Performance improved greatly by optimizing code and using release mode instead of debug. Although some hardware details were simplified, the emulator runs classic games well and helped the author understand computer systems better.",
+      "tags": []
+    },
+    {
+      "id": "01kqj84gc695vaay2yvvern89h",
+      "title": "Finishing Things",
+      "url": "https://ratfactor.com/finishing-things?__readwiseLocation=",
+      "savedAt": "2026-05-01T17:07:14.950000+00:00",
+      "description": "The author struggles with finishing projects but has learned to work slowly and keep tasks small. They focus on maintaining good habits and managing their energy to avoid burnout. Accepting limits and doing what they can helps them make steady progress and feel satisfied.",
+      "tags": [
+        "favorites",
+        "productivity",
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "01kqfqhkmj82w3x30smhdrb15c",
+      "title": "How an Oil Refinery Works",
+      "url": "https://www.construction-physics.com/p/how-an-oil-refinery-works",
+      "savedAt": "2026-04-30T17:38:49.618000+00:00",
+      "description": "Oil refineries turn crude oil into useful products like gasoline and diesel by separating and changing its chemical parts. They use processes like distillation and cracking to make valuable fuels from heavy oil. Refineries are huge, expensive, and work nonstop to meet the world's huge demand for petroleum.",
+      "tags": []
+    },
+    {
+      "id": "01kqepnk0dg3p373pe1bweymcw",
+      "title": "Essentials: Control Sugar Cravings & Metabolism with Science-Based Tools",
+      "url": "https://www.hubermanlab.com/episode/essentials-control-sugar-cravings-and-metabolism-with-science-based-tools",
+      "savedAt": "2026-04-30T08:04:14.037000+00:00",
+      "description": "In this Huberman Lab Essentials episode, I explain how the body senses and uses sugar, and why understanding those mechanisms can help reduce sugar cravings. I discuss different types of sugar and how they are processed by pathways in the gut and the brain to shape appetite and the desire for specific foods. I also share many science-based tools to help curb sugar cravings and support healthy blood sugar regulation.\n\nRead the show notes at hubermanlab.com.\n\nThank you to our sponsors\n\nAG1: https://drinkag1.com/huberman\n\nLingo: https://hellolingo.com/huberman\n\nLMNT: https://drinklmnt.com/huberman\n\nTimestamps\n\n(00:00:00) Sugar\n\n(00:00:37) Hunger, Hormones & Blood Glucose\n\n(00:03:03) Fructose vs Glucose, Controlling Hunger\n\n(00:06:30) Sponsor: AG1\n\n(00:07:54) Brain Circuits: Sweet Taste & Nutritive Pathways\n\n(00:10:51) Sweet Taste & Dopamine\n\n(00:13:22) Gut & Blood Glucose; Tool: Sugar Cravings & Hidden Sugars\n\n(00:15:44) Sponsor: Lingo\n\n(00:16:53) Glycemic Index, Tool: Food Choices, Fiber & Sugar Intake\n\n(00:20:55) Glutamine Supplementation, Leaky Gut & Sugar Cravings\n\n(00:23:17) Tool: Lemon Juice to Blunt Blood Glucose\n\n(00:26:44) Sponsor: LMNT\n\n(00:28:16) Tool: Reduce Blood Sugar Cravings with Cinnamon\n\n(00:29:10) Berberine & Potent Molecules to Regulate Blood Glucose\n\n(00:30:52) Tool: Quality Sleep & Sugar Cravings\n\nDisclaimer & Disclosures\nLearn more about your ad choices. Visit megaphone.fm/adchoices",
+      "tags": []
+    },
+    {
+      "id": "01kqejsnm37xfzr7vgp6e4da41",
+      "title": "How an estrogen megadose gave me empathy for men",
+      "url": "https://analogfutures.substack.com/p/trip-report-estrogen-megadose",
+      "savedAt": "2026-04-30T06:56:36.483000+00:00",
+      "description": "Taking a large dose of estrogen greatly increased the author's sex drive and changed how they felt attraction. Instead of making them more attracted to men, estrogen made them more strongly attracted to women. This experience helped the author understand how hormones can shape men's powerful sexual feelings and behavior.",
+      "tags": []
+    },
+    {
+      "id": "01kqehvsjcy5nyhdksa59b4t28",
+      "title": "The Mathematical Reason Most People Never \"Make It\"",
+      "url": "https://kaguura.substack.com/p/the-mathematical-reason-most-people",
+      "savedAt": "2026-04-30T06:40:17.484000+00:00",
+      "description": "Price’s Law shows that in any group, the square root of people produce half the results, meaning a small number create most of the impact. Success comes from focusing on your key skills and producing lots of work to find what truly matters. Most people stay stuck trying everything without realizing only a few efforts drive real progress.",
+      "tags": []
+    },
+    {
+      "id": "01kqehvkjaj135hkjgwpr85wea",
+      "title": "Curious cases of financial engineering in biotech",
+      "url": "https://www.owlposting.com/p/curious-cases-of-financial-engineering",
+      "savedAt": "2026-04-30T06:40:11.338000+00:00",
+      "description": "Finance changes how biotech raises money by creating new ways to trade future drug revenues and manage risks. Some investors buy failing biotech companies to sell their assets, turning losses into profits. This growing financial influence may shift what drugs get developed and how, which could affect innovation in medicine.",
+      "tags": []
+    },
+    {
+      "id": "01kqctgcpmnrw4t0q5g5bhebbv",
+      "title": "Building Pi, and what makes self-modifying software so fascinating",
+      "url": "https://newsletter.pragmaticengineer.com/p/building-pi-and-what-makes-self-modifying",
+      "savedAt": "2026-04-29T14:32:49.181000+00:00",
+      "description": "Mario Zechner, creator of Pi, joins Armin Ronacher to explore AI coding’s limits, arguing that human judgment still matters most in an agent-driven world.",
+      "tags": []
+    },
+    {
+      "id": "01kqcsnc7twzqphkp31bm7zj8n",
+      "title": "Getting Into AI Infra",
+      "url": "https://timzaman.com/getting-into-ai-infra",
+      "savedAt": "2026-04-29T14:18:06.970000+00:00",
+      "description": "To get into AI infrastructure, start by building and running real systems yourself, beginning with one machine and a workload you care about. Learn the hardware details, turn your setup into a server, then expand to multiple machines to understand distributed systems. Share your work openly and keep experimenting to grow your skills and opportunities.",
+      "tags": []
+    },
+    {
+      "id": "01kqb5j7a7pje44hmhvehd52dj",
+      "title": "Smolwebifying my site",
+      "url": "https://akselmo.dev/posts/smolwebifying-my-site/",
+      "savedAt": "2026-04-28T23:07:37.671000+00:00",
+      "description": "The author simplified their website to make it faster and easier to use on older devices and browsers. They removed a lot of extra code and used new tools like SCSS to improve compatibility. The site now passes modern web validators, and the author is happy with the clean design.",
+      "tags": []
+    },
+    {
+      "id": "01kqb5hwtm7ebv50edyn1acvnh",
+      "title": "Simulation Testing For Liveness",
+      "url": "https://tigerbeetle.com/blog/2023-07-06-simulation-testing-for-liveness/",
+      "savedAt": "2026-04-28T23:07:26.932000+00:00",
+      "description": "TigerBeetle's simulator now has two modes: \"safety\" mode and a new \"liveness\" mode. While safety mode checks for errors during faults, liveness mode ensures that the cluster remains available even if some replicas fail permanently. This update helped identify new bugs that safety mode would not have detected.",
+      "tags": [
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "01kqb5hnx8wp2r36kkwtjpkb7r",
+      "title": "VOPR: The Multiverse Machine That Kills Production Bugs",
+      "url": "https://dev.to/copyleftdev/vopr-the-multiverse-machine-that-kills-production-bugs-3nie",
+      "savedAt": "2026-04-28T23:07:19.848000+00:00",
+      "description": "VOPR uses deterministic simulation testing to explore many possible timelines and find rare production bugs caused by timing and concurrency issues. It controls time, randomness, and event order to make bugs reproducible and testable across thousands of alternative universes. This approach helps catch bugs that normal tests miss by systematically hunting down these hidden schedule errors.",
+      "tags": []
+    },
+    {
+      "id": "01kqb5gjjysddc7dmebqs86537",
+      "title": "Adding a team was the wrong strategic decision",
+      "url": "https://learnings.aleixmorgadas.dev/p/adding-a-team-was-the-wrong-strategic",
+      "savedAt": "2026-04-28T23:06:43.678000+00:00",
+      "description": "The company created a new CX team to build a dashboard and improve customer support, but this team was not aligned with existing product teams. The dashboard took too long to develop and was rarely used by the CX team, leading to wasted time and resources. Eventually, leadership disbanded the CX team and focused on simpler, per-product dashboards to quickly meet business goals.",
+      "tags": []
+    },
+    {
+      "id": "01kqb5e7h760ky3ztpp9xrbthm",
+      "title": "Illegal vs Unwanted States",
+      "url": "https://buttondown.com/hillelwayne/archive/illegal-vs-unwanted-states/",
+      "savedAt": "2026-04-28T23:05:26.823000+00:00",
+      "description": "Illegal states are system conditions that must never occur, while unwanted states are undesirable but sometimes allowed temporarily. Unwanted states can happen due to external factors or design choices, and systems must detect and resolve them to avoid illegal states. Sometimes unwanted states enable useful workflows, but users should be informed when entering them.",
+      "tags": []
+    },
+    {
+      "id": "01kqb5e26s3g8b2kmasq130j5x",
+      "title": "The Best (Query) Plans of Mice and Men",
+      "url": "https://ohadravid.github.io/posts/2026-04-query-plans/",
+      "savedAt": "2026-04-28T23:05:21.369000+00:00",
+      "description": "Adding a partial index can speed up specific queries, but PostgreSQL may reuse generic query plans that ignore it. Parameterized queries often lead to slow plans because the planner prefers generic plans, missing the partial index. Setting plan_cache_mode to force_custom_plan forces PostgreSQL to create tailored plans, making queries much faster.",
+      "tags": []
+    },
+    {
+      "id": "01kqb5dz5hzjtaw2a4ebpsxsbz",
+      "title": "Babylon and the Square Root of 2",
+      "url": "https://johncarlosbaez.wordpress.com/2011/12/02/babylon-and-the-square-root-of-2/",
+      "savedAt": "2026-04-28T23:05:18.257000+00:00",
+      "description": "A Babylonian clay tablet from 1700 BC shows a very good approximation of the square root of 2. They likely used a clever averaging method to improve their guesses step by step. This ancient approach is similar to algorithms used today to find square roots accurately.",
+      "tags": [
+        "math",
+        "math/history"
+      ]
+    },
+    {
+      "id": "01kq8k1asswcx05weay9hsy095",
+      "title": "Physical AI that Moves the World — Qasar Younis & Peter Ludwig, Applied Intuition",
+      "url": "https://www.latent.space/p/appliedintuition",
+      "savedAt": "2026-04-27T23:05:17.954000+00:00",
+      "description": "Applied Intuition puts the AI in mining rigs, drones, trucks, warships and physical vehicles in the most adversarial environments imaginable. We dive in with their CEO and CTO as they emerge.",
+      "tags": []
+    },
+    {
+      "id": "01kq7q5w918qmpcjm54c1f7e5y",
+      "title": "The gold standard of optimization: A look under the hood of RollerCoaster Tycoon",
+      "url": "https://larstofus.com/2026/03/22/the-gold-standard-of-optimization-a-look-under-the-hood-of-rollercoaster-tycoon/",
+      "savedAt": "2026-04-27T14:58:29.793000+00:00",
+      "description": "RollerCoaster Tycoon (RCT) was highly optimized to run complex theme parks smoothly on old hardware. The game’s designer and programmer were the same person, allowing clever design choices that improved performance. These optimizations made RCT run well and even influenced gameplay features like pathfinding and crowd handling.",
+      "tags": []
+    },
+    {
+      "id": "01kq7q5r2avxrg7nez76rt08vc",
+      "title": "Golden Testing a CAD Library",
+      "url": "https://doscienceto.it/blog/posts/2026-04-27-golden-testing-cad.html",
+      "savedAt": "2026-04-27T14:58:25.482000+00:00",
+      "description": "The author created a Haskell CAD library called Waterfall-CAD and found it hard to test because it produces 3D models. They added SVG output to make testing easier using visual regression testing, which compares images to catch differences. The tests compare generated SVG images pixel-by-pixel and save a diff image if they differ too much.",
+      "tags": []
+    },
+    {
+      "id": "01kq7as85p5axrney55nyqm02b",
+      "title": "3 constraints before I build anything",
+      "url": "https://jordanlord.co.uk/blog/3-constraints/",
+      "savedAt": "2026-04-27T11:21:53.078000+00:00",
+      "description": "Before building, write a clear one-page summary to keep ideas simple and focused. Create core technology that lasts beyond the product and supports long-term growth. Choose one main constraint that shapes your product’s identity and limits unnecessary features.",
+      "tags": []
+    },
+    {
+      "id": "01kq709kz0yfjhg6vfxp0e1r7j",
+      "title": "Male Roles, Obligations and Options for Building a Fulfilling Life | Scott Galloway",
+      "url": "https://traffic.megaphone.fm/SCIM7501986841.mp3?updated=1777260985",
+      "savedAt": "2026-04-27T08:18:32.105000+00:00",
+      "description": "Scott Galloway talks about the changing and lasting roles of men in life. He gives advice on work, health, money, and relationships to help men find meaning. The talk also covers challenges like social media, addiction, and how men can build strength and compassion.",
+      "tags": []
+    },
+    {
+      "id": "01kq2dzqkqjhvjg9cr8zgkzckz",
+      "title": "Collision attack - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Collision_attack",
+      "savedAt": "2026-04-25T13:41:39.063000+00:00",
+      "description": "A collision attack finds two different inputs that produce the same cryptographic hash value. This attack can break hash functions like MD5 and SHA-1, making digital signatures vulnerable. Some attacks allow forging certificates or causing denial of service by exploiting these collisions.",
+      "tags": []
+    },
+    {
+      "id": "01kq2dzn731qkrfzp8tqj5pdat",
+      "title": "CPT symmetry",
+      "url": "https://en.wikipedia.org/wiki/CPT_symmetry",
+      "savedAt": "2026-04-25T13:41:36.611000+00:00",
+      "description": "CPT symmetry combines charge, parity, and time reversal symmetry in physics. It is a fundamental property where the universe remains unchanged when reflected through a mirror image. Violations of CPT symmetry could imply the breaking of Lorentz symmetry.",
+      "tags": []
+    },
+    {
+      "id": "01kq2dzk7f0ajwva94cns2jdmz",
+      "title": "Lorentz covariance - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lorentz_covariance",
+      "savedAt": "2026-04-25T13:41:34.575000+00:00",
+      "description": "Lorentz covariance is a key principle in physics that ensures laws stay the same for all observers moving at constant speeds. Scientists test this principle to check if it holds true or if tiny violations exist. These tests help us understand the universe and the behavior of particles at very high energies.",
+      "tags": []
+    },
+    {
+      "id": "01kq2dz8pav4tamxwbxfvw1cjn",
+      "title": "Your CPU Has More Registers Than You'd Think",
+      "url": "https://fp32.org/register_renaming.html",
+      "savedAt": "2026-04-25T13:41:23.786000+00:00",
+      "description": "Modern CPUs have many more physical registers than the visible architectural registers, enabling complex instruction scheduling. The rename unit maps architectural registers to physical ones to remove false dependencies and allow out-of-order execution. This process helps improve CPU performance by enabling parallelism and reducing execution delays.",
+      "tags": []
+    },
+    {
+      "id": "01kq2dz0b6as67fjk7n1z68tpx",
+      "title": "Developing a minimally HashDoS resistant, yet quickly reversible integer hash for V8",
+      "url": "https://nodejs.org/en/blog/vulnerability/march-2026-hashdos",
+      "savedAt": "2026-04-25T13:41:15.238000+00:00",
+      "description": "V8 developed a new integer hash that prevents attackers from causing slowdowns by making hash values unpredictable. This hash is quickly reversible, allowing V8 to keep important performance optimizations. The design balances security and speed by using secret keys to seed the hash and hide its output from attackers.",
+      "tags": []
+    },
+    {
+      "id": "01kq2b3yd80myt8af5jzfrkrax",
+      "title": "Why you should refuse to let your doctor record you",
+      "url": "https://buttondown.com/maiht3k/archive/why-you-should-refuse-to-let-your-doctor-record/",
+      "savedAt": "2026-04-25T12:51:31.368000+00:00",
+      "description": "Doctors are starting to use AI tools that record and transcribe patient visits to save time. But these tools can hurt privacy, reduce care quality, and may not work well for everyone. It’s safer for patients to refuse being recorded and for doctors to avoid relying on these systems.",
+      "tags": []
+    },
+    {
+      "id": "01kq05tjvq419rwe4jkmm5hz18",
+      "title": "Composition Shouldn't be this Hard",
+      "url": "https://www.cambra.dev/blog/announcement/",
+      "savedAt": "2026-04-24T16:40:32.887000+00:00",
+      "description": "Modern software struggles because tools force a choice between powerful but narrow models and general but fragmented ones. Using a single, domain-aligned model helps build coherent systems that are easier to develop, maintain, and optimize. Advances in programming and databases may soon enable better models that combine generality with domain focus, improving both human and AI programming.",
+      "tags": []
+    },
+    {
+      "id": "01kq05sctaqxmrd7ddt2ery1rb",
+      "title": "Aspartame: Once more unto the breach",
+      "url": "https://dynomight.net/aspartame/",
+      "savedAt": "2026-04-24T16:39:53.930000+00:00",
+      "description": "Aspartame breaks down quickly into normal chemicals in the body and is much sweeter than sugar. Many studies and health agencies say aspartame is safe and does not cause cancer or other serious problems. Despite this, some people still worry about it, but current science shows little reason to fear aspartame.",
+      "tags": []
+    },
+    {
+      "id": "01kq05s25e2hf4d0v7w87gbbgw",
+      "title": "On sabotaging projects by overthinking",
+      "url": "https://kevinlynagh.com/newsletter/2026_04_overthinking/",
+      "savedAt": "2026-04-24T16:39:43.022000+00:00",
+      "description": "The author explains how overthinking can stop projects from being finished by causing endless research and revisions. They describe their struggle with building a structural diff tool and the tools they explored. Finally, they plan to make a simple version first, then improve it step-by-step to avoid getting stuck again.",
+      "tags": []
+    },
+    {
+      "id": "01kq05rvvvhjyfwqvm1nb2p0kp",
+      "title": "Stigma is a tax on every operational decision",
+      "url": "https://orchidfiles.com/stigma-is-a-tax-on-every-operational-decision/",
+      "savedAt": "2026-04-24T16:39:36.571000+00:00",
+      "description": "Starting an adult or gambling online business is risky and full of stigma that affects hiring, advertising, payments, and reputation. Such projects face legal issues, unreliable payment providers, and struggle to get investments or stable teams. Success in this field often harms personal reputation and makes it hard to leave or grow beyond the niche.",
+      "tags": []
+    },
+    {
+      "id": "01kq0424fejxhgpcg6jamse9am",
+      "title": "how to be anti-social",
+      "url": "https://nate.leaflet.pub/3mk4xkaxobc2p",
+      "savedAt": "2026-04-24T16:09:43.150000+00:00",
+      "description": "Assume others have bad intentions and trust your feelings without question. Avoid learning or admitting when you are wrong. Surround yourself with like-minded people and ignore opposing views.",
+      "tags": [
+        "society",
+        "philosophy"
+      ]
+    },
+    {
+      "id": "01kq0422b5sz6tc9bvsrb6ky6y",
+      "title": "A Visual Deep Dive",
+      "url": "https://ynarwal.github.io/how-llms-work/",
+      "savedAt": "2026-04-24T16:09:40.965000+00:00",
+      "description": "Large language models like ChatGPT learn by predicting the next word from huge amounts of internet text. They improve through training on human-labeled conversations and reinforcement learning to become helpful assistants. These models generate text by guessing likely words, not by thinking or remembering past chats.",
+      "tags": []
+    },
+    {
+      "id": "01kpy8a4215dd84r9zv9nq04zj",
+      "title": "Sam Vimes ‘Boots’ Theory of Socio-Economic Unfairness",
+      "url": "https://terrypratchett.com/explore-discworld/sam-vimes-boots-theory-of-socio-economic-unfairness/?__readwiseLocation=",
+      "savedAt": "2026-04-23T22:45:30.304000+00:00",
+      "description": "Poor people often pay more over time because they can only afford cheap, short-lived items like boots. Rich people can buy expensive, durable things that save money and effort in the long run. This shows how poverty traps people in a cycle of spending more and having less comfort.",
+      "tags": []
+    },
+    {
+      "id": "01kpy78prxhdsv0m0znnp1m9sy",
+      "title": "Rewriting Every Syscall in a Linux Binary at Load Time",
+      "url": "https://substack.com/home/post/p-194037971?__readwiseLocation=",
+      "savedAt": "2026-04-23T22:27:15.357000+00:00",
+      "description": "This project replaces every syscall instruction in a Linux binary with a trap that redirects to a custom handler, giving full control over syscalls. It works by rewriting the binary’s instructions to use INT3 traps and running the process inside a lightweight VM with a shim that intercepts syscalls. This method offers low overhead and strong security by limiting syscalls to only those a process actually uses.",
+      "tags": []
+    },
+    {
+      "id": "01kpy5k18gzr7yr6g3z5wpnrwp",
+      "title": "Temporal Networks, Where Page Rank meets Lord of the Rings - Computerphile",
+      "url": "https://www.youtube.com/watch?v=ZP6Bh3iWklQ",
+      "savedAt": "2026-04-23T21:57:56.623000+00:00",
+      "description": "PageRank helps find important nodes in networks by simulating random clicks on links. This idea is used to analyze characters' importance over time in the Lord of the Rings story. The method works well for studying networks that change with time.",
+      "tags": []
+    },
+    {
+      "id": "01kpxxkb9ydfgh7fxn88f9pzgf",
+      "title": "AIE Europe Debrief + Agent Labs Thesis: Unsupervised Learning x Latent Space Crossover Special (2026)",
+      "url": "https://www.latent.space/p/unsupervised-learning-2026",
+      "savedAt": "2026-04-23T19:38:15.302000+00:00",
+      "description": "The AI coding market in 2026 is rapidly evolving with strong competition among foundation models and application companies. Open models and specialized AI agents are playing a growing role in shaping new product experiences. Despite challenges, innovation and infrastructure investment continue to drive the AI industry forward.",
+      "tags": []
+    },
+    {
+      "id": "01kpxn2x535napjf2vc2tgskm5",
+      "title": "The invisible engineering behind Lambda’s network",
+      "url": "https://www.allthingsdistributed.com/2026/04/the-invisible-engineering-behind-lambdas-network.html",
+      "savedAt": "2026-04-23T17:09:30.915000+00:00",
+      "description": "AWS Lambda’s networking team improved how millions of virtual machines connect by redesigning network topology and cutting latency from 150ms to 200μs. They pre-created thousands of network devices to avoid delays during function starts, boosting capacity 20 times and lowering CPU use. These invisible upgrades made Lambda faster, more efficient, and ready for future demands without users noticing the complex work behind it.",
+      "tags": []
+    },
+    {
+      "id": "01kpx9nygszb40va56r2prz2p8",
+      "title": "Things you didn't know about indexes",
+      "url": "https://jon.chrt.dev/2026/04/15/things-you-didnt-know-about-indexes.html",
+      "savedAt": "2026-04-23T13:50:11.993000+00:00",
+      "description": "Indexes help databases find data quickly by sorting and pointing to rows. However, indexes slow down writing and take extra space, so use them wisely. Special types like functional, partial, and covering indexes can make queries faster and more efficient.",
+      "tags": []
+    },
+    {
+      "id": "01kpx9axn9v50pbgr2wnbx7gbq",
+      "title": "What Physical ‘Life Force’ Turns Biology’s Wheels? | Quanta Magazine",
+      "url": "https://www.quantamagazine.org/what-physical-life-force-turns-biologys-wheels-20260420/",
+      "savedAt": "2026-04-23T13:44:10.665000+00:00",
+      "description": "Bacteria move using a tiny motor that spins a tail called a flagellum to swim toward food. This motor is powered by protons flowing into the cell, creating a force called the proton motive force. Scientists have recently understood how this motor works and how it switches direction to help bacteria navigate their environment.",
+      "tags": []
+    },
+    {
+      "id": "01kpwntng09sz0gtb73zh05ej5",
+      "title": "Essentials: The Neuroscience of Speech, Language & Music | Dr. Erich Jarvis",
+      "url": "https://www.hubermanlab.com/episode/essentials-the-neuroscience-of-speech-language-and-music-erich-jarvis",
+      "savedAt": "2026-04-23T08:03:12.072000+00:00",
+      "description": "In this Huberman Lab Essentials episode, my guest is Dr. Erich Jarvis, PhD, a professor and Head of the Laboratory of Neurogenetics of Language at Rockefeller University and an investigator at the Howard Hughes Medical Institute (HHMI). We discuss the brain circuits and genes underlying spoken language and why the ability to learn and produce vocalizations is extraordinarily rare in the animal kingdom. We also explore why song likely evolved before language, how gesture and movement share deep neural roots with speech, the neurobiology of stuttering, why childhood is the optimal window for language acquisition, and how physical movement — including dance — may help preserve speech and cognitive function across a lifetime.\n\nRead the show notes at hubermanlab.com.\n\nThank you to our sponsors\n\nAG1: https://drinkag1.com/huberman\n\nFunction: https://functionhealth.com/huberman\n\nEight Sleep: https://eightsleep.com/huberman\n\nTimestamps\n\n(00:00:00) Speech & Language\n\n(00:00:23) Speech vs. Language; Brain Pathways for Communication\n\n(00:01:57) Gesture, Hand Movement & Speech Evolution\n\n(00:04:31) Sponsor: Function\n\n(00:05:59) Innate Vocalizations vs. Learned Speech\n\n(00:08:01) Evolution of Spoken Language; Neanderthals & Vocal Learning\n\n(00:09:29) Birdsong & Human Speech; Brain Circuit Parallels\n\n(00:13:22) Hummingbirds; Vocal Learning Species & Complex Traits\n\n(00:14:32) Critical Periods & Learning Your Native Song\n\n(00:16:50) Pidgin Language & Cultural-Genetic Convergence\n\n(00:18:36) Sponsor: AG1\n\n(00:20:01) Genes Specialized in Speech Circuits\n\n(00:23:05) Critical Period for Language Learning; Multilingualism\n\n(00:25:17) Music, Emotion & Semantic vs. Affective Communication\n\n(00:28:14) Sponsor: Eight Sleep\n\n(00:29:49) Facial Expression & Speech Circuitry\n\n(00:31:07) Written Language & Neural Pathways\n\n(00:32:47) Stuttering; Basal Ganglia & Neurobiological Basis\n\n(00:35:03) Texting & Language Evolution\n\n(00:36:36) Tool: Movement, Dancing & Singing to Maintain Cognitive He...",
+      "tags": []
+    },
+    {
+      "id": "01kpw4pk3xbgasjv1y73ydp2ht",
+      "title": "Answers and Reasons and Knowing and Thinking",
+      "url": "https://www.science.org/content/blog-post/answers-and-reasons-and-knowing-and-thinking?__readwiseLocation=",
+      "savedAt": "2026-04-23T03:03:55.773000+00:00",
+      "description": "AlphaFold uses machine learning and existing protein data to quickly predict protein structures without fully understanding the underlying science. This shortcut helps researchers but challenges educators because it encourages getting answers fast instead of learning deeply. The big question is whether we want quick answers or true understanding in science and education.",
+      "tags": []
+    },
+    {
+      "id": "01kpw4nwv374qf7eq8d3abcvsx",
+      "title": "What’s the deal with Alzheimer’s disease and amyloid?",
+      "url": "https://arstechnica.com/science/2026/04/whats-the-deal-with-alzheimers-disease-and-amyloid/?__readwiseLocation=",
+      "savedAt": "2026-04-23T03:03:32.963000+00:00",
+      "description": "Scientists once believed amyloid-β protein caused Alzheimer’s disease, but many studies and drug trials targeting it have failed. New research suggests other factors like viruses and genetics may also play a role. Despite problems and controversy, most treatments still focus on amyloid-β.",
+      "tags": []
+    },
+    {
+      "id": "01kpw3j7f4kag7rv7qbh18wsq2",
+      "title": "Running a Minecraft Server and more on a 1960s UNIVAC Computer",
+      "url": "https://farlow.dev/2026/04/17/running-a-minecraft-server-and-more-on-a-1960s-univac-computer",
+      "savedAt": "2026-04-23T02:44:04.196000+00:00",
+      "description": "A team built an emulator and C compiler to run modern code on a 1960s UNIVAC computer. They overcame many challenges by creating tools, writing assembly, and using RISC-V emulation. After months of work, they successfully ran real programs like \"hello world\" and computed pi on the vintage machine.",
+      "tags": []
+    },
+    {
+      "id": "01kpw3j1ans3rds5j0xhckn89f",
+      "title": "Let's create a Tree-sitter grammar ★",
+      "url": "https://www.jonashietala.se/blog/2024/03/19/lets_create_a_tree-sitter_grammar/",
+      "savedAt": "2026-04-23T02:43:57.908000+00:00",
+      "description": "Neovim's Tree-sitter integration improves syntax highlighting and code navigation across many languages. The author tried creating a Tree-sitter grammar for the Djot markup language and learned a lot. He shared his findings and code to help others build their own grammars.",
+      "tags": []
+    },
+    {
+      "id": "01kpvbf9394h3xn0b4e8j2nej4",
+      "title": "Shopify’s AI Phase Transition: 2026 Usage Explosion, Unlimited Opus-4.6 Token Budget, Tangle, Tangent, SimGym — with Mikhail Parakhin, Shopify CTO",
+      "url": "https://www.latent.space/p/shopify",
+      "savedAt": "2026-04-22T19:42:58.738000+00:00",
+      "description": "Shopify is rapidly growing its use of AI tools internally to improve work and innovation. They provide unlimited access to AI resources and focus on automated research to boost results. Their AI efforts help make better decisions and improve e-commerce experiences for many users.",
+      "tags": []
+    },
+    {
+      "id": "01kptzztjh4emyswmsf3m2mz5a",
+      "title": "Designing Data-intensive Applications with Martin Kleppmann",
+      "url": "https://newsletter.pragmaticengineer.com/p/designing-data-intensive-applications",
+      "savedAt": "2026-04-22T16:22:18.010000+00:00",
+      "description": "Martin Kleppmann’s updated book, Designing Data-Intensive Applications, helps developers understand key tradeoffs in building scalable, reliable systems. He discusses how cloud technologies have changed scaling and why formal verification may grow with AI tools. Martin also explores challenges in local-first software and stresses better collaboration between industry and academia.",
+      "tags": []
+    },
+    {
+      "id": "01kpnv2hsa44x4sjegct4gxz7s",
+      "title": "🔬 Training Transformers to solve 95% failure rate of Cancer Trials — Ron Alfa & Daniel Bear, Noetik",
+      "url": "https://www.latent.space/p/noetik",
+      "savedAt": "2026-04-20T16:20:12.275000+00:00",
+      "description": "Most cancer treatments fail because we don’t match the right patient to the right therapy. Noetik uses AI to study tumors deeply and predict who will respond to existing treatments. This approach could save many lives and help drug companies like GSK improve clinical trial success.",
+      "tags": []
+    },
+    {
+      "id": "01kpnaqeqgqrnzwatjw0p0bfsy",
+      "title": "80386 Memory Pipeline",
+      "url": "https://nand2mario.github.io/posts/2026/80386_memory_pipeline/",
+      "savedAt": "2026-04-20T11:34:34.480000+00:00",
+      "description": "The 80386 uses a smart memory pipeline that overlaps tasks to make virtual memory fast. It caches segment info and starts address work early to save time. This design helps the processor run memory operations quickly, even with complex protections.",
+      "tags": []
+    },
+    {
+      "id": "01kpmzb5drtvz332jy7g7c425j",
+      "title": "How to Better Regulate Your Emotions | Dr. Marc Brackett",
+      "url": "https://www.hubermanlab.com/episode/how-to-better-regulate-your-emotions-marc-brackett",
+      "savedAt": "2026-04-20T08:15:34.401000+00:00",
+      "description": "Dr. Marc Brackett, PhD, is a professor of psychology at Yale University and director of the Yale Center for Emotional Intelligence. We discuss the science of emotion regulation and practical tools to increase your emotional intelligence. Dr. Brackett clarifies exactly how to do that both in the context of relationships, but also things that you can do on your own to become more emotionally intelligent to later serve you in the context of relationships, work, school, etc. We also discuss how your childhood experiences influence your relationship with emotions, with particular emphasis on how boys and men are socialized around emotional processing and expression.\n\nRead the show notes at hubermanlab.com.\n\nThank you to our sponsors\n\nAG1: https://drinkag1.com/huberman\n\nJoovv: https://joovv.com/huberman\n\nLingo: https://hellolingo.com/huberman\n\nLMNT: https://drinklmnt.com/huberman\n\nRorra: https://rorra.com/huberman\n\nTimestamps\n\n(00:00:00) Marc Brackett\n\n(00:02:55) Emotion Regulation\n\n(00:05:53) Emotion Mindset, Anxiety; Good or Bad Emotions?\n\n(00:11:25) Sponsors: Joovv & Lingo\n\n(00:13:54) Permission for Happiness; Gender, Emotion Suppression\n\n(00:22:13) Young Men, Vulnerability, Incapable; Gay Men\n\n(00:31:00) Boys & Men, Crying; Emotion Socialization\n\n(00:37:34) Sponsor: AG1\n\n(00:38:58) Physical Interaction; Rough/Tumble Play, Teaching Emotion Regulation\n\n(00:46:47) Emotion Calibration, Tools: Leaders & Being a Role Model; Meta-Moment\n\n(00:56:15) Meditation & Stress Tolerance, Tool: Label Emotions; Childhood\n\n(01:03:12) Sponsor: LMNT\n\n(01:04:32) Understand Your Assumptions, Tool: Intentional Co-Regulation\n\n(01:12:09) Vocabulary & Rethinking Emotion, Tool: Reframing\n\n(01:15:49) Emotional Intelligence Training, Self-Evaluation\n\n(01:22:15) Living with Discomfort & Emotional Intelligence\n\n(01:27:01) Marc's Work & Criticism; Emotion \"Leakage\" & Switching Mindset\n\n(01:34:19) Sponsor: Rorra\n\n(01:35:32) Excitement, Positive Emotion; Modern Concerns, AI & Disconnection\n\n(01:45:1...",
+      "tags": []
+    },
     {
       "id": "01kpantgmm2f1pyn3ac2d77b3n",
       "title": "Essentials: Understand & Improve Memory Using Science-Based Tools",
@@ -15,7 +540,10 @@
       "url": "https://ztoz.blog/posts/plaintext-accounting-reporting/?__readwiseLocation=",
       "savedAt": "2026-04-16T00:17:45.726000+00:00",
       "description": "The author switched from spreadsheets to a plain text ledger using Beancount for better accounting and reporting. They track accounts for assets, liabilities, income, expenses, and equity, with automated scripts to import data and generate reports. This system helps create accurate monthly financial statements and keeps the books balanced.",
-      "tags": []
+      "tags": [
+        "economy",
+        "interesting"
+      ]
     },
     {
       "id": "01kp8rsc5vect3nxyh5bhddgcv",
@@ -436,7 +964,9 @@
       "url": "https://www.joanwestenberg.com/marc-andreessen-is-wrong-about-introspection/?__readwiseLocation=",
       "savedAt": "2026-04-07T11:03:40.767000+00:00",
       "description": "Marc Andreessen wrongly claims introspection is a modern invention by Freud, ignoring centuries of philosophical tradition. Introspection helps us understand what makes life meaningful, which cannot be measured by external success alone. Rejecting self-examination limits our understanding of human flourishing and oversimplifies how we live well.",
-      "tags": []
+      "tags": [
+        "philosophy"
+      ]
     },
     {
       "id": "01knkssex658x72bh3zy2a52wh",
