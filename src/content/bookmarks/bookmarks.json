@@ -1,6 +1,80 @@
 {
-  "lastUpdate": "2026-05-11T00:30:25.305Z",
+  "lastUpdate": "2026-05-18T00:33:39.568Z",
   "data": [
+    {
+      "id": "01krrtn91myz5t8ek4yap3q48a",
+      "title": "Virtual Memory: A Deep Dive into Page Tables, TLBs, and Linux Internals",
+      "url": "https://blog.codingconfessions.com/p/virtual-memory",
+      "savedAt": "2026-05-16T16:42:07.284000+00:00",
+      "description": "Virtual memory lets the kernel manage many processes safely by mapping virtual addresses to physical memory. The kernel uses page tables, TLBs, and page faults to efficiently handle memory access and save physical memory. It also reclaims unused memory and can optimize performance with features like automatic NUMA balancing.",
+      "tags": [
+        "shortlist"
+      ]
+    },
+    {
+      "id": "01krmyvbkzm37y8p7hvcpgetf0",
+      "title": "HDD Firmware Hacking Part 1",
+      "url": "https://icode4.coffee/?p=1465",
+      "savedAt": "2026-05-15T04:38:23.103000+00:00",
+      "description": "The author explored how to dump, analyze, and modify hard drive firmware, focusing mainly on Western Digital drives. They used tools like IDA and hardware debugging to find key code and applied patches without rewriting firmware. The work is shared openly to help others study HDD firmware.",
+      "tags": []
+    },
+    {
+      "id": "01krm8ja10whpz280xcbc51tgb",
+      "title": "AI-Native Healthcare: 100M Doctor Visits, 10–20 Hours Saved, Prior Auth in Minutes — Janie Lee & Chai Asawa, Abridge",
+      "url": "https://www.latent.space/p/abridge",
+      "savedAt": "2026-05-14T22:08:54.888000+00:00",
+      "description": "How Abridge is quietly turning the patient and clinician conversation into the operating system of healthcare",
+      "tags": []
+    },
+    {
+      "id": "01krjs9zbp0wanwq91y27jrs11",
+      "title": "Essentials: Understanding & Controlling Aggression",
+      "url": "https://www.hubermanlab.com/episode/essentials-understanding-and-controlling-aggression",
+      "savedAt": "2026-05-14T08:22:58.750000+00:00",
+      "description": "This episode explains how the brain and body control aggression. It shows how hormones, genes, and sunlight affect aggressive behavior. It also offers simple ways to reduce aggression, like sunlight, heat therapy, and supplements.",
+      "tags": []
+    },
+    {
+      "id": "01krjbf0df020wf313bfxwa2wa",
+      "title": "When \"idle\" isn't idle: how a Linux kernel optimization became a QUIC bug",
+      "url": "https://readhacker.news/s/6TZ9s",
+      "savedAt": "2026-05-14T04:21:06.607000+00:00",
+      "description": "A Linux kernel change to optimize CUBIC congestion control caused a bug that trapped connections at a minimum congestion window, preventing recovery after packet loss. This happened because the code wrongly measured idle time using the last packet sent instead of the last ACK received, causing CUBIC to misbehave and oscillate endlessly. The fix was to track the last ACK time to accurately calculate idle periods, allowing the congestion window to grow properly again.",
+      "tags": []
+    },
+    {
+      "id": "01krjan1xg7barfrk22a8tta4v",
+      "title": "An idiot’s guide to lead optimisation for proteins",
+      "url": "https://magnusross.github.io/posts/protein-lead-optimisation-1/",
+      "savedAt": "2026-05-14T04:06:56.175000+00:00",
+      "description": "Proteins can be grouped by similarity, and we use models to predict useful changes in their sequences. By fine-tuning these models on related proteins, we improve their ability to suggest better-functioning variants. This helps us design new proteins with enhanced functions for specific tasks.",
+      "tags": []
+    },
+    {
+      "id": "01krh50egmvtbgcf6hdxbvxbp7",
+      "title": "TypeScript, C# and Turbo Pascal with Anders Hejlsberg",
+      "url": "https://newsletter.pragmaticengineer.com/p/typescript-c-and-turbo-pascal-with",
+      "savedAt": "2026-05-13T17:09:00.636000+00:00",
+      "description": "Anders Hejlsberg created Turbo Pascal, C#, and TypeScript, shaping modern programming languages. He focuses on improving developer tools and workflows to make coding easier and more efficient. He also discusses how AI will change software development and code review in the future.",
+      "tags": []
+    },
+    {
+      "id": "01krb22xkxk0jh69c8cyzyk2tw",
+      "title": "Master Self Control & Overcome Procrastination | Dr. Kentaro Fujita",
+      "url": "https://www.hubermanlab.com/episode/master-self-control-overcome-procrastination-kentaro-fujita",
+      "savedAt": "2026-05-11T08:22:29.318000+00:00",
+      "description": "Dr. Kentaro Fujita, PhD, is a professor of psychology at The Ohio State University and an expert in the science of self-control and motivation. We discuss the best tools for developing strong self-control: to do more of what you aspire to and cease doing things you would like to avoid. We discuss why you need more than one form of willpower to achieve sustained motivation and overcome procrastination. Dr. Fujita also clarifies the data on the 2-marshmallow test, delayed gratification and intrinsic vs. extrinsic motivation.\n\nRead the show notes at hubermanlab.com.\n\nThank you to our sponsors\n\nAG1: https://drinkag1.com/huberman\n\nDavid: https://davidprotein.com/huberman\n\nLingo: https://hellolingo.com/huberman\n\nLMNT: https://drinklmnt.com/huberman\n\nFunction: https://functionhealth.com/huberman\n\nTimestamps\n\n(00:00:00) Kentaro Fujita\n\n(00:03:08) Marshmallow Tests, Self-Control; Adult Modeling\n\n(00:08:24) Criticism of Marshmallow Tests, Learning Self-Control\n\n(00:15:08) Sponsors: David & Lingo\n\n(00:17:34) Movement & Motivation\n\n(00:21:42) Doing Hard Things; Exhaustion & Depletion Effect\n\n(00:29:02) Willpower vs Self-Control, Improving Self-Control\n\n(00:34:27) Aspiration or Fear for Motivation, Long- vs Short-Term Outcomes\n\n(00:40:55) Self-Control Toolkit, Tool: Failure & Exploration\n\n(00:46:44) Sponsor: AG1\n\n(00:48:28) Motivation Warm-Up?, Tools: Mindset; Motivation Orientation\n\n(00:57:30) Imperfect Conditions, Self-Control Conflicts, Tool: Why vs How\n\n(01:05:25) Tool: \"Whys\" & Motivation Goals\n\n(01:11:26) Competition, Tool: Motivation Types\n\n(01:17:13) Sponsor: LMNT\n\n(01:18:33) Abstinence vs Moderation, Consistency vs Rigidity\n\n(01:27:48) Burnout; \"Invisible\" Goals, Single Goal & Trade-Offs\n\n(01:35:17) Intrinsic Motivation for Sustained Goals\n\n(01:40:16) Sponsor: Function\n\n(01:41:53) Meaning in Simple Tasks, Ikigai\n\n(01:49:03) Self-Control Failure, Tools: Distancing, 3rd Person & Heros\n\n(01:55:04) Words as Motivation, Visualization, Social Validation\n\n(02:03:51) Music, ...",
+      "tags": []
+    },
+    {
+      "id": "01kra9w4ncx6a2c98tkg25mrar",
+      "title": "Soundness and Completeness of the Type System",
+      "url": "http://logan.tw/posts/2014/11/12/soundness-and-completeness-of-the-type-system/",
+      "savedAt": "2026-05-12T12:11:33.329000+00:00",
+      "description": "A sound type system only accepts correct programs, so it never misses errors. A complete type system accepts all correct programs, so it never wrongly rejects them. Due to Godel's theorem, type systems usually choose soundness over completeness to avoid missing errors.",
+      "tags": []
+    },
     {
       "id": "01kr9y1ghqddh4xx5cdsft3m2e",
       "title": "Let Me Convince You to Be Prolific",
@@ -31,7 +105,9 @@
       "url": "https://andymatuschak.org/prompts/",
       "savedAt": "2026-05-09T15:05:21.650000+00:00",
       "description": "Good prompts help you remember important details by asking clear, focused questions. Writing prompts can reveal gaps in your knowledge and deepen your understanding. Practice makes prompt-writing easier and more effective over time.",
-      "tags": []
+      "tags": [
+        "shortlist"
+      ]
     },
     {
       "id": "01kr0qqe19dvw4w1krb062gvkb",
@@ -2044,7 +2120,8 @@
       "savedAt": "2026-01-11T05:23:42.772000+00:00",
       "description": "Adding indexes slows down write operations because the database must update them. The slowdown is not linear and can be significant with many indexes, but partial or multicolumn indexes reduce overhead. It's best to test indexes on your data, especially btree types, to balance read speed benefits against write performance costs.",
       "tags": [
-        "for-later"
+        "for-later",
+        "shortlist"
       ]
     },
     {
@@ -2084,7 +2161,8 @@
       "savedAt": "2026-01-11T05:19:09.901000+00:00",
       "description": "Algebraic effects let you write cleaner and more elegant code than monads by pausing and resuming computations. The Handled_effect library in OCaml helps manage these effects with simple operation handlers and continuations. This approach makes concurrent and simulation code easier to write and understand.",
       "tags": [
-        "for-later"
+        "for-later",
+        "shortlist"
       ]
     },
     {
