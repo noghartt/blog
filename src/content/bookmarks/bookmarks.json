@@ -1,6 +1,171 @@
 {
-  "lastUpdate": "2026-05-11T00:30:25.305Z",
+  "lastUpdate": "2026-05-23T00:34:53.923Z",
   "data": [
+    {
+      "id": "01ks6pywexgn63hcbatf94qt3f",
+      "title": "The third hard problem",
+      "url": "https://mmapped.blog/posts/48-the-third-hard-problem",
+      "savedAt": "2026-05-22T02:06:49.821000+00:00",
+      "description": "Computer science faces a hard problem called tree mapping, which means fitting complex webs of information into simple hierarchies. This problem appears in many areas, like organizing files, writing, city planning, and biology. To handle it well, we must be aware of what connections we lose when forcing a web into a tree structure.",
+      "tags": []
+    },
+    {
+      "id": "01ks6pfmhsbkv8tg116f4fdrqt",
+      "title": "Agile Software Development Second Edition The Cooperative Game",
+      "url": "https://gwern.net/doc/cs/algorithm/1985-naur.pdf",
+      "savedAt": "2026-05-22T01:58:30.202000+00:00",
+      "description": "Programming is best seen as building a deep understanding or theory of the problem and solution. This knowledge goes beyond written code and helps programmers adapt and improve software. Effective software development involves collaboration, practical skill, and shared insight among programmers.",
+      "tags": []
+    },
+    {
+      "id": "01ks6peb3nbr1zchtxa8kjyfad",
+      "title": "Let's Build a Compiler, by Jack Crenshaw",
+      "url": "https://compilers.iecc.com/crenshaw/",
+      "savedAt": "2026-05-22T01:57:47.765000+00:00",
+      "description": "\"Let's Build a Compiler\" by Jack Crenshaw is a simple guide to making compilers. It has fifteen parts written between 1988 and 1995. You can read it online or download it for free.",
+      "tags": []
+    },
+    {
+      "id": "01ks6pdxjw0zw78nr5nn8jp79d",
+      "title": "The Serious Context of Use",
+      "url": "https://borretti.me/article/human-bottlenecks",
+      "savedAt": "2026-05-22T01:57:33.916000+00:00",
+      "description": "AI tools seem powerful but often don't help much because people lack clear goals or face internal limits like motivation and knowledge. Most productivity problems come from inside the person, not from missing technology. Until we improve the brain itself, AI can only assist a little, not transform us.",
+      "tags": []
+    },
+    {
+      "id": "01ks64hk6qjrhp0rcas1pnbfd8",
+      "title": "Giving Agents Computers — Ivan Burazin, Daytona",
+      "url": "https://www.latent.space/p/daytona",
+      "savedAt": "2026-05-21T20:44:56.991000+00:00",
+      "description": "Daytona builds specialized computer systems to help AI agents perform different tasks efficiently. Their platform serves a wide range of customers, from individual developers to huge companies. They focus on innovation and scale, aiming to grow in the expanding AI market.",
+      "tags": []
+    },
+    {
+      "id": "01ks4sq9fj4qqtf04f6vrthcc5",
+      "title": "Essentials: The Science of Learning & Speaking Languages | Dr. Eddie Chang",
+      "url": "https://www.hubermanlab.com/episode/essentials-the-science-of-learning-and-speaking-languages-eddie-chang",
+      "savedAt": "2026-05-21T08:16:34.874000+00:00",
+      "description": "In this Huberman Lab Essentials episode, my guest is Dr. Eddie Chang, MD, a neurosurgeon and Chair of the Department of Neurological Surgery at the University of California, San Francisco (UCSF). We discuss the neural circuits underlying speech and language, including how the brain controls the larynx, vocal folds and articulators to shape breath into words. We also explore his pioneering work on speech neural prosthetics — brain-machine interfaces that allow paralyzed patients to communicate by decoding neural activity into speech and avatar-driven facial expressions. Additionally, we examine the neurobiology of stuttering, the role of auditory feedback in fluent speech, and the broader ethical questions surrounding brain augmentation technologies.\n\nRead the episode show notes at hubermanlab.com.\n\nThank you to our sponsors\n\nAG1: https://drinkag1.com/huberman\n\nBetterHelp: https://betterhelp.com/huberman\n\nFunction: https://functionhealth.com/huberman\n\nTimestamps\n\n(00:00:00) Speech & Language\n\n(00:00:23) Speech vs Language, Pragmatics, Semantics & Syntax\n\n(00:03:11) Larynx, Vocal Folds & Shaping the Breath\n\n(00:05:35) Crying & Laughter, Vocalizations vs Speech\n\n(00:06:37) Sponsor: Function\n\n(00:08:52) Paralysis, Brainstem Stroke, ALS & Locked-In Syndrome\n\n(00:10:52) BRAVO Trial, Pancho & First Patient\n\n(00:12:31) Brain Surgery, Electrode Array & Decoding Speech\n\n(00:14:34) AI, 50-Word Vocabulary & Autocorrect\n\n(00:16:06) Sponsor: BetterHelp\n\n(00:17:30) Neuralink, Brain-Machine Interfaces & Augmentation Ethics\n\n(00:22:21) Avatars, Facial Expressions & Non-Verbal Communication\n\n(00:25:48) Sponsor: AG1\n\n(00:27:12) Stuttering, Anxiety & Speech vs Language\n\n(00:30:18) Tool: Stuttering Therapy & Auditory Feedback\n\n(00:31:50) Recap & Acknowledgments\n\nDisclaimer & Disclosures\nLearn more about your ad choices. Visit megaphone.fm/adchoices",
+      "tags": []
+    },
+    {
+      "id": "01ks3s9vafm0jmgqb7p79sqby6",
+      "title": "Railway: The Agent-Native Cloud — Jake Cooper",
+      "url": "https://www.latent.space/p/railway",
+      "savedAt": "2026-05-20T22:49:59.960000+00:00",
+      "description": "3M Users, 100K Signups/Week, Own-Metal Data Centers, $200K+ Coding Agent Spend, and the Death of PRs",
+      "tags": []
+    },
+    {
+      "id": "01ks33es82m6n9x17v0bwtrd4r",
+      "title": "Why Rust is different, with Alice Ryhl",
+      "url": "https://newsletter.pragmaticengineer.com/p/why-rust-is-different-with-alice",
+      "savedAt": "2026-05-20T16:28:13.003000+00:00",
+      "description": "Rust is loved for its strong safety features that prevent common bugs and security issues. Its strict compiler helps developers write reliable and easy-to-refactor code. Rust is also growing in important areas like the Linux kernel and AI-assisted development.",
+      "tags": []
+    },
+    {
+      "id": "01krxnjr6ckg70be5t0h7cs9sz",
+      "title": "The Next War Is Already Here. The West Isn't Ready. — Yaroslav Azhnyuk, The Fourth Law & Guest Host Noah Smith, Noahpinion",
+      "url": "https://www.latent.space/p/the-fourth-law",
+      "savedAt": "2026-05-18T13:49:30.772000+00:00",
+      "description": "Ukrainian drone founder Yaroslav Azhnyuk went from pet cameras to AI-guided weapons. He and guest host Noah Smith make the case that the West is asleep at the wheel.",
+      "tags": []
+    },
+    {
+      "id": "01krx2xt0ygn88a3whpf94w0ds",
+      "title": "How to Overcome Social Anxiety | Dr. Nick Epley",
+      "url": "https://www.hubermanlab.com/episode/how-to-overcome-social-anxiety-nick-epley",
+      "savedAt": "2026-05-18T08:23:30.151000+00:00",
+      "description": "Dr. Nick Epley, PhD, is a professor of behavioral science at the University of Chicago and a leading expert on the science of social connection. We discuss how seemingly small daily interactions with strangers (as well as with people we know) can meaningfully improve our mental and physical health. Dr. Epley also explains how to reduce social anxiety using simple and easily accessible science-supported tools. We also discuss the data on assumptions — both the ones we and others make — and why so often those are wrong when it comes to social dynamics.\n\nRead the episode show notes at hubermanlab.com.\n\nThank you to our sponsors\n\nAG1: https://drinkag1.com/huberman\n\nWealthfront*: https://wealthfront.com/huberman\n\nEight Sleep: https://eightsleep.com/huberman\n\nFunction: https://functionhealth.com/huberman\n\nLMNT: https://drinklmnt.com/huberman\n\nTimestamps\n\n(00:00:00) Nick Epley\n\n(00:02:29) Assumptions about Other Thoughts; Inferring Behavior\n\n(00:09:03) Eye Gaze, Social Cues\n\n(00:14:27) Sponsors: Wealthfront & Eight Sleep\n\n(00:17:18) Tone, Voice vs Writing; AI; Public Figures & Ambiguity\n\n(00:29:59) Importance of Social Connection, Communication Types\n\n(00:37:18) Social Isolation, Self-Worth\n\n(00:42:33) Sponsor: AG1\n\n(00:44:16) Social Media, Conversation & Responsiveness\n\n(00:47:52) Social Connection & Cooperation; Adopted Children\n\n(00:57:04) Connecting with Strangers, Manners\n\n(01:02:52) Fear of Strangers, Tool: Small Moments for Connection\n\n(01:08:50) Sponsor: Function\n\n(01:10:28) Connection to Humanity, Strangers; Extroversion & Well-Being\n\n(01:22:26) Social Anxiety & Changing Beliefs; 100 Days of Rejection\n\n(01:33:52) Perceived Creepiness, Social Anxiety; Developing Social Skills\n\n(01:41:40) Sponsor: LMNT\n\n(01:43:00) Initiating Conversation, Testing Cues, Pessimistic Expectations\n\n(01:47:00) Social Gatherings; Blessings of Children with Down Syndrome\n\n(01:59:43) Parents, Shame, Children Challenges; Supporting Kids' Pursuits\n\n(02:09:17) Outdoors, Hunters, Conservatio...",
+      "tags": []
+    },
+    {
+      "id": "01krwhrgnagk8bdc9s9ged9gdh",
+      "title": "A Brief History of Neural Nets and Deep Learning",
+      "url": "https://web.archive.org/web/20250108152413/https://www.skynettoday.com/overviews/neural-net-history",
+      "savedAt": "2026-05-18T03:23:33.930000+00:00",
+      "description": "Neural networks faced many challenges and skepticism before breakthroughs in the 2000s revived interest. Key advances like backpropagation, deep belief nets, and more computing power made deep learning possible. Today, deep learning drives major progress in areas like image recognition, speech, and reinforcement learning.",
+      "tags": []
+    },
+    {
+      "id": "01krrtn91myz5t8ek4yap3q48a",
+      "title": "Virtual Memory: A Deep Dive into Page Tables, TLBs, and Linux Internals",
+      "url": "https://blog.codingconfessions.com/p/virtual-memory",
+      "savedAt": "2026-05-16T16:42:07.284000+00:00",
+      "description": "Virtual memory lets the kernel manage many processes safely by mapping virtual addresses to physical memory. The kernel uses page tables, TLBs, and page faults to efficiently handle memory access and save physical memory. It also reclaims unused memory and can optimize performance with features like automatic NUMA balancing.",
+      "tags": [
+        "shortlist"
+      ]
+    },
+    {
+      "id": "01krmyvbkzm37y8p7hvcpgetf0",
+      "title": "HDD Firmware Hacking Part 1",
+      "url": "https://icode4.coffee/?p=1465",
+      "savedAt": "2026-05-15T04:38:23.103000+00:00",
+      "description": "The author explored how to dump, analyze, and modify hard drive firmware, focusing mainly on Western Digital drives. They used tools like IDA and hardware debugging to find key code and applied patches without rewriting firmware. The work is shared openly to help others study HDD firmware.",
+      "tags": []
+    },
+    {
+      "id": "01krm8ja10whpz280xcbc51tgb",
+      "title": "AI-Native Healthcare: 100M Doctor Visits, 10–20 Hours Saved, Prior Auth in Minutes — Janie Lee & Chai Asawa, Abridge",
+      "url": "https://www.latent.space/p/abridge",
+      "savedAt": "2026-05-14T22:08:54.888000+00:00",
+      "description": "How Abridge is quietly turning the patient and clinician conversation into the operating system of healthcare",
+      "tags": []
+    },
+    {
+      "id": "01krjs9zbp0wanwq91y27jrs11",
+      "title": "Essentials: Understanding & Controlling Aggression",
+      "url": "https://www.hubermanlab.com/episode/essentials-understanding-and-controlling-aggression",
+      "savedAt": "2026-05-14T08:22:58.750000+00:00",
+      "description": "This episode explains how the brain and body control aggression. It shows how hormones, genes, and sunlight affect aggressive behavior. It also offers simple ways to reduce aggression, like sunlight, heat therapy, and supplements.",
+      "tags": []
+    },
+    {
+      "id": "01krjbf0df020wf313bfxwa2wa",
+      "title": "When \"idle\" isn't idle: how a Linux kernel optimization became a QUIC bug",
+      "url": "https://readhacker.news/s/6TZ9s",
+      "savedAt": "2026-05-14T04:21:06.607000+00:00",
+      "description": "A Linux kernel change to optimize CUBIC congestion control caused a bug that trapped connections at a minimum congestion window, preventing recovery after packet loss. This happened because the code wrongly measured idle time using the last packet sent instead of the last ACK received, causing CUBIC to misbehave and oscillate endlessly. The fix was to track the last ACK time to accurately calculate idle periods, allowing the congestion window to grow properly again.",
+      "tags": []
+    },
+    {
+      "id": "01krjan1xg7barfrk22a8tta4v",
+      "title": "An idiot’s guide to lead optimisation for proteins",
+      "url": "https://magnusross.github.io/posts/protein-lead-optimisation-1/",
+      "savedAt": "2026-05-14T04:06:56.175000+00:00",
+      "description": "Proteins can be grouped by similarity, and we use models to predict useful changes in their sequences. By fine-tuning these models on related proteins, we improve their ability to suggest better-functioning variants. This helps us design new proteins with enhanced functions for specific tasks.",
+      "tags": []
+    },
+    {
+      "id": "01krh50egmvtbgcf6hdxbvxbp7",
+      "title": "TypeScript, C# and Turbo Pascal with Anders Hejlsberg",
+      "url": "https://newsletter.pragmaticengineer.com/p/typescript-c-and-turbo-pascal-with",
+      "savedAt": "2026-05-13T17:09:00.636000+00:00",
+      "description": "Anders Hejlsberg created Turbo Pascal, C#, and TypeScript, shaping modern programming languages. He focuses on improving developer tools and workflows to make coding easier and more efficient. He also discusses how AI will change software development and code review in the future.",
+      "tags": []
+    },
+    {
+      "id": "01krb22xkxk0jh69c8cyzyk2tw",
+      "title": "Master Self Control & Overcome Procrastination | Dr. Kentaro Fujita",
+      "url": "https://www.hubermanlab.com/episode/master-self-control-overcome-procrastination-kentaro-fujita",
+      "savedAt": "2026-05-11T08:22:29.318000+00:00",
+      "description": "Dr. Kentaro Fujita, PhD, is a professor of psychology at The Ohio State University and an expert in the science of self-control and motivation. We discuss the best tools for developing strong self-control: to do more of what you aspire to and cease doing things you would like to avoid. We discuss why you need more than one form of willpower to achieve sustained motivation and overcome procrastination. Dr. Fujita also clarifies the data on the 2-marshmallow test, delayed gratification and intrinsic vs. extrinsic motivation.\n\nRead the show notes at hubermanlab.com.\n\nThank you to our sponsors\n\nAG1: https://drinkag1.com/huberman\n\nDavid: https://davidprotein.com/huberman\n\nLingo: https://hellolingo.com/huberman\n\nLMNT: https://drinklmnt.com/huberman\n\nFunction: https://functionhealth.com/huberman\n\nTimestamps\n\n(00:00:00) Kentaro Fujita\n\n(00:03:08) Marshmallow Tests, Self-Control; Adult Modeling\n\n(00:08:24) Criticism of Marshmallow Tests, Learning Self-Control\n\n(00:15:08) Sponsors: David & Lingo\n\n(00:17:34) Movement & Motivation\n\n(00:21:42) Doing Hard Things; Exhaustion & Depletion Effect\n\n(00:29:02) Willpower vs Self-Control, Improving Self-Control\n\n(00:34:27) Aspiration or Fear for Motivation, Long- vs Short-Term Outcomes\n\n(00:40:55) Self-Control Toolkit, Tool: Failure & Exploration\n\n(00:46:44) Sponsor: AG1\n\n(00:48:28) Motivation Warm-Up?, Tools: Mindset; Motivation Orientation\n\n(00:57:30) Imperfect Conditions, Self-Control Conflicts, Tool: Why vs How\n\n(01:05:25) Tool: \"Whys\" & Motivation Goals\n\n(01:11:26) Competition, Tool: Motivation Types\n\n(01:17:13) Sponsor: LMNT\n\n(01:18:33) Abstinence vs Moderation, Consistency vs Rigidity\n\n(01:27:48) Burnout; \"Invisible\" Goals, Single Goal & Trade-Offs\n\n(01:35:17) Intrinsic Motivation for Sustained Goals\n\n(01:40:16) Sponsor: Function\n\n(01:41:53) Meaning in Simple Tasks, Ikigai\n\n(01:49:03) Self-Control Failure, Tools: Distancing, 3rd Person & Heros\n\n(01:55:04) Words as Motivation, Visualization, Social Validation\n\n(02:03:51) Music, ...",
+      "tags": []
+    },
+    {
+      "id": "01kra9w4ncx6a2c98tkg25mrar",
+      "title": "Soundness and Completeness of the Type System",
+      "url": "http://logan.tw/posts/2014/11/12/soundness-and-completeness-of-the-type-system/",
+      "savedAt": "2026-05-22T01:56:50.464000+00:00",
+      "description": "A sound type system only accepts correct programs, so it never misses errors. A complete type system accepts all correct programs, so it never wrongly rejects them. Due to Godel's theorem, type systems usually choose soundness over completeness to avoid missing errors.",
+      "tags": [
+        "type-theory",
+        "cs/pl-theory"
+      ]
+    },
     {
       "id": "01kr9y1ghqddh4xx5cdsft3m2e",
       "title": "Let Me Convince You to Be Prolific",
@@ -31,7 +196,9 @@
       "url": "https://andymatuschak.org/prompts/",
       "savedAt": "2026-05-09T15:05:21.650000+00:00",
       "description": "Good prompts help you remember important details by asking clear, focused questions. Writing prompts can reveal gaps in your knowledge and deepen your understanding. Practice makes prompt-writing easier and more effective over time.",
-      "tags": []
+      "tags": [
+        "shortlist"
+      ]
     },
     {
       "id": "01kr0qqe19dvw4w1krb062gvkb",
@@ -2044,7 +2211,8 @@
       "savedAt": "2026-01-11T05:23:42.772000+00:00",
       "description": "Adding indexes slows down write operations because the database must update them. The slowdown is not linear and can be significant with many indexes, but partial or multicolumn indexes reduce overhead. It's best to test indexes on your data, especially btree types, to balance read speed benefits against write performance costs.",
       "tags": [
-        "for-later"
+        "for-later",
+        "shortlist"
       ]
     },
     {
@@ -2084,7 +2252,8 @@
       "savedAt": "2026-01-11T05:19:09.901000+00:00",
       "description": "Algebraic effects let you write cleaner and more elegant code than monads by pausing and resuming computations. The Handled_effect library in OCaml helps manage these effects with simple operation handlers and continuations. This approach makes concurrent and simulation code easier to write and understand.",
       "tags": [
-        "for-later"
+        "for-later",
+        "shortlist"
       ]
     },
     {
