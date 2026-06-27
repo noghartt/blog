@@ -6,7 +6,7 @@ import Link from "../components/Link.astro";
 import { GITHUB_REPO_URL, TWITTER_URL, GITHUB_PROFILE_URL } from '../config';
 import dayjs from 'dayjs';
 
-const posts = await getCollection('blog', ({ data }) => !data.draft);
+const posts = await getCollection('blog', ({ data }) => !data.draft && !data.hidden);
 const postsSorted = posts.sort((a, b) =>
   Math.floor(b.data.pubDate / 1000) -
   Math.floor(a.data.pubDate / 1000)

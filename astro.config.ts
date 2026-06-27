@@ -33,8 +33,17 @@ const getBlogRoutesRedirect = async () => {
   return Object.fromEntries(blogRoutes);
 }
 
+const getHiddenBlogPaths = async () => {
+  const blogFiles = await fs.readdir(BLOG_DIR);
+  return blogFiles
+    .map(post => graymatter.read(path.join(BLOG_DIR, post)).data)
+    .filter(data => data.hidden)
+    .map(data => `/blog/${data.slug}`);
+}
+
 const disableSitemap = [
   '/blog/drafts',
+  ...await getHiddenBlogPaths(),
 ];
 
 // https://astro.build/config
@@ -45,7 +54,9 @@ export default defineConfig({
       filter: (page) => {
         try {
           const url = new URL(page);
-          const shouldAdd = disableSitemap.every(path => !url.pathname.startsWith(path));
+          const shouldAdd = disableSitemap.every(
+            path => url.pathname !== path && !url.pathname.startsWith(`${path}/`)
+          );
           return shouldAdd;
         } catch (err) {
           return false;
