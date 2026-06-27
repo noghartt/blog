@@ -9,6 +9,9 @@ const blogCollection = defineCollection({
       pubDate: z.coerce.date(),
       tags: z.array(z.string()).default([]).optional(),
       draft: z.boolean().optional(),
+      // Hidden posts render at their URL (shareable) but never appear in any
+      // listing, RSS feed, tag page, or the sitemap.
+      hidden: z.boolean().optional(),
     })
     .merge(rssSchema)
 });

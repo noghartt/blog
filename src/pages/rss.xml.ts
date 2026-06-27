@@ -8,10 +8,10 @@ import { SITE } from "../config";
 const parser = new MarkdownIt();
 
 export async function GET() {
-  const posts = await getCollection("blog", ({ data }) => !data.draft);
+  const posts = await getCollection("blog", ({ data }) => !data.draft && !data.hidden);
 
   const items = posts
-    .filter(post => !post.data.draft)
+    .filter(post => !post.data.draft && !post.data.hidden)
     .sort((a, b) => new Date(b.data.pubDate) - new Date(a.data.pubDate))
     .map(({ data, slug, body }) => ({
       link: `/blog/${slug}`,

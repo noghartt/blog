@@ -13,7 +13,7 @@ interface Props {
 
 export const prerender = true;
 export async function getStaticPaths(): Promise<GetStaticPathsResult> {
-  const posts = await getCollection('blog', (post) => !post.data.draft);
+  const posts = await getCollection('blog', (post) => !post.data.draft && !post.data.hidden);
 
   const existentTags = posts.reduce(
     (tags, post) => new Set([...tags, ...post.data.tags || []]),
