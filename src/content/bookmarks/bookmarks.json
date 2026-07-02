@@ -1,6 +1,201 @@
 {
-  "lastUpdate": "2026-06-15T00:42:17.598Z",
+  "lastUpdate": "2026-07-02T00:40:35.713Z",
   "data": [
+    {
+      "id": "01kwfa2w6jdkee1vhtjntssd6p",
+      "title": "How Kent Beck shapes the software engineering industry",
+      "url": "https://newsletter.pragmaticengineer.com/p/how-kent-beck-shapes-the-software",
+      "savedAt": "2026-07-01T17:02:01.499000+00:00",
+      "description": "Kent Beck reflects on Agile, TDD, and why building trust—not just generating code—will define the future of software engineering in the AI era.",
+      "tags": []
+    },
+    {
+      "id": "01kwf2fdw343he182zs9v4gqqk",
+      "title": "🔬 The Coolest Diffusion Research Isn't in LLMs — Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
+      "url": "https://www.latent.space/p/the-coolest-diffusion-research-isnt",
+      "savedAt": "2026-07-01T14:49:04.204000+00:00",
+      "description": "Genesis Molecular AI is making big breakthroughs in drug discovery using advanced diffusion models for 3D protein-ligand structure prediction. Their PEARL model outperforms others by accurately modeling protein flexibility and induced fit without extra data or fine-tuning. This progress could soon enable automated, agent-driven drug discovery that works like a skilled chemist.",
+      "tags": []
+    },
+    {
+      "id": "01kwdrhjcwv5h6p6trewh5jee2",
+      "title": "SotW: Be Specific",
+      "url": "https://www.lesswrong.com/posts/NgtYDP3ZtLJaM248W/sotw-be-specific",
+      "savedAt": "2026-07-01T02:36:17.180000+00:00",
+      "description": "Being specific means giving clear, concrete examples instead of vague, abstract statements. This skill helps people understand ideas better and spot when someone is bluffing. Using specific details makes thinking clearer and communication stronger.",
+      "tags": [
+        "favorites"
+      ]
+    },
+    {
+      "id": "01kwb1ejn091p185eqwhwyggcc",
+      "title": "Principles",
+      "url": "https://nabeelqu.co/principles",
+      "savedAt": "2026-06-30T01:14:13.024000+00:00",
+      "description": "Life’s best lessons are hard to explain but come from experience and joy. Focus on what makes you unique, move fast, and always keep learning and creating. Build strong friendships, take risks, and aim to do your best work every day.",
+      "tags": [
+        "favorites"
+      ]
+    },
+    {
+      "id": "01kw9ta95zgqfk9swetg3kcge7",
+      "title": "I’ve gone full Nix: Proxmox to NixOS + Incus",
+      "url": "https://www.nijho.lt/post/proxmox-to-nixos/",
+      "savedAt": "2026-06-29T13:50:17.791000+00:00",
+      "description": "The author moved from Proxmox to NixOS with Incus to have a fully reproducible and version-controlled system. NixOS lets them manage their infrastructure as code, making recovery and automation easy. Incus handles containers and VMs smoothly, allowing legacy workloads to run reliably on NixOS.",
+      "tags": []
+    },
+    {
+      "id": "01kw96xacemmbewyvnv1b3brf9",
+      "title": "Movement Practice to Strengthen Your Mind-Body Connection | Ido Portal",
+      "url": "https://www.hubermanlab.com/episode/movement-practice-to-strengthen-your-mind-body-connection-ido-portal",
+      "savedAt": "2026-06-29T08:11:07.095000+00:00",
+      "description": "Ido Portal is a world-renowned movement coach who has developed specific practices anyone can use to greatly evolve their mental and physical health, and even gain clearer self-understanding. We discuss the effects of playful movement versus exercise, discipline versus willpower, and how approaching friction points in your practice with relaxed awareness can rewire your default reactions to stress and fear. Ido explains how to leverage transition states, such as the state between sleep and waking, to gain heightened bodily awareness and new insights. He also explains specific movement patterns. This is a highly practical conversation about integrating movement, embracing uncertainty and bringing awareness into everyday life to expand your brain-body connection and deepen your sense of self.\n\nRead the show notes at hubermanlab.com.\n\nThank you to our sponsors\n\nAG1: https://drinkag1.com/huberman\n\nRorra: https://rorra.com/huberman\n\nROKA: https://roka.com/huberman\n\nLMNT: https://drinklmnt.com/huberman\n\nFunction: https://functionhealth.com/huberman\n\nTimestamps\n\n(00:00:00) Ido Portal\n\n(00:03:18) Waking Up, Transitional States, Sleep, Lucid Dreaming\n\n(00:10:30) Meditation, Tool: Micro-Meditation\n\n(00:13:55) Sponsors: Rorra & ROKA\n\n(00:17:05) Meditation, Anxiety\n\n(00:19:54) Mind-Body States\n\n(00:24:41) Play vs Discipline, Motivation & Will, Awe\n\n(00:37:25) Willpower vs Discipline, Developing Will; Physical Practice\n\n(00:47:20) Sponsor: AG1\n\n(00:49:06) Power of Play, Rigidity\n\n(00:54:41) Playful Restraint, Softness\n\n(01:00:57) Subtle Ripples of Consciousness, Granularity, Bodily Resolution\n\n(01:09:36) Language, Ambiguity, Dance; Psychedelics\n\n(01:15:19) Sponsor: LMNT\n\n(01:16:51) Paying Attention to Everyday Movement, Exercise\n\n(01:24:57) Challenging the System, Life as a Practice\n\n(01:32:37) Awareness & Time; Emotional, Mental & Physical Nutrients\n\n(01:38:41) Social Media, Importance of Granularity\n\n(01:43:41) Noticing Transition, Kumbhaka Practice; Antagonism\n\n(01:53:56) ...",
+      "tags": []
+    },
+    {
+      "id": "01kw7fv8a3wbdfsfg2d04b2hk3",
+      "title": "How not to forget what matters",
+      "url": "https://www.henrikkarlsson.xyz/p/hypomnemata",
+      "savedAt": "2026-06-28T16:08:50.754000+00:00",
+      "description": "The author explains that daily meditation on meaningful ideas helps keep important truths clear and shapes our character. Writing essays can deepen understanding but is less effective for maintaining focus on values every day. A simple habit of reflecting on inspiring passages each morning can guide us to live more ethically and fully.",
+      "tags": [
+        "favorites"
+      ]
+    },
+    {
+      "id": "01kw0wme13kfn7sjjm0vp64t2m",
+      "title": "From Technical Debt to Cognitive and Intent Debt",
+      "url": "https://queue.acm.org/detail.cfm?ref=rss&id=3807966&__readwiseLocation=",
+      "savedAt": "2026-06-26T02:37:37.699000+00:00",
+      "description": "AI is speeding up code creation but may increase hidden problems like cognitive and intent debt in software teams. Cognitive debt means losing shared understanding of the system, while intent debt is about unclear goals and reasons behind the code. To keep software healthy, teams must manage code quality, shared understanding, and clear goals together, especially with AI helping development.",
+      "tags": []
+    },
+    {
+      "id": "01kvyy4exb861dz8qga107jprb",
+      "title": "Essentials: The Science of Eating for Health, Fat Loss & Lean Muscle | Dr. Layne Norton",
+      "url": "https://www.hubermanlab.com/episode/essentials-the-science-of-eating-for-health-fat-loss-and-lean-muscle-layne-norton",
+      "savedAt": "2026-06-25T08:25:19.604000+00:00",
+      "description": "In this Huberman Lab Essentials episode, my guest is Dr. Layne Norton, PhD, an expert in nutrition, fat loss, and metabolism. We discuss the science of energy balance and utilization, including practical strategies for building lean muscle and losing fat. We also cover optimal protein and fiber intake, artificial sweeteners, seed oils, and animal vs. plant-based protein sources.\n\nRead the episode show notes at hubermanlab.com.\n\nThank you to our sponsors\n\nAG1: https://drinkag1.com/huberman\n\nCarbon: https://joincarbon.com/huberman\n\nFunction: https://functionhealth.com/huberman\n\nTimestamps\n\n(00:00:00) Layne Norton\n\n(00:00:20) Energy Balance, Calories In Calories Out, Food Labels\n\n(00:04:10) Daily Energy Expenditure; Non-Exercise Activity Thermogenesis (NEAT)\n\n(00:07:43) Tool: Average Weight; Choosing a Sustainable Diet\n\n(00:09:24) Protocols Book; Sponsor: Carbon App\n\n(00:11:29) Tool: Weight Loss, Protein Intake & Building Muscle\n\n(00:14:35) Animal vs Plant Protein, Isolated Protein, Soy, Whey, Leucine, Corn\n\n(00:19:59) Sponsor: Function\n\n(00:21:37) Processed Foods & Calorie Overconsumption\n\n(00:23:27) Artificial Sweeteners, Weight Loss\n\n(00:26:15) Seed Oils, Saturated Fat\n\n(00:30:34) Sponsor: AG1\n\n(00:31:53) Creatine Monohydrate, Dose\n\n(00:35:12) Building Confidence; Acknowledgements\n\nDisclaimer & Disclosures\nLearn more about your ad choices. Visit megaphone.fm/adchoices",
+      "tags": []
+    },
+    {
+      "id": "01kvxgjeef3wt6w2jyjj3w3jc9",
+      "title": "Why the Frontier Ecosystem must be Open — Matei Zaharia and Reynold Xin, Databricks",
+      "url": "https://www.latent.space/p/databricks",
+      "savedAt": "2026-06-24T19:09:03.383000+00:00",
+      "description": "Databricks focuses on making data tools open and easy to use for everyone. They work on combining many systems into one simple platform for customers. They also offer AI services that help users train models with GPUs and specialized software.",
+      "tags": []
+    },
+    {
+      "id": "01kvxdsnyfqzpxvpevpbvbcd1p",
+      "title": "Tech interviews with NeetCode",
+      "url": "https://newsletter.pragmaticengineer.com/p/tech-interviews-with-neetcode",
+      "savedAt": "2026-06-24T18:20:34.712000+00:00",
+      "description": "NeetCode shares his journey from Amazon and Google to building a startup, and why deep expertise still matters in the age of AI.",
+      "tags": []
+    },
+    {
+      "id": "01kvrjptjtk3daj2r0bet8vpht",
+      "title": "Red-Teaming after Mythos — Zico Kolter & Matt Fredrikson, Gray Swan",
+      "url": "https://www.latent.space/p/gray-swan",
+      "savedAt": "2026-06-22T21:10:11.874000+00:00",
+      "description": "OpenAI boardmember Zico Kolter and Gray Swan CEO Matt Fredrikson join swyx to explain why AI security is not just “cybersecurity with AI”",
+      "tags": []
+    },
+    {
+      "id": "01kvq66g2794z6kt2yzx7hchyt",
+      "title": "Science of Attraction, Compatibility & Romance | Dr. Paul Eastwick",
+      "url": "https://www.hubermanlab.com/episode/science-of-attraction-compatibility-and-romance-dr-paul-eastwick",
+      "savedAt": "2026-06-22T08:12:19.471000+00:00",
+      "description": "Dr. Paul Eastwick, PhD, is a professor of psychology at the University of California, Davis, and a leading expert on the modern science of mate selection in humans. We discuss what people actually look for in a partner, including surprising findings about age preferences, finances, and physical attractiveness. We also discuss why dating apps often lead people to select for traits that don't support lasting partnerships. We discuss how initial attractions form and evolve and which factors best predict romantic relationship stability and satisfaction. We also explain activities that can expand your dating pool, as well as practical tools for building and sustaining healthy romantic relationships. This episode is for anyone currently in or wanting to be in a relationship.\n\nRead the episode show notes at hubermanlab.com.\n\nThank you to our sponsors\n\nAG1: https://drinkag1.com/huberman\n\nDavid: https://davidprotein.com/huberman\n\nLingo: https://hellolingo.com/huberman\n\nLMNT: https://drinklmnt.com/huberman\n\nFunction: https://functionhealth.com/huberman\n\nTimestamps\n\n(00:00:00) Paul Eastwick\n\n(00:03:25) Evolutionary Models of Dating, Mate Value\n\n(00:08:57) Initial Attraction, Maturity\n\n(00:12:56) Sponsors: David & Lingo\n\n(00:15:21) Dating Apps; Shared Moments & Developing Attraction\n\n(00:24:17) First Impressions & Early Relationships; Partner Bias\n\n(00:31:41) Friends & Family Support; Relationship Research, Attachment Theory\n\n(00:42:15) Sponsor: AG1\n\n(00:43:34) Couple Friends, Advice from Others\n\n(00:47:35) Social Support, Women vs Men\n\n(00:55:05) Dating App Algorithms, Distrust of Men & Women\n\n(01:05:29) Activities & Dating, Observing Date Social Behavior\n\n(01:11:25) Texting, Verbal Skills\n\n(01:16:15) Sponsor: LMNT\n\n(01:17:36) Partner Actions, Dating vs Relationship\n\n(01:22:57) Dating & Asking Good Questions; Genuine Connection\n\n(01:29:36) Attraction, What Qualities Men & Women Want\n\n(01:36:18) Homosexual Dating & Relationships\n\n(01:40:08) Finances; Job Loss; Men vs Women, ...",
+      "tags": []
+    },
+    {
+      "id": "01kvn6epe115fs0jq0xqzvryep",
+      "title": "There Is Life Before Main in Rust",
+      "url": "https://grack.com/blog/2026/06/11/life-before-main/?__readwiseLocation=",
+      "savedAt": "2026-06-21T13:38:22.273000+00:00",
+      "description": "Rust programs run special code before the main function starts by using linker sections and initialization functions. This lets Rust set up data safely and efficiently without relying on the full standard library. Many Rust crates use this technique to perform important setup before main runs.",
+      "tags": [
+        "favorites",
+        "cs/programming-languages/rust"
+      ]
+    },
+    {
+      "id": "01kvdwmywpnn7xa3v59vpdtnjr",
+      "title": "The Professor of Outputmaxxing — Anjney Midha, AMP",
+      "url": "https://www.latent.space/p/anj",
+      "savedAt": "2026-06-18T17:32:17.759000+00:00",
+      "description": "Anjney Midha explains that AI infrastructure must become more efficient and aligned to avoid waste and support rapid innovation. He highlights AMP's goal to create a compute grid that flows smoothly like power grids, enabling better community cooperation and resource use. The discussion also covers challenges in AI research, leadership, and culture that impact the future of AI development.",
+      "tags": []
+    },
+    {
+      "id": "01kvdfy4fz21kw4hfjeade0zk4",
+      "title": "Data Analysis Handbook",
+      "url": "https://critikid.com/data-analysis-handbook",
+      "savedAt": "2026-06-18T13:50:09.919000+00:00",
+      "description": "The handbook shows common mistakes in data collection and interpretation. It uses simple words and examples to explain these errors. Learning this helps us think carefully about information we see.",
+      "tags": []
+    },
+    {
+      "id": "01kvdfxtkeahkyn27bhdj0z5p9",
+      "title": "CS 6120: Advanced Compilers: The Self-Guided Online Course",
+      "url": "https://www.cs.cornell.edu/courses/cs6120/2025fa/self-guided/",
+      "savedAt": "2026-06-18T13:49:59.790000+00:00",
+      "description": "CS 6120 is a PhD-level course from Cornell about advanced compiler design and programming languages. It includes videos, papers, and coding tasks using LLVM and a special intermediate representation. The self-guided version lets you learn at your own pace without deadlines or discussions, and the course materials are open source on GitHub.",
+      "tags": []
+    },
+    {
+      "id": "01kvdd09x31gb7m6zg3cgf10gq",
+      "title": "🔬 The Self-Driving Lab — Joseph Krause, Radical AI",
+      "url": "https://www.latent.space/p/radical-ai",
+      "savedAt": "2026-06-18T12:58:49.267000+00:00",
+      "description": "Radical AI uses self-driving labs with AI scientists to speed up materials discovery by testing many new alloys quickly. This approach focuses on experiments and data, not just models, because materials depend on complex manufacturing processes. Their work could change how fast we develop new materials for industries like aerospace and electronics.",
+      "tags": []
+    },
+    {
+      "id": "01kvdd07s3k4t1qr4rb8ay6wef",
+      "title": "CI/CD with Robert Erez - by Gergely Orosz",
+      "url": "https://newsletter.pragmaticengineer.com/p/cicd-with-robert-erez",
+      "savedAt": "2026-06-18T12:58:50.092000+00:00",
+      "description": "Robert Erez discusses modern software delivery, focusing on safe and efficient deployment with tools like Kubernetes and GitOps. He highlights the importance of feature flags, progressive delivery, and the role of AI in improving CI/CD. The conversation also covers challenges like scaling GitOps and the need for on-prem solutions in some industries.",
+      "tags": []
+    },
+    {
+      "id": "01kvdd04e77xm8pf1s39cx2kbf",
+      "title": "Essentials: Improve Flexibility with Research-Supported Stretching Protocols",
+      "url": "https://www.hubermanlab.com/episode/essentials-improve-flexibility-with-research-supported-stretching-protocols",
+      "savedAt": "2026-06-18T12:58:46.672000+00:00",
+      "description": "This episode explains how muscles and nerves affect flexibility and range of motion. It covers different stretching types and gives advice on how often and how intensely to stretch. The goal is to improve flexibility, boost exercise performance, and reduce age-related stiffness.",
+      "tags": []
+    },
+    {
+      "id": "01kv54rsbmhks68qrh8yc5sgws",
+      "title": "The Mental Frame & Specific Daily Actions to Succeed | Andy Stumpf",
+      "url": "https://traffic.megaphone.fm/SCIM2498586099.mp3",
+      "savedAt": "2026-06-15T08:01:01.884000+00:00",
+      "description": "Andy Stumpf is a retired Navy SEAL, world-record-holding wingsuit BASE jumper, martial artist, and author. We discuss the mental framework and moment-to-moment decision-making process that can allow anyone to build discipline and resilience and better navigate both everyday life and life's most challenging moments. Andy explains several simple-yet-powerful tools gleaned from his time in — and after — his SEAL career that can help you determine where to focus your actions and how to clear your mind of things you can't control or that hold you back mentally. Andy also shares and reflects on lessons learned from some of the deeply personal challenges he faced outside of combat and freefall. Finally, we explore the all-too-frequent tragedy of people — including high performers — taking their own lives, and consider what might be done to prevent more such losses.\n\nThank you to our sponsors\n\nAG1: https://drinkag1.com/huberman\n\nOur Place: https://fromourplace.com/huberman\n\nWealthfront: https://wealthfront.com/huberman\n\nFunction: https://functionhealth.com/huberman\n\nJoovv: https://joovv.com/huberman\n\nTimestamps\n\n(00:00:00) Andy Stumpf\n\n(00:03:09) Protocols Book\n\n(00:04:06) Nagging Thoughts, Tool: Determine Influence vs Concern\n\n(00:10:14) Social Media, Screen Time Discipline\n\n(00:17:01) Sponsors: Our Place & Wealthfront\n\n(00:20:11) Social Media Addiction, Young Adults, Rebellion, Alcohol\n\n(00:27:38) Alcohol & Social Experiences; Cannabis; Ice Bath\n\n(00:36:07) Skydiving, Wingsuit Flying\n\n(00:41:47) Sponsor: AG1\n\n(00:43:06) Skydiving, BASE Jumping, Wingsuit Flying; Navy\n\n(00:55:25) Danger & Fear, Wingsuit Flying Risk, Death\n\n(01:03:04) Divorce, Imperfection; Parenting Kids in Divorce\n\n(01:12:16) Sponsor: Function\n\n(01:13:55) Parents' Divorce\n\n(01:19:38) Long-Term Flow State, Focus, Adrenaline; Time Perception\n\n(01:30:58) Toilet Paper, Shortcuts, Tool: Do the Slightly Harder Choice\n\n(01:37:11) Micro-Discipline, Doing the Harder Thing, Tenacity & Super-Agers\n\n(01:48:00) Spon...",
+      "tags": []
+    },
+    {
+      "id": "01kv4hez2n86vafqps2vs5jhcb",
+      "title": "21 years and counting of ‘eight fallacies of distributed computing’",
+      "url": "https://blog.apnic.net/2025/12/08/21-years-and-counting-of-eight-fallacies-of-distributed-computing/",
+      "savedAt": "2026-06-15T02:23:40.117000+00:00",
+      "description": "The eight fallacies of distributed computing are common mistaken beliefs about how networks work. They remind us that networks can lose data, have delays, limited bandwidth, and are not always secure or reliable. Understanding these fallacies helps developers create better software that deals with real network problems.",
+      "tags": []
+    },
+    {
+      "id": "01kv4cx2de5h8hem5j1dm92pz2",
+      "title": "The demon of the gaps",
+      "url": "https://surfingcomplexity.blog/2026/06/06/the-demon-of-the-gaps/",
+      "savedAt": "2026-06-15T01:03:59.405000+00:00",
+      "description": "Modern software is very complex, so engineers break it into smaller parts to manage it better. When systems fail in unexpected ways, understanding how all parts work together becomes very hard. Solving these problems needs teams to collaborate and rebuild their understanding quickly, but this is difficult and often overlooked.",
+      "tags": [
+        "systems-theory"
+      ]
+    },
     {
       "id": "01ktzdx5k6cxgchb05jy3pten0",
       "title": "How to Weigh a Cell",
@@ -164,7 +359,7 @@
     },
     {
       "id": "01kt1xt37kdyvzjfgqb4x7jerk",
-      "title": "Why Video Agent models are next — Ethan He, xAI Grok Imagine Lead",
+      "title": "Why Video Agent models are next — Ethan He, xAI Grok Imagine",
       "url": "https://www.latent.space/p/video-agents",
       "savedAt": "2026-06-01T15:45:59.612000+00:00",
       "description": "Inside xAI: Building Grok Imagine in 3 Months, Videogen vs World Models, and why Grok Imagine is so underrated. For the first time, we do a deep dive with the guy who led it!",
@@ -302,7 +497,7 @@
     },
     {
       "id": "01ksn8x7qqg44qftecjzgk0qf4",
-      "title": "🔬ESMFold2: The Bitter Lesson is Coming for Proteins - Alex Rives, BioHub",
+      "title": "🔬 ESMFold2: The Bitter Lesson is Coming for Proteins - Alex Rives, BioHub",
       "url": "https://www.latent.space/p/esmfold2",
       "savedAt": "2026-05-27T17:49:49.248000+00:00",
       "description": "ESMFold2 uses large protein sequence data and simple models to predict protein structures better than specialized methods like AlphaFold2. It treats proteins like a language, learning patterns to understand and design new proteins, especially for tough cases like antibodies. This approach helps scientists create programmable biology by linking protein features to their functions and behaviors.",
@@ -310,7 +505,7 @@
     },
     {
       "id": "01ksn3adzcnfe655re7f7tpvew",
-      "title": "Building OpenCode with Dax Raad",
+      "title": "Building OpenCode with Dax Raad - by Gergely Orosz",
       "url": "https://newsletter.pragmaticengineer.com/p/opencode",
       "savedAt": "2026-05-27T16:12:10.165000+00:00",
       "description": "Dax Raad, co-founder of OpenCode, explains that AI makes coding easier but does not replace the need for strong engineering judgment. OpenCode grew by focusing on open source and partnering with AI providers despite challenges like GPU bottlenecks. Dax is skeptical of AI hype and believes motivated engineers still face problems like tech debt and quality control.",
@@ -386,7 +581,9 @@
       "url": "https://mmapped.blog/posts/48-the-third-hard-problem",
       "savedAt": "2026-05-22T02:06:49.821000+00:00",
       "description": "Computer science faces a hard problem called tree mapping, which means fitting complex webs of information into simple hierarchies. This problem appears in many areas, like organizing files, writing, city planning, and biology. To handle it well, we must be aware of what connections we lose when forcing a web into a tree structure.",
-      "tags": []
+      "tags": [
+        "programming"
+      ]
     },
     {
       "id": "01ks6pfmhsbkv8tg116f4fdrqt",
@@ -441,7 +638,7 @@
     },
     {
       "id": "01ks33es82m6n9x17v0bwtrd4r",
-      "title": "Why Rust is different, with Alice Ryhl",
+      "title": "Why Rust is different, with Alice Ryhl - by Gergely Orosz",
       "url": "https://newsletter.pragmaticengineer.com/p/why-rust-is-different-with-alice",
       "savedAt": "2026-05-20T16:28:13.003000+00:00",
       "description": "Rust is loved for its strong safety features that prevent common bugs and security issues. Its strict compiler helps developers write reliable and easy-to-refactor code. Rust is also growing in important areas like the Linux kernel and AI-assisted development.",
@@ -449,7 +646,7 @@
     },
     {
       "id": "01krxnjr6ckg70be5t0h7cs9sz",
-      "title": "The Next War Is Already Here. The West Isn't Ready. — Yaroslav Azhnyuk, The Fourth Law & Guest Host Noah Smith, Noahpinion",
+      "title": "The Autonomous Drone Tech Stack & Economics of Drones — Yaroslav Azhnyuk, The Fourth Law & Guest Host Noah Smith, Noahpinion",
       "url": "https://www.latent.space/p/the-fourth-law",
       "savedAt": "2026-05-18T13:49:30.772000+00:00",
       "description": "Ukrainian drone founder Yaroslav Azhnyuk went from pet cameras to AI-guided weapons. He and guest host Noah Smith make the case that the West is asleep at the wheel.",
@@ -592,7 +789,7 @@
     },
     {
       "id": "01kqwxqmn1sj7h3akrkrbft5gb",
-      "title": "🔬Doing Vibe Physics — Alex Lupsasca, OpenAI",
+      "title": "🔬Doing Vibe Physics — Alex Lupsasca, OpenAI - Latent.Space",
       "url": "https://www.latent.space/p/lupsasca",
       "savedAt": "2026-05-05T20:37:03.337000+00:00",
       "description": "The full story of how GPT‑5.x derived new results in theoretical physics and quantum gravity.",
@@ -699,14 +896,6 @@
       "url": "https://www.hubermanlab.com/episode/essentials-control-sugar-cravings-and-metabolism-with-science-based-tools",
       "savedAt": "2026-04-30T08:04:14.037000+00:00",
       "description": "In this Huberman Lab Essentials episode, I explain how the body senses and uses sugar, and why understanding those mechanisms can help reduce sugar cravings. I discuss different types of sugar and how they are processed by pathways in the gut and the brain to shape appetite and the desire for specific foods. I also share many science-based tools to help curb sugar cravings and support healthy blood sugar regulation.\n\nRead the show notes at hubermanlab.com.\n\nThank you to our sponsors\n\nAG1: https://drinkag1.com/huberman\n\nLingo: https://hellolingo.com/huberman\n\nLMNT: https://drinklmnt.com/huberman\n\nTimestamps\n\n(00:00:00) Sugar\n\n(00:00:37) Hunger, Hormones & Blood Glucose\n\n(00:03:03) Fructose vs Glucose, Controlling Hunger\n\n(00:06:30) Sponsor: AG1\n\n(00:07:54) Brain Circuits: Sweet Taste & Nutritive Pathways\n\n(00:10:51) Sweet Taste & Dopamine\n\n(00:13:22) Gut & Blood Glucose; Tool: Sugar Cravings & Hidden Sugars\n\n(00:15:44) Sponsor: Lingo\n\n(00:16:53) Glycemic Index, Tool: Food Choices, Fiber & Sugar Intake\n\n(00:20:55) Glutamine Supplementation, Leaky Gut & Sugar Cravings\n\n(00:23:17) Tool: Lemon Juice to Blunt Blood Glucose\n\n(00:26:44) Sponsor: LMNT\n\n(00:28:16) Tool: Reduce Blood Sugar Cravings with Cinnamon\n\n(00:29:10) Berberine & Potent Molecules to Regulate Blood Glucose\n\n(00:30:52) Tool: Quality Sleep & Sugar Cravings\n\nDisclaimer & Disclosures\nLearn more about your ad choices. Visit megaphone.fm/adchoices",
-      "tags": []
-    },
-    {
-      "id": "01kqejsnm37xfzr7vgp6e4da41",
-      "title": "How an estrogen megadose gave me empathy for men",
-      "url": "https://analogfutures.substack.com/p/trip-report-estrogen-megadose",
-      "savedAt": "2026-04-30T06:56:36.483000+00:00",
-      "description": "Taking a large dose of estrogen greatly increased the author's sex drive and changed how they felt attraction. Instead of making them more attracted to men, estrogen made them more strongly attracted to women. This experience helped the author understand how hormones can shape men's powerful sexual feelings and behavior.",
       "tags": []
     },
     {
@@ -1346,7 +1535,7 @@
     },
     {
       "id": "01knq1n9s9zj3pe6qzpwt7zfbt",
-      "title": "DHH’s new way of writing code",
+      "title": "DHH’s new way of writing code - by Gergely Orosz",
       "url": "https://newsletter.pragmaticengineer.com/p/dhhs-new-way-of-writing-code",
       "savedAt": "2026-04-08T17:18:50.737000+00:00",
       "description": "David Heinemeier Hansson now uses AI agents first to build software faster and explore new ideas. He finds AI helps senior engineers most, while designers play a big role in product creation. This new AI approach changes how software is made and who makes it.",
@@ -1512,7 +1701,7 @@
       "title": "Information and Technological Evolution",
       "url": "https://www.construction-physics.com/p/information-and-technological-evolution?__readwiseLocation=",
       "savedAt": "2026-04-07T11:03:42.852000+00:00",
-      "description": "I spend a lot of time reading about the nature of technological progress, and I’ve found that the literature on technology is somewhat uneven.",
+      "description": "Arthur’s simulation builds complex logic circuits by first creating simpler ones as building blocks. Adding one gate at a time helps find correct arrangements much faster than guessing many gates at once. This step-by-step method shows how technology evolves gradually from simple to complex parts.",
       "tags": []
     },
     {
@@ -1530,7 +1719,7 @@
       "title": "When Did Poor People Get Fat?",
       "url": "https://www.cremieux.xyz/p/when-did-poor-people-get-fat?utm_source=%2Finbox&utm_medium=reader2",
       "savedAt": "2026-04-07T11:03:38.150000+00:00",
-      "description": "Are poor people fat because of the welfare state? Probably not",
+      "description": "Poor people becoming fatter than rich people did not start because of welfare states. Instead, as countries get richer, poor people tend to gain weight regardless of welfare programs. In the U.S., this pattern is mostly seen in women, while men’s obesity rates are similar across income levels.",
       "tags": []
     },
     {
@@ -1538,7 +1727,7 @@
       "title": "Salarymen, specialists, and small businesses",
       "url": "https://www.noahpinion.blog/p/salarymen-specialists-and-small-businesses?utm_source=%2Finbox&utm_medium=reader2",
       "savedAt": "2026-04-07T11:03:35.099000+00:00",
-      "description": "Some brief thoughts on the (near) future of work.",
+      "description": "AI is changing jobs by replacing tasks, not entire jobs, so people are shifting to new roles that work alongside AI. Most workers will be generalists who fix AI mistakes, specialists with unique skills, or small business owners using AI to work independently. This means the future of work will involve adapting to AI and finding new ways to stay valuable.",
       "tags": []
     },
     {
@@ -1554,7 +1743,7 @@
       "title": "Attention is all we have",
       "url": "https://davidbessis.substack.com/p/attention-is-all-we-have",
       "savedAt": "2026-04-07T11:03:27.565000+00:00",
-      "description": "A conjectural theory of cognitive inequality",
+      "description": "Cognitive differences in math come from how our brains connect and learn, not just from genes. Talent grows with practice, attention, and mental habits over time. Understanding and training our unique brain modes could explain why some people excel far beyond others.",
       "tags": []
     },
     {
@@ -2112,7 +2301,7 @@
     },
     {
       "id": "01km0zjbdyqag5kf0fhz3wjpzd",
-      "title": "Building WhatsApp with Jean Lee",
+      "title": "Building WhatsApp with Jean Lee - by Gergely Orosz",
       "url": "https://newsletter.pragmaticengineer.com/p/building-whatsapp-with-jean-lee",
       "savedAt": "2026-03-18T17:23:17.638000+00:00",
       "description": "Jean Lee, engineer #19 at WhatsApp, on scaling the app with a tiny team, the Facebook acquisition, and what it reveals about the future of engineering.",
@@ -2200,7 +2389,7 @@
     },
     {
       "id": "01kkexqe4qm2x4bw8yxratajq8",
-      "title": "From IDEs to AI Agents with Steve Yegge",
+      "title": "From IDEs to AI Agents with Steve Yegge - by Gergely Orosz",
       "url": "https://newsletter.pragmaticengineer.com/p/from-ides-to-ai-agents-with-steve",
       "savedAt": "2026-03-11T17:04:47.327000+00:00",
       "description": "Steve Yegge explains how AI is changing software engineering by making coding more about working with AI agents than writing code by hand. He believes developers must adapt quickly to new tools and ways of working to stay relevant. AI will amplify engineers' abilities but also bring new challenges for teams and productivity.",
@@ -3491,7 +3680,9 @@
       "savedAt": "2025-12-26T21:51:50.828000+00:00",
       "description": "Complexity is an unavoidable part of software development that must be managed, not eliminated. When designing tools or systems, it's essential to acknowledge where complexity resides, whether in code, documentation, or user knowledge. Embracing and understanding complexity can lead to better solutions and stronger systems.",
       "tags": [
-        "for-later"
+        "favorites",
+        "systems-theory",
+        "resilience-engineering"
       ]
     },
     {
@@ -16841,7 +17032,6 @@
       "savedAt": "2024-11-01T15:31:07.590000+00:00",
       "description": "This blog post discusses how TLA+ can be used to model multi-version concurrency control (MVCC), a method for ensuring transaction isolation in databases like Postgres and MySQL. The author explains that while MVCC helps manage concurrent transactions, it cannot achieve serializability, leading to potential issues like the lost update problem. The post also highlights how MVCC allows transactions to operate on snapshots of the database, ensuring visibility and preventing conflicts during writes.",
       "tags": [
-        "for-later",
         "cs/distsys"
       ]
     },
