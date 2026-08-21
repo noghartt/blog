@@ -1,6 +1,276 @@
 {
-  "lastUpdate": "2026-07-21T01:39:44.964Z",
+  "lastUpdate": "2026-08-21T00:48:30.098Z",
   "data": [
+    {
+      "id": "01m0f422qewx5phfvamb4v987c",
+      "title": "Essentials: How to Access Your Creativity | Rick Rubin",
+      "url": "https://www.hubermanlab.com/episode/essentials-how-to-access-your-creativity-rick-rubin",
+      "savedAt": "2026-08-20T08:19:31.254000+00:00",
+      "description": "In this Huberman Lab Essentials episode, my guest Rick Rubin, world-renowned music producer and author of The Creative Act: A Way of Being, and I discuss how to access creativity by noticing ideas, trusting your taste and staying fully present with the work. Rick explains the phases of the creative process and how focus, disengagement, self-doubt, deadlines and meditation can support original work. We also explore perception, pro wrestling and why remaining open to uncertainty can help anyone create more authentically.\n\nThank you to our sponsors\n\nAG1: https://drinkag1.com/huberman\n\nLMNT: https://drinklmnt.com/huberman\n\nTimestamps\n\n(00:00:00) Rick Rubin & Creativity\n\n(00:00:23) Creativity as a Dream or Cloud\n\n(00:01:53) Childhood, Openness & Originality\n\n(00:03:29) Trust Your Taste; Experiment, Don't Over-Explain\n\n(00:05:28) Announcement: Protocols Live Events\n\n(00:07:07) Creative Aperture & New Perspectives\n\n(00:07:48) External Feedback & Staying True to the Work\n\n(00:09:14) Finishing Creative Projects\n\n(00:10:35) Focus, Disengagement & the Subconscious\n\n(00:13:15) Sponsor: LMNT\n\n(00:15:04) Perception, Storytelling & Uncertainty\n\n(00:17:38) Pro Wrestling, Playfulness & Reality\n\n(00:18:59) Morning Routine & Receptivity\n\n(00:19:50) Four Phases of Creative Work; Deadlines\n\n(00:24:47) Sponsor: AG1\n\n(00:26:08) Self-Doubt as a Creative Tool\n\n(00:27:05) Capturing Real Moments; Authenticity\n\n(00:28:10) Routines, Advice & Staying Open\n\n(00:29:45) Look for Clues; Belief & Attention\n\n(00:32:01) Staying Present in the Work\n\n(00:32:44) Meditation: Mantra, Breath & Awareness\n\n(00:34:42) Monroe Institute Surgical Support Series\n\nDisclaimer & Disclosures\nLearn more about your ad choices. Visit megaphone.fm/adchoices",
+      "tags": []
+    },
+    {
+      "id": "01m0df8abgm6e7k6gns4stdzg9",
+      "title": "From Chrome DevTools to AI Engineering, with Addy Osmani",
+      "url": "https://newsletter.pragmaticengineer.com/p/from-chrome-devtools-to-ai-engineering",
+      "savedAt": "2026-08-19T16:56:41.145000+00:00",
+      "description": "Addy Osmani shares lessons from 14 years at Google and how AI agents are reshaping software engineering, developer workflows, and the skills engineers need to succeed.",
+      "tags": []
+    },
+    {
+      "id": "01m09ev23x35q8j6z76znhye2p",
+      "title": "Proving the Fundamental Theorem of Arithmetic in Agda",
+      "url": "https://byorgey.github.io/blog/posts/2026/06/26/FTA.lagda.html",
+      "savedAt": "2026-08-18T03:32:31.997000+00:00",
+      "description": "This text explains how to prove the Fundamental Theorem of Arithmetic using the Agda programming language. It shows how to define natural numbers, decide equality, and work with addition, divisibility, and primes. The proof uses advanced techniques like dependent types and well-founded induction for clarity and correctness.",
+      "tags": [
+        "for-later"
+      ]
+    },
+    {
+      "id": "01m07dg9rrke5y0pynjtp054vz",
+      "title": "Neuroscience of Emotions & Tools for Improving Emotion Regulation | Dr. Ralph Adolphs",
+      "url": "https://traffic.megaphone.fm/SCIM1222961716.mp3",
+      "savedAt": "2026-08-17T08:30:38.945000+00:00",
+      "description": "Get tickets to Huberman Lab live events: https://www.hubermanlab.com/events\n\nPre-order Andrew's book Protocols: https://protocolsbook.com\n\nThank you to our sponsors\n\nAG1: https://drinkag1.com/huberman\n\nFunction: https://functionhealth.com/huberman\n\nHelix Sleep: https://helixsleep.com/huberman\n\nLMNT: https://drinklmnt.com/huberman\n\nRorra: https://rorra.com/huberman\n\nTimestamps\n\n(00:00:00) Ralph Adolphs\n\n(00:02:54) Emotions; Qualities of Emotions: Priority, Valence\n\n(00:10:00) Qualities of Emotions: Scalability, Persistence\n\n(00:15:25) Sponsors: Helix Sleep & Rorra\n\n(00:18:17) Do Animals Have Emotions?, Conscious Experience\n\n(00:22:58) Monitoring & Regulating Emotions; Emotional Granularity\n\n(00:31:22) Emotional Regulation, Tools: Situational Avoidance, Ice Baths\n\n(00:37:11) Ultramarathons, Perseverance, Adversity; Awe\n\n(00:45:04) Sponsor: AG1\n\n(00:46:17) Perception of Emotions, Amygdala & Fear, Facial Expressions\n\n(00:51:59) Interpreting Others' Emotions, Prediction\n\n(00:57:52) Emotions as Adaptations to the Environment, Types of Fear\n\n(01:00:13) Feeling Emotions in the Body, Pain, Insula\n\n(01:08:05) Brain & Body Connection; Marketing & Emotion\n\n(01:12:34) Sponsor: Function\n\n(01:14:11) Art, Music & Emotion\n\n(01:17:43) Interpreting Facial Expressions, Developing Emotions, Flexibility vs Reflexes\n\n(01:25:11) Emotional Intelligence, Context-Dependent Social Intelligence; Autism\n\n(01:33:31) Sponsor: LMNT\n\n(01:34:51) Autism & Social Dynamics, Eye Contact\n\n(01:42:01) Change Your Personality?, Body Movement & Thought, Social Interaction\n\n(01:47:18) Emotion Regulation, Tool: Training Mental Stillness\n\n(01:53:46) Task Switching, Tool: Meditation, Breathing Techniques\n\n(02:02:07) Illness, Diagnosis & Emotions, Gratitude & Awe\n\n(02:06:52) Zero-Cost Support, YouTube, Spotify & Apple Follow, Reviews & Feedback, Sponsors, Protocols Book, Social Media, Neural Network Newsletter\n\nDisclaimer & Disclosures\nLearn more about your ad choices. Visit megaphone.fm/adchoices",
+      "tags": []
+    },
+    {
+      "id": "01m02n91xsyfgevrzysqcrw08t",
+      "title": "Understanding is the new bottleneck",
+      "url": "https://www.geoffreylitt.com/2026/07/02/understanding-is-the-new-bottleneck",
+      "savedAt": "2026-08-15T12:10:20.985000+00:00",
+      "description": "AI writes more code, but humans still need to understand it to participate and create effectively. Good understanding comes from clear explanations, quizzes, and interactive tools that build intuition. Sharing knowledge in teams and using AI to teach can help us work better and think deeper together.",
+      "tags": [
+        "learning"
+      ]
+    },
+    {
+      "id": "01m01b134vtdfvj55b6e3f36ex",
+      "title": "Blog about things you don't understand yet",
+      "url": "https://www.seangoedecke.com/blog-about-things-you-dont-understand-yet/",
+      "savedAt": "2026-08-14T23:51:59.899000+00:00",
+      "description": "The author writes blog posts to learn new things and clarify their thinking. They choose topics they don’t fully understand and make clear, sometimes controversial points. Writing helps them research deeply, change their mind, and improve their ideas.",
+      "tags": [
+        "writing"
+      ]
+    },
+    {
+      "id": "01kzx39bt6gdvvgxz3en6d9kag",
+      "title": "Essentials: How to Optimize Female Hormone Health for Vitality & Longevity | Dr. Sara Gottfried",
+      "url": "https://www.hubermanlab.com/episode/essentials-how-to-optimize-female-hormone-health-for-vitality-and-longevity-sara-gottfried",
+      "savedAt": "2026-08-13T08:19:41.582000+00:00",
+      "description": "In this Huberman Lab Essentials episode, my guest is Dr. Sara Gottfried, M.D., a Harvard-trained, board-certified gynecologist and expert in female hormone health. We discuss the key biomarkers women should track at each stage of life and how cortisol, thyroid hormone, estrogen, progesterone, and testosterone shape energy, mood, metabolism, and long-term disease risk. We also discuss PCOS, the risks and benefits of oral contraceptives, and the shift in brain metabolism that begins in perimenopause. Dr. Gottfried explains actionable tools for hormone and micronutrient testing, nutrition, stress management, and cardiometabolic screening that women can use at any age.\n\nRead the episode show notes at hubermanlab.com.\n\nThank you to our sponsors\n\nAG1: https://drinkag1.com/huberman\n\nLMNT: https://drinklmnt.com/huberman\n\nEight Sleep: https://eightsleep.com/huberman\n\nTimestamps\n\n(00:00:00) Female Hormone Health\n\n(00:00:24) Family History, Intergenerational Trauma; Endometriosis, Fibroids, PCOS\n\n(00:01:31) Biomarkers by Decade; Teens & Cortisol; 20s & Sex Hormones\n\n(00:03:35) Tool: Hormone Test Timing; Micronutrient Testing, Magnesium\n\n(00:05:41) Sponsor: LMNT\n\n(00:07:17) Tool: Smoothies, Greens Powders & Microbiome\n\n(00:08:12) Nutrient Panels, Antioxidants, B Vitamins, Glutathione\n\n(00:09:34) Constipation, Thyroid Dysfunction; Trauma & Female Physiology\n\n(00:11:50) Tools: Reduce Perceived Stress, Meditation, Yoga, Breathwork\n\n(00:13:30) Opportunities by Decade; Androgens & Testosterone Decline\n\n(00:14:50) PCOS, Diagnostic Criteria, Hirsutism, Cardiometabolic Risk\n\n(00:17:10) Insulin & Glucose; Tool: Continuous Glucose Monitors\n\n(00:18:05) Democratizing Health Data\n\n(00:18:52) Sponsor: AG1\n\n(00:20:07) Longevity \"Don’ts\"; Chronic Cardio & Cortisol; Tool: Adaptive Exercise\n\n(00:22:46) Oral Contraceptives, Benefits & Ovarian Cancer Risk\n\n(00:24:27) Ovarian Cancer Symptoms, Bloating, CA-125\n\n(00:25:51) Oral Contraceptive Risks, Progestins, Inflammation; SHBG & Testosterone\n\n(0...",
+      "tags": []
+    },
+    {
+      "id": "01kzvdyhtgq9gd8vmwsw9348te",
+      "title": "Stop being skeptical about AI for development with Charity Majors",
+      "url": "https://newsletter.pragmaticengineer.com/p/stop-being-skeptical-about-ai-for",
+      "savedAt": "2026-08-12T16:47:32.761000+00:00",
+      "description": "In 2025, it was rational to be skeptical about AI. In 2026, it's not, anymore. With Charity Majors, CTO and co-founder of Honeycomb.",
+      "tags": []
+    },
+    {
+      "id": "01kzsaep6v92vym79mzah685hz",
+      "title": "🔬The BioAI Phase Shift - Matthew McPartlon & Neil Patil, Chai Discovery",
+      "url": "https://www.latent.space/p/chai-discovery",
+      "savedAt": "2026-08-11T21:07:58.372000+00:00",
+      "description": "Pharma is suddenly paying for Bio × AI tools, and Chai is leading the pack with four deals closed this summer. Cofounder Matt McPartlon and Product leader Neil Patil explain why.",
+      "tags": []
+    },
+    {
+      "id": "01kznbwywj50wm8qkjererd7vf",
+      "title": "Using AI to Increase Your Intelligence & Enrich Humanity | Dr. Fei-Fei Li",
+      "url": "https://www.hubermanlab.com/episode/using-ai-to-increase-your-intelligence-and-enrich-humanity-fei-fei-li",
+      "savedAt": "2026-08-10T08:16:16.859000+00:00",
+      "description": "Dr. Fei-Fei Li explains how AI can help humans become smarter and more creative. She highlights that AI and humans working together can improve health and life experiences. She also says AI is different from human thinking because it cannot copy our intuition and unique feelings.",
+      "tags": []
+    },
+    {
+      "id": "01kzgw0ywc919r3485k9q2ad1r",
+      "title": "The Tale of the Mechanical Virus",
+      "url": "https://web.archive.org/web/20071123063803/www.alwaysbeta.com/2007/08/27/the-tale-of-the-mechanical-virus",
+      "savedAt": "2026-08-08T14:21:55.980000+00:00",
+      "description": "Mac users couldn’t connect to projectors because a broken part in DVI adapters bent pins and caused damage. This damage spread like a virus when adapters were shared between computers. People started checking and using their own adapters to stop the problem from spreading.",
+      "tags": [
+        "computer-history"
+      ]
+    },
+    {
+      "id": "01kzb35t4zw73f8casy5428k82",
+      "title": "Essentials: Control Your Brain Chemistry for Focus, Motivation & Well-Being",
+      "url": "https://www.hubermanlab.com/episode/essentials-optimize-and-control-your-brain-chemistry-to-improve-health-and-performance",
+      "savedAt": "2026-08-06T08:31:25.416000+00:00",
+      "description": "In this Huberman Lab Essentials episode, I explain how key neuromodulators shape motivation, energy, focus and mood throughout the day. I also describe a toolkit of science-supported behavioral, nutritional and supplement-based strategies to increase baseline levels for each neuromodulator, which can be modified to support your specific health and performance goals. \n\nRead the episode show notes at hubermanlab.com.\n\nThank you to our sponsors\n\nAG1: https://drinkag1.com/huberman\n\nEight Sleep: https://eightsleep.com/huberman\n\nROKA: https://roka.com/huberman\n\nTimestamps\n\n(00:00:00) Optimize Neurochemicals for Health\n\n(00:00:27) Neuromodulator Levels & 3 Daily Phases\n\n(00:05:07) Hormones Modulate Neuromodulators\n\n(00:06:56) Sponsor: Eight Sleep\n\n(00:08:13) Effects of Key Neuromodulators\n\n(00:10:16) Increase Motivation & Dopamine, Tools: Morning Sunlight; Caffeine\n\n(00:13:30) Dopamine Supplements: Mucuna Pruriens, L-Tyrosine, Phenethylamine (PEA)\n\n(00:16:34) Increase Dopamine, Tool: Deliberate Cold Exposure\n\n(00:19:18) Sponsor: AG1\n\n(00:20:31) Increase Epinephrine (Adrenaline) & Energy, Tools: Exercise, Cyclic Hyperventilation\n\n(00:24:56) Enhance Focus & Acetylcholine: Choline-Rich Foods, Nicotine\n\n(00:27:11) Acetylcholine Supplements: Alpha-GPC, Huperzine\n\n(00:28:05) Sponsor: ROKA\n\n(00:29:21) Serotonin & Mood, Tools: Gratitude, Tryptophan-Rich Foods\n\n(00:31:49) Serotonin Supplement: Myo-inositol\n\n(00:32:26) Using the Neurochemical Toolkit for Your Goals\n\nDisclaimer & Disclosures\nLearn more about your ad choices. Visit megaphone.fm/adchoices",
+      "tags": []
+    },
+    {
+      "id": "01kz4skyjjmw976t9vaj7xzhvh",
+      "title": "The Inference Engineering Masterclass — Philip Kiely & Ali Taha, Baseten",
+      "url": "https://www.latent.space/p/inference-eng",
+      "savedAt": "2026-08-03T21:48:56.346000+00:00",
+      "description": "Inference speed can be much slower without special optimizations, but working in compressed spaces helps a lot. Different hardware and model sizes affect how well inference runs, and matching them is key. Also, building fast inference systems is complex and needs careful balancing, similar to training models.",
+      "tags": []
+    },
+    {
+      "id": "01kz3axxz8fb7tegq2sp445txs",
+      "title": "How Your Immune System Works & How to Improve It | Dr. Max Krummel",
+      "url": "https://www.hubermanlab.com/episode/how-your-immune-system-works-and-how-to-improve-it-max-krummel",
+      "savedAt": "2026-08-03T08:13:00.336000+00:00",
+      "description": "My guest is Dr. Matthew (Max) Krummel, PhD, professor at UCSF and one of the world’s leading immunologists. We discuss how your immune system works and how sleep, emotions, and even memories shape immune function. We also explore thymus function, its role in autoimmunity, and its potential role in combating cancer. And we discuss how the type and timing of immunization can impact health. This episode provides an actionable framework for understanding how your immune system works, which ought to benefit people of all ages and health statuses.\n\nRead the episode show notes at hubermanlab.com.\n\nThank you to our sponsors\n\nAG1: https://drinkag1.com/huberman\n\nEight Sleep: https://eightsleep.com/huberman\n\nFunction: https://functionhealth.com/huberman\n\nJoovv: https://joovv.com/huberman\n\nTimestamps\n\n(00:00:00) Max Krummel\n\n(00:02:18) Immune System, Immunotherapy\n\n(00:08:36) Illness, Childhood & Immune System\n\n(00:13:02) Aging & Immunity, DNA Mutations\n\n(00:18:36) Sponsors: Joovv & Eight Sleep\n\n(00:21:14) Self vs Non-Self Recognition, Aging, Cancer; Immune Surveillance\n\n(00:30:11) Cancer, Immune System, Age & Measuring Change\n\n(00:35:57) Thymus, T Cells; Aging & Cancer\n\n(00:42:13) Reproduction, Aging & Immune System; Basic Research\n\n(00:47:28) Sleep & Illness Susceptibility\n\n(00:52:55) Sponsor: AG1\n\n(00:54:08) Umbilical Cord Banking; Organoids, CAR T Cells, Thymus\n\n(01:02:57) Scientific Curiosity, Failures, & Discovery\n\n(01:13:14) Spatial Biology & Immune Cells; Memory & Immune State; Stress, Meditation\n\n(01:25:00) Sponsor: Function\n\n(01:26:37) Mindset; Tissue Engineering, Peptides, Systems Biology\n\n(01:34:25) Immunizations in Childhood and Beyond\n\n(01:39:37) Pharmaceutical Companies, Public Distrust\n\n(01:49:22) Disease Risk, Immunity; Autism, Flu,\n\n(01:58:56) Biological Resilience, Cancer; Computational Research\n\n(02:08:02) Autoimmune Conditions, Asthma, IBD\n\n(02:13:34) Autoimmunity & Genetic Diversity Benefits\n\n(02:17:11) Science Communication, Max's Substack\n\n(02:24:07) ...",
+      "tags": []
+    },
+    {
+      "id": "01kyyvq32wc1dqxt30gh9szj86",
+      "title": "Does creatine make you smarter?",
+      "url": "https://dynomight.substack.com/p/creatine?utm_source=%2Finbox&utm_medium=reader2",
+      "savedAt": "2026-08-01T14:30:12.828000+00:00",
+      "description": "Creatine helps muscles store energy and makes them stronger, but it has little effect on endurance. The brain uses creatine too, but it controls levels more carefully, and supplements might not raise brain creatine much. Studies show creatine may only slightly improve thinking, if at all, so its benefit for intelligence is very small or uncertain.",
+      "tags": [
+        "health",
+        "medicine"
+      ]
+    },
+    {
+      "id": "01kywk8v16qcwry2b70mns1eff",
+      "title": "An Opinionated Guide to ML Research",
+      "url": "http://joschu.net/blog/opinionated-guide-ml-research.html",
+      "savedAt": "2026-07-31T17:24:08.358000+00:00",
+      "description": "Study past influential ML work to develop good taste and pick big problems.  \nPrefer goal-driven projects with clear, high-potential goals and stick with them.  \nRegularly reimplement papers, learn broadly, and set aside time to try new ideas.",
+      "tags": [
+        "cs/ai",
+        "cs/machine-learning"
+      ]
+    },
+    {
+      "id": "01kywjaxtxnmmrdtrzs0re0gzb",
+      "title": "Soatok’s Informal Guide to Threat Models",
+      "url": "https://soatok.blog/2026/06/30/soatoks-informal-guide-to-threat-models/",
+      "savedAt": "2026-07-31T17:07:48.189000+00:00",
+      "description": "A threat model helps you understand what you need to protect and how to stop attacks. Good threat models list assumptions, assets, actors, and risks, and they change over time. Even a simple or imperfect threat model is better than none and helps build safer systems.",
+      "tags": [
+        "cs/security"
+      ]
+    },
+    {
+      "id": "01kys2766y6f3v4x1h3zf6jg6p",
+      "title": "Essentials: How to Become Resilient, Forge Your Identity & Lead Others | Jocko Willink",
+      "url": "https://www.hubermanlab.com/episode/essentials-how-to-become-resilient-forge-your-identity-and-lead-others-jocko-willink",
+      "savedAt": "2026-07-30T08:28:22.183000+00:00",
+      "description": "Jocko Willink explains that discipline, not motivation, helps us keep going every day. He says taking action helps us get through hard times like loss and setbacks. He also shares how leaders can support their teams by staying calm and seeing the big picture.",
+      "tags": []
+    },
+    {
+      "id": "01kyrfqe5v82ye864m5z27hyd2",
+      "title": "Should you marry her?",
+      "url": "https://acotra.substack.com/p/should-you-marry-her",
+      "savedAt": "2026-07-30T03:05:14.683000+00:00",
+      "description": "Marriage is a promise to stay together and helps both partners invest in a shared future. Before marrying, consider how well you work together and how much better someone else might be. If you’ve dated a long time, waiting longer may not help, so decide based on your current partner’s fit and your goals.",
+      "tags": [
+        "relationship"
+      ]
+    },
+    {
+      "id": "01kyqb2gcb4b7ge0c1ndhtx6d3",
+      "title": "Formal methods with Hillel Wayne",
+      "url": "https://newsletter.pragmaticengineer.com/p/formal-methods-with-hillel-wayne",
+      "savedAt": "2026-07-29T16:24:37.076000+00:00",
+      "description": "Hillel Wayne explains that formal methods like TLA+ help find tricky bugs and make complex software more reliable. Most engineers should use simpler tools like property-based testing, as formal methods are best for rare, difficult cases. AI may increase formal verification use slightly but won’t make it common for all developers.",
+      "tags": []
+    },
+    {
+      "id": "01kyq7xx1twp062fxbwk7501es",
+      "title": "GitHub - aphyr/distsys-class: Class materials for a distributed systems lecture series",
+      "url": "https://github.com/aphyr/distsys-class",
+      "savedAt": "2026-07-29T15:29:43.482000+00:00",
+      "description": "Distributed systems face challenges like failures, availability, and consistency, requiring trade-offs between them. Various tools and protocols (like Raft, ZAB, and distributed queues) help manage data and coordination across nodes. Designing systems with order-independence and confluence can improve reliability and ease reasoning.",
+      "tags": [
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "01kyq7wcrz6d3fpk58j9718j60",
+      "title": "The end-to-end principle in distributed systems",
+      "url": "https://www.tedinski.com/2019/02/27/end-to-end-principle.html",
+      "savedAt": "2026-07-29T15:28:54.047000+00:00",
+      "description": "The end-to-end principle in distributed systems suggests that reliability should be handled by the endpoints, not by complex intermediate nodes. This means that when a request fails, only the client should retry, avoiding unnecessary complications and potential failures from retries in the middle of the system. Ultimately, keeping the design simple helps prevent the system from accidentally becoming overly complex, like a database.",
+      "tags": [
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "01kymnf9vwth118fbnr6jbv2t1",
+      "title": "Codex from 0 to 10M Users: Building ChatGPT Work — Akshay Nathan, OpenAI",
+      "url": "https://www.latent.space/p/chatgpt-work",
+      "savedAt": "2026-07-28T15:28:38.853000+00:00",
+      "description": "OpenAI built ChatGPT Work using Codex to help many people do knowledge work, not just coding. They combined different AI tools to create smart agents that assist with tasks like managing documents and conversations. This approach aims to make AI useful for everyone, improving productivity and creativity.",
+      "tags": []
+    },
+    {
+      "id": "01kymk279n9mkkva8dbd2fa5rm",
+      "title": "Building agent memory on Elasticsearch",
+      "url": "https://www.elastic.co/search-labs/blog/agent-memory-elasticsearch",
+      "savedAt": "2026-07-28T14:46:36.085000+00:00",
+      "description": "This text explains how agent memory is built using Elasticsearch with three types of memory and a hybrid search method. It handles memory updates by superseding outdated facts and boosts relevant memories based on use and time. The system also blends personal user data with shared catalogs while ensuring quick recall and quality retrieval.",
+      "tags": [
+        "llm",
+        "cs/ai/agents"
+      ]
+    },
+    {
+      "id": "01kyhb241g4qv0t97h5wrpp2wa",
+      "title": "Your Top Health Questions Answered",
+      "url": "https://www.hubermanlab.com/episode/your-top-health-questions-answered",
+      "savedAt": "2026-07-27T08:28:57.849000+00:00",
+      "description": "The episode answers health questions on sleep, exercise, memory, fertility, menopause, and recovery. It shares science-based tools and nutrition tips for better well-being. Listeners are encouraged to submit questions for future episodes.",
+      "tags": []
+    },
+    {
+      "id": "01kygzankaf8m4wrxxkzccpbpx",
+      "title": "Tech I'm skeptical of and why",
+      "url": "https://splittinginfinity.substack.com/p/tech-im-skeptical-of-and-why",
+      "savedAt": "2026-07-27T05:03:58.058000+00:00",
+      "description": "The author is skeptical that space-based technologies like asteroid mining, space computing, and fusion will be cheaper or better than Earth-based alternatives. They argue that costs are higher in space due to launch, maintenance, and cooling challenges. Overall, solar energy and terrestrial computing remain more cost-effective and practical today.",
+      "tags": [
+        "thoughts"
+      ]
+    },
+    {
+      "id": "01kycvkq3fcfjvfsq1f7hc5c5h",
+      "title": "The Futility of Lava Lamps: What Random Really Means",
+      "url": "https://loup-vaillant.fr/articles/lava-lamps-and-randomness?__readwiseLocation=",
+      "savedAt": "2026-07-25T14:42:02.479000+00:00",
+      "description": "Randomness depends on what you know, not just on chance itself. Secure encryption needs keys as long as the message to stay safe. Modern methods use strong ciphers and good seeds to create reliable random numbers.",
+      "tags": [
+        "cs/security",
+        "cs/cryptography"
+      ]
+    },
+    {
+      "id": "01ky700a76gjpwrymfjbevzb77",
+      "title": "Essentials: Using Meditation to Focus, View Consciousness & Expand Your Mind | Dr. Sam Harris",
+      "url": "https://www.hubermanlab.com/episode/essentials-using-meditation-to-focus-view-consciousness-and-expand-your-mind-sam-harris",
+      "savedAt": "2026-07-23T08:03:19.982000+00:00",
+      "description": "In this Huberman Lab Essentials episode, my guest is Dr. Sam Harris, PhD, a neuroscientist, bestselling author, and world-renowned meditation teacher whose work focuses on consciousness, ethics, and religion. We discuss how meditation can help us better understand the nature of the self and transform the conscious experience. Sam also explains how meditation can help overcome universal challenges such as distractibility, mental chatter and emotional reactivity, which can allow for greater focus and fulfillment in the present moment.\n\nRead the episode show notes at hubermanlab.com.\n\nThank you to our sponsors\n\nAG1: https://drinkag1.com/huberman\n\nEight Sleep: https://eightsleep.com/huberman\n\nWaking Up: https://wakingup.com/huberman\n\nTimestamps\n\n(00:00:00) Sam Harris\n\n(00:00:21) Sense of Self, Meditation Purpose; Flow\n\n(00:08:37) Sponsor: Eight Sleep\n\n(00:09:55) Self Awareness, Self-Talk & Mental Chatter\n\n(00:14:44) Mindfulness, Distractibility\n\n(00:19:55) Sponsor: Waking Up\n\n(00:21:30) Meditation, Benefits, \"Sky-like Mind\"; States of Self\n\n(00:27:33) Meditation Practice, Mindfulness & Freedom\n\n(00:30:17) Psychedelics, Consciousness\n\n(00:34:15) Sponsor: AG1\n\n(00:35:34) Process vs Achieving Goals, Fulfillment in Present\n\nDisclaimer & Disclosures\nLearn more about your ad choices. Visit megaphone.fm/adchoices",
+      "tags": []
+    },
+    {
+      "id": "01ky6p5zys09d47hrdw55an9gm",
+      "title": "Inside the Model Factory — Eiso Kant, Poolside AI",
+      "url": "https://www.latent.space/p/poolside",
+      "savedAt": "2026-07-23T05:11:40.321000+00:00",
+      "description": "Eiso Kant and his team focused early on using reinforcement learning to improve large language models, despite skepticism from others. They believe training strong base models is key to success and are excited about new efficient training methods. Their small team has made big progress, showing that individuals can have a large impact in AI development.",
+      "tags": []
+    },
+    {
+      "id": "01ky32zdktwmr5a1agwrnz3s19",
+      "title": "Causal Models Need Causal Data - Xaira’s X-Cell model for Drug Discovery (Bo Wang & Ci Chu, Chief Discovery Officer & Chief AI Scientist)",
+      "url": "https://www.latent.space/p/xaira",
+      "savedAt": "2026-07-21T19:38:18.690000+00:00",
+      "description": "Xaira Therapeutics is all in on data generation for model building! We talk with Bo Wang and Ci Chu about how and why.",
+      "tags": []
+    },
     {
       "id": "01kxz9kz7266sk9mnatnzeknsq",
       "title": "Accelerate Learning & Increase Cognitive Capacity | Dr. Tommy Wood",
@@ -381,6 +651,7 @@
       "savedAt": "2026-06-11T05:46:20.783000+00:00",
       "description": "The best success comes from choosing the hardest problem that few others want to solve. Working hard on easy ideas often leads to less reward than working smart on tough, valuable challenges. Sticking with the hardest thing takes time and effort, but it usually pays off the most.",
       "tags": [
+        "business",
         "self-improvement"
       ]
     },
@@ -409,7 +680,10 @@
       "url": "https://nik.art/i-could-do-this-forever/",
       "savedAt": "2026-06-08T04:28:53.799000+00:00",
       "description": "Hob Gadling makes a deal to live forever and meets Dream every 100 years to share his life story. Over centuries, Hob experiences highs and lows but remains eager to keep living. The story teaches us that life is precious because it is limited, and we should live fully every day.",
-      "tags": []
+      "tags": [
+        "favorites",
+        "self-improvement"
+      ]
     },
     {
       "id": "01ktjqbbn9dfb92gh0d5e3jxw5",
@@ -417,7 +691,9 @@
       "url": "https://nik.art/making-peace-with-your-unlived-dreams/",
       "savedAt": "2026-06-08T04:20:13.609000+00:00",
       "description": "The author reflects on unfulfilled dreams, like becoming a great snowboarder, and learns to accept the limitations of life. Instead of feeling bitter, they find joy in imagination and appreciate their current pursuits. Making peace with unlived dreams allows for a more fulfilling life, focusing on what truly matters.",
-      "tags": []
+      "tags": [
+        "self-improvement"
+      ]
     },
     {
       "id": "01kth8x1j11qp1ey66paym09g8",
@@ -24712,7 +24988,7 @@
       "id": "01jbep64vgj4tnbwd279s7sn1d",
       "title": "Writes and Write-Nots",
       "url": "https://paulgraham.com/writes.html",
-      "savedAt": "2024-10-27T12:16:59.912000+00:00",
+      "savedAt": "2026-08-11T02:46:52.367000+00:00",
       "description": "October 2024I'm usually reluctant to make predictions about technology, but I\nfeel fairly confident about this one: in a couple decades there\nwon't be many people who can write.One of the strangest things you learn if you're a writer is how\nmany people have trouble writing. Doctors know how many people have\na mole they're worried about; people who are good at setting up\ncomputers know how many people aren't; writers know how many people\nneed help writing.The reason so many people have trouble writing is that it's\nfundamentally difficult. To write well you have to think clearly,\nand thinking clearly is hard.And yet writing pervades many jobs, and the more prestigious the\njob, the more writing it tends to require.These two powerful opposing forces, the pervasive expectation of\nwriting and the irreducible difficulty of doing it, create enormous\npressure. This is why eminent professors often turn out to have\nresorted to plagiarism. The most striking thing to me about these\ncases is the pettiness of the thefts. The stuff they steal is usually\nthe most mundane boilerplate — the sort of thing that anyone who\nwas even halfway decent at writing could turn out with no effort\nat all. Which means they're not even halfway decent at writing.Till recently there was no convenient escape valve for the pressure\ncreated by these opposing forces. You could pay someone to write\nfor you, like JFK, or plagiarize, like MLK, but if you couldn't buy\nor steal words, you had to write them yourself. And as a result\nnearly everyone who was expected to write had to learn how.Not anymore. AI has blown this world open. Almost all pressure to\nwrite has dissipated. You can have AI do it for you, both in school\nand at work.The result will be a world divided into writes and write-nots.\nThere will still be some people who can write. Some of us like it.\nBut the middle ground between those who are good at writing and\nthose who can't write at all will disappear. Instead of good writers,\nok writers, and ...",
       "tags": [
         "writing"
