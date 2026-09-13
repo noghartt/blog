@@ -1,6 +1,170 @@
 {
-  "lastUpdate": "2026-08-21T00:48:30.098Z",
+  "lastUpdate": "2026-09-13T02:02:52.282Z",
   "data": [
+    {
+      "id": "01m255sqrx9a91xg04a20bxrxe",
+      "title": "Essentials: Genes & the Inheritance of Memories Across Generations | Dr. Oded Rechavi",
+      "url": "https://www.hubermanlab.com/episode/essentials-genes-and-the-inheritance-of-memories-across-generations-oded-rechavi",
+      "savedAt": "2026-09-10T08:08:54.374000+00:00",
+      "description": "In this Huberman Lab Essentials episode, my guest is Dr. Oded Rechavi, a professor at Tel Aviv University who studies genetics, epigenetics and the inheritance of acquired traits. We discuss how DNA, RNA and epigenetic mechanisms determine what information can pass between generations, and why acquired traits are generally not thought to be inherited. We also explain research in C. elegans showing how small RNAs can transmit antiviral resistance and influence behavior across generations, what these findings might mean for mammals and humans, and potential future applications for reproductive health and diagnostics.\n\nThank you to our sponsors\n\nAG1: https://drinkag1.com/huberman\n\nEight Sleep: https://eightsleep.com/huberman\n\nLMNT: https://drinklmnt.com/huberman\n\nTimestamps\n\n(00:00:00) Oded Rechavi\n\n(00:00:24) DNA, Genome, RNA & Proteins\n\n(00:03:43) Somatic vs. Germ Cells; Inheritance\n\n(00:06:05) Sponsor: Eight Sleep\n\n(00:07:23) Lamarck vs. Darwin, Inheritance of Acquired Traits\n\n(00:09:45) Weismann Barrier, Epigenetic Reprogramming\n\n(00:13:05) RNA & Transgenerational Inheritance\n\n(00:13:54) Model Organisms, C. elegans\n\n(00:16:59) Inheritance of Acquired Traits in C. elegans\n\n(00:17:14) Sponsor: AG1\n\n(00:18:40) RNA Interference, Small RNAs & Gene Silencing\n\n(00:22:46) Viral Resistance Across Generations\n\n(00:24:53) Small RNAs, Mammals & Inherited Effects\n\n(00:26:00) Brain Activity, Memory & Heritable Information\n\n(00:28:46) Neuronal Small RNAs & Behavior Across Generations\n\n(00:29:59) Germ Cells, Development & Heritable RNA\n\n(00:31:29) Sponsor: LMNT\n\n(00:33:11) Future Applications, Exercise, IVF & RNA Diagnostics\n\n(00:35:16) Acknowledgements\n\nDisclaimer & Disclosures\nLearn more about your ad choices. Visit megaphone.fm/adchoices",
+      "tags": []
+    },
+    {
+      "id": "01m23ebdj5p5zjxbn8dvkpkysk",
+      "title": "Building Codex with Tibo Sottiaux",
+      "url": "https://newsletter.pragmaticengineer.com/p/building-codex-with-tibo-sottiaux",
+      "savedAt": "2026-09-09T15:59:53.485000+00:00",
+      "description": "Tibo Sottiaux, an OpenAI engineer, explains how Codex was built using Rust for speed and why it is open source to encourage trust and community input. Codex helps OpenAI developers with code reviews, maintenance, and system changes, making software development faster and easier. The open design also lets Codex work with many AI models, promoting competition and innovation.",
+      "tags": []
+    },
+    {
+      "id": "01m232dv382r24fmfgt15j49dp",
+      "title": "You're 25-35 years old? You're running out of time!",
+      "url": "https://breatheless.substack.com/p/youre-25-35-years-old-youre-running",
+      "savedAt": "2026-09-09T12:31:32.968000+00:00",
+      "description": "Youth pushes people to act boldly, but greatness comes from true talent, not just age. Many struggle with feeling time slipping away, yet true success shows early and aligns with who you really are. Focus on what you can do now, accept responsibility, and stop clinging to false hopes about controlling your fate.",
+      "tags": [
+        "favorites",
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "01m1ysqjqf9y2d13f0dkvzqpfd",
+      "title": "Shared Memory Consistency From Scratch Part 1: Causality",
+      "url": "https://allthoughts.me/blog/shared-memory-consistency-from-scratch-part1/?__readwiseLocation=",
+      "savedAt": "2026-09-07T20:42:37.167000+00:00",
+      "description": "This article explains how hardware design affects memory access and synchronization. It shows that write atomicity and program order are key to making memory operations consistent and reliable. The author discusses challenges and solutions for ensuring these properties in modern CPUs.",
+      "tags": [
+        "cs",
+        "hardware",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01m1xfz4vgjn4gs1zcx6g25wyq",
+      "title": "How Mitochondria Control Your Metabolism | Dr. Jared Rutter",
+      "url": "https://www.hubermanlab.com/episode/how-mitochondria-control-your-metabolism-jared-rutter",
+      "savedAt": "2026-09-07T08:32:41.913000+00:00",
+      "description": "Dr. Jared Rutter, PhD, Professor of Biochemistry at the University of Utah and Howard Hughes Medical Institute Investigator, is a leading expert on mitochondria and metabolism. He explains how mitochondria produce the energy for your cells to work but also how they regulate cell growth and replication and thereby contribute to health and disease. We also discuss how mitochondria are linked to aging, cancer, and other diseases. Our conversation explores your metabolism as the composite of trillions of individual cells and points to new ways to improve health, avoid, and treat diseases.\n\nShow notes: https://go.hubermanlab.com/297-jared-rutter\n\nPre-order Protocols: https://protocolsbook.com\n\nThank you to our sponsors\n\nAG1: https://drinkag1.com/huberman\n\nJoovv: https://joovv.com/huberman\n\nBetterHelp: https://betterhelp.com/huberman\n\nEight Sleep: https://eightsleep.com/huberman\n\nFunction: https://functionhealth.com/huberman\n\nTimestamps\n\n(00:00:00) Jared Rutter\n\n(00:02:29) Metabolism, Cells; Aging\n\n(00:08:36) Mitochondria, Origin & Cell Complexity\n\n(00:13:07) Sponsors: Joovv & BetterHelp\n\n(00:15:16) Mitochondria Genome, Inheritance\n\n(00:18:18) Mitochondria & Spatial Distribution; Cell-Specific Metabolism\n\n(00:25:59) Nutrient Energy, Hormones, Fat Cells\n\n(00:31:13) Glucose, ATP Conversion, Pyruvate\n\n(00:36:41) Cell Choice: Energy or Growth, Cancer; Virus\n\n(00:46:02) Sponsors: AG1 & Eight Sleep\n\n(00:48:36) Microbiome, Role of Humans\n\n(00:51:44) Molecule Discovery Process, MPC1, MPC2\n\n(00:59:42) Cell Resource Sensing, Fasting, Glucagon, Fat Cells; Neurons, Heart\n\n(01:07:03) Cell Resource Allocation, MPC, Heart Failure; Disease\n\n(01:11:46) Sponsor: Function\n\n(01:13:24) Cell Size vs Fuel Balance, Cell Identity & Disease\n\n(01:20:43) MPC Discovery, Genetics, Model Systems\n\n(01:24:29) Lactate, Oxygen, Exercise; Energy Prioritization Hierarchy\n\n(01:31:32) Cancer, Mutations, Metabolism Changes & Warburg Effect\n\n(01:36:18) Cancer Challenges & Therapies\n\n(01:43:00) Therapy Combina...",
+      "tags": []
+    },
+    {
+      "id": "01m1ktvhpez2septqj0k5pgtgb",
+      "title": "Vibecession: Much More Than You Wanted To Know",
+      "url": "https://www.astralcodexten.com/p/vibecession-much-more-than-you-wanted",
+      "savedAt": "2026-09-03T14:30:37.006000+00:00",
+      "description": "...",
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "id": "01m1kp886qare9kaajep0mb1v7",
+      "title": "Finding bugs in Raft implementations",
+      "url": "https://antithesis.com/blog/2026/finding-bugs-in-raft-implementations/#specifications-are-not-code",
+      "savedAt": "2026-09-03T13:10:10.390000+00:00",
+      "description": "Raft is a key consensus protocol, but every implementation tested has bugs that break its main safety rules. These bugs happen despite formal proofs and careful development because distributed systems are very hard to get right. Thorough testing under faults is essential to find these issues and improve reliability.",
+      "tags": [
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "01m1k57hhm5fr8kbbbjm2c12y0",
+      "title": "Essentials: Use Sleep to Enhance Learning, Memory & Emotional State | Dr. Gina Poe",
+      "url": "https://www.hubermanlab.com/episode/essentials-use-sleep-to-enhance-learning-memory-and-emotional-state-gina-poe",
+      "savedAt": "2026-09-03T08:12:38.396000+00:00",
+      "description": "In this Huberman Lab Essentials episode, my guest is Dr. Gina Poe, PhD, a Professor of Integrative Biology and Physiology at the University of California, Los Angeles (UCLA). We discuss the architecture of sleep and how each stage supports distinct functions, including memory consolidation, creativity, brain restoration, and emotional processing. We also explain science-supported tools to improve sleep quality, support cognitive performance, and hormone balance.\n\nShow notes: https://go.hubermanlab.com/Y6JKgFE\n\nThank you to our sponsors\n\nAG1: https://drinkag1.com/huberman\n\nLMNT: https://drinklmnt.com/huberman\n\nEight Sleep: https://eightsleep.com/huberman\n\nTimestamps\n\n(00:00:00) Gina Poe\n\n(00:00:19) Sleep States, Perfect Night's Sleep\n\n(00:02:23) Early Sleep, Memory Processing, Dreams\n\n(00:04:34) Growth Hormone & Early Sleep, Tool: Consistent Bedtime\n\n(00:06:47) Sponsor: LMNT\n\n(00:08:20) Alcohol & Negative Sleep Effects\n\n(00:09:18) Middle Sleep States, Creativity\n\n(00:10:32) Waking During Night, Nighttime Urination\n\n(00:11:39) Later Sleep, REM, Deep Sleep; Sleepwalking\n\n(00:14:01) Morning Grogginess; Sleep Trackers\n\n(00:15:53) Early Sleep \"Washout\", Brain Waste Clearance\n\n(00:19:56) Sponsor: Eight Sleep\n\n(00:21:14) Locus Coeruleus, Learning & REM Sleep, Tool: Calm Bedtime Routine\n\n(00:25:16) Sleep Spindles, P Waves, Learning & Creativity\n\n(00:28:38) Sponsor: AG1\n\n(00:29:56) Trauma Recovery, REM Sleep, Locus Coeruleus\n\n(00:33:29) Acknowledgements\n\nDisclaimer & Disclosures\nLearn more about your ad choices. Visit megaphone.fm/adchoices",
+      "tags": []
+    },
+    {
+      "id": "01m1hsamfawz969fr4rx1ed4cj",
+      "title": "Interview: Doug McIlroy ~ tmp.0ut Staff",
+      "url": "https://tmpout.sh/5/2.html",
+      "savedAt": "2026-09-02T19:25:25.354000+00:00",
+      "description": "Doug McIlroy was a key figure in early computing and helped create Unix and its tools, like pipes. He worked at Bell Labs with other smart people and wrote important programs and compilers. His innovations made programming easier and influenced how computers are used today.",
+      "tags": [
+        "computer-history"
+      ]
+    },
+    {
+      "id": "01m1ejffz9myxheefb4za46ny5",
+      "title": "Bug blindness",
+      "url": "https://danluu.com/bug-blind/",
+      "savedAt": "2026-09-01T13:28:01.257000+00:00",
+      "description": "Many people, including programmers, often do not notice common software bugs because they develop habits to work around them. The author believes that recognizing these bugs is important for improving software quality. By pointing out bugs, some people can learn to see and address issues they previously missed.",
+      "tags": [
+        "software-engineering"
+      ]
+    },
+    {
+      "id": "01m1berp7rcx0p4aezbnshb9vj",
+      "title": "How to Accelerate Learning & Improve Education | Joe Liemandt",
+      "url": "https://www.hubermanlab.com/episode/how-to-accelerate-learning-and-improve-education-joe-liemandt",
+      "savedAt": "2026-08-31T08:25:21.984000+00:00",
+      "description": "My guest is Joe Liemandt, technology entrepreneur and principal of Alpha School, a K-12 model that uses AI and individualized learning to help students master academics in just two hours a day, freeing the rest of their time to build businesses, conduct experiments, engage with their communities, and develop practical life skills. We discuss Alpha’s promising results, tools parents and educators can use today, and Joe’s vision for how AI could transform education and human potential.\n\nShow notes: https://go.hubermanlab.com/296-joe-liemandt\n\nPre-order Protocols: https://protocolsbook.com\n\nHuberman Lab live events: https://www.hubermanlab.com/events\n\nThank you to our sponsors\n\nAG1: https://drinkag1.com/huberman\n\nDavid: https://davidprotein.com/huberman\n\nLingo: https://hellolingo.com/huberman\n\nHelix Sleep: https://helixsleep.com/huberman\n\nLMNT: https://drinklmnt.com/huberman\n\nTimestamps\n\n(00:00:00) Joe Liemandt\n\n(00:03:16) History of Traditional Classroom Model; Education Milestones\n\n(00:08:08) Sponsors: David & Lingo\n\n(00:10:25) Alpha School, High Standards & Support\n\n(00:22:33) Effective Support, Academics vs Athletics; Homeschooling\n\n(00:30:03) AI, Individualized Learning & Mastery\n\n(00:34:31) Teacher Education, Standardized Tests, Role of School\n\n(00:40:52) Sponsors: AG1 & Helix Sleep\n\n(00:43:42) AI, Scaffolding Learning, Mastery; Working Memory & Fluency\n\n(00:52:41) Working Memory, Focus; Gifted Kids\n\n(01:00:30) Basics Mastery, Grade Level Catch-Up, Individualized AI Lessons & Pace\n\n(01:06:57) Sponsor: LMNT\n\n(01:08:17) Shame, Motivation, Growth Rate; Overcoming Mental Blocks & Paying Kids\n\n(01:20:55) Suffering & Motivation, Kids Goals, Sports; Doing Hard Things\n\n(01:31:21) Founders High School, Life Skills; Kids' Goals\n\n(01:42:44) Reimagining Classroom Education\n\n(01:47:21) Importance of Building & Creating, AI & Humanity\n\n(01:58:04) Science & Redesigning Experiments, Kids' Interest-Led Projects\n\n(02:05:26) Huberman Lab Live Events\n\n(02:06:14) Learning Predicto...",
+      "tags": []
+    },
+    {
+      "id": "01m1at7xqrjsr237q2kkp6gmxk",
+      "title": "Systems and Delays",
+      "url": "https://martin.janiczek.cz/2026/07/24/systems-and-delays.html",
+      "savedAt": "2026-08-31T02:26:44.088000+00:00",
+      "description": "Delays in systems can cause unexpected oscillations and instability, even when trying to respond quickly. Slowing down responses sometimes makes the system more stable and efficient. It's important to model and test your system rather than relying on intuition alone.",
+      "tags": [
+        "systems-theory"
+      ]
+    },
+    {
+      "id": "01m19zz542njkzshd2m0wjsgds",
+      "title": "The Physics of Memory",
+      "url": "https://www.dmurph.com/posts/2026/06/ecs_vs_oop_benchmark/ecs_vs_oop_benchmark.html",
+      "savedAt": "2026-08-30T18:47:33.762000+00:00",
+      "description": "Using flat arrays with data-oriented design greatly improves memory access speed and CPU cache use compared to traditional object-oriented approaches. WebAssembly adds extra speed by allowing unchecked memory access, but switching to a flat Structure of Arrays in JavaScript alone gives huge performance gains. Eliminating indirection and leveraging sequential memory operations further boosts speed and frame-rate stability in large-scale physics simulations.",
+      "tags": [
+        "hardware",
+        "cs/algorithms"
+      ]
+    },
+    {
+      "id": "01m115n4bdv9p9d1w8316x6x68",
+      "title": "Essentials: Diet & Nutrition for Mental Health | Dr. Chris Palmer",
+      "url": "https://traffic.megaphone.fm/SCIM2465421786.mp3",
+      "savedAt": "2026-08-27T08:33:43.862000+00:00",
+      "description": "In this Huberman Lab Essentials episode, my guest is Dr. Chris Palmer, MD, a board-certified psychiatrist and Assistant Professor of Psychiatry at Harvard Medical School. We explain how nutrition and metabolism directly affect mental health, including the biological mechanisms underlying these effects. We also discuss how carbohydrate restriction, ketogenic diets and fasting can improve mood, energy, and, in some cases, treatment-resistant psychiatric conditions.\n\nThank you to our sponsors\n\nAG1: https://drinkag1.com/huberman\n\nEight Sleep: https://eightsleep.com/huberman\n\nBetterHelp: https://betterhelp.com/huberman\n\nTimestamps\n\n(00:00:00) Chris Palmer\n\n(00:00:20) Personal Story, Nutrition & Mental Health\n\n(00:05:28) Treatment-Resistant Mental Disorders & Low-Carbohydrate Diet\n\n(00:07:32) Sponsor: Eight Sleep\n\n(00:08:51) Ketogenic Diet & Schizophrenia Success Story\n\n(00:12:20) Nutrition for Mental Disorders, Ketosis, Highly Processed Foods\n\n(00:15:13) Epilepsy & Ketogenic Diet, Fasting; Mitochondrial Benefits\n\n(00:21:14) Sponsor: BetterHelp\n\n(00:22:15) Mitochondria Functions, Mental Disorders\n\n(00:28:05) Mitophagy, Autophagy, Longevity & Calorie Restriction\n\n(00:33:12) Sponsor: AG1\n\n(00:34:25) Carbohydrate Restriction, Depression Treatment\n\n(00:37:23) Acknowledgements\n\nDisclaimer & Disclosures\nLearn more about your ad choices. Visit megaphone.fm/adchoices",
+      "tags": []
+    },
+    {
+      "id": "01m0zd6ehq4yafrfaywjjvjbt7",
+      "title": "Why performant code matters (but gets widely ignored), with Casey Muratori",
+      "url": "https://newsletter.pragmaticengineer.com/p/why-performant-code-matters-but-gets",
+      "savedAt": "2026-08-26T16:07:02.527000+00:00",
+      "description": "Casey Muratori explains why software performance matters, how developers can write faster code, and why he challenges conventional engineering practices.",
+      "tags": []
+    },
+    {
+      "id": "01m0zamxjbh6xyg9p8wqjrq64k",
+      "title": "🔬“We have foundation models for language, not for physics” — Anima Anandkumar, Bren Professor of Computing",
+      "url": "https://www.latent.space/p/anima",
+      "savedAt": "2026-08-26T15:22:30.932000+00:00",
+      "description": "Anima Anandkumar uses AI to model complex physical systems like weather and fusion. She developed FourCastNet, an AI weather model that works well on regular computers. Her work shows that building physics knowledge into AI is key since big data alone is not enough.",
+      "tags": []
+    },
+    {
+      "id": "01m0sdb2rzh9aqg392rp3q1j6a",
+      "title": "How to Improve Motivation & Overcome Procrastination | Dr. Masud Husain",
+      "url": "https://www.hubermanlab.com/episode/how-to-improve-motivation-and-overcome-procrastination-masud-husain",
+      "savedAt": "2026-08-24T08:14:07.719000+00:00",
+      "description": "Dr. Masud Husain is a Professor of Neurology & Cognitive Neuroscience at the University of Oxford and a leading expert on the science of motivation, apathy, and neurological diseases. We discuss how dopamine and specific brain circuits shape motivation, including how the brain weighs the trade-off between effort vs reward when deciding what goals to pursue. Dr. Husain also explains practical tools to increase motivation, reduce distractions, and make it easier to start and maintain goal pursuit. We also discuss dementia, Parkinson’s and Alzheimer’s disease, including new insights into cognitive resilience and factors that help protect against age-related cognitive decline.\n\nShow notes: https://go.hubermanlab.com/masud-husain-295\n\nThank you to our sponsors\n\nAG1: https://drinkag1.com/huberman\n\nDavid: https://davidprotein.com/huberman\n\nBetterHelp: https://betterhelp.com/huberman\n\nEight Sleep: https://eightsleep.com/huberman\n\nFunction: https://functionhealth.com/huberman\n\nTimestamps\n\n(00:00:00) Masud Husain\n\n(00:02:24) Apathy, Motivation\n\n(00:08:07) Rewards, Apathy & Motivation; Dopamine\n\n(00:13:20) Sponsors: David & BetterHelp\n\n(00:15:44) Types of Apathy; Goal Prioritization: Effort vs Rewards\n\n(00:23:26) Motivation, Apathy, Tool: Activation Energy & Overthinking\n\n(00:29:24) Tools to Increase Motivation: Incentives, Subdivide Tasks, Planning\n\n(00:35:13) Subjective Effort, Mental Framing; Learning & Motivation\n\n(00:42:24) Sponsors: AG1 & Eight Sleep\n\n(00:44:54) Perseverance, Failure; Finding Your Passion, Depression vs Apathy\n\n(00:50:58) Self-Concept, Ambition; Life Satisfaction\n\n(00:58:25) Psychedelics, Anhedonia & Changing Self\n\n(01:03:09) Personal & Social Identity, Tools: Curiosity, Purpose & Dementia Risk\n\n(01:11:58) Addiction, Dopamine; Social Media & Dopamine \"Hits\"?\n\n(01:18:36) Sponsor: Function\n\n(01:20:13) Dopamine, Parkinson's Disease; Other Roles of Dopamine\n\n(01:26:59) Life Purpose, Culture; Reflection, Weighing Decisions\n\n(01:34:21) Internal & External A...",
+      "tags": []
+    },
+    {
+      "id": "01m0kc5pmmpcsaesdgcgv45b3g",
+      "title": "Simulation: the new Scaling Law — Joon Sung Park, Simile AI",
+      "url": "https://www.latent.space/p/simile",
+      "savedAt": "2026-08-21T23:58:16.284000+00:00",
+      "description": "Simile’s CEO about his journey from the viral Generative Agents to creating 8 Billion Digital Twins of every living human... and why it’s gone from fun exploration to very serious business.",
+      "tags": []
+    },
     {
       "id": "01m0f422qewx5phfvamb4v987c",
       "title": "Essentials: How to Access Your Creativity | Rick Rubin",
@@ -412,7 +576,10 @@
       "url": "https://essays.highagency.com/p/normal-is-forgotten-only-weird-survives?r=17qf9c&utm_medium=ios&triedRedirect=true",
       "savedAt": "2026-07-06T03:30:16.110000+00:00",
       "description": "What is normal changes over time and is often strange to others. Being true to your unique self creates memorable stories that people remember. Embracing your weirdness helps you live a meaningful and authentic life.",
-      "tags": []
+      "tags": [
+        "favorites",
+        "self-improvement"
+      ]
     },
     {
       "id": "01kwtqajyeqhm77fyshnmrrcwj",
@@ -420,7 +587,9 @@
       "url": "https://olliebray.substack.com/p/meditate-downhill?r=17qf9c&utm_medium=ios&triedRedirect=true",
       "savedAt": "2026-07-06T03:25:07.335000+00:00",
       "description": "Meditation feels easier when you trust your mind to move naturally toward calm and insight, like going downhill instead of pushing uphill. The mind wants to find joy, clarity, and love, so practice is about finding that smooth path. When you do this, meditation becomes lighter and more free, not a hard struggle.",
-      "tags": []
+      "tags": [
+        "self-improvement"
+      ]
     },
     {
       "id": "01kwgxw5zrg3c41ks76zdf776g",
@@ -501,7 +670,10 @@
       "url": "https://queue.acm.org/detail.cfm?ref=rss&id=3807966&__readwiseLocation=",
       "savedAt": "2026-06-26T02:37:37.699000+00:00",
       "description": "AI is speeding up code creation but may increase hidden problems like cognitive and intent debt in software teams. Cognitive debt means losing shared understanding of the system, while intent debt is about unclear goals and reasons behind the code. To keep software healthy, teams must manage code quality, shared understanding, and clear goals together, especially with AI helping development.",
-      "tags": []
+      "tags": [
+        "cs/ai",
+        "software-engineering"
+      ]
     },
     {
       "id": "01kvyy4exb861dz8qga107jprb",
@@ -7303,10 +7475,10 @@
     },
     {
       "id": "01k90114t3wtpqdts3zpxgv5mk",
-      "title": "HuggingFaceTB",
+      "title": "The Smol Training Playbook: The Secrets to Building World-Class LLMs",
       "url": "https://huggingface.co/spaces/HuggingFaceTB/smol-training-playbook#introduction",
       "savedAt": "2025-11-01T15:36:59.458000+00:00",
-      "description": "Discover amazing ML apps made by the community",
+      "description": "Building top-quality large language models is hard and full of hidden challenges like bugs and training issues. The SmolLM series focuses on creating smaller, efficient, and powerful models that work well on devices like phones while handling multiple languages and long contexts. The team experiments with new architectures and attention methods to improve performance and manage memory and compute limits.",
       "tags": [
         "cs/ai",
         "for-later"
@@ -10920,7 +11092,7 @@
       "title": "LLM Embeddings Explained: A Visual and Intuitive Guide",
       "url": "https://huggingface.co/spaces/hesamation/primer-llm-embedding",
       "savedAt": "2025-07-30T19:00:09.184000+00:00",
-      "description": "This app explains how language models transform text into meaningful representations through embeddings. It provides a visual guide to help you understand traditional and modern language model tech...",
+      "description": "Embeddings turn words into numbers that help language models understand text. They have evolved from simple counting methods to complex techniques used in modern AI. Good embeddings capture word meanings and improve how models communicate with humans.",
       "tags": [
         "for-later"
       ]
