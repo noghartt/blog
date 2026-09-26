@@ -1,6 +1,701 @@
 {
-  "lastUpdate": "2026-08-21T00:48:30.098Z",
+  "lastUpdate": "2026-09-26T02:36:07.646Z",
   "data": [
+    {
+      "id": "01m3deth60y1md7ffqh1bw6ejx",
+      "title": "OpenRouter: from Seed to Stripe — with OpenRouter’s Alex Atallah & AMP’s Anjney Midha",
+      "url": "https://www.latent.space/p/openrouter",
+      "savedAt": "2026-09-25T23:36:14.857000+00:00",
+      "description": "In 2023 most people doubted that there could be more than 1 or 2 frontier model labs. Now there are dozens.... and Stripe just bought the best known one for $7B.",
+      "tags": []
+    },
+    {
+      "id": "01m3b3ex842yy8cqt9hw196ewb",
+      "title": "Runway’s WorldPrompt and the Engineering of Real-Time Worlds",
+      "url": "https://www.latent.space/p/runway",
+      "savedAt": "2026-09-25T01:39:10.796000+00:00",
+      "description": "Runway began with the idea that generative models would transform creative tools as they improved. Its world models can create varied environments for training computer-use and robotics agents. The discussion also explores how language models and video-generation models might work together.",
+      "tags": []
+    },
+    {
+      "id": "01m3985kcy7f2tghrrs61cfwkm",
+      "title": "Essentials: Optimal Protocols to Build Strength & Grow Muscles | Dr. Andy Galpin",
+      "url": "https://www.hubermanlab.com/episode/essentials-optimal-protocols-to-build-strength-and-grow-muscles-andy-galpin",
+      "savedAt": "2026-09-24T08:22:59.814000+00:00",
+      "description": "In this Huberman Lab Essentials episode, I revisit episode 2 of my six-part guest series with Dr. Andy Galpin, PhD, an exercise scientist and expert in human performance. We discuss how strength and muscle growth (hypertrophy) differ and why resistance training is important for maintaining physical function as we age. We also explain how to build effective training programs using progressive overload, exercise selection, repetition speed and weekly training volume. Dr. Galpin shares practical tools for developing strength, power and muscle size, including how to adapt workouts to your goals, equipment and schedule.\n\nRead the full episode show notes at hubermanlab.com.\n\nThank you to our sponsors\n\nAG1: https://drinkag1.com/huberman\n\nBetterHelp: https://betterhelp.com/huberman\n\nTimestamps\n\n(00:00:00) Andy Galpin\n\n(00:00:51) Strength Training, Aging & Physical Function\n\n(00:04:04) Strength vs. Hypertrophy\n\n(00:05:57) Sponsor: AG1\n\n(00:07:20) Training Principles, Consistency & Progressive Overload\n\n(00:08:39) Individualization, Specificity & Variation\n\n(00:09:46) Training Variables; Tool: “3 to 5” Approach\n\n(00:12:58) Repetition Speed, Strength vs. Hypertrophy\n\n(00:16:18) Exercise Variation & Standardization\n\n(00:18:17) Power & Strength Training: Exercise Selection, Order & Volume\n\n(00:21:20) Progression, Deloads & Training Intent\n\n(00:22:52) Sponsor: BetterHelp\n\n(00:23:57) Hypertrophy: Training Stimulus & Exercise Selection\n\n(00:25:59) Targeting Muscles, Squat Technique & Machines\n\n(00:29:41) Exercise Order & Pre-Fatigue\n\n(00:30:42) Training Splits, Balanced Muscle Development\n\n(00:32:13) Weekly Training Volume, Reps in Reserve & Limited Workout Time\n\n(00:34:52) Training Frequency, Workout Duration & Full-Body Training\n\n(00:37:40) Acknowledgements\n\nDisclaimer & Disclosures\nLearn more about your ad choices. Visit megaphone.fm/adchoices",
+      "tags": []
+    },
+    {
+      "id": "01m37m1nnt0cpz1we7w1hsram4",
+      "title": "Design Engineering with Maggie Appleton",
+      "url": "https://newsletter.pragmaticengineer.com/p/design-engineering-with-maggie-appleton",
+      "savedAt": "2026-09-23T17:12:05.122000+00:00",
+      "description": "Maggie Appleton explains how design and engineering both solve problems and how AI is changing design work. She warns that AI can mislead us by seeming more capable than it really is, so human judgment remains important. Engineers can learn design skills by using AI agents as helpful tutors.",
+      "tags": []
+    },
+    {
+      "id": "01m377a8hhg8qjppfkt8yaapma",
+      "title": "🔬Bio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)",
+      "url": "https://www.latent.space/p/bio-security-is-an-ai-arms-race-eric",
+      "savedAt": "2026-09-23T13:29:35.098000+00:00",
+      "description": "Radical Numerics uses advanced AI models to understand and design DNA, helping improve bio-defense. These models think in the language of DNA and learn from biological data to predict and create new sequences. The work is part of a growing arms race to keep biosecurity ahead of biological threats.",
+      "tags": []
+    },
+    {
+      "id": "01m35fb6z4x4pwhrq74s0qj2yy",
+      "title": "🔬 An Oscar, Two Asteroids, and the Algorithm in Your sklearn: John Platt on AI for Science",
+      "url": "https://www.latent.space/p/john-platt",
+      "savedAt": "2026-09-22T21:11:25.997000+00:00",
+      "description": "We talked to Google’s Oscar winning “Giganerd” about automating science, solving climate change, and how future generations can contribute to science in the age of superintelligent AI",
+      "tags": []
+    },
+    {
+      "id": "01m330wswnzkhx87anrr17ngnr",
+      "title": "Jev: System One models for Prod, not God — with Diogo Almeida, CEO, TypeSafe AI",
+      "url": "https://www.latent.space/p/jev",
+      "savedAt": "2026-09-21T22:20:24.926000+00:00",
+      "description": "The definitive Jev podcast with its lead creator.",
+      "tags": []
+    },
+    {
+      "id": "01m31g99vmzyc7qee6xhv8dqc8",
+      "title": "Best Tools for Gut Health & Weight Loss | Dr. Chris Thompson",
+      "url": "https://www.hubermanlab.com/episode/best-tools-for-gut-health-and-weight-loss-chris-thompson",
+      "savedAt": "2026-09-21T08:10:54.268000+00:00",
+      "description": "Dr. Chris Thompson, MD, Professor of Medicine at Harvard Medical School, Chief of Interventional Gastroenterology at Mass General Brigham in Boston, and Co-Director of the Center for Weight Management and Wellness, is a world-renowned expert on gastroenterology, metabolism, nutrition, and obesity medicine. He explains how your GI tract regulates hunger, fullness, and blood sugar, as well as the gut microbiome, metabolic health, and weight loss. We also discuss common GI tract issues and which particular tests or interventions are actually useful. We discuss both GLP-1 medications and non-GLP-1 approaches to weight loss. Given that gut health is vital to all the organs of the body, overall health, and longevity, our discussion ought to be of interest and practical value to everyone, including, of course, those struggling with gut health or weight loss challenges.\n\nThank you to our sponsors\n\nAG1: https://drinkag1.com/huberman\n\nFunction: https://functionhealth.com/huberman\n\nLingo: https://hellolingo.com/huberman\n\nLMNT: https://drinklmnt.com/huberman\n\nOur Place: https://fromourplace.com/huberman\n\nTimestamps\n\n(00:00:00) Dr. Chris Thompson\n\n(00:02:16) Digestive Tract, Gut Hormones & Nutrient Absorption\n\n(00:08:06) Colon Microbiome & Colon Cancer Screening\n\n(00:11:13) Sponsors: LMNT & Lingo\n\n(00:13:40) Swallowing Problems & Zenker's Diverticula\n\n(00:16:08) Bowel Movements & Constipation\n\n(00:18:28) Fiber, Resistant Starch & the Gut Barrier\n\n(00:21:50) Intermittent Fasting & the Gut Microbiome\n\n(00:23:38) Fermented Foods, Microbial Diversity & Butyrate\n\n(00:27:12) H. pylori, Stress & Stomach Ulcers\n\n(00:30:20) GLP-1 Medications: Benefits & Limitations\n\n(00:33:42) Lower GLP-1 Doses, Weight Regain & Muscle Loss\n\n(00:37:35) GLP-1 Side Effects, Food Noise & Apathy\n\n(00:39:49) Bariatric Surgery & Medical Innovation\n\n(00:46:07) Sponsor: AG1\n\n(00:47:44) Hunger & Satiety: Ghrelin, CCK, GIP & GLP-1\n\n(00:50:01) Retatrutide & Combining Hormonal Targets\n\n(00:52:55) Ultra-Processed F...",
+      "tags": []
+    },
+    {
+      "id": "01m30704whrq5d5cd7ns0rthc0",
+      "title": "We are all Product Engineers now",
+      "url": "https://seldo.com/posts/we-are-all-product-engineers-now/",
+      "savedAt": "2026-09-20T20:09:25.649000+00:00",
+      "description": "AI will soon handle most coding tasks, changing software development a lot. The job will focus more on understanding user needs and designing good products. In the future, software creators will be more like product engineers than traditional programmers.",
+      "tags": [
+        "career"
+      ]
+    },
+    {
+      "id": "01m305qh42em2wpprtra53jzee",
+      "title": "Moats & the Barbell-ification of Software ",
+      "url": "https://x.com/mvernal/status/2099885132379500562/?rw_tt_thread=True",
+      "savedAt": "2026-09-20T19:47:14.690000+00:00",
+      "description": "Software companies will become either very large and all-encompassing or very small and niche, with little room in the middle. The biggest companies will build massive amounts of software daily and reinvest to maintain their lead and moat. Smaller software businesses will be like independent creators, focused on narrow needs, similar to the rise of direct-to-consumer brands.",
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "01m2zpmkqvhn55bbgwsg2p23m0",
+      "title": "Counting at scale",
+      "url": "https://system-design-in-depth.pages.dev/?__readwiseLocation=#topic/counting-at-scale",
+      "savedAt": "2026-09-20T15:23:30.426000+00:00",
+      "description": "Counting events in large systems is hard because direct updates cause slowdowns and failures. Using message queues to batch and process events asynchronously helps reduce database load. Ensuring accurate counts requires careful handling to avoid double counting and data loss.",
+      "tags": []
+    },
+    {
+      "id": "01m2r851e4ymypkpw9xjv7bsq7",
+      "title": "A Byzantine failure in the real world",
+      "url": "https://blog.cloudflare.com/a-byzantine-failure-in-the-real-world/",
+      "savedAt": "2026-09-17T17:55:39.075000+00:00",
+      "description": "At Cloudflare, we are always on the lookout for Single Points of Failure. In this post, we explore the role a failure mode known as a Byzantine fault played in a a real-world incident.",
+      "tags": []
+    },
+    {
+      "id": "01m2r848r0f0237a8pjnssr3at",
+      "title": "Fornax's Guide To Ridiculously Fast Ethernet",
+      "url": "https://web.archive.org/web/20260829113432/https://docs.pixeldrain.com/posts/2024-03-07_network_optimizations/",
+      "savedAt": "2026-09-17T17:55:13.792000+00:00",
+      "description": "Introduction# If you are one of the lucky few who has a fast enough connection, you might have just downloaded a 5 GB file in 10 seconds and wondered how that is even possible. Well, it took a lot of effort to get there.\nWhen I first ordered a 100 GbE server I expected things to just work. Imagine my surprise when the server crashed when serving at just 20 Gigabit.",
+      "tags": []
+    },
+    {
+      "id": "01m2r83xasn47p2tqcmycsvf0k",
+      "title": "The Golden Rule for Becoming a Better Writer",
+      "url": "https://nappertime.com/the-golden-rule-of-becoming-a-better-writer/",
+      "savedAt": "2026-09-17T17:55:02.104000+00:00",
+      "description": "I’m obsessed with the craft of writing. I write every day, I read about the craft often, and in my...",
+      "tags": []
+    },
+    {
+      "id": "01m2r82xt5rppqqy39jx7gktbd",
+      "title": "End-To-End Arguments In System Design",
+      "url": "https://www.cs.princeton.edu/courses/archive/spring19/cos463/papers/endtoend.pdf",
+      "savedAt": "2026-09-17T17:54:29.829000+00:00",
+      "description": "The end-to-end argument says functions like reliable delivery, encryption, and ordering belong at the application endpoints.  \nNetwork-level measures can help performance but cannot guarantee correctness because they lack the full application context.  \nDesigners must trade off network complexity versus endpoint checks to balance cost, reliability, and performance.",
+      "tags": []
+    },
+    {
+      "id": "01m2r82m04hsbtyrg5xb9zgq5f",
+      "title": "The Chubby Lock Service For Loosely-Coupled Distributed Systems",
+      "url": "https://storage.googleapis.com/gweb-research2023-media/pubtools/4444.pdf",
+      "savedAt": "2026-09-17T17:54:19.780000+00:00",
+      "description": "Chubby is a distributed lock service that helps clients manage file access safely and efficiently. It uses consistent caching and a simple client interface to ensure reliability and availability. The system allows many clients to access shared resources while providing security and reducing the complexity of server management.",
+      "tags": []
+    },
+    {
+      "id": "01m2r82ddptyyqtxbqm7t1f9sg",
+      "title": "paperJanMartinJansen.pdf",
+      "url": "https://www.researchgate.net/profile/Jan-Martin-Jansen/publication/267653413_Programming_in_the_l-Calculus_From_Church_to_Scott_and_Back/links/5c7249b292851c69503b0230/Programming-in-the-l-Calculus-From-Church-to-Scott-and-Back.pdf",
+      "savedAt": "2026-09-17T17:54:13.044000+00:00",
+      "description": null,
+      "tags": []
+    },
+    {
+      "id": "01m2r826ex44r1svhasf20p7hh",
+      "title": "FLT: Anthropic has beaten me to it",
+      "url": "https://xenaproject.wordpress.com/2026/09/04/flt-anthropic-has-beaten-me-to-it/",
+      "savedAt": "2026-09-17T17:54:05.917000+00:00",
+      "description": "I guess technically it was revealed to the world by a coffee shop in Islington on Insta, but an hour later it was officially announced by Anthropic: one of their internal models, using the prove2.m…",
+      "tags": []
+    },
+    {
+      "id": "01m2r81t7vj1yj4gn5j071q3wm",
+      "title": "The Browser's Main Thread Is Expensive",
+      "url": "https://kciter.so/posts/the-expensive-main-thread/en/?__readwiseLocation=",
+      "savedAt": "2026-09-17T17:53:53.403000+00:00",
+      "description": "What comes to mind when you hear \"frontend optimization\"? For most of us it's things like reducing network requests, shrinking the bundle,…",
+      "tags": []
+    },
+    {
+      "id": "01m2r81kjw8vq4c7bphg2tp4m0",
+      "title": "Anatomy of a Browser",
+      "url": "https://medium.com/@Koukyosyumei/anatomy-of-a-browser-95014ab378f8",
+      "savedAt": "2026-09-17T17:53:46.588000+00:00",
+      "description": "A browser is a complex program that turns web data into interactive pages by handling many tasks like networking, parsing, rendering, and security. It uses multiple subsystems working together to load, style, and display web content quickly and safely. The browser manages resources, user input, and scripts to create a smooth and responsive experience.",
+      "tags": []
+    },
+    {
+      "id": "01m2r81567xrzb3z4z04689chm",
+      "title": "Reverse Engineering a Chip (or well, a GDS) A writeup of Jane Street's ASIC challenge",
+      "url": "https://pradyun.net/blog/reverse_engineering.html?__readwiseLocation=",
+      "savedAt": "2026-09-17T17:53:31.847000+00:00",
+      "description": "The author reverse engineers a complex chip netlist by breaking it into smaller blocks and rewriting the Verilog code for clarity. They discover key signals like counters and flags, revealing the chip's internal logic and state machines. This process simplifies understanding and helps identify how different parts interact to produce the chip's behavior.",
+      "tags": []
+    },
+    {
+      "id": "01m2r81316bs5mttqpts99bfhh",
+      "title": "Compression in Full Quiet",
+      "url": "https://pineight.com/retrotainment/fq-compression.html?__readwiseLocation=",
+      "savedAt": "2026-09-17T17:53:29.637000+00:00",
+      "description": "This text explains how map graphics are compressed using tile-based encoding to save space. By grouping pixels into tiles and blocks, the data size is greatly reduced from millions of bytes to just hundreds of thousands. This method balances color detail with efficient storage for use in NES-style graphics.",
+      "tags": []
+    },
+    {
+      "id": "01m2r80ycmhgmaqkd897epzqja",
+      "title": "The revolt of the reader",
+      "url": "https://bcantrill.dtrace.org/2026/09/05/the-revolt-of-the-reader/?__readwiseLocation=",
+      "savedAt": "2026-09-17T17:53:24.883000+00:00",
+      "description": "Many readers dislike articles written by AI language models because these pieces feel inauthentic and hard to trust. New detection tools like Pangram help identify AI-written texts, encouraging writers to be honest and genuine. Using AI to write entire pieces risks losing readers and credibility, so writers should use AI only to assist, not replace, their own voice.",
+      "tags": []
+    },
+    {
+      "id": "01m2r80rc6f6919vebha34p303",
+      "title": "Visualizing Rust's Vtables: How dyn Trait Works In Memory",
+      "url": "https://sofiabelen.github.io/projects/visualizing-rusts-vtables-how-dyn-trait-works-in-memory/?__readwiseLocation=",
+      "savedAt": "2026-09-17T17:53:18.725000+00:00",
+      "description": "A follow-along series of coding experiments as I explore Rust's peculiarities, from a C++ developer's perspective.",
+      "tags": []
+    },
+    {
+      "id": "01m2r7zn6f6cye5s792wepnhgz",
+      "title": "From a Chocolate Wrapper to Concurrent InnoDB Page Splits",
+      "url": "https://mariadb.org/from-a-chocolate-wrapper-to-concurrent-innodb-page-splits/?__readwiseLocation=",
+      "savedAt": "2026-09-17T17:52:42.703000+00:00",
+      "description": "MariaDB improved InnoDB performance by using B-link trees to allow concurrent page splits instead of serializing them. This change boosted insert speed over five times and cut latency significantly in split-heavy workloads. The work is a prototype but shows great potential for better scalability in databases.",
+      "tags": []
+    },
+    {
+      "id": "01m2r7zdvwq19achn6e0bcthab",
+      "title": "Ironies of automation",
+      "url": "https://static1.squarespace.com/static/644321e78cd2dd37613af33e/t/6694873f71612132a84371c7/1721009983702/Ironies+of+Automation_Bainbridge_1983.pdf?__readwiseLocation=",
+      "savedAt": "2026-09-17T17:52:35.195000+00:00",
+      "description": "The paper \"Ironies of Automation\" by Lisanne Bainbridge discusses how automation can create more problems for human operators instead of reducing them. It argues that as systems become more advanced, the role of skilled operators becomes even more critical for effective decision-making and control. Ultimately, the paper highlights the irony that despite automation's intent to minimize human involvement, skilled human operators remain essential in managing automated processes.",
+      "tags": []
+    },
+    {
+      "id": "01m2r7z84ay80gwe2tjjkbxzkp",
+      "title": "Conflict resolution is “fun”",
+      "url": "https://www.tigrisdata.com/blog/conflict-resolution-is-fun/?__readwiseLocation=",
+      "savedAt": "2026-09-17T17:52:29.322000+00:00",
+      "description": "There are three types of buckets for storing data: single-region, global, and multi-region. Single-region buckets keep data in one place but can be slower for distant users. Multi-region buckets combine features of both to balance speed and consistency across locations.",
+      "tags": []
+    },
+    {
+      "id": "01m2r7ythfwdz83m44zdgdgz04",
+      "title": "#64 PL Education in the Age of AI",
+      "url": "https://www.typetheoryforall.com/episodes/pl-education-in-the-age-of-ai?__readwiseLocation=",
+      "savedAt": "2026-09-17T17:52:15.407000+00:00",
+      "description": "Shriram Krishnamurthi is a professor and expert in programming languages. He talks about why learning programming languages is important today. The interview also explores how AI might change programming in the future.",
+      "tags": []
+    },
+    {
+      "id": "01m2r7y77vj5wgw3rtp93crb4a",
+      "title": "OpenViking: Inside the Context Database Architecture",
+      "url": "https://blog.openviking.ai/post/openviking-context-database-architecture/?utm_source=chatgpt.com",
+      "savedAt": "2026-09-17T17:51:55.642000+00:00",
+      "description": "OpenViking is a context database designed to help AI agents use diverse and messy data effectively by organizing it with directory-like paths instead of traditional schemas. It combines multiple technologies to enable fast, scoped searches over different data types while managing identity, privacy, and performance. The system focuses on making context structured and accessible so agents can reason better without overloading their memory or losing privacy.",
+      "tags": []
+    },
+    {
+      "id": "01m2r7y0vz8atjen8nvtecnjnf",
+      "title": "SoK: Attack and Defense Landscape of Agentic AI Systems",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/kim-juhee-agentic?utm_source=chatgpt.com",
+      "savedAt": "2026-09-17T17:51:49.119000+00:00",
+      "description": "This paper studies the security of AI agents that use large language models with other tools. It explains the risks, attacks, and defenses for these AI systems. The work also points out future challenges to help build safer AI agents.",
+      "tags": []
+    },
+    {
+      "id": "01m2r7xs2djkddxkf5y0dve3cc",
+      "title": "DeltaBox: Scaling Stateful AI Agents with Millisecond-Level Sandbox Checkpoint/Rollback",
+      "url": "https://arxiv.org/pdf/2605.22781",
+      "savedAt": "2026-09-17T17:51:41.133000+00:00",
+      "description": null,
+      "tags": []
+    },
+    {
+      "id": "01m2r7xhhrqynzvj6fgxntrq1a",
+      "title": "Crab: A Semantics-Aware Checkpoint/Restore Runtime for Agent Sandboxes",
+      "url": "https://arxiv.org/pdf/2604.28138",
+      "savedAt": "2026-09-17T17:51:33.433000+00:00",
+      "description": null,
+      "tags": []
+    },
+    {
+      "id": "01m2r7xdgyad27x0yw4s5kcvsj",
+      "title": "What do Visa and Mastercard do? An intro to card networks",
+      "url": "https://tautology.town/2026/06/01/card-networks.html",
+      "savedAt": "2026-09-17T17:51:29.309000+00:00",
+      "description": "Visa and Mastercard are card networks that connect banks and merchants to move money and settle transactions. They do not issue cards or handle payment processing, but route authorization and settlement messages between banks. Their network helps make payments secure, supports dispute resolution, and simplifies international money transfers.",
+      "tags": []
+    },
+    {
+      "id": "01m2r7xagna92crmtjmjtrx17j",
+      "title": "On Binary Translation and its Consequences",
+      "url": "https://chipsandcheese.com/p/on-binary-translation-and-its-consequences?__readwiseLocation=",
+      "savedAt": "2026-09-17T17:51:26.229000+00:00",
+      "description": "Binary translation lets x86-64 software run on Arm devices but slows performance due to extra instructions. Qualcomm’s high-performance cores handle this slowdown better than others. Over time, more native Arm apps and better chips will improve the experience.",
+      "tags": []
+    },
+    {
+      "id": "01m2r7x01zmwx7mzgbjrxeeda3",
+      "title": "Astra for Coding: Why Are We Doing This Again?",
+      "url": "https://lucumr.pocoo.org/2026/9/7/astra-why/",
+      "savedAt": "2026-09-17T17:51:15.519000+00:00",
+      "description": "Astra is a powerful AI model that can do many tasks but struggles with producing clear and useful software code. It often writes messy, hard-to-understand code that is token-efficient but not human-friendly. Because of this, Astra may not be ready for real software engineering work yet.",
+      "tags": []
+    },
+    {
+      "id": "01m2r7wwzn1z9dzj75nh99qx1n",
+      "title": "Your Agent Is Mine: Measuring Malicious Intermediary Attacks on the LLM Supply Chain",
+      "url": "https://arxiv.org/pdf/2604.08407",
+      "savedAt": "2026-09-17T17:51:12.373000+00:00",
+      "description": "Malicious or compromised LLM API routers can inject harmful code and steal secrets from user requests. A study of 428 routers found many with security risks, including code injection and credential leaks. Client-side defenses help, but stronger protections from providers are needed to secure the LLM supply chain.",
+      "tags": []
+    },
+    {
+      "id": "01m2r7wm58df7vny7ehtwe3ne8",
+      "title": "Recursive Language Models",
+      "url": "https://arxiv.org/pdf/2512.24601",
+      "savedAt": "2026-09-17T17:51:03.336000+00:00",
+      "description": "Recursive language models (RLMs) break tasks into smaller parts and use sub-calls to handle long or complex inputs effectively. Training RLMs on one domain improves their performance and ability to generalize to new tasks. This approach helps models solve problems beyond their usual context limits and shows promise for future language model development.",
+      "tags": []
+    },
+    {
+      "id": "01m2r7wa3d8742jt11jhv54jz7",
+      "title": "Virtual Time on a Deadline: Building an Open-Source Deterministic Hypervisor",
+      "url": "https://www.youtube.com/watch?v=A6EFDALROFQ",
+      "savedAt": "2026-09-17T17:50:53.037000+00:00",
+      "description": "The project began as a study group and grew into building an open-source deterministic hypervisor. It involved a lot of trial and error, learning, and careful testing to handle complex timing and system behavior. The team focused on creating practical tools and documenting their work to improve understanding and future progress.",
+      "tags": []
+    },
+    {
+      "id": "01m2r7vrnzp2rrmmj2fx0vga0z",
+      "title": "prydt's site",
+      "url": "https://prydt.xyz/blog/a-few-good-ideas-in-pl/",
+      "savedAt": "2026-09-17T17:50:35.199000+00:00",
+      "description": "The author loves programming features like flow typing, which lets variables hold different types safely in Crystal and TypeScript. Rust's borrow checker prevents data races by controlling how references are used in concurrent code. The D language supports contract programming to clearly specify and check function and class rules, making programs safer and easier to maintain.",
+      "tags": []
+    },
+    {
+      "id": "01m2r7vqcc0smxe0jzf7rf5vbf",
+      "title": "mahesh's blog",
+      "url": "https://maheshba.bitbucket.io/blog/",
+      "savedAt": "2026-09-17T17:50:33.868000+00:00",
+      "description": "This is a blog on distributed systems. I am a systems researcher currently working at Meta. Previously I worked as a software engineer at Confluent (2022-2024) and Facebook (2017-2022); an Associate Professor at Yale; and a researcher at VMware Research and Microsoft Research Silicon Valley. All opinions are my own.",
+      "tags": []
+    },
+    {
+      "id": "01m2r7vnmb9jasw08zkazyk563",
+      "title": "The Bottlenecks for AI-Driven System Design: why Principal Engineers are not (yet) obsolete.",
+      "url": "https://maheshba.bitbucket.io/blog/2026/07/22/agentdesign.html",
+      "savedAt": "2026-09-17T17:50:32.075000+00:00",
+      "description": "AI agents can write code but struggle to design complex, evolving systems safely and efficiently. The hardest challenge is managing system changes and evolution without causing failures or chaos. Humans still lead system design because we create and use abstractions that AI cannot yet fully grasp or generate.",
+      "tags": []
+    },
+    {
+      "id": "01m2r7vjbp6ayym59gcwekxpwa",
+      "title": "Your Agent is a Distributed System (and fails like one)",
+      "url": "https://maheshba.bitbucket.io/blog/2026/04/24/agentfailures.html",
+      "savedAt": "2026-09-17T17:50:28.726000+00:00",
+      "description": "An agent is a self-writing program that uses an LLM to decide its next action, not just a tool-calling loop. Making such agents fault-tolerant is hard because they can fail in many ways, especially when managing real-world infrastructure. A new approach called LogAct treats agents like distributed systems, using shared logs to prevent errors and recover from crashes.",
+      "tags": []
+    },
+    {
+      "id": "01m2r7t98n2dd6q8gneshrfnn5",
+      "title": "Stefano Marinelli - The night 142 of my servers went up in the clouds. Physically.",
+      "url": "https://exquisite.tube/w/nQbc54t4G7YGaqiryZ7mg1",
+      "savedAt": "2026-09-17T17:49:46.645000+00:00",
+      "description": "On March 10, 2021, a fire damaged a data center hosting many servers. Stefano Marinelli worked through the night to restore critical services quickly. The event showed him how BSD systems help build simpler, stronger infrastructure.",
+      "tags": []
+    },
+    {
+      "id": "01m2r7t3t8bzxac3e5p9y2pd78",
+      "title": "The Google File System",
+      "url": "https://research.google/pubs/the-google-file-system/",
+      "savedAt": "2026-09-17T17:49:41.064000+00:00",
+      "description": "The Google File System is a large, reliable, and fast storage system made for big data applications. It works well on cheap hardware and is used by many machines and clients at Google. The system was designed differently from older file systems to meet new needs and is widely used for both services and research.",
+      "tags": []
+    },
+    {
+      "id": "01m2r7t2grqqpm1fc17f068kek",
+      "title": "HDFS Architecture",
+      "url": "https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-hdfs/HdfsDesign.html",
+      "savedAt": "2026-09-17T17:49:39.735000+00:00",
+      "description": "Apache Hadoop's HDFS is a distributed file system designed for storing large data sets on inexpensive hardware. It features a master/slave architecture with a NameNode that manages the file system and multiple DataNodes that store the actual data. HDFS is fault-tolerant, supports a write-once-read-many model, and is optimized for batch processing rather than interactive use.",
+      "tags": []
+    },
+    {
+      "id": "01m2r7sz8mb5tzmpdrx37s4k2x",
+      "title": "Subscriptions | Substack",
+      "url": "https://substack.com/inbox",
+      "savedAt": "2026-09-17T17:49:36.404000+00:00",
+      "description": "Substack offers a variety of articles on topics like AI, business, and technology. Writers share insights on current events, innovations, and personal stories. Users can subscribe to get updates and explore diverse content easily.",
+      "tags": []
+    },
+    {
+      "id": "01m2r7sybkt4x56mkae31r6rx8",
+      "title": "What’s Up With Self-Hating White Liberals?",
+      "url": "https://www.cremieux.xyz/p/whats-up-with-self-hating-white-liberals?utm_source=%2Finbox&utm_medium=reader2",
+      "savedAt": "2026-09-17T17:49:35.475000+00:00",
+      "description": "White liberals in the U.S. tend to like other racial groups more than their own, a recent and unique trend not seen in other races or countries. This pattern grew stronger after Obama's re-election and events like George Floyd's death. The effect is linked to political ideology, not party, and does not appear in similar ways outside America.",
+      "tags": []
+    },
+    {
+      "id": "01m2r7sxj2gbc044zctkcebpdv",
+      "title": "Write Things Down",
+      "url": "https://stratechery.com/2026/write-things-down/",
+      "savedAt": "2026-09-17T17:49:34.657000+00:00",
+      "description": "Writing things down helps clear your mind and focus on what matters. It is the key to progress and organizing tasks effectively. While AI can assist, true intelligence needs purpose and moral direction.",
+      "tags": []
+    },
+    {
+      "id": "01m2r7sw6qyp4d1739krrrbtz0",
+      "title": "What blog posts influenced your thinking the most?",
+      "url": "https://lobste.rs/s/lbavmm/what_blog_posts_influenced_your_thinking",
+      "savedAt": "2026-09-17T17:49:33.271000+00:00",
+      "description": "The author shares favorite blog posts and ideas that shaped their thinking, including programming techniques like defunctionalisation and security concepts like LANGSEC. They highlight the importance of clear specifications and understanding milestones in development. The examples also show how small changes can unexpectedly grow into complex projects.",
+      "tags": []
+    },
+    {
+      "id": "01m2r7sv983dtb1p5p80deq1zn",
+      "title": "Don't Get Distracted",
+      "url": "https://calebhearth.com/dont-get-distracted",
+      "savedAt": "2026-09-17T17:49:32.328000+00:00",
+      "description": "The author built software that tracked WiFi signals but was actually used to locate and kill people. Developers must think about the ethical impact of their work, not just the technology itself. We have a responsibility to prevent our code from being used for harm.",
+      "tags": []
+    },
+    {
+      "id": "01m2r7sq9j3mqyba2tbbmya992",
+      "title": "Formal Methods Only Solve Half My Problems",
+      "url": "https://brooker.co.za/blog/2022/06/02/formal.html",
+      "savedAt": "2026-09-17T17:49:28.242000+00:00",
+      "description": "Formal methods help find bugs and check safety in distributed systems but don’t answer many design questions like cost or latency. Engineers use prototypes, models, and simulations to explore these bigger questions, but these are often slow or complex. Marc Brooker wants tools that combine formal methods with performance analysis to better guide system design and predict behavior.",
+      "tags": []
+    },
+    {
+      "id": "01m2r7spa95zt657hp5ac1khk6",
+      "title": "The Best Refactoring You've Never Heard Of",
+      "url": "https://www.pathsensitive.com/2019/07/the-best-refactoring-youve-never-heard.html",
+      "savedAt": "2026-09-17T17:49:27.241000+00:00",
+      "description": "Defunctionalization means turning functions into data structures. This technique helps simplify complex programs by making continuations explicit and easier to manage. It is useful in many areas like compilers, operating systems, and web programming.",
+      "tags": []
+    },
+    {
+      "id": "01m2r7sn7jh66560dbpe408bkg",
+      "title": "The Wrong Abstraction",
+      "url": "https://sandimetz.com/blog/2016/1/20/the-wrong-abstraction",
+      "savedAt": "2026-09-17T17:49:26.130000+00:00",
+      "description": "The article discusses the consequences of choosing the \"wrong abstraction\" over duplication in code. It explains how sticking with a flawed abstraction can lead to complex, hard-to-maintain code. The author advises reverting to duplication and rethinking abstractions to improve code quality and make future development easier.",
+      "tags": []
+    },
+    {
+      "id": "01m2r7sk8gmfvs48wjhcsszqdq",
+      "title": "https://lobste.rs/s/svhzj9/divorce_from_llvm#c_e5i0gw",
+      "url": "https://matklad.github.io/links.html",
+      "savedAt": "2026-09-17T17:49:24.112000+00:00",
+      "description": "matklad's Arts&Crafts",
+      "tags": []
+    },
+    {
+      "id": "01m2r7sjbhex0vn83jhxz12cxv",
+      "title": "Interesting articles",
+      "url": "https://alex.corcoles.net/notes/interesting-articles",
+      "savedAt": "2026-09-17T17:49:23.185000+00:00",
+      "description": "This text is a summary of many articles about programming, design, and software engineering. It talks about ideas like simplicity, coding practices, and common mistakes. It also covers topics like project management, cognitive biases, and how people work in teams.",
+      "tags": []
+    },
+    {
+      "id": "01m2r7sgb87mkrdw1zg3nnkezg",
+      "title": "How I ship projects at big tech companies",
+      "url": "https://www.seangoedecke.com/how-to-ship/",
+      "savedAt": "2026-09-17T17:49:21.128000+00:00",
+      "description": "Shipping a project is hard and means making company leaders happy, not just writing code. One person must take full responsibility and communicate clearly to earn trust and lead the team. Deploy early, expect problems, and focus on shipping above all else.",
+      "tags": []
+    },
+    {
+      "id": "01m2r7s8xjtbg1rr5hfqyaxemq",
+      "title": "AgentCgroup: Understanding and Controlling OS Resources of AI Agents",
+      "url": "https://arxiv.org/pdf/2602.09345",
+      "savedAt": "2026-09-17T17:49:13.520000+00:00",
+      "description": null,
+      "tags": []
+    },
+    {
+      "id": "01m2r67rbx9q707206715n63eg",
+      "title": "Distributed Systems Classics",
+      "url": "https://nvartolomei.com/dist-sys-classics/",
+      "savedAt": "2026-09-17T17:22:10.941000+00:00",
+      "description": "This list shows key papers that shaped distributed systems research. It helps readers understand important problems and solutions in the field. The papers cover topics like consensus, fault tolerance, and data replication.",
+      "tags": [
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "01m2qj98vksynsk5nwkc5mkj8a",
+      "title": "AI Skills with Matt Pocock",
+      "url": "https://newsletter.pragmaticengineer.com/p/ai-skills-with-matt-pocock",
+      "savedAt": "2026-09-17T11:33:26.076000+00:00",
+      "description": "Matt Pocock shares how AI coding skills and agents help him plan and build software effectively. He emphasizes that strong engineering fundamentals remain crucial despite AI advances. Matt also highlights strategic programming, where engineers guide AI agents to focus on high-level decisions.",
+      "tags": []
+    },
+    {
+      "id": "01m2q8gfnhv3a5zcsaysk7e3fq",
+      "title": "Essentials: How to Assess & Improve All Aspects of Your Fitness | Dr. Andy Galpin",
+      "url": "https://www.hubermanlab.com/episode/essentials-how-to-assess-and-improve-all-aspects-of-your-fitness-andy-galpin",
+      "savedAt": "2026-09-17T08:42:36.666000+00:00",
+      "description": "In this Huberman Lab Essentials episode, my guest is Dr. Andy Galpin, PhD, an exercise physiologist. We revisit the first episode of his Huberman Lab Guest Series to discuss the nine major components of physical fitness and how to assess your abilities. We explain practical tests for movement quality, power, strength, muscle mass and endurance, including grip strength, push-ups and VO2 max. We also discuss how to organize fitness testing, track progress and identify which areas to prioritize in your training to support long-term health and performance.\n\nRead the episode show notes at hubermanlab.com.\n\nThank you to our sponsors\n\nAG1: https://drinkag1.com/huberman\n\nEight Sleep: https://eightsleep.com/huberman\n\nDavid: https://davidprotein.com/huberman\n\nTimestamps\n\n(00:00:00) Andy Galpin\n\n(00:00:44) Fitness Goals, Appearance & Performance\n\n(00:02:32) Nine Components of Physical Fitness\n\n(00:05:54) Sponsor: Eight Sleep\n\n(00:07:21) Movement Skill, Tool: Assessing Movement Quality\n\n(00:11:11) Speed Testing\n\n(00:11:34) Power, Tool: Standing Broad Jump\n\n(00:12:55) Grip Strength, Dynamometers & Dead Hangs\n\n(00:14:51) Sponsor: AG1\n\n(00:16:12) Lower Body Strength, Leg Extensions & Squat Holds\n\n(00:18:47) Safe Testing, Technique & Consistent Warm-Ups\n\n(00:19:45) Muscle Mass, Body Composition & Fat-Free Mass Index\n\n(00:21:51) Muscular Endurance, Planks & Push-Ups\n\n(00:23:21) Anaerobic Capacity, Maximum Effort Tests\n\n(00:24:55) Maximum Heart Rate & Heart Rate Recovery\n\n(00:26:10) VO2 Max, Running & Walking Tests\n\n(00:27:52) Sponsor: David\n\n(00:29:15) Long-Duration Endurance, Steady-State Exercise & Nasal Breathing\n\n(00:30:16) Testing Frequency, Test Order & Training Priorities\n\n(00:34:34) Acknowledgements\n\nDisclaimer & Disclosures\n\n\nLearn more about your ad choices. Visit megaphone.fm/adchoices",
+      "tags": []
+    },
+    {
+      "id": "01m2nrjnrznpvb87c96n0ytn38",
+      "title": "Underwriting Superintelligence: Backing Agents you can Sue — Rune Kvist, AIUC",
+      "url": "https://www.latent.space/p/aiuc",
+      "savedAt": "2026-09-16T18:44:56.808000+00:00",
+      "description": "Rune Kvist talks about a group of experts working on AI safety standards for real-world risks. They want to help companies build secure AI systems and share knowledge quickly. Their goal is for big companies to follow these safety rules widely.",
+      "tags": []
+    },
+    {
+      "id": "01m2ggs58khsnfs20cxx6w15ve",
+      "title": "You Don't Need Matrix Calculus",
+      "url": "https://julesjacobs.com/2024/07/28/you-dont-need-matrix-calculus.html",
+      "savedAt": "2026-09-14T17:52:31.507000+00:00",
+      "description": "Matrix calculus is complicated and often unnecessary for differentiating functions with vectors or matrices. Instead, writing out formulas with indices and using ordinary differentiation is simpler and faster. This method works well and avoids memorizing many complex rules.",
+      "tags": [
+        "math",
+        "cs/machine-learning"
+      ]
+    },
+    {
+      "id": "01m2gar6ewk9rnng7599fmngw2",
+      "title": "Why you should work on AI for AI Research — Richard Socher of Recursive",
+      "url": "https://www.latent.space/p/recursive",
+      "savedAt": "2026-09-14T16:07:05.508000+00:00",
+      "description": "Richard Socher shows that AI can quickly solve complex tasks better than humans by exploring new ideas and rewards. He believes AI research can be much faster and more creative if we let AI develop its own goals and think deeply. To make real progress, people should combine their passions with AI to amplify their impact.",
+      "tags": []
+    },
+    {
+      "id": "01m2g2dy0e40yqt84yje1mh9jc",
+      "title": "How To Articulate Thoughts Like The Top 0.01%",
+      "url": "https://x.com/callumhyman24/status/2098902833525391716/?rw_tt_thread=True",
+      "savedAt": "2026-09-14T13:41:43.566000+00:00",
+      "description": "Clear communication starts by turning complex thoughts into simple ideas that anyone can understand. Using structured frameworks helps organize your message and makes your points stronger and easier to follow. Practicing your delivery and pausing thoughtfully improves how others hear and respect what you say.",
+      "tags": [
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "01m2ff740z9dcdd3d670x2nnt9",
+      "title": "The Art of True Happiness | Dr. Arthur Brooks",
+      "url": "https://www.hubermanlab.com/episode/the-art-of-true-happiness-arthur-brooks",
+      "savedAt": "2026-09-14T08:05:54.407000+00:00",
+      "description": "Dr. Arthur Brooks, PhD, professor at Vanderbilt University and senior fellow at Harvard Business School, is an expert on the science of happiness. He shares the three “macronutrients” of true happiness and tools for you to understand what specifically is in the way of you accessing more happiness and a sense of purpose. Dr. Brooks’ work goes beyond stories and observations by offering potent self-discovery tools for you to identify what truly matters most to you and how to shape your life around those things, and doing so, experience more joy and fulfillment. \n\nShow notes: https://go.hubermanlab.com/298-arthur-brooks\n\nPre-order Andrew's book Protocols: https://protocolsbook.com\n\nThank you to our sponsors\n\nAG1: https://drinkag1.com/huberman\n\nOur Place: https://fromourplace.com/huberman\n\nHelix Sleep: https://helixsleep.com/huberman\n\nDavid: https://davidprotein.com/huberman\n\nLMNT: https://drinklmnt.com/huberman\n\nTimestamps\n\n(00:00:00) Arthur Brooks\n\n(00:02:40) Public Science Education\n\n(00:04:18) Happiness, Unhappiness, Tool: 3 Macronutrients of Happiness\n\n(00:07:44) #1: Enjoyment, Pleasure; Animal Impulses vs Moral Aspirations; Exercise\n\n(00:17:35) Sponsors: OurPlace & Helix Sleep\n\n(00:20:41) Positive Self-Reflection, Public Commitments & Declare Moral Aspiration\n\n(00:26:45) Moral Differences, Politics\n\n(00:34:02) Tool: Proper Leisure & Values; Enrichment\n\n(00:41:47) Deepening Relationships & Shared Suffering\n\n(00:48:50) Sponsor: AG1\n\n(00:50:08) #2: Satisfaction, Struggle & Purpose\n\n(00:56:32) Struggle & Leisure, High Achievers; Happier with Age, Retirement\n\n(01:03:26) #3: Meaning, Regret, Idols\n\n(01:10:10) Sponsor: David\n\n(01:11:20) Regret, Tool: Identifying Your Idol, Four Idols\n\n(01:29:29) Vices & Virtues, Resisting Vices & Pursuing Moral Aspirations\n\n(01:35:50) Admiration & Unique Self-Expression; Heroes\n\n(01:44:43) Teaching & Sharing Knowledge\n\n(01:49:55) Sponsor: LMNT\n\n(01:51:15) Idols & Hedonic Treadmill, Addictive Behaviors & Quantification\n\n(01:58:26) Life...",
+      "tags": []
+    },
+    {
+      "id": "01m255sqrx9a91xg04a20bxrxe",
+      "title": "Essentials: Genes & the Inheritance of Memories Across Generations | Dr. Oded Rechavi",
+      "url": "https://www.hubermanlab.com/episode/essentials-genes-and-the-inheritance-of-memories-across-generations-oded-rechavi",
+      "savedAt": "2026-09-10T08:08:54.374000+00:00",
+      "description": "In this Huberman Lab Essentials episode, my guest is Dr. Oded Rechavi, a professor at Tel Aviv University who studies genetics, epigenetics and the inheritance of acquired traits. We discuss how DNA, RNA and epigenetic mechanisms determine what information can pass between generations, and why acquired traits are generally not thought to be inherited. We also explain research in C. elegans showing how small RNAs can transmit antiviral resistance and influence behavior across generations, what these findings might mean for mammals and humans, and potential future applications for reproductive health and diagnostics.\n\nThank you to our sponsors\n\nAG1: https://drinkag1.com/huberman\n\nEight Sleep: https://eightsleep.com/huberman\n\nLMNT: https://drinklmnt.com/huberman\n\nTimestamps\n\n(00:00:00) Oded Rechavi\n\n(00:00:24) DNA, Genome, RNA & Proteins\n\n(00:03:43) Somatic vs. Germ Cells; Inheritance\n\n(00:06:05) Sponsor: Eight Sleep\n\n(00:07:23) Lamarck vs. Darwin, Inheritance of Acquired Traits\n\n(00:09:45) Weismann Barrier, Epigenetic Reprogramming\n\n(00:13:05) RNA & Transgenerational Inheritance\n\n(00:13:54) Model Organisms, C. elegans\n\n(00:16:59) Inheritance of Acquired Traits in C. elegans\n\n(00:17:14) Sponsor: AG1\n\n(00:18:40) RNA Interference, Small RNAs & Gene Silencing\n\n(00:22:46) Viral Resistance Across Generations\n\n(00:24:53) Small RNAs, Mammals & Inherited Effects\n\n(00:26:00) Brain Activity, Memory & Heritable Information\n\n(00:28:46) Neuronal Small RNAs & Behavior Across Generations\n\n(00:29:59) Germ Cells, Development & Heritable RNA\n\n(00:31:29) Sponsor: LMNT\n\n(00:33:11) Future Applications, Exercise, IVF & RNA Diagnostics\n\n(00:35:16) Acknowledgements\n\nDisclaimer & Disclosures\nLearn more about your ad choices. Visit megaphone.fm/adchoices",
+      "tags": []
+    },
+    {
+      "id": "01m23ebdj5p5zjxbn8dvkpkysk",
+      "title": "Building Codex with Tibo Sottiaux",
+      "url": "https://newsletter.pragmaticengineer.com/p/building-codex-with-tibo-sottiaux",
+      "savedAt": "2026-09-09T15:59:53.485000+00:00",
+      "description": "Tibo Sottiaux, an OpenAI engineer, explains how Codex was built using Rust for speed and why it is open source to encourage trust and community input. Codex helps OpenAI developers with code reviews, maintenance, and system changes, making software development faster and easier. The open design also lets Codex work with many AI models, promoting competition and innovation.",
+      "tags": []
+    },
+    {
+      "id": "01m232dv382r24fmfgt15j49dp",
+      "title": "You're 25-35 years old? You're running out of time!",
+      "url": "https://breatheless.substack.com/p/youre-25-35-years-old-youre-running",
+      "savedAt": "2026-09-09T12:31:32.968000+00:00",
+      "description": "Youth pushes people to act boldly, but greatness comes from true talent, not just age. Many struggle with feeling time slipping away, yet true success shows early and aligns with who you really are. Focus on what you can do now, accept responsibility, and stop clinging to false hopes about controlling your fate.",
+      "tags": [
+        "favorites",
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "01m1ysqjqf9y2d13f0dkvzqpfd",
+      "title": "Shared Memory Consistency From Scratch Part 1: Causality",
+      "url": "https://allthoughts.me/blog/shared-memory-consistency-from-scratch-part1/?__readwiseLocation=",
+      "savedAt": "2026-09-07T20:42:37.167000+00:00",
+      "description": "This article explains how hardware design affects memory access and synchronization. It shows that write atomicity and program order are key to making memory operations consistent and reliable. The author discusses challenges and solutions for ensuring these properties in modern CPUs.",
+      "tags": [
+        "cs",
+        "hardware",
+        "for-later"
+      ]
+    },
+    {
+      "id": "01m1xfz4vgjn4gs1zcx6g25wyq",
+      "title": "How Mitochondria Control Your Metabolism | Dr. Jared Rutter",
+      "url": "https://www.hubermanlab.com/episode/how-mitochondria-control-your-metabolism-jared-rutter",
+      "savedAt": "2026-09-07T08:32:41.913000+00:00",
+      "description": "Dr. Jared Rutter, PhD, Professor of Biochemistry at the University of Utah and Howard Hughes Medical Institute Investigator, is a leading expert on mitochondria and metabolism. He explains how mitochondria produce the energy for your cells to work but also how they regulate cell growth and replication and thereby contribute to health and disease. We also discuss how mitochondria are linked to aging, cancer, and other diseases. Our conversation explores your metabolism as the composite of trillions of individual cells and points to new ways to improve health, avoid, and treat diseases.\n\nShow notes: https://go.hubermanlab.com/297-jared-rutter\n\nPre-order Protocols: https://protocolsbook.com\n\nThank you to our sponsors\n\nAG1: https://drinkag1.com/huberman\n\nJoovv: https://joovv.com/huberman\n\nBetterHelp: https://betterhelp.com/huberman\n\nEight Sleep: https://eightsleep.com/huberman\n\nFunction: https://functionhealth.com/huberman\n\nTimestamps\n\n(00:00:00) Jared Rutter\n\n(00:02:29) Metabolism, Cells; Aging\n\n(00:08:36) Mitochondria, Origin & Cell Complexity\n\n(00:13:07) Sponsors: Joovv & BetterHelp\n\n(00:15:16) Mitochondria Genome, Inheritance\n\n(00:18:18) Mitochondria & Spatial Distribution; Cell-Specific Metabolism\n\n(00:25:59) Nutrient Energy, Hormones, Fat Cells\n\n(00:31:13) Glucose, ATP Conversion, Pyruvate\n\n(00:36:41) Cell Choice: Energy or Growth, Cancer; Virus\n\n(00:46:02) Sponsors: AG1 & Eight Sleep\n\n(00:48:36) Microbiome, Role of Humans\n\n(00:51:44) Molecule Discovery Process, MPC1, MPC2\n\n(00:59:42) Cell Resource Sensing, Fasting, Glucagon, Fat Cells; Neurons, Heart\n\n(01:07:03) Cell Resource Allocation, MPC, Heart Failure; Disease\n\n(01:11:46) Sponsor: Function\n\n(01:13:24) Cell Size vs Fuel Balance, Cell Identity & Disease\n\n(01:20:43) MPC Discovery, Genetics, Model Systems\n\n(01:24:29) Lactate, Oxygen, Exercise; Energy Prioritization Hierarchy\n\n(01:31:32) Cancer, Mutations, Metabolism Changes & Warburg Effect\n\n(01:36:18) Cancer Challenges & Therapies\n\n(01:43:00) Therapy Combina...",
+      "tags": []
+    },
+    {
+      "id": "01m1ktvhpez2septqj0k5pgtgb",
+      "title": "Vibecession: Much More Than You Wanted To Know",
+      "url": "https://www.astralcodexten.com/p/vibecession-much-more-than-you-wanted",
+      "savedAt": "2026-09-03T14:30:37.006000+00:00",
+      "description": "...",
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "id": "01m1kp886qare9kaajep0mb1v7",
+      "title": "Finding bugs in Raft implementations",
+      "url": "https://antithesis.com/blog/2026/finding-bugs-in-raft-implementations/#specifications-are-not-code",
+      "savedAt": "2026-09-03T13:10:10.390000+00:00",
+      "description": "Raft is a key consensus protocol, but every implementation tested has bugs that break its main safety rules. These bugs happen despite formal proofs and careful development because distributed systems are very hard to get right. Thorough testing under faults is essential to find these issues and improve reliability.",
+      "tags": [
+        "cs/distsys"
+      ]
+    },
+    {
+      "id": "01m1k57hhm5fr8kbbbjm2c12y0",
+      "title": "Essentials: Use Sleep to Enhance Learning, Memory & Emotional State | Dr. Gina Poe",
+      "url": "https://www.hubermanlab.com/episode/essentials-use-sleep-to-enhance-learning-memory-and-emotional-state-gina-poe",
+      "savedAt": "2026-09-03T08:12:38.396000+00:00",
+      "description": "In this Huberman Lab Essentials episode, my guest is Dr. Gina Poe, PhD, a Professor of Integrative Biology and Physiology at the University of California, Los Angeles (UCLA). We discuss the architecture of sleep and how each stage supports distinct functions, including memory consolidation, creativity, brain restoration, and emotional processing. We also explain science-supported tools to improve sleep quality, support cognitive performance, and hormone balance.\n\nShow notes: https://go.hubermanlab.com/Y6JKgFE\n\nThank you to our sponsors\n\nAG1: https://drinkag1.com/huberman\n\nLMNT: https://drinklmnt.com/huberman\n\nEight Sleep: https://eightsleep.com/huberman\n\nTimestamps\n\n(00:00:00) Gina Poe\n\n(00:00:19) Sleep States, Perfect Night's Sleep\n\n(00:02:23) Early Sleep, Memory Processing, Dreams\n\n(00:04:34) Growth Hormone & Early Sleep, Tool: Consistent Bedtime\n\n(00:06:47) Sponsor: LMNT\n\n(00:08:20) Alcohol & Negative Sleep Effects\n\n(00:09:18) Middle Sleep States, Creativity\n\n(00:10:32) Waking During Night, Nighttime Urination\n\n(00:11:39) Later Sleep, REM, Deep Sleep; Sleepwalking\n\n(00:14:01) Morning Grogginess; Sleep Trackers\n\n(00:15:53) Early Sleep \"Washout\", Brain Waste Clearance\n\n(00:19:56) Sponsor: Eight Sleep\n\n(00:21:14) Locus Coeruleus, Learning & REM Sleep, Tool: Calm Bedtime Routine\n\n(00:25:16) Sleep Spindles, P Waves, Learning & Creativity\n\n(00:28:38) Sponsor: AG1\n\n(00:29:56) Trauma Recovery, REM Sleep, Locus Coeruleus\n\n(00:33:29) Acknowledgements\n\nDisclaimer & Disclosures\nLearn more about your ad choices. Visit megaphone.fm/adchoices",
+      "tags": []
+    },
+    {
+      "id": "01m1hsamfawz969fr4rx1ed4cj",
+      "title": "Interview: Doug McIlroy ~ tmp.0ut Staff",
+      "url": "https://tmpout.sh/5/2.html",
+      "savedAt": "2026-09-02T19:25:25.354000+00:00",
+      "description": "Doug McIlroy was a key figure in early computing and helped create Unix and its tools, like pipes. He worked at Bell Labs with other smart people and wrote important programs and compilers. His innovations made programming easier and influenced how computers are used today.",
+      "tags": [
+        "computer-history"
+      ]
+    },
+    {
+      "id": "01m1ejffz9myxheefb4za46ny5",
+      "title": "Bug blindness",
+      "url": "https://danluu.com/bug-blind/",
+      "savedAt": "2026-09-01T13:28:01.257000+00:00",
+      "description": "Many people, including programmers, often do not notice common software bugs because they develop habits to work around them. The author believes that recognizing these bugs is important for improving software quality. By pointing out bugs, some people can learn to see and address issues they previously missed.",
+      "tags": [
+        "software-engineering"
+      ]
+    },
+    {
+      "id": "01m1berp7rcx0p4aezbnshb9vj",
+      "title": "How to Accelerate Learning & Improve Education | Joe Liemandt",
+      "url": "https://www.hubermanlab.com/episode/how-to-accelerate-learning-and-improve-education-joe-liemandt",
+      "savedAt": "2026-08-31T08:25:21.984000+00:00",
+      "description": "My guest is Joe Liemandt, technology entrepreneur and principal of Alpha School, a K-12 model that uses AI and individualized learning to help students master academics in just two hours a day, freeing the rest of their time to build businesses, conduct experiments, engage with their communities, and develop practical life skills. We discuss Alpha’s promising results, tools parents and educators can use today, and Joe’s vision for how AI could transform education and human potential.\n\nShow notes: https://go.hubermanlab.com/296-joe-liemandt\n\nPre-order Protocols: https://protocolsbook.com\n\nHuberman Lab live events: https://www.hubermanlab.com/events\n\nThank you to our sponsors\n\nAG1: https://drinkag1.com/huberman\n\nDavid: https://davidprotein.com/huberman\n\nLingo: https://hellolingo.com/huberman\n\nHelix Sleep: https://helixsleep.com/huberman\n\nLMNT: https://drinklmnt.com/huberman\n\nTimestamps\n\n(00:00:00) Joe Liemandt\n\n(00:03:16) History of Traditional Classroom Model; Education Milestones\n\n(00:08:08) Sponsors: David & Lingo\n\n(00:10:25) Alpha School, High Standards & Support\n\n(00:22:33) Effective Support, Academics vs Athletics; Homeschooling\n\n(00:30:03) AI, Individualized Learning & Mastery\n\n(00:34:31) Teacher Education, Standardized Tests, Role of School\n\n(00:40:52) Sponsors: AG1 & Helix Sleep\n\n(00:43:42) AI, Scaffolding Learning, Mastery; Working Memory & Fluency\n\n(00:52:41) Working Memory, Focus; Gifted Kids\n\n(01:00:30) Basics Mastery, Grade Level Catch-Up, Individualized AI Lessons & Pace\n\n(01:06:57) Sponsor: LMNT\n\n(01:08:17) Shame, Motivation, Growth Rate; Overcoming Mental Blocks & Paying Kids\n\n(01:20:55) Suffering & Motivation, Kids Goals, Sports; Doing Hard Things\n\n(01:31:21) Founders High School, Life Skills; Kids' Goals\n\n(01:42:44) Reimagining Classroom Education\n\n(01:47:21) Importance of Building & Creating, AI & Humanity\n\n(01:58:04) Science & Redesigning Experiments, Kids' Interest-Led Projects\n\n(02:05:26) Huberman Lab Live Events\n\n(02:06:14) Learning Predicto...",
+      "tags": []
+    },
+    {
+      "id": "01m1at7xqrjsr237q2kkp6gmxk",
+      "title": "Systems and Delays",
+      "url": "https://martin.janiczek.cz/2026/07/24/systems-and-delays.html",
+      "savedAt": "2026-08-31T02:26:44.088000+00:00",
+      "description": "Delays in systems can cause unexpected oscillations and instability, even when trying to respond quickly. Slowing down responses sometimes makes the system more stable and efficient. It's important to model and test your system rather than relying on intuition alone.",
+      "tags": [
+        "systems-theory"
+      ]
+    },
+    {
+      "id": "01m19zz542njkzshd2m0wjsgds",
+      "title": "The Physics of Memory",
+      "url": "https://www.dmurph.com/posts/2026/06/ecs_vs_oop_benchmark/ecs_vs_oop_benchmark.html",
+      "savedAt": "2026-08-30T18:47:33.762000+00:00",
+      "description": "Using flat arrays with data-oriented design greatly improves memory access speed and CPU cache use compared to traditional object-oriented approaches. WebAssembly adds extra speed by allowing unchecked memory access, but switching to a flat Structure of Arrays in JavaScript alone gives huge performance gains. Eliminating indirection and leveraging sequential memory operations further boosts speed and frame-rate stability in large-scale physics simulations.",
+      "tags": [
+        "hardware",
+        "cs/algorithms"
+      ]
+    },
+    {
+      "id": "01m115n4bdv9p9d1w8316x6x68",
+      "title": "Essentials: Diet & Nutrition for Mental Health | Dr. Chris Palmer",
+      "url": "https://traffic.megaphone.fm/SCIM2465421786.mp3",
+      "savedAt": "2026-08-27T08:33:43.862000+00:00",
+      "description": "In this Huberman Lab Essentials episode, my guest is Dr. Chris Palmer, MD, a board-certified psychiatrist and Assistant Professor of Psychiatry at Harvard Medical School. We explain how nutrition and metabolism directly affect mental health, including the biological mechanisms underlying these effects. We also discuss how carbohydrate restriction, ketogenic diets and fasting can improve mood, energy, and, in some cases, treatment-resistant psychiatric conditions.\n\nThank you to our sponsors\n\nAG1: https://drinkag1.com/huberman\n\nEight Sleep: https://eightsleep.com/huberman\n\nBetterHelp: https://betterhelp.com/huberman\n\nTimestamps\n\n(00:00:00) Chris Palmer\n\n(00:00:20) Personal Story, Nutrition & Mental Health\n\n(00:05:28) Treatment-Resistant Mental Disorders & Low-Carbohydrate Diet\n\n(00:07:32) Sponsor: Eight Sleep\n\n(00:08:51) Ketogenic Diet & Schizophrenia Success Story\n\n(00:12:20) Nutrition for Mental Disorders, Ketosis, Highly Processed Foods\n\n(00:15:13) Epilepsy & Ketogenic Diet, Fasting; Mitochondrial Benefits\n\n(00:21:14) Sponsor: BetterHelp\n\n(00:22:15) Mitochondria Functions, Mental Disorders\n\n(00:28:05) Mitophagy, Autophagy, Longevity & Calorie Restriction\n\n(00:33:12) Sponsor: AG1\n\n(00:34:25) Carbohydrate Restriction, Depression Treatment\n\n(00:37:23) Acknowledgements\n\nDisclaimer & Disclosures\nLearn more about your ad choices. Visit megaphone.fm/adchoices",
+      "tags": []
+    },
+    {
+      "id": "01m0zd6ehq4yafrfaywjjvjbt7",
+      "title": "Why performant code matters (but gets widely ignored), with Casey Muratori",
+      "url": "https://newsletter.pragmaticengineer.com/p/why-performant-code-matters-but-gets",
+      "savedAt": "2026-08-26T16:07:02.527000+00:00",
+      "description": "Casey Muratori explains why software performance matters, how developers can write faster code, and why he challenges conventional engineering practices.",
+      "tags": []
+    },
+    {
+      "id": "01m0zamxjbh6xyg9p8wqjrq64k",
+      "title": "🔬“We have foundation models for language, not for physics” — Anima Anandkumar, Bren Professor of Computing",
+      "url": "https://www.latent.space/p/anima",
+      "savedAt": "2026-08-26T15:22:30.932000+00:00",
+      "description": "Anima Anandkumar uses AI to model complex physical systems like weather and fusion. She developed FourCastNet, an AI weather model that works well on regular computers. Her work shows that building physics knowledge into AI is key since big data alone is not enough.",
+      "tags": []
+    },
+    {
+      "id": "01m0sdb2rzh9aqg392rp3q1j6a",
+      "title": "How to Improve Motivation & Overcome Procrastination | Dr. Masud Husain",
+      "url": "https://www.hubermanlab.com/episode/how-to-improve-motivation-and-overcome-procrastination-masud-husain",
+      "savedAt": "2026-08-24T08:14:07.719000+00:00",
+      "description": "Dr. Masud Husain is a Professor of Neurology & Cognitive Neuroscience at the University of Oxford and a leading expert on the science of motivation, apathy, and neurological diseases. We discuss how dopamine and specific brain circuits shape motivation, including how the brain weighs the trade-off between effort vs reward when deciding what goals to pursue. Dr. Husain also explains practical tools to increase motivation, reduce distractions, and make it easier to start and maintain goal pursuit. We also discuss dementia, Parkinson’s and Alzheimer’s disease, including new insights into cognitive resilience and factors that help protect against age-related cognitive decline.\n\nShow notes: https://go.hubermanlab.com/masud-husain-295\n\nThank you to our sponsors\n\nAG1: https://drinkag1.com/huberman\n\nDavid: https://davidprotein.com/huberman\n\nBetterHelp: https://betterhelp.com/huberman\n\nEight Sleep: https://eightsleep.com/huberman\n\nFunction: https://functionhealth.com/huberman\n\nTimestamps\n\n(00:00:00) Masud Husain\n\n(00:02:24) Apathy, Motivation\n\n(00:08:07) Rewards, Apathy & Motivation; Dopamine\n\n(00:13:20) Sponsors: David & BetterHelp\n\n(00:15:44) Types of Apathy; Goal Prioritization: Effort vs Rewards\n\n(00:23:26) Motivation, Apathy, Tool: Activation Energy & Overthinking\n\n(00:29:24) Tools to Increase Motivation: Incentives, Subdivide Tasks, Planning\n\n(00:35:13) Subjective Effort, Mental Framing; Learning & Motivation\n\n(00:42:24) Sponsors: AG1 & Eight Sleep\n\n(00:44:54) Perseverance, Failure; Finding Your Passion, Depression vs Apathy\n\n(00:50:58) Self-Concept, Ambition; Life Satisfaction\n\n(00:58:25) Psychedelics, Anhedonia & Changing Self\n\n(01:03:09) Personal & Social Identity, Tools: Curiosity, Purpose & Dementia Risk\n\n(01:11:58) Addiction, Dopamine; Social Media & Dopamine \"Hits\"?\n\n(01:18:36) Sponsor: Function\n\n(01:20:13) Dopamine, Parkinson's Disease; Other Roles of Dopamine\n\n(01:26:59) Life Purpose, Culture; Reflection, Weighing Decisions\n\n(01:34:21) Internal & External A...",
+      "tags": []
+    },
+    {
+      "id": "01m0kc5pmmpcsaesdgcgv45b3g",
+      "title": "Simulation: the new Scaling Law — Joon Sung Park, Simile AI",
+      "url": "https://www.latent.space/p/simile",
+      "savedAt": "2026-08-21T23:58:16.284000+00:00",
+      "description": "Simile’s CEO about his journey from the viral Generative Agents to creating 8 Billion Digital Twins of every living human... and why it’s gone from fun exploration to very serious business.",
+      "tags": []
+    },
     {
       "id": "01m0f422qewx5phfvamb4v987c",
       "title": "Essentials: How to Access Your Creativity | Rick Rubin",
@@ -412,7 +1107,10 @@
       "url": "https://essays.highagency.com/p/normal-is-forgotten-only-weird-survives?r=17qf9c&utm_medium=ios&triedRedirect=true",
       "savedAt": "2026-07-06T03:30:16.110000+00:00",
       "description": "What is normal changes over time and is often strange to others. Being true to your unique self creates memorable stories that people remember. Embracing your weirdness helps you live a meaningful and authentic life.",
-      "tags": []
+      "tags": [
+        "favorites",
+        "self-improvement"
+      ]
     },
     {
       "id": "01kwtqajyeqhm77fyshnmrrcwj",
@@ -420,7 +1118,9 @@
       "url": "https://olliebray.substack.com/p/meditate-downhill?r=17qf9c&utm_medium=ios&triedRedirect=true",
       "savedAt": "2026-07-06T03:25:07.335000+00:00",
       "description": "Meditation feels easier when you trust your mind to move naturally toward calm and insight, like going downhill instead of pushing uphill. The mind wants to find joy, clarity, and love, so practice is about finding that smooth path. When you do this, meditation becomes lighter and more free, not a hard struggle.",
-      "tags": []
+      "tags": [
+        "self-improvement"
+      ]
     },
     {
       "id": "01kwgxw5zrg3c41ks76zdf776g",
@@ -501,7 +1201,10 @@
       "url": "https://queue.acm.org/detail.cfm?ref=rss&id=3807966&__readwiseLocation=",
       "savedAt": "2026-06-26T02:37:37.699000+00:00",
       "description": "AI is speeding up code creation but may increase hidden problems like cognitive and intent debt in software teams. Cognitive debt means losing shared understanding of the system, while intent debt is about unclear goals and reasons behind the code. To keep software healthy, teams must manage code quality, shared understanding, and clear goals together, especially with AI helping development.",
-      "tags": []
+      "tags": [
+        "cs/ai",
+        "software-engineering"
+      ]
     },
     {
       "id": "01kvyy4exb861dz8qga107jprb",
@@ -7303,10 +8006,10 @@
     },
     {
       "id": "01k90114t3wtpqdts3zpxgv5mk",
-      "title": "HuggingFaceTB",
+      "title": "The Smol Training Playbook: The Secrets to Building World-Class LLMs",
       "url": "https://huggingface.co/spaces/HuggingFaceTB/smol-training-playbook#introduction",
       "savedAt": "2025-11-01T15:36:59.458000+00:00",
-      "description": "Discover amazing ML apps made by the community",
+      "description": "Building top-quality large language models is hard and full of hidden challenges like bugs and training issues. The SmolLM series focuses on creating smaller, efficient, and powerful models that work well on devices like phones while handling multiple languages and long contexts. The team experiments with new architectures and attention methods to improve performance and manage memory and compute limits.",
       "tags": [
         "cs/ai",
         "for-later"
@@ -10920,7 +11623,7 @@
       "title": "LLM Embeddings Explained: A Visual and Intuitive Guide",
       "url": "https://huggingface.co/spaces/hesamation/primer-llm-embedding",
       "savedAt": "2025-07-30T19:00:09.184000+00:00",
-      "description": "This app explains how language models transform text into meaningful representations through embeddings. It provides a visual guide to help you understand traditional and modern language model tech...",
+      "description": "Embeddings turn words into numbers that help language models understand text. They have evolved from simple counting methods to complex techniques used in modern AI. Good embeddings capture word meanings and improve how models communicate with humans.",
       "tags": [
         "for-later"
       ]
