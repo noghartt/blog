@@ -1,6 +1,241 @@
 {
-  "lastUpdate": "2026-10-04T03:28:13.559Z",
+  "lastUpdate": "2026-10-31T03:17:31.969Z",
   "data": [
+    {
+      "id": "01m66e4jdty296rj3j1qbxbrqt",
+      "title": "Agents Are Cheap. Agency Is Everything.",
+      "url": "https://www.joanwestenberg.com/p/agents-are-cheap-agency-is-everything",
+      "savedAt": "2026-10-30T12:56:42.682000+00:00",
+      "description": "AI can do more tasks than ever, but it cannot decide what matters to you. To get good results, set clear goals, choose what to focus on, and judge and own the outcome. The people who know what they want will make the most of AI.",
+      "tags": [
+        "career",
+        "self-improvement"
+      ]
+    },
+    {
+      "id": "01m63yg9j5vqpjqv7epk74xsyt",
+      "title": "Software engineering at Google & CS education with Titus Winters",
+      "url": "https://newsletter.pragmaticengineer.com/p/software-engineering-at-google-and",
+      "savedAt": "2026-10-29T13:44:57.741000+00:00",
+      "description": "Titus Winters shares lessons from Google’s large-scale software projects, including why testing and code reviews help engineers change code safely. He says AI can boost productivity, but it may also increase outages and change how students learn computer science. To stand out, he advises new engineers to pursue projects they care about and learn deeply.",
+      "tags": []
+    },
+    {
+      "id": "01m63bf882jh0hw0r1pm7bdwd1",
+      "title": "Essentials: How Smells Influence Our Hormones, Health & Behavior | Dr. Noam Sobel",
+      "url": "https://www.hubermanlab.com/episode/essentials-how-smells-influence-our-hormones-health-and-behavior-noam-sobel",
+      "savedAt": "2026-10-29T08:12:20.682000+00:00",
+      "description": "In this Huberman Lab Essentials episode, my guest is Dr. Noam Sobel, PhD, a Professor of Neurobiology at the Weizmann Institute of Science and an expert on the human sense of smell. We discuss how the brain processes odors and how smell shapes our lives more than we realize, influencing everything from who we become friends with to how we experience emotions, hormones and aggression. Dr. Sobel also shares his lab’s groundbreaking work on digitizing smell and future technologies that could enable noninvasive disease detection through body odors.   \n\nRead the full episode show notes at hubermanlab.com.\n\nThank you to our sponsors\n\nAG1: https://drinkag1.com/huberman\n\nEight Sleep: https://eightsleep.com/huberman\n\nLMNT: https://drinklmnt.com/huberman\n\nTimestamps\n\n(00:00:00) Noam Sobel\n\n(00:00:20) Biology of Smell (Olfaction)\n\n(00:04:32) Human Smell, Social Interaction, Handshaking\n\n(00:08:31) Sponsor: LMNT\n\n(00:10:03) Friendship, Body Odor\n\n(00:14:04) Human Chemosignals, Smell of Fear & Contagion\n\n(00:15:48) Aggression, Chemosignals, Men vs Women, Babies\n\n(00:20:38) Sponsor: AG1\n\n(00:21:51) Tears, “Chemical Blanket”, Testosterone\n\n(00:25:37) Digitizing Smells\n\n(00:28:25) Sponsor: Eight Sleep\n\n(00:29:48) Creating Digital Odors; Future Medical Diagnostics\n\n(00:33:43) Acknowledgments\n\nDisclaimer & Disclosures\nLearn more about your ad choices. Visit megaphone.fm/adchoices",
+      "tags": []
+    },
+    {
+      "id": "01m5zb6003g4rqpe2z3mrgv7p9",
+      "title": "How Anthropic ships the #1 LLM in the World safely: Separating the Brain from the Hands",
+      "url": "https://latent.space/p/how_anthropic_ships_the_1_llm_in_the_world_safely_separating_the_brain_from_the_hands/",
+      "savedAt": "2026-10-27T18:50:19.595000+00:00",
+      "description": "Anthropic explains how it builds and launches Claude models and APIs. It separates the model’s “brain” from the tools an agent uses. The goal is to make AI agents safer and more reliable.",
+      "tags": []
+    },
+    {
+      "id": "01m5wpnp621kazwz9bkdn4t0kg",
+      "title": "Supabase’s Plan for a Billion AI-Built Apps",
+      "url": "https://latent.space/p/supabase_s_plan_for_a_billion_ai-built_apps/",
+      "savedAt": "2026-10-26T18:13:24.874000+00:00",
+      "description": "AI agents are creating more software—and that changes what a backend needs to do. Supabase co-founders Paul Copplestone and Ant Wilson join swyx to discuss running long-lived workloads alongside the database, making schemas easier for agents to underst...",
+      "tags": []
+    },
+    {
+      "id": "01m5vkwqt3qcztfmvckgx4v09m",
+      "title": "Unlocking Persistent Motivation & Extreme Resilience | Ross Edgley",
+      "url": "https://www.hubermanlab.com/episode/unlocking-persistent-motivation-and-extreme-resilience-ross-edgley",
+      "savedAt": "2026-10-26T08:05:35.755000+00:00",
+      "description": "Ross Edgley is a British ultra-endurance athlete and author known for completing extraordinary athletic feats by tapping into diverse sources of motivation and resilience. We discuss the psychological and biological forces that allow people to persevere through extreme challenges. Then we cover how to dynamically update your sense of purpose, emotions, philosophy, and personal narratives to expand your ability to overcome adversity of all kinds. We also discuss the brain circuits and science of fatigue and stress adaptation. Ultimately, a new framework emerges that you can use to access persistent motivation.\n\nRead the show notes at hubermanlab.com.\n\nThank you to our sponsors\n\nAG1: https://drinkag1.com/huberman\n\nDavid: https://davidprotein.com/huberman\n\nLingo: https://hellolingo.com/huberman\n\nLMNT: https://drinklmnt.com/huberman\n\nEight Sleep: https://eightsleep.com/huberman\n\nTimestamps\n\n(00:00:00) Ross Edgley\n\n(00:03:19) Childhood, Motivation Sources; Competition, Pain & Purpose\n\n(00:11:51) Anterior Midcingulate Cortex, Wheel of Motivation & Tenacity\n\n(00:16:05) Honoring Your Commitment, Ultra-Endurance Swimming, Self-Respect\n\n(00:17:46) Sponsors: David & Lingo\n\n(00:20:02) Fear of Shame, Iceland; Team Events, Injuries & Sea Swims\n\n(00:25:50) Spiritual Experiences, Loch Ness, Iceland, Mythology & Motivation\n\n(00:31:37) Dorsolateral Prefrontal Cortex, Persistence & Winning, Strategy\n\n(00:36:27) Energy Management; Leadership & Team\n\n(00:40:56) Addiction, Evaluating Challenges & Purpose, Support & Yukon\n\n(00:47:23) Fear & Animals, Great White Sharks, Bears\n\n(00:53:09) Sponsor: AG1\n\n(00:54:22) Proving Others Wrong, Anger, Great Britain Swim\n\n(00:57:55) Anger at Self; Doing It For the Sake of Others, Son, Father\n\n(01:08:58) Next Endeavor, Money, Helping Others\n\n(01:15:29) Dark vs Light Energy, Self-Discipline; Yaminawa Tribe\n\n(01:22:51) Sponsor: LMNT\n\n(01:24:11) Challenge Stakes, Ultra-Endurance Swims; Negative Thoughts\n\n(01:33:29) Tongue; Iceland Swim, Berserker, Thir...",
+      "tags": []
+    },
+    {
+      "id": "01m5jbjtmjstx1g96mjtnxtwt0",
+      "title": "Why AI Compute Comes in Rectangles — Erik Bernhardsson, Modal CEO",
+      "url": "https://www.latent.space/p/modal-d",
+      "savedAt": "2026-10-22T17:47:12.474000+00:00",
+      "description": "Modal combines computing capacity from many customers and scales it up or down as needed, rather than selling fixed GPU bundles. It is expanding from serverless functions into sandboxes and other tools that help build AI applications. Its goal is to provide flexible building blocks for new kinds of software.",
+      "tags": []
+    },
+    {
+      "id": "01m5hyzg4vmwrtzwz13cwm9jx2",
+      "title": "The Recommendation Engine for Commodity Traders — Anekha Sokhal, Moshi",
+      "url": "https://www.latent.space/p/the-recommendation-engine-for-commodity",
+      "savedAt": "2026-10-22T14:06:56.228000+00:00",
+      "description": "How Moshi turns market data into actionable insights, and why AI tools have to fit the trader’s workflow.",
+      "tags": []
+    },
+    {
+      "id": "01m5hb5hvwm5p6sc6y0d25nxbg",
+      "title": "Essentials: Developing a Rational Approach to Supplementation for Health & Performance",
+      "url": "https://www.hubermanlab.com/episode/essentials-developing-a-rational-approach-to-supplementation-for-health-and-performance",
+      "savedAt": "2026-10-22T08:20:43.076000+00:00",
+      "description": "In this Huberman Lab Essentials episode, I explain how to develop a rational supplementation protocol tailored to your specific needs, nutrition and budget. I discuss foundational supplements and single-ingredient supplements for sleep, hormone support and cognitive enhancement and focus, including how to test individual ingredients, choose appropriate dosages and cycle certain compounds. I also explain why behavioral tools and nutrition remain the foundation for mental health, physical health and performance.\n\nRead the episode show notes at hubermanlab.com.\n\nThank you to our sponsors\n\nAG1: https://drinkag1.com/huberman\n\nEight Sleep: https://eightsleep.com/huberman\n\nMateina: https://drinkmateina.com/huberman\n\nTimestamps\n\n(00:00:00) Supplementation\n\n(00:00:12) Behavior, Nutrition, Supplements & Prescription Drugs\n\n(00:03:16) Supplementation Context & Individual Needs\n\n(00:04:44) Foundational Supplements; Tool: Vitamin & Mineral Supplements\n\n(00:06:20) Tool: Sleep, Nutrition & Budget Questions; Broad-Spectrum Supplements\n\n(00:08:22) Sponsor: Eight Sleep\n\n(00:09:45) Sleep Supplements; Tool: Caffeine & Food Timing\n\n(00:10:40) Tool: Middle-of-the-Night Waking, Myo-Inositol; Theanine & Vivid Dreams\n\n(00:11:43) Tool: Falling Asleep, Magnesium Threonate & Apigenin\n\n(00:12:58) Tool: Test Single-Ingredient Supplements\n\n(00:15:00) Melatonin\n\n(00:15:48) Hormone Support, Behavior & Nutrition\n\n(00:17:05) Fadogia Agrestis, Dosage & Cycling\n\n(00:19:24) Tongkat Ali & Free Testosterone\n\n(00:20:24) Menstrual Cycle & Supplement Effects\n\n(00:21:28) Sponsor: AG1\n\n(00:22:41) Cognitive Enhancement & Focus; Stimulants, Caffeine & Alpha-Yohimbine\n\n(00:25:08) Neuromodulators, Alpha-GPC & L-Tyrosine\n\n(00:26:51) Stimulants vs. Neuromodulators; Tool: Explore Supplements Separately\n\n(00:29:10) Sponsor: Mateina\n\n(00:30:19) Omega-3 Fatty Acids & EPA\n\n(00:32:14) Protein & Food-Based Supplements\n\n(00:34:44) Recap & Key Takeaways\n\nDisclaimer & Disclosures\nLearn more about your ad choices. Visit meg...",
+      "tags": []
+    },
+    {
+      "id": "01m5fpqvwnvdydq3s1q0373mp3",
+      "title": "The revised rules of engineering management with Will Larson",
+      "url": "https://newsletter.pragmaticengineer.com/p/the-revised-rules-of-engineering",
+      "savedAt": "2026-10-21T17:04:28.638000+00:00",
+      "description": "AI is changing engineering jobs and management expectations. Managers are increasingly expected to stay hands-on and make technical decisions. Will Larson says middle managers may need to retrain and focus on what helps their companies succeed.",
+      "tags": []
+    },
+    {
+      "id": "01m5edjg9cn9gygjq1qsbnf1wk",
+      "title": "AI for the Fortune 2000: How Tenex Builds an AI-Native SDLC — Alex Lieberman & CJ Hess",
+      "url": "https://www.latent.space/p/tenex",
+      "savedAt": "2026-10-21T05:05:01.301000+00:00",
+      "description": "Listen now (44 mins) | Paying for outcomes, building with agents, and the last mile of enterprise AI adoption",
+      "tags": []
+    },
+    {
+      "id": "01m5dd1ys1me9w7n6edr0f90v5",
+      "title": "The Programmable Data Center — Evan Conrad, SF Compute",
+      "url": "https://www.latent.space/p/sfcompute2",
+      "savedAt": "2026-10-20T19:36:44.650000+00:00",
+      "description": "SF Compute matches buyers and sellers of GPU capacity, even when their hardware needs differ. It also operates the infrastructure needed to deliver that compute reliably. Evan Conrad says this can make compute easier to trade as a market.",
+      "tags": []
+    },
+    {
+      "id": "01m5br1fncrx99rwcr1xzwchas",
+      "title": "Design your programming languages right!",
+      "url": "https://blog.veritates.love/design-it-right",
+      "savedAt": "2026-10-20T04:10:17.644000+00:00",
+      "description": "New programming languages should solve common problems early, like supporting indented multiline strings, using relative file paths, and having consistent file extensions. They also need good versioning practices and clear integration with tools to improve developer experience. Some challenges remain, such as balancing code iteration with clean releases and managing complex version migrations.",
+      "tags": [
+        "cs/pl-theory"
+      ]
+    },
+    {
+      "id": "01m5bqrw7zr1k3hmg839xdsrhn",
+      "title": "zombies on the web",
+      "url": "https://consc.net/zombies-on-the-web/",
+      "savedAt": "2026-10-20T04:05:35.614000+00:00",
+      "description": "Zombies come in different forms, but philosophical zombies are the main focus: they act like people yet have no conscious experience. The idea helps philosophers ask why physical processes create consciousness and whether consciousness is separate from the physical world. Related ideas include unconscious “zombie” processes in the brain and machines that function like people without awareness.",
+      "tags": [
+        "philosophy"
+      ]
+    },
+    {
+      "id": "01m59jxdjs8cyfrywb9yat0qww",
+      "title": "What Makes Great Leaders & How to Live an Extraordinary Life | Dr. Jared Diamond",
+      "url": "https://www.hubermanlab.com/episode/what-makes-great-leaders-and-how-to-live-an-extraordinary-life-jared-diamond",
+      "savedAt": "2026-10-19T08:02:09.697000+00:00",
+      "description": "Dr. Jared Diamond, PhD, is a Pulitzer Prize-winning author, physiologist, evolutionary biologist and Professor at UCLA. We discuss the surprising and often chance events that shaped human history and leadership in politics, religion, business and athletics. As one of the most influential public-facing scholars of the last 100 years, Dr. Diamond also shares his advice on how to pursue a career and life that reflects your unique interests and that makes a positive contribution to the world. He also shares the tools he uses to keep his mind and body vigorous.\n\nRead the episode show notes at hubermanlab.com.\n\nThank you to our sponsors\n\nAG1: https://drinkag1.com/huberman\n\nEight Sleep: https://eightsleep.com/huberman\n\nFunction: https://functionhealth.com/huberman\n\nRorra: https://rorra.com/huberman\n\nTimestamps\n\n(00:00:00) Jared Diamond\n\n(00:02:51) Leadership, Prophets; Hitler, WWII\n\n(00:09:17) Hitler, Leadership, Deception\n\n(00:11:45) Unlikely Leader: Harry Truman\n\n(00:13:45) Sponsors: Rorra & Eight Sleep\n\n(00:16:28) Leaders, Introspection, Charisma; Individuals, History Patterns\n\n(00:22:35) Leaders & Addressing Mistakes, Forgiveness\n\n(00:25:36) Religious Leaders, Jesus & Leadership, Organizers\n\n(00:30:42) Leader Partnerships, Science, Religion\n\n(00:35:18) Jim Jones, Effective Cult Leaders; Followers\n\n(00:39:53) Sponsor: AG1\n\n(00:41:06) Leaders & Clinging to Power\n\n(00:44:29) Learning Languages\n\n(00:49:59) Taxonomy, Lists & Names, Studying Birds\n\n(00:56:41) Curiosity, New Guinea Birds, Success & Support Across Different Careers\n\n(01:04:55) Travel, Intellectual Explorer\n\n(01:07:44) Birds, Vision & Sound, Ecology; Bird Song, Monkeys\n\n(01:14:50) Sponsor: Function\n\n(01:16:27) Academic Leadership; Time & His Remaining Projects\n\n(01:25:54) Humanity Risks, Population Bomb\n\n(01:30:46) Physical Activity; Sports Leaders\n\n(01:38:08) Coaching Philosophy, John Wooden; Business Leaders, Yvon Chouinard\n\n(01:44:31) Great Leadership; Advice for Others\n\n(01:51:22) Zero-Cost Support, YouT...",
+      "tags": []
+    },
+    {
+      "id": "01m58cjz4remm4z88ryqeq3am3",
+      "title": "How to Build Wealth as a Career Person",
+      "url": "https://asheradeniyi.com/2026/04/10/how-to-build-wealth-as-a-career-person/",
+      "savedAt": "2026-10-18T20:52:24.344000+00:00",
+      "description": "A career can build wealth by growing your skills, value, and income. Save and invest part of what you earn instead of letting spending rise with your salary. Over time, your assets can give you more financial freedom.",
+      "tags": [
+        "career"
+      ]
+    },
+    {
+      "id": "01m4za1qs37t46ez8b0c1rv8cv",
+      "title": "Essentials: Neuralink & Technologies to Enhance Human Brains | Dr. Matt MacDougall",
+      "url": "https://www.hubermanlab.com/episode/essentials-neuralink-and-technologies-to-enhance-human-brains-matthew-macdougall",
+      "savedAt": "2026-10-15T08:14:49.707000+00:00",
+      "description": "Dr. Matt MacDougall explains how brain implants could help people with paralysis control computers and regain movement. He discusses robotic surgery, implant safety, and how people and devices learn to work together. He also explores possible future uses in mental health, communication, and human abilities.",
+      "tags": []
+    },
+    {
+      "id": "01m4y2fg4bhep17221ck5z4zqq",
+      "title": "Lab-in-the-Loop at Compute Speed — Ian Quigley, Leash Bio",
+      "url": "https://www.latent.space/p/lab-in-the-loop-at-compute-speed",
+      "savedAt": "2026-10-14T20:43:17.588000+00:00",
+      "description": "Leash Bio uses DNA-encoded libraries to collect reliable data on how molecules interact with proteins. That data helps test AI models and train agents to reason about chemistry. The team is also using it to find promising drug candidates.",
+      "tags": []
+    },
+    {
+      "id": "01m4xp76bc4zbqbnsnpf0m8j5z",
+      "title": "Uber’s AI infra, from the inside",
+      "url": "https://newsletter.pragmaticengineer.com/p/ubers-ai-infra-from-the-inside",
+      "savedAt": "2026-10-14T17:09:02.516000+00:00",
+      "description": "Uber built on years of developer tools to create systems that help AI agents work safely and efficiently. Its tools connect agents to code and company knowledge, while helping engineers manage costs, review changes, and measure impact. Engineers now focus more on giving agents context and checking their work.",
+      "tags": []
+    },
+    {
+      "id": "01m4vp2ea1tte3gm9xg0q6v2qy",
+      "title": "Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy — Jason Ma, Dyna Robotics",
+      "url": "https://www.latent.space/p/dyna",
+      "savedAt": "2026-10-13T22:27:57.962000+00:00",
+      "description": "Dyna Robotics is building general-purpose robots that learn tasks from brief demonstrations. Its Dyna-2 model predicts what will happen next to help robots choose actions. The company combines large-scale data, custom hardware, and real-world testing to make robots useful at work.",
+      "tags": []
+    },
+    {
+      "id": "01m4qjt1knm1mv3zfr464m19nj",
+      "title": "How Food Choices Shape Memory, Cognition & Cravings | Dr. Scott Kanoski",
+      "url": "https://www.hubermanlab.com/episode/how-food-choices-shape-memory-cognition-and-cravings-scott-kanoski",
+      "savedAt": "2026-10-12T08:13:59.357000+00:00",
+      "description": "Dr. Scott Kanoski, PhD, is a Professor of Human and Evolutionary Biology and Neurobiology at the University of Southern California. We discuss how different foods impact memory and cognitive function as well as cravings. We also discuss how GLP-1 drugs work to control hunger in the brain and body, the role of the gut microbiome, and the effects of artificial and low calorie sweeteners on hunger and satiety. This episode highlights how nutrition impacts much brain health and learning capacity and how our memory impacts food choices too.\n\nRead the full episode show notes at hubermanlab.com.\n\nThank you to our sponsors\n\nAG1: https://drinkag1.com/huberman\n\nFunction: https://functionhealth.com/huberman\n\nHelix Sleep: https://helixsleep.com/huberman\n\nLMNT: https://drinklmnt.com/huberman\n\nOur Place: https://fromourplace.com/huberman\n\nTimestamps\n\n(00:00:00) Scott Kanoski\n\n(00:02:33) GLP-1, Natural GLP-1 Production; GLP-1 Drugs, Microdosing\n\n(00:07:06) GLP-1 Drugs & Benefits\n\n(00:10:36) Sponsor: Our Place & Helix Sleep\n\n(00:13:24) GLP-1 & Hunger Suppression, Vagus Nerve; Food Noise\n\n(00:18:39) Artificial Sweeteners & Appetite, Preclinical Studies\n\n(00:26:50) Memory & Meals; Stress; Eating & Individualization, Fasting\n\n(00:33:42) Memory Impairments, Western Diet, High Sugar, Processed Food\n\n(00:42:33) Sponsor: AG1\n\n(00:43:46) Dementia, Alzheimer’s Disease & Western Diet; Exercise\n\n(00:49:40) Vagus Nerve, Hippocampus & Memory, Hormones\n\n(00:57:10) Sugar & Fat Consumption, Memory; Engineering Food for Quality\n\n(01:04:32) GLP-1s, Nutrient Deficiency, Weight Loss & Other Effects\n\n(01:11:33) Sponsor: LMNT\n\n(01:12:54) Vagus Nerve & Hippocampus, Eating & Acetylcholine\n\n(01:21:05) Hippocampus, Memory & Food; Interoceptive Awareness & Western Diet\n\n(01:27:21) Omega-3s; Microbiome & Processed Foods\n\n(01:34:00) Microbiome, Antibiotics, C. diff Infection\n\n(01:37:23) Sponsor: Function\n\n(01:39:01) Foods to Enhance Microbiome; Rising Obesity & Highly Processed Food\n\n(01:43:39) Dopamine & F...",
+      "tags": []
+    },
+    {
+      "id": "01m4hkpxye4yatd7qthjkdsbnf",
+      "title": "Why AlphaFold Didn't Solve Protein Folding — Pushmeet Kohli, Google DeepMind & Sal Candido, Biohub",
+      "url": "https://www.latent.space/p/biohub-deepmind",
+      "savedAt": "2026-10-10T00:34:19.287000+00:00",
+      "description": "AlphaFold was a major breakthrough, but it did not solve protein dynamics or explain all of biology. Progress depends on the right data, models, and scientific expertise—not simply bigger AI systems. The next goal is to model whole biological systems and use AI to speed up medical discoveries.",
+      "tags": []
+    },
+    {
+      "id": "01m4e5kdnp8x8779jpsy0wbrmj",
+      "title": "Synthesis Superintelligence: from Semiconductors to Superconductors — Periodic Labs’ Liam Fedus and Ekin Dogus Cubuk",
+      "url": "https://www.latent.space/p/periodic",
+      "savedAt": "2026-10-08T16:30:00.959000+00:00",
+      "description": "A special Science pod and Engineering pod crossover.. with Forward Deployed Engineering kicker!",
+      "tags": []
+    },
+    {
+      "id": "01m4dax6kbxzbep2zpx17nn275",
+      "title": "Essentials: Manage Stress & Build Resilience | Dr. Elissa Epel",
+      "url": "https://www.hubermanlab.com/episode/essentials-manage-stress-and-build-resilience-elissa-epel",
+      "savedAt": "2026-10-08T08:43:29.844000+00:00",
+      "description": "In this Huberman Lab Essentials episode, my guest is Dr. Elissa Epel, PhD, a Professor of Psychiatry and Behavioral Sciences at the University of California, San Francisco (UCSF). We discuss how acute and chronic stress affect the body and brain, including their links to cellular aging and mitochondrial health. We also explain tools to reduce rumination, reframe stress as a challenge and build resilience, as well as how radical acceptance and a sense of purpose can help us navigate stressors we cannot change.\n\nRead the full episode show notes at hubermanlab.com.\n\nThank you to our sponsors\n\nAG1: https://drinkag1.com/huberman\n\nEight Sleep: https://eightsleep.com/huberman\n\nROKA: https://roka.com/huberman\n\nTimestamps\n\n(00:00:00) Elissa Epel\n\n(00:00:22) Good & Bad Stress, Stress Responses\n\n(00:01:55) Rumination, Body Awareness\n\n(00:03:23) Tools: Mindset, Body & Environment\n\n(00:04:51) Acute & Chronic Stress, Energy & Recovery\n\n(00:07:44) Sponsor: Eight Sleep\n\n(00:09:27) Healthy Aging, Purpose & Brain Health\n\n(00:10:54) Stress Resilience, Threat vs. Challenge\n\n(00:14:40) Tool: Reframe Stress, “Stress Shields”\n\n(00:16:54) Sponsor: AG1\n\n(00:18:30) Mitochondrial Health, Caregiving & Daily Mood\n\n(00:21:24) Chronic Stress, Tool: Radical Acceptance\n\n(00:25:19) Tool: “Drop the Rope”, Uncontrollable Stressors\n\n(00:26:48) Uncertainty, Tool: Posture & Slow Breathing\n\n(00:29:10) Sponsor: ROKA\n\n(00:30:34) Taking Action vs. Letting Go\n\n(00:32:55) Journaling, Narrative & Purpose\n\n(00:34:15) Acknowledgements\n\nDisclaimer & Disclosures\nLearn more about your ad choices. Visit megaphone.fm/adchoices",
+      "tags": []
+    },
+    {
+      "id": "01m4bq6wwzf0bc41ac8bg79e5k",
+      "title": "Building resilient systems with Sam Newman",
+      "url": "https://newsletter.pragmaticengineer.com/p/building-resilient-systems-with-sam",
+      "savedAt": "2026-10-07T17:40:01.640000+00:00",
+      "description": "Sam Newman says microservices are a last resort, best used when they help teams work independently. Resilient systems need careful design, monitoring, and choices that fit the business. AI can help build software, but teams must keep thinking critically and understanding their systems.",
+      "tags": []
+    },
+    {
+      "id": "01m45hv24m27besyb9yksh1p06",
+      "title": "Bringing Extinct Species Back to Life | Dr. Beth Shapiro",
+      "url": "https://www.hubermanlab.com/episode/bringing-extinct-species-back-to-life-dr-beth-shapiro",
+      "savedAt": "2026-10-05T08:10:44.316000+00:00",
+      "description": "Dr. Beth Shapiro, PhD, is an evolutionary biologist and Chief Science Officer at Colossal Biosciences. Her work focuses on de-extinction and wildlife conservation efforts. We discuss genetic differences among humans, and how ancient DNA and modern embryology are being used to de-extinct and protect woolly mammoths, dodo birds, and dire wolves, as well as to help conserve endangered species. We also explore the ethical implications of de-extinction and how synthetic biology can help build a more bio diverse and resilient world.\n\nRead the full episode show notes at hubermanlab.com.\n\nThank you to our sponsors\n\nAG1: https://drinkag1.com/huberman\n\nJoovv: https://joovv.com/huberman\n\nEight Sleep: https://eightsleep.com/huberman\n\nFunction: https://functionhealth.com/huberman\n\nTimestamps\n\n(00:00:00) Beth Shapiro\n\n(00:02:35) What is a Species?, Taxonomy, Bison\n\n(00:09:13) Neanderthals, Denisovans, Homo Sapiens\n\n(00:12:38) Sponsors: Joovv & Eight Sleep\n\n(00:15:27) Hybrid Ancestry, “Grolar” Bears\n\n(00:20:30) Homo Sapiens & Neanderthal Interbreeding, Genes; Denisovans\n\n(00:25:53) Neanderthal Genes, Immunity, Red Hair; Eye Color\n\n(00:30:17) De-Extinction, Species Selection, Woolly Mammoths\n\n(00:38:08) Sponsor: AG1\n\n(00:39:21) Bird De-Extinction, Dodo; Reproduction & Genes\n\n(00:47:40) Development Biology, Woolly Mammoth, Elephants\n\n(00:54:49) Dire Wolf, Synthetic Biology, Ethics\n\n(01:03:26) De-Extinction, Ecology, Conservation, Ethics\n\n(01:09:22) Ecosystem Resilience, Thylacine; Preventing Extinction, Quolls\n\n(01:15:45) Sponsor: Function\n\n(01:17:23) Modeling Ecological Impact, Mosquitoes, Gene Drives; Panthers\n\n(01:25:50) Advisory Panels, Synthetic Biology Education\n\n(01:29:13) Genetic Selection in Humans, Human-Shaped World\n\n(01:38:25) Black-Footed Ferrets, Genetic Rescue\n\n(01:47:05) Dire Wolf; Ecological Modeling, New Technology & Public Fear\n\n(01:55:09) Artificial Wombs; Current Issues, Conservation & Red Wolf\n\n(02:01:26) Science Pioneers; Colossal Public Education\n\n(02:04:3...",
+      "tags": []
+    },
+    {
+      "id": "01m44528mbzwf0frzq6wg65fwf",
+      "title": "The Bitterest Lesson",
+      "url": "https://typesafe.ai/blog/bitterest-lesson",
+      "savedAt": "2026-10-04T19:08:17.419000+00:00",
+      "description": "The most important step in machine learning is choosing the right task to solve. Bigger models and more data help, but they only work well if the task is clear and useful. Without the right goal, even the best algorithms and compute power won't create good results.",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "id": "01m43w7zx94scpg4dq035wp4yz",
+      "title": "Ju! Ju! Tsu!",
+      "url": "https://arialdo.codeberg.page/ju-ju-tsu/preface/preface.html",
+      "savedAt": "2026-10-04T16:34:07.913000+00:00",
+      "description": "“Ju! Ju! Tsu!” is a practical, hands-on guide to Jujutsu. It is free and written by a fellow learner. The author welcomes reader feedback and contributions.",
+      "tags": []
+    },
     {
       "id": "01m416avkht8jjpfaasntfrdzn",
       "title": "256 Lines or Less: Test Case Minimization",
