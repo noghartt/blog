@@ -1,5 +1,4 @@
 # build output
-dist/
 engine/target/
 engine/dist/
 engine/dist.next/
@@ -22,8 +21,6 @@ pnpm-debug.log*
 # macOS-specific files
 .DS_Store
 
-# ignore .astro
-.astro/
 .vercel
 
 .direnv

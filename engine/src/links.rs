@@ -472,7 +472,7 @@ struct Bookmark {
     location: Option<String>,
 }
 
-/// Imports `src/content/bookmarks/bookmarks.json`, so the database can be built
+/// Imports `data/bookmarks.json`, so the database can be built
 /// without a Reader token (and keeps working with the existing daily workflow).
 pub fn import_reader_json(db: &mut LinkDb, path: &Path) -> Result<usize> {
     let file: BookmarksFile = serde_json::from_str(&std::fs::read_to_string(path)?)

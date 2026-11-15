@@ -29,7 +29,7 @@ impl Paths {
         self.root.join("data/links.jsonl")
     }
     pub fn bookmarks_json(&self) -> PathBuf {
-        self.root.join("src/content/bookmarks/bookmarks.json")
+        self.root.join("data/bookmarks.json")
     }
     pub fn templates(&self) -> PathBuf {
         self.root.join("engine/templates")
@@ -43,8 +43,7 @@ impl Paths {
     /// Everything `serve` watches.
     pub fn watched(&self) -> Vec<PathBuf> {
         vec![
-            self.root.join("src/content"),
-            self.root.join("engine/content"),
+            self.root.join("content"),
             self.templates(),
             self.static_dir(),
             self.root.join("data"),
@@ -588,7 +587,7 @@ fn build_into(paths: &Paths, opts: BuildOptions) -> Result<Stats> {
     write_page(&out, "/blog/drafts/", &html)?;
     stats.pages += 1;
 
-    // Pages written in engine/content (besides the home page), e.g. /now/.
+    // Pages written in content/pages (besides the home page), e.g. /now/.
     for page in pages.iter().filter(|p| p.slug != "home") {
         let rendered = renderer.render(&page.body, &env)?;
         let html = tpl.get_template("page.html")?.render(context! {
@@ -599,8 +598,8 @@ fn build_into(paths: &Paths, opts: BuildOptions) -> Result<Stats> {
         stats.pages += 1;
     }
 
-    // Changelog, from src/content/changelog/changelog.json (as on the Astro site).
-    let changelog = paths.root.join("src/content/changelog/changelog.json");
+    // Changelog, from content/changelog.json.
+    let changelog = paths.root.join("content/changelog.json");
     if changelog.exists() {
         #[derive(serde::Deserialize)]
         struct Change {
@@ -654,7 +653,7 @@ fn build_into(paths: &Paths, opts: BuildOptions) -> Result<Stats> {
     // Bookmarks: the links database, from the Reader side.
     stats.pages += build_reading(&out, &tpl, &site, &db, &cited)?;
 
-    // Home: an index of every kind of note, with the intro from engine/content/home.md.
+    // Home: an index of every kind of note, with the intro from content/pages/home.md.
     if let Some(home) = pages.iter().find(|p| p.slug == "home") {
         // home.md is copied from the Astro home page; `{{ age }}` is computed there too.
         let age = chrono::Utc::now().year() - 2002;

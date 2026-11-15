@@ -35,7 +35,7 @@ jobs:
       - name: Build garden
         run: cargo build --release --locked --manifest-path engine/Cargo.toml
 
-      # The daily workflow updates src/content/bookmarks/bookmarks.json; bring those
+      # The daily workflow updates data/bookmarks.json; bring those
       # bookmarks into the links database before building (offline, nothing fetched).
       - name: Import bookmarks
         run: ./engine/target/release/garden links import-reader-json

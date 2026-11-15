@@ -45,7 +45,7 @@ ${frontmatter}
 ---
 `;
 
-  const dirBlog = path.resolve(dirRoot, 'src', 'content', 'blog');
+  const dirBlog = path.resolve(dirRoot, 'content', 'blog');
 
   fs.writeFileSync(path.resolve(dirBlog, `${createdAt.toISOString()}-${slug}.md`), data, { encoding: 'utf-8' });
 }

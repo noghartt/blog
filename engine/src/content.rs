@@ -1,4 +1,4 @@
-//! Loading notes from `src/content/**` (the same folder Astro reads).
+//! Loading notes from `content/**`.
 
 use anyhow::{bail, Context, Result};
 use chrono::{DateTime, FixedOffset};
@@ -144,14 +144,14 @@ fn load_dir(dir: &Path, kind: Kind) -> Result<Vec<Note>> {
 }
 
 pub fn load(root: &Path) -> Result<Vec<Note>> {
-    let content = root.join("src/content");
+    let content = root.join("content");
     let mut notes = load_dir(&content.join("blog"), Kind::Post)?;
     notes.extend(load_dir(&content.join("lists"), Kind::List)?);
     notes.extend(load_dir(&content.join("til"), Kind::Til)?);
     Ok(notes)
 }
 
-/// Engine-owned pages (`engine/content/*.md`), e.g. the home page.
+/// Standalone pages (`content/pages/*.md`), e.g. the home page.
 pub fn load_pages(root: &Path) -> Result<Vec<Note>> {
-    load_dir(&root.join("engine/content"), Kind::Page)
+    load_dir(&root.join("content/pages"), Kind::Page)
 }
