@@ -33,3 +33,7 @@ notify = "8"
 tokio = { version = "1", features = ["rt-multi-thread", "macros", "sync", "time", "net"] }
 tower-http = { version = "0.6", features = ["fs", "set-header"] }
 latex2mathml = "0.2.3"
+
+# share images (og.png)
+resvg = { version = "0.50.0", default-features = false, features = ["text"] }
+skrifa = "0.49"

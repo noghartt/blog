@@ -15,7 +15,9 @@
 <link rel="apple-touch-icon" href="/static/apple-touch-icon.png">
 <link rel="alternate" type="application/rss+xml" href="/rss.xml" title="noghartt">
 <link rel="sitemap" href="/sitemap-index.xml">
-<!--share-->
+{#- Filled in by the build: canonical, Open Graph and Twitter tags, and og.png. A page
+    may put a line in it (a note's date) for its share image. #}
+<!--share{% block share %}{% endblock %}-->
 {%- if not site.dev %}
 {#- The same Umami analytics the Astro site used (no cookies). #}
 <script defer src="https://cloud.umami.is/script.js" data-website-id="2fc8746f-8a7b-48ee-b932-1d26da3f83c0"></script>

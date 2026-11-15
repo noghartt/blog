@@ -45,6 +45,12 @@ Also as on the Astro site: every post's old address (`/<slug>/`) redirects to
 (production builds only), and canonical, Open Graph and Twitter tags on every page
 (a note's description is its first paragraph). Math (`$…$`, `$$…$$`) becomes MathML.
 
+Every page also gets a share image, `og.png` next to its `index.html` (`src/og.rs`):
+the header's mark and "Noghartt's garden", the page's section, title, description,
+address and (for notes) date, drawn with resvg in the site's fonts, compiled in
+from `engine/fonts` (SIL OFL). Images are cached in `engine/target/og-cache` by a
+hash of what they show; bump `VERSION` in `og.rs` after changing the drawing.
+
 ## How a build works
 
 ```

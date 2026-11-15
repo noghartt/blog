@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% block title %}{{ heading }} · noghartt{% endblock %}
+{% block description %}{{ total }} links I saved{% if since %}, since {{ since }}{% endif %}.{% endblock %}
 {% block body_attrs %} data-previews="lazy" data-cards="/bookmarks/cards.html"{% endblock %}
 {% block main %}
 <div class="row head">
