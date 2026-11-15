@@ -1,5 +1,7 @@
 name: Deploy to GitHub Pages
 
+# Builds the site with garden (engine/, Rust) and publishes engine/dist.
+
 on:
   push:
     branches: [ main ]
@@ -10,20 +12,41 @@ permissions:
   pages: write
   id-token: write
 
+# One deploy at a time; a newer push replaces a queued one.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout your repository using git
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
-      - name: Install, build, and upload your site
-        uses: withastro/action@v2
+      - name: Install Rust
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Cache the engine's build
+        uses: Swatinem/rust-cache@v2
         with:
-          node-version: 22.4.0
-          package-manager: pnpm@8.6.0
+          workspaces: engine
+
+      - name: Build garden
+        run: cargo build --release --locked --manifest-path engine/Cargo.toml
+
+      # The daily workflow updates src/content/bookmarks/bookmarks.json; bring those
+      # bookmarks into the links database before building (offline, nothing fetched).
+      - name: Import bookmarks
+        run: ./engine/target/release/garden links import-reader-json
+
+      - name: Build the site
+        run: ./engine/target/release/garden build
+
+      - name: Upload the site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: engine/dist
 
   deploy:
     needs: build

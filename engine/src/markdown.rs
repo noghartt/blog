@@ -51,6 +51,12 @@ pub struct LinkRef {
     pub id: String,
 }
 
+fn escape_html(s: &str) -> String {
+    s.replace('&', "&amp;")
+        .replace('<', "&lt;")
+        .replace('>', "&gt;")
+}
+
 /// `%20` and friends in a link's file name, back to the characters.
 fn percent_decode(s: &str) -> String {
     let b = s.as_bytes();
@@ -476,6 +482,22 @@ create_formatter!(GardenFormatter<Fmt>, {
         } else {
             context.write_str("</a>")?;
         }
+    },
+    // `$…$` and `$$…$$`: MathML, which browsers draw themselves (no script, no font).
+    // If the TeX can't be converted, it stays as code.
+    NodeValue::Math(ref m) => |context, entering| {
+        if entering {
+            let style = if m.display_math {
+                latex2mathml::DisplayStyle::Block
+            } else {
+                latex2mathml::DisplayStyle::Inline
+            };
+            let html = latex2mathml::latex_to_mathml(&m.literal, style).unwrap_or_else(|_| {
+                format!("<code>{}</code>", escape_html(&m.literal))
+            });
+            context.write_str(&html)?;
+        }
+        return Ok(ChildRendering::Skip);
     },
     NodeValue::FootnoteReference(ref fr) => |context, entering| {
         if entering {

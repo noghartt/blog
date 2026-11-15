@@ -491,6 +491,7 @@ fn build_into(paths: &Paths, opts: BuildOptions) -> Result<Stats> {
         let html = tpl.get_template("note.html")?.render(context! {
             site => &site,
             note => &meta,
+            description => &analysis.excerpt,
             body => &rendered.html,
             sidenotes => rendered.sidenotes,
             contents => if analysis.headings.len() >= 2 { analysis.headings.clone() } else { vec![] },
@@ -720,6 +721,15 @@ fn build_into(paths: &Paths, opts: BuildOptions) -> Result<Stats> {
         .get_template("rss.xml")?
         .render(context! { items => feed_items })?;
     std::fs::write(paths.out.join("rss.xml"), rss)?;
+
+    // Old addresses, then the sitemap (which leaves them, drafts and hidden notes out).
+    let all_posts: Vec<&Note> = all.iter().filter(|n| n.kind == Kind::Post).collect();
+    let mut unlisted: HashSet<String> = write_redirects(&paths.out, &all_posts)?
+        .into_iter()
+        .collect();
+    unlisted.insert("/blog/drafts/".to_owned());
+    unlisted.extend(all.iter().filter(|n| !n.is_listed()).map(|n| n.url.clone()));
+    write_sitemap(&paths.out, &unlisted)?;
 
     copy_dir(&paths.public(), &paths.out)?;
     copy_dir(&paths.static_dir(), &paths.out.join("static"))?;
@@ -969,7 +979,109 @@ fn write_page(out: &Path, url: &str, html: &str) -> Result<()> {
     );
     let dir = out.join(rel);
     std::fs::create_dir_all(&dir)?;
-    std::fs::write(dir.join("index.html"), html)?;
+    std::fs::write(dir.join("index.html"), with_share_tags(url, html))?;
+    Ok(())
+}
+
+const SITE_URL: &str = "https://noghartt.dev";
+
+/// Fills the page's `<!--share-->` marker with its canonical address and the tags
+/// link previews read (Open Graph, Twitter/X), from the page's own title and
+/// description, so no template has to repeat them.
+fn with_share_tags(url: &str, html: &str) -> String {
+    if !html.contains("<!--share-->") {
+        return html.to_owned();
+    }
+    let between = |start: &str, end: &str| {
+        html.split_once(start)
+            .and_then(|(_, rest)| rest.split_once(end))
+            .map(|(v, _)| v.to_owned())
+            .unwrap_or_default()
+    };
+    // Both are already escaped by the templates.
+    let title = between("<title>", "</title>");
+    let description = between("<meta name=\"description\" content=\"", "\"");
+    let page = format!("{SITE_URL}{}", url.split('#').next().unwrap_or("/")).replace('"', "%22");
+    let tags = format!(
+        "<link rel=\"canonical\" href=\"{page}\">\n\
+         <meta property=\"og:type\" content=\"website\">\n\
+         <meta property=\"og:url\" content=\"{page}\">\n\
+         <meta property=\"og:title\" content=\"{title}\">\n\
+         <meta property=\"og:description\" content=\"{description}\">\n\
+         <meta name=\"twitter:card\" content=\"summary\">\n\
+         <meta name=\"twitter:title\" content=\"{title}\">\n\
+         <meta name=\"twitter:description\" content=\"{description}\">"
+    );
+    html.replacen("<!--share-->", &tags, 1)
+}
+
+/// The redirects the Astro site had: every post's old address (`/<slug>/`) leads to
+/// `/blog/<slug>/`. GitHub Pages can't send redirects, so each is a small page that
+/// refreshes to the new address (search engines treat that as a redirect). An old
+/// address that is now a page of its own is left alone.
+fn write_redirects(out: &Path, posts: &[&Note]) -> Result<Vec<String>> {
+    let mut written = vec![];
+    for n in posts {
+        let from = format!("/{}/", n.slug);
+        let dir = out.join(&n.slug);
+        if n.slug.is_empty() || n.slug.contains(['/', '\\', '.']) || dir.exists() {
+            continue;
+        }
+        let to = &n.url;
+        std::fs::create_dir_all(&dir)?;
+        std::fs::write(
+            dir.join("index.html"),
+            format!(
+                "<!doctype html>\n<meta charset=\"utf-8\">\n<title>{to}</title>\n\
+                 <meta http-equiv=\"refresh\" content=\"0;url={to}\">\n\
+                 <link rel=\"canonical\" href=\"{SITE_URL}{to}\">\n\
+                 <meta name=\"robots\" content=\"noindex\">\n<a href=\"{to}\">{SITE_URL}{to}</a>\n"
+            ),
+        )?;
+        written.push(from);
+    }
+    Ok(written)
+}
+
+/// `sitemap-index.xml` and `sitemap-0.xml`, the names the Astro site used: every
+/// page except drafts, hidden notes and redirects.
+fn write_sitemap(out: &Path, skip: &HashSet<String>) -> Result<()> {
+    let mut urls = vec![];
+    for entry in walkdir::WalkDir::new(out) {
+        let entry = entry?;
+        if entry.file_name() != "index.html" {
+            continue;
+        }
+        let rel = entry.path().parent().unwrap_or(out).strip_prefix(out)?;
+        let path = if rel.as_os_str().is_empty() {
+            "/".to_owned()
+        } else {
+            format!("/{}/", rel.to_string_lossy().replace('\\', "/"))
+        };
+        if !skip.contains(&path) {
+            urls.push(path);
+        }
+    }
+    urls.sort();
+    let esc = |s: &str| {
+        s.replace('&', "&amp;")
+            .replace('<', "&lt;")
+            .replace('>', "&gt;")
+    };
+    let mut xml = String::from(
+        "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n",
+    );
+    for u in &urls {
+        xml.push_str(&format!("<url><loc>{SITE_URL}{}</loc></url>\n", esc(u)));
+    }
+    xml.push_str("</urlset>\n");
+    std::fs::write(out.join("sitemap-0.xml"), xml)?;
+    std::fs::write(
+        out.join("sitemap-index.xml"),
+        format!(
+            "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n<sitemap><loc>{SITE_URL}/sitemap-0.xml</loc></sitemap>\n</sitemapindex>\n"
+        ),
+    )?;
     Ok(())
 }
 

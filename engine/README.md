@@ -1,8 +1,9 @@
 # garden
 
 A static site generator for noghartt.dev, written in Rust, built around a
-database of links. Proof of concept on the `rust-engine` branch; Astro still
-builds the live site from `main`.
+database of links. It builds the live site: `.github/workflows/deploy.yml` runs
+`garden links import-reader-json` (the daily bookmarks update) and `garden build`
+on every push to `main`, and publishes `engine/dist` to GitHub Pages.
 
 It reads the same `src/content/**` as Astro, so nothing in the content moves.
 
@@ -37,6 +38,12 @@ posts too, at their own address but unlisted; drafts are listed at `/blog/drafts
 `/bookmarks/`, `/bookmarks/tags/` and `/bookmarks/tags/<tag>/` (a tag holds its
 subtags), `/rss.xml`, `/bookmarks/rss.xml`. New: `/bookmarks/site/<site>/` for every
 site with 3 or more bookmarks. Any other `engine/content/<name>.md` becomes `/<name>/`.
+
+Also as on the Astro site: every post's old address (`/<slug>/`) redirects to
+`/blog/<slug>/` (a page that refreshes to it, since GitHub Pages can't redirect),
+`sitemap-index.xml` (without drafts, hidden notes or redirects), Umami analytics
+(production builds only), and canonical, Open Graph and Twitter tags on every page
+(a note's description is its first paragraph). Math (`$…$`, `$$…$$`) becomes MathML.
 
 ## How a build works
 
@@ -174,5 +181,5 @@ readable. One record per outside URL, whatever the source:
 
 ## Not ported yet
 
-OG images for posts and lists (`og.png`, satori + resvg), math rendering (KaTeX; comrak parses `$…$` but it is
-not rendered), the sitemap, Umami, dark mode.
+The generated share images for posts and lists (`og.png`, satori + resvg): link
+previews show the title and description without an image. Dark mode.

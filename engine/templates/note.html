@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% block title %}{{ note.title }} · noghartt{% endblock %}
+{% block description %}{{ description or "A place where I put all my thoughts" }}{% endblock %}
 {% block main %}
 {%- set section = {"post": ["/blog/", "writing"], "list": ["/lists/", "lists"], "til": ["/til/", "til"]}[note.kind] %}
 <article class="note">
