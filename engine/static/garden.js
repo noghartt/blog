@@ -905,8 +905,44 @@
   // `data-preview="none"` opts a link out (the footer's Source, which opens a tab).
   const target = (e) => e.target.closest && e.target.closest('a[data-preview]:not([data-preview="none"])');
 
+  // Touch works by taps, not hover: the first tap on a link opens its popup, a second
+  // one follows it, and a tap anywhere else closes it. Whether a press is a finger is
+  // known from its pointer, not the device (a tablet can have a mouse too).
+  // A phone also fires mouseover before a tap's click, and Safari waits for timers
+  // that mouseover starts: a popup opened from one would count as a hover menu, and
+  // the click that follows (seeing the popup open) would follow the link. So the
+  // mouse events a tap makes up are ignored.
+  let touching = false; // the last press was a finger
+  let tap = null; // where a finger went down, to tell a tap from a scroll
+  document.addEventListener(
+    'pointerdown',
+    (e) => {
+      touching = e.pointerType === 'touch';
+      tap = touching ? { x: e.clientX, y: e.clientY } : null;
+    },
+    true,
+  );
+  // Safari doesn't send a click for a tap on plain text (no click handler of its own),
+  // so a tap outside the popups is caught here.
+  document.addEventListener(
+    'pointerup',
+    (e) => {
+      if (!tap || e.pointerType !== 'touch') return;
+      const moved = Math.abs(e.clientX - tap.x) + Math.abs(e.clientY - tap.y) > 10;
+      tap = null;
+      if (moved || popOf(e.target) || target(e)) return;
+      for (const q of [...popups]) if (!q.pinned) close(q);
+    },
+    true,
+  );
+  // A pointer that moves is a mouse or a pen: hover works again.
+  document.addEventListener('pointermove', (e) => {
+    if (e.pointerType !== 'touch') touching = false;
+  }, { passive: true });
+
   document.addEventListener('mouseover', (e) => {
     over = e.target;
+    if (touching) return;
     scheduleSweep();
     const a = target(e);
     clearTimeout(openTimer);
@@ -927,6 +963,7 @@
     }
   });
   document.addEventListener('mouseout', (e) => {
+    if (touching) return;
     if (!e.relatedTarget) {
       over = null;
       scheduleSweep();
@@ -940,7 +977,7 @@
   });
   document.addEventListener('focusin', (e) => {
     const a = target(e);
-    if (a && !matchMedia('(hover: none)').matches) openLazy(a);
+    if (a && !touching) openLazy(a);
   });
   document.addEventListener('keydown', (e) => {
     if (e.key !== 'Escape' || !popups.length) return;
@@ -983,8 +1020,9 @@
     }
 
     // Touch: the first tap opens the popup, a second tap on the same link follows it.
+    // (A click from the keyboard, detail 0, always follows the link.)
     const a = target(e);
-    const touch = matchMedia('(hover: none)').matches;
+    const touch = touching && e.detail !== 0;
     if (!a) {
       if (touch && !p) for (const q of [...popups]) if (!q.pinned) close(q);
       return;
