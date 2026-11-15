@@ -1,5 +1,9 @@
 # build output
 dist/
+engine/target/
+engine/dist/
+engine/dist.next/
+engine/dist.old/
 
 # dependencies
 node_modules/

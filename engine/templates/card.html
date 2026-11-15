@@ -1,0 +1,9 @@
+<template data-preview-for="{{ p.key }}"{% if p.frame %} data-frame="{{ p.frame }}"{% endif %}>
+<div class="card">
+<span class="card-path">{% if p.icon %}<span class="mk" data-icon="{{ p.icon }}"></span> {% elif p.mark %}<span class="mk{% if p.mark not in ["↗", "▶"] %} boxed{% endif %}">{{ p.mark }}</span> {% endif %}{{ p.path }}</span>
+<span class="card-title">{{ p.title }}</span>
+{%- if p.meta %}<span class="card-meta">{{ p.meta }}</span>{% endif %}
+{%- if p.text %}<span class="card-text">{{ p.text }}</span>{% endif %}
+{%- if p.foot or p.archive %}<span class="card-foot">{{ p.foot|join(" · ") }}{% if p.archive %} · <a href="{{ p.archive }}">archived copy</a>{% endif %}</span>{% endif %}
+</div>
+</template>

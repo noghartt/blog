@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- The header's mark: a bordered square with a serif N (drawn, so it needs no font). -->
+  <rect x="1.5" y="1.5" width="29" height="29" fill="#FDFDFB" stroke="#111" stroke-width="3"/>
+  <path fill="#111" d="
+    M9.4 8.6 H12.9 L22.7 23.6 H19.2 Z
+    M9.4 9.6 H11 V23.6 H9.4 Z
+    M7.2 8.4 H12.9 V9.8 H7.2 Z
+    M6.9 22.4 H13.5 V23.8 H6.9 Z
+    M21.1 8.6 H22.7 V23.6 H21.1 Z
+    M18.7 8.4 H25.1 V9.8 H18.7 Z"/>
+</svg>

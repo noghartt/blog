@@ -53,6 +53,8 @@ const bookmarksCollection = defineCollection({
       savedAt: z.coerce.date(),
       description: z.string().nullable(),
       tags: z.array(z.string()),
+      category: z.string().optional(),
+      location: z.string().optional(),
     })),
   }),
 });

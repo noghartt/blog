@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block title %}Changelog · noghartt{% endblock %}
+{% block main %}
+<div class="row head">
+  <div class="col">
+    <span class="crumb"><a href="/">noghartt</a> / changelog</span>
+    <h1>Changelog</h1>
+  </div>
+  <div class="margin"></div>
+</div>
+<div class="row">
+  <div class="col">
+    {%- for y in years %}
+    <section>
+      <h2 class="sc">{{ y.year }} <span class="mono count">{{ y.items|length }}</span></h2>
+      {%- for c in y.items %}
+      <div class="dated"><span class="mono">{{ c.date }}</span><span>{{ c.html|safe }}</span></div>
+      {%- endfor %}
+    </section>
+    {%- endfor %}
+  </div>
+  <div class="margin"></div>
+</div>
+{% endblock %}
