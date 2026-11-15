@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}{{ title }} · noghartt{% endblock %}
+{% block main %}
+<article class="note page">
+  <div class="row head">
+    <div class="col">
+      <span class="crumb"><a href="/">noghartt</a> / {{ slug }}</span>
+      <h1>{{ title }}</h1>
+    </div>
+    <div class="margin"></div>
+  </div>
+  <div class="prose">
+{{ body|safe }}
+  </div>
+</article>
+{% endblock %}

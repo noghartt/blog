@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block title %}Bookmark tags · noghartt{% endblock %}
+{% block main %}
+<div class="row head">
+  <div class="col">
+    <span class="crumb"><a href="/">noghartt</a> / <a href="/bookmarks/">bookmarks</a> / tags</span>
+    <h1>Bookmark tags</h1>
+    <span class="mono lede">{{ total }} links</span>
+  </div>
+  <div class="margin"></div>
+</div>
+<div class="row">
+  <div class="col">
+    <ul class="tag-tree">
+      {%- for n in tree recursive %}
+      <li><a href="/bookmarks/tags/{{ n.path }}/">{{ n.name }}</a> <span class="mono">{{ n.count }}</span>
+        {%- if n.children %}<ul>{{ loop(n.children) }}</ul>{% endif %}</li>
+      {%- endfor %}
+    </ul>
+  </div>
+  <div class="margin"></div>
+</div>
+{% endblock %}

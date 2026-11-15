@@ -1,0 +1,78 @@
+{% extends "base.html" %}
+{% block title %}{{ note.title }} · noghartt{% endblock %}
+{% block main %}
+{%- set section = {"post": ["/blog/", "writing"], "list": ["/lists/", "lists"], "til": ["/til/", "til"]}[note.kind] %}
+<article class="note">
+  <div class="row head">
+    <div class="col">
+      <span class="crumb"><a href="/">noghartt</a> / <a href="{{ section[0] }}">{{ section[1] }}</a> / {{ note.slug }}</span>
+      <h1>{{ note.title }}</h1>
+    </div>
+    <div class="margin meta">
+      {%- if note.date %}{{ note.date }}<br>{% endif %}
+      {%- if note.tags %}tagged {% for t in note.tags %}{% if t in site.tag_pages %}<a href="/tag/{{ t }}/">{{ t }}</a>{% else %}{{ t }}{% endif %}{% if not loop.last %}, {% endif %}{% endfor %}<br>{% endif %}
+      {{- note.minutes }} min read
+      {%- if sidenotes %} · {{ sidenotes }} sidenote{% if sidenotes != 1 %}s{% endif %}{% endif %}
+      {%- if links_out %} · {{ links_out|length }} link{% if links_out|length != 1 %}s{% endif %} out{% endif %}
+    </div>
+  </div>
+
+  <div class="prose">
+    {%- if contents %}
+    <nav class="toc" aria-label="Contents">
+      <span class="mono">contents</span>
+      {%- for h in contents %}
+      <a class="toc-{{ h.level }}" href="#{{ h.id }}">{{ h.text }}</a>
+      {%- endfor %}
+    </nav>
+    {%- endif %}
+{{ body|safe }}
+  </div>
+
+  <div class="row after">
+    <div class="col">
+      {%- if backlinks %}
+      <section>
+        <h2 class="sc">Linked from · {{ backlinks|length }}</h2>
+        {%- for b in backlinks %}
+        <div class="backlink">
+          <div class="backlink-head"><a href="{{ b.url }}" data-preview="n:{{ b.key }}">{{ b.title }}</a>{% if b.date_iso %} <span class="mono">{{ b.date_iso }}</span>{% endif %}</div>
+          <p>{{ b.context }}</p>
+        </div>
+        {%- endfor %}
+      </section>
+      {%- endif %}
+
+      {%- if links_out %}
+      <section>
+        <h2 class="sc">Links out · {{ links_out|length }}</h2>
+        {%- for o in links_out %}
+        <div class="linkout">
+          {% if o.icon %}<span class="mk" data-icon="{{ o.icon }}"></span>{% else %}<span class="mk{% if o.mark not in ["↗", "▶"] %} boxed{% endif %}">{{ o.mark }}</span>{% endif %}
+          <a href="{{ o.url }}"{% if o.preview %} data-preview="{{ o.preview }}"{% endif %}>{{ o.title }}</a>
+          <span class="mono">{{ o.site }}{% if o.times > 1 %} · {{ o.times }} times{% endif %}</span>
+        </div>
+        {%- endfor %}
+      </section>
+      {%- endif %}
+
+      {%- if older or newer %}
+      <nav class="pager">
+        {% if older %}<a href="{{ older.url }}" data-preview="n:{{ older.key }}">← {{ older.title }}</a>{% else %}<span></span>{% endif %}
+        {% if newer %}<a href="{{ newer.url }}" data-preview="n:{{ newer.key }}">{{ newer.title }} →</a>{% endif %}
+      </nav>
+      {%- endif %}
+    </div>
+    <div class="margin">
+      {%- if also_tagged %}
+      <div class="aside">
+        <span class="mono">also tagged {{ note.tags|join(", ") }}</span>
+        {%- for o in also_tagged %}
+        <a href="{{ o.url }}" data-preview="n:{{ o.key }}">{{ o.title }}</a>
+        {%- endfor %}
+      </div>
+      {%- endif %}
+    </div>
+  </div>
+</article>
+{% endblock %}

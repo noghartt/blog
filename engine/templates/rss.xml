@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+<title>{{ title or "noghartt" }}</title>
+<link>{{ link or "https://noghartt.dev/" }}</link>
+<description>A place where I put all my thoughts</description>
+{%- for i in items %}
+<item>
+<title>{{ i.title }}</title>
+<link>{{ i.url }}</link>
+<guid>{{ i.url }}</guid>
+{%- if i.date %}
+<pubDate>{{ i.date }}</pubDate>
+{%- endif %}
+{%- if i.excerpt %}
+<description>{{ i.excerpt }}</description>
+{%- endif %}
+</item>
+{%- endfor %}
+</channel>
+</rss>

@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% block title %}{{ heading }} · noghartt{% endblock %}
+{% block body_attrs %} data-previews="lazy" data-cards="/bookmarks/cards.html"{% endblock %}
+{% block main %}
+<div class="row head">
+  <div class="col">
+    <span class="crumb"><a href="/">noghartt</a> / {% for c in crumbs or [] %}<a href="{{ c[0] }}">{{ c[1] }}</a> / {% endfor %}{{ crumb }}</span>
+    <h1>{{ heading }}</h1>
+    <span class="mono lede">{{ total }} links{% if since %} · since {{ since }}{% endif %}</span>
+  </div>
+  <div class="margin">
+    {%- if tags %}
+    <div class="aside">
+      <span class="mono">most saved topics · <a href="/bookmarks/tags/">all tags</a></span>
+      <span>{% for t in tags %}<a href="/bookmarks/tags/{{ t[0] }}/">{{ t[0] }}</a> <span class="mono">{{ t[1] }}</span>{% if not loop.last %} · {% endif %}{% endfor %}</span>
+    </div>
+    {%- endif %}
+  </div>
+</div>
+
+<div class="row reading">
+  <div class="col">
+    {%- for m in months %}
+    <section>
+      <h2 class="sc">{{ m.name }} <span class="mono count">{{ m.total }}</span></h2>
+      {%- for b in m.items %}
+      <div class="bookmark">
+        <span class="mono day">{{ b.day }}</span>
+        <div>
+          <a href="{{ b.url }}" data-preview="{{ b.preview }}">{{ b.title }}</a>
+          <span class="mono">{% if b.site_page %}<a href="/bookmarks/site/{{ b.site }}/">{{ b.site }}</a>{% else %}{{ b.site }}{% endif %}{% for t in b.tags %} · <a href="/bookmarks/tags/{{ t }}/">{{ t }}</a>{% endfor %}</span>
+        </div>
+      </div>
+      {%- endfor %}
+      {%- if m.more %}<p class="more mono">+{{ m.more }}</p>{% endif %}
+    </section>
+    {%- endfor %}
+  </div>
+  <div class="margin">
+    {%- if subtags %}
+    <div class="aside">
+      <span class="mono">within {{ heading }}</span>
+      <span>{% for t in subtags %}<a href="/bookmarks/tags/{{ t.path }}/">{{ t.name }}</a> <span class="mono">{{ t.count }}</span>{% if not loop.last %} · {% endif %}{% endfor %}</span>
+    </div>
+    {%- endif %}
+    {%- if sites %}
+    <div class="aside">
+      <span class="mono">most saved from</span>
+      {%- for s in sites %}
+      <span><a href="/bookmarks/site/{{ s[0] }}/">{{ s[0] }}</a> <span class="mono">{{ s[1] }}</span></span>
+      {%- endfor %}
+    </div>
+    {%- endif %}
+  </div>
+</div>
+{% endblock %}

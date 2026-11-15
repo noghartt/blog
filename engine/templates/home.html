@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+{#- The site's name in the header is this page's title. #}
+{% block brand %}<h1 class="brand-h"><a class="brand" href="/"><span class="brand-n">N</span><span class="brand-name">{{ title }}</span></a></h1>{% endblock %}
+{% block main %}
+<div class="prose home">
+{{ body|safe }}
+</div>
+
+{#- Writing in the reading column; the other kinds of notes beside it. #}
+<div class="index">
+  <div class="index-main">
+    <section>
+      <h2 class="sc"><a href="/blog/">Writing</a> <span class="mono count">{{ site.notes_total }}</span></h2>
+      {%- for y in years %}
+      <div class="year">
+        <span class="mono y">{{ y.year }}</span>
+        <div>
+          {%- for n in y.notes %}
+          <div class="dated"><span class="mono">{{ n.date_iso[5:] }}</span><a href="{{ n.url }}" data-preview="n:{{ n.key }}">{{ n.title }}</a></div>
+          {%- endfor %}
+        </div>
+      </div>
+      {%- endfor %}
+    </section>
+  </div>
+
+  <div class="index-side">
+    <section>
+      <h2 class="sc"><a href="/lists/">Lists</a> <span class="mono count">{{ lists|length }}</span></h2>
+      {%- for n in lists %}
+      <div class="dated"><a href="{{ n.url }}" data-preview="n:{{ n.key }}">{{ n.title }}</a></div>
+      {%- endfor %}
+    </section>
+
+    <section>
+      <h2 class="sc"><a href="/til/">Today I learned</a> <span class="mono count">{{ tils|length }}</span></h2>
+      {%- for n in tils %}
+      <div class="stacked"><a href="{{ n.url }}" data-preview="n:{{ n.key }}">{{ n.title }}</a><span class="mono">{{ n.date_iso }}</span></div>
+      {%- endfor %}
+    </section>
+
+    <section>
+      <h2 class="sc"><a href="/bookmarks/">Bookmarks</a> <span class="mono count">{{ site.reading_total }}</span></h2>
+      {%- for b in reading %}
+      <div class="stacked"><a href="{{ b.url }}" data-preview="{{ b.preview }}">{{ b.title }}</a><span class="mono">{{ b.site }}</span></div>
+      {%- endfor %}
+      <a class="more" href="/bookmarks/">See more</a>
+    </section>
+  </div>
+</div>
+{% endblock %}

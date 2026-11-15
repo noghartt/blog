@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block title %}Tags · noghartt{% endblock %}
+{% block main %}
+<div class="row head">
+  <div class="col">
+    <span class="crumb"><a href="/">noghartt</a> / <a href="/blog/">writing</a> / tags</span>
+    <h1>Tags</h1>
+  </div>
+  <div class="margin"></div>
+</div>
+<div class="row">
+  <div class="col">
+    {%- for t in tags %}
+    <div class="dated"><a href="/tag/{{ t[0] }}/">{{ t[0] }}</a> <span class="mono">{{ t[1] }}</span></div>
+    {%- endfor %}
+  </div>
+  <div class="margin"></div>
+</div>
+{% endblock %}

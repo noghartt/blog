@@ -1,0 +1,429 @@
+/* noghartt.dev, garden engine. Black and white, one reading column, one margin. */
+
+:root {
+  --ground: #FDFDFB;
+  --ink: #111111;
+  --muted: #555555;
+  --soft: #333333;
+  --rule: #CFCFCF;
+  --faint: #E9E9E3;
+  --underline: #8A8A8A;
+  --card: #FFFFFF;
+  --serif: 'Source Serif 4', Georgia, 'Times New Roman', serif;
+  --mono: 'IBM Plex Mono', ui-monospace, monospace;
+  --col: 700px;
+  --gap: 56px;
+  --margin: 340px;
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--ground);
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: 18px;
+  line-height: 1.65;
+}
+a {
+  color: var(--ink);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  text-decoration-color: var(--underline);
+}
+a:hover { color: var(--muted); }
+a { transition: color 120ms, background-color 120ms; }
+.pop-bar button:active { transform: translateY(1px); }
+.pop-bar button:focus-visible { outline: 2px solid var(--ink); outline-offset: -2px; }
+a:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+.mono { font-family: var(--mono); font-size: 12px; color: var(--muted); }
+
+.wrap {
+  max-width: calc(var(--col) + var(--gap) + var(--margin));
+  margin: 0 auto;
+  padding: 40px 16px 48px;
+}
+
+/* Header and footer */
+.top, .foot {
+  display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center;
+  gap: 4px 32px;
+}
+.top { border-bottom: 1px solid var(--ink); padding-bottom: 6px; margin-bottom: 40px; }
+.foot { border-top: 1px solid var(--ink); padding-top: 12px; margin-top: 56px; align-items: baseline; justify-content: flex-end; }
+.brand { display: flex; align-items: center; gap: 12px; text-decoration: none; padding: 6px 0; }
+.brand-n {
+  width: 36px; height: 36px; border: 2px solid var(--ink);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 24px; font-weight: 600; line-height: 1;
+}
+.brand-name { font-size: 21px; font-weight: 600; }
+.brand-h { margin: 0; font-size: inherit; line-height: inherit; }
+.nav { display: flex; flex-wrap: wrap; gap: 0 18px; font-variant-caps: all-small-caps; letter-spacing: 0.06em; }
+.nav a { padding: 11px 0; }
+
+/* Rows: the reading column plus the margin. Wraps under the column on narrow screens. */
+.row { display: flex; flex-wrap: wrap; gap: 20px var(--gap); align-items: flex-start; }
+.col { flex: 999 1 520px; min-width: 0; max-width: var(--col); }
+.margin { flex: 1 1 240px; min-width: 0; max-width: var(--margin); }
+.head { align-items: flex-end; margin-bottom: 24px; }
+/* With nothing in the margin, a page's content uses the whole width under the header. */
+.row > .margin:not(:has(*)) { display: none; }
+.row:not(:has(> .margin > *)) > .col { max-width: none; }
+.prose.home, .page .prose, .til .prose { max-width: none; }
+.crumb { display: block; font-family: var(--mono); font-size: 12px; color: var(--muted); overflow-wrap: anywhere; margin-bottom: 10px; }
+.crumb a { color: var(--muted); }
+h1 { margin: 0; font-size: 40px; line-height: 1.1; font-weight: 600; }
+.lede { margin: 14px 0 0; }
+.meta { font-family: var(--mono); font-size: 12px; line-height: 1.7; color: var(--muted); }
+.meta a { color: var(--muted); }
+
+/* Prose */
+.prose { max-width: var(--col); border-top: 1px solid var(--ink); padding-top: 4px; }
+.home { border-top: none; }
+.prose p, .prose ul, .prose ol, .prose blockquote, .prose pre, .prose table { margin: 0 0 1.1em; }
+.prose h2, .prose h3 { font-weight: 600; line-height: 1.25; margin: 1.6em 0 0.6em; }
+.prose h2 { font-size: 24px; }
+.prose h3 { font-size: 20px; }
+.prose .anchor { text-decoration: none; margin-left: -1.1em; padding-right: 0.3em; color: var(--underline); }
+.prose .anchor::before { content: '¶'; font-size: 16px; visibility: hidden; }
+.prose h2:hover .anchor::before, .prose h3:hover .anchor::before { visibility: visible; }
+.prose img { max-width: 100%; height: auto; border: 1px solid var(--rule); }
+.prose blockquote { border-left: 2px solid var(--ink); padding-left: 16px; margin-left: 0; color: var(--soft); }
+.prose code { font-family: var(--mono); font-size: 0.82em; background: var(--faint); padding: 1px 4px; }
+.prose pre { font-family: var(--mono); font-size: 13.5px; line-height: 1.55; background: var(--card); border: 1px solid var(--rule); padding: 14px 16px; overflow-x: auto; }
+.prose pre code { background: none; padding: 0; font-size: inherit; }
+.prose table { border-collapse: collapse; display: block; overflow-x: auto; font-size: 16px; }
+.prose th, .prose td { border-bottom: 1px solid var(--rule); padding: 6px 12px 6px 0; text-align: left; }
+.prose hr { border: none; text-align: center; margin: 2em 0; }
+.prose hr::after { content: '· · ·'; font-family: var(--mono); color: var(--underline); letter-spacing: 0.3em; }
+
+/* Code: black and white, structure through weight and slant (syntect CSS classes) */
+.prose pre .comment { color: var(--muted); font-style: italic; }
+.prose pre .keyword, .prose pre .storage { font-weight: 600; }
+.prose pre .string { color: var(--soft); }
+.prose pre .entity.name { text-decoration: underline; text-decoration-color: var(--rule); }
+
+/* Sidenotes: floated into the margin; tap the number to open them inline on narrow screens. */
+.sidenote, .marginnote {
+  float: right; clear: right;
+  margin-right: calc(-1 * (var(--margin) + var(--gap)));
+  width: var(--margin);
+  font-size: 14px; line-height: 1.5; color: var(--soft);
+  margin-top: 4px; margin-bottom: 12px;
+  position: relative;
+}
+.sidenote-n { font-family: var(--mono); font-size: 11px; color: var(--ink); margin-right: 4px; text-decoration: none; padding: 0 2px; }
+.sidenote-mark sup, .sidenote-ref { font-family: var(--mono); font-size: 11px; margin-left: 1px; }
+.sidenote-mark sup { padding: 0 2px; }
+.sidenote-jump, .sidenote-ref a { text-decoration: none; }
+input.margin-toggle { display: none; }
+label.margin-toggle:not(.sidenote-number) { display: none; }
+/* The number in the text is a link to the note; on narrow screens a label instead. */
+.sidenote-mark .sidenote-number { display: none; }
+.sidenote:target, .sidenote:hover { color: var(--ink); }
+/* A note and its number in the text light up together (garden.js), and whichever
+   one a link jumped to is marked. */
+.sidenote.is-paired, .sidenote:target { color: var(--ink); background: var(--faint); box-shadow: 0 0 0 4px var(--faint); }
+.sidenote-mark.is-paired sup, .sidenote-ref a.is-paired, .sidenote-mark:target sup { background: var(--ink); color: var(--ground); }
+.sidenote.is-paired .sidenote-n { background: var(--ink); color: var(--ground); }
+/* Jumping between them leaves the surrounding text in view, not at the very top. */
+.sidenote, .sidenote-mark { scroll-margin-top: 30vh; }
+
+/* Contents: the first thing in the margin, beside the opening paragraphs. */
+.toc {
+  float: right; clear: right;
+  margin-right: calc(-1 * (var(--margin) + var(--gap)));
+  width: var(--margin); margin-top: 16px; margin-bottom: 20px;
+  display: flex; flex-direction: column; gap: 2px;
+  font-size: 14px; line-height: 1.45;
+  border-top: 1px solid var(--rule); padding-top: 8px;
+}
+.toc a { text-decoration: none; padding: 2px 0; align-self: flex-start; }
+.toc a:hover { text-decoration: underline; }
+.toc .toc-3 { margin-left: 14px; color: var(--soft); }
+
+/* Link marks, drawn from the link's own attributes (no JavaScript needed). */
+/* In prose the mark is inline text that starts with a word joiner (U+2060), and the
+   link's own text ends with one, so a line never breaks before the mark or before
+   the punctuation after it. (An inline-block would be a break opportunity.) */
+a[data-mark]::after {
+  content: '\2060' attr(data-mark);
+  font-family: var(--mono); font-size: 10px; line-height: 1; white-space: nowrap;
+  border: 1px solid currentColor; padding: 1px 3px; margin-left: 4px;
+  position: relative; top: -2px;
+}
+a[data-mark="↗"]::after, a[data-mark="▶"]::after {
+  border: none; padding: 0; margin-left: 2px; font-size: 12px; top: 0;
+}
+.mk {
+  font-family: var(--mono); font-size: 12px; line-height: 1;
+  white-space: nowrap; display: inline-block; text-decoration: none;
+}
+.mk.boxed { font-size: 10px; border: 1px solid var(--ink); padding: 1px 3px; }
+/* Logos for well-known sites (Simple Icons, CC0), drawn in the text colour through a
+   mask so they stay black and white and follow the link's hover colour. In prose the
+   logo is the mask over an inline box's padding, so it wraps like text. */
+a[data-icon]::after {
+  content: '\2060';
+  font-size: inherit; border: none; top: 0;
+  padding: 0 0 0 1.05em; margin-left: 0;
+  background-color: currentColor;
+  -webkit-mask: var(--icon) right 0.02em top 50% / 0.8em 0.8em no-repeat;
+  mask: var(--icon) right 0.02em top 50% / 0.8em 0.8em no-repeat;
+}
+.mk[data-icon] {
+  width: 12px; height: 12px; vertical-align: -1px;
+  background-color: currentColor;
+  -webkit-mask: var(--icon) center / contain no-repeat;
+  mask: var(--icon) center / contain no-repeat;
+}
+[data-icon="github"] { --icon: url(/static/icons/github.svg); }
+[data-icon="x"] { --icon: url(/static/icons/x.svg); }
+[data-icon="linkedin"] { --icon: url(/static/icons/linkedin.svg); }
+[data-icon="youtube"] { --icon: url(/static/icons/youtube.svg); }
+[data-icon="wikipedia"] { --icon: url(/static/icons/wikipedia.svg); }
+[data-icon="archlinux"] { --icon: url(/static/icons/archlinux.svg); }
+[data-icon="google"] { --icon: url(/static/icons/google.svg); }
+[data-icon="ycombinator"] { --icon: url(/static/icons/ycombinator.svg); }
+[data-icon="devdotto"] { --icon: url(/static/icons/devdotto.svg); }
+[data-icon="amazon"] { --icon: url(/static/icons/amazon.svg); }
+[data-icon="reddit"] { --icon: url(/static/icons/reddit.svg); }
+[data-icon="stackoverflow"] { --icon: url(/static/icons/stackoverflow.svg); }
+[data-icon="mastodon"] { --icon: url(/static/icons/mastodon.svg); }
+[data-icon="bluesky"] { --icon: url(/static/icons/bluesky.svg); }
+[data-icon="medium"] { --icon: url(/static/icons/medium.svg); }
+[data-icon="substack"] { --icon: url(/static/icons/substack.svg); }
+[data-icon="arxiv"] { --icon: url(/static/icons/arxiv.svg); }
+[data-icon="email"] { --icon: url(/static/icons/email.svg); }
+[data-icon="pdf"] { --icon: url(/static/icons/pdf.svg); }
+a.wikilink-missing { text-decoration-style: dashed; cursor: help; }
+
+/* After the note */
+.after { margin-top: 32px; }
+.after section, .row section { margin-bottom: 32px; }
+h2.sc {
+  margin: 0 0 8px; font-size: 19px; font-weight: 600;
+  font-variant-caps: all-small-caps; letter-spacing: 0.08em;
+  border-bottom: 1px solid var(--rule); padding-bottom: 4px;
+}
+h2.sc .count { letter-spacing: 0; font-variant-caps: normal; font-weight: 400; }
+.backlink { margin-bottom: 14px; }
+.backlink-head { font-size: 16px; font-weight: 600; }
+.backlink p { margin: 2px 0 0; font-size: 15px; line-height: 1.5; color: var(--soft); }
+.empty { font-size: 16px; font-style: italic; color: var(--muted); margin: 0; }
+.linkout { display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 12px; font-size: 16px; padding: 4px 0; }
+.linkout .mk { min-width: 22px; text-align: center; }
+.pager { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 24px; font-size: 16px; border-top: 1px solid var(--ink); padding-top: 12px; }
+.pager a { padding: 8px 0; }
+.aside { border-top: 1px solid var(--rule); padding-top: 8px; display: flex; flex-direction: column; gap: 4px; font-size: 15px; line-height: 1.5; }
+.aside.standing { border-top: 2px solid var(--ink); }
+.dated { display: flex; gap: 16px; align-items: baseline; font-size: 17px; line-height: 1.5; padding: 3px 0; }
+.dated .mono { flex: 0 0 auto; min-width: 42px; }
+.more { display: inline-block; font-size: 16px; padding-top: 10px; }
+.more.mono { font-size: 13px; }
+
+/* Home: an index of every kind of note. Writing in the reading column, the other
+   kinds beside it in the margin's place; one column on narrow screens. */
+.index {
+  margin-top: 32px; display: grid; gap: 8px var(--gap);
+  grid-template-columns: minmax(0, var(--col)) minmax(0, 1fr);
+}
+.index section + section { margin-top: 28px; }
+.index-side .dated, .index-side .stacked { font-size: 16px; }
+.index-side .dated .mono { min-width: 0; }
+.index-side h2.sc { margin-top: 0; }
+.stacked { display: flex; flex-direction: column; padding: 4px 0; line-height: 1.4; }
+.stacked .mono { font-size: 11.5px; margin-top: 2px; }
+@media (max-width: 1139px) {
+  .index { grid-template-columns: minmax(0, 1fr); }
+  .index-side { margin-top: 28px; }
+}
+h2.sc a { color: inherit; text-decoration: none; }
+h2.sc a:hover { text-decoration: underline; }
+.year { display: flex; gap: 16px; align-items: baseline; padding: 6px 0; border-top: 1px solid var(--faint); }
+.year:first-of-type { border-top: none; }
+.year .y { flex: 0 0 36px; color: var(--muted); }
+.year > div { flex: 1; min-width: 0; }
+.year .dated { padding: 2px 0; }
+.til { margin-bottom: 40px; }
+.til h2 { margin: 0; font-size: 24px; }
+.til h2 a { text-decoration: none; }
+.til .prose { border-top: none; margin-top: 8px; }
+
+/* Reading list */
+.bookmark { display: flex; gap: 16px; align-items: baseline; padding: 6px 0; border-top: 1px solid var(--faint); }
+.bookmark .day { flex: 0 0 22px; }
+.bookmark > div { display: flex; flex-wrap: wrap; gap: 2px 10px; align-items: baseline; min-width: 0; }
+.bookmark a { font-size: 17px; line-height: 1.45; }
+.reading p.more { padding: 8px 0 0 38px; margin: 0; }
+
+/* Preview cards: the content of a popup, built with the site */
+.card {
+  background: var(--card); border: 1px solid var(--ink); box-shadow: 4px 4px 0 var(--ink);
+  padding: 14px 16px; display: flex; flex-direction: column; gap: 7px;
+  font-size: 14px; line-height: 1.5;
+}
+.card-path { font-family: var(--mono); font-size: 11px; color: var(--muted); overflow-wrap: anywhere; }
+.card-title { font-size: 18px; font-weight: 600; line-height: 1.25; }
+.card-meta { font-size: 13px; font-style: italic; color: var(--muted); }
+.card-foot { font-family: var(--mono); font-size: 11px; color: var(--muted); border-top: 1px solid var(--rule); padding-top: 7px; }
+/* The link whose popup is open: inverted, whatever colour its list gives it, and
+   only as wide as its text (lines of a wrapped link each get their own box). */
+a.is-previewed {
+  background: var(--ink); color: var(--ground) !important; text-decoration: none;
+  -webkit-box-decoration-break: clone; box-decoration-break: clone;
+}
+.stacked > a { align-self: flex-start; }
+
+/* Popups: a card in a small window. garden.js places them and fills a note's popup
+   with its whole text. */
+.pop {
+  position: fixed; z-index: 10;
+  width: min(600px, calc(100vw - 16px));
+  display: flex; flex-direction: column;
+  background: var(--card); border: 1px solid var(--ink); box-shadow: 4px 4px 0 var(--ink);
+}
+/* Popups fade and rise into place (from the side they open on), and fade out. */
+.pop { animation: pop-in 140ms cubic-bezier(.2, .7, .3, 1); }
+.pop.is-above { --rise: -6px; }
+.pop.is-leaving { opacity: 0; transition: opacity 110ms ease-in; pointer-events: none; }
+@keyframes pop-in { from { opacity: 0; transform: translateY(var(--rise, 6px)); } }
+/* While its content loads, a bar runs along the bottom of the title bar. */
+.is-loading .pop-bar::after {
+  content: ''; position: absolute; left: 0; bottom: -1px; width: 28%; height: 2px;
+  background: var(--ink); animation: pop-load 900ms ease-in-out infinite alternate;
+}
+@keyframes pop-load { from { left: 0; } to { left: 72%; } }
+@media (prefers-reduced-motion: reduce) {
+  .pop, .is-loading .pop-bar::after { animation: none; }
+  .pop.is-leaving { transition: none; }
+}
+.pop-bar {
+  position: relative;
+  display: flex; align-items: center; gap: 2px; padding: 2px 8px 2px 4px;
+  border-bottom: 1px solid var(--ink); background: var(--ground);
+  cursor: grab; user-select: none; touch-action: none;
+}
+.pop-bar .pop-title { cursor: inherit; }
+.pop-dragging, .pop-dragging * { cursor: grabbing !important; user-select: none; }
+.pop-resizing, .pop-resizing * { cursor: nwse-resize !important; user-select: none; }
+.pop-dragging iframe, .pop-resizing iframe { pointer-events: none; }
+.pop-grip {
+  position: absolute; right: 0; bottom: 0; width: 14px; height: 14px; cursor: nwse-resize;
+  background: linear-gradient(135deg, transparent 55%, var(--ink) 55% 62%, transparent 62% 75%, var(--ink) 75% 82%, transparent 82%);
+}
+.is-max .pop-grip, .is-sheet .pop-grip, .is-collapsed .pop-grip { display: none; }
+.pop.is-sized .pop-body { flex: 1; min-height: 0; max-height: none; }
+.is-sized.is-frame .pop-body { display: flex; }
+.is-sized .pop-frame { height: auto; flex: 1; }
+.pop-bar button {
+  appearance: none; border: 0; background: none; color: var(--ink); padding: 0;
+  width: 26px; height: 26px; display: grid; place-items: center; cursor: pointer;
+}
+.pop-bar button:hover, .is-pinned [data-act="pin"], .is-max [data-act="max"] { background: var(--ink); color: var(--ground); }
+.pop-title {
+  flex: 1; min-width: 0; margin-left: 8px; text-align: right;
+  font-family: var(--mono); font-size: 11px; color: var(--muted);
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.pop-body { overflow: auto; overscroll-behavior: contain; max-height: var(--pop-h, min(60vh, 560px)); }
+.pop .card { border: 0; box-shadow: none; padding: 14px 18px 16px; }
+.pop.is-hidden { display: none; }
+.bookmark .mono a, .aside .mono a { color: var(--muted); text-decoration-color: var(--rule); }
+.bookmark .mono a:hover, .aside .mono a:hover { color: var(--ink); text-decoration-color: var(--ink); }
+.tag-tree, .tag-tree ul { list-style: none; margin: 0; padding: 0; }
+.tag-tree ul { padding-left: 20px; }
+.tag-tree li { padding: 2px 0; }
+.tag-tree > li { padding-top: 8px; }
+/* A maximized note shows the note's own page, so it looks exactly as it does there. */
+.pop-page { display: none; flex: 1; width: 100%; border: 0; background: var(--ground); }
+.is-max .pop-page { display: block; }
+.is-max.has-page .pop-body { display: none; }
+/* A page shown inside a popup: no site header or footer. */
+.embedded .top, .embedded .foot { display: none; }
+.embedded .wrap { padding-top: 20px; }
+
+/* GitHub files and diffs. */
+.pop.is-code { width: min(800px, calc(100vw - 16px)); }
+.pop-code {
+  margin: 0; padding: 10px 0; font-family: var(--mono); font-size: 12.5px; line-height: 1.55;
+  white-space: pre; overflow-x: auto; tab-size: 4;
+}
+.pop-code .ln { display: block; padding-right: 14px; }
+.pop-code .ln::before {
+  content: attr(data-n); display: inline-block; width: 4em; padding-right: 1.2em;
+  text-align: right; color: var(--underline); user-select: none;
+}
+.pop-code .ln.is-hl { background: var(--faint); box-shadow: inset 3px 0 0 var(--ink); }
+.pop-code.is-diff { padding: 4px 0; }
+.pop-code.is-diff span { display: block; padding: 0 14px; }
+.pop-code.is-diff .add { background: var(--faint); box-shadow: inset 3px 0 0 var(--ink); }
+.pop-code.is-diff .del { color: var(--muted); background: #F6F6F3; box-shadow: inset 3px 0 0 var(--rule); }
+.pop-code.is-diff .hunk { color: var(--muted); padding-top: 6px; }
+.pop-diff-title { padding: 12px 14px 8px; font-weight: 600; line-height: 1.35; }
+.pop-diff-file {
+  position: sticky; top: 0; padding: 5px 14px; background: var(--ground);
+  border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule);
+  font-family: var(--mono); font-size: 12px; overflow-wrap: anywhere;
+}
+.pop-diff-file .mono { margin-left: 8px; }
+/* A GitHub repository or folder. */
+.pop-files {
+  list-style: none; margin: 0; padding: 8px 18px 12px; columns: 2 180px; column-gap: 24px;
+  border-top: 1px solid var(--rule); font-family: var(--mono); font-size: 12.5px; line-height: 1.8;
+}
+.pop-files li { break-inside: avoid; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.pop-readme { display: block; width: 100%; min-height: 40px; border: 0; border-top: 1px solid var(--rule); background: #fff; }
+/* An outside page in a frame: wider, and the frame does its own scrolling. */
+.pop.is-frame { width: min(800px, calc(100vw - 16px)); }
+.is-frame .pop-body { overflow: hidden; }
+.pop-frame { display: block; width: 100%; height: var(--pop-h, min(70vh, 680px)); border: 0; background: #fff; }
+.is-max.is-frame .pop-body { display: flex; }
+.is-max .pop-frame { height: auto; flex: 1; }
+.is-collapsed .pop-body { display: none; }
+.pop.is-collapsed { height: auto !important; }
+.is-collapsed [data-act="collapse"] { background: var(--ink); color: var(--ground); }
+.pop.is-max { inset: 16px !important; width: auto !important; height: auto !important; }
+.pop.is-max .pop-body { flex: 1; max-height: none; }
+.pop.is-max .card { max-width: calc(var(--col) + 40px); margin: 0 auto; }
+.pop.is-sheet { left: 8px; right: 8px; width: auto; }
+.pop.is-sheet .pop-bar { cursor: default; }
+
+/* A whole note in a popup: one column, sidenotes and contents inline. */
+.pop .prose { border-top: 0; padding-top: 2px; font-size: 16px; line-height: 1.6; }
+.pop .prose h2 { font-size: 20px; }
+.pop .prose h3 { font-size: 17px; }
+.pop .prose .anchor { display: none; }
+.pop .prose pre { font-size: 12.5px; }
+.pop .sidenote, .pop .marginnote {
+  display: block; float: none; width: auto; margin: 8px 0 12px;
+  border-left: 2px solid var(--ink); padding-left: 12px;
+}
+.pop label.margin-toggle:not(.sidenote-number) { display: none; }
+.pop .sidenote-mark .sidenote-number { display: none; }
+.pop .sidenote-mark .sidenote-jump { display: inline; }
+.pop .toc { float: none; width: auto; margin: 4px 0 18px; }
+.is-full .card-foot { margin-top: 4px; }
+/* A whole page of this site in a popup (from the header links). */
+.pop-main { font-size: 16px; }
+.pop-main .row.head { margin-bottom: 12px; }
+.pop-main h1 { font-size: 28px; margin: 0; }
+.pop-main .margin { max-width: none; }
+
+/* Narrow screens: no margin, so sidenotes open inline. */
+/* 700 column + 56 gap + 340 margin + 32 padding + room for a scrollbar */
+@media (max-width: 1139px) {
+  .sidenote, .marginnote { display: none; }
+  label.margin-toggle { cursor: pointer; }
+  label.margin-toggle:not(.sidenote-number) { display: inline; }
+  .sidenote-mark .sidenote-number { display: inline; }
+  .sidenote-jump { display: none; }
+  .margin-toggle:checked + .sidenote, .margin-toggle:checked + .marginnote, .sidenote:target {
+    display: block; float: none; width: auto; margin: 8px 0 12px;
+    border-left: 2px solid var(--ink); padding-left: 12px;
+  }
+  h1 { font-size: 34px; }
+  .toc { float: none; width: auto; margin: 12px 0 20px; }
+}

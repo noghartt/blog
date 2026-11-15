@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block title %}Today I learned · noghartt{% endblock %}
+{% block main %}
+<div class="row head">
+  <div class="col">
+    <span class="crumb"><a href="/">noghartt</a> / til</span>
+    <h1>Today I learned</h1>
+  </div>
+  <div class="margin"></div>
+</div>
+{%- for e in entries %}
+<section class="til" id="{{ e.note.slug }}">
+  <div class="row">
+    <div class="col">
+      <h2><a href="#{{ e.note.slug }}">{{ e.note.title }}</a></h2>
+      <span class="mono">{{ e.note.date_iso }}{% if e.note.tags %} · {{ e.note.tags|join(", ") }}{% endif %}</span>
+    </div>
+    <div class="margin"></div>
+  </div>
+  <div class="prose">
+{{ e.body|safe }}
+  </div>
+</section>
+{%- endfor %}
+{% endblock %}

@@ -7,7 +7,8 @@ const READWISE_READER_API_KEY = `Token ${process.env.READWISE_READER_API_KEY}`;
 
 const fetchBookmarks = async ({ nextPage: nextPageArg } = { nextPage: null }) => {
   const queryParams = new URLSearchParams();
-  queryParams.append('page_size', '1');
+  // 100 is the API's maximum; 1 meant one request (and one rate-limit hit) per document.
+  queryParams.append('page_size', '100');
   if (nextPageArg) {
     queryParams.append('pageCursor', nextPageArg);
   }
@@ -39,7 +40,13 @@ const fetchBookmarks = async ({ nextPage: nextPageArg } = { nextPage: null }) =>
     const data = await response.json();
 
     const dataFiltered = data.results.filter(bookmark => {
-      if (['rss', 'note', 'email', 'highlight'].includes(bookmark.category)) {
+      // Reader's Feed holds every item from subscriptions (podcasts, newsletters,
+      // channels) whether or not it was saved: only keep what was saved to the library.
+      if (bookmark.location === 'feed') {
+        return false;
+      }
+
+      if (['rss', 'note', 'email', 'highlight', 'podcast'].includes(bookmark.category)) {
         return false;
       }
 
@@ -70,22 +77,23 @@ const writeJsonFile = async (data: any) => {
 (async () => {
   const bookmarks = [];
   let nextPage = null;
+  // A failed request must not write a partial list: the workflow would open a pull
+  // request deleting every bookmark after the failure. Fail instead and keep the file.
   try {
     do {
       console.log('Fetching bookmarks from:', nextPage ?? 'start');
       const response = await fetchBookmarks({ nextPage });
       if (response.error) {
         console.log('Error while fetching:', response.error);
-        break;
+        process.exit(1);
       }
 
       nextPage = response.nextPage;
       bookmarks.push(...response.data);
     } while (nextPage);
-
-
   } catch (e) {
     console.log('Error while fetching:', e);
+    process.exit(1);
   }
 
   const mappedBookmarks = bookmarks.map(bookmark => ({
@@ -95,6 +103,8 @@ const writeJsonFile = async (data: any) => {
     savedAt: bookmark.saved_at,
     description: bookmark.summary || null,
     tags: Object.values(bookmark.tags || {}).map(tags => tags.name),
+    category: bookmark.category,
+    location: bookmark.location,
   }));
 
   await writeJsonFile(mappedBookmarks);

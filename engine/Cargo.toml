@@ -1,0 +1,34 @@
+[package]
+name = "garden"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.85"
+description = "Static site generator for noghartt.dev, built around a database of links"
+publish = false
+
+[[bin]]
+name = "garden"
+path = "src/main.rs"
+
+[dependencies]
+anyhow = "1"
+blake3 = "1"
+chrono = { version = "0.4", features = ["serde"] }
+clap = { version = "4", features = ["derive"] }
+comrak = { version = "0", default-features = false, features = ["syntect-fancy"] }
+minijinja = { version = "2", features = ["loader"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+serde_yaml = "0.9"
+url = "2"
+walkdir = "2"
+
+# links fetch / sync
+reqwest = { version = "0.12", default-features = false, features = ["blocking", "json", "rustls-tls"] }
+scraper = "0.29"
+
+# serve
+axum = "0.8"
+notify = "8"
+tokio = { version = "1", features = ["rt-multi-thread", "macros", "sync", "time", "net"] }
+tower-http = { version = "0.6", features = ["fs", "set-header"] }

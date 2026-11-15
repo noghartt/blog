@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block title %}Lists · noghartt{% endblock %}
+{% block main %}
+<div class="row head">
+  <div class="col">
+    <span class="crumb"><a href="/">noghartt</a> / lists</span>
+    <h1>Lists</h1>
+  </div>
+  <div class="margin"></div>
+</div>
+<div class="row">
+  <div class="col">
+    {%- for n in lists %}
+    <div class="dated"><a href="{{ n.url }}">{{ n.title }}</a></div>
+    {%- endfor %}
+  </div>
+  <div class="margin"></div>
+</div>
+{% endblock %}

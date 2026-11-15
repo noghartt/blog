@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% block title %}{{ heading or "Writing" }} · noghartt{% endblock %}
+{% block main %}
+<div class="row head">
+  <div class="col">
+    <span class="crumb"><a href="/">noghartt</a> / {% for c in crumbs or [] %}<a href="{{ c[0] }}">{{ c[1] }}</a> / {% endfor %}{{ crumb or "writing" }}</span>
+    <h1>{{ heading or "Writing" }}</h1>
+  </div>
+  <div class="margin"></div>
+</div>
+<div class="row">
+  <div class="col">
+    {%- for y in years %}
+    <section>
+      <h2 class="sc">{{ y.year }} <span class="mono count">{{ y.notes|length }}</span></h2>
+      {%- for n in y.notes %}
+      <div class="dated"><span class="mono">{{ n.date_iso[5:] if n.date_iso else "" }}</span><a href="{{ n.url }}" data-preview="n:{{ n.key }}">{{ n.title }}</a></div>
+      {%- endfor %}
+    </section>
+    {%- endfor %}
+    {%- if lists %}
+    <section>
+      <h2 class="sc"><a href="/lists/">Lists</a> <span class="mono count">{{ lists|length }}</span></h2>
+      {%- for n in lists %}
+      <div class="dated"><a href="{{ n.url }}" data-preview="n:{{ n.key }}">{{ n.title }}</a></div>
+      {%- endfor %}
+    </section>
+    {%- endif %}
+  </div>
+  <div class="margin">
+    {%- if tags %}
+    <div class="aside">
+      <span class="mono"><a href="/tags/">tags</a></span>
+      <span>{% for t in tags %}<a href="/tag/{{ t[0] }}/">{{ t[0] }}</a> <span class="mono">{{ t[1] }}</span>{% if not loop.last %} · {% endif %}{% endfor %}</span>
+    </div>
+    {%- endif %}
+  </div>
+</div>
+{% endblock %}
