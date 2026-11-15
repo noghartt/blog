@@ -1,4 +1,3 @@
-mod compare;
 mod content;
 mod fetch;
 mod links;
@@ -19,7 +18,7 @@ use std::time::Instant;
 #[derive(Parser)]
 #[command(name = "garden", version)]
 struct Cli {
-    /// Repository root (the folder with src/content). Found automatically by default.
+    /// Repository root (the folder with content/). Found automatically by default.
     #[arg(long, global = true)]
     root: Option<PathBuf>,
     #[command(subcommand)]
@@ -43,14 +42,6 @@ enum Command {
         #[arg(long)]
         drafts: bool,
     },
-    /// Check that every post's words survive the move from an Astro build.
-    Compare {
-        /// The Astro build output (e.g. `dist/` after `pnpm build`).
-        astro: PathBuf,
-        /// The engine's output, engine/dist by default.
-        #[arg(long)]
-        engine: Option<PathBuf>,
-    },
     /// Work with the links database (data/links.jsonl).
     Links {
         #[command(subcommand)]
@@ -62,7 +53,7 @@ enum Command {
 enum LinksCommand {
     /// Record every outside link found in the notes (adds `post` sources).
     Scan,
-    /// Import the Reader export the daily workflow writes (src/content/bookmarks/bookmarks.json).
+    /// Import the Reader export the daily workflow writes (data/bookmarks.json).
     ImportReaderJson { path: Option<PathBuf> },
     /// Pull saved documents straight from Readwise Reader (needs READWISE_READER_API_KEY).
     SyncReader,
@@ -95,11 +86,11 @@ enum LinksCommand {
 fn find_root() -> Result<PathBuf> {
     let mut dir = std::env::current_dir()?;
     loop {
-        if dir.join("src/content").is_dir() && dir.join("engine").is_dir() {
+        if dir.join("content").is_dir() && dir.join("engine").is_dir() {
             return Ok(dir);
         }
         if !dir.pop() {
-            bail!("could not find the repository root (a folder with src/content and engine/)");
+            bail!("could not find the repository root (a folder with content/ and engine/)");
         }
     }
 }
@@ -155,10 +146,6 @@ fn main() -> Result<()> {
             );
         }
         Command::Serve { port, drafts } => serve::run(Paths::new(root, None), port, drafts)?,
-        Command::Compare { astro, engine } => {
-            let paths = Paths::new(root, engine);
-            compare::run(&paths.root, &astro, &paths.out)?;
-        }
         Command::Links { command } => {
             let paths = Paths::new(root, None);
             let mut db = LinkDb::load(&paths.db())?;

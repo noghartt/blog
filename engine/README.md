@@ -5,7 +5,8 @@ database of links. It builds the live site: `.github/workflows/deploy.yml` runs
 `garden links import-reader-json` (the daily bookmarks update) and `garden build`
 on every push to `main`, and publishes `engine/dist` to GitHub Pages.
 
-It reads the same `src/content/**` as Astro, so nothing in the content moves.
+It reads everything it publishes from `content/` (notes and pages) and `data/`
+(the links database and the Reader export), and copies `public/` as it is.
 
 ## Commands
 
@@ -14,10 +15,9 @@ Run from anywhere inside the repository, in the dev shell (`nix develop`):
 ```sh
 cargo run --release --manifest-path engine/Cargo.toml -- build          # -> engine/dist
 cargo run --release --manifest-path engine/Cargo.toml -- serve          # localhost:4321, rebuilds on change
-cargo run --release --manifest-path engine/Cargo.toml -- compare <astro-dist>
 
 # links database (data/links.jsonl)
-garden links import-reader-json     # from src/content/bookmarks/bookmarks.json (what the daily workflow writes)
+garden links import-reader-json     # from data/bookmarks.json (what the daily workflow writes)
 garden links sync-reader            # straight from Readwise Reader, needs READWISE_READER_API_KEY
 garden links import-archivebox <archivebox list --json output>
 garden links scan                   # record every outside link found in the notes
@@ -31,15 +31,15 @@ garden links stats
 
 ## Pages
 
-Everything the Astro site had: `/`, `/blog/` and every post (drafts and hidden
+`/`, `/blog/` and every post (drafts and hidden
 posts too, at their own address but unlisted; drafts are listed at `/blog/drafts/`),
 `/tags/` and `/tag/<tag>/`, `/lists/` and every list, `/til/`, `/now/` (from
-`engine/content/now.md`), `/changelog/` (from `src/content/changelog/changelog.json`),
+`content/pages/now.md`), `/changelog/` (from `content/changelog.json`),
 `/bookmarks/`, `/bookmarks/tags/` and `/bookmarks/tags/<tag>/` (a tag holds its
 subtags), `/rss.xml`, `/bookmarks/rss.xml`. New: `/bookmarks/site/<site>/` for every
-site with 3 or more bookmarks. Any other `engine/content/<name>.md` becomes `/<name>/`.
+site with 3 or more bookmarks. Any other `content/pages/<name>.md` becomes `/<name>/`.
 
-Also as on the Astro site: every post's old address (`/<slug>/`) redirects to
+Every post's old address (`/<slug>/`) redirects to
 `/blog/<slug>/` (a page that refreshes to it, since GitHub Pages can't redirect),
 `sitemap-index.xml` (without drafts, hidden notes or redirects), Umami analytics
 (production builds only), and canonical, Open Graph and Twitter tags on every page
@@ -54,7 +54,7 @@ hash of what they show; bump `VERSION` in `og.rs` after changing the drawing.
 ## How a build works
 
 ```
-src/content/** ──► analyze every note ──► graph ──► render every page ──► engine/dist
+content/** ───────► analyze every note ──► graph ──► render every page ──► engine/dist
 data/links.jsonl ─────────────────────────┘
 ```
 
@@ -185,7 +185,6 @@ readable. One record per outside URL, whatever the source:
 - Set `GARDEN_ARCHIVE_URL` to your ArchiveBox's public address to make preview
   cards link to the archived copy.
 
-## Not ported yet
+## Not done yet
 
-The generated share images for posts and lists (`og.png`, satori + resvg): link
-previews show the title and description without an image. Dark mode.
+Dark mode.

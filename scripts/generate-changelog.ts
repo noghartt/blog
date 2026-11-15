@@ -8,7 +8,7 @@ const cwd = process.cwd();
 
   console.log(title);
 
-  const changelogPath = path.join(cwd, 'src', 'content', 'changelog', 'changelog.json');
+  const changelogPath = path.join(cwd, 'content', 'changelog.json');
   const changelog = await fs.readFile(changelogPath, 'utf-8');
   const changelogParse = JSON.parse(changelog);
 

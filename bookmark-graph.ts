@@ -1,5 +1,5 @@
 import http from 'node:http';
-import bookmarks from './src/content/bookmarks/bookmarks.json' assert { type: 'json' };
+import bookmarks from './data/bookmarks.json' assert { type: 'json' };
 
 const getNodesFromBookmarks = () => {
   const nodes = {
