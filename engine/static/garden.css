@@ -174,17 +174,21 @@ a[data-mark="↗"]::after, a[data-mark="▶"]::after {
   white-space: nowrap; display: inline-block; text-decoration: none;
 }
 .mk.boxed { font-size: 10px; border: 1px solid var(--ink); padding: 1px 3px; }
-/* Logos for well-known sites (Simple Icons, CC0), drawn in the text colour through a
-   mask so they stay black and white and follow the link's hover colour. In prose the
-   logo is the mask over an inline box's padding, so it wraps like text. */
+/* Logos for well-known sites (Simple Icons, CC0, drawn black). In prose the logo is
+   the background of an inline box's padding, so it wraps like text and never starts a
+   line on its own. It is an image, not a mask in the text colour: Safari can't mask an
+   inline box (it draws a solid square with the logo cut out). So it follows the link's
+   colour by hand: faded like the hover colour, inverted on an inverted link. */
 a[data-icon]::after {
   content: '\2060';
   font-size: inherit; border: none; top: 0;
   padding: 0 0 0 1.05em; margin-left: 0;
-  background-color: currentColor;
-  -webkit-mask: var(--icon) right 0.02em top 50% / 0.8em 0.8em no-repeat;
-  mask: var(--icon) right 0.02em top 50% / 0.8em 0.8em no-repeat;
+  background: var(--icon) right 0.02em top 50% / 0.8em 0.8em no-repeat;
 }
+@media (hover: hover) {
+  a[data-icon]:hover::after { opacity: 0.7; }
+}
+a.is-previewed[data-icon]::after { filter: invert(1); opacity: 1; }
 .mk[data-icon] {
   width: 12px; height: 12px; vertical-align: -1px;
   background-color: currentColor;
@@ -337,7 +341,18 @@ a.is-previewed {
   appearance: none; border: 0; background: none; color: var(--ink); padding: 0;
   width: 26px; height: 26px; display: grid; place-items: center; cursor: pointer;
 }
-.pop-bar button:hover, .is-pinned [data-act="pin"], .is-max [data-act="max"] { background: var(--ink); color: var(--ground); }
+.is-pinned [data-act="pin"], .is-max [data-act="max"] { background: var(--ink); color: var(--ground); }
+/* (Only for a mouse: after a tap, a phone keeps the button "hovered", which would
+   look like a switched-on pin.) */
+@media (hover: hover) {
+  .pop-bar button:hover { background: var(--ink); color: var(--ground); }
+}
+/* Fingers need bigger buttons than a mouse does. */
+@media (pointer: coarse) {
+  .pop-bar { gap: 6px; }
+  .pop-bar button { width: 40px; height: 40px; }
+  .pop-bar button svg { width: 16px; height: 16px; }
+}
 .pop-title {
   flex: 1; min-width: 0; margin-left: 8px; text-align: right;
   font-family: var(--mono); font-size: 11px; color: var(--muted);

@@ -138,11 +138,18 @@ impl Link {
         })
     }
 
+    /// The fetched title, else the first text a note uses for the link that says
+    /// what it is ("here" or "this post" don't, and would title a preview "here"),
+    /// else the address itself.
     pub fn display_title(&self) -> String {
-        self.title
-            .clone()
-            .or_else(|| self.post_text().map(str::to_owned))
-            .unwrap_or_else(|| self.url.clone())
+        let descriptive = self.sources.iter().find_map(|s| match s {
+            Source::Post { text, .. } if !is_generic_link_text(text) => Some(text.clone()),
+            _ => None,
+        });
+        self.title.clone().or(descriptive).unwrap_or_else(|| {
+            let url = self.url.split_once("://").map_or(self.url.as_str(), |(_, rest)| rest);
+            url.strip_prefix("www.").unwrap_or(url).trim_end_matches('/').to_owned()
+        })
     }
 
     fn add_source(&mut self, source: Source) {
@@ -161,6 +168,20 @@ impl Link {
             self.sources.push(source);
         }
     }
+}
+
+/// Link text that only points ("here", "this post", "link"): no title for a preview.
+fn is_generic_link_text(text: &str) -> bool {
+    const GENERIC: &[&str] = &[
+        "", "here", "click here", "this", "this one", "that", "link", "this link", "source",
+        "this post", "this article", "this video", "this page", "this thread", "this repo",
+        "post", "article", "video", "page", "thread", "repo", "more", "read more",
+    ];
+    let t = text
+        .trim()
+        .trim_matches(|c: char| c.is_ascii_punctuation() || c == '\u{2060}')
+        .to_lowercase();
+    GENERIC.contains(&t.as_str())
 }
 
 const TRACKING: &[&str] = &[
