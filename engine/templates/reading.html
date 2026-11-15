@@ -21,8 +21,8 @@
 <div class="row reading">
   <div class="col">
     {%- for m in months %}
-    <section>
-      <h2 class="sc">{{ m.name }} <span class="mono count">{{ m.total }}</span></h2>
+    <section id="{{ m.id }}">
+      <h2 class="sc"><a class="anchor" href="#{{ m.id }}" aria-label="Link to {{ m.name }}"></a>{{ m.name }} <span class="mono count">{{ m.total }}</span></h2>
       {%- for b in m.items %}
       <div class="bookmark">
         <span class="mono day">{{ b.day }}</span>
@@ -50,6 +50,14 @@
       <span><a href="/bookmarks/site/{{ s[0] }}/">{{ s[0] }}</a> <span class="mono">{{ s[1] }}</span></span>
       {%- endfor %}
     </div>
+    {%- endif %}
+    {%- if months|length > 1 %}
+    <nav class="aside months" aria-label="Months">
+      <span class="mono">months</span>
+      {%- for y in months|groupby("year")|reverse %}
+      <span><span class="mono y">{{ y.grouper }}</span>{% for m in y.list %} <a href="#{{ m.id }}">{{ m.short|lower }}</a>{% endfor %}</span>
+      {%- endfor %}
+    </nav>
     {%- endif %}
   </div>
 </div>

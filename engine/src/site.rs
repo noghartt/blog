@@ -166,6 +166,11 @@ fn tag_tree(counts: &BTreeMap<String, usize>, parent: Option<&str>) -> Vec<TagNo
 #[derive(Serialize)]
 struct ReadingMonth {
     name: String,
+    /// The section's anchor, `2026-09`.
+    id: String,
+    /// `Sep`, for the month index in the margin.
+    short: String,
+    year: i32,
     total: usize,
     items: Vec<ReadingItem>,
     more: usize,
@@ -789,6 +794,9 @@ fn build_reading(
             if months.last().is_none_or(|m| m.name != name) {
                 months.push(ReadingMonth {
                     name: name.clone(),
+                    id: at.format("%Y-%m").to_string(),
+                    short: at.format("%b").to_string(),
+                    year: at.year(),
                     total: month_totals[&(at.year(), at.month())],
                     items: vec![],
                     more: 0,

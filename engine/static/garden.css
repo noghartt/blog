@@ -88,6 +88,18 @@ h1 { margin: 0; font-size: 40px; line-height: 1.1; font-weight: 600; }
 .prose h3 { font-size: 20px; }
 .prose .anchor { text-decoration: none; margin-left: -1.1em; padding-right: 0.3em; color: var(--underline); }
 .prose .anchor::before { content: '¶'; font-size: 16px; visibility: hidden; }
+/* Month sections on the bookmarks pages: a ¶ link on hover, and an index of months
+   in the margin that stays in view while scrolling. */
+h2.sc .anchor { text-decoration: none; margin-left: -1.1em; padding-right: 0.35em; color: var(--underline); font-variant-caps: normal; }
+h2.sc .anchor::before { content: '¶'; font-size: 14px; visibility: hidden; }
+h2.sc:hover .anchor::before, h2.sc .anchor:focus-visible::before { visibility: visible; }
+.reading section { scroll-margin-top: 16px; }
+.reading section:target h2.sc { background: var(--faint); box-shadow: 0 0 0 6px var(--faint); }
+.reading > .margin { align-self: stretch; }
+.months { position: sticky; top: 16px; font-size: 14px; line-height: 1.7; }
+.months .y { display: inline-block; min-width: 36px; }
+.months a { color: var(--muted); }
+.months a:hover { color: var(--ink); }
 .prose h2:hover .anchor::before, .prose h3:hover .anchor::before { visibility: visible; }
 .prose img { max-width: 100%; height: auto; border: 1px solid var(--rule); }
 .prose blockquote { border-left: 2px solid var(--ink); padding-left: 16px; margin-left: 0; color: var(--soft); }
