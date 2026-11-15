@@ -269,6 +269,9 @@ h2.sc a:hover { text-decoration: underline; }
 .bookmark .day { flex: 0 0 22px; }
 .bookmark > div { display: flex; flex-wrap: wrap; gap: 2px 10px; align-items: baseline; min-width: 0; }
 .bookmark a { font-size: 17px; line-height: 1.45; }
+/* Some titles are a URL or a file path, one long word: they break anywhere rather
+   than push the page (or a popup) wider. */
+.bookmark > div > a { min-width: 0; overflow-wrap: anywhere; }
 .reading p.more { padding: 8px 0 0 38px; margin: 0; }
 
 /* Preview cards: the content of a popup, built with the site */
@@ -423,6 +426,14 @@ a.is-previewed {
 .pop-main .row.head { margin-bottom: 12px; }
 .pop-main h1 { font-size: 28px; margin: 0; }
 .pop-main .margin { max-width: none; }
+/* A popup is narrower than the window it opens in, and can be resized: what's in it
+   follows the popup's width, not the window's, as a page does on a narrow screen. */
+.pop-body { container-type: inline-size; }
+/* 700 column + 56 gap + 340 margin, as the window's breakpoint below. */
+@container (max-width: 1095px) {
+  .index { grid-template-columns: minmax(0, 1fr); }
+  .index-side { margin-top: 28px; }
+}
 
 /* Narrow screens: no margin, so sidenotes open inline. */
 /* 700 column + 56 gap + 340 margin + 32 padding + room for a scrollbar */

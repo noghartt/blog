@@ -3,6 +3,7 @@ mod content;
 mod fetch;
 mod links;
 mod markdown;
+mod og;
 mod serve;
 mod site;
 

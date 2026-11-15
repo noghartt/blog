@@ -6,6 +6,7 @@
 use crate::content::{self, Kind, Note};
 use crate::links::{Link, LinkDb};
 use crate::markdown::{self, Analysis, Env, LinkRef, Renderer, Target};
+use crate::og;
 use anyhow::{Context, Result};
 use chrono::{DateTime, Datelike, FixedOffset};
 use minijinja::{context, path_loader, Environment};
@@ -401,6 +402,7 @@ fn build_into(paths: &Paths, opts: BuildOptions) -> Result<Stats> {
         std::fs::remove_dir_all(&paths.out)?;
     }
     std::fs::create_dir_all(&paths.out)?;
+    let out = Output::new(&paths.out);
     let renderer = Renderer::default();
 
     // Posts, ordered for older/newer.
@@ -502,7 +504,7 @@ fn build_into(paths: &Paths, opts: BuildOptions) -> Result<Stats> {
             also_tagged => also_tagged,
             previews => previews_for(&used),
         })?;
-        write_page(&paths.out, &n.url, &html)?;
+        write_page(&out, &n.url, &html)?;
         stats.notes += 1;
         stats.pages += 1;
     }
@@ -515,7 +517,7 @@ fn build_into(paths: &Paths, opts: BuildOptions) -> Result<Stats> {
         entries => til_entries.iter().map(|(m, h, _)| context! { note => m, body => h }).collect::<Vec<_>>(),
         previews => dedup(til_previews),
     })?;
-    write_page(&paths.out, "/til/", &html)?;
+    write_page(&out, "/til/", &html)?;
     stats.pages += 1;
 
     // Writing: every listed post by year.
@@ -549,13 +551,13 @@ fn build_into(paths: &Paths, opts: BuildOptions) -> Result<Stats> {
     let html = tpl.get_template("writing.html")?.render(context! {
         site => &site, years => &years, previews => &all_previews, tags => &tag_counts,
     })?;
-    write_page(&paths.out, "/blog/", &html)?;
+    write_page(&out, "/blog/", &html)?;
     stats.pages += 1;
 
     let html = tpl
         .get_template("tags.html")?
         .render(context! { site => &site, tags => &tag_counts })?;
-    write_page(&paths.out, "/tags/", &html)?;
+    write_page(&out, "/tags/", &html)?;
     stats.pages += 1;
     for (t, metas) in &by_tag {
         // Posts by year; lists (undated) in a section of their own.
@@ -565,7 +567,7 @@ fn build_into(paths: &Paths, opts: BuildOptions) -> Result<Stats> {
             site => &site, heading => t, crumbs => vec![("/tags/", "tags")], crumb => t,
             years => years_of(&posts_here), lists => &lists_here, previews => previews_of(metas),
         })?;
-        write_page(&paths.out, &format!("/tag/{t}/"), &html)?;
+        write_page(&out, &format!("/tag/{t}/"), &html)?;
         stats.pages += 1;
     }
 
@@ -583,7 +585,7 @@ fn build_into(paths: &Paths, opts: BuildOptions) -> Result<Stats> {
         site => &site, heading => "Drafts", crumbs => vec![("/blog/", "writing")], crumb => "drafts",
         years => years_of(&draft_metas), previews => previews_of(&draft_metas),
     })?;
-    write_page(&paths.out, "/blog/drafts/", &html)?;
+    write_page(&out, "/blog/drafts/", &html)?;
     stats.pages += 1;
 
     // Pages written in engine/content (besides the home page), e.g. /now/.
@@ -593,7 +595,7 @@ fn build_into(paths: &Paths, opts: BuildOptions) -> Result<Stats> {
             site => &site, title => &page.title, slug => &page.slug, body => &rendered.html,
             previews => dedup(previews_for(&rendered.used)),
         })?;
-        write_page(&paths.out, &format!("/{}/", page.slug), &html)?;
+        write_page(&out, &format!("/{}/", page.slug), &html)?;
         stats.pages += 1;
     }
 
@@ -633,7 +635,7 @@ fn build_into(paths: &Paths, opts: BuildOptions) -> Result<Stats> {
             years => by_year.into_iter().map(|(y, items)| context! { year => y, items => items }).collect::<Vec<_>>(),
             previews => dedup(previews),
         })?;
-        write_page(&paths.out, "/changelog/", &html)?;
+        write_page(&out, "/changelog/", &html)?;
         stats.pages += 1;
     }
 
@@ -646,11 +648,11 @@ fn build_into(paths: &Paths, opts: BuildOptions) -> Result<Stats> {
     let html = tpl
         .get_template("lists.html")?
         .render(context! { site => &site, lists => &lists })?;
-    write_page(&paths.out, "/lists/", &html)?;
+    write_page(&out, "/lists/", &html)?;
     stats.pages += 1;
 
     // Bookmarks: the links database, from the Reader side.
-    stats.pages += build_reading(paths, &tpl, &site, &db, &cited)?;
+    stats.pages += build_reading(&out, &tpl, &site, &db, &cited)?;
 
     // Home: an index of every kind of note, with the intro from engine/content/home.md.
     if let Some(home) = pages.iter().find(|p| p.slug == "home") {
@@ -699,7 +701,7 @@ fn build_into(paths: &Paths, opts: BuildOptions) -> Result<Stats> {
             reading => reading,
             previews => dedup(previews),
         })?;
-        write_page(&paths.out, "/", &html)?;
+        write_page(&out, "/", &html)?;
         stats.pages += 1;
     }
 
@@ -731,13 +733,20 @@ fn build_into(paths: &Paths, opts: BuildOptions) -> Result<Stats> {
     unlisted.extend(all.iter().filter(|n| !n.is_listed()).map(|n| n.url.clone()));
     write_sitemap(&paths.out, &unlisted)?;
 
+    // Share images, one per page, drawn several at a time and cached between builds.
+    og::render_all(
+        &out.cards.into_inner(),
+        &paths.out,
+        &paths.root.join("engine/target/og-cache"),
+    )?;
+
     copy_dir(&paths.public(), &paths.out)?;
     copy_dir(&paths.static_dir(), &paths.out.join("static"))?;
     Ok(stats)
 }
 
 fn build_reading(
-    paths: &Paths,
+    out: &Output,
     tpl: &Environment,
     site: &minijinja::Value,
     db: &LinkDb,
@@ -860,7 +869,7 @@ fn build_reading(
         tags => tags,
         sites => sites,
     })?;
-    write_page(&paths.out, "/bookmarks/", &html)?;
+    write_page(out, "/bookmarks/", &html)?;
     pages += 1;
 
     // Every bookmark's card, in one file the bookmarks pages load on the first hover:
@@ -872,7 +881,7 @@ fn build_reading(
     let html = tpl
         .get_template("cards.html")?
         .render(context! { previews => cards })?;
-    std::fs::write(paths.out.join("bookmarks/cards.html"), html)?;
+    std::fs::write(out.dir.join("bookmarks/cards.html"), html)?;
 
     // /bookmarks/tags/ and a page per tag.
     let counts: BTreeMap<String, usize> =
@@ -880,7 +889,7 @@ fn build_reading(
     let html = tpl.get_template("bookmark_tags.html")?.render(context! {
         site => site, total => saved.len(), tree => tag_tree(&counts, None),
     })?;
-    write_page(&paths.out, "/bookmarks/tags/", &html)?;
+    write_page(out, "/bookmarks/tags/", &html)?;
     pages += 1;
     for (tag, items) in &by_tag {
         let months = listing(items);
@@ -903,7 +912,7 @@ fn build_reading(
             months => months,
             subtags => tag_tree(&counts, Some(tag)),
         })?;
-        write_page(&paths.out, &format!("/bookmarks/tags/{tag}/"), &html)?;
+        write_page(out, &format!("/bookmarks/tags/{tag}/"), &html)?;
         pages += 1;
     }
 
@@ -922,7 +931,7 @@ fn build_reading(
             since => since(items),
             months => months,
         })?;
-        write_page(&paths.out, &format!("/bookmarks/site/{s}/"), &html)?;
+        write_page(out, &format!("/bookmarks/site/{s}/"), &html)?;
         pages += 1;
     }
 
@@ -941,7 +950,7 @@ fn build_reading(
     let rss = tpl.get_template("rss.xml")?.render(context! {
         title => "noghartt | Bookmarks", link => "https://noghartt.dev/bookmarks/", items => items,
     })?;
-    std::fs::write(paths.out.join("bookmarks/rss.xml"), rss)?;
+    std::fs::write(out.dir.join("bookmarks/rss.xml"), rss)?;
     Ok(pages)
 }
 
@@ -968,7 +977,23 @@ fn dedup(previews: Vec<Preview>) -> Vec<Preview> {
         .collect()
 }
 
-fn write_page(out: &Path, url: &str, html: &str) -> Result<()> {
+/// Where pages go, and the share image each one asks for (drawn at the end of the
+/// build, all together).
+struct Output {
+    dir: PathBuf,
+    cards: std::cell::RefCell<Vec<og::Card>>,
+}
+
+impl Output {
+    fn new(dir: &Path) -> Self {
+        Output {
+            dir: dir.to_owned(),
+            cards: Default::default(),
+        }
+    }
+}
+
+fn write_page(out: &Output, url: &str, html: &str) -> Result<()> {
     let rel = url.split('#').next().unwrap_or("").trim_matches('/');
     // Addresses are built from tags and site names that come from Reader: none may
     // step outside the output folder.
@@ -977,42 +1002,158 @@ fn write_page(out: &Path, url: &str, html: &str) -> Result<()> {
             .all(|seg| seg != ".." && seg != "." && !seg.contains('\\')),
         "refusing to write {url}: it leaves the output folder"
     );
-    let dir = out.join(rel);
+    let dir = out.dir.join(rel);
     std::fs::create_dir_all(&dir)?;
-    std::fs::write(dir.join("index.html"), with_share_tags(url, html))?;
+    let (html, card) = with_share_tags(url, html);
+    std::fs::write(dir.join("index.html"), html)?;
+    out.cards.borrow_mut().extend(card);
     Ok(())
 }
 
 const SITE_URL: &str = "https://noghartt.dev";
+/// The site's name, as the header shows it.
+const SITE_NAME: &str = "Noghartt's garden";
+/// The description base.html gives a page that has none of its own.
+const TAGLINE: &str = "A place where I put all my thoughts";
 
-/// Fills the page's `<!--share-->` marker with its canonical address and the tags
+/// Fills the page's `<!--share…-->` marker with its canonical address and the tags
 /// link previews read (Open Graph, Twitter/X), from the page's own title and
-/// description, so no template has to repeat them.
-fn with_share_tags(url: &str, html: &str) -> String {
-    if !html.contains("<!--share-->") {
-        return html.to_owned();
-    }
+/// description, so no template has to repeat them. Returns the page and the card
+/// for its share image (`og.png`, next to its `index.html`).
+///
+/// A template may put a line in the marker (`<!--share 20 July 2024-->`): a note's
+/// date, shown on its image, which also makes the page an article.
+fn with_share_tags(url: &str, html: &str) -> (String, Option<og::Card>) {
+    let Some((marker, meta)) = html.split_once("<!--share").and_then(|(_, rest)| {
+        let (meta, _) = rest.split_once("-->")?;
+        Some((format!("<!--share{meta}-->"), meta.trim()))
+    }) else {
+        return (html.to_owned(), None);
+    };
     let between = |start: &str, end: &str| {
         html.split_once(start)
             .and_then(|(_, rest)| rest.split_once(end))
             .map(|(v, _)| v.to_owned())
             .unwrap_or_default()
     };
-    // Both are already escaped by the templates.
-    let title = between("<title>", "</title>");
-    let description = between("<meta name=\"description\" content=\"", "\"");
-    let page = format!("{SITE_URL}{}", url.split('#').next().unwrap_or("/")).replace('"', "%22");
+    // Pages are titled "<page> · noghartt"; previews name the site on their own.
+    let title = unescape(&between("<title>", "</title>"));
+    let title = match title.strip_suffix(" · noghartt") {
+        Some(page) => page.to_owned(),
+        None if title == "noghartt" => SITE_NAME.to_owned(),
+        None => title,
+    };
+    let description = unescape(&between("<meta name=\"description\" content=\"", "\""));
+    let meta = unescape(meta);
+    let path = url.split('#').next().unwrap_or("/");
+    let page = format!("{SITE_URL}{path}").replace('"', "%22");
+    let image = format!("{}/og.png", page.trim_end_matches('/'));
+    let kind = if meta.is_empty() {
+        "website"
+    } else {
+        "article"
+    };
+    let (t, d) = (escape(&title), escape(&description));
     let tags = format!(
         "<link rel=\"canonical\" href=\"{page}\">\n\
-         <meta property=\"og:type\" content=\"website\">\n\
+         <meta property=\"og:type\" content=\"{kind}\">\n\
+         <meta property=\"og:site_name\" content=\"{site}\">\n\
          <meta property=\"og:url\" content=\"{page}\">\n\
-         <meta property=\"og:title\" content=\"{title}\">\n\
-         <meta property=\"og:description\" content=\"{description}\">\n\
-         <meta name=\"twitter:card\" content=\"summary\">\n\
-         <meta name=\"twitter:title\" content=\"{title}\">\n\
-         <meta name=\"twitter:description\" content=\"{description}\">"
+         <meta property=\"og:title\" content=\"{t}\">\n\
+         <meta property=\"og:description\" content=\"{d}\">\n\
+         <meta property=\"og:image\" content=\"{image}\">\n\
+         <meta property=\"og:image:width\" content=\"{w}\">\n\
+         <meta property=\"og:image:height\" content=\"{h}\">\n\
+         <meta property=\"og:image:alt\" content=\"{t}, on {site}\">\n\
+         <meta name=\"twitter:card\" content=\"summary_large_image\">\n\
+         <meta name=\"twitter:title\" content=\"{t}\">\n\
+         <meta name=\"twitter:description\" content=\"{d}\">\n\
+         <meta name=\"twitter:image\" content=\"{image}\">",
+        site = escape(SITE_NAME),
+        w = og::WIDTH,
+        h = og::HEIGHT,
     );
-    html.replacen("<!--share-->", &tags, 1)
+    let (title, description) = if path == "/" {
+        // The image's header already names the site: the home page's says what it is.
+        (description, String::new())
+    } else if description == TAGLINE {
+        // The tagline is any page's description until it has its own; the image
+        // goes without.
+        (title, String::new())
+    } else {
+        (title, description)
+    };
+    let card = og::Card {
+        file: Path::new(path.trim_matches('/')).join("og.png"),
+        section: section_of(path)
+            .filter(|s| !s.eq_ignore_ascii_case(&title))
+            .map(str::to_owned),
+        title,
+        description,
+        address: format!("noghartt.dev{path}"),
+        meta: Some(meta).filter(|m| !m.is_empty()),
+    };
+    (html.replacen(&marker, &tags, 1), Some(card))
+}
+
+/// The part of the site an address belongs to, as the header's nav names it.
+fn section_of(path: &str) -> Option<&'static str> {
+    Some(
+        match path.trim_matches('/').split('/').next().unwrap_or("") {
+            "blog" => "Writing",
+            "til" => "Today I learned",
+            "lists" => "Lists",
+            "tag" | "tags" => "Tags",
+            "bookmarks" => "Bookmarks",
+            "now" => "Now",
+            "changelog" => "Changelog",
+            _ => return None,
+        },
+    )
+}
+
+fn escape(s: &str) -> String {
+    s.replace('&', "&amp;")
+        .replace('"', "&quot;")
+        .replace('<', "&lt;")
+        .replace('>', "&gt;")
+}
+
+/// Undoes the templates' HTML escaping (minijinja's also escapes `/` and `'`).
+fn unescape(s: &str) -> String {
+    let mut out = String::with_capacity(s.len());
+    let mut rest = s;
+    while let Some(i) = rest.find('&') {
+        out.push_str(&rest[..i]);
+        rest = &rest[i..];
+        let decoded = rest.find(';').filter(|&j| j <= 10).and_then(|j| {
+            let c = match &rest[1..j] {
+                "amp" => '&',
+                "lt" => '<',
+                "gt" => '>',
+                "quot" => '"',
+                "apos" => '\'',
+                n if n.starts_with("#x") || n.starts_with("#X") => {
+                    char::from_u32(u32::from_str_radix(&n[2..], 16).ok()?)?
+                }
+                n if n.starts_with('#') => char::from_u32(n[1..].parse().ok()?)?,
+                _ => return None,
+            };
+            Some((c, j))
+        });
+        match decoded {
+            Some((c, j)) => {
+                out.push(c);
+                rest = &rest[j + 1..];
+            }
+            None => {
+                out.push('&');
+                rest = &rest[1..];
+            }
+        }
+    }
+    out.push_str(rest);
+    out
 }
 
 /// The redirects the Astro site had: every post's old address (`/<slug>/`) leads to
